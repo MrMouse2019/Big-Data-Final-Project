@@ -12,6 +12,8 @@ from pyspark.sql.window import Window
 from pyspark.sql.functions import *
 
 from operator import add
+from csv import reader
+from itertools import islice
 
 def getFilename(path):
 	return path.split('/')[-1].split('.')[0]
@@ -31,21 +33,16 @@ if __name__ == "__main__":
 	# lines = sc.textFile("/user/hm74/NYCOpenData/2abb-gr8d.tsv.gz")
 	dataset_path = sys.argv[1]
 	lines = sc.textFile(dataset_path)
+	lines = lines.mapPartitions(lambda x: reader(x, delimiter='\t'))
 
-	# get the header
-	header = lines.first()
-
-	# convert the header to an array
-	headerArray = header.split('\t')
+	# column names array
+	headerArray = lines.first()
 	num_columns = len(headerArray)
 
-	# filter out the header
-	header = lines.filter(lambda x: headerArray[0] in x)
+	# remove the header
+	lines = lines.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)
 
-	# no header
-	lines0 = lines.subtract(header)
-
-	# use spark_sql
+	# create dataframe and then use spark-sql
 	df = spark.read.csv(dataset_path, sep='\t', header='true')
 	df.createOrReplaceTempView("df")
 
@@ -64,10 +61,12 @@ if __name__ == "__main__":
 		column_name = headerArray[i]
 
 		# number_non_empty_cells
-		number_non_empty_cells = spark.sql("select count({}) as cnt from df".format(column_name)).collect()[0].cnt
+		# number_non_empty_cells = spark.sql("select count({}) as cnt from df".format(column_name)).collect()[0].cnt
+		number_non_empty_cells = lines.filter(lambda x: x).count()
 
 		# number_empty_cells
-		number_empty_cells = spark.sql("select count({}) as cnt from df where {} is NULL".format(column_name, column_name)).collect()[0].cnt
+		# number_empty_cells = spark.sql("select count({}) as cnt from df where {} is NULL".format(column_name, column_name)).collect()[0].cnt
+		number_empty_cells = lines.filter(lambda x: not x).count()
 
 		# number_distinct_values
 		number_distinct_values = spark.sql("select count(distinct({})) as cnt from df".format(column_name)).collect()[0].cnt
@@ -75,6 +74,10 @@ if __name__ == "__main__":
 		# frequent_values
 		frequent_values = spark.sql("select {} as value, count(*) as cnt from df group by {} order by cnt desc limit 5".format(column_name,column_name)).collect()
 		frequent_values = [row.value for row in frequent_values]
+
+		# data_types
+
+
 
 		column_output = {}
 
