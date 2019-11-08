@@ -6,11 +6,9 @@ import json
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from pyspark.sql import SQLContext
-
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType, FloatType
+from pyspark.sql.types import *
 from pyspark.sql.window import Window
 from pyspark.sql.functions import *
-
 from operator import add
 from csv import reader
 from itertools import islice
@@ -77,22 +75,37 @@ if __name__ == "__main__":
 
 		# data_types
 		columni = lines.map(lambda x: x[i])
-		type0 = ""
+
 		# Integer
+		count_int = 0
+		int_max_value = -sys.maxsize
+		int_min_value = sys.maxsize
+		int_mean = 0.0
+		int_stddev = 0.0
+
 		# Float
+		count_float = 0
+		float_max_value = -float("inf")
+		float_min_value = float("inf")
+		float_mean = 0.0
+		float_stddev = 0.0
+
 		# Datetime
+		count_datetime = 0
+		datetime_max_value = ""
+		datetime_min_value = ""
+
 		# String
 		count_string = 0
 		shortest_values = []
 		longest_values = []
 		average_length = 0.0
+
 		# Integer
 		# Float
 		# Datetime
 		# String
 		if isinstance(df.schema[column_name].dataType, StringType):
-			# type
-			type0 = 'TEXT'
 
 			# filter out non-text values in the column
 			filtered_columni = columni.filter(lambda x: type(x) is str)
@@ -121,17 +134,42 @@ if __name__ == "__main__":
 		column_output['data_type'] = []
 		temp = {}
 		# INTEGER (LONG)
+		if count_int > 0:
+			temp = {}
+			temp['type'] = 'INTEGER (LONG)'
+			temp['count'] = count_int
+			temp['max_value'] = int_max_value
+			temp['min_value'] = int_min_value
+			temp['mean'] = int_mean
+			temp['stddev'] = int_stddev
+			column_output['data_type'].append(temp)
 		# Real
+		if count_float > 0:
+			temp = {}
+			temp['type'] = 'Real'
+			temp['count'] = count_float
+			temp['max_value'] = float_max_value
+			temp['min_value'] = float_min_value
+			temp['mean'] = float_mean
+			temp['stddev'] = float_stddev
+			column_output['data_type'].append(temp)
 		# DATE/TIME
+		if count_datetime > 0:
+			temp = {}
+			temp['type'] = 'DATE/TIME'
+			temp['count'] = count_datetime
+			temp['max_value'] = datetime_max_value
+			temp['min_value'] = datetime_min_value
+			column_output['data_type'].append(temp)
 		# TEXT
 		if count_string > 0:
 			temp = {}
-			temp['type'] = type0
+			temp['type'] = 'TEXT'
 			temp['count'] = count_string
 			temp['shortest_values'] = shortest_values
 			temp['longest_values'] = longest_values
 			temp['average_length'] = average_length
-		column_output['data_type'].append(temp)
+			column_output['data_type'].append(temp)
 
 		column_output['semantic_types'] = []
 
