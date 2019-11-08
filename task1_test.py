@@ -76,8 +76,39 @@ if __name__ == "__main__":
 		frequent_values = [row.value for row in frequent_values]
 
 		# data_types
+		columni = lines.map(lambda x: x[i])
+		type0 = ""
+		# Integer
+		# Float
+		# Datetime
+		# String
+		count_string = 0
+		shortest_values = []
+		longest_values = []
+		average_length = 0.0
+		# Integer
+		# Float
+		# Datetime
+		# String
+		if isinstance(df.schema[column_name].dataType, StringType):
+			# type
+			type0 = 'TEXT'
 
+			# filter out non-text values in the column
+			filtered_columni = columni.filter(lambda x: type(x) is str)
 
+			# count: the number of values of type TEXT in the column
+			count_string = filtered_columni.count()
+
+			# shortest_values: a list with the top-5 shortest values
+			shortest_values = filtered_columni.map(lambda x: (x, len(x))).sortBy(lambda x: x[1]).map(lambda x: x[0]).take(5)
+
+			# longest_values
+			longest_values = filtered_columni.map(lambda x: (x, len(x))).sortBy(lambda x: x[1], ascending=False).map(lambda x: x[0]).take(5)
+
+			# average_length
+			total_length = filtered_columni.map(lambda x: len(x)).reduce(add)
+			average_length = total_length / count_string
 
 		column_output = {}
 
@@ -86,7 +117,23 @@ if __name__ == "__main__":
 		column_output['number_empty_cells'] = number_empty_cells
 		column_output['number_distinct_values'] = number_distinct_values
 		column_output['frequent_values'] = frequent_values
+
 		column_output['data_type'] = []
+		temp = {}
+		# INTEGER (LONG)
+		# Real
+		# DATE/TIME
+		# TEXT
+		if count_string > 0:
+			temp = {}
+			temp['type'] = type0
+			temp['count'] = count_string
+			temp['shortest_values'] = shortest_values
+			temp['longest_values'] = longest_values
+			temp['average_length'] = average_length
+		column_output['data_type'].append(temp)
+
+		column_output['semantic_types'] = []
 
 		output['columns'].append(column_output)
 
