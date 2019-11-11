@@ -15,14 +15,14 @@ def is_int(val):
 	try:
 		int(val)
 		return True
-	except ValueError:
+	except:
 		return False
 
 def is_real(val):
 	try:
 		float(val)
 		return True
-	except ValueError:
+	except:
 		return False
 
 def get_number_meta_data(num_vals, dict):
@@ -52,15 +52,22 @@ def count_real(col):
 	get_number_meta_data(real_vals, dict)
 
 def is_date(val):
-	try:
-		date_format = '%m/%d/%Y %I:%M:%S %p'
-		datetime_object = datetime.strptime(val, date_format)
-		return True
-	except ValueError:
-		return False
+	date_formats = ["%m/%d/%Y %I:%M:%S %p", "%Y %b %d %I:%M:%S %p", "%m/%d/%Y"]
+	for date_format in date_formats:
+		try:
+			datetime_object = datetime.strptime(val, date_format)
+			return True
+		except:
+			pass
+	return False
 
 def to_date(val):
-	return datetime.strptime(val, '%m/%d/%Y %I:%M:%S %p')
+	date_formats = ["%m/%d/%Y %I:%M:%S %p", "%Y %b %d %I:%M:%S %p", "%m/%d/%Y"]
+	for date_format in date_formats:
+		try:
+			return datetime.strptime(val, date_format)
+		except:
+			pass
 
 def count_date(col):
 	date_vals = col.filter(lambda x: is_date(x)).map(lambda x: to_date(x))
@@ -110,7 +117,7 @@ if __name__ == "__main__":
 
 	sqlContext = SQLContext(spark)
 
-	inFile = "/user/hm74/NYCOpenData/tg4x-b46p.tsv.gz"
+	inFile = "/user/hm74/NYCOpenData/rpeq-j89e.tsv.gz"
 	if len(sys.argv) >= 2:
 		inFile = sys.argv[1]
 
@@ -122,7 +129,7 @@ if __name__ == "__main__":
 	for col_seq in range(num_col):
 		data_type = []
 		print("Column: %d" % col_seq)
-		col = rdd.map(lambda x: x[col_seq])
+		col = rdd.map(lambda x: x[col_seq]).filter(lambda x: x != None)
 		# a = col.take(10)
 		# print(a)
 		ret = count_int(col)
