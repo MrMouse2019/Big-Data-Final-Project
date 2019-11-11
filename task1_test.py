@@ -57,7 +57,7 @@ def count_int(col):
 def count_real(col):
 	real_vals = col.filter(lambda x: not is_int(x)).filter(lambda x: is_real(x)).map(lambda x: float(x))
 	dict = {"type": "REAL"}
-	get_number_meta_data(real_vals, dict)
+	return get_number_meta_data(real_vals, dict)
 
 def is_date(val):
 	try:
@@ -133,8 +133,8 @@ if __name__ == "__main__":
 	lines = lines.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)
 
 	# create dataframe and then use spark-sql
-	df = spark.read.csv(dataset_path, sep='\t', header='true')
-	df.createOrReplaceTempView("df")
+	# df = spark.read.csv(dataset_path, sep='\t', header='true')
+	# df.createOrReplaceTempView("df")
 
 	# output
 	output = {}
@@ -183,7 +183,7 @@ if __name__ == "__main__":
 		ret = count_text(col)
 		if ret != None:
 			data_type.append(ret)
-		print(data_type)
+		# print(data_type)
 
 		column_output = {}
 		column_output['column_name'] = column_name
