@@ -15,4 +15,3 @@ while IFS= read -r line; do
 	done < input
 	 
 rm input
-
