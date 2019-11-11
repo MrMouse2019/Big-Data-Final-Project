@@ -1,5 +1,8 @@
 #!/bin/bash
 
+module load python/gnu/3.6.5
+module load spark/2.2.0
+
 # allow match-no-files pattern to expand to a null string
 shopt -s nullglob
  
