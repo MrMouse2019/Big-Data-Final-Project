@@ -12,8 +12,8 @@ for i in 1 2 3 4 5; do
 	r=$(( $RANDOM % 1902 + 1))
 	line=$(cat input | head -$r | tail -1) < input
 
-	if [ "$filename" != "NYCOpenData" ]; then
-		echo "Test dataset: $filename ..."
+	if [ "$line" != "NYCOpenData" ]; then
+		echo "Test dataset: $line ..."
 		spark-submit task1_test.py $line
 	fi
 done < input
