@@ -23,14 +23,14 @@ def is_int(val):
 	try:
 		int(val)
 		return True
-	except ValueError:
+	except:
 		return False
 
 def is_real(val):
 	try:
 		float(val)
 		return True
-	except ValueError:
+	except:
 		return False
 
 def get_number_meta_data(num_vals, dict):
@@ -60,15 +60,22 @@ def count_real(col):
 	return get_number_meta_data(real_vals, dict)
 
 def is_date(val):
-	try:
-		date_format = '%m/%d/%Y %I:%M:%S %p'
-		datetime_object = datetime.strptime(val, date_format)
-		return True
-	except ValueError:
-		return False
+	date_formats = ["%m/%d/%Y %I:%M:%S %p", "%Y %b %d %I:%M:%S %p", "%m/%d/%Y"]
+	for date_format in date_formats:
+		try:
+			datetime_object = datetime.strptime(val, date_format)
+			return True
+		except:
+			pass
+	return False
 
 def to_date(val):
-	return datetime.strptime(val, '%m/%d/%Y %I:%M:%S %p')
+	date_formats = ["%m/%d/%Y %I:%M:%S %p", "%Y %b %d %I:%M:%S %p", "%m/%d/%Y"]
+	for date_format in date_formats:
+		try:
+			return datetime.strptime(val, date_format)
+		except:
+			pass
 
 def count_date(col):
 	date_vals = col.filter(lambda x: is_date(x)).map(lambda x: to_date(x))
@@ -132,10 +139,6 @@ if __name__ == "__main__":
 	# remove the header
 	lines = lines.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)
 
-	# create dataframe and then use spark-sql
-	# df = spark.read.csv(dataset_path, sep='\t', header='true')
-	# df.createOrReplaceTempView("df")
-
 	# output
 	output = {}
 	# dataset_name: 2abb-gr8d
@@ -149,27 +152,23 @@ if __name__ == "__main__":
 	for i in range(num_columns):
 		# column_name
 		column_name = headerArray[i]
+
 		print("Processing Column: {}".format(column_name))
 
 		# number_non_empty_cells
-		# number_non_empty_cells = spark.sql("select count({}) as cnt from df".format(column_name)).collect()[0].cnt
 		number_non_empty_cells = lines.filter(lambda x: x[i]).count()
 
 		# number_empty_cells
-		# number_empty_cells = spark.sql("select count({}) as cnt from df where {} is NULL".format(column_name, column_name)).collect()[0].cnt
 		number_empty_cells = lines.filter(lambda x: not x[i]).count()
 
 		# number_distinct_values
-		# number_distinct_values = spark.sql("select count(distinct({})) as cnt from df".format(column_name)).collect()[0].cnt
 		number_distinct_values = lines.groupBy(lambda x: x[i]).count()
 
 		# frequent_values
-		# frequent_values = spark.sql("select {} as value, count(*) as cnt from df group by {} order by cnt desc limit 5".format(column_name,column_name)).collect()
-		# frequent_values = [row.value for row in frequent_values]
 		frequent_values = lines.map(lambda x: (x[i], 1)).reduceByKey(add).sortBy(lambda x: x[1], ascending=False).map(lambda x: x[0]).take(5)
 
 		# data_types
-		col = lines.map(lambda x: x[i])
+		col = lines.map(lambda x: x[i]).filter(lambda x: x)
 		data_type = []
 		ret = count_int(col)
 		if ret != None:
@@ -183,7 +182,6 @@ if __name__ == "__main__":
 		ret = count_text(col)
 		if ret != None:
 			data_type.append(ret)
-		# print(data_type)
 
 		column_output = {}
 		column_output['column_name'] = column_name
