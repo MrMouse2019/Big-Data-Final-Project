@@ -155,20 +155,22 @@ if __name__ == "__main__":
 
 		print("Processing Column: {}".format(column_name))
 
+		col = lines.map(lambda x: x[i])
+
 		# number_non_empty_cells
-		number_non_empty_cells = lines.filter(lambda x: x[i]).count()
+		number_non_empty_cells = col.filter(lambda x: x).count()
 
 		# number_empty_cells
-		number_empty_cells = lines.filter(lambda x: not x[i]).count()
+		number_empty_cells = col.filter(lambda x: not x).count()
 
 		# number_distinct_values
-		number_distinct_values = lines.groupBy(lambda x: x[i]).count()
+		number_distinct_values = col.distinct().count()
 
 		# frequent_values
-		frequent_values = lines.map(lambda x: (x[i], 1)).reduceByKey(add).sortBy(lambda x: x[1], ascending=False).map(lambda x: x[0]).take(5)
+		frequent_values = col.map(lambda x: (x, 1)).reduceByKey(add).sortBy(lambda x: x[1], ascending=False).map(lambda x: x[0]).take(5)
 
 		# data_types
-		col = lines.map(lambda x: x[i]).filter(lambda x: x)
+		col = lines.map(lambda x: x[i]).filter(lambda x: x)  # filter out the None values in the column
 		data_type = []
 		ret = count_int(col)
 		if ret != None:
