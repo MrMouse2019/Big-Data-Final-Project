@@ -2,6 +2,7 @@ import sys
 import pyspark
 import string
 import json
+import os
 
 from pyspark import SparkContext
 from pyspark.sql import SparkSession
@@ -115,88 +116,97 @@ def count_text(col):
 	return dict
 
 if __name__ == "__main__":
-	sc = SparkContext()
-
-	spark = SparkSession \
-		.builder \
-		.appName("project") \
-		.config("spark.some.config.option", "some-value") \
-		.getOrCreate()
-
-	sqlContext = SQLContext(spark)
-
-	# read a tsv.gz file
+	# default dataset path
 	dataset_path = "/user/hm74/NYCOpenData/2abb-gr8d.tsv.gz"
 	if len(sys.argv) >= 2:
 		dataset_path = sys.argv[1]
-	lines = sc.textFile(dataset_path)
-	lines = lines.mapPartitions(lambda x: reader(x, delimiter='\t'))
 
-	# column names array
-	headerArray = lines.first()
-	num_columns = len(headerArray)
-
-	# remove the header
-	lines = lines.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)
-
-	# output
-	output = {}
-	# dataset_name: 2abb-gr8d
+	# determine if the json file of the dataset has existed
 	dataset_name = getFilename(dataset_path)
-	output['dataset_name'] = dataset_name
-	# columns
-	output['columns'] = []
-	# key_column_candidates
-	output['key_column_candidates'] = []
+	# path of the json file
+	json_path = 'task1/' + dataset_name + '.json'
+	if os.path.exists(json_path):
+		print("Dataset: {} has been processed!".format(dataset_name))
 
-	for i in range(num_columns):
-		# column_name
-		column_name = headerArray[i]
+	else:
+		sc = SparkContext()
 
-		print("Processing Column: {}".format(column_name))
+		spark = SparkSession \
+			.builder \
+			.appName("project") \
+			.config("spark.some.config.option", "some-value") \
+			.getOrCreate()
 
-		col = lines.map(lambda x: x[i])
+		sqlContext = SQLContext(spark)
 
-		# number_non_empty_cells
-		number_non_empty_cells = col.filter(lambda x: x).count()
+		# read a tsv.gz file
+		lines = sc.textFile(dataset_path)
+		lines = lines.mapPartitions(lambda x: reader(x, delimiter='\t'))
 
-		# number_empty_cells
-		number_empty_cells = col.filter(lambda x: not x).count()
+		# column names array
+		headerArray = lines.first()
+		num_columns = len(headerArray)
 
-		# number_distinct_values
-		number_distinct_values = col.distinct().count()
+		# remove the header
+		lines = lines.mapPartitionsWithIndex(lambda idx, it: islice(it, 1, None) if idx == 0 else it)
 
-		# frequent_values
-		frequent_values = col.map(lambda x: (x, 1)).reduceByKey(add).sortBy(lambda x: x[1], ascending=False).map(lambda x: x[0]).take(5)
+		# output
+		output = {}
+		# dataset_name: 2abb-gr8d
+		output['dataset_name'] = dataset_name
+		# columns
+		output['columns'] = []
+		# key_column_candidates
+		output['key_column_candidates'] = []
 
-		# data_types
-		col = lines.map(lambda x: x[i]).filter(lambda x: x)  # filter out the None values in the column
-		data_type = []
-		ret = count_int(col)
-		if ret != None:
-			data_type.append(ret)
-		ret = count_real(col)
-		if ret != None:
-			data_type.append(ret)
-		ret = count_date(col)
-		if ret != None:
-			data_type.append(ret)
-		ret = count_text(col)
-		if ret != None:
-			data_type.append(ret)
+		for i in range(num_columns):
+			# column_name
+			column_name = headerArray[i]
 
-		column_output = {}
-		column_output['column_name'] = column_name
-		column_output['number_non_empty_cells'] = number_non_empty_cells
-		column_output['number_empty_cells'] = number_empty_cells
-		column_output['number_distinct_values'] = number_distinct_values
-		column_output['frequent_values'] = frequent_values
-		column_output['data_type'] = data_type
-		column_output['semantic_types'] = []
+			print("Processing Column: {}".format(column_name))
 
-		output['columns'].append(column_output)
+			col = lines.map(lambda x: x[i])
 
-	with open('{}.txt'.format(dataset_name), 'w') as outfile:
-		json.dump(output, outfile, indent=4)
+			# number_non_empty_cells
+			number_non_empty_cells = col.filter(lambda x: x).count()
 
-	sc.stop()
+			# number_empty_cells
+			number_empty_cells = col.filter(lambda x: not x).count()
+
+			# number_distinct_values
+			number_distinct_values = col.distinct().count()
+
+			# frequent_values
+			frequent_values = col.map(lambda x: (x, 1)).reduceByKey(add).sortBy(lambda x: x[1], ascending=False).map(lambda x: x[0]).take(5)
+
+			# data_types
+			col = lines.map(lambda x: x[i]).filter(lambda x: x)  # filter out the None values in the column
+			data_type = []
+			ret = count_int(col)
+			if ret != None:
+				data_type.append(ret)
+			ret = count_real(col)
+			if ret != None:
+				data_type.append(ret)
+			ret = count_date(col)
+			if ret != None:
+				data_type.append(ret)
+			ret = count_text(col)
+			if ret != None:
+				data_type.append(ret)
+
+			column_output = {}
+			column_output['column_name'] = column_name
+			column_output['number_non_empty_cells'] = number_non_empty_cells
+			column_output['number_empty_cells'] = number_empty_cells
+			column_output['number_distinct_values'] = number_distinct_values
+			column_output['frequent_values'] = frequent_values
+			column_output['data_type'] = data_type
+			column_output['semantic_types'] = []
+
+			output['columns'].append(column_output)
+
+		with open('task1/{}.json'.format(dataset_name), 'w') as outfile:
+			json.dump(output, outfile, indent=4)
+
+		sc.stop()
