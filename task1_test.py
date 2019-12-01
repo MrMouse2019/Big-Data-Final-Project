@@ -40,8 +40,10 @@ def get_number_meta_data(num_vals, dict):
 		return
 	max_num = num_vals.max()
 	min_num = num_vals.min()
-	avg_num = num_vals.sum() / num_num
-	std_dev_num = (num_vals.map(lambda x: (x - avg_num) ** 2).sum() / num_num) ** 0.5
+	# avg_num = num_vals.sum() / num_num
+	avg_num = num_vals.mean()
+	#std_dev_num = (num_vals.map(lambda x: (x - avg_num) ** 2).sum() / num_num) ** 0.5
+	std_dev_num = num_vals.stdev()
 	# print("Max: %d, Min: %d, Mean: %.2f, Standard Deviation: %.2f" % (max_num, min_num, avg_num, std_dev_num))
 	dict["count"] = num_num
 	dict["max_value"] = max_num
@@ -117,7 +119,7 @@ def count_text(col):
 
 if __name__ == "__main__":
 	# default dataset path
-	dataset_path = "/user/hm74/NYCOpenData/2abb-gr8d.tsv.gz"
+	dataset_path = "/user/hm74/NYCOpenData/yrf7-4wry.tsv.gz"
 	if len(sys.argv) >= 2:
 		dataset_path = sys.argv[1]
 
@@ -163,7 +165,8 @@ if __name__ == "__main__":
 			# column_name
 			column_name = headerArray[i]
 
-			print("Processing Column: {}".format(column_name))
+			# please comment this line to prevent encoding error, e.g.: '\u2013'
+			# print("Processing Column: {}".format(column_name))
 
 			col = lines.map(lambda x: x[i])
 
