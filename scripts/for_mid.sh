@@ -11,7 +11,7 @@ shopt -s nullglob
 while IFS= read -r line; do
 	if [ "$line" != "Found 1901 items" ]; then
 		echo "Test dataset: $line ..."
-		spark-submit task1_test.py $line
+		spark-submit task1_test.py $line 
 	fi
 done < input
 
