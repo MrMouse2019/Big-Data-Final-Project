@@ -1,0 +1,604 @@
+{
+    "dataset_name": "ntcm-2w4k",
+    "columns": [
+        {
+            "column_name": "Provider",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "CCNS",
+                "RiseBoro Community Partnership",
+                "ARCHNY I",
+                "ARCHNY II",
+                "Bronxworks"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        [
+                            "SUS",
+                            3
+                        ],
+                        [
+                            "SUS",
+                            3
+                        ],
+                        [
+                            "CCNS",
+                            4
+                        ],
+                        [
+                            "CCNS",
+                            4
+                        ],
+                        [
+                            "CCNS",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "RiseBoro Community Partnership",
+                            30
+                        ],
+                        [
+                            "RiseBoro Community Partnership",
+                            30
+                        ],
+                        [
+                            "RiseBoro Community Partnership",
+                            30
+                        ],
+                        [
+                            "RiseBoro Community Partnership",
+                            30
+                        ],
+                        [
+                            "Bronxworks",
+                            10
+                        ]
+                    ],
+                    "average_length": 10.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Service Area Zip Code",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "10462, 10472, 10473, 10474",
+                "10461, 10464, 10465, 10466, 10469, 10475",
+                "10467, 10470, 10453, 10463, 10468, 10471",
+                "11201, 11205, 11213, 11215, 11216, 11217,11225, 11231, 11233, 11238",
+                "11206, 11211, 11221, 11222, 11237, 11249, 11251"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 11212,
+                    "min_value": 10456,
+                    "mean": 10960.0,
+                    "stddev": 356.38181771801993
+                },
+                {
+                    "type": "TEXT",
+                    "count": 23,
+                    "shortest_values": [
+                        [
+                            "Queens",
+                            6
+                        ],
+                        [
+                            "Queens",
+                            6
+                        ],
+                        [
+                            "Manhattan",
+                            9
+                        ],
+                        [
+                            "Manhattan",
+                            9
+                        ],
+                        [
+                            "10459, 10460",
+                            12
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "11204, 11209, 11210, 11214, 11218, 11219, 11220, 11223, 11224, 11226, 11228, 11229,11230,11232, 11235",
+                            101
+                        ],
+                        [
+                            "11201, 11205, 11213, 11215, 11216, 11217,11225, 11231, 11233, 11238",
+                            67
+                        ],
+                        [
+                            "11201, 11205, 11213, 11215, 11216, 11217,11225, 11231, 11233, 11238",
+                            67
+                        ],
+                        [
+                            "11206, 11211, 11221, 11222, 11237, 11249, 11251",
+                            47
+                        ],
+                        [
+                            "11206, 11211, 11221, 11222, 11237, 11249, 11251",
+                            47
+                        ]
+                    ],
+                    "average_length": 31.52173913043478
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "2155 Blackrock Ave, 1st fl",
+                "890 Garrison Ave, LL",
+                "4377 Bronx Boulevard, 3rd fl",
+                "2901 White Plains Road",
+                "1130 Grand Concourse, 3rd fl"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        [
+                            "890 Garrison Ave, LL",
+                            20
+                        ],
+                        [
+                            "145 East 98st 2nd fl",
+                            20
+                        ],
+                        [
+                            "2322 3rd Ave, 3rd fl",
+                            20
+                        ],
+                        [
+                            "815 Burke Ave, 1st fl",
+                            21
+                        ],
+                        [
+                            "1875 Broadway, 1st fl",
+                            21
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "120 Stuyvesant Place, 4th fl , Suite 413",
+                            40
+                        ],
+                        [
+                            "161-10 Jamaica Ave, 5th fl, Jamaica",
+                            35
+                        ],
+                        [
+                            "1860 East Tremont Ave, 1st fl",
+                            29
+                        ],
+                        [
+                            "516 West 181st Street, 4th fl",
+                            29
+                        ],
+                        [
+                            "4377 Bronx Boulevard, 3rd fl",
+                            28
+                        ]
+                    ],
+                    "average_length": 25.423076923076923
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Phone Number",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "917-819-3200",
+                "929-234-3036",
+                "917-492-1019",
+                "718-414-1050",
+                "929-259-9430"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        [
+                            "718-414-1050",
+                            12
+                        ],
+                        [
+                            "929-259-9430",
+                            12
+                        ],
+                        [
+                            "347-947-3920",
+                            12
+                        ],
+                        [
+                            "347-913-4694",
+                            12
+                        ],
+                        [
+                            "718-508-3100",
+                            12
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "718-408-5756 x37100",
+                            19
+                        ],
+                        [
+                            "718-414-1050",
+                            12
+                        ],
+                        [
+                            "929-259-9430",
+                            12
+                        ],
+                        [
+                            "347-947-3920",
+                            12
+                        ],
+                        [
+                            "347-913-4694",
+                            12
+                        ]
+                    ],
+                    "average_length": 12.26923076923077
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "10467",
+                "11207",
+                "10301",
+                "10472",
+                "10474"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 11691,
+                    "min_value": 10033,
+                    "mean": 10792.423076923076,
+                    "stddev": 470.3821010688195
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BRONX",
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "STATEN IS"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "MANHATTAN",
+                            9
+                        ],
+                        [
+                            "MANHATTAN",
+                            9
+                        ],
+                        [
+                            "STATEN IS",
+                            9
+                        ],
+                        [
+                            "STATEN IS",
+                            9
+                        ],
+                        [
+                            "BROOKLYN",
+                            8
+                        ]
+                    ],
+                    "average_length": 6.846153846153846
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "40.828869",
+                "40.817286",
+                "40.899174",
+                "40.868024",
+                "40.832331"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 26,
+                    "max_value": 40.899174,
+                    "min_value": 40.603391,
+                    "mean": 40.74483522307692,
+                    "stddev": 0.09280153219544635
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "-73.851791",
+                "-73.89184",
+                "-73.85825",
+                "-73.867283",
+                "-73.91959"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 26,
+                    "max_value": -73.751324,
+                    "min_value": -74.076954,
+                    "mean": -73.90993488846155,
+                    "stddev": 0.06698594680803416
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "304",
+                "209",
+                "212",
+                "205",
+                "305"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 501,
+                    "min_value": 111,
+                    "mean": 277.0,
+                    "stddev": 98.30134203638242
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "37",
+                "18",
+                "15",
+                "41",
+                "49"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 49,
+                    "min_value": 8,
+                    "mean": 27.26923076923077,
+                    "stddev": 13.639754374924939
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "78",
+                "93",
+                "418",
+                "336",
+                "18102"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 24,
+                    "max_value": 101001,
+                    "min_value": 3,
+                    "mean": 7184.958333333333,
+                    "stddev": 21684.390782848015
+                },
+                {
+                    "type": "REAL",
+                    "count": 2,
+                    "max_value": 229.01,
+                    "min_value": 216.01,
+                    "mean": 222.51,
+                    "stddev": 6.5
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "2119153",
+                "2005939",
+                "2097441",
+                "2054713",
+                "2002833"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 5114330,
+                    "min_value": 1054497,
+                    "mean": 2840930.730769231,
+                    "stddev": 1056045.3841421616
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "2038080038",
+                "2027390015",
+                "2050350034",
+                "2045420001",
+                "2024620042"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 5004970007,
+                    "min_value": 1017750033,
+                    "mean": 2732009156.8846154,
+                    "stddev": 997051406.5723081
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "Bushwick South",
+                "Westchester-Unionport",
+                "Hunts Point",
+                "Woodlawn-Wakefield",
+                "Bronxdale"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        [
+                            "Erasmus",
+                            7
+                        ],
+                        [
+                            "Jamaica",
+                            7
+                        ],
+                        [
+                            "Bronxdale",
+                            9
+                        ],
+                        [
+                            "Flatlands",
+                            9
+                        ],
+                        [
+                            "Mount Hope",
+                            10
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "West New Brighton-New Brighton-St. George",
+                            41
+                        ],
+                        [
+                            "University Heights-Morris Heights",
+                            33
+                        ],
+                        [
+                            "East Concourse-Concourse Village",
+                            32
+                        ],
+                        [
+                            "East New York (Pennsylvania Ave)",
+                            32
+                        ],
+                        [
+                            "Melrose South-Mott Haven North",
+                            30
+                        ]
+                    ],
+                    "average_length": 18.53846153846154
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

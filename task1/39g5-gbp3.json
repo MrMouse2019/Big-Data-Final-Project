@@ -1,0 +1,918 @@
+{
+    "dataset_name": "39g5-gbp3",
+    "columns": [
+        {
+            "column_name": "Publication Date",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "20190619",
+                "20190207",
+                "20180614",
+                "20190425",
+                "20180426"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 20190619,
+                    "min_value": 20160426,
+                    "mean": 20176860.303422492,
+                    "stddev": 10664.201549897507
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2020",
+                "2019",
+                "2018",
+                "2017"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 2020,
+                    "min_value": 2017,
+                    "mean": 2018.6433707218866,
+                    "stddev": 1.068650149542265
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Agency Number",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 140,
+            "frequent_values": [
+                "102",
+                "040",
+                "126",
+                "002",
+                "816"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6941,
+                    "max_value": 945,
+                    "min_value": 2,
+                    "mean": 358.2662440570523,
+                    "stddev": 314.65859041731255
+                },
+                {
+                    "type": "TEXT",
+                    "count": 13,
+                    "shortest_values": [
+                        [
+                            "99S",
+                            3
+                        ],
+                        [
+                            "99P",
+                            3
+                        ],
+                        [
+                            "99C",
+                            3
+                        ],
+                        [
+                            "99C",
+                            3
+                        ],
+                        [
+                            "99S",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "99S",
+                            3
+                        ],
+                        [
+                            "99P",
+                            3
+                        ],
+                        [
+                            "99C",
+                            3
+                        ],
+                        [
+                            "99C",
+                            3
+                        ],
+                        [
+                            "99S",
+                            3
+                        ]
+                    ],
+                    "average_length": 3.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 280,
+            "frequent_values": [
+                "CITY COUNCIL",
+                "DEPARTMENT OF EDUCATION",
+                "DEPARTMENT OF CULTURAL AFFAIRS",
+                "MAYORALTY",
+                "DEPARTMENT OF HEALTH AND MENTAL HYGIENE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 6954,
+                    "shortest_values": [
+                        [
+                            "MAYORALTY",
+                            9
+                        ],
+                        [
+                            "MAYORALTY",
+                            9
+                        ],
+                        [
+                            "MAYORALTY",
+                            9
+                        ],
+                        [
+                            "MAYORALTY",
+                            9
+                        ],
+                        [
+                            "MAYORALTY",
+                            9
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "MAYORALTY                               ",
+                            40
+                        ],
+                        [
+                            "MAYORALTY                               ",
+                            40
+                        ],
+                        [
+                            "MAYORALTY                               ",
+                            40
+                        ],
+                        [
+                            "MAYORALTY                               ",
+                            40
+                        ],
+                        [
+                            "MAYORALTY                               ",
+                            40
+                        ]
+                    ],
+                    "average_length": 26.227782571182054
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Unit Appropriation Number",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 201,
+            "frequent_values": [
+                "001",
+                "002",
+                "003",
+                "004",
+                "006"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 890,
+                    "min_value": 1,
+                    "mean": 146.91386252516537,
+                    "stddev": 262.96709552357055
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Unit Appropriation Name",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 673,
+            "frequent_values": [
+                "OTHER THAN PERSONAL SERVICES",
+                "PERSONAL SERVICES",
+                "RENT AND ENERGY",
+                "RENT",
+                "OTHER THAN PERSONAL SERVICES            "
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 6954,
+                    "shortest_values": [
+                        [
+                            "RENT",
+                            4
+                        ],
+                        [
+                            "RENT",
+                            4
+                        ],
+                        [
+                            "RENT",
+                            4
+                        ],
+                        [
+                            "RENT",
+                            4
+                        ],
+                        [
+                            "RENT",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "FAMILY & CHILD HLTH AND HLTH EQUITY - PS",
+                            40
+                        ],
+                        [
+                            "COMMITTEE ON SANITATION & SOLIDWASTE MGT",
+                            40
+                        ],
+                        [
+                            "MAYOR'S OFFICE OF CONTRACT SERVICES - PS",
+                            40
+                        ],
+                        [
+                            "MEN HLTH, RET, ALC,DRUG ABUSE & DIS SVCS",
+                            40
+                        ],
+                        [
+                            "CITY ASSISTANCE TO NYC HOUSING AUTHORITY",
+                            40
+                        ]
+                    ],
+                    "average_length": 24.137474834627554
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Personal Service/Other Than Personal Service Indicator",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "O",
+                "P"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 6954,
+                    "shortest_values": [
+                        [
+                            "P",
+                            1
+                        ],
+                        [
+                            "P",
+                            1
+                        ],
+                        [
+                            "O",
+                            1
+                        ],
+                        [
+                            "O",
+                            1
+                        ],
+                        [
+                            "O",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "P",
+                            1
+                        ],
+                        [
+                            "P",
+                            1
+                        ],
+                        [
+                            "O",
+                            1
+                        ],
+                        [
+                            "O",
+                            1
+                        ],
+                        [
+                            "O",
+                            1
+                        ]
+                    ],
+                    "average_length": 1.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Total Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3656,
+            "frequent_values": [
+                "1",
+                "0",
+                "45002",
+                "1362128",
+                "150060"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 9859181354,
+                    "min_value": -49843265,
+                    "mean": 141389540.8441185,
+                    "stddev": 672186222.5652763
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Total Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1960,
+            "frequent_values": [
+                "1",
+                "0",
+                "45002",
+                "1362128",
+                "150060"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 9755614739,
+                    "min_value": 0,
+                    "mean": 136086397.7167098,
+                    "stddev": 648857121.7649478
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Total Current Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4720,
+            "frequent_values": [
+                "1",
+                "0",
+                "45002",
+                "1362128",
+                "125553"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 9854672069,
+                    "min_value": 0,
+                    "mean": 141635500.0609721,
+                    "stddev": 653880535.4079168
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Federal Funds Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 490,
+            "frequent_values": [
+                "0",
+                "31321",
+                "6715617",
+                "31252556",
+                "3540158"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 868238704,
+                    "min_value": 0,
+                    "mean": 10696615.558239862,
+                    "stddev": 65045776.35646523
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Federal Funds Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 351,
+            "frequent_values": [
+                "0",
+                "5000000",
+                "31321",
+                "31252556",
+                "14546900"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 868238704,
+                    "min_value": 0,
+                    "mean": 10478592.772073627,
+                    "stddev": 64836565.69504108
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Federal Funds Current Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 955,
+            "frequent_values": [
+                "0",
+                "5000000",
+                "31252556",
+                "3191944",
+                "6867510"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 920581424,
+                    "min_value": 0,
+                    "mean": 11626579.665084843,
+                    "stddev": 67692202.91047022
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "State  Funds Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 553,
+            "frequent_values": [
+                "0",
+                "1127000",
+                "3000",
+                "1700000",
+                "679000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 3295805638,
+                    "min_value": 0,
+                    "mean": 23251229.211820535,
+                    "stddev": 163059663.6762087
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "State Funds Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 380,
+            "frequent_values": [
+                "0",
+                "1127000",
+                "3000",
+                "25000",
+                "1700000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 3259911489,
+                    "min_value": 0,
+                    "mean": 22312359.41486914,
+                    "stddev": 158861737.46704108
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "State Funds Current Budget Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 960,
+            "frequent_values": [
+                "0",
+                "75000",
+                "1127000",
+                "1700000",
+                "679000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 3302625581,
+                    "min_value": 0,
+                    "mean": 23087215.02430256,
+                    "stddev": 160421485.92469046
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Inter-Fund Agreement Funds Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 206,
+            "frequent_values": [
+                "0",
+                "250000",
+                "370025",
+                "778485",
+                "91364"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 124885449,
+                    "min_value": 0,
+                    "mean": 1071623.26215128,
+                    "stddev": 8451708.775005465
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Inter-Fund Agreement Funds Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 155,
+            "frequent_values": [
+                "0",
+                "250000",
+                "370025",
+                "752000",
+                "70250"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 115177569,
+                    "min_value": 0,
+                    "mean": 1027290.8584987058,
+                    "stddev": 8049894.703406726
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Inter-Fund Agreement Funds Current Budget Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 307,
+            "frequent_values": [
+                "0",
+                "250000",
+                "370025",
+                "124000",
+                "70250"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 118328581,
+                    "min_value": 0,
+                    "mean": 1024976.8471383377,
+                    "stddev": 8022186.156116276
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Intra-City Sales Funds Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 322,
+            "frequent_values": [
+                "0",
+                "7500",
+                "20000",
+                "212854",
+                "12000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 633940338,
+                    "min_value": 0,
+                    "mean": 2844811.238999137,
+                    "stddev": 28878804.1763957
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Intra-City Sales Funds Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 265,
+            "frequent_values": [
+                "0",
+                "7500",
+                "20000",
+                "400000",
+                "212854"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 718900524,
+                    "min_value": 0,
+                    "mean": 2840254.908973253,
+                    "stddev": 29239765.126954824
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Intra-City Sales Funds Current Budget Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 850,
+            "frequent_values": [
+                "0",
+                "20000",
+                "95000",
+                "212854",
+                "9855"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 721060688,
+                    "min_value": 0,
+                    "mean": 3361830.246764452,
+                    "stddev": 29989395.892941676
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Other Categorical Funds Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 163,
+            "frequent_values": [
+                "0",
+                "300000",
+                "1000000",
+                "19678560",
+                "10170"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 222357762,
+                    "min_value": 0,
+                    "mean": 1399449.0532067874,
+                    "stddev": 13351721.453355946
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Other Categorical Funds Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 134,
+            "frequent_values": [
+                "0",
+                "300000",
+                "1000000",
+                "19678560",
+                "10170"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 202370569,
+                    "min_value": 0,
+                    "mean": 1373735.0532067874,
+                    "stddev": 13005973.345862953
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Other Categorical Funds Current Budget Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 676,
+            "frequent_values": [
+                "0",
+                "150000",
+                "300000",
+                "5000",
+                "22500"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 288320600,
+                    "min_value": 0,
+                    "mean": 1595942.4905090595,
+                    "stddev": 13873864.687200982
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Development Funds Financial Plan Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 245,
+            "frequent_values": [
+                "0",
+                "3246015",
+                "105810",
+                "5507000",
+                "122900"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 436693946,
+                    "min_value": 0,
+                    "mean": 1105484.0730514813,
+                    "stddev": 13121170.887381965
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Development Funds Adopted Budget Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 180,
+            "frequent_values": [
+                "0",
+                "3246015",
+                "105810",
+                "5507000",
+                "1936000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 436693946,
+                    "min_value": 0,
+                    "mean": 1531555.4568593616,
+                    "stddev": 17461208.089067493
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Development Funds Current Budget Amount ",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 338,
+            "frequent_values": [
+                "0",
+                "3246015",
+                "5507000",
+                "1936000",
+                "2963000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 553581843,
+                    "min_value": 0,
+                    "mean": 2107373.4263733104,
+                    "stddev": 23101217.922106095
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "City Funds Financial Plan Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3577,
+            "frequent_values": [
+                "1",
+                "0",
+                "45002",
+                "1362128",
+                "150060"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 9714902382,
+                    "min_value": -49843265,
+                    "mean": 101020328.44664942,
+                    "stddev": 574144551.2259799
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "City Funds Adopted Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1925,
+            "frequent_values": [
+                "1",
+                "0",
+                "45002",
+                "1362128",
+                "150060"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 9611335767,
+                    "min_value": 0,
+                    "mean": 96522609.25222893,
+                    "stddev": 555009694.6537021
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "City Funds Current Budget Amount",
+            "number_non_empty_cells": 6954,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4540,
+            "frequent_values": [
+                "1",
+                "0",
+                "45002",
+                "1362128",
+                "65810"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 6954,
+                    "max_value": 9710393097,
+                    "min_value": 0,
+                    "mean": 98831582.36079954,
+                    "stddev": 558456421.8502315
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

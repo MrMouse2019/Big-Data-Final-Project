@@ -1,0 +1,924 @@
+{
+    "dataset_name": "tvfr-dhen",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 7.369935736239173
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Geographical  District",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "2",
+                "10",
+                "31",
+                "11",
+                "27"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 7158,
+                    "max_value": 32,
+                    "min_value": 1,
+                    "mean": 15.631181894383905,
+                    "stddev": 9.419000137665694
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Admin District",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "75",
+                "2",
+                "10",
+                "31",
+                "9"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 7158,
+                    "max_value": 75,
+                    "min_value": 1,
+                    "mean": 24.56202849958089,
+                    "stddev": 23.191315177392873
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ATS Code",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1593,
+            "frequent_values": [
+                "75R025",
+                "75M138",
+                "75K369",
+                "75X010",
+                "75X176"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "01M015",
+                            6
+                        ],
+                        [
+                            "01M015",
+                            6
+                        ],
+                        [
+                            "01M019",
+                            6
+                        ],
+                        [
+                            "01M019",
+                            6
+                        ],
+                        [
+                            "01M020",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "01M015",
+                            6
+                        ],
+                        [
+                            "01M015",
+                            6
+                        ],
+                        [
+                            "01M019",
+                            6
+                        ],
+                        [
+                            "01M019",
+                            6
+                        ],
+                        [
+                            "01M020",
+                            6
+                        ]
+                    ],
+                    "average_length": 6.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Location Name",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1590,
+            "frequent_values": [
+                "South Richmond High School I.S./P.S. 25",
+                "P.S. 138",
+                "P.S. K369 - Coy L. Cox School",
+                "P.S. X010",
+                "P.S. X176"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "Kappa",
+                            5
+                        ],
+                        [
+                            "Kappa",
+                            5
+                        ],
+                        [
+                            "P.S. 89",
+                            7
+                        ],
+                        [
+                            "P.S. 89",
+                            7
+                        ],
+                        [
+                            "P.S. 89",
+                            7
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "English Language Learners and International Support Preparatory Academy (ELLIS)",
+                            79
+                        ],
+                        [
+                            "English Language Learners and International Support Preparatory Academy (ELLIS)",
+                            79
+                        ],
+                        [
+                            "English Language Learners and International Support Preparatory Academy (ELLIS)",
+                            79
+                        ],
+                        [
+                            "English Language Learners and International Support Preparatory Academy (ELLIS)",
+                            79
+                        ],
+                        [
+                            "English Language Learners and International Support Preparatory Academy (ELLIS)",
+                            79
+                        ]
+                    ],
+                    "average_length": 27.946214026264318
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Grade Level",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "High school",
+                "Elementary",
+                "Junior High-Intermediate-Middle",
+                "K-12 all grades",
+                "K-8"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "K-8",
+                            3
+                        ],
+                        [
+                            "K-8",
+                            3
+                        ],
+                        [
+                            "K-8",
+                            3
+                        ],
+                        [
+                            "K-8",
+                            3
+                        ],
+                        [
+                            "K-8",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Junior High-Intermediate-Middle",
+                            31
+                        ],
+                        [
+                            "Junior High-Intermediate-Middle",
+                            31
+                        ],
+                        [
+                            "Junior High-Intermediate-Middle",
+                            31
+                        ],
+                        [
+                            "Junior High-Intermediate-Middle",
+                            31
+                        ],
+                        [
+                            "Junior High-Intermediate-Middle",
+                            31
+                        ]
+                    ],
+                    "average_length": 13.252724224643755
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Bldg ID",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1315,
+            "frequent_values": [
+                "M460",
+                "X425",
+                "M480",
+                "M490",
+                "Q410"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "M015",
+                            4
+                        ],
+                        [
+                            "M015",
+                            4
+                        ],
+                        [
+                            "M019",
+                            4
+                        ],
+                        [
+                            "M019",
+                            4
+                        ],
+                        [
+                            "M020",
+                            4
+                        ]
+                    ],
+                    "average_length": 3.996647108130763
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Bldg Name",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1343,
+            "frequent_values": [
+                "WASHINGTON IRVING HS - MANHATTAN",
+                "EVANDER CHILDS HS - X",
+                "JULIA RICHMAN ED. COMPLEX - M",
+                "MARTIN LUTHER KING, JR. HS - M",
+                "BEACH CHANNEL EDUCATIONAL CAMPUS - Q"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "LIC YMCA",
+                            8
+                        ],
+                        [
+                            "LIC YMCA",
+                            8
+                        ],
+                        [
+                            "BEDFORD YMCA",
+                            12
+                        ],
+                        [
+                            "MORRIS HS - X",
+                            13
+                        ],
+                        [
+                            "MORRIS HS - X",
+                            13
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "THE KATHLEEN GRIMM SCHOOL FOR LEADERSHIP AND SUSTAINABILITY AT SANDY GROUND - STATEN ISLAND",
+                            91
+                        ],
+                        [
+                            "THE KATHLEEN GRIMM SCHOOL FOR LEADERSHIP AND SUSTAINABILITY AT SANDY GROUND - STATEN ISLAND",
+                            91
+                        ],
+                        [
+                            "THE KATHLEEN GRIMM SCHOOL FOR LEADERSHIP AND SUSTAINABILITY AT SANDY GROUND - STATEN ISLAND",
+                            91
+                        ],
+                        [
+                            "THE LT. CURTIS MEYRAN AND JOHN BELLEW EDUCATION COMPLEX - BRONX",
+                            63
+                        ],
+                        [
+                            "THE LT. CURTIS MEYRAN AND JOHN BELLEW EDUCATION COMPLEX - BRONX",
+                            63
+                        ]
+                    ],
+                    "average_length": 22.740290583962
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Ownership",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "DOE Owned",
+                "Tax Levy Lease",
+                "Gratis Lease",
+                "Private"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "Private",
+                            7
+                        ],
+                        [
+                            "Private",
+                            7
+                        ],
+                        [
+                            "Private",
+                            7
+                        ],
+                        [
+                            "Private",
+                            7
+                        ],
+                        [
+                            "Private",
+                            7
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Tax Levy Lease",
+                            14
+                        ],
+                        [
+                            "Tax Levy Lease",
+                            14
+                        ],
+                        [
+                            "Tax Levy Lease",
+                            14
+                        ],
+                        [
+                            "Tax Levy Lease",
+                            14
+                        ],
+                        [
+                            "Tax Levy Lease",
+                            14
+                        ]
+                    ],
+                    "average_length": 9.215143894942722
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Room Number",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1166,
+            "frequent_values": [
+                "OUTDOOR YARD 1",
+                "GYM",
+                "OUTDOOR YARD 2",
+                "ATHLETIC FIELD",
+                "GYM."
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2534,
+                    "max_value": 800000000000000,
+                    "min_value": 1,
+                    "mean": 315706393368.9246,
+                    "stddev": 15889161208721.824
+                },
+                {
+                    "type": "REAL",
+                    "count": 5,
+                    "max_value": 4e+20,
+                    "min_value": 4e+20,
+                    "mean": 4e+20,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4619,
+                    "shortest_values": [
+                        [
+                            "A",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "ATHLETIC FIELD 2",
+                            16
+                        ],
+                        [
+                            "ATHLETIC FIELD 2",
+                            16
+                        ],
+                        [
+                            "ATHLETIC FIELD 2",
+                            16
+                        ],
+                        [
+                            "ATHLETIC FIELD 2",
+                            16
+                        ],
+                        [
+                            "ATHLETIC FIELD 2",
+                            16
+                        ]
+                    ],
+                    "average_length": 7.356354189218446
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Square Feet",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2218,
+            "frequent_values": [
+                "6,500",
+                "650",
+                "675",
+                "4,234",
+                "676"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1890,
+                    "max_value": 999,
+                    "min_value": 42,
+                    "mean": 625.4904761904762,
+                    "stddev": 231.3383174164289
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5268,
+                    "shortest_values": [
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ],
+                        [
+                            "-",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "102,000",
+                            7
+                        ],
+                        [
+                            "102,000",
+                            7
+                        ],
+                        [
+                            "102,000",
+                            7
+                        ],
+                        [
+                            "102,000",
+                            7
+                        ],
+                        [
+                            "136,000",
+                            7
+                        ]
+                    ],
+                    "average_length": 5.206529992406986
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Room Function",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "GYMNASIUM",
+                "OUTDOOR YARD",
+                "MULTI-PURPOSE CLASSROOM",
+                "DANCE ROOM",
+                "WEIGHT ROOM"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "PLAYROOM",
+                            8
+                        ],
+                        [
+                            "PLAYROOM",
+                            8
+                        ],
+                        [
+                            "PLAYROOM",
+                            8
+                        ],
+                        [
+                            "PLAYROOM",
+                            8
+                        ],
+                        [
+                            "PLAYROOM",
+                            8
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "GYMNASIUM/AUDITORIUM/DANCE ROOM",
+                            31
+                        ],
+                        [
+                            "MULTI-PURPOSE NON CLASSROOM",
+                            27
+                        ],
+                        [
+                            "ADAPTIVE PHYSICAL EDUCATION",
+                            27
+                        ],
+                        [
+                            "MULTI-PURPOSE NON CLASSROOM",
+                            27
+                        ],
+                        [
+                            "ADAPTIVE PHYSICAL EDUCATION",
+                            27
+                        ]
+                    ],
+                    "average_length": 13.859318245319923
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Shared with other schools?",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Y",
+                "N"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ]
+                    ],
+                    "average_length": 1.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Inside v outside",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Inside",
+                "Outside"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "Inside",
+                            6
+                        ],
+                        [
+                            "Inside",
+                            6
+                        ],
+                        [
+                            "Inside",
+                            6
+                        ],
+                        [
+                            "Inside",
+                            6
+                        ],
+                        [
+                            "Inside",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Outside",
+                            7
+                        ],
+                        [
+                            "Outside",
+                            7
+                        ],
+                        [
+                            "Outside",
+                            7
+                        ],
+                        [
+                            "Outside",
+                            7
+                        ],
+                        [
+                            "Outside",
+                            7
+                        ]
+                    ],
+                    "average_length": 6.211930706901369
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Space used for any other purpose beside PE",
+            "number_non_empty_cells": 7158,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 7158,
+                    "shortest_values": [
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "N",
+                            1
+                        ],
+                        [
+                            "Y",
+                            1
+                        ]
+                    ],
+                    "average_length": 1.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Location 1",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 7158,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                ""
+            ],
+            "data_type": [],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

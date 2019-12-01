@@ -1,0 +1,526 @@
+{
+    "dataset_name": "tfrc-rjtr",
+    "columns": [
+        {
+            "column_name": "DATE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "05/14/2018",
+                "10/15/2018",
+                "04/16/2018",
+                "07/15/2019",
+                "09/17/2018"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 700,
+                    "max_value": "07/15/2019, 00:00:00",
+                    "min_value": "01/17/2018, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PROJECT_ID",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 700,
+            "frequent_values": [
+                "21217",
+                "21214",
+                "21213",
+                "21212",
+                "12468"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 700,
+                    "max_value": 21253,
+                    "min_value": 11996,
+                    "mean": 20459.56,
+                    "stddev": 1044.0835519932573
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "TITLE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 603,
+            "frequent_values": [
+                "Reconstruction of a portion of Anne Loftus Playground, Fort Tryon Park, Dyckman Street and Broadway, Manhattan",
+                "Reconstruction of baseball fields 2 and 3 and adjacent site work, the Long Meadow and the Upper Pool, Prospect Park West and Prospect Park Southwest, Prospect Park, Brooklyn",
+                "Reconstruction of the playground, White Park, Lyman Avenue, Summer Street, High Street, and Bay Street, Staten Island",
+                "Construction of boardwalk access ramps, Rockaway Beach, Rockaway Beach between Beach 24th Street and Beach 25th Street, Far Rockaway, Queens",
+                "Construction of athletic courts and an adult fitness area, Hallets Cove Playground, Vernon Boulevard between Welling Court and 30th Road, Astoria, Queens"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        [
+                            "Rehabilitation of 544 West 163rd Street, Manhattan",
+                            50
+                        ],
+                        [
+                            "Rehabilitation of 518 West 161st Street, Manhattan",
+                            50
+                        ],
+                        [
+                            "Construction of stairs, 115 Dooley Street, Brooklyn",
+                            51
+                        ],
+                        [
+                            "Rehabilitation of 9 Fort Washington Avenue, Manhattan",
+                            53
+                        ],
+                        [
+                            "Construction of an ADA ramp, 829 9th Avenue, Manhattan",
+                            54
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Reconstruction of a streetscape and construction of three plazas, including installation of a prototypical automatic public toilet (APT), Mott Avenue from Beach Channel Drive to Smith Place, Central Avenue from Foam Place to Mott Avenue, Beach 20th Street from Mott Avenue to Cornaga Avenue, and Beach 21st Street from Mott Avenue to Cornaga Avenue, Far Rockaway, Queens",
+                            370
+                        ],
+                        [
+                            "Relocation of the New York Times Capsule (2000) by Santiago Calatrava, from the entry plaza outside the Columbus Avenue pavilion to the entry plaza outside the Rose Center for Earth & Space, American Museum of Natural History, 81st Street between Columbus Avenue and Central Park West, Manhattan",
+                            295
+                        ],
+                        [
+                            "Construction of Parachute Way Plaza, including the installation of an artwork by Xenobia Bailey and the relocation of the Jackie Robinson and Pee Wee Reese Memorial (2005) by William Behrends, between Surf Avenue and the boardwalk, as part of the Coney Island Infrastructure Project, Brooklyn",
+                            292
+                        ],
+                        [
+                            "Construction of Parachute Way Plaza, including the installation of an artwork by Xenobia Bailey and the relocation of the Jackie Robinson and Pee Wee Reese Memorial (2005) by William Behrends, between Surf Avenue and the boardwalk, as part of the Coney Island Infrastructure Project, Brooklyn",
+                            292
+                        ],
+                        [
+                            "Relocation of four artworks by Clemente Spampinato from the Brooklyn Heights Library, 280 Cadman Plaza West to Walt Whitman Library, 93 St. Edwards Street, Brooklyn and the reinstallation of two artworks by Clemente Spampinato in the Brooklyn Heights Library, 280 Cadman Plaza West, Brooklyn",
+                            291
+                        ]
+                    ],
+                    "average_length": 129.70142857142858
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 691,
+            "number_empty_cells": 9,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 691,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Brooklyn/Queens",
+                            15
+                        ],
+                        [
+                            "Brooklyn/Queens",
+                            15
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 7.7308248914616495
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LEVEL_OF_REVIEW",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Preliminary and Final",
+                "Preliminary",
+                "Final",
+                "Conceptual"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        [
+                            "Final",
+                            5
+                        ],
+                        [
+                            "Final",
+                            5
+                        ],
+                        [
+                            "Final",
+                            5
+                        ],
+                        [
+                            "Final",
+                            5
+                        ],
+                        [
+                            "Final",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Preliminary and Final",
+                            21
+                        ],
+                        [
+                            "Preliminary and Final",
+                            21
+                        ],
+                        [
+                            "Preliminary and Final",
+                            21
+                        ],
+                        [
+                            "Preliminary and Final",
+                            21
+                        ],
+                        [
+                            "Preliminary and Final",
+                            21
+                        ]
+                    ],
+                    "average_length": 13.96
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "AGENCY",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 73,
+            "frequent_values": [
+                "DPR",
+                "DOT",
+                "EDC",
+                "DDC",
+                "DCA/DOT"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        [
+                            "EM",
+                            2
+                        ],
+                        [
+                            "EM",
+                            2
+                        ],
+                        [
+                            "QL",
+                            2
+                        ],
+                        [
+                            "QL",
+                            2
+                        ],
+                        [
+                            "QL",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "DDC/DCLA/DPR/WCS",
+                            16
+                        ],
+                        [
+                            "DCLA%/DDC/NYPD",
+                            14
+                        ],
+                        [
+                            "DCLA%/EDC/NYPL",
+                            14
+                        ],
+                        [
+                            "DCLA%/DDC/NYPL",
+                            14
+                        ],
+                        [
+                            "DCLA%/DDC/DOT",
+                            13
+                        ]
+                    ],
+                    "average_length": 4.187142857142857
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "CERTIFICATE_NUMBER",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 700,
+            "frequent_values": [
+                "27120",
+                "27123",
+                "27121",
+                "27102",
+                "27118"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 700,
+                    "max_value": 27147,
+                    "min_value": 26446,
+                    "mean": 26796.492857142857,
+                    "stddev": 202.4771273300684
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PUBLIC_PRIVATE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Public",
+                "Private",
+                "Public and Private"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ]
+                    ],
+                    "average_length": 7.02
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ACTION",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Calendared for Consent",
+                "Calendared for Public Hearing",
+                "Calendared for Committee and Consent"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        [
+                            "Calendared for Consent",
+                            22
+                        ],
+                        [
+                            "Calendared for Consent",
+                            22
+                        ],
+                        [
+                            "Calendared for Consent",
+                            22
+                        ],
+                        [
+                            "Calendared for Consent",
+                            22
+                        ],
+                        [
+                            "Calendared for Consent",
+                            22
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Calendared for Committee and Consent",
+                            36
+                        ],
+                        [
+                            "Calendared for Committee and Consent",
+                            36
+                        ],
+                        [
+                            "Calendared for Committee and Consent",
+                            36
+                        ],
+                        [
+                            "Calendared for Public Hearing",
+                            29
+                        ],
+                        [
+                            "Calendared for Public Hearing",
+                            29
+                        ]
+                    ],
+                    "average_length": 22.17
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PROJECT_TYPE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Landscape architecture",
+                "Architecture",
+                "Building systems & Modifications",
+                "Artwork",
+                "Signage"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ]
+                    ],
+                    "average_length": 19.347142857142856
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

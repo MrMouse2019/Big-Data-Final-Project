@@ -1,0 +1,505 @@
+{
+    "dataset_name": "wbtw-zkex",
+    "columns": [
+        {
+            "column_name": "Appeal Type",
+            "number_non_empty_cells": 1702,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Section 50",
+                "Section 76",
+                "Waiting for DQ",
+                "Jurisdictional Issue",
+                "Waiting for Appeal Request"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1702,
+                    "shortest_values": [
+                        [
+                            "Other",
+                            5
+                        ],
+                        [
+                            "Other",
+                            5
+                        ],
+                        [
+                            "Other",
+                            5
+                        ],
+                        [
+                            "Section 50",
+                            10
+                        ],
+                        [
+                            "Section 50",
+                            10
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ],
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ],
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ],
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ],
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ]
+                    ],
+                    "average_length": 10.373090481786134
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Appeal Subtype",
+            "number_non_empty_cells": 1580,
+            "number_empty_cells": 122,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "Education and Experience",
+                "Psych",
+                "Character",
+                "Medical",
+                ""
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1580,
+                    "shortest_values": [
+                        [
+                            "Psych",
+                            5
+                        ],
+                        [
+                            "Psych",
+                            5
+                        ],
+                        [
+                            "Psych",
+                            5
+                        ],
+                        [
+                            "Psych",
+                            5
+                        ],
+                        [
+                            "Psych",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ]
+                    ],
+                    "average_length": 13.334810126582278
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 1702,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "Department of Citywide Administrative Services - DCAS",
+                "Police Department - NYPD",
+                "Department of Correction - DOC",
+                "Fire Department - FDNY",
+                "Department of Sanitation - DSNY"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1702,
+                    "shortest_values": [
+                        [
+                            "Fire Department - FDNY",
+                            22
+                        ],
+                        [
+                            "Fire Department - FDNY",
+                            22
+                        ],
+                        [
+                            "Fire Department - FDNY",
+                            22
+                        ],
+                        [
+                            "Fire Department - FDNY",
+                            22
+                        ],
+                        [
+                            "Fire Department - FDNY",
+                            22
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Department of Housing Preservation and Development - HPD",
+                            56
+                        ],
+                        [
+                            "Department of Housing Preservation and Development - HPD",
+                            56
+                        ],
+                        [
+                            "Department of Housing Preservation and Development - HPD",
+                            56
+                        ],
+                        [
+                            "Department of Housing Preservation and Development - HPD",
+                            56
+                        ],
+                        [
+                            "Department of Citywide Administrative Services - DCAS",
+                            53
+                        ]
+                    ],
+                    "average_length": 37.29377203290247
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 1702,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Closed",
+                "Open"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1702,
+                    "shortest_values": [
+                        [
+                            "Open",
+                            4
+                        ],
+                        [
+                            "Open",
+                            4
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ]
+                    ],
+                    "average_length": 5.99764982373678
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Date Filed",
+            "number_non_empty_cells": 1702,
+            "number_empty_cells": 0,
+            "number_distinct_values": 544,
+            "frequent_values": [
+                "03/14/2016",
+                "04/21/2015",
+                "07/18/2016",
+                "01/06/2016",
+                "04/01/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1702,
+                    "max_value": "12/30/2016, 00:00:00",
+                    "min_value": "03/10/2010, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Date Closed",
+            "number_non_empty_cells": 1702,
+            "number_empty_cells": 0,
+            "number_distinct_values": 232,
+            "frequent_values": [
+                "02/17/2016",
+                "05/24/2016",
+                "05/02/2016",
+                "03/09/2016",
+                "01/25/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1702,
+                    "max_value": "12/30/2016, 00:00:00",
+                    "min_value": "01/04/2016, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Exam No.",
+            "number_non_empty_cells": 1566,
+            "number_empty_cells": 136,
+            "number_distinct_values": 249,
+            "frequent_values": [
+                "",
+                "2326",
+                "3037",
+                "2000",
+                "5000"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1566,
+                    "max_value": 8329,
+                    "min_value": 107,
+                    "mean": 3568.9604086845466,
+                    "stddev": 1606.8555646306604
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Title",
+            "number_non_empty_cells": 1565,
+            "number_empty_cells": 137,
+            "number_distinct_values": 172,
+            "frequent_values": [
+                "Police Officer",
+                "Correction Officer",
+                "",
+                "Procurement Analyst",
+                "Sanitation Worker"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1565,
+                    "shortest_values": [
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Transit Electro-Mechanical Maintainer - EL & Esc.",
+                            49
+                        ],
+                        [
+                            "Supv. of Electrical Installations and Maintenance",
+                            49
+                        ],
+                        [
+                            "Transit Electro-Mechanical Maintainer - El & Esc",
+                            48
+                        ],
+                        [
+                            "Promotion to General Superintendent (Sanitation)",
+                            48
+                        ],
+                        [
+                            "Promotion to General Superintendent (Sanitation)",
+                            48
+                        ]
+                    ],
+                    "average_length": 19.515654952076677
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Expiration",
+            "number_non_empty_cells": 1302,
+            "number_empty_cells": 400,
+            "number_distinct_values": 171,
+            "frequent_values": [
+                "",
+                "07/02/2018",
+                "06/26/2017",
+                "05/28/2018",
+                "05/01/2018"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1302,
+                    "max_value": "09/28/2020, 00:00:00",
+                    "min_value": "02/20/2012, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Extension",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 1682,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "",
+                "09/19/2017 12:00:00 AM",
+                "05/14/2018 12:00:00 AM",
+                "02/20/2016 12:00:00 AM",
+                "07/06/2016 12:00:00 AM"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 20,
+                    "max_value": "05/14/2018, 00:00:00",
+                    "min_value": "02/20/2016, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Acronym",
+            "number_non_empty_cells": 1702,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "DCAS",
+                "NYPD",
+                "DOC",
+                "FDNY",
+                "DSNY"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1702,
+                    "shortest_values": [
+                        [
+                            "DOT",
+                            3
+                        ],
+                        [
+                            "HRA",
+                            3
+                        ],
+                        [
+                            "DOT",
+                            3
+                        ],
+                        [
+                            "DOF",
+                            3
+                        ],
+                        [
+                            "DCA",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "NYCCSC",
+                            6
+                        ],
+                        [
+                            "NYCCSC",
+                            6
+                        ],
+                        [
+                            "NYCCSC",
+                            6
+                        ],
+                        [
+                            "NYCHA",
+                            5
+                        ],
+                        [
+                            "DOHMH",
+                            5
+                        ]
+                    ],
+                    "average_length": 3.846063454759107
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

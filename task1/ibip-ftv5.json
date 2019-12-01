@@ -1,0 +1,575 @@
+{
+    "dataset_name": "ibip-ftv5",
+    "columns": [
+        {
+            "column_name": "ConditionHazard #",
+            "number_non_empty_cells": 510061,
+            "number_empty_cells": 0,
+            "number_distinct_values": 422413,
+            "frequent_values": [
+                "102828",
+                "103435",
+                "103699",
+                "103193",
+                "103457"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 510061,
+                    "max_value": 448919,
+                    "min_value": 1,
+                    "mean": 192400.92967507808,
+                    "stddev": 134714.31672331668
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Class",
+            "number_non_empty_cells": 510061,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Condition",
+                "Hazard"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 510061,
+                    "shortest_values": [
+                        [
+                            "Hazard",
+                            6
+                        ],
+                        [
+                            "Hazard",
+                            6
+                        ],
+                        [
+                            "Hazard",
+                            6
+                        ],
+                        [
+                            "Hazard",
+                            6
+                        ],
+                        [
+                            "Hazard",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Condition",
+                            9
+                        ],
+                        [
+                            "Condition",
+                            9
+                        ],
+                        [
+                            "Condition",
+                            9
+                        ],
+                        [
+                            "Condition",
+                            9
+                        ],
+                        [
+                            "Condition",
+                            9
+                        ]
+                    ],
+                    "average_length": 8.441019799592597
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Number",
+            "number_non_empty_cells": 112730,
+            "number_empty_cells": 397331,
+            "number_distinct_values": 177,
+            "frequent_values": [
+                "",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 112363,
+                    "max_value": 100,
+                    "min_value": 1,
+                    "mean": 1.7665868657832204,
+                    "stddev": 1.8851894414770756
+                },
+                {
+                    "type": "TEXT",
+                    "count": 367,
+                    "shortest_values": [
+                        [
+                            "2+",
+                            2
+                        ],
+                        [
+                            "10+",
+                            3
+                        ],
+                        [
+                            "10+",
+                            3
+                        ],
+                        [
+                            ">30",
+                            3
+                        ],
+                        [
+                            "10+",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "10 of 100",
+                            9
+                        ],
+                        [
+                            "12 of 40",
+                            8
+                        ],
+                        [
+                            "30 of 50",
+                            8
+                        ],
+                        [
+                            "14 of 30",
+                            8
+                        ],
+                        [
+                            "13 of 18",
+                            8
+                        ]
+                    ],
+                    "average_length": 6.506811989100817
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Type",
+            "number_non_empty_cells": 381447,
+            "number_empty_cells": 128614,
+            "number_distinct_values": 2963,
+            "frequent_values": [
+                "",
+                "Litter",
+                "Marker",
+                "Spray Paint",
+                "Asphalt"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 381447,
+                    "shortest_values": [
+                        [
+                            ".",
+                            1
+                        ],
+                        [
+                            "PS",
+                            2
+                        ],
+                        [
+                            "SW",
+                            2
+                        ],
+                        [
+                            "PS",
+                            2
+                        ],
+                        [
+                            "PS",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Growth through fencing & Weeds in Belgian blocks",
+                            48
+                        ],
+                        [
+                            "\"B\" Baseball Fields - Artificial - Little League",
+                            48
+                        ],
+                        [
+                            "\"B\" Baseball Fields - Artificial - Regulation",
+                            45
+                        ],
+                        [
+                            "Weeds along curb (and growth through fencing)",
+                            45
+                        ],
+                        [
+                            "\"B\" Baseball Fields - Artificial - Regulation",
+                            45
+                        ]
+                    ],
+                    "average_length": 10.797049131334104
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Extent",
+            "number_non_empty_cells": 161572,
+            "number_empty_cells": 348489,
+            "number_distinct_values": 151,
+            "frequent_values": [
+                "",
+                "0",
+                "0.05",
+                "0.1",
+                "0.2"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 81511,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 0.21544331439928352,
+                    "stddev": 0.7131198714951406
+                },
+                {
+                    "type": "REAL",
+                    "count": 64863,
+                    "max_value": 5.5,
+                    "min_value": 0.01,
+                    "mean": 0.23347501657334968,
+                    "stddev": 0.2296858337961196
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15198,
+                    "shortest_values": [
+                        [
+                            "2\"",
+                            2
+                        ],
+                        [
+                            "3\"",
+                            2
+                        ],
+                        [
+                            "2\"",
+                            2
+                        ],
+                        [
+                            "3\"",
+                            2
+                        ],
+                        [
+                            "5\"",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "4 sq ft, 1' deep",
+                            16
+                        ],
+                        [
+                            "1.5\" and one  2\"",
+                            16
+                        ],
+                        [
+                            "2\" wide  by 7ft",
+                            15
+                        ],
+                        [
+                            "2\" to 3.5\"",
+                            10
+                        ],
+                        [
+                            "1.5 - 3\"",
+                            8
+                        ]
+                    ],
+                    "average_length": 2.922226608764311
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Problem",
+            "number_non_empty_cells": 412128,
+            "number_empty_cells": 97933,
+            "number_distinct_values": 7643,
+            "frequent_values": [
+                "",
+                "Light",
+                "Heavy",
+                "Moderate",
+                "Trip hazard due to"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 8,
+                    "max_value": 4,
+                    "min_value": 1,
+                    "mean": 2.25,
+                    "stddev": 0.9682458365518543
+                },
+                {
+                    "type": "TEXT",
+                    "count": 412120,
+                    "shortest_values": [
+                        [
+                            "Ice",
+                            3
+                        ],
+                        [
+                            "new",
+                            3
+                        ],
+                        [
+                            "gap",
+                            3
+                        ],
+                        [
+                            "5x5",
+                            3
+                        ],
+                        [
+                            "3x3",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Between 25% and 50% of restrooms are unacceptable.",
+                            50
+                        ],
+                        [
+                            "Holes or missing sections in non-critical areas of",
+                            50
+                        ],
+                        [
+                            "Fire extinguishers undercharged and not mounted in",
+                            50
+                        ],
+                        [
+                            "Holes or missing sections in non-critical areas of",
+                            50
+                        ],
+                        [
+                            "Holes or missing sections in non-critical areas of",
+                            50
+                        ]
+                    ],
+                    "average_length": 13.799805881782005
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Location/Comments",
+            "number_non_empty_cells": 479134,
+            "number_empty_cells": 30927,
+            "number_distinct_values": 324552,
+            "frequent_values": [
+                "",
+                "overall.",
+                "at plgd.",
+                "overall",
+                "BBCT"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 156,
+                    "min_value": 1,
+                    "mean": 78.5,
+                    "stddev": 77.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 479130,
+                    "shortest_values": [
+                        [
+                            ".",
+                            1
+                        ],
+                        [
+                            ".",
+                            1
+                        ],
+                        [
+                            ".",
+                            1
+                        ],
+                        [
+                            ".",
+                            1
+                        ],
+                        [
+                            ".",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Pornographic materials (videos & magazines), Parks side of Jackie Robinson Pkwy fence in small pine grove in northwest corner (possible homeless encampment, with another encampment on opposite (north) side of Pkwy) (other photo available upon request)",
+                            251
+                        ],
+                        [
+                            "multiple exposed bolts/re-bar left from tennis bubble mooring around all tennis courts, some >4\" and some in direct path of travel at netting between courts (last two photos show bolts shaved and hammered down at north gate to tennis courts)",
+                            241
+                        ],
+                        [
+                            "1 of 4 attachment points on lowest platform adj ramp on north PE station; sags visibly under weight, presents a trip hazard btw platforms and should be remedied ASAP; not rated PR1 due to low height of platform and overall stability",
+                            232
+                        ],
+                        [
+                            "large sinkhole at main entry path (10th Ave, Dyckman, HRD) with inadequate French barricade; there is no way to arrange the fencing without leaving a section 1' deep x 1' wide and leaf cover makes visibility a problem",
+                            217
+                        ],
+                        [
+                            "(DOT property?) missing block with protruding metal on Gun Hill Road bridge; hole large enough for any child which leads directly to fall into Bronx River; rated PR2 due to unliklihood of this type of accident",
+                            209
+                        ]
+                    ],
+                    "average_length": 30.27386721766535
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Priority",
+            "number_non_empty_cells": 94078,
+            "number_empty_cells": 415983,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "",
+                "2",
+                "1",
+                "C",
+                "P"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 92115,
+                    "max_value": 2,
+                    "min_value": 1,
+                    "mean": 1.9317157900450523,
+                    "stddev": 0.25223298084476564
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1963,
+                    "shortest_values": [
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "..5",
+                            3
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ]
+                    ],
+                    "average_length": 1.001018848700968
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Cause",
+            "number_non_empty_cells": 510061,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "1"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 510061,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.19808219016941112,
+                    "stddev": 0.3985544330536297
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Feature #",
+            "number_non_empty_cells": 510061,
+            "number_empty_cells": 0,
+            "number_distinct_values": 271684,
+            "frequent_values": [
+                "546314",
+                "372685",
+                "182831",
+                "968160",
+                "912063"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 510061,
+                    "max_value": 1145201,
+                    "min_value": 7,
+                    "mean": 621082.7012102474,
+                    "stddev": 323559.4001304122
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

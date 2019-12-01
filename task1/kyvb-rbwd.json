@@ -1,0 +1,1093 @@
+{
+    "dataset_name": "kyvb-rbwd",
+    "columns": [
+        {
+            "column_name": "ComplaintID",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9542,
+            "frequent_values": [
+                "1703",
+                "1970",
+                "1018",
+                "4425",
+                "2305"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 334342,
+                    "max_value": 10703,
+                    "min_value": 134,
+                    "mean": 3886.900455222497,
+                    "stddev": 2254.0053906007934
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "SRNumber",
+            "number_non_empty_cells": 333796,
+            "number_empty_cells": 546,
+            "number_distinct_values": 10408,
+            "frequent_values": [
+                "1207304971",
+                "1218569161",
+                "1226870710",
+                "1241138513",
+                "1183987512"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 333796,
+                    "max_value": 1741449901,
+                    "min_value": 0,
+                    "mean": 1224899676.005794,
+                    "stddev": 375604028.3118291
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ComplaintType",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Defacement",
+                "ATM",
+                "Abandoned SW cafe",
+                "Encroachment"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 334342,
+                    "shortest_values": [
+                        [
+                            "ATM",
+                            3
+                        ],
+                        [
+                            "ATM",
+                            3
+                        ],
+                        [
+                            "ATM",
+                            3
+                        ],
+                        [
+                            "ATM",
+                            3
+                        ],
+                        [
+                            "ATM",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Abandoned SW cafe",
+                            17
+                        ],
+                        [
+                            "Abandoned SW cafe",
+                            17
+                        ],
+                        [
+                            "Abandoned SW cafe",
+                            17
+                        ],
+                        [
+                            "Abandoned SW cafe",
+                            17
+                        ],
+                        [
+                            "Abandoned SW cafe",
+                            17
+                        ]
+                    ],
+                    "average_length": 9.981946629499136
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 334342,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 7.057686440830048
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3960,
+            "frequent_values": [
+                "6996",
+                "9294",
+                "1391",
+                "1392",
+                "9397"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 334342,
+                    "max_value": 16340,
+                    "min_value": 5,
+                    "mean": 4950.167762351126,
+                    "stddev": 3323.495971410441
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 387,
+            "frequent_values": [
+                "1",
+                "21",
+                "11",
+                "16",
+                "14"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 334342,
+                    "max_value": 7509,
+                    "min_value": 1,
+                    "mean": 186.94832536743814,
+                    "stddev": 1001.8796633222512
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Number",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4920,
+            "frequent_values": [
+                "2752",
+                "102-29",
+                "31",
+                "94-42",
+                "12"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 211295,
+                    "max_value": 25926,
+                    "min_value": 0,
+                    "mean": 1314.0933670934003,
+                    "stddev": 1601.0359911588391
+                },
+                {
+                    "type": "TEXT",
+                    "count": 123047,
+                    "shortest_values": [
+                        [
+                            "54A",
+                            3
+                        ],
+                        [
+                            "54A",
+                            3
+                        ],
+                        [
+                            "54A",
+                            3
+                        ],
+                        [
+                            "54A",
+                            3
+                        ],
+                        [
+                            "54A",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "460-464",
+                            7
+                        ],
+                        [
+                            "460-464",
+                            7
+                        ],
+                        [
+                            "460-464",
+                            7
+                        ],
+                        [
+                            "6602-06",
+                            7
+                        ],
+                        [
+                            "6602-06",
+                            7
+                        ]
+                    ],
+                    "average_length": 5.4106723447138085
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2204,
+            "frequent_values": [
+                "WEST   15 STREET",
+                "PARK AVENUE",
+                "MADISON AVENUE",
+                "74 STREET",
+                "91 AVENUE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 334342,
+                    "shortest_values": [
+                        [
+                            "BOWERY",
+                            6
+                        ],
+                        [
+                            "114 PL",
+                            6
+                        ],
+                        [
+                            "114 PL",
+                            6
+                        ],
+                        [
+                            "BOWERY",
+                            6
+                        ],
+                        [
+                            "BOWERY",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "THOMAS S. BOYLAND ST",
+                            20
+                        ],
+                        [
+                            "THOMAS S. BOYLAND ST",
+                            20
+                        ],
+                        [
+                            "THOMAS S. BOYLAND ST",
+                            20
+                        ],
+                        [
+                            "THOMAS S. BOYLAND ST",
+                            20
+                        ],
+                        [
+                            "THOMAS S. BOYLAND ST",
+                            20
+                        ]
+                    ],
+                    "average_length": 12.450134891817362
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 334340,
+            "number_empty_cells": 2,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "BROOKLYN",
+                "JAMAICA",
+                "FLUSHING",
+                "BRONX",
+                "NEW YORK"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 334340,
+                    "shortest_values": [
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ],
+                        [
+                            "BRONX",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "LONG ISLAND CITY",
+                            16
+                        ],
+                        [
+                            "LONG ISLAND CITY",
+                            16
+                        ],
+                        [
+                            "LONG ISLAND CITY",
+                            16
+                        ],
+                        [
+                            "LONG ISLAND CITY",
+                            16
+                        ],
+                        [
+                            "LONG ISLAND CITY",
+                            16
+                        ]
+                    ],
+                    "average_length": 7.78729736196686
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "NY"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 334342,
+                    "shortest_values": [
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ],
+                        [
+                            "NY",
+                            2
+                        ]
+                    ],
+                    "average_length": 2.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 334301,
+            "number_empty_cells": 41,
+            "number_distinct_values": 737,
+            "frequent_values": [
+                "11419",
+                "10021",
+                "11418",
+                "11420",
+                "11421"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 332328,
+                    "max_value": 11697,
+                    "min_value": 0,
+                    "mean": 10981.31377434342,
+                    "stddev": 818.3328812534487
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1973,
+                    "shortest_values": [
+                        [
+                            "11364-3013",
+                            10
+                        ],
+                        [
+                            "11204-1929",
+                            10
+                        ],
+                        [
+                            "11219-2425",
+                            10
+                        ],
+                        [
+                            "11209-1620",
+                            10
+                        ],
+                        [
+                            "11204-2261",
+                            10
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "11364-3013",
+                            10
+                        ],
+                        [
+                            "11204-1929",
+                            10
+                        ],
+                        [
+                            "11219-2425",
+                            10
+                        ],
+                        [
+                            "11209-1620",
+                            10
+                        ],
+                        [
+                            "11204-2261",
+                            10
+                        ]
+                    ],
+                    "average_length": 10.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Unit",
+            "number_non_empty_cells": 304,
+            "number_empty_cells": 334038,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "",
+                "2A",
+                "1",
+                "201",
+                "RES"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 149,
+                    "max_value": 201,
+                    "min_value": 1,
+                    "mean": 70.73825503355705,
+                    "stddev": 81.41388137275226
+                },
+                {
+                    "type": "TEXT",
+                    "count": 155,
+                    "shortest_values": [
+                        [
+                            "2B",
+                            2
+                        ],
+                        [
+                            "2B",
+                            2
+                        ],
+                        [
+                            "2B",
+                            2
+                        ],
+                        [
+                            "2B",
+                            2
+                        ],
+                        [
+                            "2B",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "GARGE",
+                            5
+                        ],
+                        [
+                            "GARGE",
+                            5
+                        ],
+                        [
+                            "GARGE",
+                            5
+                        ],
+                        [
+                            "GARGE",
+                            5
+                        ],
+                        [
+                            "GARGE",
+                            5
+                        ]
+                    ],
+                    "average_length": 2.503225806451613
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "InitialInspectionDate",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1092,
+            "frequent_values": [
+                "09/22/2015",
+                "11/12/2015",
+                "11/08/2017",
+                "09/30/2015",
+                "09/19/2017"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 334342,
+                    "max_value": "06/28/2019, 00:00:00",
+                    "min_value": "12/24/2013, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "InitialInspectionResults",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Fail",
+                "Pass"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 334342,
+                    "shortest_values": [
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ]
+                    ],
+                    "average_length": 4.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "OrderMailingDate",
+            "number_non_empty_cells": 275892,
+            "number_empty_cells": 58450,
+            "number_distinct_values": 306,
+            "frequent_values": [
+                "",
+                "09/24/2015",
+                "11/19/2015",
+                "09/28/2017",
+                "12/27/2017"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 275892,
+                    "max_value": "06/28/2019, 00:00:00",
+                    "min_value": "01/16/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PostingInspectionDate",
+            "number_non_empty_cells": 885,
+            "number_empty_cells": 333457,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "",
+                "05/06/2015",
+                "03/06/2018",
+                "01/19/2018",
+                "12/29/2017"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 885,
+                    "max_value": "04/26/2019, 00:00:00",
+                    "min_value": "06/14/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "FollowUpInspectionDate",
+            "number_non_empty_cells": 275892,
+            "number_empty_cells": 58450,
+            "number_distinct_values": 306,
+            "frequent_values": [
+                "",
+                "10/24/2015",
+                "12/19/2015",
+                "10/28/2017",
+                "01/26/2018"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 275892,
+                    "max_value": "07/28/2019, 00:00:00",
+                    "min_value": "02/15/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "DaysBetween",
+            "number_non_empty_cells": 334342,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "30"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 334342,
+                    "max_value": 30,
+                    "min_value": 30,
+                    "mean": 30.0,
+                    "stddev": 0.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ClosedDate",
+            "number_non_empty_cells": 251483,
+            "number_empty_cells": 82859,
+            "number_distinct_values": 1040,
+            "frequent_values": [
+                "",
+                "12/29/2017",
+                "09/24/2016",
+                "06/23/2016",
+                "09/23/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 251483,
+                    "max_value": "06/28/2019, 00:00:00",
+                    "min_value": "04/11/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ReinspectionDate",
+            "number_non_empty_cells": 251688,
+            "number_empty_cells": 82654,
+            "number_distinct_values": 913,
+            "frequent_values": [
+                "",
+                "12/29/2017",
+                "09/24/2016",
+                "10/27/2015",
+                "02/11/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 251688,
+                    "max_value": "06/28/2019, 00:00:00",
+                    "min_value": "05/16/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ReInspectionResult",
+            "number_non_empty_cells": 251688,
+            "number_empty_cells": 82654,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Pass",
+                "",
+                "Fail"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 251688,
+                    "shortest_values": [
+                        [
+                            "Fail",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Fail",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Pass",
+                            4
+                        ],
+                        [
+                            "Fail",
+                            4
+                        ]
+                    ],
+                    "average_length": 4.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NOVNumber",
+            "number_non_empty_cells": 60454,
+            "number_empty_cells": 273888,
+            "number_distinct_values": 1373,
+            "frequent_values": [
+                "",
+                "187717274",
+                "188562450",
+                "189182153",
+                "188548829"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 60454,
+                    "max_value": 206274750,
+                    "min_value": 142038203,
+                    "mean": 190634329.87731168,
+                    "stddev": 3085401.801465132
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NOVCode",
+            "number_non_empty_cells": 60454,
+            "number_empty_cells": 273888,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "",
+                "D31",
+                "D30",
+                "DD1",
+                "D21"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 60454,
+                    "shortest_values": [
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ],
+                        [
+                            "D31",
+                            3
+                        ]
+                    ],
+                    "average_length": 3.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NOVDate",
+            "number_non_empty_cells": 60454,
+            "number_empty_cells": 273888,
+            "number_distinct_values": 549,
+            "frequent_values": [
+                "",
+                "02/11/2016",
+                "11/02/2015",
+                "12/08/2015",
+                "01/19/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 60454,
+                    "max_value": "06/25/2019, 00:00:00",
+                    "min_value": "05/16/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NovDescription",
+            "number_non_empty_cells": 60326,
+            "number_empty_cells": 274016,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "",
+                "Defacement of roadway",
+                "Defacement of roadway, sidewalk or curb",
+                "Maintaining an unlawful sidewalk Automated Teller Machine (ATM) on City property."
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 60326,
+                    "shortest_values": [
+                        [
+                            "Defacement of roadway",
+                            21
+                        ],
+                        [
+                            "Defacement of roadway",
+                            21
+                        ],
+                        [
+                            "Defacement of roadway",
+                            21
+                        ],
+                        [
+                            "Defacement of roadway",
+                            21
+                        ],
+                        [
+                            "Defacement of roadway",
+                            21
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Maintaining an unlawful sidewalk Automated Teller Machine (ATM) on City property.",
+                            81
+                        ],
+                        [
+                            "Maintaining an unlawful sidewalk Automated Teller Machine (ATM) on City property.",
+                            81
+                        ],
+                        [
+                            "Maintaining an unlawful sidewalk Automated Teller Machine (ATM) on City property.",
+                            81
+                        ],
+                        [
+                            "Maintaining an unlawful sidewalk Automated Teller Machine (ATM) on City property.",
+                            81
+                        ],
+                        [
+                            "Maintaining an unlawful sidewalk Automated Teller Machine (ATM) on City property.",
+                            81
+                        ]
+                    ],
+                    "average_length": 26.837184630176043
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}
