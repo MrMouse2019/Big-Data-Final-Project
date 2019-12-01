@@ -1,0 +1,504 @@
+{
+    "dataset_name": "it9k-rtx5",
+    "columns": [
+        {
+            "column_name": "Appeal Type",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Section 50",
+                "Waiting for DQ",
+                "Section 76",
+                "Jurisdictional Issue",
+                "Other"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        [
+                            "Other",
+                            5
+                        ],
+                        [
+                            "Other",
+                            5
+                        ],
+                        [
+                            "Other",
+                            5
+                        ],
+                        [
+                            "Section 50",
+                            10
+                        ],
+                        [
+                            "Section 50",
+                            10
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ],
+                        [
+                            "Waiting for Appeal Request",
+                            26
+                        ],
+                        [
+                            "Jurisdictional Issue",
+                            20
+                        ],
+                        [
+                            "Jurisdictional Issue",
+                            20
+                        ],
+                        [
+                            "Jurisdictional Issue",
+                            20
+                        ]
+                    ],
+                    "average_length": 10.194972067039107
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Appeal Subtype",
+            "number_non_empty_cells": 1650,
+            "number_empty_cells": 140,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Medical",
+                "Character",
+                "Education and Experience",
+                "Psych",
+                ""
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1650,
+                    "shortest_values": [
+                        [
+                            "Age",
+                            3
+                        ],
+                        [
+                            "Age",
+                            3
+                        ],
+                        [
+                            "Age",
+                            3
+                        ],
+                        [
+                            "Age",
+                            3
+                        ],
+                        [
+                            "Age",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ],
+                        [
+                            "Education and Experience",
+                            24
+                        ]
+                    ],
+                    "average_length": 10.648484848484848
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Police Department - NYPD",
+                "Department of Citywide Administrative Services - DCAS",
+                "Department of Correction - DOC",
+                "Fire Department - FDNY",
+                "Department of Sanitation - DSNY"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        [
+                            "Other - OTH",
+                            11
+                        ],
+                        [
+                            "Other - OTH",
+                            11
+                        ],
+                        [
+                            "Other - OTH",
+                            11
+                        ],
+                        [
+                            "Other - OTH",
+                            11
+                        ],
+                        [
+                            "Other - OTH",
+                            11
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Department of Citywide Administrative Services - DCAS",
+                            53
+                        ],
+                        [
+                            "Department of Citywide Administrative Services - DCAS",
+                            53
+                        ],
+                        [
+                            "Department of Citywide Administrative Services - DCAS",
+                            53
+                        ],
+                        [
+                            "Department of Citywide Administrative Services - DCAS",
+                            53
+                        ],
+                        [
+                            "Department of Citywide Administrative Services - DCAS",
+                            53
+                        ]
+                    ],
+                    "average_length": 33.3804469273743
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Closed"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ],
+                        [
+                            "Closed",
+                            6
+                        ]
+                    ],
+                    "average_length": 6.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Date Filed",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 613,
+            "frequent_values": [
+                "11/14/2014",
+                "11/24/2014",
+                "04/21/2015",
+                "12/15/2014",
+                "11/05/2014"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1790,
+                    "max_value": "12/30/2015, 00:00:00",
+                    "min_value": "06/14/2010, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Date Closed",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 217,
+            "frequent_values": [
+                "11/27/2015",
+                "11/09/2015",
+                "12/15/2015",
+                "05/08/2015",
+                "03/12/2015"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1790,
+                    "max_value": "12/31/2015, 00:00:00",
+                    "min_value": "01/05/2015, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Exam No.",
+            "number_non_empty_cells": 1654,
+            "number_empty_cells": 136,
+            "number_distinct_values": 272,
+            "frequent_values": [
+                "",
+                "2000",
+                "6063",
+                "4010",
+                "4004"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1654,
+                    "max_value": 999999,
+                    "min_value": 101,
+                    "mean": 3805.392986698912,
+                    "stddev": 24717.682826957596
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Title ",
+            "number_non_empty_cells": 1649,
+            "number_empty_cells": 141,
+            "number_distinct_values": 221,
+            "frequent_values": [
+                "Correction Officer",
+                "Police Officer",
+                "POLICE OFFICER",
+                "",
+                "Firefighter"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1649,
+                    "shortest_values": [
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ],
+                        [
+                            "Oiler",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "SUPERVISOR OF MECHANICS (MECHANICAL EQUIPMENT)",
+                            46
+                        ],
+                        [
+                            "ADMINISTRATIVE COMMUNITY RELATIONS SPECIALIST",
+                            45
+                        ],
+                        [
+                            "Assistant Superintendent of Welfare Shelters",
+                            44
+                        ],
+                        [
+                            "Assistant Superintendent of Welfare Shelters",
+                            44
+                        ],
+                        [
+                            "Assistant Superintendent of Welfare Shelters",
+                            44
+                        ]
+                    ],
+                    "average_length": 17.50212249848393
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Expiration",
+            "number_non_empty_cells": 1294,
+            "number_empty_cells": 496,
+            "number_distinct_values": 168,
+            "frequent_values": [
+                "",
+                "06/26/2017",
+                "02/20/2012",
+                "02/19/2018",
+                "05/30/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1294,
+                    "max_value": "12/11/2019, 00:00:00",
+                    "min_value": "04/18/2011, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Extension",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 1688,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "",
+                "02/20/2016",
+                "02/16/2016",
+                "02/10/2016",
+                "08/10/2016"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 102,
+                    "max_value": "05/14/2018, 00:00:00",
+                    "min_value": "04/18/2014, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Acronym",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "NYPD",
+                "DCAS",
+                "DOC",
+                "FDNY",
+                "DSNY"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        [
+                            "OTH",
+                            3
+                        ],
+                        [
+                            "DOC",
+                            3
+                        ],
+                        [
+                            "OTH",
+                            3
+                        ],
+                        [
+                            "OTH",
+                            3
+                        ],
+                        [
+                            "OTH",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "NYCTA",
+                            5
+                        ],
+                        [
+                            "NYCHA",
+                            5
+                        ],
+                        [
+                            "NYCHA",
+                            5
+                        ],
+                        [
+                            "NYCHA",
+                            5
+                        ],
+                        [
+                            "NYCTA",
+                            5
+                        ]
+                    ],
+                    "average_length": 3.870949720670391
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

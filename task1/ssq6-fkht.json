@@ -1,0 +1,826 @@
+{
+    "dataset_name": "ssq6-fkht",
+    "columns": [
+        {
+            "column_name": "ACCT_ID",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 400618,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 400618,
+                    "max_value": 542827,
+                    "min_value": 1,
+                    "mean": 278555.24281734717,
+                    "stddev": 155304.44915036776
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ALPHA",
+            "number_non_empty_cells": 400477,
+            "number_empty_cells": 141,
+            "number_distinct_values": 69,
+            "frequent_values": [
+                "P",
+                "AA",
+                "G",
+                "C",
+                "B"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 400477,
+                    "shortest_values": [
+                        [
+                            "P",
+                            1
+                        ],
+                        [
+                            "P",
+                            1
+                        ],
+                        [
+                            "C",
+                            1
+                        ],
+                        [
+                            "G",
+                            1
+                        ],
+                        [
+                            "G",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "RR",
+                            2
+                        ],
+                        [
+                            "DV",
+                            2
+                        ],
+                        [
+                            "DV",
+                            2
+                        ],
+                        [
+                            "DV",
+                            2
+                        ],
+                        [
+                            "DV",
+                            2
+                        ]
+                    ],
+                    "average_length": 1.2074725889376918
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "ACCT_NUM",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 398456,
+            "frequent_values": [
+                "88014485",
+                "4364725",
+                "1135516",
+                "27186972",
+                "35098227"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 400618,
+                    "max_value": 99058356,
+                    "min_value": 67,
+                    "mean": 36760357.967060894,
+                    "stddev": 24556127.852598842
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "OWNER_NAME",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 239159,
+            "frequent_values": [
+                "NYCHA",
+                "RESTAURANT",
+                "NYC DEPT OF EDUCATION",
+                "COLUMBIA UNIVERSITY",
+                "SL GREEN REALTY CORP"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 24,
+                    "max_value": 38124970,
+                    "min_value": 1,
+                    "mean": 1640567.5833333333,
+                    "stddev": 7610644.7515069535
+                },
+                {
+                    "type": "TEXT",
+                    "count": 400594,
+                    "shortest_values": [
+                        [
+                            "B",
+                            1
+                        ],
+                        [
+                            "E",
+                            1
+                        ],
+                        [
+                            "K",
+                            1
+                        ],
+                        [
+                            "E",
+                            1
+                        ],
+                        [
+                            "A",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "BEN RIC FUR FASHIONS INC",
+                            24
+                        ],
+                        [
+                            "BAINBRIDGE CLUSTER ASSOC",
+                            24
+                        ],
+                        [
+                            "BAINBRIDGE CLUSTER ASSOC",
+                            24
+                        ],
+                        [
+                            "TINY FOOTSTEPS CHILDCARE",
+                            24
+                        ],
+                        [
+                            "HARLEM YMCA OUTREACH/1FL",
+                            24
+                        ]
+                    ],
+                    "average_length": 17.568218695237572
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LAST_VISIT_DT",
+            "number_non_empty_cells": 400616,
+            "number_empty_cells": 2,
+            "number_distinct_values": 1839,
+            "frequent_values": [
+                "11/07/2018",
+                "10/10/2018",
+                "11/14/2018",
+                "10/16/2018",
+                "11/08/2018"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 400616,
+                    "max_value": "01/05/2019, 00:00:00",
+                    "min_value": "11/15/1941, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LAST_FULL_INSP_DT",
+            "number_non_empty_cells": 400615,
+            "number_empty_cells": 3,
+            "number_distinct_values": 3978,
+            "frequent_values": [
+                "10/16/2018",
+                "11/07/2018",
+                "10/10/2018",
+                "10/11/2018",
+                "11/14/2018"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 400615,
+                    "max_value": "01/05/2019, 00:00:00",
+                    "min_value": "08/31/1931, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LAST_INSP_STAT",
+            "number_non_empty_cells": 400616,
+            "number_empty_cells": 2,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "APPROVAL",
+                "NOT APPROVAL(W/REASON)",
+                "NOT APPROVAL(VIO)",
+                "NOV(HOLD)",
+                "NOV(NO HOLD)"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 400616,
+                    "shortest_values": [
+                        [
+                            "APPROVAL",
+                            8
+                        ],
+                        [
+                            "APPROVAL",
+                            8
+                        ],
+                        [
+                            "APPROVAL",
+                            8
+                        ],
+                        [
+                            "APPROVAL",
+                            8
+                        ],
+                        [
+                            "APPROVAL",
+                            8
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "NOV AND VIO(NOV NO HOLD)",
+                            24
+                        ],
+                        [
+                            "NOV AND VIO(NOV NO HOLD)",
+                            24
+                        ],
+                        [
+                            "NOV AND VIO(NOV NO HOLD)",
+                            24
+                        ],
+                        [
+                            "NOV AND VIO(NOV NO HOLD)",
+                            24
+                        ],
+                        [
+                            "NOV AND VIO(NOV NO HOLD)",
+                            24
+                        ]
+                    ],
+                    "average_length": 12.831382171455958
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PREM_ADDR",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 139176,
+            "frequent_values": [
+                "245 MESEROLE AVE",
+                "9 METROTECH CENTER",
+                "1 PENN PLZ",
+                "350 5 AVE",
+                "63 FLUSHING AVE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 400618,
+                    "shortest_values": [
+                        [
+                            "1 2 PL",
+                            6
+                        ],
+                        [
+                            "1 2 PL",
+                            6
+                        ],
+                        [
+                            "1 2 PL",
+                            6
+                        ],
+                        [
+                            "9 1 ST",
+                            6
+                        ],
+                        [
+                            "1 3 ST",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "2700 THEODORE KAZIMIROFF BLVD",
+                            29
+                        ],
+                        [
+                            "2700 THEODORE KAZIMIROFF BLVD",
+                            29
+                        ],
+                        [
+                            "2600 THEODORE KAZIMIROFF BLVD",
+                            29
+                        ],
+                        [
+                            "2600 THEODORE KAZIMIROFF BLVD",
+                            29
+                        ],
+                        [
+                            "2600 THEODORE KAZIMIROFF BLVD",
+                            29
+                        ]
+                    ],
+                    "average_length": 13.52909255200715
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 400615,
+            "number_empty_cells": 3,
+            "number_distinct_values": 115655,
+            "frequent_values": [
+                "3065442",
+                "3058187",
+                "1014387",
+                "1015862",
+                "3335133"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 400615,
+                    "max_value": 5863656,
+                    "min_value": 0,
+                    "mean": 2405987.2825256167,
+                    "stddev": 1327752.1405609606
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "COMMUNITY BOARD",
+            "number_non_empty_cells": 378858,
+            "number_empty_cells": 21760,
+            "number_distinct_values": 71,
+            "frequent_values": [
+                "105",
+                "",
+                "301",
+                "101",
+                "102"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 378858,
+                    "max_value": 595,
+                    "min_value": 101,
+                    "mean": 235.54055081323347,
+                    "stddev": 126.76323012209761
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "COUNCIL DISTRICT",
+            "number_non_empty_cells": 378858,
+            "number_empty_cells": 21760,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "4",
+                "3",
+                "1",
+                "",
+                "33"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 378858,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 19.422928907400664,
+                    "stddev": 15.889715621202757
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 377778,
+            "number_empty_cells": 22840,
+            "number_distinct_values": 104971,
+            "frequent_values": [
+                "",
+                "3026040001",
+                "3020470011",
+                "1021380040",
+                "1007830070"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 377778,
+                    "max_value": 5200149999,
+                    "min_value": 0,
+                    "mean": 2317601742.4273596,
+                    "stddev": 1277112928.8124747
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 378932,
+            "number_empty_cells": 21686,
+            "number_distinct_values": 92464,
+            "frequent_values": [
+                "",
+                "40.729362",
+                "40.694499",
+                "40.751157",
+                "40.748433"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 378932,
+                    "max_value": 40.913727,
+                    "min_value": 40.501713,
+                    "mean": 40.73248815329817,
+                    "stddev": 0.06985318684521519
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 378932,
+            "number_empty_cells": 21686,
+            "number_distinct_values": 87334,
+            "frequent_values": [
+                "",
+                "-73.946552",
+                "-73.984505",
+                "-73.992239",
+                "-73.985752"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 378932,
+                    "max_value": -73.700286,
+                    "min_value": -74.251365,
+                    "mean": -73.94693390843513,
+                    "stddev": 0.07122862822924529
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "POSTCODE",
+            "number_non_empty_cells": 378858,
+            "number_empty_cells": 21760,
+            "number_distinct_values": 233,
+            "frequent_values": [
+                "",
+                "10019",
+                "10022",
+                "10016",
+                "10036"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 378858,
+                    "max_value": 12345,
+                    "min_value": 10000,
+                    "mean": 10625.016087821823,
+                    "stddev": 583.1686166754806
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 400379,
+            "number_empty_cells": 239,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "MN",
+                "BK",
+                "QN",
+                "BX",
+                "SI"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 400379,
+                    "shortest_values": [
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ],
+                        [
+                            "MN",
+                            2
+                        ]
+                    ],
+                    "average_length": 2.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Number",
+            "number_non_empty_cells": 400617,
+            "number_empty_cells": 1,
+            "number_distinct_values": 17227,
+            "frequent_values": [
+                "245",
+                "1",
+                "9",
+                "200",
+                "100"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 333018,
+                    "max_value": 12770,
+                    "min_value": 1,
+                    "mean": 931.8475667981911,
+                    "stddev": 1417.9814244191568
+                },
+                {
+                    "type": "TEXT",
+                    "count": 67599,
+                    "shortest_values": [
+                        [
+                            "7A",
+                            2
+                        ],
+                        [
+                            "7A",
+                            2
+                        ],
+                        [
+                            "14A",
+                            3
+                        ],
+                        [
+                            "3-7",
+                            3
+                        ],
+                        [
+                            "3-7",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "4231-33",
+                            7
+                        ],
+                        [
+                            "8209-11",
+                            7
+                        ],
+                        [
+                            "1213-43",
+                            7
+                        ],
+                        [
+                            "107-113",
+                            7
+                        ],
+                        [
+                            "173-177",
+                            7
+                        ]
+                    ],
+                    "average_length": 5.336720957410613
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 400617,
+            "number_empty_cells": 1,
+            "number_distinct_values": 4372,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVE",
+                "3 AVE",
+                "MADISON AVE",
+                "PARK AVE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 400617,
+                    "shortest_values": [
+                        [
+                            "8 ST",
+                            4
+                        ],
+                        [
+                            "3 DR",
+                            4
+                        ],
+                        [
+                            "7 DR",
+                            4
+                        ],
+                        [
+                            "7 DR",
+                            4
+                        ],
+                        [
+                            "1 PL",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "61 ST & WOODSIDE AVE STAT",
+                            25
+                        ],
+                        [
+                            "THEODORE KAZIMIROFF BLVD",
+                            24
+                        ],
+                        [
+                            "THEODORE KAZIMIROFF BLVD",
+                            24
+                        ],
+                        [
+                            "THEODORE KAZIMIROFF BLVD",
+                            24
+                        ],
+                        [
+                            "THEODORE KAZIMIROFF BLVD",
+                            24
+                        ]
+                    ],
+                    "average_length": 9.092127892725472
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 399792,
+            "number_empty_cells": 826,
+            "number_distinct_values": 1321,
+            "frequent_values": [
+                "573",
+                "96",
+                "33",
+                "102",
+                "113"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 399792,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 4825.166256453355,
+                    "stddev": 17080.585971243585
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 399792,
+            "number_empty_cells": 826,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "Midtown-Midtown South",
+                "Hudson Yards-Chelsea-Flatiron-Union Square",
+                "SoHo-TriBeCa-Civic Center-Little Italy",
+                "Battery Park City-Lower Manhattan",
+                "Turtle Bay-East Midtown"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 399792,
+                    "shortest_values": [
+                        [
+                            "Corona",
+                            6
+                        ],
+                        [
+                            "Corona",
+                            6
+                        ],
+                        [
+                            "Corona",
+                            6
+                        ],
+                        [
+                            "Corona",
+                            6
+                        ],
+                        [
+                            "Corona",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ],
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ],
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ],
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ],
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ]
+                    ],
+                    "average_length": 20.918162444471125
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

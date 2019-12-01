@@ -1,0 +1,986 @@
+{
+    "dataset_name": "s4kf-3yrf",
+    "columns": [
+        {
+            "column_name": "CB Link ID",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1869,
+            "frequent_values": [
+                "LINK-018377",
+                "LINK-002526",
+                "LINK-012859",
+                "LINK-013290",
+                "LINK-011214"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "LINK-018377",
+                            11
+                        ],
+                        [
+                            "LINK-002526",
+                            11
+                        ],
+                        [
+                            "LINK-012859",
+                            11
+                        ],
+                        [
+                            "LINK-013290",
+                            11
+                        ],
+                        [
+                            "LINK-011214",
+                            11
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "LINK-014181_Old",
+                            15
+                        ],
+                        [
+                            "LINK-020657_Old",
+                            15
+                        ],
+                        [
+                            "LINK-014133_Old",
+                            15
+                        ],
+                        [
+                            "LINK-018377",
+                            11
+                        ],
+                        [
+                            "LINK-002526",
+                            11
+                        ]
+                    ],
+                    "average_length": 11.006420545746389
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Queens",
+                "Brooklyn",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 8.21669341894061
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "106",
+                "107",
+                "105",
+                "104",
+                "108"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 190.39111824505082,
+                    "stddev": 120.5388274842607
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "4",
+                "3",
+                "2",
+                "7",
+                "6"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 50,
+                    "min_value": 1,
+                    "mean": 13.448903156768326,
+                    "stddev": 13.105620452842851
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1864,
+            "frequent_values": [
+                "40.784423",
+                "40.738109",
+                "40.816692",
+                "40.803834",
+                "40.747627"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 1869,
+                    "max_value": 40.868698,
+                    "min_value": 40.561755,
+                    "mean": 40.754849124665576,
+                    "stddev": 0.05275969548918254
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1850,
+            "frequent_values": [
+                "-73.979246",
+                "-73.959202",
+                "-73.963213",
+                "-73.901951",
+                "-73.932187"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 1869,
+                    "max_value": -73.792205,
+                    "min_value": -74.116075,
+                    "mean": -73.95660262065286,
+                    "stddev": 0.04493807824623185
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Project Status",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Live",
+                "Installed",
+                "Ready for Activation"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "Live",
+                            4
+                        ],
+                        [
+                            "Live",
+                            4
+                        ],
+                        [
+                            "Live",
+                            4
+                        ],
+                        [
+                            "Live",
+                            4
+                        ],
+                        [
+                            "Live",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Ready for Activation",
+                            20
+                        ],
+                        [
+                            "Installed",
+                            9
+                        ],
+                        [
+                            "Installed",
+                            9
+                        ],
+                        [
+                            "Installed",
+                            9
+                        ],
+                        [
+                            "Installed",
+                            9
+                        ]
+                    ],
+                    "average_length": 4.147672552166934
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Smallest PPT",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1869,
+            "frequent_values": [
+                "146076",
+                "126838",
+                "121770",
+                "133384",
+                "138188"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 146114,
+                    "min_value": 100190,
+                    "mean": 129598.8330658106,
+                    "stddev": 11334.973065653894
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Street Address",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1853,
+            "frequent_values": [
+                "730 COLUMBUS AVENUE",
+                "46 3 AVENUE",
+                "750 6 AVENUE",
+                "909 3 AVENUE",
+                "300 MADISON AVENUE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "178 BOWERY",
+                            10
+                        ],
+                        [
+                            "169 BOWERY",
+                            10
+                        ],
+                        [
+                            "217 BOWERY",
+                            10
+                        ],
+                        [
+                            "113 BOWERY",
+                            10
+                        ],
+                        [
+                            "211 BOWERY",
+                            10
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "1940 ADAM CLAYTON POWELL JR. BOULEVARD",
+                            38
+                        ],
+                        [
+                            "2013 ADAM CLAYTON POWELL JR. BOULEVARD",
+                            38
+                        ],
+                        [
+                            "2430 ADAM CLAYTON POWELL JR. BOULEVARD",
+                            38
+                        ],
+                        [
+                            "1995 ADAM CLAYTON POWELL JR. BOULEVARD",
+                            38
+                        ],
+                        [
+                            "2260 ADAM CLAYTON POWELL JR. BOULEVARD",
+                            38
+                        ]
+                    ],
+                    "average_length": 16.979668271803103
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "10025",
+                "10016",
+                "10022",
+                "10019",
+                "10003"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 11435,
+                    "min_value": 10001,
+                    "mean": 10402.334403424291,
+                    "stddev": 543.2678926727833
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Link Site ID",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1869,
+            "frequent_values": [
+                "mn-11-146076",
+                "bk-02-126838",
+                "mn-06-121770",
+                "mn-01-133384",
+                "mn-06-138188"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "mn-11-146076",
+                            12
+                        ],
+                        [
+                            "bk-02-126838",
+                            12
+                        ],
+                        [
+                            "mn-06-121770",
+                            12
+                        ],
+                        [
+                            "mn-01-133384",
+                            12
+                        ],
+                        [
+                            "mn-06-138188",
+                            12
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "mn-11-146076",
+                            12
+                        ],
+                        [
+                            "bk-02-126838",
+                            12
+                        ],
+                        [
+                            "mn-06-121770",
+                            12
+                        ],
+                        [
+                            "mn-01-133384",
+                            12
+                        ],
+                        [
+                            "mn-06-138188",
+                            12
+                        ]
+                    ],
+                    "average_length": 12.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Link Smoke Tested and Activated (A)",
+            "number_non_empty_cells": 1816,
+            "number_empty_cells": 53,
+            "number_distinct_values": 421,
+            "frequent_values": [
+                "",
+                "07/19/2016",
+                "07/21/2016",
+                "05/17/2018",
+                "04/10/2018"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1816,
+                    "max_value": "06/07/2019, 00:00:00",
+                    "min_value": "01/19/2016, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Link Installation (A)",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 276,
+            "frequent_values": [
+                "09/23/2017",
+                "03/11/2017",
+                "10/28/2017",
+                "03/04/2017",
+                "09/30/2017"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1869,
+                    "max_value": "04/06/2019, 00:00:00",
+                    "min_value": "12/28/2015, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Neighborhood Tabulation Area (NTA)",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 82,
+            "frequent_values": [
+                "Upper West Side",
+                "Midtown-Midtown South",
+                "Turtle Bay-East Midtown",
+                "Hudson Yards-Chelsea-Flatiron-Union Square",
+                "Murray Hill-Kips Bay"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "Clinton",
+                            7
+                        ],
+                        [
+                            "Jamaica",
+                            7
+                        ],
+                        [
+                            "Clinton",
+                            7
+                        ],
+                        [
+                            "Astoria",
+                            7
+                        ],
+                        [
+                            "Jamaica",
+                            7
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ],
+                        [
+                            "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                            56
+                        ],
+                        [
+                            "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                            48
+                        ],
+                        [
+                            "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                            48
+                        ],
+                        [
+                            "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                            48
+                        ]
+                    ],
+                    "average_length": 20.16104868913858
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Building Identification Number (BIN)",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1727,
+            "frequent_values": [
+                "3000000",
+                "1000000",
+                "2000000",
+                "1028950",
+                "1084936"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 5158060,
+                    "min_value": 1000000,
+                    "mean": 1909804.2825040128,
+                    "stddev": 1246151.5376531237
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Borough-Block-Lot (BBL)",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1737,
+            "frequent_values": [
+                "1011407501",
+                "1008700024",
+                "1012970033",
+                "1013137501",
+                "1009340001"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 5039830130,
+                    "min_value": 1000327501,
+                    "mean": 1863948148.6265383,
+                    "stddev": 1220819125.045692
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Census Tract (CT)",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 453,
+            "frequent_values": [
+                "1004000",
+                "1015300",
+                "1007200",
+                "1006600",
+                "1008100"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 1869,
+                    "max_value": 5018100,
+                    "min_value": 1000700,
+                    "mean": 1864720.9149277688,
+                    "stddev": 1220184.9609403203
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Cross Street 1",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 703,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "MADISON AVENUE",
+                "1 AVENUE",
+                "5 AVENUE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "65 ROAD",
+                            7
+                        ],
+                        [
+                            "67 ROAD",
+                            7
+                        ],
+                        [
+                            "55 ROAD",
+                            7
+                        ],
+                        [
+                            "75 ROAD",
+                            7
+                        ],
+                        [
+                            "65 ROAD",
+                            7
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "ADAM CLAYTON POWELL JR BOULEVARD",
+                            32
+                        ],
+                        [
+                            "ADAM CLAYTON POWELL JR BOULEVARD",
+                            32
+                        ],
+                        [
+                            "ADAM CLAYTON POWELL JR BOULEVARD",
+                            32
+                        ],
+                        [
+                            "ADAM CLAYTON POWELL JR BOULEVARD",
+                            32
+                        ],
+                        [
+                            "ADAM CLAYTON POWELL JR BOULEVARD",
+                            32
+                        ]
+                    ],
+                    "average_length": 12.935259497057249
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Cross Street 2",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 753,
+            "frequent_values": [
+                "LEXINGTON AVENUE",
+                "PARK AVENUE",
+                "AMSTERDAM AVENUE",
+                "2 AVENUE",
+                "BROADWAY"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "BEND",
+                            4
+                        ],
+                        [
+                            "BEND",
+                            4
+                        ],
+                        [
+                            "BEND",
+                            4
+                        ],
+                        [
+                            "73 ROAD",
+                            7
+                        ],
+                        [
+                            "85 ROAD",
+                            7
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "ADAM CLAYTON POWELL JR BOULEVARD",
+                            32
+                        ],
+                        [
+                            "MONSIGNOR GERALD J RYAN BOULEVAR",
+                            32
+                        ],
+                        [
+                            "ED KOCH QUEENSBORO BRIDGE UPPER",
+                            31
+                        ],
+                        [
+                            "GENERAL DOUGLAS MACARTHUR PLAZA",
+                            31
+                        ],
+                        [
+                            "ED KOCH QUEENSBORO BRIDGE EXIT",
+                            30
+                        ]
+                    ],
+                    "average_length": 13.135366506153023
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "IxN Corner",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "SE",
+                "NE",
+                "SW",
+                "NW",
+                "MIDBLOCK"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "E",
+                            1
+                        ],
+                        [
+                            "E",
+                            1
+                        ],
+                        [
+                            "W",
+                            1
+                        ],
+                        [
+                            "W",
+                            1
+                        ],
+                        [
+                            "W",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "MIDBLOCK",
+                            8
+                        ],
+                        [
+                            "MIDBLOCK",
+                            8
+                        ],
+                        [
+                            "MIDBLOCK",
+                            8
+                        ],
+                        [
+                            "MIDBLOCK",
+                            8
+                        ],
+                        [
+                            "MIDBLOCK",
+                            8
+                        ]
+                    ],
+                    "average_length": 2.3911182450508295
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "GF Permit Application ID",
+            "number_non_empty_cells": 329,
+            "number_empty_cells": 1540,
+            "number_distinct_values": 330,
+            "frequent_values": [
+                "",
+                "81948",
+                "81597",
+                "82213",
+                "81713"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 329,
+                    "max_value": 82430,
+                    "min_value": 81348,
+                    "mean": 81770.29787234042,
+                    "stddev": 219.09113735986034
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1869,
+            "frequent_values": [
+                "(40.80009573, -73.93860514)",
+                "(40.68844943, -73.98247226)",
+                "(40.75877707, -73.9658397)",
+                "(40.72098349, -74.00648828)",
+                "(40.75045756, -73.97189334)"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 1869,
+                    "shortest_values": [
+                        [
+                            "(40.763, -73.913259)",
+                            20
+                        ],
+                        [
+                            "(40.86115, -73.8974)",
+                            20
+                        ],
+                        [
+                            "(40.86487, -73.8928)",
+                            20
+                        ],
+                        [
+                            "(40.84833, -73.9099)",
+                            20
+                        ],
+                        [
+                            "(40.7099, -73.96244)",
+                            20
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "(40.7276498658094, -73.9851189882664)",
+                            37
+                        ],
+                        [
+                            "(40.6875936081062, -73.9870681131993)",
+                            37
+                        ],
+                        [
+                            "(40.758482405837, -73.9930158102286)",
+                            36
+                        ],
+                        [
+                            "(40.80009573, -73.93860514)",
+                            27
+                        ],
+                        [
+                            "(40.68844943, -73.98247226)",
+                            27
+                        ]
+                    ],
+                    "average_length": 25.70251471375067
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "X Coordinate",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1869,
+            "frequent_values": [
+                "1001248.0565708294",
+                "989110.9482665131",
+                "993713.6450804237",
+                "982451.4906069223",
+                "992037.5393251051"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 1869,
+                    "max_value": 1041861.9713394733,
+                    "min_value": 951998.9049371803,
+                    "mean": 996270.6790896797,
+                    "stddev": 12457.090374664584
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Y Coordinate",
+            "number_non_empty_cells": 1869,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1869,
+            "frequent_values": [
+                "230779.39957081527",
+                "190097.61219983548",
+                "215721.5032787472",
+                "201950.32544833422",
+                "212689.83985077962"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 1869,
+                    "max_value": 255783.1001105085,
+                    "min_value": 143958.94564205036,
+                    "mean": 214294.82102507245,
+                    "stddev": 19220.6547205627
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

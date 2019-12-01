@@ -1,0 +1,655 @@
+{
+    "dataset_name": "5fsv-ze7v",
+    "columns": [
+        {
+            "column_name": "MEETING_DATE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "05/22/2017",
+                "06/19/2017",
+                "10/16/2017",
+                "09/18/2017",
+                "04/24/2017"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 957,
+                    "max_value": "12/11/2017, 00:00:00",
+                    "min_value": "01/18/2017, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PROJECT_ID",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 711,
+            "frequent_values": [
+                "16986",
+                "17035",
+                "7964",
+                "16972",
+                "10425"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 957,
+                    "max_value": 20286,
+                    "min_value": 3968,
+                    "mean": 15792.848484848484,
+                    "stddev": 3180.47821878034
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "TITLE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 682,
+            "frequent_values": [
+                "Construction of a concrete facility (Ferrara Brothers), 730 3rd Avenue between 24th Street, 25th Street, and the Gowanus Canal, Brooklyn",
+                "Rehabilitation of the ground floor and adjacent site work, Building 77, Brooklyn Navy Yard Industrial Park, 63 Flushing Avenue, Brooklyn",
+                "Construction of Cary Leeds Tennis Center, including a clubhouse, Crotona Park, Crotona Park South, Crotona Park East, Crotona Park North and Fulton Avenue, Bronx",
+                "Installation of rooftop mechanical equipment, Fort Washington Armory, 216 Fort Washington Avenue, Manhattan",
+                "Construction of a foundation and platform for the track and field house and adjacent site work as Phase IA of the reconstruction of Ocean Breeze Park, Quintard Street, Mason Avenue and Father Capodanno Boulevard, Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "Times Square bollards",
+                            21
+                        ],
+                        [
+                            "520 Park Avenue planters",
+                            24
+                        ],
+                        [
+                            "Lyons Square Park comfort station, Bronx",
+                            40
+                        ],
+                        [
+                            "Renovation of NYPD Times Square substation",
+                            42
+                        ],
+                        [
+                            "Melrose Commons Park comfort station, Bronx",
+                            43
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Reconstruction of a playground, including the installation of an artificial turf field and adult fitness equipment and construction of a prototypical comfort station, as Phase II of the reconstruction of Highbridge Park, Edgecombe Avenue, West 163rd to West 168th Street, and West 175th Street to West 176th Street, Manhattan",
+                            325
+                        ],
+                        [
+                            "Construction of Admiral\u2019s Row Plaza, including the construction of two retail buildings and a mixed-use building, the rehabilitation of Building B and the Timber Shed, and adjacent site work, Brooklyn Navy Yard Industrial Park, Navy Street, Flushing Avenue, Fourth Street and Gate Street, Brooklyn",
+                            297
+                        ],
+                        [
+                            "Construction of Admiral\u2019s Row Plaza, including the construction of two retail buildings and a mixed-use building, the rehabilitation of Building B and the Timber Shed, and adjacent site work, Brooklyn Navy Yard Industrial Park, Navy Street, Flushing Avenue, Fourth Street and Gate Street, Brooklyn",
+                            297
+                        ],
+                        [
+                            "Construction of Parachute Way Plaza, including the installation of an artwork by Xenobia Bailey and the relocation of the Jackie Robinson and Pee Wee Reese Memorial (2005) by William Behrends, between Surf Avenue and the boardwalk, as part of the Coney Island Infrastructure Project, Brooklyn",
+                            292
+                        ],
+                        [
+                            "Installation of streetscape improvements, Manhattanville/West Harlem, 125th Street between Marginal Street and Old Broadway, Old Broadway between 125th Street and 126th Street, Broadway between 124th Street and 126th Street and St. Claire Place between West 125th Street and Marginal Street",
+                            290
+                        ]
+                    ],
+                    "average_length": 130.00626959247649
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Manhattan/Brooklyn",
+                            18
+                        ],
+                        [
+                            "Manhattan/Brooklyn",
+                            18
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 7.825496342737722
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "LEAD_AGENCY",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "DPR",
+                "DDC",
+                "DEP",
+                "DOT",
+                "EDC"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "QL",
+                            2
+                        ],
+                        [
+                            "EM",
+                            2
+                        ],
+                        [
+                            "EM",
+                            2
+                        ],
+                        [
+                            "QL",
+                            2
+                        ],
+                        [
+                            "QL",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "DCLA%",
+                            5
+                        ],
+                        [
+                            "BNYDC",
+                            5
+                        ],
+                        [
+                            "NYCEM",
+                            5
+                        ],
+                        [
+                            "NYCEM",
+                            5
+                        ],
+                        [
+                            "NYCEM",
+                            5
+                        ]
+                    ],
+                    "average_length": 3.1985370950888194
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "SECONDARY_AGENCY",
+            "number_non_empty_cells": 266,
+            "number_empty_cells": 691,
+            "number_distinct_values": 49,
+            "frequent_values": [
+                "",
+                "DOT",
+                "DPR",
+                "PPA",
+                "DEP"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 266,
+                    "shortest_values": [
+                        [
+                            "MF",
+                            2
+                        ],
+                        [
+                            "MF",
+                            2
+                        ],
+                        [
+                            "MF",
+                            2
+                        ],
+                        [
+                            "QL",
+                            2
+                        ],
+                        [
+                            "DOT",
+                            3
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "DOT/DCAS/DOE",
+                            12
+                        ],
+                        [
+                            "NYRP/ROWNY",
+                            10
+                        ],
+                        [
+                            "DPR/DCLA%",
+                            9
+                        ],
+                        [
+                            "DCLA/WCS",
+                            8
+                        ],
+                        [
+                            "DPR/DCLA",
+                            8
+                        ]
+                    ],
+                    "average_length": 3.7969924812030076
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PUBLIC_PRIVATE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Public",
+                "Private",
+                "Public and Private"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ],
+                        [
+                            "Public",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ],
+                        [
+                            "Public and Private",
+                            18
+                        ]
+                    ],
+                    "average_length": 6.925809822361546
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "PROJECT_TYPE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Landscape architecture",
+                "Architecture",
+                "Building systems & Modifications",
+                "Newsstands",
+                "Streetscape"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ],
+                        [
+                            "Bridge",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ],
+                        [
+                            "Building systems & Modifications",
+                            32
+                        ]
+                    ],
+                    "average_length": 18.258098223615466
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "CONSTRUCTION_TYPE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Installation",
+                "Reconstruction",
+                "Construction",
+                "Rehabilitation",
+                "Design"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "Design",
+                            6
+                        ],
+                        [
+                            "Design",
+                            6
+                        ],
+                        [
+                            "Design",
+                            6
+                        ],
+                        [
+                            "Design",
+                            6
+                        ],
+                        [
+                            "Design",
+                            6
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Rehabilitation",
+                            14
+                        ],
+                        [
+                            "Reconstruction",
+                            14
+                        ],
+                        [
+                            "Reconstruction",
+                            14
+                        ],
+                        [
+                            "Rehabilitation",
+                            14
+                        ],
+                        [
+                            "Reconstruction",
+                            14
+                        ]
+                    ],
+                    "average_length": 12.58516196447231
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "RESULT",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Commented",
+                "Approved",
+                "Approved with conditions",
+                "Found incomplete",
+                "Withdrawn"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        [
+                            "Approved",
+                            8
+                        ],
+                        [
+                            "Approved",
+                            8
+                        ],
+                        [
+                            "Approved",
+                            8
+                        ],
+                        [
+                            "Approved",
+                            8
+                        ],
+                        [
+                            "Approved",
+                            8
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Approved with conditions",
+                            24
+                        ],
+                        [
+                            "Approved with conditions",
+                            24
+                        ],
+                        [
+                            "Approved with conditions",
+                            24
+                        ],
+                        [
+                            "Approved with conditions",
+                            24
+                        ],
+                        [
+                            "Approved with conditions",
+                            24
+                        ]
+                    ],
+                    "average_length": 10.76907001044932
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "REVIEW_CYCLES",
+            "number_non_empty_cells": 434,
+            "number_empty_cells": 523,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "",
+                "1",
+                "2",
+                "3"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 434,
+                    "max_value": 3,
+                    "min_value": 1,
+                    "mean": 1.195852534562212,
+                    "stddev": 0.46626403825424007
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "2016_SUBMISSION",
+            "number_non_empty_cells": 58,
+            "number_empty_cells": 899,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "",
+                "x"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 58,
+                    "shortest_values": [
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ],
+                        [
+                            "x",
+                            1
+                        ]
+                    ],
+                    "average_length": 1.0
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

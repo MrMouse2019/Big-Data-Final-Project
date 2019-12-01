@@ -1,0 +1,458 @@
+{
+    "dataset_name": "hc8x-tcnd",
+    "columns": [
+        {
+            "column_name": "FacilityName",
+            "number_non_empty_cells": 218,
+            "number_empty_cells": 0,
+            "number_distinct_values": 218,
+            "frequent_values": [
+                "Engine 4/Ladder 15",
+                "Engine 10/Ladder 10",
+                "Engine 6",
+                "Engine 7/Ladder 1/Battalion 1/Manhattan Borough Command",
+                "Ladder 8"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 218,
+                    "shortest_values": [
+                        [
+                            "Squad 1",
+                            7
+                        ],
+                        [
+                            "Engine 6",
+                            8
+                        ],
+                        [
+                            "Ladder 8",
+                            8
+                        ],
+                        [
+                            "Engine 5",
+                            8
+                        ],
+                        [
+                            "Squad 18",
+                            8
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Engine 207/Ladder 110/Battalion 31/Division 11/Brooklyn Borough Command",
+                            71
+                        ],
+                        [
+                            "Engine 154/District Office 8/ Staten Island Borough Command",
+                            59
+                        ],
+                        [
+                            "Engine 7/Ladder 1/Battalion 1/Manhattan Borough Command",
+                            55
+                        ],
+                        [
+                            "Engine 265/Ladder 121/Battalion 47 EMS Station 47",
+                            49
+                        ],
+                        [
+                            "Bronx Borough Command, District Office 6 & 7 ",
+                            45
+                        ]
+                    ],
+                    "average_length": 20.31192660550459
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "FacilityAddress",
+            "number_non_empty_cells": 218,
+            "number_empty_cells": 0,
+            "number_distinct_values": 218,
+            "frequent_values": [
+                "42 South Street",
+                "124 Liberty Street",
+                "49 Beekman Street",
+                "100-104 Duane Street",
+                "14 North Moore Street"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 218,
+                    "shortest_values": [
+                        [
+                            "901 Avenue U",
+                            12
+                        ],
+                        [
+                            "412 Broadway",
+                            12
+                        ],
+                        [
+                            "6405 Avenue N",
+                            13
+                        ],
+                        [
+                            "25 Pitt Street",
+                            14
+                        ],
+                        [
+                            "782 8th Avenue",
+                            14
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Little West 12th Street/Hudson River",
+                            36
+                        ],
+                        [
+                            "Building 292 Brooklyn Navy Yard",
+                            31
+                        ],
+                        [
+                            "48-06 Rockaway Beach Boulevard",
+                            30
+                        ],
+                        [
+                            "92-20 Rockaway Beach Boulevard",
+                            30
+                        ],
+                        [
+                            "36-18 Francis Lewis Boulevard",
+                            29
+                        ]
+                    ],
+                    "average_length": 19.55045871559633
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 218,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Queens",
+                "Manhattan",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 218,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 7.752293577981652
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 142,
+            "frequent_values": [
+                "",
+                "10457",
+                "11221",
+                "11211",
+                "10003"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 213,
+                    "max_value": 11695,
+                    "min_value": 10001,
+                    "mean": 10783.774647887323,
+                    "stddev": 555.214466801796
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 214,
+            "frequent_values": [
+                "",
+                "40.703466",
+                "40.710072",
+                "40.710048",
+                "40.715463"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 213,
+                    "max_value": 40.892803,
+                    "min_value": 40.512518,
+                    "mean": 40.71912543661972,
+                    "stddev": 0.08347759266305381
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 213,
+            "frequent_values": [
+                "",
+                "-73.992901",
+                "-74.007538",
+                "-74.012523",
+                "-74.005245"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 213,
+                    "max_value": -73.716559,
+                    "min_value": -74.238822,
+                    "mean": -73.93744015962434,
+                    "stddev": 0.09346584888556551
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "5",
+                "11"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 213,
+                    "max_value": 84,
+                    "min_value": 1,
+                    "mean": 7.075117370892019,
+                    "stddev": 7.017348763719105
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Council ",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "1",
+                "3",
+                "33",
+                "49",
+                "17"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 213,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 25.629107981220656,
+                    "stddev": 15.611735613815142
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "",
+                "7",
+                "41",
+                "125",
+                "199"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 213,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 5949.5352112676055,
+                    "stddev": 19525.788900401243
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 214,
+            "frequent_values": [
+                "",
+                "1000867",
+                "1075700",
+                "1001287",
+                "1001647"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 213,
+                    "max_value": 5154879,
+                    "min_value": 1000867,
+                    "mean": 2900421.431924883,
+                    "stddev": 1303034.9192150517
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 214,
+            "frequent_values": [
+                "",
+                "1000350001",
+                "1000520022",
+                "1000930030",
+                "1001500025"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 213,
+                    "max_value": 5080400010,
+                    "min_value": 1000350001,
+                    "mean": 2849843402.971831,
+                    "stddev": 1282489417.4940066
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 213,
+            "number_empty_cells": 5,
+            "number_distinct_values": 144,
+            "frequent_values": [
+                "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                "Midtown-Midtown South                                                      ",
+                "",
+                "West New Brighton-New Brighton-St. George                                  ",
+                "Battery Park City-Lower Manhattan                                          "
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 213,
+                    "shortest_values": [
+                        [
+                            "Battery Park City-Lower Manhattan                                          ",
+                            75
+                        ],
+                        [
+                            "Battery Park City-Lower Manhattan                                          ",
+                            75
+                        ],
+                        [
+                            "Battery Park City-Lower Manhattan                                          ",
+                            75
+                        ],
+                        [
+                            "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                            75
+                        ],
+                        [
+                            "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                            75
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Battery Park City-Lower Manhattan                                          ",
+                            75
+                        ],
+                        [
+                            "Battery Park City-Lower Manhattan                                          ",
+                            75
+                        ],
+                        [
+                            "Battery Park City-Lower Manhattan                                          ",
+                            75
+                        ],
+                        [
+                            "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                            75
+                        ],
+                        [
+                            "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                            75
+                        ]
+                    ],
+                    "average_length": 75.0
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

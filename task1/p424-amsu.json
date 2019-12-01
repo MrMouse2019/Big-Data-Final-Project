@@ -1,0 +1,952 @@
+{
+    "dataset_name": "p424-amsu",
+    "columns": [
+        {
+            "column_name": "ID",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 377,
+            "frequent_values": [
+                "251",
+                "252",
+                "316",
+                "361",
+                "338"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 377,
+                    "min_value": 1,
+                    "mean": 194.3380992430614,
+                    "stddev": 112.82523414617027
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Segment ID",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 376,
+            "frequent_values": [
+                "73220",
+                "73294",
+                "151662",
+                "174566",
+                "158203"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 192292,
+                    "min_value": 2153,
+                    "mean": 72266.30075693861,
+                    "stddev": 52557.43084752684
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Roadway Name",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 291,
+            "frequent_values": [
+                "HENRY HUDSON PKWY",
+                "ATLANTIC AVE",
+                "3 AVENUE",
+                "BEDFORD AVE",
+                "5 AVENUE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 5945,
+                    "shortest_values": [
+                        [
+                            "AVE U",
+                            5
+                        ],
+                        [
+                            "AVE U",
+                            5
+                        ],
+                        [
+                            "AVE U",
+                            5
+                        ],
+                        [
+                            "AVE U",
+                            5
+                        ],
+                        [
+                            "AVE U",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            " EDWARD L GRANT HIGHWAY ",
+                            24
+                        ],
+                        [
+                            " EDWARD L GRANT HIGHWAY ",
+                            24
+                        ],
+                        [
+                            " EDWARD L GRANT HIGHWAY ",
+                            24
+                        ],
+                        [
+                            " EDWARD L GRANT HIGHWAY ",
+                            24
+                        ],
+                        [
+                            " EDWARD L GRANT HIGHWAY ",
+                            24
+                        ]
+                    ],
+                    "average_length": 12.37493692178301
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "From",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 307,
+            "frequent_values": [
+                "BROADWAY",
+                "EAST 11 STREET",
+                "E 15th ST",
+                "72 STREET",
+                "CLASSON AVE"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 5945,
+                    "shortest_values": [
+                        [
+                            "AVE S",
+                            5
+                        ],
+                        [
+                            "AVE S",
+                            5
+                        ],
+                        [
+                            "AVE S",
+                            5
+                        ],
+                        [
+                            "AVE S",
+                            5
+                        ],
+                        [
+                            "AVE S",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            " EAST MOSHOLU PARKWAY NORTH ",
+                            28
+                        ],
+                        [
+                            " EAST MOSHOLU PARKWAY NORTH ",
+                            28
+                        ],
+                        [
+                            " EAST MOSHOLU PARKWAY NORTH ",
+                            28
+                        ],
+                        [
+                            " EAST MOSHOLU PARKWAY NORTH ",
+                            28
+                        ],
+                        [
+                            " EAST MOSHOLU PARKWAY NORTH ",
+                            28
+                        ]
+                    ],
+                    "average_length": 12.241379310344827
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "To",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 325,
+            "frequent_values": [
+                "W 232nd ST",
+                "EAST 12 STREET",
+                "73 STREET",
+                "W 12th ST",
+                "E 16th ST"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 5945,
+                    "shortest_values": [
+                        [
+                            "AVE T",
+                            5
+                        ],
+                        [
+                            "AVE T",
+                            5
+                        ],
+                        [
+                            "AVE T",
+                            5
+                        ],
+                        [
+                            "AVE T",
+                            5
+                        ],
+                        [
+                            "AVE T",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "WEST MOSHOLU PARKWAY NORTH ",
+                            27
+                        ],
+                        [
+                            "WEST MOSHOLU PARKWAY NORTH ",
+                            27
+                        ],
+                        [
+                            "WEST MOSHOLU PARKWAY NORTH ",
+                            27
+                        ],
+                        [
+                            "WEST MOSHOLU PARKWAY NORTH ",
+                            27
+                        ],
+                        [
+                            "WEST MOSHOLU PARKWAY NORTH ",
+                            27
+                        ]
+                    ],
+                    "average_length": 12.665264928511354
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Direction",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "NB",
+                "SB",
+                "WB",
+                "EB",
+                "NB-MAIN"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 5945,
+                    "shortest_values": [
+                        [
+                            "NB",
+                            2
+                        ],
+                        [
+                            "NB",
+                            2
+                        ],
+                        [
+                            "NB",
+                            2
+                        ],
+                        [
+                            "NB",
+                            2
+                        ],
+                        [
+                            "NB",
+                            2
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "NB - SER",
+                            8
+                        ],
+                        [
+                            "NB - SER",
+                            8
+                        ],
+                        [
+                            "NB - SER",
+                            8
+                        ],
+                        [
+                            "NB - SER",
+                            8
+                        ],
+                        [
+                            "NB - SER",
+                            8
+                        ]
+                    ],
+                    "average_length": 2.1613120269133725
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "10/20/2012",
+                "10/21/2012",
+                "10/19/2012",
+                "10/27/2012",
+                "10/28/2012"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5945,
+                    "max_value": "04/09/2013, 00:00:00",
+                    "min_value": "09/28/2012, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "12:00-1:00 AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1071,
+            "frequent_values": [
+                "68",
+                "67",
+                "54",
+                "58",
+                "64"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 4463,
+                    "min_value": 0,
+                    "mean": 268.121110176619,
+                    "stddev": 397.66209136244953
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "1:00-2:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 915,
+            "frequent_values": [
+                "38",
+                "28",
+                "27",
+                "45",
+                "20"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 4489,
+                    "min_value": 0,
+                    "mean": 199.4955424726661,
+                    "stddev": 321.35430460571814
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "2:00-3:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 803,
+            "frequent_values": [
+                "29",
+                "20",
+                "14",
+                "13",
+                "12"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5943,
+                    "max_value": 4818,
+                    "min_value": 0,
+                    "mean": 157.98031297324584,
+                    "stddev": 281.0093070353929
+                },
+                {
+                    "type": "REAL",
+                    "count": 2,
+                    "max_value": 2290.33,
+                    "min_value": 2260.83,
+                    "mean": 2275.58,
+                    "stddev": 14.75
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "3:00-4:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 734,
+            "frequent_values": [
+                "12",
+                "14",
+                "18",
+                "17",
+                "0"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5943,
+                    "max_value": 4323,
+                    "min_value": 0,
+                    "mean": 138.08934881373045,
+                    "stddev": 254.27870740423592
+                },
+                {
+                    "type": "REAL",
+                    "count": 2,
+                    "max_value": 1315.66,
+                    "min_value": 1300.16,
+                    "mean": 1307.91,
+                    "stddev": 7.75
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "4:00-5:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 745,
+            "frequent_values": [
+                "14",
+                "28",
+                "29",
+                "19",
+                "32"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 2932,
+                    "min_value": 0,
+                    "mean": 145.38721614802355,
+                    "stddev": 250.5765404598669
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "5:00-6:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 824,
+            "frequent_values": [
+                "33",
+                "30",
+                "27",
+                "32",
+                "28"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5944,
+                    "max_value": 4027,
+                    "min_value": 0,
+                    "mean": 181.19246298788696,
+                    "stddev": 319.9702138050771
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 537.5,
+                    "min_value": 537.5,
+                    "mean": 537.5,
+                    "stddev": 0.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "6:00-7:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1093,
+            "frequent_values": [
+                "75",
+                "38",
+                "44",
+                "65",
+                "64"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5166,
+                    "min_value": 0,
+                    "mean": 298.8511354079058,
+                    "stddev": 496.810910491087
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "7:00-8:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1382,
+            "frequent_values": [
+                "60",
+                "96",
+                "92",
+                "178",
+                "63"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5943,
+                    "max_value": 5394,
+                    "min_value": 0,
+                    "mean": 446.73262661955243,
+                    "stddev": 594.644919428847
+                },
+                {
+                    "type": "REAL",
+                    "count": 2,
+                    "max_value": 9226.33,
+                    "min_value": 9112.83,
+                    "mean": 9169.58,
+                    "stddev": 56.75
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "8:00-9:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1492,
+            "frequent_values": [
+                "315",
+                "193",
+                "87",
+                "140",
+                "108"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5944,
+                    "max_value": 7302,
+                    "min_value": 0,
+                    "mean": 515.6589838492598,
+                    "stddev": 611.9788344672103
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 7216.5,
+                    "min_value": 7216.5,
+                    "mean": 7216.5,
+                    "stddev": 0.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "9:00-10:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1448,
+            "frequent_values": [
+                "274",
+                "228",
+                "229",
+                "105",
+                "313"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5788,
+                    "min_value": 0,
+                    "mean": 495.6126156433978,
+                    "stddev": 569.1617365895349
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "10:00-11:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1421,
+            "frequent_values": [
+                "208",
+                "255",
+                "227",
+                "260",
+                "215"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5577,
+                    "min_value": 0,
+                    "mean": 487.28544995794783,
+                    "stddev": 543.5106622366441
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "11:00-12:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1440,
+            "frequent_values": [
+                "219",
+                "242",
+                "291",
+                "289",
+                "329"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5592,
+                    "min_value": 0,
+                    "mean": 500.59579478553405,
+                    "stddev": 542.2553192320662
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "12:00-1:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1479,
+            "frequent_values": [
+                "254",
+                "282",
+                "314",
+                "348",
+                "273"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5766,
+                    "min_value": 0,
+                    "mean": 518.7702270815812,
+                    "stddev": 559.2793404712115
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "1:00-2:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1480,
+            "frequent_values": [
+                "287",
+                "268",
+                "335",
+                "298",
+                "275"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5247,
+                    "min_value": 0,
+                    "mean": 533.2324642556771,
+                    "stddev": 571.8305227962327
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "2:00-3:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1535,
+            "frequent_values": [
+                "350",
+                "301",
+                "352",
+                "337",
+                "287"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 6171,
+                    "min_value": 0,
+                    "mean": 567.8761984861228,
+                    "stddev": 608.397193432022
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "3:00-4:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1587,
+            "frequent_values": [
+                "432",
+                "393",
+                "135",
+                "342",
+                "255"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 6016,
+                    "min_value": 0,
+                    "mean": 598.4173254835997,
+                    "stddev": 637.4192190598152
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "4:00-5:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1573,
+            "frequent_values": [
+                "347",
+                "438",
+                "325",
+                "281",
+                "302"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5923,
+                    "min_value": 0,
+                    "mean": 599.4472666105971,
+                    "stddev": 637.2280844217333
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "5:00-6:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1598,
+            "frequent_values": [
+                "350",
+                "347",
+                "306",
+                "314",
+                "327"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 6169,
+                    "min_value": 0,
+                    "mean": 600.3064760302775,
+                    "stddev": 637.1173975288403
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "6:00-7:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1591,
+            "frequent_values": [
+                "335",
+                "216",
+                "271",
+                "363",
+                "324"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5810,
+                    "min_value": 0,
+                    "mean": 578.7162321278386,
+                    "stddev": 632.0767522519394
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "7:00-8:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1494,
+            "frequent_values": [
+                "142",
+                "182",
+                "169",
+                "200",
+                "272"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5249,
+                    "min_value": 0,
+                    "mean": 521.869638351556,
+                    "stddev": 597.0641757265589
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "8:00-9:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1394,
+            "frequent_values": [
+                "133",
+                "184",
+                "159",
+                "142",
+                "131"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 5102,
+                    "min_value": 0,
+                    "mean": 459.42926829268293,
+                    "stddev": 549.3048027055751
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "9:00-10:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1310,
+            "frequent_values": [
+                "135",
+                "159",
+                "92",
+                "148",
+                "110"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 4986,
+                    "min_value": 0,
+                    "mean": 403.5483599663583,
+                    "stddev": 510.58722411637694
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "10:00-11:00PM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1227,
+            "frequent_values": [
+                "127",
+                "116",
+                "126",
+                "133",
+                "94"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 4468,
+                    "min_value": 0,
+                    "mean": 362.0497897392767,
+                    "stddev": 488.55654838437874
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "11:00-12:00AM",
+            "number_non_empty_cells": 5945,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1175,
+            "frequent_values": [
+                "108",
+                "75",
+                "97",
+                "113",
+                "62"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 5945,
+                    "max_value": 4815,
+                    "min_value": 0,
+                    "mean": 318.57375946173255,
+                    "stddev": 455.62974837483614
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

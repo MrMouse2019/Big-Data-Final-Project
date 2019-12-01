@@ -1,0 +1,709 @@
+{
+    "dataset_name": "hcir-3275",
+    "columns": [
+        {
+            "column_name": "BUILDING_ID",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2408,
+            "frequent_values": [
+                "335768",
+                "85566",
+                "283278",
+                "93940",
+                "120425"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2637,
+                    "max_value": 949009,
+                    "min_value": 272,
+                    "mean": 245277.5532802427,
+                    "stddev": 199734.0323476631
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 2637,
+                    "shortest_values": [
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ],
+                        [
+                            "Bronx",
+                            5
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ],
+                        [
+                            "Staten Island",
+                            13
+                        ]
+                    ],
+                    "average_length": 7.2499051952976865
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NUMBER",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1517,
+            "frequent_values": [
+                "20",
+                "304",
+                "180",
+                "541",
+                "234"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2525,
+                    "max_value": 9427,
+                    "min_value": 1,
+                    "mean": 993.9160396039604,
+                    "stddev": 1024.765274104298
+                },
+                {
+                    "type": "TEXT",
+                    "count": 112,
+                    "shortest_values": [
+                        [
+                            "78A",
+                            3
+                        ],
+                        [
+                            "21A",
+                            3
+                        ],
+                        [
+                            "560A",
+                            4
+                        ],
+                        [
+                            "997A",
+                            4
+                        ],
+                        [
+                            "268A",
+                            4
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "720 FRONT",
+                            9
+                        ],
+                        [
+                            "720 FRONT",
+                            9
+                        ],
+                        [
+                            "720 FRONT",
+                            9
+                        ],
+                        [
+                            "501 1/2",
+                            7
+                        ],
+                        [
+                            "127-02",
+                            6
+                        ]
+                    ],
+                    "average_length": 5.3125
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "STREET",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 850,
+            "frequent_values": [
+                "HANCOCK STREET",
+                "AMSTERDAM AVENUE",
+                "GREENE AVENUE",
+                "HALSEY STREET",
+                "FULTON STREET"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 2637,
+                    "shortest_values": [
+                        [
+                            "45 ROAD",
+                            7
+                        ],
+                        [
+                            "3 PLACE",
+                            7
+                        ],
+                        [
+                            "3 PLACE",
+                            7
+                        ],
+                        [
+                            "3 PLACE",
+                            7
+                        ],
+                        [
+                            "9 AVENUE",
+                            8
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "FREDERICK DOUGLASS BOULEVARD",
+                            28
+                        ],
+                        [
+                            "FREDERICK DOUGLASS BOULEVARD",
+                            28
+                        ],
+                        [
+                            "FREDERICK DOUGLASS BOULEVARD",
+                            28
+                        ],
+                        [
+                            "FREDERICK DOUGLASS BOULEVARD",
+                            28
+                        ],
+                        [
+                            "FREDERICK DOUGLASS BOULEVARD",
+                            28
+                        ]
+                    ],
+                    "average_length": 14.098217671596512
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "TOTAL_UNITS",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 83,
+            "frequent_values": [
+                "3",
+                "6",
+                "4",
+                "8",
+                "16"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2637,
+                    "max_value": 119,
+                    "min_value": 1,
+                    "mean": 13.386044747819492,
+                    "stddev": 14.711651542436556
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "AEP_START_DATE",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "02/02/2015",
+                "02/01/2016",
+                "01/31/2018",
+                "01/31/2017",
+                "01/31/2019"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2637,
+                    "max_value": "01/31/2019, 00:00:00",
+                    "min_value": "11/13/2007, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "# OF B/C VIOLATIONS AT START",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1043,
+            "frequent_values": [
+                "145",
+                "158",
+                "149",
+                "164",
+                "81"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2637,
+                    "max_value": 6593,
+                    "min_value": 17,
+                    "mean": 562.8877512324611,
+                    "stddev": 610.2349960371479
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "CURRENT_STATUS",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "AEP Discharged",
+                "AEP Active"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 2637,
+                    "shortest_values": [
+                        [
+                            "AEP Active",
+                            10
+                        ],
+                        [
+                            "AEP Active",
+                            10
+                        ],
+                        [
+                            "AEP Active",
+                            10
+                        ],
+                        [
+                            "AEP Active",
+                            10
+                        ],
+                        [
+                            "AEP Active",
+                            10
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "AEP Discharged",
+                            14
+                        ],
+                        [
+                            "AEP Discharged",
+                            14
+                        ],
+                        [
+                            "AEP Discharged",
+                            14
+                        ],
+                        [
+                            "AEP Discharged",
+                            14
+                        ],
+                        [
+                            "AEP Discharged",
+                            14
+                        ]
+                    ],
+                    "average_length": 12.923018581721653
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "DISCHARGE_DATE",
+            "number_non_empty_cells": 1927,
+            "number_empty_cells": 710,
+            "number_distinct_values": 819,
+            "frequent_values": [
+                "",
+                "04/06/2011",
+                "06/14/2016",
+                "06/19/2018",
+                "06/18/2015"
+            ],
+            "data_type": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1927,
+                    "max_value": "12/20/2018, 00:00:00",
+                    "min_value": "12/21/2007, 00:00:00"
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "AEP_ROUND",
+            "number_non_empty_cells": 2637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Aep Round 8",
+                "Aep Round 9",
+                "Aep Round 11",
+                "Aep Round 10",
+                "Aep Round 12"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 2637,
+                    "shortest_values": [
+                        [
+                            "Aep Round 1",
+                            11
+                        ],
+                        [
+                            "Aep Round 1",
+                            11
+                        ],
+                        [
+                            "Aep Round 1",
+                            11
+                        ],
+                        [
+                            "Aep Round 2",
+                            11
+                        ],
+                        [
+                            "Aep Round 2",
+                            11
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Aep Round 11",
+                            12
+                        ],
+                        [
+                            "Aep Round 11",
+                            12
+                        ],
+                        [
+                            "Aep Round 11",
+                            12
+                        ],
+                        [
+                            "Aep Round 11",
+                            12
+                        ],
+                        [
+                            "Aep Round 11",
+                            12
+                        ]
+                    ],
+                    "average_length": 11.284414106939705
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 131,
+            "frequent_values": [
+                "11221",
+                "11233",
+                "11207",
+                "11237",
+                "11216"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2632,
+                    "max_value": 11692,
+                    "min_value": 10001,
+                    "mean": 10856.640577507598,
+                    "stddev": 472.5931663774421
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 2377,
+            "frequent_values": [
+                "",
+                "40.676487",
+                "40.671986",
+                "40.692798",
+                "40.821328"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 2632,
+                    "max_value": 40.90524,
+                    "min_value": 40.576105,
+                    "mean": 40.74021755813077,
+                    "stddev": 0.08446715603653808
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 2373,
+            "frequent_values": [
+                "",
+                "-73.891052",
+                "-73.922322",
+                "-73.890251",
+                "-73.91808"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 2632,
+                    "max_value": -73.734376,
+                    "min_value": -74.159977,
+                    "mean": -73.91958508624624,
+                    "stddev": 0.042534400367403025
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "304",
+                "303",
+                "305",
+                "316",
+                "317"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2632,
+                    "max_value": 502,
+                    "min_value": 101,
+                    "mean": 260.08548632218844,
+                    "stddev": 80.80678333606754
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "37",
+                "36",
+                "41",
+                "17",
+                "42"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2632,
+                    "max_value": 50,
+                    "min_value": 1,
+                    "mean": 27.43275075987842,
+                    "stddev": 13.122582233302857
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 564,
+            "frequent_values": [
+                "369",
+                "437",
+                "373",
+                "431",
+                "429"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2632,
+                    "max_value": 118202,
+                    "min_value": 2,
+                    "mean": 4997.632978723404,
+                    "stddev": 15180.792664917217
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 2629,
+            "number_empty_cells": 8,
+            "number_distinct_values": 2402,
+            "frequent_values": [
+                "",
+                "3075861",
+                "2006072",
+                "3102567",
+                "2006667"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2629,
+                    "max_value": 5142323,
+                    "min_value": 1001047,
+                    "mean": 2593836.163560289,
+                    "stddev": 841062.749446939
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 2629,
+            "number_empty_cells": 8,
+            "number_distinct_values": 2393,
+            "frequent_values": [
+                "",
+                "3033130006",
+                "2027460001",
+                "3046900061",
+                "2027650298"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 2629,
+                    "max_value": 5032840005,
+                    "min_value": 1000530006,
+                    "mean": 2555781589.3974895,
+                    "stddev": 816749397.2478825
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 5,
+            "number_distinct_values": 140,
+            "frequent_values": [
+                "Crown Heights North",
+                "Bushwick North",
+                "Stuyvesant Heights",
+                "Bushwick South",
+                "Ocean Hill"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 2632,
+                    "shortest_values": [
+                        [
+                            "Corona",
+                            6
+                        ],
+                        [
+                            "Hollis",
+                            6
+                        ],
+                        [
+                            "Bedford",
+                            7
+                        ],
+                        [
+                            "Belmont",
+                            7
+                        ],
+                        [
+                            "Bedford",
+                            7
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                            50
+                        ],
+                        [
+                            "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                            50
+                        ],
+                        [
+                            "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                            48
+                        ],
+                        [
+                            "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                            48
+                        ],
+                        [
+                            "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                            48
+                        ]
+                    ],
+                    "average_length": 17.76405775075988
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

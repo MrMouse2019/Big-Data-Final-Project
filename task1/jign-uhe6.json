@@ -1,0 +1,482 @@
+{
+    "dataset_name": "jign-uhe6",
+    "columns": [
+        {
+            "column_name": "Target Geographic Area",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Harlem",
+                "South Bronx",
+                "Bedford Stuyvesant",
+                "Highbridge",
+                "Grand Concourse & University Heights"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        [
+                            "Harlem",
+                            6
+                        ],
+                        [
+                            "Harlem",
+                            6
+                        ],
+                        [
+                            "Harlem",
+                            6
+                        ],
+                        [
+                            "Harlem",
+                            6
+                        ],
+                        [
+                            "Edenwald",
+                            8
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Grand Concourse & University Heights",
+                            36
+                        ],
+                        [
+                            "Grand Concourse & University Heights",
+                            36
+                        ],
+                        [
+                            "Bedford Stuyvesant",
+                            18
+                        ],
+                        [
+                            "Bedford Stuyvesant",
+                            18
+                        ],
+                        [
+                            "East New York",
+                            13
+                        ]
+                    ],
+                    "average_length": 13.0
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Organization Name",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "BronxWorks, Inc",
+                "The Children's Village",
+                "New York Center for Interpersonal Development",
+                "Good Shepherd Services",
+                "Friends of Bedford, Inc"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        [
+                            "BronxWorks, Inc",
+                            15
+                        ],
+                        [
+                            "BronxWorks, Inc",
+                            15
+                        ],
+                        [
+                            "Safe Space NYC Inc",
+                            18
+                        ],
+                        [
+                            "Health People, Inc",
+                            18
+                        ],
+                        [
+                            "Good Shepherd Services",
+                            22
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Fedcap Rehabilitation Services, Inc. (partnering with Bronx Clergy Roundtable)",
+                            78
+                        ],
+                        [
+                            "Federation Employment & Guidance Services, Inc",
+                            46
+                        ],
+                        [
+                            "New York Center for Interpersonal Development",
+                            45
+                        ],
+                        [
+                            "New York Center for Interpersonal Development",
+                            45
+                        ],
+                        [
+                            "Alpha School Center for Progressive Living",
+                            42
+                        ]
+                    ],
+                    "average_length": 31.136363636363637
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "1130 Grand Concourse, Bronx, NY 10456",
+                "400 East Fordham Road, Bronx, NY 10458",
+                "130 Stuyvesant Place - 4th Floor, Staten Island, NY 10301",
+                "862 Park Avenue, Brooklyn, NY 11206",
+                "510 Gates Ave., Brooklyn, NY 11216"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        [
+                            "Site address is being finalized",
+                            31
+                        ],
+                        [
+                            "1175 Boston Road, Bronx, NY 10456",
+                            33
+                        ],
+                        [
+                            "510 Gates Ave., Brooklyn, NY 11216",
+                            34
+                        ],
+                        [
+                            "2271 Third Ave, New York, NY 10035",
+                            34
+                        ],
+                        [
+                            "862 Park Avenue, Brooklyn, NY 11206",
+                            35
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "130 Stuyvesant Place - 4th Floor, Staten Island, NY 10301",
+                            57
+                        ],
+                        [
+                            "130 Stuyvesant Place - 4th Floor, Staten Island, NY 10301",
+                            57
+                        ],
+                        [
+                            "89-74 162nd Street, 3rd Fl., Jamaica, NY 11432",
+                            46
+                        ],
+                        [
+                            "552 Southern Blvd, 2nd Fl., Bronx, NY 10455",
+                            43
+                        ],
+                        [
+                            "361 West 125th Street, New York, NY 10027",
+                            41
+                        ]
+                    ],
+                    "average_length": 38.95454545454545
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "10456",
+                "10455",
+                "10035",
+                "10458",
+                "11432"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 11432,
+                    "min_value": 10027,
+                    "mean": 10598.285714285714,
+                    "stddev": 463.9158526794993
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "2",
+                "3",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.4761904761904763,
+                    "stddev": 1.1799534946060826
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "40.832331",
+                "40.861668",
+                "40.642891",
+                "40.698582",
+                "40.68679"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 21,
+                    "max_value": 40.861668,
+                    "min_value": 40.642891,
+                    "mean": 40.76787004761904,
+                    "stddev": 0.07549425074576506
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "-73.91959",
+                "-73.891337",
+                "-74.076874",
+                "-73.940736",
+                "-73.945553"
+            ],
+            "data_type": [
+                {
+                    "type": "REAL",
+                    "count": 21,
+                    "max_value": -73.798033,
+                    "min_value": -74.076874,
+                    "mean": -73.91900280952382,
+                    "stddev": 0.06528723423867283
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "1",
+                "3",
+                "11",
+                "9",
+                "4"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 16,
+                    "min_value": 1,
+                    "mean": 6.190476190476191,
+                    "stddev": 4.403667817789292
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "9",
+                "8",
+                "16",
+                "36",
+                "42"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 49,
+                    "min_value": 8,
+                    "mean": 22.19047619047619,
+                    "stddev": 13.79999671366092
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "18102",
+                "38302",
+                "44601",
+                "3",
+                "28502"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 44601,
+                    "min_value": 3,
+                    "mean": 12130.666666666666,
+                    "stddev": 16517.367218817584
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "2002833",
+                "2116415",
+                "5000085",
+                "3324728",
+                "3051169"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 5000085,
+                    "min_value": 1054159,
+                    "mean": 2551096.6666666665,
+                    "stddev": 1198824.7569542879
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "2024620042",
+                "2030337501",
+                "5000080070",
+                "3015800001",
+                "3018140023"
+            ],
+            "data_type": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 5000080070,
+                    "min_value": 1017400001,
+                    "mean": 2506309191.047619,
+                    "stddev": 1185638239.911578
+                }
+            ],
+            "semantic_types": []
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Central Harlem North-Polo Grounds                                          ",
+                "East Concourse-Concourse Village                                           ",
+                "Fordham South                                                              ",
+                "Jamaica                                                                    ",
+                "West New Brighton-New Brighton-St. George"
+            ],
+            "data_type": [
+                {
+                    "type": "TEXT",
+                    "count": 21,
+                    "shortest_values": [
+                        [
+                            "West New Brighton-New Brighton-St. George",
+                            41
+                        ],
+                        [
+                            "West New Brighton-New Brighton-St. George",
+                            41
+                        ],
+                        [
+                            "Stuyvesant Heights                                                         ",
+                            75
+                        ],
+                        [
+                            "Bedford                                                                    ",
+                            75
+                        ],
+                        [
+                            "Brownsville                                                                ",
+                            75
+                        ]
+                    ],
+                    "longest_values": [
+                        [
+                            "Stuyvesant Heights                                                         ",
+                            75
+                        ],
+                        [
+                            "Bedford                                                                    ",
+                            75
+                        ],
+                        [
+                            "Brownsville                                                                ",
+                            75
+                        ],
+                        [
+                            "East New York                                                              ",
+                            75
+                        ],
+                        [
+                            "Central Harlem North-Polo Grounds                                          ",
+                            75
+                        ]
+                    ],
+                    "average_length": 71.76190476190476
+                }
+            ],
+            "semantic_types": []
+        }
+    ],
+    "key_column_candidates": []
+}
