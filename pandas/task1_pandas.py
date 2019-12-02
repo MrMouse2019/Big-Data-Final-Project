@@ -42,11 +42,12 @@ total_rows = len(df)
 print ('Total Rows: ', total_rows)
 print ('Total Columns: ', len(df.columns))
 
-dataset_name = getFilename(dataset_path)
+dataset_name = filename
 
 json_path = 'task1_pandas/' + dataset_name + '.json'
 if os.path.exists(json_path):
 	print("Dataset: {} has been processed!".format(dataset_name))
+	exit()
 
 output = {}
 output['dataset_name'] = dataset_name
@@ -78,6 +79,8 @@ for col in df.columns:
 	data_types = pd.unique(list(map(type, df[col])))
 	if len(data_types) > 1:
 		print ('Multi-types Alert!!!!')
+		print (col)
+		print (data_types)
 
 	if is_numeric_dtype(df[col].dtype):
 		# 
@@ -85,24 +88,26 @@ for col in df.columns:
 			dict["type"] = "REAL"
 		else:
 			dict["type"] = "INTEGER"
-		dict["count"] = number_non_empty_cells
-		dict["max_value"] = df[col].max()
-		dict["min_value"] = df[col].min()
-		dict["mean"] = df[col].mean()
-		dict["stddev"] = df[col].std()
+		dict["count"] = int(number_non_empty_cells)
+		dict["max_value"] = float(df[col].max())
+		dict["min_value"] = float(df[col].min())
+		dict["mean"] = float(df[col].mean())
+		dict["stddev"] = float(df[col].std())
 	elif is_string_dtype(df[col].dtype):
 		#
 		largest_indices = df[col].str.len().nlargest(n=5).index
+		long_five = []
+		short_five = []
 		for idx in largest_indices:
 			long_five.append(df[col].iloc[idx])
 		smallest_indices = df[col].str.len().nsmallest(n=5).index
 		for idx in smallest_indices:
 			short_five.append(df[col].iloc[idx])
 		dict["type"] = "TEXT"
-		dict["count"] = number_non_empty_cells
+		dict["count"] = int(number_non_empty_cells)
 		dict["shortest_values"] = short_five
 		dict["longest_values"] = long_five
-		dict["average_length"] = df[col].str.len().mean()
+		dict["average_length"] = float(df[col].str.len().mean())
 	else:
 		print ('Other type: ', col)
 
@@ -115,9 +120,7 @@ for col in df.columns:
 	column_output['frequent_values'] = frequent_values
 	column_output['data_type'] = data_type
 	column_output['semantic_types'] = []
-
-
-output['columns'].append(column_output)
+	output['columns'].append(column_output)
 
 with open('task1_pandas/{}.json'.format(dataset_name), 'w') as outfile:
 	json.dump(output, outfile, indent=4)
