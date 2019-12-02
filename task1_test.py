@@ -63,37 +63,32 @@ def count_real(col):
 	return get_number_meta_data(real_vals, dict)
 
 def is_date(val):
-	date_formats = ["%m/%d/%Y %I:%M:%S %p", "%Y %b %d %I:%M:%S %p", "%m/%d/%Y"]
-	for date_format in date_formats:
-		try:
-			datetime_object = datetime.strptime(val, date_format)
-			return True
-		except:
-			pass
+	if len(val) < 6:
+		return False
+	try:
+		parse(val)
+		return True
+	except:
+		pass
 	return False
 
 def to_date(val):
-	date_formats = ["%m/%d/%Y %I:%M:%S %p", "%Y %b %d %I:%M:%S %p", "%m/%d/%Y"]
-	for date_format in date_formats:
-		try:
-			return datetime.strptime(val, date_format)
-		except:
-			pass
+	try:
+		return parse(val)
+	except:
+		pass
 
 def count_date(col):
-	date_vals = col.filter(lambda x: is_date(x)).map(lambda x: to_date(x))
+	date_vals = col.filter(lambda x: is_date(x)).map(lambda x: (to_date(x), x))
 	num_date = date_vals.count()
 	if num_date == 0:
 		return
 	max_date = date_vals.max()
 	min_date = date_vals.min()
-	output_format = "%m/%d/%Y, %H:%M:%S"
-	# print("Number of Type Date: %d, Max: %s, Min: %s"
-	# 	  % (num_date, max_date.strftime(output_format), min_date.strftime(output_format)))
 	dict = {"type": "DATE/TIME"}
 	dict["count"] = num_date
-	dict["max_value"] = max_date.strftime(output_format)
-	dict["min_value"] = min_date.strftime(output_format)
+	dict["max_value"] = max_date[1]
+	dict["min_value"] = min_date[1]
 	return dict
 
 def count_text(col):
