@@ -1,6 +1,3 @@
-import pandas as pd
-import numpy as np
-
 import sys
 
 def process(ds_name):
@@ -8,10 +5,8 @@ def process(ds_name):
 	d_name = ds_name[1:10]
 	col = ds_name[11: -9]
 	d_path = '/user/hm74/NYCOpenData/' + d_name + '.tsv.gz'
-	print (d_name)
-	print (col)
-	print (d_path)
-	print ('')
+	print (d_name, ' ', col, ' ', d_path)
+	'''
 	with open(input, 'r') as file:
 		while True:
 			line = file.readline()
@@ -25,6 +20,7 @@ def process(ds_name):
 				#print(ds_name)
 				#print (line)
 				pass
+	'''
 	return
 
 
