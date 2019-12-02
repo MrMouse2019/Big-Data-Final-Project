@@ -9,7 +9,9 @@ PROGRAM_NAME=task1_pandas.py
 
 while IFS= read -r line; do
         echo "Test dataset: $line ..."
+        /usr/bin/hadoop fs -get "/user/hm74/NYCOpenData${line}"
         python task1_pandas.py $line 
+        rm $line
 done < input
 
 rm input
