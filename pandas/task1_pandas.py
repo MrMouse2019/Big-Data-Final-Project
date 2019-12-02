@@ -83,7 +83,7 @@ for col in df.columns:
 		# 
 		if is_float_dtype(df[col].dtype):
 			dict["type"] = "REAL"
-		else
+		else:
 			dict["type"] = "INTEGER"
 		dict["count"] = number_non_empty_cells
 		dict["max_value"] = df[col].max()
