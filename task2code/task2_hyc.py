@@ -1,8 +1,9 @@
 import re
+import csv
 
+source = '../task2data/columns_labeled.csv'
 if __name__ == "__main__":
-    # Read column file names
-    # Foe each file
-    #   Read column file
-    #   Read corresponding label
-    pass
+    with open(source, newline='') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            print("%d\t%s\t%s"%(len(row), row[0], row[1]))
