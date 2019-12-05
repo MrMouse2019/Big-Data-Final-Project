@@ -19,6 +19,8 @@ def is_int(val):
 		return False
 
 def is_real(val):
+	if is_int(val):
+		return False
 	try:
 		float(val)
 		return True
@@ -26,6 +28,8 @@ def is_real(val):
 		return False
 
 def is_date(val):
+	if pd.isnull(val):
+		return False
 	if len(val) < 6:
 		return False
 	try:
@@ -74,11 +78,14 @@ output['columns'] = []
 # key_column_candidates
 output['key_column_candidates'] = []
 
+import time
 
 for col in df.columns:
 	column_output = {}
 
 	column_output['column_name'] = col
+
+	print (col, time.ctime())
 
 	frequent_values = list(df[col].value_counts().nlargest(n=5).index)
 
