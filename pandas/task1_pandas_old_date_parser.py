@@ -60,11 +60,12 @@ if len(sys.argv) >= 2:
 
 dataset_name = getFilename(dataset_path)
 
-df = pd.read_csv(dataset_path, sep='\t', lineterminator='\n')
+df = pd.read_csv(dataset_path, sep='\t', lineterminator='\n', nrows=0)
+columns = list(df.columns)
 
-total_rows = len(df)
-print ('Total Rows: ', total_rows)
-print ('Total Columns: ', len(df.columns))
+#total_rows = len(df)
+#print ('Total Rows: ', total_rows)
+print ('Total Columns: ', len(columns))
 
 json_path = 'task1_pandas/' + dataset_name + '.json'
 if os.path.exists(json_path):
@@ -80,26 +81,33 @@ output['key_column_candidates'] = []
 
 import time
 
-for col in df.columns:
+total_rows = None
+
+for col in columns:
 	column_output = {}
 
 	column_output['column_name'] = col
 
 	print (col, time.ctime())
 
-	frequent_values = list(df[col].value_counts().nlargest(n=5).index)
+	df = pd.read_csv(dataset_path, sep='\t', lineterminator='\n', usecols=[col], squeeze=True)
+	if total_rows is None:
+		total_rows = len(df)
+		print ('Total Rows: ', total_rows)
 
-	number_empty_cells = len((np.where(pd.isnull(df[col])))[0])
+	frequent_values = list(df.value_counts().nlargest(n=5).index)
+
+	number_empty_cells = len((np.where(pd.isnull(df)))[0])
 	number_non_empty_cells = total_rows - number_empty_cells
-	number_distinct_values = len(pd.unique(df[col]))
+	number_distinct_values = len(pd.unique(df))
 
 	data_type = []
 	
 	# https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.str.isdigit.html
-	int_rows_idx = np.where(df[col].apply(is_int))[0]
-	real_rows_idx = np.where(df[col].apply(is_real))[0]
-	date_rows_idx = np.where(df[col].apply(is_date))[0]
-	text_rows_idx = np.where(df[col].apply(is_text))[0]
+	int_rows_idx = np.where(df.apply(is_int))[0]
+	real_rows_idx = np.where(df.apply(is_real))[0]
+	date_rows_idx = np.where(df.apply(is_date))[0]
+	text_rows_idx = np.where(df.apply(is_text))[0]
 
 	int_rows_cnt = len(int_rows_idx)
 	real_rows_cnt = len(real_rows_idx)
@@ -108,7 +116,7 @@ for col in df.columns:
 
 	# INTEGER
 	if int_rows_cnt:
-		int_rows = df[col].iloc[int_rows_idx].astype('int64')
+		int_rows = df.iloc[int_rows_idx].astype('int64')
 		dict_int = {}
 		dict_int["type"] = "INTEGER"
 		dict_int["count"] = int_rows_cnt
@@ -121,7 +129,7 @@ for col in df.columns:
 	# REAL
 	if real_rows_cnt:
 		dict_real = {}
-		real_rows = df[col].iloc[real_rows_idx].astype('float')
+		real_rows = df.iloc[real_rows_idx].astype('float64')
 		dict_real["type"] = "REAL"
 		dict_real["count"] = real_rows_cnt
 		dict_real["max_value"] = float(real_rows.max())
@@ -141,7 +149,7 @@ for col in df.columns:
 	# DATE/TIME
 	if date_rows_cnt:
 		dict_date = {}
-		date_rows = df[col].iloc[date_rows_idx].astype('datetime64[ns]')
+		date_rows = df.iloc[date_rows_idx].astype('datetime64[ns]')
 		dict_date["type"] = "DATE/TIME"
 		dict_date["count"] = date_rows_cnt
 		dict_date["max_value"] = date_rows.max()
@@ -151,7 +159,7 @@ for col in df.columns:
 	# TEXT
 	if text_rows_cnt:
 		dict_text = {}
-		text_rows_dup = df[col].iloc[text_rows_idx]
+		text_rows_dup = df.iloc[text_rows_idx]
 		text_rows = pd.Series(pd.unique(text_rows_dup))
 
 		largest_idx = text_rows.str.len().nlargest(n=5).index
