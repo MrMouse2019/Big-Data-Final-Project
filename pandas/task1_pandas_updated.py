@@ -162,7 +162,7 @@ for col in columns:
 	if len(df):
 		sample = df.iloc[0]
 	else:
-		print ('Empty column:'， col)
+		print ('Empty column:', col)
 		column_output['number_non_empty_cells'] = number_non_empty_cells
 		column_output['number_empty_cells'] = number_empty_cells
 		column_output['number_distinct_values'] = number_distinct_values
