@@ -158,8 +158,12 @@ for col in columns:
 	number_distinct_values = len(distinct)
 
 	data_type = []
-
-	sample = df.iloc[0]
+	if len(df):
+		sample = df.iloc[0]
+	else:
+		print ('Empty column!')
+		continue
+	
 	if (is_date(sample)):
 		# DATE
 		col_date_format = is_date(sample)
@@ -237,7 +241,7 @@ for col in columns:
 			dict_text["longest_values"] = long_five
 			dict_text["average_length"] = avg_length
 			data_type.append(dict_text)
-	
+
 	column_output['number_non_empty_cells'] = number_non_empty_cells
 
 	column_output['number_empty_cells'] = number_empty_cells
@@ -246,6 +250,8 @@ for col in columns:
 	column_output['frequent_values'] = frequent_values
 	column_output['data_type'] = data_type
 	output['columns'].append(column_output)
+	with open('task1_pandas/{}_temp.json'.format(dataset_name), 'a') as outfile:
+		json.dump(column_output, outfile, indent=4)
 
 
 with open('task1_pandas/{}.json'.format(dataset_name), 'w') as outfile:
