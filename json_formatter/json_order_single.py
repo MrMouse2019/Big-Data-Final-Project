@@ -16,7 +16,7 @@ for column in data['columns']:
     column1 = {}
     column1['column_name'] = column['column_name']
     column1['number_non_empty_cells'] = column['number_non_empty_cells']
-    column1['number_empty_cells'] = column['number_non_empty_cells']
+    column1['number_empty_cells'] = column['number_empty_cells']
     column1['number_distinct_values'] = column['number_distinct_values']
     column1['frequent_values'] = column['frequent_values']
     column1['data_types'] = []

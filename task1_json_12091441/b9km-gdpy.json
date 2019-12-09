@@ -1,0 +1,386 @@
+{
+    "dataset_name": "b9km-gdpy",
+    "columns": [
+        {
+            "column_name": "UNIQUE_KEY",
+            "number_non_empty_cells": 223858,
+            "number_empty_cells": 0,
+            "number_distinct_values": 223781,
+            "frequent_values": [
+                "NYCC26523424",
+                "NYCC02514992",
+                "NYCC02512611",
+                "NYCC04504241",
+                "NYCC29505683"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 223858,
+                    "shortest_values": [
+                        "NYCC02519757",
+                        "NYCC50509295",
+                        "NYCC50509294",
+                        "NYCC50509293",
+                        "NYCC50509292"
+                    ],
+                    "longest_values": [
+                        "NYCC33501196",
+                        "NYCC51503501",
+                        "NYCC25511462",
+                        "NYCC38509940",
+                        "NYCC26528184"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "ACCOUNT",
+            "number_non_empty_cells": 223858,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "NYCC06",
+                "NYCC48",
+                "NYCC50",
+                "NYCC26",
+                "NYCC15"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 223858,
+                    "shortest_values": [
+                        "NYCC02",
+                        "NYCC49",
+                        "NYCC39",
+                        "NYCC33",
+                        "NYCC13"
+                    ],
+                    "longest_values": [
+                        "NYCC12",
+                        "NYCC51",
+                        "NYCC15",
+                        "NYCC16",
+                        "NYCC03"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "OPENDATE",
+            "number_non_empty_cells": 223858,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1691,
+            "frequent_values": [
+                "12/29/2016",
+                "12/30/2015",
+                "07/12/2017",
+                "07/06/2016",
+                "12/27/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 223858,
+                    "max_value": "2019-09-26 00:00:00",
+                    "min_value": "2015-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "COMPLAINT_TYPE",
+            "number_non_empty_cells": 217182,
+            "number_empty_cells": 6676,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "Housing and Buildings",
+                "Transportation",
+                "Finance",
+                "Immigration",
+                "General Welfare"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 217182,
+                    "shortest_values": [
+                        "DWI",
+                        "DHS",
+                        "EVNT",
+                        "SCRIE",
+                        "Aging"
+                    ],
+                    "longest_values": [
+                        "NYPD - NEW YORK POLICE DE",
+                        "FIRE AND EMERGENCY MANAGE",
+                        "Please choose an issue...",
+                        "OVERSIGHT AND INVESTIGATI",
+                        "@getxlate.Udf_Code_Genera"
+                    ],
+                    "average_length": 14.296705067639122
+                }
+            ]
+        },
+        {
+            "column_name": "DESCRIPTOR",
+            "number_non_empty_cells": 210859,
+            "number_empty_cells": 12999,
+            "number_distinct_values": 921,
+            "frequent_values": [
+                "U.S. Citizenship",
+                "Tax Preparation Assi",
+                "Seeking an affordable housing/apartment",
+                "Street Resurfacing",
+                "Lease Issue"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 123,
+                    "min_value": 1,
+                    "mean": 27.4,
+                    "stddev": 47.82718892011112
+                },
+                {
+                    "type": "TEXT",
+                    "count": 210854,
+                    "shortest_values": [
+                        "MH",
+                        "FS",
+                        "DA",
+                        "DHS",
+                        "BID"
+                    ],
+                    "longest_values": [
+                        "HOUSING DEVELOPMENT FUND CORPORATION COOPERATIVES (HDFC)",
+                        "FDNY Minority and Women Recruitment and Retention",
+                        "DACA - Deferred Action for Childhood Arrivals",
+                        "Request for Housing Related Legal Assistance",
+                        "LACK OF PARKING AND ILLEGAL STREET MECHANICS"
+                    ],
+                    "average_length": 16.29174215333833
+                }
+            ]
+        },
+        {
+            "column_name": "ZIP",
+            "number_non_empty_cells": 192207,
+            "number_empty_cells": 31651,
+            "number_distinct_values": 1066,
+            "frequent_values": [
+                "10024",
+                "10314",
+                "10306",
+                "11229",
+                "11235"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 191993,
+                    "max_value": 99163,
+                    "min_value": -1136,
+                    "mean": 10789.86884417661,
+                    "stddev": 1974.2445475645677
+                },
+                {
+                    "type": "TEXT",
+                    "count": 214,
+                    "shortest_values": [
+                        "x",
+                        "-",
+                        "`",
+                        "NY",
+                        "ny"
+                    ],
+                    "longest_values": [
+                        "r\u00c3\u00a9pl",
+                        "KicRf",
+                        "Busin",
+                        "billi",
+                        "air m"
+                    ],
+                    "average_length": 3.5514018691588785
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 187088,
+            "number_empty_cells": 36770,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Queens",
+                "Staten Island",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 187088,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.158919866586848
+                }
+            ]
+        },
+        {
+            "column_name": "CITY",
+            "number_non_empty_cells": 202694,
+            "number_empty_cells": 21164,
+            "number_distinct_values": 1085,
+            "frequent_values": [
+                "Brooklyn",
+                "New York",
+                "Staten Island",
+                "Bronx",
+                "Woodside"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 166,
+                    "max_value": 3474267166,
+                    "min_value": 0,
+                    "mean": 46572927.34939759,
+                    "stddev": 353646612.96558106
+                },
+                {
+                    "type": "TEXT",
+                    "count": 202528,
+                    "shortest_values": [
+                        "N",
+                        "X",
+                        "Pa",
+                        "NY",
+                        "Ny"
+                    ],
+                    "longest_values": [
+                        "let us prove we can get you new clients and sales",
+                        "Complimentary tool to take control of your social",
+                        "Nike Air Max Dam Online billigt rea sverige",
+                        "Billige Air Jordan Authentic Wholesale True",
+                        "Replique Montre Cartier Tank Americaine"
+                    ],
+                    "average_length": 8.900482896192132
+                }
+            ]
+        },
+        {
+            "column_name": "COUNCIL_DIST",
+            "number_non_empty_cells": 190374,
+            "number_empty_cells": 33484,
+            "number_distinct_values": 141,
+            "frequent_values": [
+                "NYCC06",
+                "NYCC50",
+                "NYCC26",
+                "NYCC48",
+                "NYCC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 190374,
+                    "shortest_values": [
+                        "NYCC",
+                        "NYCC9",
+                        "NYCC7",
+                        "NYCC5",
+                        "NYCC4"
+                    ],
+                    "longest_values": [
+                        "NYCC060",
+                        "NYCC062",
+                        "NYCC034",
+                        "NYCC051",
+                        "NYCC001"
+                    ],
+                    "average_length": 5.9002752476703755
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITY_BOARD",
+            "number_non_empty_cells": 215846,
+            "number_empty_cells": 8012,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                " ",
+                "07 Manhattan",
+                "02 Staten Island",
+                "02 Queens",
+                "15 Brooklyn"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 51,
+                    "max_value": 230458,
+                    "min_value": 1,
+                    "mean": 77918.62745098039,
+                    "stddev": 91420.33578937237
+                },
+                {
+                    "type": "TEXT",
+                    "count": 215795,
+                    "shortest_values": [
+                        " ",
+                        " Bronx",
+                        " Queens",
+                        "03 Bronx",
+                        "06 Bronx"
+                    ],
+                    "longest_values": [
+                        "02 Staten Island",
+                        "95 Staten Island",
+                        "01 Staten Island",
+                        "03 Staten Island",
+                        "3 Staten Island"
+                    ],
+                    "average_length": 9.50005329131815
+                }
+            ]
+        },
+        {
+            "column_name": "CLOSEDATE",
+            "number_non_empty_cells": 201695,
+            "number_empty_cells": 22163,
+            "number_distinct_values": 1355,
+            "frequent_values": [
+                "07/16/2019",
+                "06/25/2019",
+                "01/07/2016",
+                "04/29/2015",
+                "08/11/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 201695,
+                    "max_value": "2019-11-26 00:00:00",
+                    "min_value": "2015-01-02 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

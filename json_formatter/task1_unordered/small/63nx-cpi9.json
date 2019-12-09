@@ -1,0 +1,293 @@
+{
+    "columns": [
+        {
+            "data_type": [
+                {
+                    "count": 238383, 
+                    "max_value": "2018-05-25 00:00:00", 
+                    "min_value": "2018-05-25 00:00:00", 
+                    "type": "DATE/TIME"
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 238383, 
+            "frequent_values": [
+                "05/25/2018"
+            ], 
+            "number_distinct_values": 1, 
+            "column_name": "Extract Run Date"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 238383, 
+                    "max_value": 238383, 
+                    "min_value": 1, 
+                    "stddev": 68815.2446095098, 
+                    "type": "INTEGER", 
+                    "mean": 119192.0
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 238383, 
+            "frequent_values": [
+                2047, 
+                23134, 
+                129642, 
+                123497, 
+                125544
+            ], 
+            "number_distinct_values": 238383, 
+            "column_name": "Randomized Id"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 238383, 
+                    "max_value": 2017, 
+                    "min_value": 2000, 
+                    "stddev": 4.610985219753855, 
+                    "type": "INTEGER", 
+                    "mean": 2008.731402826544
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 238383, 
+            "frequent_values": [
+                2009, 
+                2008, 
+                2007, 
+                2010, 
+                2006
+            ], 
+            "number_distinct_values": 18, 
+            "column_name": "CCRB Received Year"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 237966, 
+                    "max_value": 1995, 
+                    "min_value": -361, 
+                    "stddev": 104.12886188419769, 
+                    "type": "INTEGER", 
+                    "mean": 26.41596278459948
+                }
+            ], 
+            "number_empty_cells": 417, 
+            "number_non_empty_cells": 237966, 
+            "frequent_values": [
+                0.0, 
+                1.0, 
+                2.0, 
+                5.0, 
+                3.0
+            ], 
+            "number_distinct_values": 1405, 
+            "column_name": "Days Between Incident Date and Received Date"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 238382, 
+                    "shortest_values": [
+                        "IAB", 
+                        "OCD", 
+                        "CCRB", 
+                        "REFERRAL"
+                    ], 
+                    "average_length": 3.5366470622781923, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "REFERRAL", 
+                        "CCRB", 
+                        "OCD", 
+                        "IAB"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 1, 
+            "number_non_empty_cells": 238382, 
+            "frequent_values": [
+                "OCD", 
+                "CCRB", 
+                "IAB", 
+                "REFERRAL"
+            ], 
+            "number_distinct_values": 4, 
+            "column_name": "Case Type"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 238382, 
+                    "shortest_values": [
+                        "DOI", 
+                        "IAB", 
+                        "CCRB", 
+                        "Other", 
+                        "IG NYPD"
+                    ], 
+                    "average_length": 4.078009245664521, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Comm. to Combat Police Corruption", 
+                        "Office of the Borough President", 
+                        "Office of City Council member", 
+                        "Police Commissioner's Office", 
+                        "NY State Assembly Member"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 1, 
+            "number_non_empty_cells": 238382, 
+            "frequent_values": [
+                "CCRB", 
+                "IAB", 
+                "Precinct", 
+                "Other NYPD unit", 
+                "Other City agency"
+            ], 
+            "number_distinct_values": 17, 
+            "column_name": "Complaint Received Place"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 238283, 
+                    "shortest_values": [
+                        "Fax", 
+                        "Mail", 
+                        "Phone", 
+                        "E-mail", 
+                        "In-person"
+                    ], 
+                    "average_length": 9.552955938946546, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Call Processing System", 
+                        "On-line website", 
+                        "Social Media", 
+                        "In-person", 
+                        "E-mail"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 100, 
+            "number_non_empty_cells": 238283, 
+            "frequent_values": [
+                "Phone", 
+                "Call Processing System", 
+                "On-line website", 
+                "In-person", 
+                "Mail"
+            ], 
+            "number_distinct_values": 8, 
+            "column_name": "Complaint Received Mode"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 233340, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Queens", 
+                        "Brooklyn", 
+                        "Manhattan", 
+                        "Outside NYC"
+                    ], 
+                    "average_length": 7.546198680037713, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Staten Island", 
+                        "Outside NYC", 
+                        "Manhattan", 
+                        "Brooklyn", 
+                        "Queens"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 5043, 
+            "number_non_empty_cells": 233340, 
+            "frequent_values": [
+                "Brooklyn", 
+                "Manhattan", 
+                "Bronx", 
+                "Queens", 
+                "Staten Island"
+            ], 
+            "number_distinct_values": 6, 
+            "column_name": "Borough Of Incident"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 238383, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Other", 
+                        "Queens South", 
+                        "Queens North", 
+                        "Staten Island"
+                    ], 
+                    "average_length": 11.361921781335079, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Manhattan South", 
+                        "Manhattan North", 
+                        "Brooklyn South", 
+                        "Brooklyn North", 
+                        "Staten Island"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 238383, 
+            "frequent_values": [
+                "Bronx", 
+                "Brooklyn North", 
+                "Brooklyn South", 
+                "Manhattan North", 
+                "Manhattan South"
+            ], 
+            "number_distinct_values": 9, 
+            "column_name": "Patrol Borough Of Incident"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 227075, 
+                    "shortest_values": [
+                        "Other", 
+                        "Others", 
+                        "Dispute", 
+                        "No contact", 
+                        "Aided case"
+                    ], 
+                    "average_length": 23.001924474292636, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "C/V intervened on behalf of/observed encounter w/3rd party", 
+                        "PD suspected C/V of violation/crime - subway", 
+                        "PD suspected C/V of violation/crime - street", 
+                        "PD suspected C/V of violation/crime - bldg", 
+                        "PD suspected C/V of violation/crime - auto"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 11308, 
+            "number_non_empty_cells": 227075, 
+            "frequent_values": [
+                "Other", 
+                "PD suspected C/V of violation/crime - street", 
+                "Moving violation", 
+                "Parking violation", 
+                "C/V requested investigation of crime"
+            ], 
+            "number_distinct_values": 50, 
+            "column_name": "Reason For Initial Contact"
+        }
+    ], 
+    "dataset_name": "63nx-cpi9", 
+    "key_column_candidates": []
+}

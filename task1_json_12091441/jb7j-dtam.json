@@ -1,0 +1,255 @@
+{
+    "dataset_name": "jb7j-dtam",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 1097,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "2007",
+                "2011",
+                "2010",
+                "2008",
+                "2014"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1094,
+                    "max_value": 2014,
+                    "min_value": 2007,
+                    "mean": 2010.4771480804388,
+                    "stddev": 2.2923704435512007
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3,
+                    "shortest_values": [
+                        "Data downloaded: 15MAY17:16:08",
+                        "Source: Bureau of Vital Statistics",
+                        "Rates based on small numbers (RSE > 30) as well as aggregate counts less than 5 have been suppressed in downloaded data"
+                    ],
+                    "longest_values": [
+                        "Rates based on small numbers (RSE > 30) as well as aggregate counts less than 5 have been suppressed in downloaded data",
+                        "Source: Bureau of Vital Statistics",
+                        "Data downloaded: 15MAY17:16:08"
+                    ],
+                    "average_length": 61.0
+                }
+            ]
+        },
+        {
+            "column_name": "Leading Cause",
+            "number_non_empty_cells": 1095,
+            "number_empty_cells": 2,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "Influenza (Flu) and Pneumonia (J09-J18)",
+                "Malignant Neoplasms (Cancer: C00-C97)",
+                "All Other Causes",
+                "Diseases of Heart (I00-I09, I11, I13, I20-I51)",
+                "Diabetes Mellitus (E10-E14)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1095,
+                    "shortest_values": [
+                        "All Other Causes",
+                        "Septicemia (A40-A41)",
+                        "Atherosclerosis (I70)",
+                        "Tuberculosis (A16-A19)",
+                        "Viral Hepatitis (B15-B19)"
+                    ],
+                    "longest_values": [
+                        "Mental and Behavioral Disorders due to Accidental Poisoning and Other Psychoactive Substance Use (F11-F16, F18-F19, X40-X42, X44)",
+                        "Congenital Malformations, Deformations, and Chromosomal Abnormalities (Q00-Q99)",
+                        "Nephritis, Nephrotic Syndrome and Nephrosis (N00-N07, N17-N19, N25-N27)",
+                        "Accidents Except Drug Poisoning (V01-X39, X43, X45-X59, Y85-Y86)",
+                        "Certain Conditions originating in the Perinatal Period (P00-P96)"
+                    ],
+                    "average_length": 44.43835616438356
+                }
+            ]
+        },
+        {
+            "column_name": "Sex",
+            "number_non_empty_cells": 1094,
+            "number_empty_cells": 3,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Female",
+                "Male"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1094,
+                    "shortest_values": [
+                        "Male",
+                        "Female"
+                    ],
+                    "longest_values": [
+                        "Female",
+                        "Male"
+                    ],
+                    "average_length": 5.012797074954296
+                }
+            ]
+        },
+        {
+            "column_name": "Race Ethnicity",
+            "number_non_empty_cells": 1094,
+            "number_empty_cells": 3,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Not Stated/Unknown",
+                "Other Race/ Ethnicity",
+                "Black Non-Hispanic",
+                "Asian and Pacific Islander",
+                "Hispanic"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1094,
+                    "shortest_values": [
+                        "Hispanic",
+                        "White Non-Hispanic",
+                        "Black Non-Hispanic",
+                        "Not Stated/Unknown",
+                        "Other Race/ Ethnicity"
+                    ],
+                    "longest_values": [
+                        "Asian and Pacific Islander",
+                        "Other Race/ Ethnicity",
+                        "Not Stated/Unknown",
+                        "Black Non-Hispanic",
+                        "White Non-Hispanic"
+                    ],
+                    "average_length": 18.186471663619745
+                }
+            ]
+        },
+        {
+            "column_name": "Deaths",
+            "number_non_empty_cells": 1094,
+            "number_empty_cells": 3,
+            "number_distinct_values": 465,
+            "frequent_values": [
+                ".",
+                "5",
+                "8",
+                "6",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 956,
+                    "max_value": 7050,
+                    "min_value": 5,
+                    "mean": 444.55857740585776,
+                    "stddev": 879.6474151730171
+                },
+                {
+                    "type": "TEXT",
+                    "count": 138,
+                    "shortest_values": [
+                        "."
+                    ],
+                    "longest_values": [
+                        "."
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Death Rate",
+            "number_non_empty_cells": 1094,
+            "number_empty_cells": 3,
+            "number_distinct_values": 442,
+            "frequent_values": [
+                ".",
+                "13",
+                "17.3",
+                "18",
+                "5.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 77,
+                    "max_value": 421,
+                    "min_value": 3,
+                    "mean": 53.84415584415584,
+                    "stddev": 87.63947176529754
+                },
+                {
+                    "type": "REAL",
+                    "count": 631,
+                    "max_value": 491.4,
+                    "min_value": 2.4,
+                    "mean": 53.38938193343897,
+                    "stddev": 74.99378356549975
+                },
+                {
+                    "type": "TEXT",
+                    "count": 386,
+                    "shortest_values": [
+                        "."
+                    ],
+                    "longest_values": [
+                        "."
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Age Adjusted Death Rate",
+            "number_non_empty_cells": 1094,
+            "number_empty_cells": 3,
+            "number_distinct_values": 427,
+            "frequent_values": [
+                ".",
+                "17.9",
+                "21.4",
+                "6.3",
+                "8.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 60,
+                    "max_value": 277,
+                    "min_value": 3,
+                    "mean": 51.3,
+                    "stddev": 61.77575036641267
+                },
+                {
+                    "type": "REAL",
+                    "count": 648,
+                    "max_value": 350.7,
+                    "min_value": 2.5,
+                    "mean": 53.662500000000016,
+                    "stddev": 69.68382385254819
+                },
+                {
+                    "type": "TEXT",
+                    "count": 386,
+                    "shortest_values": [
+                        "."
+                    ],
+                    "longest_values": [
+                        "."
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

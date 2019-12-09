@@ -1,0 +1,651 @@
+{
+    "columns": [
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Queens", 
+                        "Brooklyn", 
+                        "Manhattan", 
+                        "District 79"
+                    ], 
+                    "average_length": 8.357615894039736, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Staten Island", 
+                        "District 79", 
+                        "Manhattan", 
+                        "Brooklyn", 
+                        "Queens"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                "Queens", 
+                "Brooklyn", 
+                "Staten Island", 
+                "Manhattan", 
+                "Bronx"
+            ], 
+            "number_distinct_values": 6, 
+            "column_name": "Borough"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "shortest_values": [
+                        "Econ Disadv", 
+                        "Not Econ Disadv"
+                    ], 
+                    "average_length": 13.0, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Not Econ Disadv", 
+                        "Econ Disadv"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                "Econ Disadv", 
+                "Not Econ Disadv"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "Category"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 2014, 
+                    "min_value": 2001, 
+                    "stddev": 3.7107964222356515, 
+                    "type": "INTEGER", 
+                    "mean": 2007.5562913907286
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                2006, 
+                2012, 
+                2011, 
+                2010, 
+                2009
+            ], 
+            "number_distinct_values": 14, 
+            "column_name": "Cohort Year"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "shortest_values": [
+                        "4 year June", 
+                        "5 year June", 
+                        "6 year June", 
+                        "4 year August", 
+                        "5 year August"
+                    ], 
+                    "average_length": 11.609271523178808, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "5 year August", 
+                        "4 year August", 
+                        "6 year June", 
+                        "5 year June", 
+                        "4 year June"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                "4 year June", 
+                "5 year June", 
+                "6 year June", 
+                "4 year August", 
+                "5 year August"
+            ], 
+            "number_distinct_values": 5, 
+            "column_name": "Cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 15906, 
+                    "min_value": 5, 
+                    "stddev": 4288.737526411061, 
+                    "type": "INTEGER", 
+                    "mean": 7192.73178807947
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                10838, 
+                6518, 
+                1102, 
+                2336, 
+                10182
+            ], 
+            "number_distinct_values": 352, 
+            "column_name": "Cohort #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 12170, 
+                    "min_value": 0, 
+                    "stddev": 3137.276945776055, 
+                    "type": "INTEGER", 
+                    "mean": 4894.902317880795
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                170, 
+                55, 
+                17, 
+                487
+            ], 
+            "number_distinct_values": 569, 
+            "column_name": "Total Grads #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 88, 
+                    "min_value": 0, 
+                    "stddev": 15.31580413852979, 
+                    "type": "INTEGER", 
+                    "mean": 65.43708609271523
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                69.5, 
+                61.5, 
+                73.4, 
+                66.5, 
+                71.7
+            ], 
+            "number_distinct_values": 321, 
+            "column_name": "Total Grads % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 11210, 
+                    "min_value": 0, 
+                    "stddev": 2831.0569150437154, 
+                    "type": "INTEGER", 
+                    "mean": 4128.64238410596
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                1, 
+                2, 
+                27, 
+                83
+            ], 
+            "number_distinct_values": 570, 
+            "column_name": "Total Regents #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 81, 
+                    "min_value": 0, 
+                    "stddev": 17.696053554107742, 
+                    "type": "INTEGER", 
+                    "mean": 54.890728476821195
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                58.4, 
+                54.1, 
+                66.5, 
+                69.1, 
+                61.9
+            ], 
+            "number_distinct_values": 353, 
+            "column_name": "Total Regents % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 600, 
+                    "max_value": 100, 
+                    "min_value": 4, 
+                    "stddev": 16.058472236036504, 
+                    "type": "INTEGER", 
+                    "mean": 81.31166666666667
+                }
+            ], 
+            "number_empty_cells": 4, 
+            "number_non_empty_cells": 600, 
+            "frequent_values": [
+                95.1, 
+                94.1, 
+                95.4, 
+                95.3, 
+                93.9
+            ], 
+            "number_distinct_values": 287, 
+            "column_name": "Total Regents % of grads"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 3573, 
+                    "min_value": 0, 
+                    "stddev": 765.3165380223184, 
+                    "type": "INTEGER", 
+                    "mean": 1224.1026490066224
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                368, 
+                1247, 
+                346, 
+                233
+            ], 
+            "number_distinct_values": 370, 
+            "column_name": "Advanced Regents #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 37, 
+                    "min_value": 0, 
+                    "stddev": 6.95724815846837, 
+                    "type": "INTEGER", 
+                    "mean": 17.137417218543046
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0.0, 
+                20.6, 
+                15.8, 
+                15.9, 
+                17.0
+            ], 
+            "number_distinct_values": 183, 
+            "column_name": "Advanced Regents % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 600, 
+                    "max_value": 48, 
+                    "min_value": 0, 
+                    "stddev": 8.629499631432227, 
+                    "type": "INTEGER", 
+                    "mean": 25.191666666666666
+                }
+            ], 
+            "number_empty_cells": 4, 
+            "number_non_empty_cells": 600, 
+            "frequent_values": [
+                0.0, 
+                25.7, 
+                24.8, 
+                21.8, 
+                29.8
+            ], 
+            "number_distinct_values": 235, 
+            "column_name": "Advanced Regents % of grads"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 8084, 
+                    "min_value": 0, 
+                    "stddev": 2156.843211536156, 
+                    "type": "INTEGER", 
+                    "mean": 2904.5397350993376
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                83, 
+                148, 
+                15, 
+                9
+            ], 
+            "number_distinct_values": 557, 
+            "column_name": "Regents without Advanced #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 59, 
+                    "min_value": 0, 
+                    "stddev": 13.137458322314957, 
+                    "type": "INTEGER", 
+                    "mean": 37.34271523178808
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                45.5, 
+                49.0, 
+                26.5, 
+                46.7, 
+                47.4
+            ], 
+            "number_distinct_values": 323, 
+            "column_name": "Regents without Advanced % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 600, 
+                    "max_value": 100, 
+                    "min_value": 4, 
+                    "stddev": 13.721582351253165, 
+                    "type": "INTEGER", 
+                    "mean": 55.64666666666667
+                }
+            ], 
+            "number_empty_cells": 4, 
+            "number_non_empty_cells": 600, 
+            "frequent_values": [
+                67.1, 
+                43.6, 
+                57.6, 
+                67.3, 
+                63.6
+            ], 
+            "number_distinct_values": 302, 
+            "column_name": "Regents without Advanced % of grads"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 3326, 
+                    "min_value": 0, 
+                    "stddev": 782.9416262913264, 
+                    "type": "INTEGER", 
+                    "mean": 767.6440397350993
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                120, 
+                134, 
+                203, 
+                287
+            ], 
+            "number_distinct_values": 471, 
+            "column_name": "Local #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 35, 
+                    "min_value": 0, 
+                    "stddev": 7.573058885908301, 
+                    "type": "INTEGER", 
+                    "mean": 10.1341059602649
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                6.7, 
+                5.6, 
+                3.9, 
+                3.7, 
+                4.6
+            ], 
+            "number_distinct_values": 234, 
+            "column_name": "Local % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 600, 
+                    "max_value": 96, 
+                    "min_value": 0, 
+                    "stddev": 16.161062172875738, 
+                    "type": "INTEGER", 
+                    "mean": 17.841666666666665
+                }
+            ], 
+            "number_empty_cells": 4, 
+            "number_non_empty_cells": 600, 
+            "frequent_values": [
+                4.9, 
+                5.9, 
+                4.6, 
+                4.7, 
+                3.8
+            ], 
+            "number_distinct_values": 295, 
+            "column_name": "Local % of grads"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 4382, 
+                    "min_value": 1, 
+                    "stddev": 941.396851167681, 
+                    "type": "INTEGER", 
+                    "mean": 984.5082781456954
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                415, 
+                135, 
+                263, 
+                6, 
+                215
+            ], 
+            "number_distinct_values": 512, 
+            "column_name": "Still Enrolled #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 53, 
+                    "min_value": 1, 
+                    "stddev": 8.867718444995791, 
+                    "type": "INTEGER", 
+                    "mean": 13.367549668874172
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                9.0, 
+                6.7, 
+                10.0, 
+                20.0, 
+                19.7
+            ], 
+            "number_distinct_values": 246, 
+            "column_name": "Still Enrolled % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 4244, 
+                    "min_value": 4, 
+                    "stddev": 732.1220099085592, 
+                    "type": "INTEGER", 
+                    "mean": 1077.0049668874171
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                170, 
+                462, 
+                713, 
+                6, 
+                397
+            ], 
+            "number_distinct_values": 462, 
+            "column_name": "Dropout #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 80, 
+                    "min_value": 3, 
+                    "stddev": 11.732848676247984, 
+                    "type": "INTEGER", 
+                    "mean": 16.435430463576157
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                12.7, 
+                9.0, 
+                8.5, 
+                8.9, 
+                12.4
+            ], 
+            "number_distinct_values": 212, 
+            "column_name": "Dropout % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 618, 
+                    "min_value": 0, 
+                    "stddev": 121.50240470612363, 
+                    "type": "INTEGER", 
+                    "mean": 135.3046357615894
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                24, 
+                56, 
+                60, 
+                51
+            ], 
+            "number_distinct_values": 250, 
+            "column_name": "SACC (IEP Diploma) #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 7, 
+                    "min_value": 0, 
+                    "stddev": 1.2510543336514224, 
+                    "type": "INTEGER", 
+                    "mean": 1.4221854304635762
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                1.1, 
+                1.0, 
+                1.4, 
+                0.9, 
+                1.2
+            ], 
+            "number_distinct_values": 56, 
+            "column_name": "SACC (IEP Diploma)  % of cohort"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 459, 
+                    "min_value": 0, 
+                    "stddev": 69.22980435267787, 
+                    "type": "INTEGER", 
+                    "mean": 88.73178807947019
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0, 
+                48, 
+                60, 
+                3, 
+                41
+            ], 
+            "number_distinct_values": 188, 
+            "column_name": "TASC (GED) #"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 604, 
+                    "max_value": 6, 
+                    "min_value": 0, 
+                    "stddev": 1.1031448381043298, 
+                    "type": "INTEGER", 
+                    "mean": 0.9188741721854304
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 604, 
+            "frequent_values": [
+                0.8, 
+                0.9, 
+                1.2, 
+                1.3, 
+                0.7
+            ], 
+            "number_distinct_values": 51, 
+            "column_name": "TASC (GED) % of cohort"
+        }
+    ], 
+    "dataset_name": "268n-a7em", 
+    "key_column_candidates": []
+}

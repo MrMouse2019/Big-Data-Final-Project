@@ -1,0 +1,167 @@
+{
+    "dataset_name": "x2s6-6d2j",
+    "columns": [
+        {
+            "column_name": "  Site",
+            "number_non_empty_cells": 970,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "DEL18DT",
+                "CATLEFF",
+                "DEL18",
+                "1CR21",
+                "CRO1B"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 970,
+                    "shortest_values": [
+                        "CRO1B",
+                        "CROGH",
+                        "CRO1T",
+                        "1CR21",
+                        "DEL18"
+                    ],
+                    "longest_values": [
+                        "CATLEFF",
+                        "DEL18DT",
+                        "DEL18",
+                        "1CR21",
+                        "CRO1T"
+                    ],
+                    "average_length": 6.117525773195876
+                }
+            ]
+        },
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 970,
+            "number_empty_cells": 0,
+            "number_distinct_values": 522,
+            "frequent_values": [
+                "03/19/2012",
+                "02/16/2016",
+                "08/29/2011",
+                "11/22/2010",
+                "11/08/2010"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 970,
+                    "max_value": "2019-09-23 00:00:00",
+                    "min_value": "2010-03-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Giardia / 50L",
+            "number_non_empty_cells": 970,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 955,
+                    "max_value": 11,
+                    "min_value": 0,
+                    "mean": 1.1602094240837697,
+                    "stddev": 1.5587913018212785
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15,
+                    "shortest_values": [
+                        "Error",
+                        "Cancel"
+                    ],
+                    "longest_values": [
+                        "Cancel",
+                        "Error"
+                    ],
+                    "average_length": 5.933333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Cryptosporidium / 50L",
+            "number_non_empty_cells": 970,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "0",
+                "1",
+                "Cancel",
+                "2",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 955,
+                    "max_value": 241,
+                    "min_value": 0,
+                    "mean": 0.31413612565445026,
+                    "stddev": 7.798359282553926
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15,
+                    "shortest_values": [
+                        "Error",
+                        "Cancel"
+                    ],
+                    "longest_values": [
+                        "Cancel",
+                        "Error"
+                    ],
+                    "average_length": 5.933333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Qualifiers",
+            "number_non_empty_cells": 69,
+            "number_empty_cells": 901,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "The spike analysis was not within the control limits.",
+                "Heat Dissociation",
+                "The IR gun was out of calibration when the temps were taken. However, the IR gun is checked daily against a NIST calibrated thermometer and was in range.",
+                "Temperature Data failed QC check against NIST thermometer during the annual NIST temperature check testing outside the 0.5\u00b0 limit.",
+                "The thermometer used for this reading was outside of its annual check. 08062009A expired on 3/31/2011"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 69,
+                    "shortest_values": [
+                        "Heat Dissocation",
+                        "Heat Dissociation",
+                        "Expired reagent used.",
+                        "Data recording error.",
+                        "Heat dissociation used"
+                    ],
+                    "longest_values": [
+                        "This sample was not analyzed within the acceptable holding time.  YSI was forgotten and sent out later that day to retrieve temperature.  Only the continuous monitoring equipment was available during sampling.",
+                        "The IR gun was out of calibration when the temps were taken. However, the IR gun is checked daily against a NIST calibrated thermometer and was in range.",
+                        "Dup not preformed correctly, Sample did not exhibit cooling during transport.  Sample was received to Kensico Lab with a temp blank reading 7.7 C. .",
+                        "Temperature Data failed QC check against NIST thermometer during the annual NIST temperature check testing outside the 0.5\u00b0 limit.",
+                        "Analytical procedure error.  discarded sample prior to analysis., Bottle lost.  Disposed of prior to analysis."
+                    ],
+                    "average_length": 73.97101449275362
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

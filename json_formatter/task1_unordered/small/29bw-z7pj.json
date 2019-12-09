@@ -1,0 +1,1426 @@
+{
+    "columns": [
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 1184744, 
+                    "min_value": 592373, 
+                    "stddev": 171003.0668292588, 
+                    "type": "INTEGER", 
+                    "mean": 888558.5
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                1050623, 
+                990537, 
+                966013, 
+                963964, 
+                953723
+            ], 
+            "number_distinct_values": 592372, 
+            "column_name": "OBJECTID"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 2006, 
+                    "min_value": 0, 
+                    "stddev": 215.82754974283287, 
+                    "type": "INTEGER", 
+                    "mean": 1981.8435560762493
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                2005, 
+                2006, 
+                0
+            ], 
+            "number_distinct_values": 3, 
+            "column_name": "cen_year"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 2100, 
+                    "min_value": -1, 
+                    "stddev": 10.316474971973337, 
+                    "type": "INTEGER", 
+                    "mean": 12.833504959721257
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                3, 
+                4, 
+                5, 
+                6, 
+                8
+            ], 
+            "number_distinct_values": 146, 
+            "column_name": "tree_dbh"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "NL NL", 
+                        "99-06", 
+                        "#NAME?", 
+                        "908 48", 
+                        "888 ron"
+                    ], 
+                    "average_length": 17.839075783460395, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "NOT LISTED queens botanical gardens entrance", 
+                        "havemeker play CROSS BX SERVICE ROAD NORTH", 
+                        "NOT LISTED TOTTENVILLE HIGHSCHOOL(north", 
+                        "botanical; gard COLLEGE POINT BOULEVARD", 
+                        "no buildings trees from 12 to 13 street"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "2605 FLATBUSH AVENUE EXTENSION", 
+                "201 EDWARD CURRY AVENUE", 
+                "138-84 63 AVENUE", 
+                "333 WEST HOUSTON STREET", 
+                "181 CENTRAL PARK WEST"
+            ], 
+            "number_distinct_values": 335628, 
+            "column_name": "address"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "Side", 
+                        "Rear", 
+                        "Front", 
+                        "Across", 
+                        "Median"
+                    ], 
+                    "average_length": 5.1399272754282785, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Side/Median", 
+                        "Side/Across", 
+                        "Adjacent", 
+                        "Assigned", 
+                        "Median"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "Front", 
+                "Side", 
+                "Across", 
+                "Median", 
+                "Adjacent"
+            ], 
+            "number_distinct_values": 9, 
+            "column_name": "tree_loc"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        " ", 
+                        "Lawn", 
+                        "Sidewalk Pit", 
+                        "Continuous Pit"
+                    ], 
+                    "average_length": 9.05020662691687, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Continuous Pit", 
+                        "Sidewalk Pit", 
+                        "Lawn", 
+                        " "
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "Sidewalk Pit", 
+                "Lawn", 
+                "Continuous Pit", 
+                " "
+            ], 
+            "number_distinct_values": 4, 
+            "column_name": "pit_type"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "Level", 
+                        "Above", 
+                        "Below"
+                    ], 
+                    "average_length": 5.0, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Below", 
+                        "Above", 
+                        "Level"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "Level", 
+                "Above", 
+                "Below"
+            ], 
+            "number_distinct_values": 3, 
+            "column_name": "soil_lvl"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "Good", 
+                        "Poor", 
+                        "Dead", 
+                        "Excellent"
+                    ], 
+                    "average_length": 5.195676027901387, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Excellent", 
+                        "Dead", 
+                        "Poor", 
+                        "Good"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "Good", 
+                "Excellent", 
+                "Poor", 
+                "Dead"
+            ], 
+            "number_distinct_values": 4, 
+            "column_name": "status"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "CARYA", 
+                        "MORUS", 
+                        "LARIX", 
+                        "SALIX", 
+                        "CORNUS"
+                    ], 
+                    "average_length": 16.887683752776972, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "ACER PLATANOIDES          CRIMSON KING", 
+                        "PRUNUS VIRGINIANA           SHUBERT", 
+                        "PRUNUS SERRULATA            KWANZAN", 
+                        "METASEQUOIA GLYPTOSTROBOIDES", 
+                        "CERCIDIPHYLLUM JAPONICUM"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "PLATANUS ACERIFOLIA", 
+                "ACER PLATANOIDES", 
+                "PYRUS CALLERYANA", 
+                "GLEDITSIA TRIACANTHOS", 
+                "QUERCUS PALUSTRIS"
+            ], 
+            "number_distinct_values": 169, 
+            "column_name": "spc_latin"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "PECAN", 
+                        "APPLE", 
+                        "LARCH", 
+                        "GINKGO", 
+                        "MIMOSA"
+                    ], 
+                    "average_length": 12.970587738785763, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "DOGWOOD, ALTERNATE-LEAVED", 
+                        "FALSECYPRESS, JAPANESE", 
+                        "BIRCH, EUROPEAN WHITE", 
+                        "MOUNTAINASH, AMERICAN", 
+                        "JAPANESE PAGODA TREE"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "LONDON PLANETREE", 
+                "MAPLE, NORWAY", 
+                "PEAR, CALLERY", 
+                "HONEYLOCUST", 
+                "OAK, PIN"
+            ], 
+            "number_distinct_values": 169, 
+            "column_name": "spc_common"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.025033256129594, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "vert_other"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0693989587623993, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "vert_pgrd"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0166466342095846, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "vert_tgrd"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0205698446246614, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "vert_wall"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.2187189806405434, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "horz_blck"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0121680295489996, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "horz_grate"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0834711971531403, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "horz_plant"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0326433389829366, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "horz_other"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.182665622277893, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "sidw_crack"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.16565266420425, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "sidw_raise"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.204960734133281, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "wire_htap"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.18949410167935, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "wire_prime"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.2151063858521334, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "wire_2nd"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.146458644230315, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "wire_other"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0123300898759564, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_canopy"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.006536433187254, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_guard"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0232421518910413, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_wires"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0723194209044316, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_paving"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.003084210597395, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_outlet"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.0007022614168126, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_shoes"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.00426758860986, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_lights"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "No", 
+                        "Yes"
+                    ], 
+                    "average_length": 2.048523562896288, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Yes", 
+                        "No"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "No", 
+                "Yes"
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "inf_other"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        " ", 
+                        "None", 
+                        "Cavity", 
+                        "Torn Bark", 
+                        "Trunk Wound"
+                    ], 
+                    "average_length": 5.468577177854456, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Trunk Wound", 
+                        "Torn Bark", 
+                        "Cavity", 
+                        "None", 
+                        " "
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "None", 
+                "Trunk Wound", 
+                "Torn Bark", 
+                "Cavity", 
+                " "
+            ], 
+            "number_distinct_values": 5, 
+            "column_name": "trunk_dmg"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 11697, 
+                    "min_value": 0, 
+                    "stddev": 1426.0458015205775, 
+                    "type": "INTEGER", 
+                    "mean": 10786.21955629233
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                10312, 
+                10314, 
+                10309, 
+                10306, 
+                11234
+            ], 
+            "number_distinct_values": 188, 
+            "column_name": "zipcode"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 583461, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Inwood", 
+                        "Corona", 
+                        "Pelham", 
+                        "Hollis"
+                    ], 
+                    "average_length": 9.553481723714182, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "South Richmond Hill", 
+                        "Springfield Gardens", 
+                        "Long Island City", 
+                        "South Ozone Park", 
+                        "Oakland Gardens"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 8911, 
+            "number_non_empty_cells": 583461, 
+            "frequent_values": [
+                "Brooklyn", 
+                "Staten Island", 
+                "Bronx", 
+                "New York", 
+                "Flushing"
+            ], 
+            "number_distinct_values": 52, 
+            "column_name": "zip_city"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 595, 
+                    "min_value": 0, 
+                    "stddev": 130.63454918231915, 
+                    "type": "INTEGER", 
+                    "mean": 340.3564246790868
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                503, 
+                413, 
+                407, 
+                411, 
+                0
+            ], 
+            "number_distinct_values": 68, 
+            "column_name": "cb_num"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 5, 
+                    "min_value": 1, 
+                    "stddev": 1.13729894788472, 
+                    "type": "INTEGER", 
+                    "mean": 3.4721914607712723
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                4, 
+                3, 
+                5, 
+                2, 
+                1
+            ], 
+            "number_distinct_values": 5, 
+            "column_name": "borocode"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 99701, 
+                    "max_value": 5, 
+                    "min_value": 5, 
+                    "stddev": 0.0, 
+                    "type": "INTEGER", 
+                    "mean": 5.0
+                }, 
+                {
+                    "count": 492671, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Queens", 
+                        "Brooklyn", 
+                        "Manhattan"
+                    ], 
+                    "average_length": 6.762044041561204, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Manhattan", 
+                        "Brooklyn", 
+                        "Queens", 
+                        "Bronx"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "Queens", 
+                "Brooklyn", 
+                5, 
+                "Bronx", 
+                "Manhattan"
+            ], 
+            "number_distinct_values": 6, 
+            "column_name": "boroname"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 51, 
+                    "min_value": 0, 
+                    "stddev": 15.210736860668424, 
+                    "type": "INTEGER", 
+                    "mean": 29.332230422774877
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                51, 
+                19, 
+                23, 
+                50, 
+                0
+            ], 
+            "number_distinct_values": 52, 
+            "column_name": "cncldist"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 87, 
+                    "min_value": 0, 
+                    "stddev": 20.634017141780365, 
+                    "type": "INTEGER", 
+                    "mean": 47.046567022073965
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                62, 
+                26, 
+                0, 
+                25, 
+                64
+            ], 
+            "number_distinct_values": 66, 
+            "column_name": "st_assem"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 36, 
+                    "min_value": 0, 
+                    "stddev": 8.128779216639531, 
+                    "type": "INTEGER", 
+                    "mean": 19.197946560607186
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                24, 
+                11, 
+                15, 
+                14, 
+                10
+            ], 
+            "number_distinct_values": 27, 
+            "column_name": "st_senate"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        " ", 
+                        "BK88", 
+                        "BK21", 
+                        "BK30", 
+                        "BK75"
+                    ], 
+                    "average_length": 3.878318016381598, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "SI37", 
+                        "SI12", 
+                        "BX46", 
+                        "BX99", 
+                        "BX33"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                " ", 
+                "SI01", 
+                "QN46", 
+                "SI54", 
+                "SI32"
+            ], 
+            "number_distinct_values": 194, 
+            "column_name": "nta"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        " ", 
+                        "Corona", 
+                        "Hollis", 
+                        "Erasmus", 
+                        "Maspeth"
+                    ], 
+                    "average_length": 19.210666608144884, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill", 
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel", 
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville", 
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill", 
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                " ", 
+                "Annadale-Huguenot-Prince's Bay-Eltingville", 
+                "Bayside-Bayside Hills", 
+                "Great Kills", 
+                "Rossville-Woodrow"
+            ], 
+            "number_distinct_values": 194, 
+            "column_name": "nta_name"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 487062, 
+                    "max_value": 5032300, 
+                    "min_value": 1000201, 
+                    "stddev": 1046375.8146567238, 
+                    "type": "INTEGER", 
+                    "mean": 3266831.59005835
+                }
+            ], 
+            "number_empty_cells": 105310, 
+            "number_non_empty_cells": 487062, 
+            "frequent_values": [
+                4089200.0, 
+                4157101.0, 
+                4157901.0, 
+                3070201.0, 
+                4155102.0
+            ], 
+            "number_distinct_values": 2121, 
+            "column_name": "boro_ct"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "New York"
+                    ], 
+                    "average_length": 8.0, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "New York"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "New York"
+            ], 
+            "number_distinct_values": 1, 
+            "column_name": "state"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 40, 
+                    "min_value": 0, 
+                    "stddev": 4.849801238537939, 
+                    "type": "INTEGER", 
+                    "mean": 39.40307779570945
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                0.0, 
+                40.69368495, 
+                40.62561265, 
+                40.73967663, 
+                40.61136186
+            ], 
+            "number_distinct_values": 266315, 
+            "column_name": "latitude"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 0, 
+                    "min_value": -74, 
+                    "stddev": 8.885312046245025, 
+                    "type": "INTEGER", 
+                    "mean": -72.11595754019434
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                0.0, 
+                -73.98333916, 
+                -74.14731063, 
+                -73.82535088, 
+                -74.18797816
+            ], 
+            "number_distinct_values": 266841, 
+            "column_name": "longitude"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 1067185, 
+                    "min_value": 0, 
+                    "stddev": 201206.13177815103, 
+                    "type": "INTEGER", 
+                    "mean": 964425.872568251
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                0, 
+                1032648, 
+                932058, 
+                981568, 
+                991728
+            ], 
+            "number_distinct_values": 105340, 
+            "column_name": "x_sp"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 271768, 
+                    "min_value": 0, 
+                    "stddev": 49703.85980706725, 
+                    "type": "INTEGER", 
+                    "mean": 185138.76089518072
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                0, 
+                208809, 
+                162068, 
+                204869, 
+                223556
+            ], 
+            "number_distinct_values": 108404, 
+            "column_name": "y_sp"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "max_value": 592371, 
+                    "min_value": 0, 
+                    "stddev": 171003.0668292588, 
+                    "type": "INTEGER", 
+                    "mean": 296185.5
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                2047, 
+                68747, 
+                44223, 
+                42174, 
+                48317
+            ], 
+            "number_distinct_values": 592372, 
+            "column_name": "objectid_1"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 569458, 
+                    "max_value": 157903, 
+                    "min_value": 1, 
+                    "stddev": 32093.87016125325, 
+                    "type": "INTEGER", 
+                    "mean": 12766.205927390607
+                }
+            ], 
+            "number_empty_cells": 22914, 
+            "number_non_empty_cells": 569458, 
+            "frequent_values": [
+                176.0, 
+                198.0, 
+                20801.0, 
+                20803.0, 
+                892.0
+            ], 
+            "number_distinct_values": 1321, 
+            "column_name": "census tract"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 542747, 
+                    "max_value": 5513451, 
+                    "min_value": 1000000, 
+                    "stddev": 1168342.570192873, 
+                    "type": "INTEGER", 
+                    "mean": 3589432.6735532396
+                }
+            ], 
+            "number_empty_cells": 49625, 
+            "number_non_empty_cells": 542747, 
+            "frequent_values": [
+                4000000.0, 
+                3000000.0, 
+                2000000.0, 
+                5000000.0, 
+                1000000.0
+            ], 
+            "number_distinct_values": 300282, 
+            "column_name": "bin"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 542747, 
+                    "max_value": 5200029999, 
+                    "min_value": 0, 
+                    "stddev": 1153131553.912499, 
+                    "type": "INTEGER", 
+                    "mean": 3506052146.340542
+                }
+            ], 
+            "number_empty_cells": 49625, 
+            "number_non_empty_cells": 542747, 
+            "frequent_values": [
+                2051410120.0, 
+                1009720001.0, 
+                4067150002.0, 
+                4079140002.0, 
+                2051350051.0
+            ], 
+            "number_distinct_values": 291409, 
+            "column_name": "bbl"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 592372, 
+                    "shortest_values": [
+                        "(0.0, 0.0)", 
+                        "(40.6352388, -74.0)", 
+                        "(40.74507074, -74.0)", 
+                        "(40.67538397, -74.0)", 
+                        "(40.6901, -73.8611361)"
+                    ], 
+                    "average_length": 26.527254833111627, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "(40.58608995, -74.14901291)", 
+                        "(40.69397061, -73.94188007)", 
+                        "(40.69375745, -73.94375182)", 
+                        "(40.63792818, -73.96284846)", 
+                        "(40.63815052, -73.96288797)"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 592372, 
+            "frequent_values": [
+                "(0.0, 0.0)", 
+                "(40.69368495, -73.98333916)", 
+                "(40.62561265, -74.14731063)", 
+                "(40.73967663, -73.82535088)", 
+                "(40.61136186, -74.18797816)"
+            ], 
+            "number_distinct_values": 268078, 
+            "column_name": "Location 1"
+        }
+    ], 
+    "dataset_name": "29bw-z7pj", 
+    "key_column_candidates": []
+}

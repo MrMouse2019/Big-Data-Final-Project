@@ -1,0 +1,761 @@
+{
+    "dataset_name": "4twk-9yq2",
+    "columns": [
+        {
+            "column_name": "RequestNumber",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 75427,
+            "frequent_values": [
+                "BBE12867",
+                "KBE3195",
+                "KBE3274",
+                "SBE14108",
+                "SBE13997"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "BSM2",
+                        "QBE7",
+                        "BBE5",
+                        "KBE9",
+                        "KBE8"
+                    ],
+                    "longest_values": [
+                        "QBE10757",
+                        "SBE10855",
+                        "SBE10850",
+                        "SBE10849",
+                        "QBE10884"
+                    ],
+                    "average_length": 7.27857012963396
+                }
+            ]
+        },
+        {
+            "column_name": "DivisionName",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Brooklyn Borough Engineering",
+                "Manhattan Borough Engineering",
+                "Queens Borough Engineering",
+                "Staten Island Borough Engineering",
+                "Bronx Borough Engineering"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "Bus Stop Management",
+                        "Bronx Borough Engineering",
+                        "Queens Borough Engineering",
+                        "Brooklyn Borough Engineering",
+                        "Manhattan Borough Engineering"
+                    ],
+                    "longest_values": [
+                        "Staten Island Borough Engineering",
+                        "Manhattan Borough Engineering",
+                        "Brooklyn Borough Engineering",
+                        "Queens Borough Engineering",
+                        "Bronx Borough Engineering"
+                    ],
+                    "average_length": 27.960863014054503
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Closed",
+                "Referred",
+                "Assigned",
+                "Deleted",
+                "Referred to CCU For Response"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "New",
+                        "Closed",
+                        "Reopen",
+                        "Deleted",
+                        "Assigned"
+                    ],
+                    "longest_values": [
+                        "Referred to CCU For Response",
+                        "Re-Assigned",
+                        "Incoming",
+                        "Referred",
+                        "Assigned"
+                    ],
+                    "average_length": 6.053126542488244
+                }
+            ]
+        },
+        {
+            "column_name": "Channel",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Letter",
+                "Email",
+                "ARTS",
+                "FAX",
+                "Phone Call"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 159,
+                    "max_value": 311,
+                    "min_value": 311,
+                    "mean": 311.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 76827,
+                    "shortest_values": [
+                        "FAX",
+                        "ARTS",
+                        "Email",
+                        "eMail",
+                        "Letter"
+                    ],
+                    "longest_values": [
+                        "Phone Call",
+                        "CALLDOT",
+                        "Letter",
+                        "eMail",
+                        "Email"
+                    ],
+                    "average_length": 5.391463938459135
+                }
+            ]
+        },
+        {
+            "column_name": "Category",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "PARKING",
+                "INTERSECTIONS",
+                "SPECIAL STUDIES",
+                "SUPPORT LITIGATION",
+                "MARKINGS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "PARKING",
+                        "MARKINGS",
+                        "INTERSECTIONS",
+                        "SPECIAL STUDIES",
+                        "SUPPORT LITIGATION"
+                    ],
+                    "longest_values": [
+                        "SUPPORT LITIGATION",
+                        "SPECIAL STUDIES",
+                        "INTERSECTIONS",
+                        "MARKINGS",
+                        "PARKING"
+                    ],
+                    "average_length": 10.372223521159691
+                }
+            ]
+        },
+        {
+            "column_name": "RequestType",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 63,
+            "frequent_values": [
+                "Other",
+                "No Parking Zone",
+                "No Standing Zone",
+                "FOIL/Litigation",
+                "Truck Loading Zone"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "Other",
+                        "Bus Stop",
+                        "Bus Lanes",
+                        "Taxi Stand",
+                        "Stop Signs"
+                    ],
+                    "longest_values": [
+                        "One-Way / Two-Way Conversions",
+                        "Deaf/Blind Persons Area Signs",
+                        "Religious Building Entrance",
+                        "Street Cleaning Regulations",
+                        "Height Restriction Signs"
+                    ],
+                    "average_length": 12.210635699997402
+                }
+            ]
+        },
+        {
+            "column_name": "Priority",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Multiple",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76986,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "RequestDetail",
+            "number_non_empty_cells": 57682,
+            "number_empty_cells": 19304,
+            "number_distinct_values": 42601,
+            "frequent_values": [
+                "RESURVEY",
+                "Resurvey",
+                "UPDATE STATUS",
+                "sign verification ",
+                "EXCESSIVE SIGNAGE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 57682,
+                    "shortest_values": [
+                        " ",
+                        "z",
+                        "re",
+                        "AWS",
+                        "/ew"
+                    ],
+                    "longest_values": [
+                        "CLOSURE OF B/S'S DUE 2/ AOL-TIME WARNER BLDG  & OPEN HOTEL MANDARIN. INITIALLY SIGNS STATED TEMP NOW TEMP PART IS OMITTED. BURDEN 4/DISABLED &  RESIDENTS & STUDENTS & TOURIST TO AREA. REQ RESTORATION.",
+                        "CONSTRUCTING 4 NEW HOMES @ INTERSECTION OF LOC BELOW. 1 OF WHICH WILL HAVE DRWY LOC CURRENTLY HAS  B57 STOP. DOB REQUIRES SIGN RELOC  7 FT  FOR CURB CUT FOR DRWY.  REQ ARRANGEMENTS FOR SIGN RELOC ASAP",
+                        "Requesting list with all bus companies authorized to stop &pick up / drop off passengers on northside of W 42 St between 8 & 9 Ave to include business names & hrs. of operation from 1/1/05 - 11/1/ 07.",
+                        "HOA requests No Parking/No Standing signs at entrances to Park Village Common Areas. such as Maple Ct.. Daffodil Ct. Dogwood Drive. Lisa Lane. Myrna Ln. Green Valley Rd. Rolling Hill Green. Geyser Dr.",
+                        "REQUESTING PERMIT TO P/U & D/O PASSENGERS AT LOC. LISTED.04/05/08 DON WEST CALLED REQUESTING ADDITIONAL LOC. ON ALLEN ST. 03/04/08 SPOKE W. ANNIE @ APEX BUS & INFORMED HER THEIR REQUEST WILL BE CLOSED"
+                    ],
+                    "average_length": 44.777677611733296
+                }
+            ]
+        },
+        {
+            "column_name": "RequestorTypes",
+            "number_non_empty_cells": 76977,
+            "number_empty_cells": 9,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                " DOT Internal",
+                " Citizen",
+                " DOT Commissioner",
+                " Elected Official",
+                " Community Board"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 311,
+                    "min_value": 311,
+                    "mean": 311.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 76947,
+                    "shortest_values": [
+                        " School",
+                        " Citizen",
+                        " Mayoral",
+                        " Hospital",
+                        " DOT Internal"
+                    ],
+                    "longest_values": [
+                        " Citizen; Community Board; Elected Official; Organization/Business",
+                        " Citizen; DOT Commissioner; DOT Internal; Elected Official",
+                        " Business Improvement District; Organization/Business",
+                        " Community Board; DOT Internal; Organization/Business",
+                        " Community Board; DOT Commissioner; Elected Official"
+                    ],
+                    "average_length": 13.683470440692945
+                }
+            ]
+        },
+        {
+            "column_name": "DateReceived",
+            "number_non_empty_cells": 76983,
+            "number_empty_cells": 3,
+            "number_distinct_values": 4090,
+            "frequent_values": [
+                "03/14/2006",
+                "06/04/2013",
+                "05/21/2013",
+                "12/12/2002",
+                "08/15/2006"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 76983,
+                    "max_value": "2018-12-26 00:00:00",
+                    "min_value": "1999-11-08 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DateCreated",
+            "number_non_empty_cells": 76986,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4091,
+            "frequent_values": [
+                "07/28/2003",
+                "03/14/2006",
+                "10/30/2003",
+                "12/13/2011",
+                "02/28/2008"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 76986,
+                    "max_value": "2018-12-26 00:00:00",
+                    "min_value": "2002-07-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DueDate",
+            "number_non_empty_cells": 49991,
+            "number_empty_cells": 26995,
+            "number_distinct_values": 4945,
+            "frequent_values": [
+                "11/30/2018",
+                "08/31/2018",
+                "01/31/2019",
+                "04/30/2018",
+                "12/31/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 49991,
+                    "max_value": "2209-09-11 00:00:00",
+                    "min_value": "1911-11-11 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DateClosed",
+            "number_non_empty_cells": 75899,
+            "number_empty_cells": 1087,
+            "number_distinct_values": 4351,
+            "frequent_values": [
+                "12/31/2003",
+                "12/31/2002",
+                "05/28/2004",
+                "09/26/2003",
+                "05/12/2006"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 75899,
+                    "max_value": "2018-12-26 00:00:00",
+                    "min_value": "1999-11-08 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DateAssigned",
+            "number_non_empty_cells": 23892,
+            "number_empty_cells": 53094,
+            "number_distinct_values": 1292,
+            "frequent_values": [
+                "07/28/2003",
+                "05/27/2003",
+                "04/29/2015",
+                "10/20/2016",
+                "05/06/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 23892,
+                    "max_value": "2018-12-26 00:00:00",
+                    "min_value": "2002-07-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DateReferred",
+            "number_non_empty_cells": 312,
+            "number_empty_cells": 76674,
+            "number_distinct_values": 150,
+            "frequent_values": [
+                "08/08/2003",
+                "01/21/2003",
+                "09/05/2003",
+                "01/27/2003",
+                "04/23/2003"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 312,
+                    "max_value": "2018-04-19 00:00:00",
+                    "min_value": "2002-07-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DateReferredToCCU",
+            "number_non_empty_cells": 7,
+            "number_empty_cells": 76979,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "05/12/2003",
+                "08/28/2002",
+                "07/02/2003",
+                "03/13/2003",
+                "02/20/2003"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7,
+                    "max_value": "2003-08-21 00:00:00",
+                    "min_value": "2002-08-28 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 15556,
+            "number_empty_cells": 61430,
+            "number_distinct_values": 5228,
+            "frequent_values": [
+                "50",
+                "120",
+                "100",
+                "40",
+                "20"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12315,
+                    "max_value": 1280130,
+                    "min_value": 0,
+                    "mean": 1210.4168087697929,
+                    "stddev": 11790.863526659417
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3241,
+                    "shortest_values": [
+                        " ",
+                        "#15",
+                        "60`",
+                        "s/s",
+                        "38-8"
+                    ],
+                    "longest_values": [
+                        "STEADMAN SQUARE",
+                        "Manhattan Side",
+                        "E. River Park",
+                        "Presbyterian",
+                        "tyrellan Ave"
+                    ],
+                    "average_length": 5.259796359148411
+                }
+            ]
+        },
+        {
+            "column_name": "MainStreet",
+            "number_non_empty_cells": 76821,
+            "number_empty_cells": 165,
+            "number_distinct_values": 7670,
+            "frequent_values": [
+                "BROADWAY",
+                "HYLAN BOULEVARD",
+                "PARK AVENUE",
+                "ATLANTIC AVENUE",
+                "5 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 5411,
+                    "min_value": 1,
+                    "mean": 1092.4545454545455,
+                    "stddev": 1574.9608574435551
+                },
+                {
+                    "type": "TEXT",
+                    "count": 76810,
+                    "shortest_values": [
+                        "XX",
+                        "CB",
+                        "W/B",
+                        "CPW",
+                        "E60"
+                    ],
+                    "longest_values": [
+                        "FORT WASHINGTON AV REHAB COMPLEX",
+                        "BRUCKNER BL BRONX RVR PKWY NB EN",
+                        "PELHAM PARKWAY EASTBOUND ROADBED",
+                        "CO OP CITY BL NORTHBOUND ROADBED",
+                        "CONEY ISLAND AVE EN BELT PKWY EB"
+                    ],
+                    "average_length": 13.632691055852103
+                }
+            ]
+        },
+        {
+            "column_name": "MainStreetCode",
+            "number_non_empty_cells": 76902,
+            "number_empty_cells": 84,
+            "number_distinct_values": 8870,
+            "frequent_values": [
+                "M1361001010",
+                "S3410001010",
+                "Q5999001010",
+                "K1343001010",
+                "Q5779001010"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 76902,
+                    "shortest_values": [
+                        "L5",
+                        "L7",
+                        "L9",
+                        "L6",
+                        "L65"
+                    ],
+                    "longest_values": [
+                        "Q0615001010    ",
+                        "M9804001010    ",
+                        "Q4199001010    ",
+                        "S1816001010    ",
+                        "S1056001010    "
+                    ],
+                    "average_length": 10.81216353280799
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet1",
+            "number_non_empty_cells": 74365,
+            "number_empty_cells": 2621,
+            "number_distinct_values": 8465,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "2 AVENUE",
+                "5 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 311,
+                    "min_value": 128,
+                    "mean": 219.5,
+                    "stddev": 91.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 74363,
+                    "shortest_values": [
+                        "@",
+                        "XX",
+                        "SBS",
+                        "GCP",
+                        "LIE"
+                    ],
+                    "longest_values": [
+                        "BROOKLYN QUEENS EXPWY ET   21 EB",
+                        "WILLIAMSBURG BRIDGE ET S    5 ST",
+                        "BRUCKNER BL BRONX RVR PKWY NB EN",
+                        "SHORE PARKWAY SERVICE ROAD NORTH",
+                        "BEACH  116 ST NORTHBOUND ROADBED"
+                    ],
+                    "average_length": 13.003778760942943
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet1Code",
+            "number_non_empty_cells": 74366,
+            "number_empty_cells": 2620,
+            "number_distinct_values": 11312,
+            "frequent_values": [
+                "M1361001010",
+                "M1041001010",
+                "M1011001010",
+                "M1001001010",
+                "M1021001010"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 74366,
+                    "shortest_values": [
+                        "L6",
+                        "L8",
+                        "L4",
+                        "L61",
+                        "L45"
+                    ],
+                    "longest_values": [
+                        "S5547001010    ",
+                        "M1253001010    ",
+                        "S1193001010    ",
+                        "S2148601010    ",
+                        "M3325001010    "
+                    ],
+                    "average_length": 10.673950461232284
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet2",
+            "number_non_empty_cells": 40173,
+            "number_empty_cells": 36813,
+            "number_distinct_values": 5954,
+            "frequent_values": [
+                "DEAD END",
+                "3 AVENUE",
+                "BROADWAY",
+                "2 AVENUE",
+                "7 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 52,
+                    "min_value": 8,
+                    "mean": 37.333333333333336,
+                    "stddev": 20.741798914805393
+                },
+                {
+                    "type": "TEXT",
+                    "count": 40170,
+                    "shortest_values": [
+                        "JOH",
+                        "GCP",
+                        "SIP",
+                        "BQE",
+                        "CPW"
+                    ],
+                    "longest_values": [
+                        "ADAM CLAYTON POWELL JR BOULEVARD",
+                        "Central Park West/ Manhattan Ave",
+                        "SHORE PARKWAY SERVICE ROAD NORTH",
+                        "BROOKLYN QUEENS EXPWY ET   43 WB",
+                        "BROOKLYN QUEENS EXPWY ET   22 WB"
+                    ],
+                    "average_length": 12.75362210604929
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet2Code",
+            "number_non_empty_cells": 40173,
+            "number_empty_cells": 36813,
+            "number_distinct_values": 7427,
+            "frequent_values": [
+                "M1021001010",
+                "M1361001010",
+                "M1011001010",
+                "M1001001010",
+                "M1081002010"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 40173,
+                    "shortest_values": [
+                        "L62",
+                        "L16",
+                        "L40",
+                        "L65",
+                        "L18"
+                    ],
+                    "longest_values": [
+                        "S3631002010    ",
+                        "Q4689001010    ",
+                        "S2641001010    ",
+                        "B6232001010    ",
+                        "Q2099001010    "
+                    ],
+                    "average_length": 10.742264705150225
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

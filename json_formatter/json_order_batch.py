@@ -4,24 +4,36 @@ import os
 def getFilename(path):
     return path.split('/')[-1].split('.')[0]
 
-f = open('task1_datasets_list.txt', 'r')
+# f = open('task1_datasets_list.txt', 'r')
 # f = open('list1.txt', 'r')
+f = open('small_size_datasets.txt', 'r')
+# f = open('mid_size_datasets.txt', 'r')
+# f = open('large_size_datasets.txt', 'r')
+# f = open('xlarge_size_datasets.txt', 'r')
 task1_datasets_list = []
 for line in f:
     temp = getFilename(line) + '.json'
     task1_datasets_list.append(temp)
 f.close()
 
-unordered_dir = 'task1_unordered/'
-ordered_dir = 'task1_ordered/'
+unordered_dir = 'task1_unordered/small/'
+ordered_dir = 'task1_ordered/small/'
+# unordered_dir = 'task1_unordered/mid/'
+# ordered_dir = 'task1_ordered/mid/'
+# unordered_dir = 'task1_unordered/large/'
+# ordered_dir = 'task1_ordered/large/'
+# unordered_dir = 'task1_unordered/xlarge/'
+# ordered_dir = 'task1_ordered/xlarge/'
+
+
 for file_name in task1_datasets_list:
 
     path1 = unordered_dir + file_name
     path2 = ordered_dir + file_name
 
-    if os.path.exists(path2):
-        print("{} has been ordered!".format(file_name))
-        continue
+    # if os.path.exists(path2):
+    #     print("{} has been ordered!".format(file_name))
+    #     continue
 
     with open(path1) as json_file:
         data = json.load(json_file)
@@ -36,7 +48,7 @@ for file_name in task1_datasets_list:
         column1 = {}
         column1['column_name'] = column['column_name']
         column1['number_non_empty_cells'] = column['number_non_empty_cells']
-        column1['number_empty_cells'] = column['number_non_empty_cells']
+        column1['number_empty_cells'] = column['number_empty_cells']
         column1['number_distinct_values'] = column['number_distinct_values']
         column1['frequent_values'] = column['frequent_values']
         column1['data_types'] = []

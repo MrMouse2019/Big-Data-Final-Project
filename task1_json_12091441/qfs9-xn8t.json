@@ -1,0 +1,613 @@
+{
+    "dataset_name": "qfs9-xn8t",
+    "columns": [
+        {
+            "column_name": "LocationID",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                10,
+                9,
+                8,
+                7,
+                5
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 10,
+                    "min_value": 1,
+                    "mean": 5.4907407407407405,
+                    "stddev": 2.897941064664034
+                }
+            ]
+        },
+        {
+            "column_name": "LocationType",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "On-Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 108,
+                    "shortest_values": [
+                        "On-Street"
+                    ],
+                    "longest_values": [
+                        "On-Street"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "TypeOfTime",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Weekday"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 108,
+                    "shortest_values": [
+                        "Weekday"
+                    ],
+                    "longest_values": [
+                        "Weekday"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Fort Washington at W173 St. (NB +SB)",
+                "Fifth Avenue at 14 St.",
+                "Sixth Avenue at W23 St.",
+                "Lafayette Street at Astor Pl.",
+                "Central Park West at W93 St."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 108,
+                    "shortest_values": [
+                        "Broadway at W28 St.",
+                        "Fifth Avenue at 14 St.",
+                        "Second Avenue at E7 St.",
+                        "Sixth Avenue at W23 St.",
+                        "First Avenue at E85 St."
+                    ],
+                    "longest_values": [
+                        "Fort Washington at W173 St. (NB +SB)",
+                        "Adam Clayton at W113th St. (NB+SB)",
+                        "Lafayette Street at Astor Pl.",
+                        "Central Park West at W93 St.",
+                        "Eighth Avenue at W28 St."
+                    ],
+                    "average_length": 26.13888888888889
+                }
+            ]
+        },
+        {
+            "column_name": "Location_Lat",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                40.742897,
+                40.801269,
+                40.845373,
+                40.789748,
+                40.736015
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 40,
+                    "min_value": 40,
+                    "mean": 40.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Location_Long",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                -73.96611699999998,
+                -73.98876699999998,
+                -73.94053599999998,
+                -73.988133,
+                -73.992805
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": -73,
+                    "min_value": -73,
+                    "mean": -73.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                2015,
+                2014,
+                2013,
+                2012,
+                2011
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 2015,
+                    "min_value": 2005,
+                    "mean": 2010.0833333333333,
+                    "stddev": 3.1302733284988276
+                }
+            ]
+        },
+        {
+            "column_name": "TotalUsers",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 106,
+            "frequent_values": [
+                383,
+                723,
+                1066,
+                1888,
+                2371
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 3379,
+                    "min_value": 301,
+                    "mean": 1158.851851851852,
+                    "stddev": 665.291885466027
+                }
+            ]
+        },
+        {
+            "column_name": "NonCyc_OtherUser",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 64,
+            "frequent_values": [
+                1,
+                14,
+                31,
+                25,
+                44
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 126,
+                    "min_value": 1,
+                    "mean": 37.7962962962963,
+                    "stddev": 26.152246295157493
+                }
+            ]
+        },
+        {
+            "column_name": "CyclistVolume",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 105,
+            "frequent_values": [
+                301,
+                571,
+                1018,
+                510,
+                1475
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 3309,
+                    "min_value": 287,
+                    "mean": 1120.861111111111,
+                    "stddev": 647.566862818804
+                }
+            ]
+        },
+        {
+            "column_name": "CycBikeLane",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 1,
+            "number_distinct_values": 103,
+            "frequent_values": [
+                726.0,
+                350.0,
+                406.0,
+                224.0,
+                1061.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 2771,
+                    "min_value": 189,
+                    "mean": 780.2056074766355,
+                    "stddev": 570.4464350801563
+                }
+            ]
+        },
+        {
+            "column_name": "CycAdjacentLane",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 1,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                90.0,
+                26.0,
+                65.0,
+                73.0,
+                50.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 265,
+                    "min_value": 0,
+                    "mean": 61.467289719626166,
+                    "stddev": 49.31385613266389
+                }
+            ]
+        },
+        {
+            "column_name": "CyclOtherLane",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 1,
+            "number_distinct_values": 78,
+            "frequent_values": [
+                0.0,
+                254.0,
+                16.0,
+                2.0,
+                27.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 526,
+                    "min_value": 0,
+                    "mean": 149.9532710280374,
+                    "stddev": 115.22747783484145
+                }
+            ]
+        },
+        {
+            "column_name": "CycCounterFlowInLane",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 1,
+            "number_distinct_values": 79,
+            "frequent_values": [
+                8.0,
+                19.0,
+                42.0,
+                71.0,
+                13.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 198,
+                    "min_value": 3,
+                    "mean": 63.02803738317757,
+                    "stddev": 44.66897100801059
+                }
+            ]
+        },
+        {
+            "column_name": "CycSidewalk",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 1,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                7.0,
+                11.0,
+                6.0,
+                5.0,
+                9.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 78,
+                    "min_value": 0,
+                    "mean": 19.39252336448598,
+                    "stddev": 17.662334923249613
+                }
+            ]
+        },
+        {
+            "column_name": "CycCnterFlowOutOfLane",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 1,
+            "number_distinct_values": 53,
+            "frequent_values": [
+                10.0,
+                23.0,
+                6.0,
+                5.0,
+                0.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 356,
+                    "min_value": 0,
+                    "mean": 47.77570093457944,
+                    "stddev": 81.07862901192034
+                }
+            ]
+        },
+        {
+            "column_name": "FemaleCyc_Total",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 95,
+            "frequent_values": [
+                32,
+                255,
+                151,
+                177,
+                62
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 812,
+                    "min_value": 19,
+                    "mean": 204.84259259259258,
+                    "stddev": 160.06810830700212
+                }
+            ]
+        },
+        {
+            "column_name": "MaleCyc_Total",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 107,
+            "frequent_values": [
+                803,
+                1122,
+                1095,
+                1077,
+                568
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 2619,
+                    "min_value": 246,
+                    "mean": 916.0370370370371,
+                    "stddev": 497.3266667323126
+                }
+            ]
+        },
+        {
+            "column_name": "Female_Cyc_Helmet",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                28,
+                41,
+                44,
+                52,
+                84
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 415,
+                    "min_value": 10,
+                    "mean": 101.75,
+                    "stddev": 78.37281806284058
+                }
+            ]
+        },
+        {
+            "column_name": "Male_Cyc_Helmet",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                371,
+                598,
+                473,
+                81,
+                168
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 1069,
+                    "min_value": 54,
+                    "mean": 332.89814814814815,
+                    "stddev": 223.7181568408661
+                }
+            ]
+        },
+        {
+            "column_name": "Cycl_Helmet_all",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                111,
+                355,
+                503,
+                196,
+                247
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 1470,
+                    "min_value": 67,
+                    "mean": 434.64814814814815,
+                    "stddev": 295.7206300126678
+                }
+            ]
+        },
+        {
+            "column_name": "Cyc_Under16",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                0,
+                1,
+                2,
+                5,
+                8
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 74,
+                    "min_value": 0,
+                    "mean": 12.166666666666666,
+                    "stddev": 16.539794884302964
+                }
+            ]
+        },
+        {
+            "column_name": "Citibike_Male",
+            "number_non_empty_cells": 103,
+            "number_empty_cells": 5,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                0.0,
+                3.0,
+                6.0,
+                445.0,
+                28.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 103,
+                    "max_value": 676,
+                    "min_value": 0,
+                    "mean": 77.5631067961165,
+                    "stddev": 174.21416737630645
+                }
+            ]
+        },
+        {
+            "column_name": "Citibike_female",
+            "number_non_empty_cells": 105,
+            "number_empty_cells": 3,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                224.0,
+                192.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 105,
+                    "max_value": 244,
+                    "min_value": 0,
+                    "mean": 27.523809523809526,
+                    "stddev": 62.38438376603945
+                }
+            ]
+        },
+        {
+            "column_name": "Citibike_All",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                0,
+                1,
+                4,
+                896,
+                389
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 896,
+                    "min_value": 0,
+                    "mean": 100.73148148148148,
+                    "stddev": 231.67124721616634
+                }
+            ]
+        },
+        {
+            "column_name": "Non_citibikeCyc",
+            "number_non_empty_cells": 108,
+            "number_empty_cells": 0,
+            "number_distinct_values": 106,
+            "frequent_values": [
+                571,
+                301,
+                774,
+                779,
+                1094
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 2544,
+                    "min_value": 287,
+                    "mean": 1020.1296296296297,
+                    "stddev": 506.5493850479491
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

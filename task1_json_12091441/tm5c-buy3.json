@@ -1,0 +1,116 @@
+{
+    "dataset_name": "tm5c-buy3",
+    "columns": [
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 407,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "Civilian Complaint Review Board (CCRB)",
+                "Taxi and Limousine Commission (TLC)",
+                "Department of City Planning (DCP)",
+                "Department of Environmental Protection (DEP)",
+                "Fire Department (FDNY)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 311,
+                    "min_value": 311,
+                    "mean": 311.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 396,
+                    "shortest_values": [
+                        "Yelp",
+                        "Twilio",
+                        "Embedly",
+                        "SeatGeek",
+                        "NYC ACRE"
+                    ],
+                    "longest_values": [
+                        "Department of Information Technology & Telecommunications (DoITT)",
+                        "Department of Records and Information Services (RECORDS)",
+                        "Department of Housing Preservation and Development (HPD)",
+                        "Department of Records and Information Services\u00a0(DORIS)",
+                        "Department of Citywide Administrative Services (DCAS)"
+                    ],
+                    "average_length": 36.31060606060606
+                }
+            ]
+        },
+        {
+            "column_name": "Dataset Name",
+            "number_non_empty_cells": 407,
+            "number_empty_cells": 0,
+            "number_distinct_values": 398,
+            "frequent_values": [
+                "Employment Opportunities",
+                "Watershed statistics",
+                "Demographics and profiles at the Public Use Microdata Area (PUMA) subarea level",
+                "CCR Annual Report",
+                "DSNY's Refuse and Recycling Disposal Networks"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 407,
+                    "shortest_values": [
+                        "Embedly",
+                        "Revenue",
+                        "Open NY",
+                        "Yelp API",
+                        "Link Test"
+                    ],
+                    "longest_values": [
+                        "Demographic Projection Report - Enrollment Projections - New York City Public Schools prepared by the Grier Partnership Part B",
+                        "Demographic Projection Report - Enrollment Projections - New York City Public Schools prepared by the Grier Partnership Part C",
+                        "CCRB: Assignment of Officers against Whom Allegations Were Substantiated - Patrol Borough Brooklyn South 2005 \u2013 2009",
+                        "CCRB: Assignment of Officers against Whom Allegations Were Substantiated - Patrol Borough Manhattan South 2005 - 2009",
+                        "CCRB: Assignment of Officers against Whom Allegations Were Substantiated - Patrol Borough Manhattan North 2005 - 2009"
+                    ],
+                    "average_length": 44.972972972972975
+                }
+            ]
+        },
+        {
+            "column_name": "Reason for Removal",
+            "number_non_empty_cells": 289,
+            "number_empty_cells": 118,
+            "number_distinct_values": 116,
+            "frequent_values": [
+                "These are all spreadsheets that are either outdated or repetitive. There is nothing on this list that does not have a comparable document that is staying up.",
+                "This data is no longer maintained and has been removed by the Open Data Team in efforts to declutter and improve the qualiity Open Data Asset inventory.",
+                "This dataset was scraped from reports or one-time analysis on our website that will not be maintained, and therefore, should not be included on the Open Data portal",
+                "311 Service Request from 2010-Present is already contained in this dataset here: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9",
+                "Reorganized as relational dataset HPD Local Law 44 - https://data.cityofnewyork.us/browse?Data-Collection_Data-Collection=HPD+Local+Law+44"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 289,
+                    "shortest_values": [
+                        "Asset is a duplicate",
+                        "No longer maintained.",
+                        "this was simply a test dataset.",
+                        "Archived by order of Agency Request",
+                        "To be archived, redundant information"
+                    ],
+                    "longest_values": [
+                        "The NYC DOHMH Division of Disease Control is requesting the temporary removal of the Communicable Disease Surveillance Data module that is currently posted on NYC OpenData Portal. The EpiQuery module from which this dataset\u2019s current and historical crude and age-adjusted rates are manually extracted is updated whenever a new population estimate (denominator) becomes available. For example, when vintage 2016 population estimates become available, EpiQuery updates 2014 and 2015 rates.  As a result, rates change for historical years, creating discrepancies between Open Data and current EpiQuery.  The program requests that the OpenData module remains fully consistent with the EpiQuery module. However, to update the OpenData module would require the team to manually update the OpenData source file for all 10 diseases and all years that are currently listed, which the team currently does not have the bandwidth for. The Agency\u2019s Bureau of Epidemiology Services is currently working to develop a process that would allow for automated data extraction from EpiQuery to the OpenData portal.  Once automated, this will ensure that there are no discrepancies between what is presented on Open Data and EpiQuery. When this process is activated, we will request that the dataset be made available again on OpenData.  In the interim, interested users should visit the Communicable Disease Surveillance Data module on EpiQuery for the most current data: https://a816-healthpsi.nyc.gov/epiquery/CDSS/index.html.",
+                        "This data can be found in Capital Commitment Plan at the URL: https://data.cityofnewyork.us/City-Government/Capital-Commitment-Plan/2cmn-uidm. In order for a better presentation and management of datasets in open data portal, this dataset is created to replace the dataset of \u201cCapital Commitments\u2014Prel\\Adpt\u201d and the dataset \u201cCapital Commitments\u2014Exec\u201d in open data portal.  All historical data in these two datasets have been merged in this new created dataset.  Going forward from 2018 preliminary budget,  all Capital Commitment Plan datasets will be updated within this new dataset.",
+                        "This dataset is a duplicate of the dataset directly above and will be archived. This dataset was not created by the Agency. The ODP will be programmed to redirect ODP users, through a link, to the orignal version above. Prior ODP users may have incorporated the link in their own personal data feeds. The title of this data set has recently been changed to OATH Hearings Division Case Status. \"ECB\" no longer exists as an entity that has cases status information.",
+                        "At some point in the last couple of years, we split the above dataset into its two component datasets, \u201cFree Residential at-the-tap Lead and Copper Data\u201d and \u201cCompliance at-the-tap Lead and Copper Data\u201d. The old dataset was supposed to get archived but seeming never did. Please archive the \"Lead At The Tap Results\" dataset. There will be no data loss from this archiving as the data is still contained in the two other datasets.",
+                        "This dataset contains out of date information and has been updated with two new spatial datasets which will be updated monthly: \nDSNY Disposal Vendors - https://data.cityofnewyork.us/City-Government/DSNY-Disposal-Vendors/8tt5-asjf\nDSNY Districts with Disposal Vendor Assignments - https://data.cityofnewyork.us/City-Government/DSNY-Districts-With-Disposal-Vendor-Assignments/47te-ez55"
+                    ],
+                    "average_length": 159.21107266435988
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

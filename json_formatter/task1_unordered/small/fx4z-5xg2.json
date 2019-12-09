@@ -1,0 +1,310 @@
+{
+    "columns": [
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": "2018-05-25 00:00:00", 
+                    "min_value": "2018-05-25 00:00:00", 
+                    "type": "DATE/TIME"
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                "05/25/2018"
+            ], 
+            "number_distinct_values": 1, 
+            "column_name": "Extract Run Date"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": 104731, 
+                    "min_value": 1, 
+                    "stddev": 30233.235519871174, 
+                    "type": "INTEGER", 
+                    "mean": 52366.0
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                2047, 
+                54576, 
+                25894, 
+                27943, 
+                5416
+            ], 
+            "number_distinct_values": 104731, 
+            "column_name": "Randomized Id"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": 2017, 
+                    "min_value": 2000, 
+                    "stddev": 4.747918489426622, 
+                    "type": "INTEGER", 
+                    "mean": 2008.4709971259704
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                2009, 
+                2007, 
+                2006, 
+                2013, 
+                2010
+            ], 
+            "number_distinct_values": 18, 
+            "column_name": "Closed Year"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "shortest_values": [
+                        "CCRB"
+                    ], 
+                    "average_length": 4.0, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "CCRB"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                "CCRB"
+            ], 
+            "number_distinct_values": 1, 
+            "column_name": "Case Type"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": 3361, 
+                    "min_value": 1, 
+                    "stddev": 135.87626596113066, 
+                    "type": "INTEGER", 
+                    "mean": 178.6056086545531
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                84, 
+                98, 
+                77, 
+                91, 
+                70
+            ], 
+            "number_distinct_values": 879, 
+            "column_name": "Days From Received Date To Case Closing"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": 1, 
+                    "min_value": 0, 
+                    "stddev": 0.09820582457007417, 
+                    "type": "INTEGER", 
+                    "mean": 0.00973923671119344
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                false, 
+                true
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "Re-opened"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": 1, 
+                    "min_value": 0, 
+                    "stddev": 0.04957202221094419, 
+                    "type": "INTEGER", 
+                    "mean": 0.0024634539916548108
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                false, 
+                true
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "Ever On DA Hold"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "shortest_values": [
+                        "Other", 
+                        "Mediated", 
+                        "Truncated", 
+                        "Full Investigation", 
+                        "Mediation Attempted"
+                    ], 
+                    "average_length": 12.461219696174007, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Mediation Attempted", 
+                        "Full Investigation", 
+                        "Truncated", 
+                        "Mediated", 
+                        "Other"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                "Truncated", 
+                "Full Investigation", 
+                "Mediation Attempted", 
+                "Mediated", 
+                "Other"
+            ], 
+            "number_distinct_values": 5, 
+            "column_name": "Outcome Path"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "shortest_values": [
+                        "Referral", 
+                        "Mediated", 
+                        "Unfounded", 
+                        "Exonerated", 
+                        "Conciliated"
+                    ], 
+                    "average_length": 20.068222398334782, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Substantiated (Command Lvl Instructions)", 
+                        "Substantiated (Command Discipline A)", 
+                        "Substantiated (Command Discipline B)", 
+                        "Substantiated (Formalized Training)", 
+                        "Miscellaneous - Subject Terminated"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                "Complainant Uncooperative", 
+                "Unsubstantiated", 
+                "Complaint Withdrawn", 
+                "Complainant Unavailable", 
+                "Exonerated"
+            ], 
+            "number_distinct_values": 34, 
+            "column_name": "Case Disposition"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104239, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Queens", 
+                        "Brooklyn", 
+                        "Manhattan", 
+                        "Outside NYC"
+                    ], 
+                    "average_length": 7.482429800746361, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Staten Island", 
+                        "Outside NYC", 
+                        "Manhattan", 
+                        "Brooklyn", 
+                        "Queens"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 492, 
+            "number_non_empty_cells": 104239, 
+            "frequent_values": [
+                "Brooklyn", 
+                "Manhattan", 
+                "Bronx", 
+                "Queens", 
+                "Staten Island"
+            ], 
+            "number_distinct_values": 6, 
+            "column_name": "Borough Of Incident"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "shortest_values": [
+                        "Bronx", 
+                        "Other", 
+                        "Queens South", 
+                        "Queens North", 
+                        "Staten Island"
+                    ], 
+                    "average_length": 11.794616684649244, 
+                    "type": "TEXT", 
+                    "longest_values": [
+                        "Manhattan North", 
+                        "Manhattan South", 
+                        "Brooklyn South", 
+                        "Brooklyn North", 
+                        "Staten Island"
+                    ]
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                "Bronx", 
+                "Brooklyn North", 
+                "Brooklyn South", 
+                "Manhattan North", 
+                "Manhattan South"
+            ], 
+            "number_distinct_values": 9, 
+            "column_name": "Patrol Borough Of Incident"
+        }, 
+        {
+            "data_type": [
+                {
+                    "count": 104731, 
+                    "max_value": 1, 
+                    "min_value": 0, 
+                    "stddev": 0.43563337542353875, 
+                    "type": "INTEGER", 
+                    "mean": 0.25459510555613907
+                }
+            ], 
+            "number_empty_cells": 0, 
+            "number_non_empty_cells": 104731, 
+            "frequent_values": [
+                false, 
+                true
+            ], 
+            "number_distinct_values": 2, 
+            "column_name": "Stop, Question, Frisk Complaint"
+        }
+    ], 
+    "dataset_name": "fx4z-5xg2", 
+    "key_column_candidates": []
+}

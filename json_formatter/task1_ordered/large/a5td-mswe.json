@@ -1,0 +1,1384 @@
+{
+    "dataset_name": "a5td-mswe",
+    "columns": [
+        {
+            "column_name": "Summons Number",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11721626,
+            "frequent_values": [
+                8497663998,
+                4637158254,
+                8498191269,
+                8608725095,
+                8481422241
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 8689000112,
+                    "min_value": 1001718940,
+                    "mean": 7485007450.602234,
+                    "stddev": 2169425977.5702534
+                }
+            ]
+        },
+        {
+            "column_name": "Plate ID",
+            "number_non_empty_cells": 11721349,
+            "number_empty_cells": 277,
+            "number_distinct_values": 3109686,
+            "frequent_values": [
+                "BLANKPLATE",
+                "ABCD1234",
+                "62927JM",
+                "2028685",
+                "68080JZ"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 235678,
+                    "max_value": 9722718373,
+                    "min_value": 0,
+                    "mean": 2364481.8086456945,
+                    "stddev": 26500035.11583652
+                },
+                {
+                    "type": "REAL",
+                    "count": 337,
+                    "max_value": 1e+304,
+                    "min_value": 0.0,
+                    "mean": 2.967359050445106e+301,
+                    "stddev": Infinity
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11485334,
+                    "shortest_values": [
+                        "A",
+                        "X",
+                        "H",
+                        "Y",
+                        "Q"
+                    ],
+                    "longest_values": [
+                        "18TLR3045B",
+                        "20TLR99558",
+                        "19TLR98891",
+                        "20TLR6069Y",
+                        "27TLR4517C"
+                    ],
+                    "average_length": 6.889598073508354
+                }
+            ]
+        },
+        {
+            "column_name": "Registration State",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 69,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "PA",
+                "CT",
+                "FL"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28219,
+                    "max_value": 99,
+                    "min_value": 99,
+                    "mean": 99.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11693407,
+                    "shortest_values": [
+                        "NY",
+                        "AL",
+                        "LA",
+                        "RI",
+                        "WV"
+                    ],
+                    "longest_values": [
+                        "NT",
+                        "TX",
+                        "WA",
+                        "DC",
+                        "DE"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Plate Type",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 85,
+            "frequent_values": [
+                "PAS",
+                "COM",
+                "OMT",
+                "OMS",
+                "SRF"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 62547,
+                    "max_value": 999,
+                    "min_value": 999,
+                    "mean": 999.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11659079,
+                    "shortest_values": [
+                        "OMT",
+                        "ATD",
+                        "LUA",
+                        "AGC",
+                        "NYA"
+                    ],
+                    "longest_values": [
+                        "JCA",
+                        "VAS",
+                        "AGR",
+                        "TRA",
+                        "SPC"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Issue Date",
+            "number_non_empty_cells": 11721322,
+            "number_empty_cells": 304,
+            "number_distinct_values": 1758,
+            "frequent_values": [
+                "10/03/2017",
+                "05/01/2018",
+                "10/17/2017",
+                "11/02/2017",
+                "10/10/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 11721322,
+                    "max_value": "2069-06-19 00:00:00",
+                    "min_value": "1971-10-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Code",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                21,
+                38,
+                36,
+                14,
+                20
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 99,
+                    "min_value": 0,
+                    "mean": 34.285903337983996,
+                    "stddev": 19.55483544231463
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Body Type",
+            "number_non_empty_cells": 11682463,
+            "number_empty_cells": 39163,
+            "number_distinct_values": 2001,
+            "frequent_values": [
+                "SUBN",
+                "4DSD",
+                "VAN",
+                "DELV",
+                "SDN"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22,
+                    "max_value": 30,
+                    "min_value": 0,
+                    "mean": 5.181818181818182,
+                    "stddev": 8.542068961835904
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11682441,
+                    "shortest_values": [
+                        "I",
+                        "U",
+                        "P",
+                        "W",
+                        "D"
+                    ],
+                    "longest_values": [
+                        "TAXI",
+                        "ANEH",
+                        "OTRE",
+                        "RAME",
+                        "AMOR"
+                    ],
+                    "average_length": 3.7917749381315087
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Make",
+            "number_non_empty_cells": 11652077,
+            "number_empty_cells": 69549,
+            "number_distinct_values": 5072,
+            "frequent_values": [
+                "FORD",
+                "TOYOT",
+                "HONDA",
+                "NISSA",
+                "CHEVR"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52,
+                    "max_value": 11111,
+                    "min_value": 1,
+                    "mean": 704.6923076923077,
+                    "stddev": 2182.763073742699
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11652025,
+                    "shortest_values": [
+                        "L",
+                        "N",
+                        "S",
+                        "B",
+                        "W"
+                    ],
+                    "longest_values": [
+                        "HNYDA",
+                        "JAGME",
+                        "ACADI",
+                        "IZIZU",
+                        "PREVE"
+                    ],
+                    "average_length": 4.658226531439814
+                }
+            ]
+        },
+        {
+            "column_name": "Issuing Agency",
+            "number_non_empty_cells": 11721625,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "T",
+                "V",
+                "P",
+                "S",
+                "X"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11721625,
+                    "shortest_values": [
+                        "K",
+                        "N",
+                        "M",
+                        "B",
+                        "V"
+                    ],
+                    "longest_values": [
+                        "A",
+                        "O",
+                        "P",
+                        "S",
+                        "C"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Street Code1",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6636,
+            "frequent_values": [
+                0,
+                13610,
+                10210,
+                25390,
+                10110
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 98020,
+                    "min_value": 0,
+                    "mean": 25629.25589948016,
+                    "stddev": 22466.954912464655
+                }
+            ]
+        },
+        {
+            "column_name": "Street Code2",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6925,
+            "frequent_values": [
+                0,
+                40404,
+                10410,
+                13610,
+                10610
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 98310,
+                    "min_value": 0,
+                    "mean": 21321.633781098288,
+                    "stddev": 21957.269995565843
+                }
+            ]
+        },
+        {
+            "column_name": "Street Code3",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6793,
+            "frequent_values": [
+                0,
+                40404,
+                10510,
+                13610,
+                10810
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 98280,
+                    "min_value": 0,
+                    "mean": 21448.156768694036,
+                    "stddev": 22064.05668709474
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Expiration Date",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3678,
+            "frequent_values": [
+                0,
+                88880088,
+                20180088,
+                20170088,
+                20180930
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 88888888,
+                    "min_value": 0,
+                    "mean": 26883508.378494844,
+                    "stddev": 26950056.51970573
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Location",
+            "number_non_empty_cells": 9930096,
+            "number_empty_cells": 1791530,
+            "number_distinct_values": 226,
+            "frequent_values": [
+                19.0,
+                14.0,
+                1.0,
+                18.0,
+                114.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9930096,
+                    "max_value": 977,
+                    "min_value": 1,
+                    "mean": 55.86582405648445,
+                    "stddev": 38.53621575551562
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Precinct",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 227,
+            "frequent_values": [
+                0,
+                19,
+                14,
+                1,
+                18
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 977,
+                    "min_value": 0,
+                    "mean": 47.32730732067377,
+                    "stddev": 40.7697418267427
+                }
+            ]
+        },
+        {
+            "column_name": "Issuer Precinct",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 628,
+            "frequent_values": [
+                0,
+                19,
+                14,
+                1,
+                18
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 997,
+                    "min_value": 0,
+                    "mean": 49.26256220766641,
+                    "stddev": 60.72280392310604
+                }
+            ]
+        },
+        {
+            "column_name": "Issuer Code",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33810,
+            "frequent_values": [
+                0,
+                346199,
+                355542,
+                351966,
+                357052
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 999977,
+                    "min_value": 0,
+                    "mean": 334031.6927324759,
+                    "stddev": 187437.63230431793
+                }
+            ]
+        },
+        {
+            "column_name": "Issuer Command",
+            "number_non_empty_cells": 9947174,
+            "number_empty_cells": 1774452,
+            "number_distinct_values": 3083,
+            "frequent_values": [
+                "T103",
+                "T302",
+                "T401",
+                "T201",
+                "T301"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 493441,
+                    "max_value": 9798,
+                    "min_value": 0,
+                    "mean": 138.33477558613896,
+                    "stddev": 247.2307171331493
+                },
+                {
+                    "type": "REAL",
+                    "count": 17,
+                    "max_value": 13.0,
+                    "min_value": 0.0,
+                    "mean": 1.3041176470588236,
+                    "stddev": 3.3521356648517275
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9453716,
+                    "shortest_values": [
+                        "KN0",
+                        "KS0",
+                        "M01",
+                        "M10",
+                        "SA8"
+                    ],
+                    "longest_values": [
+                        "0O60",
+                        "KN62",
+                        "KN60",
+                        "BXLC",
+                        "MPTK"
+                    ],
+                    "average_length": 3.9999982017653166
+                }
+            ]
+        },
+        {
+            "column_name": "Issuer Squad",
+            "number_non_empty_cells": 9947165,
+            "number_empty_cells": 1774461,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "0000",
+                "M",
+                "A",
+                "H",
+                "L"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 832811,
+                    "max_value": 3000,
+                    "min_value": 0,
+                    "mean": 0.003602257895248742,
+                    "stddev": 3.2873637932976516
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9114354,
+                    "shortest_values": [
+                        "H",
+                        "V",
+                        "Q",
+                        "R",
+                        "Z"
+                    ],
+                    "longest_values": [
+                        "B1",
+                        "CC",
+                        "GG",
+                        "EE",
+                        "PP"
+                    ],
+                    "average_length": 1.0541255035738133
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Time",
+            "number_non_empty_cells": 11721566,
+            "number_empty_cells": 60,
+            "number_distinct_values": 1975,
+            "frequent_values": [
+                "0836A",
+                "1136A",
+                "1140A",
+                "0936A",
+                "0806A"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 181,
+                    "max_value": 2309,
+                    "min_value": 11,
+                    "mean": 824.8397790055249,
+                    "stddev": 532.7031470129684
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11721385,
+                    "shortest_values": [
+                        "1119P",
+                        "0313P",
+                        "0254P",
+                        "0656P",
+                        "0233P"
+                    ],
+                    "longest_values": [
+                        "1321P",
+                        "0720P",
+                        "0947A",
+                        "1130P",
+                        "1051A"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Time First Observed",
+            "number_non_empty_cells": 654711,
+            "number_empty_cells": 11066915,
+            "number_distinct_values": 2087,
+            "frequent_values": [
+                "1100A",
+                "1000A",
+                "1200P",
+                "0100P",
+                "0200P"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 103,
+                    "max_value": 2340,
+                    "min_value": 1,
+                    "mean": 843.9514563106796,
+                    "stddev": 570.7358795848146
+                },
+                {
+                    "type": "TEXT",
+                    "count": 654608,
+                    "shortest_values": [
+                        "12A",
+                        "17A",
+                        "19A",
+                        "21A",
+                        "957A"
+                    ],
+                    "longest_values": [
+                        "1417P",
+                        "0559P",
+                        "0247A",
+                        "0310A",
+                        "0330A"
+                    ],
+                    "average_length": 4.999980140786547
+                }
+            ]
+        },
+        {
+            "column_name": "Violation County",
+            "number_non_empty_cells": 11675725,
+            "number_empty_cells": 45901,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "NY",
+                "K",
+                "Q",
+                "BX",
+                "BK"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11675725,
+                    "shortest_values": [
+                        "K",
+                        "Q",
+                        "R",
+                        "NY",
+                        "BX"
+                    ],
+                    "longest_values": [
+                        "QUEEN",
+                        "QNS",
+                        "USA",
+                        "PBX",
+                        "MN"
+                    ],
+                    "average_length": 1.5936206102833015
+                }
+            ]
+        },
+        {
+            "column_name": "Violation In Front Of Or Opposite",
+            "number_non_empty_cells": 9872120,
+            "number_empty_cells": 1849506,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "F",
+                "O",
+                "I",
+                "X",
+                "R"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 9,
+                    "min_value": 1,
+                    "mean": 5.5,
+                    "stddev": 2.9297326385411577
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9872114,
+                    "shortest_values": [
+                        "O",
+                        "F",
+                        "I",
+                        "X",
+                        "R"
+                    ],
+                    "longest_values": [
+                        "R",
+                        "X",
+                        "I",
+                        "F",
+                        "O"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "House Number",
+            "number_non_empty_cells": 9737416,
+            "number_empty_cells": 1984210,
+            "number_distinct_values": 50592,
+            "frequent_values": [
+                "N",
+                "S",
+                "E",
+                "W",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6692154,
+                    "max_value": 71634053,
+                    "min_value": 0,
+                    "mean": 1173.0905821952094,
+                    "stddev": 48949.814475711115
+                },
+                {
+                    "type": "REAL",
+                    "count": 14,
+                    "max_value": 3.9e+30,
+                    "min_value": 0.134,
+                    "mean": 2.7857142857142858e+29,
+                    "stddev": 1.0044035695935402e+30
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3045248,
+                    "shortest_values": [
+                        "Z",
+                        "O",
+                        "R",
+                        "Q",
+                        "P"
+                    ],
+                    "longest_values": [
+                        "1210-1220-12",
+                        "W/S LONGFELL",
+                        "1441       S",
+                        "2831       S",
+                        "6248      MT"
+                    ],
+                    "average_length": 3.2605390431255517
+                }
+            ]
+        },
+        {
+            "column_name": "Street Name",
+            "number_non_empty_cells": 11717322,
+            "number_empty_cells": 4304,
+            "number_distinct_values": 71865,
+            "frequent_values": [
+                "Broadway",
+                "3rd Ave",
+                "5th Ave",
+                "Madison Ave",
+                "2nd Ave"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 310,
+                    "max_value": 8202,
+                    "min_value": 3,
+                    "mean": 187.6225806451613,
+                    "stddev": 584.8251981518412
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 233.0,
+                    "min_value": 233.0,
+                    "mean": 233.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11717011,
+                    "shortest_values": [
+                        "B",
+                        "E",
+                        "M",
+                        "W",
+                        "PL"
+                    ],
+                    "longest_values": [
+                        "PS 174 ON DUMONT AVE",
+                        "TERMINAL B ARRIV LGA",
+                        "WB QUEENS BLVD @ 56T",
+                        "SOFRITO PARKING AT D",
+                        "S/E C/O NICHOLAS AVE"
+                    ],
+                    "average_length": 11.2735604669143
+                }
+            ]
+        },
+        {
+            "column_name": "Intersecting Street",
+            "number_non_empty_cells": 3323883,
+            "number_empty_cells": 8397743,
+            "number_distinct_values": 239845,
+            "frequent_values": [
+                "H ST",
+                "AVE",
+                "E",
+                "ST",
+                "PRESSWAY @ PECK AVE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 259,
+                    "max_value": 1348095,
+                    "min_value": 0,
+                    "mean": 11725.351351351352,
+                    "stddev": 115190.42332028592
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3323624,
+                    "shortest_values": [
+                        "X",
+                        "G",
+                        "U",
+                        "R",
+                        "W"
+                    ],
+                    "longest_values": [
+                        "WEST OF BCH 59 STREE",
+                        "50ft W/of Netherland",
+                        "DELAFIELD AVE - HENR",
+                        "20ft S/of Coddington",
+                        "10ft S/of Waring Ave"
+                    ],
+                    "average_length": 13.345854103833647
+                }
+            ]
+        },
+        {
+            "column_name": "Date First Observed",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 561,
+            "frequent_values": [
+                0,
+                20170830,
+                20170831,
+                20180510,
+                20171025
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 20330610,
+                    "min_value": 0,
+                    "mean": 289722.4858408722,
+                    "stddev": 2400289.170017784
+                }
+            ]
+        },
+        {
+            "column_name": "Law Section",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                408,
+                1180,
+                1111,
+                0,
+                6040
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 6040,
+                    "min_value": 0,
+                    "mean": 521.0885184359234,
+                    "stddev": 268.06933157725194
+                }
+            ]
+        },
+        {
+            "column_name": "Sub Division",
+            "number_non_empty_cells": 11721086,
+            "number_empty_cells": 540,
+            "number_distinct_values": 140,
+            "frequent_values": [
+                "h1",
+                "B",
+                "D",
+                "d1",
+                "D1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4765,
+                    "max_value": 99,
+                    "min_value": 5,
+                    "mean": 54.95152151101784,
+                    "stddev": 46.88649821530521
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11716321,
+                    "shortest_values": [
+                        "L",
+                        "B",
+                        "b",
+                        "I",
+                        "c"
+                    ],
+                    "longest_values": [
+                        "h3",
+                        "H0",
+                        "J7",
+                        "F4",
+                        "F6"
+                    ],
+                    "average_length": 1.6772674630543154
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Legal Code",
+            "number_non_empty_cells": 1774486,
+            "number_empty_cells": 9947140,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "T",
+                "0",
+                "4",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 35,
+                    "max_value": 4,
+                    "min_value": 0,
+                    "mean": 0.14285714285714285,
+                    "stddev": 0.6821335077893327
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1774451,
+                    "shortest_values": [
+                        "T"
+                    ],
+                    "longest_values": [
+                        "T"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Days Parking In Effect    ",
+            "number_non_empty_cells": 9946913,
+            "number_empty_cells": 1774713,
+            "number_distinct_values": 179,
+            "frequent_values": [
+                "YYYYYYY",
+                "Y",
+                "YYYYY",
+                "Y  Y",
+                "BBBBBBB"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9946913,
+                    "shortest_values": [
+                        "Y",
+                        "YY",
+                        "Y Y",
+                        "YYY",
+                        "YY Y"
+                    ],
+                    "longest_values": [
+                        "BBYYYBY",
+                        "YYYYBBB",
+                        "YYYBYBB",
+                        "YYYBBYB",
+                        "BBYYBBB"
+                    ],
+                    "average_length": 4.809670095636706
+                }
+            ]
+        },
+        {
+            "column_name": "From Hours In Effect",
+            "number_non_empty_cells": 5810827,
+            "number_empty_cells": 5910799,
+            "number_distinct_values": 428,
+            "frequent_values": [
+                "0800A",
+                "0700A",
+                "0900A",
+                "0830A",
+                "ALL"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3508,
+                    "max_value": 2100,
+                    "min_value": 0,
+                    "mean": 836.8275370581528,
+                    "stddev": 207.6125559599504
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5807319,
+                    "shortest_values": [
+                        "ALL",
+                        "17A",
+                        "04A",
+                        "00P",
+                        "03A"
+                    ],
+                    "longest_values": [
+                        "1105P",
+                        "0840A",
+                        "0837A",
+                        "0820A",
+                        "0838A"
+                    ],
+                    "average_length": 4.822849407790411
+                }
+            ]
+        },
+        {
+            "column_name": "To Hours In Effect",
+            "number_non_empty_cells": 5810827,
+            "number_empty_cells": 5910799,
+            "number_distinct_values": 571,
+            "frequent_values": [
+                "0700P",
+                "0600P",
+                "ALL",
+                "0100P",
+                "1000A"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4053,
+                    "max_value": 1630,
+                    "min_value": 0,
+                    "mean": 731.3123612139157,
+                    "stddev": 329.83725830008524
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5806774,
+                    "shortest_values": [
+                        ":",
+                        "ALL",
+                        "08P",
+                        "58A",
+                        "66A"
+                    ],
+                    "longest_values": [
+                        "0602P",
+                        "0109P",
+                        "7804A",
+                        "0940A",
+                        "2330A"
+                    ],
+                    "average_length": 4.822677100916963
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Color",
+            "number_non_empty_cells": 11588650,
+            "number_empty_cells": 132976,
+            "number_distinct_values": 2296,
+            "frequent_values": [
+                "WH",
+                "GY",
+                "BK",
+                "WHITE",
+                "BL"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 14,
+                    "min_value": 0,
+                    "mean": 5.4,
+                    "stddev": 6.6211781428987395
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11588645,
+                    "shortest_values": [
+                        "D",
+                        "Y",
+                        "N",
+                        "A",
+                        "G"
+                    ],
+                    "longest_values": [
+                        "BLUEW",
+                        "GEIGE",
+                        "YW/OR",
+                        "FGRAY",
+                        "CARGO"
+                    ],
+                    "average_length": 2.8465623893043577
+                }
+            ]
+        },
+        {
+            "column_name": "Unregistered Vehicle?",
+            "number_non_empty_cells": 833065,
+            "number_empty_cells": 10888561,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                0.0,
+                6.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 833065,
+                    "max_value": 6,
+                    "min_value": 0,
+                    "mean": 7.202319146765258e-06,
+                    "stddev": 0.006573725200157868
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Year",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                0,
+                2016,
+                2017,
+                2015,
+                2014
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 2069,
+                    "min_value": 0,
+                    "mean": 1568.7021183750446,
+                    "stddev": 832.9030815657179
+                }
+            ]
+        },
+        {
+            "column_name": "Meter Number",
+            "number_non_empty_cells": 1439977,
+            "number_empty_cells": 10281649,
+            "number_distinct_values": 33001,
+            "frequent_values": [
+                "-",
+                "127-3010",
+                "126-4957",
+                "491-3001",
+                "118-3019"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1439977,
+                    "shortest_values": [
+                        "-",
+                        "0-",
+                        "11 -",
+                        "-____",
+                        "- 114"
+                    ],
+                    "longest_values": [
+                        "__ -____",
+                        "135-3010",
+                        "267-3578",
+                        "158-4487",
+                        "103-0336"
+                    ],
+                    "average_length": 3.9518415919143153
+                }
+            ]
+        },
+        {
+            "column_name": "Feet From Curb",
+            "number_non_empty_cells": 11721626,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                0,
+                5,
+                6,
+                3,
+                4
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11721626,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 0.12661067670986945,
+                    "stddev": 0.8557979022883122
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Post Code",
+            "number_non_empty_cells": 9114141,
+            "number_empty_cells": 2607485,
+            "number_distinct_values": 457,
+            "frequent_values": [
+                "01",
+                "C",
+                "A",
+                "03",
+                "99"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5713033,
+                    "max_value": 200,
+                    "min_value": 0,
+                    "mean": 25.986210301953445,
+                    "stddev": 23.17936637253412
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3401108,
+                    "shortest_values": [
+                        "N",
+                        "K",
+                        "U",
+                        "F",
+                        "G"
+                    ],
+                    "longest_values": [
+                        "59-P",
+                        "05-A",
+                        "O-PM",
+                        "H-AM",
+                        "16-A"
+                    ],
+                    "average_length": 1.7584125526152066
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Description",
+            "number_non_empty_cells": 7180676,
+            "number_empty_cells": 4540950,
+            "number_distinct_values": 109,
+            "frequent_values": [
+                "PHTO SCHOOL ZN SPEED VIOLATION",
+                "21-No Parking (street clean)",
+                "14-No Standing",
+                "38-Failure to Dsplay Meter Rec",
+                "FAILURE TO STOP AT RED LIGHT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7180676,
+                    "shortest_values": [
+                        "51-Sidewalk",
+                        "61-Wrong Way",
+                        "48-Bike Lane",
+                        "50-Crosswalk",
+                        "14-No Standing"
+                    ],
+                    "longest_values": [
+                        "39-Overtime PKG-Time Limt Post",
+                        "68-Not Pkg. Comp. w Psted Sign",
+                        "26-No Stnd (for-hire veh only)",
+                        "69-Fail to Dsp Prking Mtr Rcpt",
+                        "22-No Parking (exc hotel load)"
+                    ],
+                    "average_length": 25.608566937151878
+                }
+            ]
+        },
+        {
+            "column_name": "No Standing or Stopping Violation",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 11721626,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Hydrant Violation",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 11721626,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Double Parking Violation",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 11721626,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

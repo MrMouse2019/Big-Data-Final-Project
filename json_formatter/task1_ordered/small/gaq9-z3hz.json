@@ -1,0 +1,245 @@
+{
+    "dataset_name": "gaq9-z3hz",
+    "columns": [
+        {
+            "column_name": "Zone",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Manhattan",
+                "Bronx",
+                "Brooklyn South",
+                "Brooklyn North",
+                "Queens West"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2832,
+                    "shortest_values": [
+                        "Bronx",
+                        "Manhattan",
+                        "Queens East",
+                        "Queens West",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Brooklyn South",
+                        "Brooklyn North",
+                        "Staten Island",
+                        "Queens West",
+                        "Queens East"
+                    ],
+                    "average_length": 10.389830508474576
+                }
+            ]
+        },
+        {
+            "column_name": "District",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "BKS18",
+                "QE13",
+                "QW06",
+                "QW05",
+                "QW04"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2832,
+                    "shortest_values": [
+                        "BX12",
+                        "MN02",
+                        "MN03",
+                        "MN04",
+                        "MN05"
+                    ],
+                    "longest_values": [
+                        "BKN01",
+                        "BKS06",
+                        "BKS18",
+                        "BKS15",
+                        "BKS14"
+                    ],
+                    "average_length": 4.305084745762712
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Month Number",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                11,
+                9,
+                7,
+                5,
+                3
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2832,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 6.5,
+                    "stddev": 3.452052529534663
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                2019,
+                2017,
+                2018,
+                2016
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2832,
+                    "max_value": 2019,
+                    "min_value": 2016,
+                    "mean": 2017.5,
+                    "stddev": 1.118033988749895
+                }
+            ]
+        },
+        {
+            "column_name": "Month Name",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "April",
+                "February",
+                "May",
+                "January",
+                "October"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2832,
+                    "shortest_values": [
+                        "May",
+                        "July",
+                        "June",
+                        "April",
+                        "March"
+                    ],
+                    "longest_values": [
+                        "September",
+                        "November",
+                        "February",
+                        "December",
+                        "October"
+                    ],
+                    "average_length": 6.166666666666667
+                }
+            ]
+        },
+        {
+            "column_name": "Diversion Rate-Total (Total Recycling / Total Waste)",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 253,
+            "frequent_values": [
+                14.1,
+                14.5,
+                13.9,
+                14.2,
+                14.3
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2832,
+                    "max_value": 33,
+                    "min_value": 5,
+                    "mean": 17.031779661016948,
+                    "stddev": 5.278579054329559
+                }
+            ]
+        },
+        {
+            "column_name": "Capture Rate-Paper (Total Paper / Max Paper)",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 425,
+            "frequent_values": [
+                34.6,
+                32.9,
+                32.8,
+                33.6,
+                34.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2832,
+                    "max_value": 72,
+                    "min_value": 16,
+                    "mean": 37.98481638418079,
+                    "stddev": 9.016078448402855
+                }
+            ]
+        },
+        {
+            "column_name": "Capture Rate-MGP (Total MGP / Max MGP)",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 665,
+            "frequent_values": [
+                73.1,
+                57.0,
+                56.7,
+                44.1,
+                62.1
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2832,
+                    "max_value": 101,
+                    "min_value": 20,
+                    "mean": 60.78177966101695,
+                    "stddev": 16.28882952990413
+                }
+            ]
+        },
+        {
+            "column_name": "Capture Rate-Total ((Total Recycling - Leaves (Recycling)) / (Max Paper + Max MGP))x100",
+            "number_non_empty_cells": 2832,
+            "number_empty_cells": 0,
+            "number_distinct_values": 450,
+            "frequent_values": [
+                44.5,
+                40.3,
+                49.6,
+                43.8,
+                51.0
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2832,
+                    "max_value": 75,
+                    "min_value": 18,
+                    "mean": 45.7079802259887,
+                    "stddev": 9.494897151060337
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}
