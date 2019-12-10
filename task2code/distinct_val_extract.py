@@ -30,13 +30,15 @@ if __name__ == "__main__":
 
             column_file_name = row[0]
             labels = []
-            searched = "Vehicle Type"
-            if searched == row[1]:
+            searched = "City Agency"
+            searched = searched.lower()
+            main_label = row[1].lower()
+            if searched == main_label:
                 num_correct += 1
                 read_column_values(values, column_file_name)
 
     print(num_correct)
     values = sorted((set(values)))
-    with open(semantic_data_dir + "VehicleTypes.txt", "w+") as f:
+    with open(semantic_data_dir + "CityAgencys.txt", "w+") as f:
         for val in values:
             f.write("%s\n"%val)
