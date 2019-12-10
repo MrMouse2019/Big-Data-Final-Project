@@ -31,8 +31,7 @@ if __name__ == "__main__":
             column_file_name = row[0]
             labels = []
             searched = "Vehicle Type"
-            row = row[1:]
-            if searched in row:
+            if searched == row[1]:
                 num_correct += 1
                 read_column_values(values, column_file_name)
 
