@@ -1,65 +1,167 @@
 import re
 import csv
 
-def is_phone_num(values):
-    thre = 0.8
-    num_match = 0
-    for val in values:
-        if re.fullmatch("^\(?\d{3}\)?-? *\d{3}-? *-?\d{4}$", val[0]):
-            num_match += 1
-    match_rate = num_match / len(values)
-    if match_rate > thre:
+data_dir = '../task2data/'
+source = data_dir + 'columns_labeled.csv'
+semantic_data_dir = '../semantic_data/'
+# semantic_set_list = ['Color', 'VehicleType', 'BusinessName']
+semantic_set_list = ['Color', 'VehicleType', 'BusinessName']
+semantic_set = []
+
+def is_biz_name(val, col_fname):
+    val = val.lower()
+    freq_list = ['inc', 'llc', 'corp', 'corporation', 'service']
+    global semantic_set
+    words = val.split()
+    num_words = len(val)
+    num_matched = 0
+
+    for word in freq_list:
+        if word in val and num_words > 1:
+            return True
+    for items in semantic_set:
+        for word in words:
+            if word in items:
+                num_matched += 1
+        if num_matched >= 2 or num_matched >= 0.5 * num_words:
+            return True
+    return False
+
+def is_color(val, col_fname):
+    global semantic_set
+    if not 'colo' in col_fname and len(val) < 3:
+        return False
+    if val in semantic_set:
         return True
     return False
 
-def is_coord(values):
-    thre = 0.9
-    num_match = 0
-    for val in values:
-        if re.match("^\(-?\d+\.\d+, *-?\d+\.\d+\)$", val[0]):
-            num_match += 1
-    match_rate = num_match / len(values)
-    if match_rate > thre:
+def is_vehicle_type(val, col_fname):
+    global semantic_set
+    if not ('body' in col_fname and 'type' in col_fname) and len(val) < 2:
+        return False
+    if 'make' in col_fname:
+        return False
+    if val in semantic_set:
         return True
     return False
 
-def is_zipcode(values):
-    thre = 0.5
-    num_match = 0
-    for val in values:
-        strs = val[0].split()
-        str = ''.join(strs)
-        if re.fullmatch("^[0-9]{5}(?:-[0-9]{4})?$", str):
-            num_match += 1
-    match_rate = num_match/len(values)
-    if match_rate > thre:
+def do_nothing(val, col_fname):
+    return False
+
+def is_phone_num(val):
+    if re.fullmatch("^\(?\d{3}\)?-? *\d{3}-? *-?\d{4}$", val):
         return True
     return False
 
-def is_website(values):
-    thre = 0.9
-    num_match = 0
-    for val in values:
-        str = val[0].lower()
-        if not re.search('[a-zA-Z]', str):
-            continue
-        if re.search("((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]+(\-[a-z0-9]+)*(\.[a-z0-9]+(\-[a-z0-9]+)*)+(\/|(\/[a-z0-9#]+\/?))*", str):
-            num_match += 1
-    match_rate = num_match / len(values)
-    if match_rate > thre:
+def is_coord(val):
+    if re.match("^\(-?\d+\.\d+, *-?\d+\.\d+\)$", val):
         return True
     return False
+
+def is_zipcode(val):
+    strs = val.split()
+    str = ''.join(strs)
+    if re.fullmatch("^[0-9]{5}(?:-[0-9]{4})?$", str):
+        return True
+    return False
+
+def is_website(val):
+    str = val.lower()
+    if not re.search('[a-zA-Z]', str):
+        return False
+    if re.search('(\. +)|( +\.)', str):
+        return False
+    if re.search('[,\[\]]', str):
+        return False
+    if re.search("((https?|ftp|smtp):\/\/)?(www.)?[a-z0-9]+(\-[a-z0-9]+)*(\.[a-z0-9]+(\-[a-z0-9]+)*)+(\/|(\/[a-z0-9#]+\/?))*", str):
+        return True
+    return False
+
+def label_cell_regex(val):
+    # For regex predicting semantics.
+    if is_zipcode(val):
+        return 'ZipCode'
+    if is_website(val):
+        return 'Website'
+    if is_phone_num(val):
+        return 'PhoneNumber'
+    if is_coord(val):
+        return 'Coordinate'
+    return
+
+def load_set(semantic):
+    global semantic_set
+    f_name = semantic_data_dir + semantic + 's.txt'
+    with open(f_name) as f:
+        semantic_set = f.readlines()
+    if semantic == 'BusinessName':
+        semantic_set = [x.strip().lower().split() for x in semantic_set]
+    else:
+        semantic_set = [x.strip() for x in semantic_set]
+
+def filter_classified(values):
+    values_ = []
+    for val in values:
+        if val:
+            values_.append(val)
+    return values_
 
 def predict(column_file_name, values):
-    if is_zipcode(values):
-        print('Is a zip code')
-    if is_website(values):
-        print('Is a website')
-    if is_coord(values):
-        print('Is a coordinate')
-    if is_phone_num(values):
-        print('Is a phone number')
-    pass
+    thre = 0.05
+    pred_labels_temp = {}
+    num_items = 0
+
+    for i in range(len(values)):
+        val = values[i]
+        cell_label = label_cell_regex(val[0])
+        cell_freq = int(val[1])
+        num_items += cell_freq
+        if not cell_label:
+            continue
+        if cell_label in pred_labels_temp:
+            pred_labels_temp[cell_label] += cell_freq
+        else:
+            pred_labels_temp[cell_label] = cell_freq
+        values[i] = None
+
+    # Filter out all classified items
+    values = filter_classified(values)
+
+    # Classify items by knowledge.
+    global semantic_set
+    for semantic in semantic_set_list:
+        # print("Predicting semantic: %s.."%semantic)
+        load_set(semantic)
+        func = None
+        if semantic == 'BusinessName':
+            func = is_biz_name
+        elif semantic == 'Color':
+            func = is_color
+        elif semantic == 'VehicleType':
+            func = is_vehicle_type
+        else:
+            func = do_nothing
+
+        for i in range(len(values)):
+            val = values[i]
+            cell_freq = int(val[1])
+            if func(val[0], column_file_name):
+                values[i] = None
+                if semantic in pred_labels_temp:
+                    pred_labels_temp[semantic] += cell_freq
+                else:
+                    pred_labels_temp[semantic] = cell_freq
+                values[i] = None
+        values = filter_classified(values)
+        semantic_set = []
+
+    pred_labels = {}
+    for key in pred_labels_temp:
+        match_rate = pred_labels_temp[key] / num_items
+        if match_rate >= thre:
+            pred_labels[key] = pred_labels_temp[key]
+    print(pred_labels)
+    return
 
 def read_column_values(column_file_name):
     values = []
@@ -69,8 +171,6 @@ def read_column_values(column_file_name):
             values.append((row[0], row[1]))
     return values
 
-data_dir = '../task2data/'
-source = data_dir + 'columns_labeled.csv'
 if __name__ == "__main__":
     num_columns = -1
     num_correct = 0
@@ -97,6 +197,7 @@ if __name__ == "__main__":
             print("Labels: %s"%labels)
 
             values = read_column_values(column_file_name)
+            column_file_name = column_file_name.lower()
 
             predict(column_file_name, values)
 
