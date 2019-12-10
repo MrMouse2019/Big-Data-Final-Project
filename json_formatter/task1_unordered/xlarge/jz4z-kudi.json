@@ -243,21 +243,21 @@
             "data_type": [
                 {
                     "count": 3899052, 
-                    "max_value": 98000, 
-                    "min_value": -47400, 
+                    "max_value": 98000.0, 
+                    "min_value": -47400.0, 
                     "stddev": 1842.265309783979, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 318.2931745973124
                 }
             ], 
             "number_empty_cells": 12744727, 
             "number_non_empty_cells": 3899052, 
             "frequent_values": [
-                0.0, 
-                300.0, 
-                25.0, 
-                100.0, 
-                200.0
+                "0.00", 
+                "300.00", 
+                "25.00", 
+                "100.00", 
+                "200.00"
             ], 
             "number_distinct_values": 7690, 
             "column_name": "Balance Due"
@@ -310,11 +310,11 @@
             "number_empty_cells": 5504677, 
             "number_non_empty_cells": 11139102, 
             "frequent_values": [
-                0.0, 
-                2154.0, 
-                2165.0, 
-                2174.0, 
-                3154.0
+                "00000", 
+                "02154", 
+                "02165", 
+                "02174", 
+                "03154"
             ], 
             "number_distinct_values": 13786, 
             "column_name": "Violation Location (Block No.)"
@@ -333,11 +333,11 @@
             "number_empty_cells": 5504980, 
             "number_non_empty_cells": 11138799, 
             "frequent_values": [
-                0.0, 
-                1.0, 
-                29.0, 
-                7501.0, 
-                5.0
+                "0000", 
+                "0001", 
+                "0029", 
+                "7501", 
+                "0005"
             ], 
             "number_distinct_values": 1981, 
             "column_name": "Violation Location (Lot No.)"
@@ -534,10 +534,10 @@
             "number_non_empty_cells": 15225932, 
             "frequent_values": [
                 "00000", 
-                0.0, 
                 "11101", 
-                11101.0, 
-                11368.0
+                "11368", 
+                "11377", 
+                "11220"
             ], 
             "number_distinct_values": 30695, 
             "column_name": "Violation Location (Zip Code)"
@@ -721,14 +721,6 @@
                     "mean": 1872185251940.0454
                 }, 
                 {
-                    "count": 1, 
-                    "max_value": NaN, 
-                    "min_value": NaN, 
-                    "stddev": NaN, 
-                    "type": "REAL", 
-                    "mean": NaN
-                }, 
-                {
                     "count": 9711406, 
                     "shortest_values": [
                         "R", 
@@ -748,8 +740,8 @@
                     ]
                 }
             ], 
-            "number_empty_cells": 6932306, 
-            "number_non_empty_cells": 9711473, 
+            "number_empty_cells": 6932307, 
+            "number_non_empty_cells": 9711472, 
             "frequent_values": [
                 "BROOKLYN", 
                 "BRONX", 
@@ -763,12 +755,20 @@
         {
             "data_type": [
                 {
-                    "count": 12442497, 
+                    "count": 12442493, 
                     "max_value": 981042305, 
                     "min_value": 0, 
-                    "stddev": 4813057.484094636, 
+                    "stddev": 4813058.257310629, 
                     "type": "INTEGER", 
-                    "mean": 119588.71510292508
+                    "mean": 119588.75167235377
+                }, 
+                {
+                    "count": 4, 
+                    "max_value": 11753.0, 
+                    "min_value": 0.0, 
+                    "stddev": 5830.325644864853, 
+                    "type": "REAL", 
+                    "mean": 5835.0075
                 }, 
                 {
                     "count": 3451, 
@@ -793,11 +793,11 @@
             "number_empty_cells": 4197831, 
             "number_non_empty_cells": 12445948, 
             "frequent_values": [
-                10003.0, 
                 "10003", 
-                11368.0, 
-                10456.0, 
-                11220.0
+                "11368", 
+                "10456", 
+                "10467", 
+                "10457"
             ], 
             "number_distinct_values": 29468, 
             "column_name": "Respondent Address (Zip Code)"
@@ -1052,21 +1052,21 @@
             "data_type": [
                 {
                     "count": 15615173, 
-                    "max_value": 9050000, 
-                    "min_value": 0, 
+                    "max_value": 9050000.0, 
+                    "min_value": 0.0, 
                     "stddev": 55425.002110480826, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 11182.13525095111
                 }
             ], 
             "number_empty_cells": 1028606, 
             "number_non_empty_cells": 15615173, 
             "frequent_values": [
-                0.0, 
-                100.0, 
-                10000.0, 
-                2500.0, 
-                25.0
+                "0.00", 
+                "100.00", 
+                "10000.00", 
+                "2500.00", 
+                "25.00"
             ], 
             "number_distinct_values": 1096, 
             "column_name": "Total Violation Amount"
@@ -1184,10 +1184,10 @@
             "number_non_empty_cells": 1582354, 
             "frequent_values": [
                 "0", 
-                0.0, 
                 "1", 
                 "2", 
-                "3"
+                "3", 
+                "4"
             ], 
             "number_distinct_values": 199205, 
             "column_name": "Respondent Address or Facility Number(For FDNY and DOB Tickets)"
@@ -1196,21 +1196,21 @@
             "data_type": [
                 {
                     "count": 14957983, 
-                    "max_value": 2135300, 
-                    "min_value": 0, 
+                    "max_value": 2135300.0, 
+                    "min_value": 0.0, 
                     "stddev": 1472.512978782793, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 389.3732148913393
                 }
             ], 
             "number_empty_cells": 1685796, 
             "number_non_empty_cells": 14957983, 
             "frequent_values": [
-                0.0, 
-                300.0, 
-                100.0, 
-                25.0, 
-                50.0
+                "0.00", 
+                "300.00", 
+                "100.00", 
+                "25.00", 
+                "50.00"
             ], 
             "number_distinct_values": 2876, 
             "column_name": "Penalty Imposed"
@@ -1219,21 +1219,21 @@
             "data_type": [
                 {
                     "count": 12147772, 
-                    "max_value": 94800, 
-                    "min_value": -7210, 
+                    "max_value": 94800.0, 
+                    "min_value": -7210.0, 
                     "stddev": 656.1118393541097, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 192.90484691349164
                 }
             ], 
             "number_empty_cells": 4496007, 
             "number_non_empty_cells": 12147772, 
             "frequent_values": [
-                0.0, 
-                100.0, 
-                25.0, 
-                50.0, 
-                250.0
+                "0.00", 
+                "100.00", 
+                "25.00", 
+                "50.00", 
+                "250.00"
             ], 
             "number_distinct_values": 12394, 
             "column_name": "Paid Amount"
@@ -1242,21 +1242,21 @@
             "data_type": [
                 {
                     "count": 4393959, 
-                    "max_value": 20000, 
-                    "min_value": -9997, 
+                    "max_value": 20000.0, 
+                    "min_value": -9997.0, 
                     "stddev": 381.4123286204475, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 1.5699240707525945
                 }
             ], 
             "number_empty_cells": 12249820, 
             "number_non_empty_cells": 4393959, 
             "frequent_values": [
-                0.0, 
-                100.0, 
-                200.0, 
-                -30.0, 
-                1500.0
+                "0.00", 
+                "100.00", 
+                "200.00", 
+                "-30.00", 
+                "1500.00"
             ], 
             "number_distinct_values": 6797, 
             "column_name": "Additional Penalties or Late Fees"
@@ -1469,21 +1469,21 @@
             "data_type": [
                 {
                     "count": 10724761, 
-                    "max_value": 750000, 
-                    "min_value": 0, 
+                    "max_value": 750000.0, 
+                    "min_value": 0.0, 
                     "stddev": 13835.153036050797, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 3398.1591231730013
                 }
             ], 
             "number_empty_cells": 5919018, 
             "number_non_empty_cells": 10724761, 
             "frequent_values": [
-                100.0, 
-                10000.0, 
-                25.0, 
-                0.0, 
-                50.0
+                "100.00", 
+                "10000.00", 
+                "25.00", 
+                "0.00", 
+                "50.00"
             ], 
             "number_distinct_values": 253, 
             "column_name": "Charge #1: Infraction Amount"
@@ -1634,21 +1634,21 @@
             "data_type": [
                 {
                     "count": 557328, 
-                    "max_value": 500000, 
-                    "min_value": 0, 
+                    "max_value": 500000.0, 
+                    "min_value": 0.0, 
                     "stddev": 4325.490249080036, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 671.5857143369793
                 }
             ], 
             "number_empty_cells": 16086451, 
             "number_non_empty_cells": 557328, 
             "frequent_values": [
-                0.0, 
-                600.0, 
-                500.0, 
-                100.0, 
-                750.0
+                "0.00", 
+                "600.00", 
+                "500.00", 
+                "100.00", 
+                "750.00"
             ], 
             "number_distinct_values": 155, 
             "column_name": "Charge #2: Infraction Amount"
@@ -1799,21 +1799,21 @@
             "data_type": [
                 {
                     "count": 252332, 
-                    "max_value": 600000, 
-                    "min_value": 0, 
+                    "max_value": 600000.0, 
+                    "min_value": 0.0, 
                     "stddev": 1945.2080483764953, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 347.14580790387265
                 }
             ], 
             "number_empty_cells": 16391447, 
             "number_non_empty_cells": 252332, 
             "frequent_values": [
-                0.0, 
-                600.0, 
-                500.0, 
-                700.0, 
-                750.0
+                "0.00", 
+                "600.00", 
+                "500.00", 
+                "700.00", 
+                "750.00"
             ], 
             "number_distinct_values": 104, 
             "column_name": "Charge #3: Infraction Amount"
@@ -1964,21 +1964,21 @@
             "data_type": [
                 {
                     "count": 152546, 
-                    "max_value": 120000, 
-                    "min_value": 0, 
+                    "max_value": 120000.0, 
+                    "min_value": 0.0, 
                     "stddev": 1148.6159286685756, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 286.4309454197422
                 }
             ], 
             "number_empty_cells": 16491233, 
             "number_non_empty_cells": 152546, 
             "frequent_values": [
-                0.0, 
-                600.0, 
-                500.0, 
-                700.0, 
-                4800.0
+                "0.00", 
+                "600.00", 
+                "500.00", 
+                "700.00", 
+                "4800.00"
             ], 
             "number_distinct_values": 67, 
             "column_name": "Charge #4: Infraction Amount"
@@ -2036,20 +2036,20 @@
         {
             "data_type": [
                 {
-                    "count": 5, 
-                    "max_value": 81, 
+                    "count": 3, 
+                    "max_value": 19, 
                     "min_value": 0, 
-                    "stddev": 37.231169737197355, 
+                    "stddev": 8.956685895029603, 
                     "type": "INTEGER", 
-                    "mean": 36.2
+                    "mean": 6.333333333333333
                 }, 
                 {
-                    "count": 4768, 
+                    "count": 4770, 
                     "max_value": 1731.4, 
                     "min_value": 0.11, 
-                    "stddev": 56.12179440451243, 
+                    "stddev": 56.11284562094681, 
                     "type": "REAL", 
-                    "mean": 108.61923427014008
+                    "mean": 108.60771677149431
                 }, 
                 {
                     "count": 267109, 
@@ -2121,21 +2121,21 @@
             "data_type": [
                 {
                     "count": 85472, 
-                    "max_value": 95000, 
-                    "min_value": 0, 
+                    "max_value": 95000.0, 
+                    "min_value": 0.0, 
                     "stddev": 886.7835655583331, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 250.33695245226508
                 }
             ], 
             "number_empty_cells": 16558307, 
             "number_non_empty_cells": 85472, 
             "frequent_values": [
-                0.0, 
-                600.0, 
-                500.0, 
-                700.0, 
-                4800.0
+                "0.00", 
+                "600.00", 
+                "500.00", 
+                "700.00", 
+                "4800.00"
             ], 
             "number_distinct_values": 41, 
             "column_name": "Charge #5: Infraction Amount"
@@ -2193,20 +2193,20 @@
         {
             "data_type": [
                 {
-                    "count": 18, 
-                    "max_value": 151, 
+                    "count": 5, 
+                    "max_value": 13, 
                     "min_value": 0, 
-                    "stddev": 61.70289226268285, 
+                    "stddev": 5.2, 
                     "type": "INTEGER", 
-                    "mean": 84.44444444444444
+                    "mean": 2.6
                 }, 
                 {
-                    "count": 4131, 
+                    "count": 4144, 
                     "max_value": 1399.0, 
                     "min_value": -11.33, 
-                    "stddev": 54.437393614749844, 
+                    "stddev": 54.40207080879326, 
                     "type": "REAL", 
-                    "mean": 109.2063928830844
+                    "mean": 109.22781346525623
                 }, 
                 {
                     "count": 211303, 
@@ -2286,21 +2286,21 @@
             "data_type": [
                 {
                     "count": 69729, 
-                    "max_value": 10700, 
-                    "min_value": 0, 
+                    "max_value": 10700.0, 
+                    "min_value": 0.0, 
                     "stddev": 610.4161907710944, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 133.4462705617462
                 }
             ], 
             "number_empty_cells": 16574050, 
             "number_non_empty_cells": 69729, 
             "frequent_values": [
-                0.0, 
-                600.0, 
-                500.0, 
-                4800.0, 
-                700.0
+                "0.00", 
+                "600.00", 
+                "500.00", 
+                "4800.00", 
+                "700.00"
             ], 
             "number_distinct_values": 30, 
             "column_name": "Charge #6: Infraction Amount"
@@ -2358,20 +2358,20 @@
         {
             "data_type": [
                 {
-                    "count": 19, 
-                    "max_value": 151, 
+                    "count": 3, 
+                    "max_value": 0, 
                     "min_value": 0, 
-                    "stddev": 53.79040065119488, 
+                    "stddev": 0.0, 
                     "type": "INTEGER", 
-                    "mean": 109.47368421052632
+                    "mean": 0.0
                 }, 
                 {
-                    "count": 2214, 
+                    "count": 2230, 
                     "max_value": 454.0, 
                     "min_value": 3.01, 
-                    "stddev": 47.33719242983836, 
+                    "stddev": 47.27516776167277, 
                     "type": "REAL", 
-                    "mean": 104.37005194218516
+                    "mean": 104.55473318385556
                 }, 
                 {
                     "count": 153524, 
@@ -2451,21 +2451,21 @@
             "data_type": [
                 {
                     "count": 48603, 
-                    "max_value": 480000, 
-                    "min_value": 0, 
+                    "max_value": 480000.0, 
+                    "min_value": 0.0, 
                     "stddev": 2370.4356473710063, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 105.69512170030657
                 }
             ], 
             "number_empty_cells": 16595176, 
             "number_non_empty_cells": 48603, 
             "frequent_values": [
-                0.0, 
-                600.0, 
-                4800.0, 
-                2400.0, 
-                500.0
+                "0.00", 
+                "600.00", 
+                "4800.00", 
+                "2400.00", 
+                "500.00"
             ], 
             "number_distinct_values": 29, 
             "column_name": "Charge #7: Infraction Amount"
@@ -2523,20 +2523,20 @@
         {
             "data_type": [
                 {
-                    "count": 51, 
-                    "max_value": 151, 
+                    "count": 2, 
+                    "max_value": 19, 
                     "min_value": 0, 
-                    "stddev": 39.027538853062914, 
+                    "stddev": 9.5, 
                     "type": "INTEGER", 
-                    "mean": 121.70588235294117
+                    "mean": 9.5
                 }, 
                 {
-                    "count": 2038, 
+                    "count": 2087, 
                     "max_value": 181.11, 
                     "min_value": 1.11, 
-                    "stddev": 45.27416177271242, 
+                    "stddev": 45.11947146882899, 
                     "type": "REAL", 
-                    "mean": 105.88288469087243
+                    "mean": 106.36467129851356
                 }, 
                 {
                     "count": 122951, 
@@ -2616,21 +2616,21 @@
             "data_type": [
                 {
                     "count": 40221, 
-                    "max_value": 4800, 
-                    "min_value": 0, 
+                    "max_value": 4800.0, 
+                    "min_value": 0.0, 
                     "stddev": 315.00367224729456, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 27.03749285199274
                 }
             ], 
             "number_empty_cells": 16603558, 
             "number_non_empty_cells": 40221, 
             "frequent_values": [
-                0.0, 
-                4800.0, 
-                2400.0, 
-                1200.0, 
-                600.0
+                "0.00", 
+                "4800.00", 
+                "2400.00", 
+                "1200.00", 
+                "600.00"
             ], 
             "number_distinct_values": 18, 
             "column_name": "Charge #8: Infraction Amount"
@@ -2688,20 +2688,20 @@
         {
             "data_type": [
                 {
-                    "count": 55, 
-                    "max_value": 151, 
+                    "count": 1, 
+                    "max_value": 0, 
                     "min_value": 0, 
-                    "stddev": 35.0067478737202, 
+                    "stddev": 0.0, 
                     "type": "INTEGER", 
-                    "mean": 123.61818181818182
+                    "mean": 0.0
                 }, 
                 {
-                    "count": 1706, 
+                    "count": 1760, 
                     "max_value": 1399.0, 
                     "min_value": 1.111, 
-                    "stddev": 54.23351855723181, 
+                    "stddev": 53.76017961804495, 
                     "type": "REAL", 
-                    "mean": 107.89169343493478
+                    "mean": 108.44863579545378
                 }, 
                 {
                     "count": 103072, 
@@ -2781,21 +2781,21 @@
             "data_type": [
                 {
                     "count": 36536, 
-                    "max_value": 4800, 
-                    "min_value": 0, 
+                    "max_value": 4800.0, 
+                    "min_value": 0.0, 
                     "stddev": 186.72305608547478, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 9.687021020363478
                 }
             ], 
             "number_empty_cells": 16607243, 
             "number_non_empty_cells": 36536, 
             "frequent_values": [
-                0.0, 
-                2400.0, 
-                4800.0, 
-                1200.0, 
-                500.0
+                "0.00", 
+                "2400.00", 
+                "4800.00", 
+                "1200.00", 
+                "500.00"
             ], 
             "number_distinct_values": 8, 
             "column_name": "Charge #9: Infraction Amount"
@@ -2853,20 +2853,12 @@
         {
             "data_type": [
                 {
-                    "count": 48, 
-                    "max_value": 151, 
-                    "min_value": 3, 
-                    "stddev": 48.73147350959815, 
-                    "type": "INTEGER", 
-                    "mean": 107.3125
-                }, 
-                {
-                    "count": 1273, 
+                    "count": 1321, 
                     "max_value": 173.14, 
                     "min_value": 1.11, 
-                    "stddev": 43.453693051284574, 
+                    "stddev": 43.671322326771254, 
                     "type": "REAL", 
-                    "mean": 101.30527415553789
+                    "mean": 101.528414080242
                 }, 
                 {
                     "count": 74888, 
@@ -2946,21 +2938,21 @@
             "data_type": [
                 {
                     "count": 21196, 
-                    "max_value": 4800, 
-                    "min_value": 0, 
+                    "max_value": 4800.0, 
+                    "min_value": 0.0, 
                     "stddev": 166.35424040223745, 
-                    "type": "INTEGER", 
+                    "type": "REAL", 
                     "mean": 6.922296659747122
                 }
             ], 
             "number_empty_cells": 16622583, 
             "number_non_empty_cells": 21196, 
             "frequent_values": [
-                0.0, 
-                4800.0, 
-                1200.0, 
-                2400.0, 
-                75.0
+                "0.00", 
+                "4800.00", 
+                "1200.00", 
+                "2400.00", 
+                "250.00"
             ], 
             "number_distinct_values": 6, 
             "column_name": "Charge #10: Infraction Amount"
