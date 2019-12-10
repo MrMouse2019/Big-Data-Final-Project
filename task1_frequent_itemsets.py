@@ -37,6 +37,7 @@ te = TransactionEncoder()
 te_ary = te.fit(A).transform(A)
 df = pd.DataFrame(te_ary, columns=te.columns_)
 frequent_itemsets = apriori(df, min_support=0.01, use_colnames=True).sort_values(by=['support'], ascending=False)
+frequent_itemsets = frequent_itemsets.reset_index(drop=True)
 print(frequent_itemsets)
 # id = 0
 # for idx in frequent_itemsets.index:
