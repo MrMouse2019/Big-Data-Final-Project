@@ -32,7 +32,8 @@ if __name__ == "__main__":
             labels = []
             searched = "City Agency"
             searched = searched.lower()
-            if searched == row[1]:
+            main_label = row[1].lower()
+            if searched == main_label:
                 num_correct += 1
                 read_column_values(values, column_file_name)
 
