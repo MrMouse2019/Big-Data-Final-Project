@@ -13,7 +13,7 @@ def read_column_values(values, column_file_name):
         for row in reader:
             if not re.search('[a-zA-Z\d]', row[0]):
                 continue
-            if int(row[1]) < 20:
+            if int(row[1]) < 1:
                 continue
             values.append(row[0])
 
@@ -30,7 +30,7 @@ if __name__ == "__main__":
 
             column_file_name = row[0]
             labels = []
-            searched = "City Agency"
+            searched = "Street name"
             searched = searched.lower()
             main_label = row[1].lower()
             if searched == main_label:
@@ -39,6 +39,6 @@ if __name__ == "__main__":
 
     print(num_correct)
     values = sorted((set(values)))
-    with open(semantic_data_dir + "CityAgencys.txt", "w+") as f:
+    with open(semantic_data_dir + "Streets.txt", "w+") as f:
         for val in values:
             f.write("%s\n"%val)
