@@ -1,0 +1,620 @@
+{
+    "dataset_name": "wycc-5aqt",
+    "columns": [
+        {
+            "column_name": "FISCAL_YEAR",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "2018",
+                "2019"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 854,
+                    "max_value": 2019,
+                    "min_value": 2018,
+                    "mean": 2018.3067915690867,
+                    "stddev": 0.4611621214106843
+                }
+            ]
+        },
+        {
+            "column_name": "LPC#",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 850,
+            "frequent_values": [
+                "WL-18-0311",
+                "WL-18-0310",
+                "WL-18-0312",
+                "VIO-19-0191",
+                "VIO-18-0603"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 854,
+                    "shortest_values": [
+                        "WL-19-0365",
+                        "WL-19-0123",
+                        "WL-18-0722",
+                        "WL-18-0720",
+                        "WL-18-0719"
+                    ],
+                    "longest_values": [
+                        "VIO-18-0801",
+                        "VIO-18-0701",
+                        "VIO-18-0704",
+                        "VIO-18-0708",
+                        "VIO-18-0709"
+                    ],
+                    "average_length": 10.407494145199063
+                }
+            ]
+        },
+        {
+            "column_name": "HISTORIC DISTRICT",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 95,
+            "frequent_values": [
+                "Greenwich Village",
+                "Upper West Side-CPW",
+                "Individual Landmark",
+                "Jackson Heights",
+                "Douglaston"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 854,
+                    "shortest_values": [
+                        "NOHO",
+                        "DUMBO",
+                        "Chelsea",
+                        "Longwood",
+                        "St. Marks"
+                    ],
+                    "longest_values": [
+                        "Riverside-West End Extension 2",
+                        "Hamilton Heights Sugar Hill NE",
+                        "Riverside-West End Extension I",
+                        "Hamilton Heights Sugar Hill Ex",
+                        "Saint Pauls Avenue - Stapelto"
+                    ],
+                    "average_length": 17.14519906323185
+                }
+            ]
+        },
+        {
+            "column_name": "STREET#",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 443,
+            "frequent_values": [
+                "49",
+                "34-02-34-26",
+                "207",
+                "240",
+                "216"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 575,
+                    "max_value": 5297,
+                    "min_value": 4,
+                    "mean": 349.76695652173913,
+                    "stddev": 561.882504772126
+                },
+                {
+                    "type": "TEXT",
+                    "count": 279,
+                    "shortest_values": [
+                        "1-3",
+                        "2-8",
+                        "9-11",
+                        "2-10",
+                        "426A"
+                    ],
+                    "longest_values": [
+                        "35-01-35-51",
+                        "34-02-34-26",
+                        "84-11-84-23",
+                        "79-01-79-27",
+                        "80-01-80-27"
+                    ],
+                    "average_length": 6.358422939068101
+                }
+            ]
+        },
+        {
+            "column_name": "STREET NAME",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 259,
+            "frequent_values": [
+                "Broadway",
+                "37th Avenue",
+                "West 88th Street",
+                "Amsterdam Avenue",
+                "7th Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 854,
+                    "shortest_values": [
+                        "Bowery",
+                        "Broadway",
+                        "38th Road",
+                        "68th Road",
+                        "Park Lane"
+                    ],
+                    "longest_values": [
+                        "South William Street",
+                        "West Houston Street",
+                        "Schermerhorn Street",
+                        "Independence Avenue",
+                        "Christopher Street"
+                    ],
+                    "average_length": 13.88407494145199
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 854,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.214285714285714
+                }
+            ]
+        },
+        {
+            "column_name": "FirstOfBLOCK",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 364,
+            "frequent_values": [
+                "1201",
+                "613",
+                "1144",
+                "643",
+                "589"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 854,
+                    "max_value": 10309,
+                    "min_value": 3,
+                    "mean": 1682.4332552693209,
+                    "stddev": 1829.2463407883395
+                }
+            ]
+        },
+        {
+            "column_name": "FirstOfLOT",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 120,
+            "frequent_values": [
+                "1",
+                "46",
+                "15",
+                "20",
+                "38"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 854,
+                    "max_value": 7507,
+                    "min_value": 1,
+                    "mean": 365.53981264637,
+                    "stddev": 1505.248479859676
+                }
+            ]
+        },
+        {
+            "column_name": "VIO Date",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 253,
+            "frequent_values": [
+                "09/06/2017",
+                "11/29/2017",
+                "04/16/2018",
+                "10/12/2017",
+                "12/11/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 854,
+                    "max_value": "2019-04-30 00:00:00",
+                    "min_value": "2017-07-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "WL DATE",
+            "number_non_empty_cells": 853,
+            "number_empty_cells": 1,
+            "number_distinct_values": 253,
+            "frequent_values": [
+                "09/06/2017",
+                "10/12/2017",
+                "11/29/2017",
+                "04/16/2018",
+                "12/11/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 853,
+                    "max_value": "2019-04-30 00:00:00",
+                    "min_value": "2017-07-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "NOV DATE",
+            "number_non_empty_cells": 348,
+            "number_empty_cells": 506,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "01/05/2018",
+                "11/20/2018",
+                "10/23/2017",
+                "04/02/2018",
+                "01/03/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 348,
+                    "max_value": "2019-04-22 00:00:00",
+                    "min_value": "2016-11-13 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "VIOLATION CLASS",
+            "number_non_empty_cells": 854,
+            "number_empty_cells": 0,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "Signage",
+                "Windows",
+                "Areaway Alterations",
+                "Facade Work @ Front or Side",
+                "Cameras"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 854,
+                    "shortest_values": [
+                        "Other",
+                        "Doors",
+                        "Cameras",
+                        "Signage",
+                        "Windows"
+                    ],
+                    "longest_values": [
+                        "Cornice Alterations/Inst/Remov",
+                        "Garage Alterations/Inst/Remov",
+                        "Security Sirens, Siren Boxes",
+                        "Facade Work @ Front or Side",
+                        "Porch/Deck Alt/Inst/Removal"
+                    ],
+                    "average_length": 14.049180327868852
+                }
+            ]
+        },
+        {
+            "column_name": "RESCINDED",
+            "number_non_empty_cells": 239,
+            "number_empty_cells": 615,
+            "number_distinct_values": 142,
+            "frequent_values": [
+                "Removed.",
+                "Removed",
+                "removed",
+                "REmoved.",
+                "PMW-19-36854"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 239,
+                    "shortest_values": [
+                        "Removed",
+                        "removed",
+                        "Removed.",
+                        "REmoved.",
+                        "removed."
+                    ],
+                    "longest_values": [
+                        "NOC1914381LPC1914381",
+                        "Owner reached agree",
+                        "before designation.",
+                        "Building demolished",
+                        "Before designation"
+                    ],
+                    "average_length": 11.271966527196653
+                }
+            ]
+        },
+        {
+            "column_name": "RESCENDED DATE",
+            "number_non_empty_cells": 239,
+            "number_empty_cells": 615,
+            "number_distinct_values": 140,
+            "frequent_values": [
+                "03/25/2019",
+                "02/21/2019",
+                "05/03/2018",
+                "07/16/2018",
+                "10/31/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 239,
+                    "max_value": "2019-05-01 00:00:00",
+                    "min_value": "2017-08-17 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 522,
+            "frequent_values": [
+                "40.730798",
+                "40.735909",
+                "40.74035",
+                "40.718238",
+                "40.825789"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 830,
+                    "max_value": 40.902136,
+                    "min_value": 40.510642,
+                    "mean": 40.729792090361435,
+                    "stddev": 0.04918748194661391
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 524,
+            "frequent_values": [
+                "-74.000852",
+                "-74.001472",
+                "-73.992527",
+                "-74.008896",
+                "-73.903902"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 830,
+                    "max_value": -73.745828,
+                    "min_value": -74.248385,
+                    "mean": -73.96018148795174,
+                    "stddev": 0.05715187160688895
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "102",
+                "107",
+                "302",
+                "303",
+                "306"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 830,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 213.57951807228915,
+                    "stddev": 121.74299540379377
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "3",
+                "6",
+                "1",
+                "35",
+                "36"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 830,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 17.60843373493976,
+                    "stddev": 15.57476105383848
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 151,
+            "frequent_values": [
+                "1483",
+                "167",
+                "73",
+                "67",
+                "169"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 830,
+                    "max_value": 79801,
+                    "min_value": 1,
+                    "mean": 2082.373493975904,
+                    "stddev": 9568.083709402881
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 828,
+            "number_empty_cells": 26,
+            "number_distinct_values": 516,
+            "frequent_values": [
+                "3053009",
+                "1080210",
+                "1083154",
+                "1035253",
+                "1080657"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 828,
+                    "max_value": 5106848,
+                    "min_value": 1000000,
+                    "mean": 2131447.0422705314,
+                    "stddev": 1235113.3035604116
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 828,
+            "number_empty_cells": 26,
+            "number_distinct_values": 515,
+            "frequent_values": [
+                "3018430020",
+                "1008220001",
+                "1005430067",
+                "1012747504",
+                "1006130062"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 828,
+                    "max_value": 5080260005,
+                    "min_value": 1000290043,
+                    "mean": 2100293151.0289855,
+                    "stddev": 1223385862.5476813
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "West Village",
+                "Upper West Side",
+                "SoHo-TriBeCa-Civic Center-Little Italy",
+                "Crown Heights North",
+                "Hudson Yards-Chelsea-Flatiron-Union Square"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 830,
+                    "shortest_values": [
+                        "Bedford",
+                        "Gramercy",
+                        "Longwood",
+                        "Flatbush",
+                        "Chinatown"
+                    ],
+                    "longest_values": [
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Hudson Yards-Chelsea-Flatiron-Union Square",
+                        "West New Brighton-New Brighton-St. George",
+                        "Carroll Gardens-Columbia Street-Red Hook",
+                        "SoHo-TriBeCa-Civic Center-Little Italy"
+                    ],
+                    "average_length": 21.13975903614458
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 830,
+            "number_empty_cells": 24,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "10014",
+                "10011",
+                "10024",
+                "10012",
+                "11216"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 830,
+                    "max_value": 12345,
+                    "min_value": 10001,
+                    "mean": 10580.680722891566,
+                    "stddev": 612.5077274079225
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

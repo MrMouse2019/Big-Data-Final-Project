@@ -1,0 +1,841 @@
+{
+    "dataset_name": "4kpn-sezh",
+    "columns": [
+        {
+            "column_name": "FacilityName",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 376,
+            "frequent_values": [
+                "Boriken Neighborhood Health Center",
+                "NYC Central Harlem Sexual Health Clinc",
+                "Betances Health Center",
+                "International House",
+                "Latino Commission on AIDS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "2A",
+                        "DBL",
+                        "Icon",
+                        "Ty's",
+                        "Posh"
+                    ],
+                    "longest_values": [
+                        "NYC Health + Hospitals - Metropolitan Medical Center Primary Care Clinic",
+                        "Ambition Studios Barber (Formerly B&B Barbershop & My Gente Barbershop)",
+                        "Bedford Stuyvesant Family Health Center - Broadway Family Health Center",
+                        "Isabella Unisex Salon (Formerly Samuel Bishop/Jarissa Unisex Salon)",
+                        "Super Laundry Center (Formerly Sheridan Laundry Center/169 Laundry)"
+                    ],
+                    "average_length": 21.98952879581152
+                }
+            ]
+        },
+        {
+            "column_name": "Service Category",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Free Safer Sex Products"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "Free Safer Sex Products"
+                    ],
+                    "longest_values": [
+                        "Free Safer Sex Products"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "Service Type",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Condoms and Lubricant"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "Condoms and Lubricant"
+                    ],
+                    "longest_values": [
+                        "Condoms and Lubricant"
+                    ],
+                    "average_length": 21.0
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingNumber",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 382,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 374,
+            "frequent_values": [
+                "2265 3 Avenue",
+                "280 Henry Street,N/A",
+                "2238 5 Avenue,1st Floor",
+                "35 East 13 Street",
+                "125 Worth Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "7 Avenue A",
+                        "329 Bowery",
+                        "93 2 Avenue",
+                        "85 Avenue A",
+                        "12 Avenue A"
+                    ],
+                    "longest_values": [
+                        "1825 PARK AVENUE,\"\"\"3rd Floor, Room #317; PRIMARY CARE UNIT\"\"\"",
+                        "264 West 118 Street,first floor. Attention Ms. Barther-Wilson",
+                        "2640 Pitkin Avenue,\"Medical Office, attn: Lily Rothenberg\"",
+                        "470 Clarkson Avenue,\"STAR Program, MSC 1240, Suite J\"",
+                        "2348 Adam Clayton Powell Jr Boulevard,Ground Floor"
+                    ],
+                    "average_length": 20.712041884816752
+                }
+            ]
+        },
+        {
+            "column_name": "Address 2",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 382,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.9319371727748695
+                }
+            ]
+        },
+        {
+            "column_name": "Zipcode",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "10011",
+                "10014",
+                "11372",
+                "10009",
+                "10036"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 382,
+                    "max_value": 11435,
+                    "min_value": 10001,
+                    "mean": 10499.20942408377,
+                    "stddev": 571.6551271648005
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 375,
+            "frequent_values": [
+                "40.8024364",
+                "40.7157524",
+                "40.81387549999999",
+                "40.734457",
+                "40.743293"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 382,
+                    "max_value": 40.8812288,
+                    "min_value": 40.57353,
+                    "mean": 40.74917338584312,
+                    "stddev": 0.05629286244891886
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 375,
+            "frequent_values": [
+                "-73.9363954",
+                "-73.99040959999999",
+                "-74.002517",
+                "-73.9371302",
+                "-73.992065"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 382,
+                    "max_value": -73.77057,
+                    "min_value": -74.13431539999999,
+                    "mean": -73.951697791682,
+                    "stddev": 0.05053742813400463
+                }
+            ]
+        },
+        {
+            "column_name": "Phone",
+            "number_non_empty_cells": 113,
+            "number_empty_cells": 269,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "311",
+                "(212) 289-6650",
+                "(212) 227-8401 X127",
+                "(212) 675-3288",
+                "(718) 472-9400"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 33,
+                    "max_value": 9172267864,
+                    "min_value": 311,
+                    "mean": 3970959789.5454545,
+                    "stddev": 3039681429.094781
+                },
+                {
+                    "type": "TEXT",
+                    "count": 80,
+                    "shortest_values": [
+                        "718-943-1341",
+                        "212 423-6837",
+                        "718-257-5800",
+                        "718-429-3800",
+                        "212-876-2300"
+                    ],
+                    "longest_values": [
+                        "(718) 583-5150 / 718-466-8244",
+                        "(718) 808-1840 / 718-808-1876",
+                        "(718) 940-2200 Ext.125",
+                        "718-483-1270 ext. 8575",
+                        "(212) 227-8401 X127"
+                    ],
+                    "average_length": 14.2
+                }
+            ]
+        },
+        {
+            "column_name": "AdditionalInfo",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 250,
+            "frequent_values": [
+                "These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                "You can find free safer sex products inside a fishbowl located on the bar of the Bar/Lounge/Event Space. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                "You can find free safer sex products inside a fishbowl located in the front near the entrance of the Bar/Lounge/Event Space. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                "You can find free safer sex products inside a dispenser located in the back near the restroom of the Bar/Lounge/Event Space. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                "You can find free safer sex products inside a dispenser located in the waiting room of the Community Center. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "No appointment needed\nWalk in Welcome. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "Please visit chasiny.org for more information These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "Condoms are located on the front desk for pick-up. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "In addition to free safer sex products we offer free HIV Testing ! These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>."
+                    ],
+                    "longest_values": [
+                        "New Women Space is a vibrant and affirming community-led event space centered on gender equity, creative expression and celebration of identity.\nOur mission is to build strong relationships, create economic opportunity and inspire possibility for women, femme, queer, transgender and gender nonconforming individuals in an accessible, supportive, safer space. As a sex positive organization, we encourage safe sex practices. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "We are an LGBTQ* Senior Center serving individuals 60+.\n\nQueens Center for Gay Seniors provides a culturally-rich environment where LGBTQ older adults can engage with peers, make new friends, enjoy a hot meal, keep physically active, learn new skills, take a class, attend a trip, explore new interests, and give back through volunteer and advocacy opportunities. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "24-hour access to our waiting area, where condoms, lube and information can be obtained free of charge.\n\nIn additional free safer sex products, we conduct studies in hopes of developing an HIV vaccine among and for HIV-negative people and studies to improve the quality of life among and for people that live with HIV. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "The Housing Works -- Manhattan Harm Reduction Program is a harm reduction and syringe exchange program that offers a variety of supportive services to high-risk populations including, but not limited to: Injection Drug Users (IDU), Men Who Have Sex with Men (MSM), and People Living with HIV/AIDS (PLWHA). These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>.",
+                        "Condoms (internal/external) & lubricant are available between the front entrance and stairs to the second floor of our community center. You can call (718) 965-4795 or email info@mixteca.org for more questions. These free safer sex products are supplied by the <a href=http://www.facebook.com/NYCcondom>NYC Condom Availability Program</a>."
+                    ],
+                    "average_length": 227.70942408376965
+                }
+            ]
+        },
+        {
+            "column_name": "StartDate",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 382,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "EndDate",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 382,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Monday",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 288,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "9:00 AM - 5:00 PM",
+                "8:30 AM - 3:30 PM",
+                "8:00 AM - 6:00 PM",
+                "9:00 AM - 8:00 PM",
+                "8:00 AM - 8:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 94,
+                    "shortest_values": [
+                        "6:00 AM - 6:00 PM",
+                        "9:00 AM - 9:00 PM",
+                        "8:30 AM - 7:30 PM",
+                        "8:00 AM - 6:30 AM",
+                        "7:30 AM - 5:00 PM"
+                    ],
+                    "longest_values": [
+                        "10:00 AM - 5:00 PM",
+                        "10:00 AM - 6:00 PM",
+                        "10:00 AM - 4:00 PM",
+                        "11:00 AM - 7:00 PM",
+                        "9:00 AM - 12:00 PM"
+                    ],
+                    "average_length": 17.159574468085108
+                }
+            ]
+        },
+        {
+            "column_name": "Tuesday",
+            "number_non_empty_cells": 98,
+            "number_empty_cells": 284,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "9:00 AM - 5:00 PM",
+                "8:30 AM - 3:30 PM",
+                "8:00 AM - 5:00 PM",
+                "8:00 AM - 8:00 PM",
+                "8:30 AM - 5:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 98,
+                    "shortest_values": [
+                        "6:00 AM - 6:00 PM",
+                        "4:00 PM - 7:00 PM",
+                        "8:00 AM - 4:00 PM",
+                        "9:30 AM - 5:30 PM",
+                        "8:30 AM - 4:00 PM"
+                    ],
+                    "longest_values": [
+                        "10:00 AM - 8:00 PM",
+                        "10:00 AM - 7:30 PM",
+                        "10:00 AM - 5:00 PM",
+                        "11:00 AM - 8:00 PM",
+                        "12:00 PM - 6:00 PM"
+                    ],
+                    "average_length": 17.193877551020407
+                }
+            ]
+        },
+        {
+            "column_name": "Wednesday",
+            "number_non_empty_cells": 99,
+            "number_empty_cells": 283,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "9:00 AM - 5:00 PM",
+                "8:30 AM - 3:30 PM",
+                "8:00 AM - 7:00 PM",
+                "8:00 AM - 6:00 PM",
+                "9:00 AM - 8:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 99,
+                    "shortest_values": [
+                        "6:00 AM - 6:00 PM",
+                        "5:00 PM - 7:00 PM",
+                        "8:00 AM - 4:00 PM",
+                        "1:00 PM - 5:00 PM",
+                        "9:30 AM - 7:00 PM"
+                    ],
+                    "longest_values": [
+                        "10:00 AM - 8:00 PM",
+                        "10:00 AM - 6:00 PM",
+                        "10:00 AM - 5:00 PM",
+                        "10:00 AM - 4:00 PM",
+                        "11:00 AM - 8:00 PM"
+                    ],
+                    "average_length": 17.181818181818183
+                }
+            ]
+        },
+        {
+            "column_name": "Thursday",
+            "number_non_empty_cells": 98,
+            "number_empty_cells": 284,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "9:00 AM - 5:00 PM",
+                "8:30 AM - 3:30 PM",
+                "8:00 AM - 5:00 PM",
+                "8:00 AM - 8:00 PM",
+                "9:00 AM - 8:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 98,
+                    "shortest_values": [
+                        "6:00 AM - 6:00 PM",
+                        "9:00 AM - 4:00 PM",
+                        "8:00 AM - 4:00 PM",
+                        "9:30 AM - 7:00 PM",
+                        "8:30 AM - 4:00 PM"
+                    ],
+                    "longest_values": [
+                        "10:00 AM - 4:30 PM",
+                        "12:00 PM - 9:00 PM",
+                        "10:00 AM - 4:00 PM",
+                        "9:00 AM - 12:00 PM",
+                        "10:00 AM - 6:00 PM"
+                    ],
+                    "average_length": 17.183673469387756
+                }
+            ]
+        },
+        {
+            "column_name": "Friday",
+            "number_non_empty_cells": 97,
+            "number_empty_cells": 285,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "9:00 AM - 5:00 PM",
+                "8:30 AM - 3:30 PM",
+                "8:00 AM - 5:00 PM",
+                "8:30 AM - 5:00 PM",
+                "8:30 AM - 4:30 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 97,
+                    "shortest_values": [
+                        "6:00 AM - 6:00 PM",
+                        "8:00 AM - 4:00 PM",
+                        "9:30 AM - 5:30 PM",
+                        "8:30 AM - 4:00 PM",
+                        "8:30 AM - 3:30 PM"
+                    ],
+                    "longest_values": [
+                        "12:00 PM - 9:00 PM",
+                        "10:00 AM - 7:30 PM",
+                        "10:00 AM - 3:00 PM",
+                        "10:00 AM - 5:00 AM",
+                        "10:00 AM - 9:00 PM"
+                    ],
+                    "average_length": 17.164948453608247
+                }
+            ]
+        },
+        {
+            "column_name": "Saturday",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 335,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "9:00 AM - 4:00 PM",
+                "8:00 AM - 5:00 PM",
+                "9:00 AM - 3:00 PM",
+                "8:30 AM - 5:00 PM",
+                "8:30 AM - 12:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 47,
+                    "shortest_values": [
+                        "6:00 AM - 6:00 PM",
+                        "9:00 AM - 2:30 PM",
+                        "9:00 AM - 5:00 AM",
+                        "9:00 AM - 5:00 PM",
+                        "9:00 AM - 4:00 PM"
+                    ],
+                    "longest_values": [
+                        "10:00 AM - 5:00 PM",
+                        "8:00 AM - 12:00 PM",
+                        "10:00 AM - 4:00 PM",
+                        "10:00 AM - 2:00 PM",
+                        "10:00 AM - 4:00 AM"
+                    ],
+                    "average_length": 17.46808510638298
+                }
+            ]
+        },
+        {
+            "column_name": "Sunday",
+            "number_non_empty_cells": 10,
+            "number_empty_cells": 372,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "10:00 AM - 4:00 PM",
+                "8:00 AM - 8:00 PM",
+                "10:00 AM - 5:00 PM",
+                "9:00 AM - 2:30 PM",
+                "10:00 AM - 8:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "1:00 PM - 7:00 PM",
+                        "8:00 AM - 8:00 PM",
+                        "9:00 AM - 4:00 PM",
+                        "9:00 AM - 2:30 PM",
+                        "9:00 AM - 2:00 PM"
+                    ],
+                    "longest_values": [
+                        "10:00 AM - 8:00 PM",
+                        "10:00 AM - 5:00 PM",
+                        "12:00 PM - 6:00 PM",
+                        "10:00 AM - 4:00 PM",
+                        "9:00 AM - 2:00 PM"
+                    ],
+                    "average_length": 17.5
+                }
+            ]
+        },
+        {
+            "column_name": "Condoms (Male)",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "true",
+                "false"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.010471204188482
+                }
+            ]
+        },
+        {
+            "column_name": "FC2 (Female/Insertive Condoms)",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.5890052356020945
+                }
+            ]
+        },
+        {
+            "column_name": "Lubricant",
+            "number_non_empty_cells": 382,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "true",
+                "false"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 382,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.37696335078534
+                }
+            ]
+        },
+        {
+            "column_name": "Facility Type",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 382,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 382,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Website",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 325,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "<a href=http://www1.nyc.gov/site/doh/services/sexual-health-clinics.page>Visit our Website</a>",
+                "<a href=www.boriken.org>Visit our Website</a>",
+                "<a href=http://chasiny.org>Visit our Website</a>",
+                "<a href=www.betances.org>Visit our Website</a>",
+                "<a href=http://www.pridecentersi.org/community-services-1/>Visit our Website</a>"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 57,
+                    "shortest_values": [
+                        "<a href=gmad.org>Visit our Website</a>",
+                        "<a href=www.gmhc.org>Visit our Website</a>",
+                        "<a href=www.bsfhc.org>Visit our Website</a>",
+                        "<a href=www.hccinc.org>Visit our Website</a>",
+                        "<a href=www.chnnyc.org>Visit our Website</a>"
+                    ],
+                    "longest_values": [
+                        "<a href=https://www1.nyc.gov/site/doh/health/neighborhood-health/neighborhood-health-action-centers.page>Visit our Website</a>",
+                        "<a href=http://www1.nyc.gov/site/doh/health/neighborhood-health/neighborhood-health-action-centers.page>Visit our Website</a>",
+                        "<a href=http://www.wyckoffhospital.org/departments/clinical/administrative/positive-health-management>Visit our Website</a>",
+                        "<a href=http://www.nyc.gov/html/hhc/html/about/About-HospServices-PrimaryPre-Renaissance.shtml>Visit our Website</a>",
+                        "<a href=http://www.housingworks.org/locations/detail/east-new-york-community-health-center/>Visit our Website</a>"
+                    ],
+                    "average_length": 73.50877192982456
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 377,
+            "number_empty_cells": 5,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "104",
+                "103",
+                "102",
+                "403",
+                "204"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 377,
+                    "max_value": 501,
+                    "min_value": 101,
+                    "mean": 205.15384615384616,
+                    "stddev": 118.4668984973599
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 377,
+            "number_empty_cells": 5,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "7",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 377,
+                    "max_value": 49,
+                    "min_value": 1,
+                    "mean": 15.453580901856764,
+                    "stddev": 14.00373554424167
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 377,
+            "number_empty_cells": 5,
+            "number_distinct_values": 205,
+            "frequent_values": [
+                "73",
+                "38",
+                "87",
+                "127",
+                "77"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 377,
+                    "max_value": 44602,
+                    "min_value": 3,
+                    "mean": 2413.3289124668436,
+                    "stddev": 7267.890482952252
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 372,
+            "number_empty_cells": 10,
+            "number_distinct_values": 352,
+            "frequent_values": [
+                "1054630",
+                "1056712",
+                "1006022",
+                "2094521",
+                "2114693"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 372,
+                    "max_value": 5106579,
+                    "min_value": 1000825,
+                    "mean": 2060980.6505376345,
+                    "stddev": 1224750.9498256973
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 372,
+            "number_empty_cells": 10,
+            "number_distinct_values": 350,
+            "frequent_values": [
+                "1017880001",
+                "1004410035",
+                "2027037501",
+                "2027950014",
+                "1002670010"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 372,
+                    "max_value": 5010740053,
+                    "min_value": 1000157501,
+                    "mean": 2009582830.3225806,
+                    "stddev": 1192406920.4857488
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 377,
+            "number_empty_cells": 5,
+            "number_distinct_values": 84,
+            "frequent_values": [
+                "West Village",
+                "East Village",
+                "Clinton",
+                "Hudson Yards-Chelsea-Flatiron-Union Square",
+                "Jackson Heights"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 377,
+                    "shortest_values": [
+                        "Jamaica",
+                        "Bedford",
+                        "Norwood",
+                        "Astoria",
+                        "Erasmus"
+                    ],
+                    "longest_values": [
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park",
+                        "Hudson Yards-Chelsea-Flatiron-Union Square",
+                        "West New Brighton-New Brighton-St. George",
+                        "Carroll Gardens-Columbia Street-Red Hook"
+                    ],
+                    "average_length": 18.718832891246684
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

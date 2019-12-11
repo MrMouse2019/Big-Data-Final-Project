@@ -1,0 +1,695 @@
+{
+    "dataset_name": "kj4p-ruqc",
+    "columns": [
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 327819,
+            "frequent_values": [
+                "277131",
+                "46236",
+                "112739",
+                "336905",
+                "528645"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 991903,
+                    "min_value": 1,
+                    "mean": 406619.7198789576,
+                    "stddev": 285990.9538226815
+                }
+            ]
+        },
+        {
+            "column_name": "BoroID",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "4",
+                "2",
+                "1",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 3.0440395462130017,
+                    "stddev": 1.0433737533951575
+                }
+            ]
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "MANHATTAN",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 327819,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.3887358572871005
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 327813,
+            "number_empty_cells": 6,
+            "number_distinct_values": 25307,
+            "frequent_values": [
+                "15",
+                "20",
+                "25",
+                "17",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 232908,
+                    "max_value": 7187714142,
+                    "min_value": 0,
+                    "mean": 50207.79814347296,
+                    "stddev": 16143475.346766429
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 0.537,
+                    "min_value": 0.537,
+                    "mean": 0.537,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 94904,
+                    "shortest_values": [
+                        "1N",
+                        "9N",
+                        "6A",
+                        "8B",
+                        "8D"
+                    ],
+                    "longest_values": [
+                        "93-01 GARAGE",
+                        "73-43 1/2FRT",
+                        "91-08 GARAGE",
+                        "17-05 PUTNAM",
+                        "69-14 GARAGE"
+                    ],
+                    "average_length": 5.3966745342662055
+                }
+            ]
+        },
+        {
+            "column_name": "LowHouseNumber",
+            "number_non_empty_cells": 327749,
+            "number_empty_cells": 70,
+            "number_distinct_values": 25541,
+            "frequent_values": [
+                "15",
+                "20",
+                "18",
+                "17",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 232798,
+                    "max_value": 7187714142,
+                    "min_value": 0,
+                    "mean": 50737.408336841385,
+                    "stddev": 16148930.00779244
+                },
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 0.319,
+                    "min_value": 0.126,
+                    "mean": 0.22766666666666668,
+                    "stddev": 0.07912999150483686
+                },
+                {
+                    "type": "TEXT",
+                    "count": 94948,
+                    "shortest_values": [
+                        "`",
+                        "x",
+                        " ",
+                        "-",
+                        "/"
+                    ],
+                    "longest_values": [
+                        "506 1/2FRONT",
+                        "99-17 GARAGE",
+                        "69-14 GARAGE",
+                        "88-10 GARAGE",
+                        "91-08 GARAGE"
+                    ],
+                    "average_length": 5.3932889581665755
+                }
+            ]
+        },
+        {
+            "column_name": "HighHouseNumber",
+            "number_non_empty_cells": 327812,
+            "number_empty_cells": 7,
+            "number_distinct_values": 25529,
+            "frequent_values": [
+                "15",
+                "20",
+                "19",
+                "18",
+                "17"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 232837,
+                    "max_value": 7187714142,
+                    "min_value": -60,
+                    "mean": 50224.3080481195,
+                    "stddev": 16145936.482059635
+                },
+                {
+                    "type": "TEXT",
+                    "count": 94975,
+                    "shortest_values": [
+                        "`",
+                        "5O",
+                        "9C",
+                        "6A",
+                        "5B"
+                    ],
+                    "longest_values": [
+                        "506 1/2FRONT",
+                        "90-33 GARAGE",
+                        "70-28 GARAGE",
+                        "17-05 PUTNAM",
+                        "116-24 FRONT"
+                    ],
+                    "average_length": 5.395209265596209
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 327812,
+            "number_empty_cells": 7,
+            "number_distinct_values": 7992,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVENUE",
+                "3 AVENUE",
+                "JAMAICA AVENUE",
+                "BEDFORD AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 20953,
+                    "min_value": 0,
+                    "mean": 3479.285714285714,
+                    "stddev": 7174.91271652805
+                },
+                {
+                    "type": "TEXT",
+                    "count": 327805,
+                    "shortest_values": [
+                        "X",
+                        "1R",
+                        "PL",
+                        "ARCH",
+                        "E 83"
+                    ],
+                    "longest_values": [
+                        "GREENPOINT AV BR OVR NEWTOWN CRK",
+                        "ADAM CLAYTON POWELL JR BOULEVARD",
+                        "FREDERICK DOUGLASS BOULEVARDUMMY",
+                        "HOR HARDING EXPRESSWAY SR SOUTH",
+                        "SUPERIOR RD OV BELT CROSS IS PY"
+                    ],
+                    "average_length": 12.71133753298455
+                }
+            ]
+        },
+        {
+            "column_name": "Zip",
+            "number_non_empty_cells": 325808,
+            "number_empty_cells": 2011,
+            "number_distinct_values": 233,
+            "frequent_values": [
+                "11207",
+                "11221",
+                "11208",
+                "11385",
+                "11236"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 325804,
+                    "max_value": 112233,
+                    "min_value": 1901,
+                    "mean": 10987.153254717561,
+                    "stddev": 552.7954986254587
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4,
+                    "shortest_values": [
+                        " ",
+                        "11213A"
+                    ],
+                    "longest_values": [
+                        "11213A",
+                        " "
+                    ],
+                    "average_length": 2.25
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13206,
+            "frequent_values": [
+                "0",
+                "5141",
+                "3432",
+                "1272",
+                "16350"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 4397.3382811856545,
+                    "stddev": 3634.530014539333
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1263,
+            "frequent_values": [
+                "1",
+                "7501",
+                "6",
+                "12",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 9999,
+                    "min_value": 0,
+                    "mean": 309.77933554797005,
+                    "stddev": 1373.4266137595282
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 322527,
+            "number_empty_cells": 5292,
+            "number_distinct_values": 311782,
+            "frequent_values": [
+                "3000000",
+                "4000000",
+                "0",
+                "1000000",
+                "2000000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 322527,
+                    "max_value": 45900973,
+                    "min_value": 0,
+                    "mean": 3161077.786706229,
+                    "stddev": 1118933.2087843046
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "12",
+                "1",
+                "3",
+                "5",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 95,
+                    "min_value": 0,
+                    "mean": 7.741110185803752,
+                    "stddev": 4.872346111996623
+                }
+            ]
+        },
+        {
+            "column_name": "CensusTract",
+            "number_non_empty_cells": 326118,
+            "number_empty_cells": 1701,
+            "number_distinct_values": 1559,
+            "frequent_values": [
+                "12200",
+                "7500",
+                "7700",
+                "6500",
+                "9800"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 325912,
+                    "max_value": 326000,
+                    "min_value": 0,
+                    "mean": 40415.957028277575,
+                    "stddev": 33262.9350264984
+                },
+                {
+                    "type": "REAL",
+                    "count": 206,
+                    "max_value": 1257.0,
+                    "min_value": 7.0,
+                    "mean": 379.249563106796,
+                    "stddev": 259.4874961600297
+                }
+            ]
+        },
+        {
+            "column_name": "ManagementProgram",
+            "number_non_empty_cells": 327790,
+            "number_empty_cells": 29,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "PVT",
+                "NYCHA",
+                "CENTRAL MGT",
+                "M-L (STATE)",
+                "M-L (NRF CITY)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 327790,
+                    "shortest_values": [
+                        "7A",
+                        "PVT",
+                        "DRES",
+                        "NYCHA",
+                        "ALT MGT"
+                    ],
+                    "longest_values": [
+                        "LOW INCOME RENT",
+                        "M-L (NRF CITY)",
+                        "M-L (RF CITY)",
+                        "DRES RES PRO",
+                        "M-L (STATE)"
+                    ],
+                    "average_length": 3.08102748711065
+                }
+            ]
+        },
+        {
+            "column_name": "DoBBuildingClassID",
+            "number_non_empty_cells": 322128,
+            "number_empty_cells": 5691,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "24",
+                "2",
+                "5",
+                "1",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 322128,
+                    "max_value": 33,
+                    "min_value": 1,
+                    "mean": 14.880497814533353,
+                    "stddev": 10.11300893747956
+                }
+            ]
+        },
+        {
+            "column_name": "DoBBuildingClass",
+            "number_non_empty_cells": 322128,
+            "number_empty_cells": 5691,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "NOT AVAILABLE",
+                "NEW LAW TENEMENT",
+                "HEREAFTER ERECTED CLASS A",
+                "OLD  LAW TENEMENT",
+                "2 FAMILY HOUSE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 322128,
+                    "shortest_values": [
+                        "MIXED USE",
+                        "GP GARDEN",
+                        "VACANT LOT",
+                        "COMMERCIAL",
+                        "RESIDENTIAL"
+                    ],
+                    "longest_values": [
+                        "HERETOFORE ERECTED EXISTING CLASS A",
+                        "HERETOFORE ERECTED EXISTING CLASS B",
+                        "TEMPORARY CERTIFICATE OF OCCUPANCY",
+                        "RESIDENTIAL AND COMMUNITY FACILITY",
+                        "OLD LAW SINGLE ROOM OCCUPANCY"
+                    ],
+                    "average_length": 17.247181244722594
+                }
+            ]
+        },
+        {
+            "column_name": "LegalStories",
+            "number_non_empty_cells": 321426,
+            "number_empty_cells": 6393,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 321426,
+                    "max_value": 520,
+                    "min_value": 0,
+                    "mean": 3.087951814725629,
+                    "stddev": 2.928825143273708
+                }
+            ]
+        },
+        {
+            "column_name": "LegalClassA",
+            "number_non_empty_cells": 321653,
+            "number_empty_cells": 6166,
+            "number_distinct_values": 541,
+            "frequent_values": [
+                "2",
+                "3",
+                "1",
+                "4",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 321653,
+                    "max_value": 42973,
+                    "min_value": 0,
+                    "mean": 8.855965901141914,
+                    "stddev": 80.85034618866405
+                }
+            ]
+        },
+        {
+            "column_name": "LegalClassB",
+            "number_non_empty_cells": 313132,
+            "number_empty_cells": 14687,
+            "number_distinct_values": 350,
+            "frequent_values": [
+                "0",
+                "7",
+                "8",
+                "6",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 313132,
+                    "max_value": 2076,
+                    "min_value": 0,
+                    "mean": 0.6203965100979778,
+                    "stddev": 14.998151043984846
+                }
+            ]
+        },
+        {
+            "column_name": "RegistrationID",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 174246,
+            "frequent_values": [
+                "0",
+                "399995",
+                "199995",
+                "299995",
+                "499995"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 999995,
+                    "min_value": 0,
+                    "mean": 198874.90399885303,
+                    "stddev": 242278.10109666185
+                }
+            ]
+        },
+        {
+            "column_name": "LifeCycle",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Building",
+                "Demolished",
+                "Land",
+                "Planned",
+                "UnderConstructi"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 327819,
+                    "shortest_values": [
+                        "Land",
+                        "Planned",
+                        "Building",
+                        "Demolished",
+                        "Undetermined"
+                    ],
+                    "longest_values": [
+                        "UnderConstructi",
+                        "Undetermined",
+                        "Demolished",
+                        "Building",
+                        "Planned"
+                    ],
+                    "average_length": 8.005262050094716
+                }
+            ]
+        },
+        {
+            "column_name": "RecordStatusID",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "1",
+                "2",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 327819,
+                    "max_value": 3,
+                    "min_value": 1,
+                    "mean": 1.0506499013174952,
+                    "stddev": 0.22640002471325116
+                }
+            ]
+        },
+        {
+            "column_name": "RecordStatus",
+            "number_non_empty_cells": 327819,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Active",
+                "Inactive",
+                "Pending"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 327819,
+                    "shortest_values": [
+                        "Active",
+                        "Pending",
+                        "Inactive"
+                    ],
+                    "longest_values": [
+                        "Inactive",
+                        "Pending",
+                        "Active"
+                    ],
+                    "average_length": 6.096541079071073
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

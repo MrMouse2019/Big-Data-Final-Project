@@ -1,0 +1,659 @@
+{
+    "dataset_name": "qm5f-frjb",
+    "columns": [
+        {
+            "column_name": "Vote Year",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "2017",
+                "2016",
+                "2015",
+                "2014",
+                "2013"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 678,
+                    "max_value": 2017,
+                    "min_value": 2012,
+                    "mean": 2015.3702064896754,
+                    "stddev": 1.5304568557951879
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "FY18",
+                "FY17",
+                "FY16",
+                "FY15",
+                "FY14"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 678,
+                    "shortest_values": [
+                        "FY13",
+                        "FY15",
+                        "FY14",
+                        "FY16",
+                        "FY17"
+                    ],
+                    "longest_values": [
+                        "FY18",
+                        "FY17",
+                        "FY16",
+                        "FY14",
+                        "FY15"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "8",
+                "32",
+                "39",
+                "15",
+                "33"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 653,
+                    "max_value": 49,
+                    "min_value": 3,
+                    "mean": 25.834609494640123,
+                    "stddev": 13.001480527392545
+                },
+                {
+                    "type": "TEXT",
+                    "count": 25,
+                    "shortest_values": [
+                        "32N",
+                        "32S",
+                        "39E"
+                    ],
+                    "longest_values": [
+                        "39E",
+                        "32S",
+                        "32N"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Project",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 665,
+            "frequent_values": [
+                "Bus Countdown Clocks",
+                "NYPD Security Cameras",
+                "Real Time Passenger Information",
+                "Street Resurfacing",
+                "Security Cameras"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 678,
+                    "shortest_values": [
+                        "Mobi-mats",
+                        "Tree Guards",
+                        "NYPD Cameras",
+                        "Music Studio",
+                        "Library Update"
+                    ],
+                    "longest_values": [
+                        "Remove asphalt in All-American park in Broad Channel to allow for creation of another baseball/softball field.",
+                        "Upgrades to our schools to include: Scholars' Academy - Tech carts; ID swipe station (site 5 of 5)",
+                        "Upgrades to our schools to include: Beach Channel Campus - Mobile laboratory cart (site 4 of 5)",
+                        "Installation of Security Cameras in Public Housing Complexes - Washington Houses - Site 5 of 8",
+                        "Technology for 3 Local Arts Non-Profits: Reel Stories Teen Filmmaking Media Lab (site 1 of 2)"
+                    ],
+                    "average_length": 43.73893805309734
+                }
+            ]
+        },
+        {
+            "column_name": "Ballot Price",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 115,
+            "frequent_values": [
+                "500000.00",
+                "200000.00",
+                "300000.00",
+                "250000.00",
+                "150000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 678,
+                    "max_value": 1000000.0,
+                    "min_value": 5000.0,
+                    "mean": 273776.42182890855,
+                    "stddev": 162097.5633520856
+                }
+            ]
+        },
+        {
+            "column_name": "Subproject Cost",
+            "number_non_empty_cells": 675,
+            "number_empty_cells": 3,
+            "number_distinct_values": 121,
+            "frequent_values": [
+                "500000.00",
+                "50000.00",
+                "300000.00",
+                "100000.00",
+                "200000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 675,
+                    "max_value": 1000000.0,
+                    "min_value": 5000.0,
+                    "mean": 202651.9022222222,
+                    "stddev": 165200.7024882992
+                }
+            ]
+        },
+        {
+            "column_name": "Brooklyn Borough President Funding",
+            "number_non_empty_cells": 19,
+            "number_empty_cells": 659,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "100000.00",
+                "50000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 19,
+                    "max_value": 100000.0,
+                    "min_value": 50000.0,
+                    "mean": 97368.42105263157,
+                    "stddev": 11164.843913471803
+                }
+            ]
+        },
+        {
+            "column_name": "Total Appropriated",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 112,
+            "frequent_values": [
+                "500000.00",
+                "200000.00",
+                "300000.00",
+                "250000.00",
+                "450000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 678,
+                    "max_value": 1050000.0,
+                    "min_value": 5000.0,
+                    "mean": 289288.1932153392,
+                    "stddev": 169583.06529471558
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Subprojects",
+            "number_non_empty_cells": 320,
+            "number_empty_cells": 358,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "1",
+                "3",
+                "4",
+                "5",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 320,
+                    "max_value": 9,
+                    "min_value": 1,
+                    "mean": 3.615625,
+                    "stddev": 2.5579055610743304
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "SCA",
+                "DPR",
+                "DOT",
+                "NYCHA",
+                "NYPD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 678,
+                    "shortest_values": [
+                        "SCA",
+                        "HPD",
+                        "DDC",
+                        "DOT",
+                        "BPL"
+                    ],
+                    "longest_values": [
+                        "NON-CITY",
+                        "Non-City",
+                        "NYCHA",
+                        "DFTA",
+                        "NYPD"
+                    ],
+                    "average_length": 3.297935103244838
+                }
+            ]
+        },
+        {
+            "column_name": "Non-City?",
+            "number_non_empty_cells": 675,
+            "number_empty_cells": 3,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 675,
+                    "shortest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "longest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Implementing CBO",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 653,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "Volunteer Fire Department- Broad Channel",
+                "St. Nicks Alliance",
+                "Carter Burden Center for the Aging",
+                "UWS Community Emergency Response",
+                "Center for Anti-Violence Education"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 25,
+                    "shortest_values": [
+                        "CHiPS",
+                        "Harlem RBI",
+                        "YouthBuild",
+                        "Imani House",
+                        "Local Artists"
+                    ],
+                    "longest_values": [
+                        "Institute for the Puerto Rican/Hispanic Elderly, Inc.",
+                        "Glen Oaks Volunteer Ambulance Corps., Inc",
+                        "Volunteer Fire Department- Broad Channel",
+                        "OHEL Children's Home & Family Services",
+                        "Center for Anti-Violence Education"
+                    ],
+                    "average_length": 26.48
+                }
+            ]
+        },
+        {
+            "column_name": "Description",
+            "number_non_empty_cells": 661,
+            "number_empty_cells": 17,
+            "number_distinct_values": 494,
+            "frequent_values": [
+                "Technology upgrades for the following schools P.S. 139, P.S. 220, P.S. 175, P.S. 196, P.S. 206, P.S. 99, J.H.S. 157, J.H.S. 190 and Forest Hills High School.",
+                "New Laptops and Technology for 8 schools.",
+                "Installation of tamper-proof security cameras with high picture quality in public housing complexes.",
+                "Install Smartboards in local schools: Fordham High School for the Arts,M.S. 45, P.S. 59, P.S. 32, P.S. 163, P.S. 57, FDA V and TAPCO.",
+                "Provide a laptop cart with 30 laptops for local schools: Fordham High School for Arts, M.S. 45, P.S. 32, P.S. 163, P.S. 52, FDA V and TAPCO"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 661,
+                    "shortest_values": [
+                        "Exact Location TBD",
+                        "Exact Locations TBD",
+                        "ADA Ramps for beach access",
+                        "Will serve the whole district",
+                        "PS 130: Install 15 smartboards"
+                    ],
+                    "longest_values": [
+                        "An installment towards the total cost of providing security cameras in the following developments: East River Houses ($200,000), Douglass I, II, and Addition ($100,000), Johnson Houses ($100,000), and Millbrook Houses ($100,000). This funding allocation would only cover a portion of the overall cost for these cameras, with a significant cost remaining for each development.",
+                        "P.S. 47 \u2013 Tech equipment ($45,000) // P.S. 317 \u2013 Tech equipment ($45,000) // P.S. 114 \u2013 Auditorium upgrades ($75,000) // Beach Channel Campus \u2013 mobile earth science lab cart RCHS ($60,000) // Beach Channel Campus \u2013 New exercise room with updated equipment ($150,000) // Scholar\u2019s Academy \u2013 Bathroom updates ($60,000)",
+                        "Install wiring components for air conditioning for 36 classrooms in PS 72 ($145,000). Upgrade Manhattan Center auditorium with 40 new seats ($40,000). Install new stage curtains, rigging and painting for Jackie Robinson auditorium (includes CPE1, EH Scholars Academy 1 &2, JHS 13, and Central Park East HS)  ($100,000).",
+                        "A greenhouse that will employ youth 1) in growing healthy foods for the community, engage them 2) in selling the vegetables grown through a Youth Farmers\u2019 Market, and 3) provide youth with valuable, resume-boosting exposure to careers in agriculture, in business, and in the renewable energy field.",
+                        "Money towards the design, construction and installation of a sea-themed statue (i.e. whale, dolphin, mermaid). To be designed with community input, this project will embody the Spirit of Post Sandy Rockaway (courage, gratitude and unity) and will stand as a Rockaway landmark as did \"Whalemena.\""
+                    ],
+                    "average_length": 132.99697428139183
+                }
+            ]
+        },
+        {
+            "column_name": "Installation Location",
+            "number_non_empty_cells": 676,
+            "number_empty_cells": 2,
+            "number_distinct_values": 591,
+            "frequent_values": [
+                "TBD",
+                "District Wide",
+                "(Throughout District 15)",
+                "(Districtwide)",
+                "628 Tinton Ave, 345 Brook Ave. (Bronx - Mott Haven & Longwood)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 676,
+                    "shortest_values": [
+                        "TBD",
+                        "Mobile",
+                        "(Gowanus)",
+                        "50 Avenue P",
+                        "Bensonhurst"
+                    ],
+                    "longest_values": [
+                        "East 46th Street and Glenwood Road; Farragut Road between East 57th and East 58th Streets; East 29th Street between Foster Avenue and Farragut Road, Nostrand Avenue and Winthrop Street; Newkirk and Nostrand Avenues; East 29th Street between Farragut Road and Foster Avenue.",
+                        "Bellerose: 250-6 Hillside Ave, Bellerose, NY 11426, Fresh Meadows: 193-20 Horace Harding Expy, Queens, NY 11365, Hollis: 20205 Hillside Ave, Jamaica, NY 11423, Windsor: 79-50 Bell Boulevard Bayside, NY 11364",
+                        "1368 New York Avenue, Brooklyn; 3000 Newkirk Ave., Brooklyn; 1922 Nostrand Avenue, Brooklyn; 3600 Foster Ave., Brooklyn; 1839 Nostrand Avenue, Brooklyn",
+                        "4802 Tilden Ave, Brooklyn, NY; 5601 Avenue D, Brooklyn, NY; 1041 E 38th St, Brooklyn, NY; 4002 Foster Ave, Brooklyn, NY; 5818 Farragut Rd, Brooklyn, NY",
+                        "PS 130: 70 Ocean Parkway, Brooklyn, NY 11218, PS 321: 180 7th Avenue , Brooklyn, NY 11215, PS 230: 1 Albemarle Rd, Brooklyn, NY 11218"
+                    ],
+                    "average_length": 31.247041420118343
+                }
+            ]
+        },
+        {
+            "column_name": "Mapping Location",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 640,
+            "frequent_values": [
+                "40.633506, -73.983255",
+                "40.602384, -73.763189",
+                "40.757265, -73.933930",
+                "40.561519, -73.914076",
+                "40.728025, -73.862559"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 678,
+                    "shortest_values": [
+                        "40.790182, -73.943608",
+                        "40.660511, -73.962838",
+                        "40.649603, -73.958200",
+                        "40.656408, -73.951463",
+                        "40.656245, -73.953793"
+                    ],
+                    "longest_values": [
+                        "40.622293, -74.079012",
+                        "40.631761, -74.156982",
+                        "40.771410, -73.781158",
+                        "40.848338, -73.903667",
+                        "40.869122, -73.879627"
+                    ],
+                    "average_length": 21.0
+                }
+            ]
+        },
+        {
+            "column_name": "Status Summary",
+            "number_non_empty_cells": 678,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "Part of Capital Plan- Funding Approved",
+                "COMPLETE",
+                "SCOPING",
+                "FUNDS APPROPRIATED",
+                "IN DESIGN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 678,
+                    "shortest_values": [
+                        "SCOPING",
+                        "COMPLETE",
+                        "IN DESIGN",
+                        "OUT FOR BID",
+                        "NOT ELIGIBLE"
+                    ],
+                    "longest_values": [
+                        "Part of Capital Plan- Funding Approved",
+                        "AGENCY FEASIBILITY ISSUES",
+                        "REQUIRES ADDITIONAL FUNDS",
+                        "PROJECT STATUS REQUIRED",
+                        "FUNDS NOT APPROPRIATED"
+                    ],
+                    "average_length": 30.902654867256636
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 421,
+            "number_empty_cells": 257,
+            "number_distinct_values": 106,
+            "frequent_values": [
+                "10029",
+                "11694",
+                "11203",
+                "11206",
+                "11231"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 421,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10955.627078384798,
+                    "stddev": 565.4860823977245
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 421,
+            "number_empty_cells": 257,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "QUEENS   ",
+                "BROOKLYN ",
+                "MANHATTAN",
+                "BRONX    ",
+                "STATEN IS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 421,
+                    "shortest_values": [
+                        "MANHATTAN",
+                        "BRONX    ",
+                        "QUEENS   ",
+                        "BROOKLYN ",
+                        "STATEN IS"
+                    ],
+                    "longest_values": [
+                        "STATEN IS",
+                        "BROOKLYN ",
+                        "QUEENS   ",
+                        "BRONX    ",
+                        "MANHATTAN"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 421,
+            "number_empty_cells": 257,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "11",
+                "6",
+                "1",
+                "14",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 421,
+                    "max_value": 17,
+                    "min_value": 1,
+                    "mean": 8.106888361045131,
+                    "stddev": 4.52288717192454
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 421,
+            "number_empty_cells": 257,
+            "number_distinct_values": 245,
+            "frequent_values": [
+                "938",
+                "43",
+                "172",
+                "170",
+                "936"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 421,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 9494.244655581948,
+                    "stddev": 27234.92122309204
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 412,
+            "number_empty_cells": 266,
+            "number_distinct_values": 319,
+            "frequent_values": [
+                "4303853",
+                "3104598",
+                "4303722",
+                "2012359",
+                "2004773"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 412,
+                    "max_value": 5027641,
+                    "min_value": 1000000,
+                    "mean": 2994851.0776699027,
+                    "stddev": 1216603.3030606308
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 412,
+            "number_empty_cells": 266,
+            "number_distinct_values": 316,
+            "frequent_values": [
+                "4161810001",
+                "2030810026",
+                "4161590012",
+                "2026640029",
+                "1017130001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 412,
+                    "max_value": 5012180001,
+                    "min_value": 1005850041,
+                    "mean": 2909572432.0898056,
+                    "stddev": 1175750021.3562171
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 421,
+            "number_empty_cells": 257,
+            "number_distinct_values": 105,
+            "frequent_values": [
+                "East Harlem South                                                          ",
+                "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel                      ",
+                "East Harlem North                                                          ",
+                "Carroll Gardens-Columbia Street-Red Hook                                   ",
+                "Forest Hills                                                               "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 421,
+                    "shortest_values": [
+                        "East Harlem South                                                          ",
+                        "Bensonhurst East                                                           ",
+                        "Gravesend                                                                  ",
+                        "Prospect Lefferts Gardens-Wingate                                          ",
+                        "Erasmus                                                                    "
+                    ],
+                    "longest_values": [
+                        "Stapleton-Rosebank                                                         ",
+                        "Hunters Point-Sunnyside-West Maspeth                                       ",
+                        "Queens Village                                                             ",
+                        "Jamaica Estates-Holliswood                                                 ",
+                        "Far Rockaway-Bayswater                                                     "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

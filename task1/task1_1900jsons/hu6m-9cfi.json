@@ -1,0 +1,561 @@
+{
+    "dataset_name": "hu6m-9cfi",
+    "columns": [
+        {
+            "column_name": "ProjectBuildingDWID",
+            "number_non_empty_cells": 2229,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2229,
+            "frequent_values": [
+                "72024",
+                "805121",
+                "70005",
+                "70007",
+                "70376"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2229,
+                    "max_value": 2357104,
+                    "min_value": 42239,
+                    "mean": 108809.26110363392,
+                    "stddev": 180201.0160438092
+                }
+            ]
+        },
+        {
+            "column_name": "ProjectID",
+            "number_non_empty_cells": 2229,
+            "number_empty_cells": 0,
+            "number_distinct_values": 647,
+            "frequent_values": [
+                "53017",
+                "48877",
+                "53157",
+                "50407",
+                "58860"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2229,
+                    "max_value": 67577,
+                    "min_value": 44218,
+                    "mean": 53378.48541947061,
+                    "stddev": 5383.037104527465
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 2224,
+            "number_empty_cells": 5,
+            "number_distinct_values": 2175,
+            "frequent_values": [
+                "804799",
+                "203235",
+                "117124",
+                "809070",
+                "904741"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2224,
+                    "max_value": 990448,
+                    "min_value": 375,
+                    "mean": 455447.09307553957,
+                    "stddev": 381165.9822703025
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 2229,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2229,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 2.388963660834455,
+                    "stddev": 0.9452885474234111
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 2224,
+            "number_empty_cells": 5,
+            "number_distinct_values": 1033,
+            "frequent_values": [
+                "4452",
+                "2282",
+                "4213",
+                "2283",
+                "3893"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2224,
+                    "max_value": 16250,
+                    "min_value": 6,
+                    "mean": 3443.1079136690646,
+                    "stddev": 2889.948626203528
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 2224,
+            "number_empty_cells": 5,
+            "number_distinct_values": 357,
+            "frequent_values": [
+                "1",
+                "7501",
+                "9",
+                "20",
+                "40"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2224,
+                    "max_value": 9080,
+                    "min_value": 1,
+                    "mean": 402.7306654676259,
+                    "stddev": 1559.2607340408174
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 2174,
+            "number_empty_cells": 55,
+            "number_distinct_values": 1911,
+            "frequent_values": [
+                "3000000",
+                "2000000",
+                "1000000",
+                "4000000",
+                "2114797"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2174,
+                    "max_value": 5122976,
+                    "min_value": 1000000,
+                    "mean": 2499956.2474701013,
+                    "stddev": 1009388.6858016043
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 2224,
+            "number_empty_cells": 5,
+            "number_distinct_values": 1389,
+            "frequent_values": [
+                "30",
+                "54",
+                "180",
+                "700",
+                "600"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2081,
+                    "max_value": 43790,
+                    "min_value": 1,
+                    "mean": 1002.4541086016338,
+                    "stddev": 1979.5506872850453
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 2291.5,
+                    "min_value": 2291.5,
+                    "mean": 2291.5,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 142,
+                    "shortest_values": [
+                        "22A",
+                        "211S",
+                        "465S",
+                        "474F",
+                        "295A"
+                    ],
+                    "longest_values": [
+                        "1682-1700",
+                        "91-09 1/2",
+                        "674 REAR",
+                        "972-976",
+                        "839-843"
+                    ],
+                    "average_length": 5.647887323943662
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 2224,
+            "number_empty_cells": 5,
+            "number_distinct_values": 707,
+            "frequent_values": [
+                "SCHROEDERS AVENUE",
+                "VANDALIA AVENUE",
+                "EGAN STREET",
+                "WALTON AVENUE",
+                "EAST 137 STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2224,
+                    "shortest_values": [
+                        "7 AVENUE",
+                        "8 AVENUE",
+                        "2 AVENUE",
+                        "AVENUE Z",
+                        "3 AVENUE"
+                    ],
+                    "longest_values": [
+                        "FREDERICK DOUGLASS BOULEVARD",
+                        "VAN WYCK EXPRESSWAY SR WEST",
+                        "FREDERICK DOUGAL BOULEVARD",
+                        "ADAM C POWELL JR BOULEVARD",
+                        "WEST MOSHOLU PARKWAY SOUTH"
+                    ],
+                    "average_length": 14.274280575539569
+                }
+            ]
+        },
+        {
+            "column_name": "TotalBuildingUnits",
+            "number_non_empty_cells": 2181,
+            "number_empty_cells": 48,
+            "number_distinct_values": 233,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "8",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2181,
+                    "max_value": 1093,
+                    "min_value": 1,
+                    "mean": 45.75607519486474,
+                    "stddev": 83.62824176512464
+                }
+            ]
+        },
+        {
+            "column_name": "BaseSquareFootage",
+            "number_non_empty_cells": 1901,
+            "number_empty_cells": 328,
+            "number_distinct_values": 1141,
+            "frequent_values": [
+                "820",
+                "1",
+                "10000",
+                "8235",
+                "1000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1901,
+                    "max_value": 454213,
+                    "min_value": 1,
+                    "mean": 14952.055234087322,
+                    "stddev": 39637.53023355385
+                }
+            ]
+        },
+        {
+            "column_name": "Stories",
+            "number_non_empty_cells": 2173,
+            "number_empty_cells": 56,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "5",
+                "3",
+                "4",
+                "6",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2173,
+                    "max_value": 55,
+                    "min_value": 1,
+                    "mean": 5.831109065807639,
+                    "stddev": 4.846897424811162
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 2174,
+            "number_empty_cells": 55,
+            "number_distinct_values": 1889,
+            "frequent_values": [
+                "5038937501",
+                "2022830040",
+                "3042130001",
+                "4159260001",
+                "3069117501"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2174,
+                    "max_value": 5040640001,
+                    "min_value": 1002440040,
+                    "mean": 2426192060.4351425,
+                    "stddev": 955842750.9808109
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "5",
+                "3",
+                "1",
+                "10",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2117,
+                    "max_value": 27,
+                    "min_value": 1,
+                    "mean": 6.867264997638167,
+                    "stddev": 4.404752311001576
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "42",
+                "8",
+                "9",
+                "17",
+                "16"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2117,
+                    "max_value": 50,
+                    "min_value": 1,
+                    "mean": 24.16343882853094,
+                    "stddev": 14.498732701860666
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 446,
+            "frequent_values": [
+                "1070",
+                "39",
+                "1130",
+                "373",
+                "28"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2117,
+                    "max_value": 114201,
+                    "min_value": 1,
+                    "mean": 5317.366084081247,
+                    "stddev": 15676.566086553457
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 2122,
+            "number_empty_cells": 107,
+            "number_distinct_values": 125,
+            "frequent_values": [
+                "BK82",
+                "MN03",
+                "BX39",
+                "BK85",
+                "BK79"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2122,
+                    "shortest_values": [
+                        "BX55",
+                        "MN13",
+                        "SI24",
+                        "QN25",
+                        "BK29"
+                    ],
+                    "longest_values": [
+                        "Not Found",
+                        "SI14",
+                        "BK21",
+                        "QN61",
+                        "QN01"
+                    ],
+                    "average_length": 4.011781338360038
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 2038,
+            "frequent_values": [
+                "40.837941",
+                "40.682777",
+                "40.865933",
+                "40.59574",
+                "40.658302"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 2117,
+                    "max_value": 40.904171,
+                    "min_value": 40.564987,
+                    "mean": 40.74475057487012,
+                    "stddev": 0.08540126340488954
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 2042,
+            "frequent_values": [
+                "-73.895254",
+                "-73.892562",
+                "-74.000448",
+                "-73.91061",
+                "-73.893151"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 2117,
+                    "max_value": -73.730624,
+                    "min_value": -74.171232,
+                    "mean": -73.91670133632483,
+                    "stddev": 0.05310990533263493
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude (Internal)",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 2038,
+            "frequent_values": [
+                "40.837941",
+                "40.682777",
+                "40.865933",
+                "40.59574",
+                "40.658302"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 2117,
+                    "max_value": 40.904171,
+                    "min_value": 40.564987,
+                    "mean": 40.74475057487012,
+                    "stddev": 0.08540126340488954
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude (Internal)",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 2042,
+            "frequent_values": [
+                "-73.895254",
+                "-73.892562",
+                "-74.000448",
+                "-73.91061",
+                "-73.893151"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 2117,
+                    "max_value": -73.730624,
+                    "min_value": -74.171232,
+                    "mean": -73.91670133632483,
+                    "stddev": 0.05310990533263493
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 2117,
+            "number_empty_cells": 112,
+            "number_distinct_values": 112,
+            "frequent_values": [
+                "11207",
+                "11239",
+                "11233",
+                "10456",
+                "10454"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2117,
+                    "max_value": 11694,
+                    "min_value": 10001,
+                    "mean": 10731.31931979216,
+                    "stddev": 515.6172146243006
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

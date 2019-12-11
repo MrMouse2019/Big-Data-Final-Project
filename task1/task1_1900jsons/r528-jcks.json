@@ -1,0 +1,148 @@
+{
+    "dataset_name": "r528-jcks",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 53,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Manhattan",
+                "Staten Island",
+                "Queens",
+                "Bronx",
+                "Brooklyn"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        "\"",
+                        "Bronx",
+                        "Queens",
+                        "Bus Pad",
+                        "Brooklyn"
+                    ],
+                    "longest_values": [
+                        "Pedestrian Ramp New Installation Contracts:",
+                        "Pedestrian Ramp Upgrade Contracts:",
+                        "Sidewalk Contracts:",
+                        "Curb - Citywide",
+                        "Manhattan/Bronx"
+                    ],
+                    "average_length": 11.909090909090908
+                }
+            ]
+        },
+        {
+            "column_name": "Contract No",
+            "number_non_empty_cells": 29,
+            "number_empty_cells": 46,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "HWS2016Q1",
+                "Complex HWP2013MX",
+                "HWS2016R2",
+                "Complex HWP16KC",
+                "Complex HWP14MTA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 29,
+                    "shortest_values": [
+                        "HWPR17R",
+                        "HWPR16M",
+                        "HWPR17M",
+                        "HWPR17CW",
+                        "HWS2016M"
+                    ],
+                    "longest_values": [
+                        "Simple Complex HWP15RSC",
+                        "Landmark HWP15XMTA",
+                        "Landmark HWP15XMCL",
+                        "Landmark HWP2013LM",
+                        "Complex HWP2013MX"
+                    ],
+                    "average_length": 13.10344827586207
+                }
+            ]
+        },
+        {
+            "column_name": "CB",
+            "number_non_empty_cells": 54,
+            "number_empty_cells": 21,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "2",
+                "7(X)",
+                "1",
+                "7",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 43,
+                    "max_value": 13,
+                    "min_value": 1,
+                    "mean": 4.813953488372093,
+                    "stddev": 3.5715660948566645
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "7(X)",
+                        "7(M)",
+                        "6(M)",
+                        "3,6,7,8,9"
+                    ],
+                    "longest_values": [
+                        "3,6,7,8,9",
+                        "6(M)",
+                        "7(M)",
+                        "7(X)"
+                    ],
+                    "average_length": 4.454545454545454
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 72,
+            "number_empty_cells": 3,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "Construction has not yet started",
+                "Contract has not yet started",
+                "No Contract",
+                "No Work Scheduled",
+                "NEC E. Gun Hill Rd & Dekalb Ave"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 72,
+                    "shortest_values": [
+                        "Expedited",
+                        "No Contract",
+                        "No Work Scheduled",
+                        "1 - 3 family houses",
+                        "Expedited Locations"
+                    ],
+                    "longest_values": [
+                        "NYCHA Construction - Housing Development \"Richmond Terrace\"",
+                        "NYCHA Construction - Housing Development \"Wycoff Houses\"",
+                        "NYCHA Construction - Housing Development \"Smith Houses\"",
+                        "NEC, SEC , NC, SC of Richmond Ave and Richmond Hill Rd",
+                        "NWC, SWC, NC, SC of Richmond Ave and Rockland Ave"
+                    ],
+                    "average_length": 30.944444444444443
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

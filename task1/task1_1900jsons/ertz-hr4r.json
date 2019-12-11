@@ -1,0 +1,758 @@
+{
+    "dataset_name": "ertz-hr4r",
+    "columns": [
+        {
+            "column_name": "ID",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 372,
+            "frequent_values": [
+                "59",
+                "19",
+                "10",
+                "15",
+                "38"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 372,
+                    "min_value": 1,
+                    "mean": 174.65376725102573,
+                    "stddev": 107.47925835733359
+                }
+            ]
+        },
+        {
+            "column_name": "Segment ID",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1490,
+            "frequent_values": [
+                "146496",
+                "131907",
+                "78877",
+                "78760",
+                "76510"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 9017039,
+                    "min_value": 202,
+                    "mean": 657577.4356583364,
+                    "stddev": 2171700.947830292
+                }
+            ]
+        },
+        {
+            "column_name": "Roadway Name",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 768,
+            "frequent_values": [
+                "Broadway",
+                "3 AVENUE",
+                "Southern Boulevard",
+                "FDR Drive",
+                "BELT PARKWAY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21448,
+                    "shortest_values": [
+                        "BQE",
+                        "Bowery",
+                        "56 Road",
+                        "3 Avenue",
+                        "Park Row"
+                    ],
+                    "longest_values": [
+                        "ED KOCH QUEENSBORO BRIDGE LOWER LEVEL INNER ROADWAY",
+                        "ED KOCH QUEENSBORO BRIDGE LOWER LEVEL OUTER ROADWAY",
+                        "Brooklyn Queens Expressway Service Road",
+                        "Dr. M L King Jr. Expressway Exit 11 SB",
+                        "GRAND CENTRAL PARKWAY NB LEFT ROADWAY"
+                    ],
+                    "average_length": 14.69703468854905
+                }
+            ]
+        },
+        {
+            "column_name": "From",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 941,
+            "frequent_values": [
+                "Grand Concourse",
+                "5 Avenue",
+                "Northern Boulevard",
+                "Grant Avenue",
+                "Farragut Road"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21448,
+                    "shortest_values": [
+                        "37 Road",
+                        "53 Road",
+                        "77 ROAD",
+                        "58 Lane",
+                        "84 ROAD"
+                    ],
+                    "longest_values": [
+                        "West Mosholu Parkway North Service Road",
+                        "East 10 Street Pedestrian Overpass",
+                        "Cross Bronx Expressway Main Road",
+                        "BROOKLYN QUEENS EP ET 32 B WB",
+                        "72 Street Pedestrian Overpass"
+                    ],
+                    "average_length": 13.116327862737785
+                }
+            ]
+        },
+        {
+            "column_name": "To",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 952,
+            "frequent_values": [
+                "35 Avenue",
+                "Glenwood Road",
+                "34 Avenue",
+                "6 Avenue",
+                "Avenue T"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21448,
+                    "shortest_values": [
+                        "Pier",
+                        "ALLEY",
+                        "Bowery",
+                        "85 ROAD",
+                        "87 Road"
+                    ],
+                    "longest_values": [
+                        "BRIDGE MIDPOINT (ABOVE CROSS BRONX EXPRESSWAY)",
+                        "West Mosholu Parkway North Service Road",
+                        "Cross Bronx Expressway Service Road",
+                        "East 120 Street Pedestrian Overpass",
+                        "DR MARTIN LUTHER KING JR BOULEVARD"
+                    ],
+                    "average_length": 12.975149198060425
+                }
+            ]
+        },
+        {
+            "column_name": "Direction",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "NB",
+                "SB",
+                "EB",
+                "WB"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21448,
+                    "shortest_values": [
+                        "NB",
+                        "SB",
+                        "EB",
+                        "WB"
+                    ],
+                    "longest_values": [
+                        "WB",
+                        "EB",
+                        "SB",
+                        "NB"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 362,
+            "frequent_values": [
+                "09/27/2014",
+                "09/28/2014",
+                "10/10/2015",
+                "10/11/2015",
+                "10/04/2014"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 21448,
+                    "max_value": "2018-04-15 00:00:00",
+                    "min_value": "2014-09-13 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "12:00-1:00 AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2054,
+            "frequent_values": [
+                "43",
+                "59",
+                "48",
+                "71",
+                "74"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 4805,
+                    "min_value": 0,
+                    "mean": 315.4483771684387,
+                    "stddev": 498.71272175511933
+                }
+            ]
+        },
+        {
+            "column_name": "1:00-2:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 1652,
+            "frequent_values": [
+                "32",
+                "20",
+                "42",
+                "26",
+                "33"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 3841,
+                    "min_value": 0,
+                    "mean": 222.25279798545048,
+                    "stddev": 363.15591249179926
+                }
+            ]
+        },
+        {
+            "column_name": "2:00-3:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 1378,
+            "frequent_values": [
+                "34",
+                "22",
+                "28",
+                "21",
+                "15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 3867,
+                    "min_value": 0,
+                    "mean": 166.6500652863272,
+                    "stddev": 283.4755757992242
+                }
+            ]
+        },
+        {
+            "column_name": "3:00-4:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 1278,
+            "frequent_values": [
+                "21",
+                "17",
+                "23",
+                "22",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 3512,
+                    "min_value": 0,
+                    "mean": 146.38365043835105,
+                    "stddev": 253.21275877839196
+                }
+            ]
+        },
+        {
+            "column_name": "4:00-5:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 1447,
+            "frequent_values": [
+                "29",
+                "27",
+                "25",
+                "21",
+                "26"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 4469,
+                    "min_value": 0,
+                    "mean": 174.05554001119194,
+                    "stddev": 308.64501628231795
+                }
+            ]
+        },
+        {
+            "column_name": "5:00-6:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 1959,
+            "frequent_values": [
+                "39",
+                "46",
+                "33",
+                "64",
+                "24"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 6456,
+                    "min_value": 0,
+                    "mean": 270.95168811788847,
+                    "stddev": 533.7899792334935
+                }
+            ]
+        },
+        {
+            "column_name": "6:00-7:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2597,
+            "frequent_values": [
+                "67",
+                "76",
+                "46",
+                "72",
+                "92"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 7513,
+                    "min_value": 0,
+                    "mean": 452.95178138407016,
+                    "stddev": 785.6383717066218
+                }
+            ]
+        },
+        {
+            "column_name": "7:00-8:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2961,
+            "frequent_values": [
+                "136",
+                "130",
+                "113",
+                "0",
+                "66"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 8276,
+                    "min_value": 0,
+                    "mean": 603.9843312814774,
+                    "stddev": 862.9429283076049
+                }
+            ]
+        },
+        {
+            "column_name": "8:00-9:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 3039,
+            "frequent_values": [
+                "0",
+                "140",
+                "166",
+                "190",
+                "269"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 7899,
+                    "min_value": 0,
+                    "mean": 651.7762544301436,
+                    "stddev": 871.8091331459393
+                }
+            ]
+        },
+        {
+            "column_name": "9:00-10:00AM",
+            "number_non_empty_cells": 21444,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2989,
+            "frequent_values": [
+                "218",
+                "0",
+                "223",
+                "272",
+                "208"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21444,
+                    "max_value": 6766,
+                    "min_value": 0,
+                    "mean": 639.1781384070136,
+                    "stddev": 852.0659692443907
+                }
+            ]
+        },
+        {
+            "column_name": "10:00-11:00AM",
+            "number_non_empty_cells": 21445,
+            "number_empty_cells": 3,
+            "number_distinct_values": 2987,
+            "frequent_values": [
+                "269",
+                "213",
+                "228",
+                "211",
+                "286"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21445,
+                    "max_value": 6430,
+                    "min_value": 0,
+                    "mean": 642.2515271625088,
+                    "stddev": 847.6364042337663
+                }
+            ]
+        },
+        {
+            "column_name": "11:00-12:00PM",
+            "number_non_empty_cells": 21447,
+            "number_empty_cells": 1,
+            "number_distinct_values": 3022,
+            "frequent_values": [
+                "238",
+                "275",
+                "301",
+                "308",
+                "259"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21447,
+                    "max_value": 6307,
+                    "min_value": 0,
+                    "mean": 666.5309367277474,
+                    "stddev": 862.2151591725915
+                }
+            ]
+        },
+        {
+            "column_name": "12:00-1:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3080,
+            "frequent_values": [
+                "309",
+                "234",
+                "294",
+                "233",
+                "286"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 6330,
+                    "min_value": 0,
+                    "mean": 691.5354811637449,
+                    "stddev": 878.9455905391748
+                }
+            ]
+        },
+        {
+            "column_name": "1:00-2:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3119,
+            "frequent_values": [
+                "268",
+                "239",
+                "243",
+                "274",
+                "246"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 6119,
+                    "min_value": 0,
+                    "mean": 715.3193770980977,
+                    "stddev": 905.3391552994746
+                }
+            ]
+        },
+        {
+            "column_name": "2:00-3:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3247,
+            "frequent_values": [
+                "316",
+                "254",
+                "265",
+                "292",
+                "237"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 6996,
+                    "min_value": 0,
+                    "mean": 761.5600522193212,
+                    "stddev": 948.591871773592
+                }
+            ]
+        },
+        {
+            "column_name": "3:00-4:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3291,
+            "frequent_values": [
+                "276",
+                "272",
+                "246",
+                "270",
+                "404"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 7524,
+                    "min_value": 0,
+                    "mean": 790.6782916822082,
+                    "stddev": 969.9381274611249
+                }
+            ]
+        },
+        {
+            "column_name": "4:00-5:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3315,
+            "frequent_values": [
+                "329",
+                "449",
+                "251",
+                "354",
+                "333"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 8683,
+                    "min_value": 0,
+                    "mean": 796.5111898545318,
+                    "stddev": 963.5380924973895
+                }
+            ]
+        },
+        {
+            "column_name": "5:00-6:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3285,
+            "frequent_values": [
+                "401",
+                "309",
+                "397",
+                "308",
+                "311"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 9762,
+                    "min_value": 0,
+                    "mean": 794.0634091756807,
+                    "stddev": 954.2860663778035
+                }
+            ]
+        },
+        {
+            "column_name": "6:00-7:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3287,
+            "frequent_values": [
+                "287",
+                "201",
+                "279",
+                "316",
+                "259"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 9879,
+                    "min_value": 0,
+                    "mean": 766.7899104811637,
+                    "stddev": 950.2464376206672
+                }
+            ]
+        },
+        {
+            "column_name": "7:00-8:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3176,
+            "frequent_values": [
+                "224",
+                "215",
+                "273",
+                "287",
+                "253"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 10532,
+                    "min_value": 0,
+                    "mean": 705.8697780678851,
+                    "stddev": 916.007216758161
+                }
+            ]
+        },
+        {
+            "column_name": "8:00-9:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2983,
+            "frequent_values": [
+                "176",
+                "192",
+                "157",
+                "239",
+                "175"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 6659,
+                    "min_value": 0,
+                    "mean": 621.8774710928758,
+                    "stddev": 851.5285748803985
+                }
+            ]
+        },
+        {
+            "column_name": "9:00-10:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2782,
+            "frequent_values": [
+                "119",
+                "152",
+                "161",
+                "117",
+                "171"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 5698,
+                    "min_value": 0,
+                    "mean": 538.9969694143977,
+                    "stddev": 769.6064655671344
+                }
+            ]
+        },
+        {
+            "column_name": "10:00-11:00PM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2636,
+            "frequent_values": [
+                "109",
+                "128",
+                "96",
+                "130",
+                "100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 5460,
+                    "min_value": 0,
+                    "mean": 474.62956919060053,
+                    "stddev": 704.4849278805948
+                }
+            ]
+        },
+        {
+            "column_name": "11:00-12:00AM",
+            "number_non_empty_cells": 21448,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2408,
+            "frequent_values": [
+                "86",
+                "103",
+                "87",
+                "91",
+                "61"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21448,
+                    "max_value": 5027,
+                    "min_value": 0,
+                    "mean": 396.4616281238344,
+                    "stddev": 608.7562863496946
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

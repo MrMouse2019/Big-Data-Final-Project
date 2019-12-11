@@ -1,0 +1,300 @@
+{
+    "dataset_name": "6fi9-q3ta",
+    "columns": [
+        {
+            "column_name": "hour_beginning",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7296,
+            "frequent_values": [
+                "05/16/2018 04:00:00 PM",
+                "02/02/2018 11:00:00 PM",
+                "05/01/2018 03:00:00 AM",
+                "01/28/2018 10:00:00 PM",
+                "10/02/2017 09:00:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7296,
+                    "max_value": "2018-07-31 23:00:00",
+                    "min_value": "2017-10-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "location",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Brooklyn Bridge"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7296,
+                    "shortest_values": [
+                        "Brooklyn Bridge"
+                    ],
+                    "longest_values": [
+                        "Brooklyn Bridge"
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "Pedestrians",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2200,
+            "frequent_values": [
+                "3",
+                "2",
+                "4",
+                "5",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7296,
+                    "max_value": 4330,
+                    "min_value": 0,
+                    "mean": 688.280153508772,
+                    "stddev": 816.6780027436297
+                }
+            ]
+        },
+        {
+            "column_name": "Towards Manhattan",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1336,
+            "frequent_values": [
+                "0",
+                "2",
+                "1",
+                "4",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7296,
+                    "max_value": 3657,
+                    "min_value": 0,
+                    "mean": 339.93379934210526,
+                    "stddev": 405.9768682078895
+                }
+            ]
+        },
+        {
+            "column_name": "Towards Brooklyn",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1414,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "5",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7296,
+                    "max_value": 2495,
+                    "min_value": 0,
+                    "mean": 348.24287280701753,
+                    "stddev": 426.97574933405645
+                }
+            ]
+        },
+        {
+            "column_name": "weather_summary",
+            "number_non_empty_cells": 7294,
+            "number_empty_cells": 2,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "clear-night",
+                "clear-day",
+                "partly-cloudy-day",
+                "partly-cloudy-night",
+                "cloudy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7294,
+                    "shortest_values": [
+                        "fog",
+                        "rain",
+                        "snow",
+                        "wind",
+                        "sleet"
+                    ],
+                    "longest_values": [
+                        "partly-cloudy-night",
+                        "partly-cloudy-day",
+                        "clear-night",
+                        "clear-day",
+                        "cloudy"
+                    ],
+                    "average_length": 12.285988483685221
+                }
+            ]
+        },
+        {
+            "column_name": "temperature",
+            "number_non_empty_cells": 7294,
+            "number_empty_cells": 2,
+            "number_distinct_values": 91,
+            "frequent_values": [
+                "36",
+                "34",
+                "38",
+                "41",
+                "42"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7294,
+                    "max_value": 94,
+                    "min_value": 4,
+                    "mean": 51.062517137373185,
+                    "stddev": 17.934566701717653
+                }
+            ]
+        },
+        {
+            "column_name": "precipitation",
+            "number_non_empty_cells": 7294,
+            "number_empty_cells": 2,
+            "number_distinct_values": 509,
+            "frequent_values": [
+                "0",
+                "0.0001",
+                "0.0002",
+                "0.0003",
+                "0.0004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4834,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 2460,
+                    "max_value": 0.4543,
+                    "min_value": 0.0001,
+                    "mean": 0.014378414634146313,
+                    "stddev": 0.03918460117228864
+                }
+            ]
+        },
+        {
+            "column_name": "lat",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "40.7081639691088"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 7296,
+                    "max_value": 40.7081639691088,
+                    "min_value": 40.7081639691088,
+                    "mean": 40.7081639691039,
+                    "stddev": 4.902744876744691e-12
+                }
+            ]
+        },
+        {
+            "column_name": "long",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "-73.9995087014816"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 7296,
+                    "max_value": -73.9995087014816,
+                    "min_value": -73.9995087014816,
+                    "mean": -73.99950870148703,
+                    "stddev": 5.4285465012071654e-12
+                }
+            ]
+        },
+        {
+            "column_name": "events",
+            "number_non_empty_cells": 552,
+            "number_empty_cells": 6744,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "New Year's Eve",
+                "Daylight Saving Time ends",
+                "Christmas Day",
+                "Father's Day",
+                "Easter Sunday"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 552,
+                    "shortest_values": [
+                        "Tax Day",
+                        "Halloween",
+                        "Father's Day",
+                        "Memorial Day",
+                        "Black Friday"
+                    ],
+                    "longest_values": [
+                        "Presidents' Day (regional holiday)",
+                        "Columbus Day (regional holiday)",
+                        "Daylight Saving Time starts",
+                        "Martin Luther King Jr. Day",
+                        "Daylight Saving Time ends"
+                    ],
+                    "average_length": 16.695652173913043
+                }
+            ]
+        },
+        {
+            "column_name": "Location1",
+            "number_non_empty_cells": 7296,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "(40.7081639691088, -73.9995087014816)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7296,
+                    "shortest_values": [
+                        "(40.7081639691088, -73.9995087014816)"
+                    ],
+                    "longest_values": [
+                        "(40.7081639691088, -73.9995087014816)"
+                    ],
+                    "average_length": 37.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

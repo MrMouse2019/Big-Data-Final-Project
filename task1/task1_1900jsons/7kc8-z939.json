@@ -1,0 +1,554 @@
+{
+    "dataset_name": "7kc8-z939",
+    "columns": [
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "DPR",
+                "DOT",
+                "DCAS",
+                "NYC & Co.",
+                "NYCEDC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "DEP",
+                        "DHS",
+                        "DOT",
+                        "DPR",
+                        "HPD"
+                    ],
+                    "longest_values": [
+                        "NYC & Co.",
+                        "NYCEDC",
+                        "DOHMH",
+                        "NYPD",
+                        "DCAS"
+                    ],
+                    "average_length": 3.2120622568093387
+                }
+            ]
+        },
+        {
+            "column_name": "\"At FCRC\" in FY 2015 (Yes/No)",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "No",
+                "Yes",
+                "Yes "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "Yes "
+                    ],
+                    "longest_values": [
+                        "Yes ",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.068093385214008
+                }
+            ]
+        },
+        {
+            "column_name": "FY 2015 Registration (Yes/No)",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "No",
+                "Yes",
+                "No (Contract is at the Comptroller's office)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "No (Contract is at the Comptroller's office)"
+                    ],
+                    "longest_values": [
+                        "No (Contract is at the Comptroller's office)",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.245136186770428
+                }
+            ]
+        },
+        {
+            "column_name": "Registration Date (or date sent to Comptroller for registration)",
+            "number_non_empty_cells": 500,
+            "number_empty_cells": 14,
+            "number_distinct_values": 368,
+            "frequent_values": [
+                "6/25/2010",
+                "04/23/10",
+                "3/21/2014",
+                "3/26/2014",
+                "6/4/08"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 2007,
+                    "min_value": 2007,
+                    "mean": 2007.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 499,
+                    "shortest_values": [
+                        "8/9/12",
+                        "2/7/13",
+                        "6/6/14",
+                        "6/3/14",
+                        "9/8/08"
+                    ],
+                    "longest_values": [
+                        "Registration Pending (sent to Comptroller on 07/10/2015",
+                        "7/19/2007 original,  6/23/15 second amendment",
+                        "4/26/2002 (Orginal); 10/29/2010 (Amendment)\n",
+                        "9/24/2007 (Original);\n4/15/2010 (Amendment)",
+                        "8/29/2008 & 11/29/2011 (License Extension)"
+                    ],
+                    "average_length": 8.57314629258517
+                }
+            ]
+        },
+        {
+            "column_name": "$ Value for FY2015 Registrations",
+            "number_non_empty_cells": 45,
+            "number_empty_cells": 469,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "$0",
+                "N / A",
+                "$7,025,000",
+                "$214,375",
+                "$348,407"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 45,
+                    "shortest_values": [
+                        "$0",
+                        "N / A",
+                        "$1,000",
+                        "$6,810",
+                        "$6,000"
+                    ],
+                    "longest_values": [
+                        "$20,750,000",
+                        "$2,069,226",
+                        "$1,230,000",
+                        "$1,280,000",
+                        "$1,167,500"
+                    ],
+                    "average_length": 6.955555555555556
+                }
+            ]
+        },
+        {
+            "column_name": "DOC_CD (e.g., \"RCT1\")",
+            "number_non_empty_cells": 510,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "RCT1",
+                "RCT1 "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 510,
+                    "shortest_values": [
+                        "RCT1",
+                        "RCT1 "
+                    ],
+                    "longest_values": [
+                        "RCT1 ",
+                        "RCT1"
+                    ],
+                    "average_length": 4.02156862745098
+                }
+            ]
+        },
+        {
+            "column_name": "DOC (agency code)",
+            "number_non_empty_cells": 512,
+            "number_empty_cells": 2,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "846",
+                "801",
+                "841",
+                "856",
+                "806"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 512,
+                    "max_value": 856,
+                    "min_value": 56,
+                    "mean": 839.779296875,
+                    "stddev": 60.429970778212486
+                }
+            ]
+        },
+        {
+            "column_name": "DOC_ID (automatically generated contract ID number from FMS)",
+            "number_non_empty_cells": 493,
+            "number_empty_cells": 21,
+            "number_distinct_values": 485,
+            "frequent_values": [
+                "20080037419",
+                "20158000120",
+                "20138202642",
+                "20138201037",
+                "20138202596"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 493,
+                    "max_value": 201280000105,
+                    "min_value": 2014820226,
+                    "mean": 20347716536.902637,
+                    "stddev": 8317325114.260207
+                }
+            ]
+        },
+        {
+            "column_name": "Concession ID (pre-registration)",
+            "number_non_empty_cells": 493,
+            "number_empty_cells": 21,
+            "number_distinct_values": 480,
+            "frequent_values": [
+                "M10-15-SLB",
+                "Q21-A-IT",
+                "M10-86-WD-C",
+                "B251-PL",
+                "Q15-GC"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 3411,
+                    "min_value": 442,
+                    "mean": 1926.5,
+                    "stddev": 1484.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 491,
+                    "shortest_values": [
+                        "X5-C",
+                        "X9-C",
+                        "M5-C",
+                        "Q5-C",
+                        "M03-C"
+                    ],
+                    "longest_values": [
+                        "M200/200A/220/229-MT",
+                        "CIN 0560140000913",
+                        "M10-(14)-BR,SB,R",
+                        "M10,37,72,144,BR",
+                        "CIN 056090000675"
+                    ],
+                    "average_length": 7.910386965376782
+                }
+            ]
+        },
+        {
+            "column_name": "Concessionaire",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 396,
+            "frequent_values": [
+                "Unlimited Nuts Inc.",
+                "Go Green Realty Corp.   ",
+                "Sultana, Nadira",
+                "Rodriguez, Rafael",
+                "IRIN NY, Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "Daron",
+                        "Jun Gao",
+                        "Mud LLC",
+                        "Mattell",
+                        "Nam Chang"
+                    ],
+                    "longest_values": [
+                        "Knish Nosh until June 2015, then Le Pain Quotidien via assignment  ",
+                        "New York Restoration Enterprise;  Cofeed Corp. (via assignment)",
+                        "College of St Francis Xavier d.b.a. Xavier High School",
+                        "First Flight, Airborne, Inc. dba FirstFlight, Inc.",
+                        "Brooklyn Union Gas Company d/b/a National Grid NY "
+                    ],
+                    "average_length": 20.291828793774318
+                }
+            ]
+        },
+        {
+            "column_name": "Concession Type (specific category)",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "Mobile Truck",
+                "Pushcart",
+                "Snack Bar",
+                "Tennis Pro",
+                "Gourmet Cart"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "Other",
+                        "Marina",
+                        "Stable",
+                        "Marina ",
+                        "Jewelry"
+                    ],
+                    "longest_values": [
+                        "Indoor Athletic Facility & Community Center at the Park Slope Armory",
+                        "Children's and Adult Apparel and Accessories; Souvenirs",
+                        "New York City Drug Discount Card Program",
+                        "Other (Sports, Receration & Events)",
+                        "Other (Sports, Recreation & Events)"
+                    ],
+                    "average_length": 12.165369649805447
+                }
+            ]
+        },
+        {
+            "column_name": "Concession Type (general category)",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Food-Related",
+                "Sports, Recreation & Events",
+                "Merchandise & Marketing",
+                "Occupancy/Parking Lot/Other",
+                "Occupancy/Parking Lot/ Other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "Other",
+                        "Food-Related",
+                        "Merchandise & Marketing",
+                        "Sports, Recreation & Events",
+                        "Occupancy/Parking Lot/Other"
+                    ],
+                    "longest_values": [
+                        "Occupancy/Parking Lot/ Other",
+                        "Occupancy/Parking Lot/Other",
+                        "Sports, Recreation & Events",
+                        "Merchandise & Marketing",
+                        "Food-Related"
+                    ],
+                    "average_length": 17.34046692607004
+                }
+            ]
+        },
+        {
+            "column_name": "Solicitation/Award Method",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Request for Bids",
+                "Request for Proposals",
+                "Sole Source",
+                "Different Procedure/Sole Source",
+                "Negotiated Concession"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "Sole Source",
+                        "Request for Bids",
+                        "Request for Bids ",
+                        "Request fo Proposals",
+                        "Negotiated Concession"
+                    ],
+                    "longest_values": [
+                        "Request for Proposals; Different Procedure (Other Procedure Authorization)",
+                        "Request for Proposals (Original); Different Procedure (Amendment)",
+                        "FY10 (Different Procedure); Original (Request for Proposals)",
+                        "Different Procedure (Other Procedure Authorization)",
+                        "Different Procedure (Requet for Offers)"
+                    ],
+                    "average_length": 18.67704280155642
+                }
+            ]
+        },
+        {
+            "column_name": "Start Date",
+            "number_non_empty_cells": 498,
+            "number_empty_cells": 16,
+            "number_distinct_values": 314,
+            "frequent_values": [
+                "4/5/14",
+                "11/1/12",
+                "1/1/11",
+                "1/1/15",
+                "1/1/14"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 498,
+                    "max_value": "2015-04-15 00:00:00",
+                    "min_value": "2006-07-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Expiration Date",
+            "number_non_empty_cells": 501,
+            "number_empty_cells": 13,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "12/31/14",
+                "12/31/18",
+                "12/31/17",
+                "12/31/15",
+                "11/18/18"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 501,
+                    "max_value": "2023-05-24 00:00:00",
+                    "min_value": "2009-06-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Collected in FY 2015",
+            "number_non_empty_cells": 499,
+            "number_empty_cells": 15,
+            "number_distinct_values": 427,
+            "frequent_values": [
+                "0",
+                "199848",
+                "1000",
+                "862",
+                "1774"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 499,
+                    "max_value": 4903728,
+                    "min_value": 0,
+                    "mean": 100729.38476953907,
+                    "stddev": 364211.0173869377
+                }
+            ]
+        },
+        {
+            "column_name": "Brief Description of Concession",
+            "number_non_empty_cells": 514,
+            "number_empty_cells": 0,
+            "number_distinct_values": 440,
+            "frequent_values": [
+                "Pushcart at Central Park - 72 St",
+                "Pushcart at Flushing Meadows Corona Park",
+                "The renovation and operation of six (6) gasoline filling stations in the boroughs of Brooklyn, Queens, and The Bronx",
+                "Pushcart at Riverside Park",
+                "Mobile Truck at Flushing Meadows Corona Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 514,
+                    "shortest_values": [
+                        "Replica vehicles",
+                        "Non- Exlusive Jewelery",
+                        "Pushcart at Sunset Park",
+                        "Pushcart at Linden Park",
+                        "Pushcart at Harris Park"
+                    ],
+                    "longest_values": [
+                        "Pearl Street Plaza (Anchorage Place, Pearl Street, and Water Street, including the pedestrian area underneath the Manhattan Bridge Arch); Operation, management and maintenance of a pedestrian plaza, including through DOT-approved events, sponsorships and subconcession(s), including but not limited to providing for the sale of any of the following: prepared food, flowers, locally grown produce or locally manufactured products, merchandise (such as souvenirs or t-shirts) that helps brand or promote the neighborhood or concessionaire, and other similar merchandise within the pedestrian plaza",
+                        "Water, Whitehall, Coenties Plaza, located on (1) Water and Whitehall Streets, and (2) Water Street and Coenties Slip; Operation, management and maintenance of a pedestrian plaza, including through DOT-approved events, sponsorships and subconcession(s), including but not limited to providing for the sale of any of the following: prepared food, flowers, locally grown produce or locally manufactured products, merchandise (such as souvenirs or t-shirts) that helps brand or promote the neighborhood or concessionaire, and other similar merchandise within the pedestrian plaza",
+                        "Herald Square Plaza (Broadway and 6th Avenue between West 33rd and West 36th Streets); Operation, management and maintenance of a pedestrian plaza, including through DOT-approved events, sponsorships and subconcession(s), including but not limited to providing for the sale of any of the following: prepared food, flowers, locally grown produce or locally manufactured products, merchandise (such as souvenirs or t-shirts) that helps brand or promote the neighborhood or concessionaire, and other similar merchandise within the pedestrian plaza",
+                        "Times Square Plaza (Broadway and 7th Avenue between West 41st and West 53rd Streets); Operation, management and maintenance of a pedestrian plaza, including through DOT-approved events, sponsorships and subconcession(s), including but not limited to providing for the sale of any of the following: prepared food, flowers, locally grown produce or locally manufactured products, merchandise (such as souvenirs or t-shirts) that helps brand or promote the neighborhood or concessionaire, and other similar merchandise within the pedestrian plaza",
+                        "Astor Place Plaza (Astor Place, Layfayette Street, East 9th Street and 4th Avenue); Operation, management and maintenance of a pedestrian plaza, including through DOT-approved events, sponsorships and subconcession(s), including but not limited to providing for the sale of any of the following: prepared food, flowers, locally grown produce or locally manufactured products, merchandise (such as souvenirs or t-shirts) that helps brand or promote the neighborhood or concessionaire, and other similar merchandise within the pedestrian plaza"
+                    ],
+                    "average_length": 75.76653696498055
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 512,
+            "number_empty_cells": 2,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Manhattan",
+                "Queens",
+                "Bronx",
+                "Brooklyn",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 512,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Citywide",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Brooklyn; Manhattan",
+                        "Staten Island",
+                        "All Boroughs",
+                        "Brooklyn ",
+                        "Manhattan"
+                    ],
+                    "average_length": 7.65625
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

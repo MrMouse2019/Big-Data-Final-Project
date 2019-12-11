@@ -1,0 +1,821 @@
+{
+    "dataset_name": "m3fi-rt3k",
+    "columns": [
+        {
+            "column_name": "Fiscal Year ",
+            "number_non_empty_cells": 17496,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2012",
+                "2011",
+                "2013",
+                "2010",
+                "2009"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 17496,
+                    "max_value": 2013,
+                    "min_value": 2009,
+                    "mean": 2011.8081847279377,
+                    "stddev": 0.979390620186423
+                }
+            ]
+        },
+        {
+            "column_name": "Source ",
+            "number_non_empty_cells": 17496,
+            "number_empty_cells": 0,
+            "number_distinct_values": 303,
+            "frequent_values": [
+                "Local",
+                "Youth",
+                "Aging",
+                "CASA",
+                "Boro"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 17496,
+                    "shortest_values": [
+                        "IOI",
+                        "OST",
+                        "NORC",
+                        "CASA",
+                        "DoVE"
+                    ],
+                    "longest_values": [
+                        "Mental Hygiene Contracted Services Partial PEG Restoration - Chemical Dependency/ADUPCT",
+                        "Mental Hygiene Contracted Services Partial PEG Restoration - Mental Health Providers",
+                        "Mortgage Foreclosure Prevention Program: Center for New York City Neighborhoods",
+                        "Senior Services - Borough Presidents Discretionary Funding PEG Restoration",
+                        "Sexual Health - PEG Restorations to STD Clinic Saturday Hours and STEP UP"
+                    ],
+                    "average_length": 9.729423868312757
+                }
+            ]
+        },
+        {
+            "column_name": "Council Member ",
+            "number_non_empty_cells": 14881,
+            "number_empty_cells": 2615,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "CC",
+                "Dickens",
+                "Oddo",
+                "Jackson",
+                "Comrie"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14881,
+                    "shortest_values": [
+                        "CC",
+                        "QN",
+                        "MN",
+                        "BX",
+                        "Liu"
+                    ],
+                    "longest_values": [
+                        "Chin, Mendez, Garodnick, Lappin, Brewer, Jackson, Viverito, Dickens, Rodriguez",
+                        "Manhattan Delegation",
+                        "Brooklyn Delegation",
+                        "Martinez - Vacant",
+                        "Staten Island "
+                    ],
+                    "average_length": 6.580606142060345
+                }
+            ]
+        },
+        {
+            "column_name": "Legal Name ",
+            "number_non_empty_cells": 17496,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4177,
+            "frequent_values": [
+                "Jewish Association for Services for the Aged (JASA)",
+                "Catholic Charities Neighborhood Services, Inc.",
+                "Brooklyn Arts Council, Inc.",
+                "Metropolitan New York Coordinating Council on Jewish Poverty, Inc.",
+                "New York Junior Tennis League, Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 17496,
+                    "shortest_values": [
+                        "HHC",
+                        "OST",
+                        "ENACT",
+                        "hackNY",
+                        "Masbia"
+                    ],
+                    "longest_values": [
+                        "Dancewave, Inc.                                                                                                                                                                                                                                                                               ",
+                        "Research Foundation of the City University of New York (on behalf of Institute for Juvenile Justice Reform and Alternatives, a project of Center for NuLeadership on Urban Solutions at Medgar Evers College)",
+                        "Research Foundation of the City University of New York (on Behalf of Nancy Reveron Domestic Violence Center at Hostos Community College)",
+                        "Administration for Children\u00e2\u0080\u0099s Services [American-Italian Coalition of Organizations, Inc. (AMICO) \u00e2\u0080\u0093 Court Street Day Care]",
+                        "Minister,Elders and Deacons of the Reformed Protestant Dutch Church of the City of New York c/o Collegiate Church"
+                    ],
+                    "average_length": 36.413866026520346
+                }
+            ]
+        },
+        {
+            "column_name": "EIN ",
+            "number_non_empty_cells": 17454,
+            "number_empty_cells": 42,
+            "number_distinct_values": 6708,
+            "frequent_values": [
+                "13-6400434",
+                "136400434-",
+                "136400434",
+                "23-7072915",
+                "11-3381629"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4555,
+                    "max_value": 954502444,
+                    "min_value": 10137770,
+                    "mean": 175433140.7870472,
+                    "stddev": 134241038.43953782
+                },
+                {
+                    "type": "TEXT",
+                    "count": 12899,
+                    "shortest_values": [
+                        "13-6400434",
+                        "11-2635374",
+                        "264682827-",
+                        "112956108-",
+                        "13-2943389"
+                    ],
+                    "longest_values": [
+                        "75-3260289 (conduit's)",
+                        "11-3373115  ",
+                        "13-1632530  ",
+                        "11-2290832  ",
+                        "23-7237927  "
+                    ],
+                    "average_length": 10.06147763392511
+                }
+            ]
+        },
+        {
+            "column_name": "Status ",
+            "number_non_empty_cells": 17496,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Cleared",
+                "Pending",
+                "Government",
+                "CBO Defunded",
+                "Pending FC Clearance"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 17496,
+                    "shortest_values": [
+                        "Pending",
+                        "Cleared",
+                        "Government",
+                        "CBO Defunded",
+                        "Pending FC Clearance"
+                    ],
+                    "longest_values": [
+                        "Pending FC Clearance",
+                        "CBO Defunded",
+                        "Government",
+                        "Cleared",
+                        "Pending"
+                    ],
+                    "average_length": 7.078246456332876
+                }
+            ]
+        },
+        {
+            "column_name": "Amount ",
+            "number_non_empty_cells": 17496,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1132,
+            "frequent_values": [
+                "5000.00",
+                "3500.00",
+                "10000.00",
+                "20000.00",
+                "4000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 17496,
+                    "max_value": 50650100.0,
+                    "min_value": 0.0,
+                    "mean": 73872.41979938299,
+                    "stddev": 914727.558340092
+                }
+            ]
+        },
+        {
+            "column_name": "Agency ",
+            "number_non_empty_cells": 17496,
+            "number_empty_cells": 0,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "DYCD",
+                "DFTA",
+                "DCA",
+                "DOHMH",
+                "DOE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 17496,
+                    "shortest_values": [
+                        "PA",
+                        "BPL",
+                        "DHS",
+                        "DOP",
+                        "DSS"
+                    ],
+                    "longest_values": [
+                        "NYPL-R",
+                        "DOHMH ",
+                        "Clerk",
+                        "DOITT",
+                        "BP-MN"
+                    ],
+                    "average_length": 3.9016918152720623
+                }
+            ]
+        },
+        {
+            "column_name": "Program Name ",
+            "number_non_empty_cells": 2703,
+            "number_empty_cells": 14793,
+            "number_distinct_values": 1801,
+            "frequent_values": [
+                "Home Delivered Meals",
+                "Home Delivered Meals Program",
+                "Home Delivered Meals (Vns)",
+                "CUNY Citizenship and Immigration Project",
+                "Penny Harvest"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2703,
+                    "shortest_values": [
+                        " ",
+                        "CYO",
+                        "BID",
+                        "PS 3",
+                        "PS45"
+                    ],
+                    "longest_values": [
+                        "Public School 200M - The James Mccune Smith School, Public School 154M - Harriet Tubman, Public School 149M - Sojourner Truth, Public School 123 - Mahalia Jackson ",
+                        "Harriet & Kenneth Kupferberg Holocaust Resource Center & Archives at Queensborough Community College",
+                        "Harriet & Kenneth Kupferberg Holocaust Center & Archives at Queensborough Community College",
+                        "Rose F. Kennedy Center for Research in Mental Retardation and Developmental Disabilities",
+                        "Creative Opportunities Necessary to Create Empowered Positive Teens (CONCEPT)"
+                    ],
+                    "average_length": 24.558638549759525
+                }
+            ]
+        },
+        {
+            "column_name": "Street Address 1 ",
+            "number_non_empty_cells": 16418,
+            "number_empty_cells": 1078,
+            "number_distinct_values": 5621,
+            "frequent_values": [
+                "191 Joralemon Street",
+                "811 Morris Park Avenue",
+                "966 Fulton Street",
+                "105 East 22nd Street",
+                "58-12 Queens Blvd Suite 1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 16418,
+                    "shortest_values": [
+                        "WBHNRC",
+                        "111-20A",
+                        "1620 47",
+                        "1575-50",
+                        "PO Box 5"
+                    ],
+                    "longest_values": [
+                        "211 West 145th Street, #4F, New York; Colonial Park Station, P.O. Box 144",
+                        "c/o Friends of Morningside Park, 90 Morningside Drive, #1M",
+                        "Roy Wilkins Center, 177th Street and Baisely Boulevard ",
+                        "Department of Emergency Medicine Rosenthal SE Room 201",
+                        "Fordham University Office of Government  Urban Affairs"
+                    ],
+                    "average_length": 20.897551467901085
+                }
+            ]
+        },
+        {
+            "column_name": "Street Address 2 ",
+            "number_non_empty_cells": 2691,
+            "number_empty_cells": 14805,
+            "number_distinct_values": 1047,
+            "frequent_values": [
+                "6th Floor",
+                "3rd Floor",
+                "2nd Floor",
+                "4th Floor",
+                "5th Floor"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49,
+                    "max_value": 1704,
+                    "min_value": 1,
+                    "mean": 278.61224489795916,
+                    "stddev": 438.752815739626
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2642,
+                    "shortest_values": [
+                        " ",
+                        "4B",
+                        "5B",
+                        "1T",
+                        "2B"
+                    ],
+                    "longest_values": [
+                        "Street address: 61 Gramercy Park North New York, NY 10010",
+                        "2336 Andrews Ave St Nicholas Tolentine Elementary school",
+                        "382 Jersey Street, Staten Island, NY 10301 (location)",
+                        "5800 TILDEN AVENUE, BROOKLYN, NY , Brooklyn, NY 11203",
+                        "5404 TILDEN AVENUE, BROOKLYN, NY , Brooklyn, NY 11203"
+                    ],
+                    "average_length": 16.342165026495078
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 16343,
+            "number_empty_cells": 1153,
+            "number_distinct_values": 987,
+            "frequent_values": [
+                "10001",
+                "11201",
+                "10018",
+                "10036",
+                "10038"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14368,
+                    "max_value": 113359,
+                    "min_value": 1001,
+                    "mean": 10664.438613585746,
+                    "stddev": 1492.2129451527896
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1975,
+                    "shortest_values": [
+                        "10306-3207",
+                        "10065-7963",
+                        "11360-4076",
+                        "11214-3601",
+                        "11219-2926"
+                    ],
+                    "longest_values": [
+                        "Joe Harnischfeger",
+                        "10009-10009",
+                        "10033-10033",
+                        "11238-11226",
+                        "11217-11217"
+                    ],
+                    "average_length": 10.007088607594937
+                }
+            ]
+        },
+        {
+            "column_name": "Purpose of Funds ",
+            "number_non_empty_cells": 14817,
+            "number_empty_cells": 2679,
+            "number_distinct_values": 11453,
+            "frequent_values": [
+                "Senior Center transportation costs",
+                "To support the local food pantry.",
+                "Immigrant Related Legal Services",
+                "ESL/Civic",
+                "The provision of community based services for victims of domestic violence"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14817,
+                    "shortest_values": [
+                        "ESL",
+                        "ESL/Civc",
+                        "gym fees",
+                        "Concerts",
+                        "PTA money"
+                    ],
+                    "longest_values": [
+                        "Selfhelp\u00e2\u0080\u0099s Kensington office has been a one-stop hub for vulnerable Brooklyn seniors for 30 years. The Kensington office currently provides a wide range of services to nearly 2,000 Brooklyn seniors. These include: \u00e2\u0080\u00a2 in-home or in office assessment of all potential needs; \u00e2\u0080\u00a2screening for over 40 entitlements and benefits; \u00e2\u0080\u00a2 assistance in making applications; \u00e2\u0080\u00a2 short term counseling for information and referral; \u00e2\u0080\u00a2 case advocacy and follow-up calls; \u00e2\u0080\u00a2 mental health assessment and referral; and, \u00e2\u0080\u00a2 ongoing visits, in-home or in-office.\n_x000D_\nThe Kensington site also holds community health events, such as those for flu shots and memory clinics. In addition, the program provides access to legal services, cash assistance grants, financial management services, and transportation to and from medical appointments._x000D_\n_x000D_\nWe request funding to partially pay the salary of a chore worker.  Every two weeks, the choreworker visits the client and cleans for two hours. Beyond cleaning, many clients enjoy her company; for those clients who are very isolated this is an important side benefit of services. In addition, the chore services provider has received explicit training for the position, and is bound by a detailed job description and set of guidelines. Her responsibilities include:\n_x000D_\n(-) Changing bed linens, washing and ironing clients laundry, and cleaning clients apartments._x000D_\n_x000D_\n(-) Participating in the scheduling of appointments and reporting all problems and issues to supervisor._x000D_\n_x000D_\n(-) Performing other duties as assigned during non-scheduled appointment times._x000D_\n_x000D_\n(-) Maintaining records of services provided and of apparent condition of client._x000D_\n_x000D_\n(-) Reporting all problems encountered to professional staff._x000D_\n(-) Performing other duties as needed or requested._x000D_\n_x000D_\n(-) Monitoring \u00e2\u0080\u0093 The chore worker is trained to identify changes in behavior, mood, and general well-being. If she observes anything of concern, she immediately contacts Ms. Klein, who contacts that client\u00e2\u0080\u0099s social worker and ensures that",
+                        "Kujichagulia Literacy Initiative is a writing and performance program which uses creative writing and performance to develope oral and written literacy. The program will begin in September 2011 and end in May 2012. Based in Wadleigh Secondary School For The Performance And Visual Arts, The Dickens Kujichagulia Literacy Initiative, consists of writing workshops featuring noted poets, and writers for students in grades 6-12. It will also feature performances by acclaimed actors and musicians such as George Lee Miles and tenor Russel Saint John.The program will culminate with a staged presentation of students work and publication of a literary anthology. The objectives of the program are:_x000D_\n      1. Students will explore the craft of writing._x000D_\n      2. Students will be exposured to prominent African_x000D_\n         American Literary and Cultural Experiences.\n      3. Students will practice and improve writing_x000D_\n         techniques._x000D_\n      4. Students will gain experience in the reading \n         and performance of their work.\n Components:_x000D_\n      1. Writing and performance workshops_x000D_\n      2. Reading of poetry and prose by noted writers_x000D_\n      3. Editing and revision of work_x000D_\n      4. Performance of work_x000D_\n      5. Publication of work_x000D_\nGuests artists/consultants:_x000D_\n      1. Russel Saint John, tenor_x000D_\n      2. George Lee Miles, actor-writer_x000D_\n      3. Eliza B, poet_x000D_\n      4. Dream Jordan, novelist_x000D_\n      5. Abiodun Oyewole, writer_x000D_\n      6. Louis Rivera, author_x000D_\n      7. Dr. Marta Moreno Vega,educator and author_x000D_\n      8. Craig Harris, musician_x000D_\n      9. Los Pleneros De la 21_x000D_\nSpending Plan:_x000D_\n      1.Books and materials........1,690.57_x000D_\n      2.Transporation and trips....1,000.00_x000D_\n      3.Snacks........................950.00_x000D_\n      4.Awards........................500.00_x000D_\n      5.Publishing/layout/Editing...3,000.00_x000D_\n                        Subtotal....7,140.57 Guest Speakers/Artists, incuding administration of program:_x000D_\n       8,950.00_x000D_\nTotal:16,09",
+                        "The Arts  Community Change Initiative will work in partnership with Councilmember Brad Lander to develop and implement a community cultural development strategy that strengthens arts and culture in the 39th District as an integral part of healthy, sustainable, and engaged communities. This work has a direct connection to the parks as many of its participants are based in parks, program in parks, and/or partner with parks._x000D_\n_x000D_\nOur program will:_x000D_\n\u00e2\u0080\u00a2\tIdentify needs, barriers, resources, and opportunities related to arts and cultural practitioners and the diverse communities they serve._x000D_\n\u00e2\u0080\u00a2\tEngage arts leaders and community members as advisors to shape the program.\n\u00e2\u0080\u00a2\tProvide opportunities for arts groups and artists to network and share resources._x000D_\n\u00e2\u0080\u00a2\tConvene and connect arts and cultural organizations with community groups and potential partners._x000D_\n\u00e2\u0080\u00a2\tParticipate in community meetings to connect arts and culture with other community concerns and organizing._x000D_\n\u00e2\u0080\u00a2\tConnect arts and culture with community budgeting, parks, education, and other work in the district._x000D_\n\u00e2\u0080\u00a2\tHelp raise the visibility of arts and culture in the community._x000D_\n\u00e2\u0080\u00a2\tAdvise on cultural policy in NYC, including Naturally Occurring Cultural Districts, cultural equity, and other issues such as zoning and permits._x000D_\n\u00e2\u0080\u00a2\tDevelop responses to key concerns that add value to what is already happening; for example, identifying and sharing information about underutilized spaces that are available to arts groups.\n\u00e2\u0080\u00a2\tLook at publicly owned spaces, like parks and recreation centers, as places for the arts to connect with the local community._x000D_\n\u00e2\u0080\u00a2\tSupport the great work that artists are doing in the schools. This could include connecting artists/educators with each other to share best practices, and raising the visibility of this work through a community presentation/celebration._x000D_\n\u00e2\u0080\u00a2\tPartner when appropriate with organizations such as ArtHome, Brooklyn Arts Council, and community groups to support professional development and skill building.",
+                        "_x000D_\nPurpose of Request_x000D_\n_x000D_\nThe Philippine Forum respectfully requests 10,000 to organize the Third Annual Bayanihan Cultural Festival on Sunday, September 25, 2011 at the Hart Playground in Woodside, Queens. The funds will be used to hire a part-time project director, rent audio-visual equipment, stage, tables, chairs, and produce advertising and publicity materials._x000D_\n_x000D_\nThe primary goals of the Third Annual Bayanihan Cultural Festival are:_x000D_\n_x000D_\n1)\tTo develop a sense of community among Filipinos and to foster multiculturalism with the other immigrant groups and communities;_x000D_\n_x000D_\n2)\tTo nurture local artists, encourage them to feel proud of their identity and help them integrate into the social fabric of their community and the city; and_x000D_\n_x000D_\n3) \tTo boost Filipino and other local businesses in and around Queens, especially where the Festival will be held, by setting up pavilions wherein traditional and modern products and services will be available to the public. The event is also aimed at boosting business in general in and around the area where the Festival will be held._x000D_\n_x000D_\nThe Bayanihan Cultural Festival provides community organizations, small businesses, and artists a venue to do community outreach, pro bono services, engage the community in the arts through live mural making with a professional community muralist, and other grassroots activities that no other festival could offer._x000D_\n_x000D_\nThis year\u00e2\u0080\u0099s Festival will feature all-day multicultural performances onstage, an interfaith service, a youth basketball tournament, a community mural painting, a flea market, a food court, martial arts exhibition, free health screening, immigration and legal consultations, children\u00e2\u0080\u0099s arts and crafts workshop, traditional games and others._x000D_\n_x000D_\nBackground Description_x000D_\n_x000D_\nOn June 21, 2009, the diverse immigrant community of Queens witnessed the holding of the First Annual Bayanihan Cultural Festival, the first ever Filipino American Cultural Festival held in the borough of Queens,, where the large",
+                        "_x000D_\nMASK (Mothers and Fathers Aligned Saving Kids) Inc. will provide the following services to the parents of youth who are deemed to be \u00e2\u0080\u009cAt-Risk\u00e2\u0080\u009d and to the youth themselves._x000D_\n_x000D_\n1. Community Outreach \u00e2\u0080\u0093 MASK will facilitate a series of seminars and community meetings on subjects related to the recognition of youth who are engaging in self destructive behavior and what can be done to mitigate the effect of this behavior on the structure of the family._x000D_\n_x000D_\n2. Parenting Skills Workshops / Support Groups \u00e2\u0080\u0093 MASK will facilitate a series of workshops / parent support groups designed to enhance the parenting skills of guardians / caregivers of \u00e2\u0080\u009cAt-Risk\u00e2\u0080\u009d youth. These workshops will deliver to the guardians / caregivers the tools to engage their youth in a positive manner. These seminars / group sessions will be around three basic issues; Eating Disorders, Molestation and \u00e2\u0080\u009cAt-Risk\u00e2\u0080\u009d behavior._x000D_\n_x000D_\n3. GED Classes \u00e2\u0080\u0093 Pre GED and GED classes for youth who are no longer attending school._x000D_\n_x000D_\nThese services are targeted to the neighborhoods known as Boro Park, Flatbush, Midwood, Sheepshead Bay and Brighton Beach, and are also known as Community Boards 12, 13, 14 and 15.\nThis funding will be utilized to pay for the staff necessary to provide the services. The staff will consist of a group of trained facilitators who will deliver the program as well as program supervision and advertisement / outreach to the community and printed materials for the program participants. Additionally GED classes will be funded through this contract; these classes will allow the youth participants to prepare for the GED examination._x000D_\n_x000D_\nMASK (Mothers and Fathers Aligned Saving Kids) is a 501 ( c ) 3 non profit organization dedicated to providing services to the families of \u00e2\u0080\u009cAt-Risk\u00e2\u0080\u009d youth who reside in NY State in a holistic as well as culturally sensitive manner. These services are provided in a manner that allows the client to maintain their self-respect and standing in the community.  All interactions betw"
+                    ],
+                    "average_length": 270.39319700344197
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Conduit Name ",
+            "number_non_empty_cells": 229,
+            "number_empty_cells": 17267,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "St. Rosalia-Regina Pacis Neighborhood Improvement Association, Inc.",
+                "GALAXY",
+                "Maspeth Town Hall, Inc.",
+                "United Activities Unlimited, Inc.",
+                "Bay Ridge Bensonhurst Beautification and Preservation Alliance, Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 229,
+                    "shortest_values": [
+                        "GALAXY",
+                        "Graybeards, Ltd.",
+                        "Legal Services NYC",
+                        "Safe Horizon, Inc.",
+                        "Performance Zone, Inc."
+                    ],
+                    "longest_values": [
+                        "Bergen Basin Community Development Corporation d/b/a Millennium Development",
+                        "Bergen Basin Community Development Corp, d/b/a Millennium Development",
+                        "Bay Ridge Bensonhurst Beautification and Preservation Alliance, Inc.",
+                        "St. Rosalia-Regina Pacis Neighborhood Improvement Association, Inc.",
+                        "Metropolitan New York Coordinating Council on Jewish Poverty, Inc."
+                    ],
+                    "average_length": 45.48908296943232
+                }
+            ]
+        },
+        {
+            "column_name": "FC EIN ",
+            "number_non_empty_cells": 299,
+            "number_empty_cells": 17197,
+            "number_distinct_values": 68,
+            "frequent_values": [
+                "11-2697931",
+                "13-2921483",
+                "11-3199040",
+                "132921483-",
+                "113233233-"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 24,
+                    "max_value": 237259702,
+                    "min_value": 112508190,
+                    "mean": 156110851.20833334,
+                    "stddev": 57609915.804202616
+                },
+                {
+                    "type": "TEXT",
+                    "count": 275,
+                    "shortest_values": [
+                        "11-2697931",
+                        "51-0189327",
+                        "11-2047151",
+                        "135562256-",
+                        "23-7172152"
+                    ],
+                    "longest_values": [
+                        "131624015-",
+                        "11-2594500",
+                        "11-6083182",
+                        "11-2300840",
+                        "11-2508190"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "Location 1 ",
+            "number_non_empty_cells": 16589,
+            "number_empty_cells": 907,
+            "number_distinct_values": 6413,
+            "frequent_values": [
+                "191 Joralemon Street\nBrooklyn, NY 11201\n(40.69266960433043, -73.9917354160587)",
+                "811 Morris Park Avenue\nBronx, NY 10462\n(40.84604897642754, -73.86227800994095)",
+                "58-12 Queens Blvd Suite 1\nWoodside, NY 11377\n(40.74160760239171, -73.90739250549333)",
+                "132 West 31st Street\nNew York, NY 10001\n(40.748454549807946, -73.99055730420031)",
+                "108-25 62nd Drive\nForest Hills, NY 11375\n(40.735787726729434, -73.85077954857867)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 16589,
+                    "shortest_values": [
+                        "N/A, N/A\n",
+                        "Rockaway, NY\n",
+                        "Citywide, NY\n",
+                        "Queens, Queens\n",
+                        "N/A\nN/A, NY N/A\n"
+                    ],
+                    "longest_values": [
+                        "211 West 145th Street, #4F, New York; Colonial Park Station, P.O. Box 144\nNew York, NY 10039\n(40.82523000016454, -73.93823999957618)",
+                        "c/o Friends of Morningside Park, 90 Morningside Drive, #1M\nNew York, NY 10027\n(40.80814255289255, -73.95792990097732)",
+                        "Jacob A Riis Neighborhood Settlement House\nLong Island City, NY 11101-7308\n(40.74828999988375, -73.94114000021068)",
+                        "Library Action Committee of Corona-East Elmhurst Inc\nCorona, NY 11368-1038\n(40.74605999956947, -73.85822999981451)",
+                        "Association Offices - 5 West 63rd Street 6th Floor\nNew York, NY 10023-7162\n(40.77063622243261, -73.98020435412667)"
+                    ],
+                    "average_length": 80.45035867140876
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 13407,
+            "number_empty_cells": 4089,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "BROOKLYN ",
+                "QUEENS   ",
+                "BRONX    ",
+                "STATEN IS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13407,
+                    "shortest_values": [
+                        "BROOKLYN ",
+                        "STATEN IS",
+                        "QUEENS   ",
+                        "MANHATTAN",
+                        "BRONX    "
+                    ],
+                    "longest_values": [
+                        "BRONX    ",
+                        "MANHATTAN",
+                        "QUEENS   ",
+                        "STATEN IS",
+                        "BROOKLYN "
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 13406,
+            "number_empty_cells": 4090,
+            "number_distinct_values": 2983,
+            "frequent_values": [
+                "40.753612",
+                "40.741828",
+                "40.707116",
+                "40.70273",
+                "40.692671"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 13406,
+                    "max_value": 40.912828,
+                    "min_value": 40.501897,
+                    "mean": 40.72319096031606,
+                    "stddev": 0.07108881705791102
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 13406,
+            "number_empty_cells": 4090,
+            "number_distinct_values": 2976,
+            "frequent_values": [
+                "-73.992417",
+                "-73.907281",
+                "-73.989602",
+                "-74.007329",
+                "-73.991785"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 13406,
+                    "max_value": -73.707813,
+                    "min_value": -74.24644,
+                    "mean": -73.95272737744237,
+                    "stddev": 0.07934406126281385
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 13406,
+            "number_empty_cells": 4090,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "1",
+                "5",
+                "2",
+                "3",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13406,
+                    "max_value": 95,
+                    "min_value": 1,
+                    "mean": 6.868715500522154,
+                    "stddev": 7.824214372357133
+                }
+            ]
+        },
+        {
+            "column_name": "Community Council ",
+            "number_non_empty_cells": 13406,
+            "number_empty_cells": 4090,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "3",
+                "1",
+                "33",
+                "2",
+                "49"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13406,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 20.98485752648068,
+                    "stddev": 16.68928678693298
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 13406,
+            "number_empty_cells": 4090,
+            "number_distinct_values": 916,
+            "frequent_values": [
+                "9",
+                "95",
+                "109",
+                "21",
+                "101"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13406,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 5224.127629419663,
+                    "stddev": 18962.54484494662
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 13270,
+            "number_empty_cells": 4226,
+            "number_distinct_values": 2871,
+            "frequent_values": [
+                "1083624",
+                "4454475",
+                "3000088",
+                "1001015",
+                "3002244"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13270,
+                    "max_value": 5164735,
+                    "min_value": 1000000,
+                    "mean": 2507469.856141673,
+                    "stddev": 1404029.4459889934
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 13270,
+            "number_empty_cells": 4226,
+            "number_distinct_values": 2837,
+            "frequent_values": [
+                "1007860001",
+                "4023137501",
+                "3000380001",
+                "1000420031",
+                "3002550008"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13270,
+                    "max_value": 5080470080,
+                    "min_value": 1000047501,
+                    "mean": 2429291104.869405,
+                    "stddev": 1357293715.8551617
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 13407,
+            "number_empty_cells": 4089,
+            "number_distinct_values": 193,
+            "frequent_values": [
+                "Midtown-Midtown South                                                      ",
+                "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                "Battery Park City-Lower Manhattan                                          ",
+                "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill                           ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13407,
+                    "shortest_values": [
+                        "Stuyvesant Heights                                                         ",
+                        "Fordham South                                                              ",
+                        "Bath Beach                                                                 ",
+                        "Queens Village                                                             ",
+                        "Bensonhurst East                                                           "
+                    ],
+                    "longest_values": [
+                        "Queensboro Hill                                                            ",
+                        "New Dorp-Midland Beach                                                     ",
+                        "Grymes Hill-Clifton-Fox Hills                                              ",
+                        "Jackson Heights                                                            ",
+                        "Glendale                                                                   "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "Location 1 (address)",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 17496,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Location 1 (city)",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 17496,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Location 1 (state)",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 17496,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Location 1 (zip)",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 17496,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

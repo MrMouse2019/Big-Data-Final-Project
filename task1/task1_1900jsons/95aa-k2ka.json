@@ -1,0 +1,830 @@
+{
+    "dataset_name": "95aa-k2ka",
+    "columns": [
+        {
+            "column_name": "CUSIP Number",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15329,
+            "frequent_values": [
+                "'8611229F8",
+                "'USD",
+                "'EUR",
+                "'GBP",
+                "'HKD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "'TWD",
+                        "'SGD",
+                        "'JOD",
+                        "'PLN",
+                        "'HKD"
+                    ],
+                    "longest_values": [
+                        "'98986X109",
+                        "'681936100",
+                        "'682680103",
+                        "'68268W103",
+                        "'G67742109"
+                    ],
+                    "average_length": 9.91847625302738
+                }
+            ]
+        },
+        {
+            "column_name": "SEDOL Number",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12873,
+            "frequent_values": [
+                "'",
+                "'B051B48",
+                "'BYW4289",
+                "'2474164",
+                "'BD5JS97"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "'",
+                        "'BF191X0",
+                        "'B1GN485",
+                        "'B580MF5",
+                        "'2623836"
+                    ],
+                    "longest_values": [
+                        "'BZ03R68",
+                        "'2811932",
+                        "'B54DFD7",
+                        "'2818740",
+                        "'2816023"
+                    ],
+                    "average_length": 7.142563934157054
+                }
+            ]
+        },
+        {
+            "column_name": "Local Currency Code",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 49,
+            "frequent_values": [
+                "USD",
+                "JPY",
+                "EUR",
+                "HKD",
+                "TWD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "USD",
+                        "JOD",
+                        "KES",
+                        "HRK",
+                        "KWD"
+                    ],
+                    "longest_values": [
+                        "CNY",
+                        "GHS",
+                        "DKK",
+                        "CZK",
+                        "COP"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Trade Country Name",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 68,
+            "frequent_values": [
+                "UNITED STATES OF AMERICA (THE)",
+                "JAPAN",
+                "HONG KONG",
+                "UNITED KINGDOM",
+                "TAIWAN (PROVINCE OF CHINA)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "PERU",
+                        "OMAN",
+                        "GHANA",
+                        "CHINA",
+                        "KENYA"
+                    ],
+                    "longest_values": [
+                        "UNITED STATES OF AMERICA (THE)",
+                        "UNITED ARAB EMIRATES (THE)",
+                        "TAIWAN (PROVINCE OF CHINA)",
+                        "RUSSIAN FEDERATION (THE)",
+                        "KOREA (THE REPUBLIC OF)"
+                    ],
+                    "average_length": 21.653134107795246
+                }
+            ]
+        },
+        {
+            "column_name": "Security Name",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13108,
+            "frequent_values": [
+                "US TREASURY N/B",
+                "STATE STREET BANK + TRUST CO",
+                "US DOLLAR",
+                "TSY INFL IX N/B",
+                "BANK OF AMERICA CORP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "BE",
+                        "RH",
+                        "SES",
+                        "EDF",
+                        "SOL"
+                    ],
+                    "longest_values": [
+                        "AMERICREDIT AUTOMOBILE RECEIVA",
+                        "EXGEN TEX PWR LLC   SYNDICATED",
+                        "CAPITAL AUTO RECEIVABLES ASSET",
+                        "CAPSTONE LOGISTICS ACQUISITION",
+                        "EXETER CORE IN CLUB FUND II LP"
+                    ],
+                    "average_length": 19.183366856861376
+                }
+            ]
+        },
+        {
+            "column_name": "Security Description",
+            "number_non_empty_cells": 24172,
+            "number_empty_cells": 189,
+            "number_distinct_values": 5021,
+            "frequent_values": [
+                "COMMON STOCK",
+                "COMMON STOCK USD.01",
+                "COMMON STOCK USD.001",
+                "COMMON STOCK USD1.0",
+                "COMMON STOCK TWD10."
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 240,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 23932,
+                    "shortest_values": [
+                        "LP",
+                        "L P",
+                        "BDR",
+                        "MLP",
+                        "ADR"
+                    ],
+                    "longest_values": [
+                        "WARRANTS FROM PRIMING FACILITY",
+                        "TEN   THE ENTHUSIAST NETWORK C",
+                        "NON TRANSFERABLE BENE INT UNIT",
+                        "GI PARTNERS FUND III FOR 593G",
+                        "CENTRAL AND EASTERN EUROPE F"
+                    ],
+                    "average_length": 17.067023232492062
+                }
+            ]
+        },
+        {
+            "column_name": "Maturity Date",
+            "number_non_empty_cells": 5868,
+            "number_empty_cells": 18493,
+            "number_distinct_values": 1832,
+            "frequent_values": [
+                "12/31/2030",
+                "03/15/2022",
+                "12/29/2049",
+                "04/01/2023",
+                "04/15/2023"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5868,
+                    "max_value": "2114-10-01 00:00:00",
+                    "min_value": "2005-08-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Interest Rate",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 487,
+            "frequent_values": [
+                "0",
+                "3.5",
+                "4",
+                "3",
+                "4.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20175,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 0.22889714993804214,
+                    "stddev": 1.0506138634351556
+                },
+                {
+                    "type": "REAL",
+                    "count": 4186,
+                    "max_value": 12.5,
+                    "min_value": 0.01,
+                    "mean": 4.420114667940732,
+                    "stddev": 2.0231329595555545
+                }
+            ]
+        },
+        {
+            "column_name": "Original Face",
+            "number_non_empty_cells": 24360,
+            "number_empty_cells": 1,
+            "number_distinct_values": 1362,
+            "frequent_values": [
+                "0",
+                "200000",
+                "100000",
+                "32499.99",
+                "300000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 23683,
+                    "max_value": 30160438,
+                    "min_value": 0,
+                    "mean": 48293.60752438458,
+                    "stddev": 535437.5027636356
+                },
+                {
+                    "type": "REAL",
+                    "count": 677,
+                    "max_value": 18665682.3,
+                    "min_value": 1877.92,
+                    "mean": 830681.9432053175,
+                    "stddev": 2608333.977277326
+                }
+            ]
+        },
+        {
+            "column_name": "Shares/Par Value",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18649,
+            "frequent_values": [
+                "100000",
+                "500000",
+                "50000",
+                "200000",
+                "250000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7981,
+                    "max_value": 34628772,
+                    "min_value": -14255387,
+                    "mean": 362846.9129181807,
+                    "stddev": 1416068.422551668
+                },
+                {
+                    "type": "REAL",
+                    "count": 16380,
+                    "max_value": 642549423.08,
+                    "min_value": -14242859.02,
+                    "mean": 308036.8702118412,
+                    "stddev": 7497720.323350649
+                }
+            ]
+        },
+        {
+            "column_name": "Base Market Value",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24188,
+            "frequent_values": [
+                "0",
+                "0.01",
+                "21104.4",
+                "150375",
+                "39050"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3151,
+                    "max_value": 72052950,
+                    "min_value": -3998626,
+                    "mean": 690319.264043161,
+                    "stddev": 2790849.9913393436
+                },
+                {
+                    "type": "REAL",
+                    "count": 21210,
+                    "max_value": 71185455.73,
+                    "min_value": -14242859.02,
+                    "mean": 472948.42992220656,
+                    "stddev": 2088435.6142214558
+                }
+            ]
+        },
+        {
+            "column_name": "Base Total Cost",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24105,
+            "frequent_values": [
+                "0",
+                "100000",
+                "250000",
+                "500000",
+                "50000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1808,
+                    "max_value": 47100831,
+                    "min_value": -2796500,
+                    "mean": 1019799.1952433628,
+                    "stddev": 3973022.9124938445
+                },
+                {
+                    "type": "REAL",
+                    "count": 22553,
+                    "max_value": 55245989.35,
+                    "min_value": -14318691.27,
+                    "mean": 379592.50764288596,
+                    "stddev": 1488898.8509520695
+                }
+            ]
+        },
+        {
+            "column_name": "Base Unrealized Gain/Loss",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23833,
+            "frequent_values": [
+                "0",
+                "13125",
+                "306.25",
+                "-1.09",
+                "5100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1709,
+                    "max_value": 26492337,
+                    "min_value": -2953115,
+                    "mean": 70892.1837331773,
+                    "stddev": 877906.5808790415
+                },
+                {
+                    "type": "REAL",
+                    "count": 22652,
+                    "max_value": 29141798.96,
+                    "min_value": -11713762.73,
+                    "mean": 74189.06445656011,
+                    "stddev": 667472.0393596722
+                }
+            ]
+        },
+        {
+            "column_name": "Base Accrued Interest",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3465,
+            "frequent_values": [
+                "0",
+                "1950",
+                "750",
+                "733.33",
+                "2375"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21061,
+                    "max_value": 78625,
+                    "min_value": 0,
+                    "mean": 92.80736907079437,
+                    "stddev": 1410.874018543964
+                },
+                {
+                    "type": "REAL",
+                    "count": 3300,
+                    "max_value": 229918.68,
+                    "min_value": 0.37,
+                    "mean": 6478.825587878789,
+                    "stddev": 12857.923952869849
+                }
+            ]
+        },
+        {
+            "column_name": "Local Market Value",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24197,
+            "frequent_values": [
+                "0",
+                "150085.09",
+                "150375",
+                "0.01",
+                "21104.4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3443,
+                    "max_value": 30065682737,
+                    "min_value": -3998626,
+                    "mean": 19839474.45047923,
+                    "stddev": 589479711.7120941
+                },
+                {
+                    "type": "REAL",
+                    "count": 20918,
+                    "max_value": 17895157009.18,
+                    "min_value": -14242859.02,
+                    "mean": 22064210.785111427,
+                    "stddev": 317224078.7408395
+                }
+            ]
+        },
+        {
+            "column_name": "Local Total Cost Amount",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24122,
+            "frequent_values": [
+                "0",
+                "100000",
+                "250000",
+                "50000",
+                "500000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2078,
+                    "max_value": 2695230411,
+                    "min_value": -2796500,
+                    "mean": 9653083.369104909,
+                    "stddev": 132049330.65222481
+                },
+                {
+                    "type": "REAL",
+                    "count": 22283,
+                    "max_value": 21039072999.87,
+                    "min_value": -14318691.27,
+                    "mean": 17818424.851928905,
+                    "stddev": 267805724.49162325
+                }
+            ]
+        },
+        {
+            "column_name": "Local Unrealized Gain/Loss",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23672,
+            "frequent_values": [
+                "0",
+                "13125",
+                "5100",
+                "300",
+                "194.4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2174,
+                    "max_value": 354047580,
+                    "min_value": -731024916,
+                    "mean": -108489.63247470101,
+                    "stddev": 21804683.628466688
+                },
+                {
+                    "type": "REAL",
+                    "count": 22187,
+                    "max_value": 9026609737.13,
+                    "min_value": -1088942196.79,
+                    "mean": 5091957.451700547,
+                    "stddev": 137437324.3527273
+                }
+            ]
+        },
+        {
+            "column_name": "Local Accrued Interest",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2772,
+            "frequent_values": [
+                "12/31/1899",
+                "02/03/1900",
+                "02/07/1900",
+                "03/01/1900",
+                "01/13/1900"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 24361,
+                    "max_value": "2529-06-28 00:00:00",
+                    "min_value": "1899-12-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Period End Date",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "06/30/2017",
+                "06/30/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 24361,
+                    "max_value": "2017-06-30 00:00:00",
+                    "min_value": "2015-06-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Asset Class",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "EQUITY",
+                "FIXED INCOME",
+                "CASH",
+                "CASH EQUIVALENT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "CASH",
+                        "EQUITY",
+                        "FIXED INCOME",
+                        "CASH EQUIVALENT"
+                    ],
+                    "longest_values": [
+                        "CASH EQUIVALENT",
+                        "FIXED INCOME",
+                        "EQUITY",
+                        "CASH"
+                    ],
+                    "average_length": 7.431509379746315
+                }
+            ]
+        },
+        {
+            "column_name": "Investment Type Name",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "COMMON STOCK",
+                "CORPORATE BONDS",
+                "REAL ESTATE INV TRST",
+                "FNMA",
+                "BANK LOAN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "CMO",
+                        "FNMA",
+                        "FHLMC",
+                        "RIGHTS",
+                        "GNMA I"
+                    ],
+                    "longest_values": [
+                        "STIF-TYPE INSTRUMENT",
+                        "CREDIT CARD RCVEABLE",
+                        "AUTO LOAN RECEIVABLE",
+                        "REAL ESTATE INV TRST",
+                        "LMTD PARTNRSHIP UNTS"
+                    ],
+                    "average_length": 12.623578670826321
+                }
+            ]
+        },
+        {
+            "column_name": "Major Industry Name",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "INDUSTRIALS",
+                "FINANCIALS",
+                "CONSUMER DISCRETIONARY",
+                "CORPORATE",
+                "INFORMATION TECHNOLOGY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "CMO",
+                        "YANKEE",
+                        "ENERGY",
+                        "AGENCY",
+                        "FOREIGN"
+                    ],
+                    "longest_values": [
+                        "TELECOMMUNICATION SERVICES",
+                        "INFORMATION TECHNOLOGY",
+                        "CONSUMER DISCRETIONARY",
+                        "MORTGAGE PASS-THROUGH",
+                        "PRIVATE PLACEMENT"
+                    ],
+                    "average_length": 13.451910841098478
+                }
+            ]
+        },
+        {
+            "column_name": "Minor Industry Name",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "BANKS",
+                "INDUSTRIAL",
+                "EQUITY RE INVESTMENT TRUSTS (R",
+                "FNMA",
+                "OIL, GAS & CONSUMABLE FUELS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "FNMA",
+                        "GNMA",
+                        "MEDIA",
+                        "BANKS",
+                        "FHLMC"
+                    ],
+                    "longest_values": [
+                        "REAL ESTATE -- DISCONTINUED 04",
+                        "HEALTH CARE PROVIDERS & SERVIC",
+                        "ELECTRONIC EQUIP, INSTRUMENT &",
+                        "INDPNDENT PWR & RENEWABLE ELEC",
+                        "SEMICONDUCTORS & SEMICONDUCTOR"
+                    ],
+                    "average_length": 16.749025081072205
+                }
+            ]
+        },
+        {
+            "column_name": "Moody's Quality Rating",
+            "number_non_empty_cells": 7481,
+            "number_empty_cells": 16880,
+            "number_distinct_values": 30,
+            "frequent_values": [
+                "1899-12-31T00:00:00.000",
+                "0",
+                "Aaa",
+                "Baa3",
+                "Baa2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1372,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6109,
+                    "shortest_values": [
+                        "C",
+                        "WR",
+                        "NR",
+                        "Ca",
+                        "A2"
+                    ],
+                    "longest_values": [
+                        "1899-12-31T00:00:00.000",
+                        "(P)B3",
+                        "BAA3",
+                        "CAA1",
+                        "Baa1"
+                    ],
+                    "average_length": 11.701751514159437
+                }
+            ]
+        },
+        {
+            "column_name": "S and P Quality Rating",
+            "number_non_empty_cells": 13262,
+            "number_empty_cells": 11099,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "1899-12-31T00:00:00.000",
+                "NR",
+                "0",
+                "B",
+                "B+"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1377,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11885,
+                    "shortest_values": [
+                        "B",
+                        "D",
+                        "C",
+                        "A",
+                        "CC"
+                    ],
+                    "longest_values": [
+                        "1899-12-31T00:00:00.000",
+                        "CCC-",
+                        "BBB+",
+                        "CCC+",
+                        "BBB-"
+                    ],
+                    "average_length": 6.954816996213715
+                }
+            ]
+        },
+        {
+            "column_name": "Direct/Group Trust Holding",
+            "number_non_empty_cells": 24361,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Group Trust",
+                "Direct"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24361,
+                    "shortest_values": [
+                        "Direct",
+                        "Group Trust"
+                    ],
+                    "longest_values": [
+                        "Group Trust",
+                        "Direct"
+                    ],
+                    "average_length": 9.408111325479249
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

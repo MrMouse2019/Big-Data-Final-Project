@@ -1,0 +1,1275 @@
+{
+    "dataset_name": "ad4c-mphb",
+    "columns": [
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Boro-Block-Lot",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1056,
+            "frequent_values": [
+                "1-00132-7501",
+                "1-01630-7501",
+                "1-01845-7501",
+                "1-01845-7502",
+                "1-00928-7502"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "1-00007-7501",
+                        "1-01325-7501",
+                        "1-01325-7502",
+                        "1-01327-7501",
+                        "1-01327-7502"
+                    ],
+                    "longest_values": [
+                        "1-02221-7501",
+                        "1-00746-7505",
+                        "1-00768-7502",
+                        "1-00768-7501",
+                        "1-00767-7504"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Condo Section",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1068,
+            "frequent_values": [
+                "361-R1",
+                "1058-R1",
+                "1234-R1",
+                "1390-R1",
+                "430-R1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "3-R1",
+                        "9-R1",
+                        "7-R2",
+                        "1-R1",
+                        "61-R1"
+                    ],
+                    "longest_values": [
+                        "1010-R1",
+                        "1508-R1",
+                        "1265-R1",
+                        "1089-R1",
+                        "1256-R1"
+                    ],
+                    "average_length": 6.362359550561798
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Address",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1062,
+            "frequent_values": [
+                "105 3 AVENUE",
+                "352 CATHEDRAL PARKWAY",
+                "301 WEST 57 STREET",
+                "2 AMSTERDAM AVENUE",
+                "1049 5 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "199 BOWERY",
+                        "195 BOWERY",
+                        "30 UNKNOWN",
+                        "200 BOWERY",
+                        "85 AVENUE A"
+                    ],
+                    "longest_values": [
+                        "2082 FRED DOUGLASS BOULEV",
+                        "2235 FRED DOUGLASS BOULEV",
+                        "1800 ADAM C POWELL BOULEV",
+                        "2216 FRED DOUGLASS BOULEV",
+                        "2605 FRED DOUGLASS BOULEV"
+                    ],
+                    "average_length": 17.19943820224719
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 1,
+                    "min_value": 1,
+                    "mean": 1.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 44,
+            "frequent_values": [
+                "10011",
+                "10013",
+                "10023",
+                "10025",
+                "10024"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1053,
+                    "max_value": 10280,
+                    "min_value": 10000,
+                    "mean": 10027.97625830959,
+                    "stddev": 37.22752107273643
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 1039,
+            "frequent_values": [
+                "40.781149",
+                "40.765163",
+                "40.775608",
+                "40.714489",
+                "40.789315"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1053,
+                    "max_value": 40.863565,
+                    "min_value": 40.703627,
+                    "mean": 40.756946232668454,
+                    "stddev": 0.029698130692721515
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 1040,
+            "frequent_values": [
+                "-74.010607",
+                "-73.959923",
+                "-74.000112",
+                "-73.987743",
+                "-73.985031"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1053,
+                    "max_value": -73.923221,
+                    "min_value": -74.018002,
+                    "mean": -73.97982428869896,
+                    "stddev": 0.01981167410449284
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "8",
+                "7",
+                "2",
+                "1",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1053,
+                    "max_value": 64,
+                    "min_value": 1,
+                    "mean": 5.4586894586894585,
+                    "stddev": 3.3412232821711854
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "4",
+                "3",
+                "1",
+                "6",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1053,
+                    "max_value": 10,
+                    "min_value": 1,
+                    "mean": 3.8869895536562202,
+                    "stddev": 2.2165636839358047
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 203,
+            "frequent_values": [
+                "33",
+                "39",
+                "81",
+                "98",
+                "90"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1053,
+                    "max_value": 31704,
+                    "min_value": 6,
+                    "mean": 1883.9639126305792,
+                    "stddev": 5399.935963236494
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 1045,
+            "number_empty_cells": 23,
+            "number_distinct_values": 1039,
+            "frequent_values": [
+                "1076205",
+                "1066698",
+                "1077845",
+                "1055748",
+                "1080359"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1045,
+                    "max_value": 1089507,
+                    "min_value": 1000000,
+                    "mean": 1050192.285167464,
+                    "stddev": 30288.40408885518
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 1045,
+            "number_empty_cells": 23,
+            "number_distinct_values": 1037,
+            "frequent_values": [
+                "1016307501",
+                "1011517501",
+                "1004697501",
+                "1014977501",
+                "1009287502"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1045,
+                    "max_value": 1022217501,
+                    "min_value": 1000077501,
+                    "mean": 1010205301.168421,
+                    "stddev": 5319707.452262905
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 1053,
+            "number_empty_cells": 15,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 ",
+                "Upper West Side                                                            ",
+                "Upper East Side-Carnegie Hill                                              ",
+                "West Village                                                               "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1053,
+                    "shortest_values": [
+                        "Battery Park City-Lower Manhattan                                          ",
+                        "Washington Heights South                                                   ",
+                        "Hamilton Heights                                                           ",
+                        "Manhattanville                                                             ",
+                        "Morningside Heights                                                        "
+                    ],
+                    "longest_values": [
+                        "Marble Hill-Inwood                                                         ",
+                        "Washington Heights North                                                   ",
+                        "Lincoln Square                                                             ",
+                        "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                        "Chinatown                                                                  "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Neighborhood",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "UPPER EAST SIDE (59-79)",
+                "UPPER WEST SIDE (59-79)",
+                "UPPER EAST SIDE (79-96)",
+                "CHELSEA",
+                "UPPER WEST SIDE (79-96)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "SOHO",
+                        "INWOOD",
+                        "TRIBECA",
+                        "CLINTON",
+                        "FASHION"
+                    ],
+                    "longest_values": [
+                        "GREENWICH VILLAGE-CENTRAL",
+                        "UPPER EAST SIDE (96-110)",
+                        "UPPER WEST SIDE (96-116)",
+                        "WASHINGTON HEIGHTS UPPER",
+                        "WASHINGTON HEIGHTS LOWER"
+                    ],
+                    "average_length": 15.617977528089888
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Building Classification",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "R4-ELEVATOR",
+                "R9-CONDOPS",
+                "R2-WALK-UP",
+                "R0-CONDOMINIUM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "R9-CONDOPS",
+                        "R2-WALK-UP",
+                        "R4-ELEVATOR",
+                        "R0-CONDOMINIUM"
+                    ],
+                    "longest_values": [
+                        "R0-CONDOMINIUM",
+                        "R4-ELEVATOR",
+                        "R2-WALK-UP",
+                        "R9-CONDOPS"
+                    ],
+                    "average_length": 10.794943820224718
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Total Units",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 285,
+            "frequent_values": [
+                "12",
+                "11",
+                "20",
+                "16",
+                "13"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 1258,
+                    "min_value": 11,
+                    "mean": 95.44475655430712,
+                    "stddev": 120.34699262364204
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Year Built",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 111,
+            "frequent_values": [
+                "1900",
+                "1920",
+                "1910",
+                "2005",
+                "1986"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 2008,
+                    "min_value": 0,
+                    "mean": 1936.3913857677903,
+                    "stddev": 182.6466944184173
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Gross SqFt",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1060,
+            "frequent_values": [
+                "390628",
+                "12000",
+                "78982",
+                "32085",
+                "9590"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 1496819,
+                    "min_value": 3812,
+                    "mean": 116266.62921348315,
+                    "stddev": 137848.3222605956
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Est. Gross Income",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 933,
+            "frequent_values": [
+                "6000000",
+                "5000000",
+                "1450000",
+                "850000",
+                "2950000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 54630000,
+                    "min_value": 0,
+                    "mean": 4203889.356741573,
+                    "stddev": 5451078.2003338775
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Gross Income per SqFt",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 232,
+            "frequent_values": [
+                "35",
+                "40",
+                "30",
+                "38",
+                "28"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 684,
+                    "max_value": 65,
+                    "min_value": 0,
+                    "mean": 34.42982456140351,
+                    "stddev": 7.614201833407405
+                },
+                {
+                    "type": "REAL",
+                    "count": 384,
+                    "max_value": 49.5,
+                    "min_value": 10.5,
+                    "mean": 33.13817708333335,
+                    "stddev": 7.347927450840013
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Full Market Value",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1001,
+            "frequent_values": [
+                "12800002",
+                "6130000",
+                "13100000",
+                "10200000",
+                "19199999"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 274000010,
+                    "min_value": 543000,
+                    "mean": 20499388.995318353,
+                    "stddev": 27047311.47725608
+                }
+            ]
+        },
+        {
+            "column_name": "MANHATTAN CONDOMINIUM PROPERTY Market Value per SqFt",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 180,
+            "frequent_values": [
+                "168",
+                "201",
+                "144",
+                "191",
+                "211"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1065,
+                    "max_value": 328,
+                    "min_value": 51,
+                    "mean": 164.68826291079813,
+                    "stddev": 41.672775176117476
+                },
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 32.6,
+                    "min_value": 5.81,
+                    "mean": 22.33666666666667,
+                    "stddev": 11.799661953726567
+                }
+            ]
+        },
+        {
+            "column_name": " COMPARABLE RENTAL 1 Boro-Block-Lot",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 403,
+            "frequent_values": [
+                "1-01460-0047",
+                "1-01488-0013",
+                "1-00717-0077",
+                "1-00016-0100",
+                "1-01113-0001"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "1-00097-0024",
+                        "1-01472-0034",
+                        "1-01424-0001",
+                        "1-01439-0023",
+                        "1-01335-0039"
+                    ],
+                    "longest_values": [
+                        "1-02222-0025",
+                        "1-00695-0015",
+                        "1-00634-0032",
+                        "1-00612-0060",
+                        "1-00716-0055"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1 Address",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 403,
+            "frequent_values": [
+                "400 EAST 66 STREET",
+                "519 EAST 76 STREET",
+                "345 SOUTH END AVENUE",
+                "1321 5 AVENUE",
+                "45 WEST 60 STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "20 5 AVENUE",
+                        "51 7 AVENUE",
+                        "75 5 AVENUE",
+                        "29 5 AVENUE",
+                        "55 3 AVENUE"
+                    ],
+                    "longest_values": [
+                        "125 WEST WASHINGTON PLACE",
+                        "2722 FRED DOUGLASS BOULEV",
+                        "2167 ADAM C POWELL BOULEV",
+                        "140 RIVERSIDE BOULEVARD",
+                        "160 RIVERSIDE BOULEVARD"
+                    ],
+                    "average_length": 16.848314606741575
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Neighborhood",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "UPPER EAST SIDE (59-79)",
+                "UPPER EAST SIDE (79-96)",
+                "UPPER WEST SIDE (79-96)",
+                "CHELSEA",
+                "UPPER WEST SIDE (59-79)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "SOHO",
+                        "INWOOD",
+                        "TRIBECA",
+                        "CLINTON",
+                        "FASHION"
+                    ],
+                    "longest_values": [
+                        "GREENWICH VILLAGE-CENTRAL",
+                        "WASHINGTON HEIGHTS LOWER",
+                        "UPPER EAST SIDE (96-110)",
+                        "UPPER WEST SIDE (96-116)",
+                        "UPPER EAST SIDE (59-79)"
+                    ],
+                    "average_length": 16.282771535580526
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Building Classification",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "D6-ELEVATOR",
+                "D7-ELEVATOR",
+                "D9-ELEVATOR",
+                "D1-ELEVATOR",
+                "D8-ELEVATOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1068,
+                    "shortest_values": [
+                        "C7-WALK-UP",
+                        "C4-WALK-UP",
+                        "C1-WALK-UP",
+                        "C5-WALK-UP",
+                        "D8-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "D3-ELEVATOR",
+                        "D1-ELEVATOR",
+                        "D7-ELEVATOR",
+                        "D9-ELEVATOR",
+                        "D5-ELEVATOR"
+                    ],
+                    "average_length": 10.929775280898877
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Total Units",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 190,
+            "frequent_values": [
+                "20",
+                "129",
+                "13",
+                "325",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 1720,
+                    "min_value": 11,
+                    "mean": 147.27528089887642,
+                    "stddev": 222.96294486354532
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Year Built",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 80,
+            "frequent_values": [
+                "1900",
+                "1910",
+                "1999",
+                "1920",
+                "1986"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 2005,
+                    "min_value": 1885,
+                    "mean": 1951.052434456929,
+                    "stddev": 37.24427241075801
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Gross SqFt",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 402,
+            "frequent_values": [
+                "138500",
+                "257244",
+                "47765",
+                "68260",
+                "408644"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 1881621,
+                    "min_value": 6250,
+                    "mean": 152996.5702247191,
+                    "stddev": 248715.31071298776
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Est. Gross Income",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 403,
+            "frequent_values": [
+                "5876391",
+                "9482853",
+                "3118713",
+                "17891063",
+                "2986399"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 57968000,
+                    "min_value": 156997,
+                    "mean": 5733410.079588015,
+                    "stddev": 8571784.402035326
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Gross Income per SqFt",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 248,
+            "frequent_values": [
+                "31",
+                "44.3",
+                "36.9",
+                "42.4",
+                "41.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 185,
+                    "max_value": 76,
+                    "min_value": 20,
+                    "mean": 42.043243243243246,
+                    "stddev": 12.491652143137712
+                },
+                {
+                    "type": "REAL",
+                    "count": 883,
+                    "max_value": 49.9,
+                    "min_value": 10.58,
+                    "mean": 35.55124575311439,
+                    "stddev": 8.21285246875087
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1 Full Market Value",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 346,
+            "frequent_values": [
+                "15600000",
+                "29500000",
+                "47600000",
+                "14300000",
+                "89700000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1068,
+                    "max_value": 278000000,
+                    "min_value": 450000,
+                    "mean": 28046540.262172285,
+                    "stddev": 41771965.599840164
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Market Value per SqFt",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 169,
+            "frequent_values": [
+                "148",
+                "185",
+                "168",
+                "213",
+                "149"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1059,
+                    "max_value": 381,
+                    "min_value": 51,
+                    "mean": 179.9735599622285,
+                    "stddev": 51.836192012346324
+                },
+                {
+                    "type": "REAL",
+                    "count": 9,
+                    "max_value": 49.1,
+                    "min_value": 27.9,
+                    "mean": 38.82222222222222,
+                    "stddev": 6.675124264807157
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Dist. from Coop in miles",
+            "number_non_empty_cells": 1068,
+            "number_empty_cells": 0,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "0.2",
+                "0.25",
+                "0.3",
+                "0.15",
+                "0.35"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 58,
+                    "max_value": 2,
+                    "min_value": 0,
+                    "mean": 0.27586206896551724,
+                    "stddev": 0.4839885809523518
+                },
+                {
+                    "type": "REAL",
+                    "count": 1010,
+                    "max_value": 4.65,
+                    "min_value": 0.03,
+                    "mean": 0.5324653465346537,
+                    "stddev": 0.5015379922897447
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Boro-Block-Lot",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 402,
+            "frequent_values": [
+                "1-01460-0047",
+                "1-00016-0210",
+                "1-00220-0027",
+                "1-01488-0013",
+                "1-01199-0061"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1011,
+                    "shortest_values": [
+                        "1-00097-0030",
+                        "1-01553-0027",
+                        "1-01426-0044",
+                        "1-00904-0040",
+                        "1-01530-0034"
+                    ],
+                    "longest_values": [
+                        "1-02243-0030",
+                        "1-00775-0044",
+                        "1-00590-0032",
+                        "1-00557-0022",
+                        "1-00558-0018"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Address",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 402,
+            "frequent_values": [
+                "400 EAST 66 STREET",
+                "399 CHAMBERS STREET",
+                "519 EAST 76 STREET",
+                "531 COLUMBUS AVENUE",
+                "36 LAIGHT STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1011,
+                    "shortest_values": [
+                        "55 3 AVENUE",
+                        "87 3 AVENUE",
+                        "78 7 AVENUE",
+                        "92 5 AVENUE",
+                        "37 7 AVENUE"
+                    ],
+                    "longest_values": [
+                        "125 WEST WASHINGTON PLACE",
+                        "1810 ADAM C POWELL BOULEV",
+                        "2294 FRED DOUGLASS BOULEV",
+                        "2411 FRED DOUGLASS BOULEV",
+                        "140 RIVERSIDE BOULEVARD"
+                    ],
+                    "average_length": 17.10979228486647
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Neighborhood",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "UPPER EAST SIDE (59-79)",
+                "UPPER EAST SIDE (79-96)",
+                "UPPER WEST SIDE (79-96)",
+                "CHELSEA",
+                "GREENWICH VILLAGE-CENTRAL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1011,
+                    "shortest_values": [
+                        "SOHO",
+                        "INWOOD",
+                        "CLINTON",
+                        "TRIBECA",
+                        "FASHION"
+                    ],
+                    "longest_values": [
+                        "GREENWICH VILLAGE-CENTRAL",
+                        "UPPER WEST SIDE (96-116)",
+                        "UPPER EAST SIDE (96-110)",
+                        "WASHINGTON HEIGHTS UPPER",
+                        "UPPER EAST SIDE (79-96)"
+                    ],
+                    "average_length": 16.183976261127597
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Building Classification",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "D6-ELEVATOR",
+                "D7-ELEVATOR",
+                "D9-ELEVATOR",
+                "D1-ELEVATOR",
+                "D3-ELEVATOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1011,
+                    "shortest_values": [
+                        "C7-WALK-UP",
+                        "C4-WALK-UP",
+                        "C1-WALK-UP",
+                        "C5-WALK-UP",
+                        "D8-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "D1-ELEVATOR",
+                        "D3-ELEVATOR",
+                        "D6-ELEVATOR",
+                        "D9-ELEVATOR",
+                        "D7-ELEVATOR"
+                    ],
+                    "average_length": 10.931750741839762
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Total Units",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 191,
+            "frequent_values": [
+                "129",
+                "13",
+                "20",
+                "11",
+                "24"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1011,
+                    "max_value": 1112,
+                    "min_value": 11,
+                    "mean": 123.27299703264094,
+                    "stddev": 127.98549718786239
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Year Built",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 83,
+            "frequent_values": [
+                "1900",
+                "1920",
+                "1910",
+                "1986",
+                "1999"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1011,
+                    "max_value": 2005,
+                    "min_value": 1880,
+                    "mean": 1951.9208704253215,
+                    "stddev": 37.14592377968439
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Gross SqFt",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 397,
+            "frequent_values": [
+                "138500",
+                "47765",
+                "357000",
+                "26712",
+                "257244"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1011,
+                    "max_value": 1588533,
+                    "min_value": 2064,
+                    "mean": 123971.11572700297,
+                    "stddev": 142089.15524268604
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Est. Gross Income",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 400,
+            "frequent_values": [
+                "5876391",
+                "13358015",
+                "9482853",
+                "1588006",
+                "827938"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1011,
+                    "max_value": 34627255,
+                    "min_value": 53209,
+                    "mean": 4746962.697329377,
+                    "stddev": 5697113.189309073
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Gross Income per SqFt",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 244,
+            "frequent_values": [
+                "36.9",
+                "51",
+                "31",
+                "42.4",
+                "44.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 200,
+                    "max_value": 78,
+                    "min_value": 20,
+                    "mean": 43.665,
+                    "stddev": 11.874037855759093
+                },
+                {
+                    "type": "REAL",
+                    "count": 811,
+                    "max_value": 49.9,
+                    "min_value": 10.1,
+                    "mean": 35.01390875462396,
+                    "stddev": 8.300589590965355
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Full Market Value",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 345,
+            "frequent_values": [
+                "29500000",
+                "21300000",
+                "15600000",
+                "67000000",
+                "7610000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1011,
+                    "max_value": 174000000,
+                    "min_value": 231000,
+                    "mean": 23264705.24233432,
+                    "stddev": 28192556.692024246
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Market Value per SqFt",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 171,
+            "frequent_values": [
+                "185",
+                "149",
+                "195",
+                "213",
+                "229"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1002,
+                    "max_value": 391,
+                    "min_value": 51,
+                    "mean": 180.18463073852294,
+                    "stddev": 53.64569993085393
+                },
+                {
+                    "type": "REAL",
+                    "count": 9,
+                    "max_value": 47.2,
+                    "min_value": 28.8,
+                    "mean": 34.15555555555556,
+                    "stddev": 5.106664732617371
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Dist. from Coop in miles",
+            "number_non_empty_cells": 1011,
+            "number_empty_cells": 57,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "0.2",
+                "0.15",
+                "0.1",
+                "0.25",
+                "0.35"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 56,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.375,
+                    "stddev": 0.4841229182759271
+                },
+                {
+                    "type": "REAL",
+                    "count": 955,
+                    "max_value": 4.5,
+                    "min_value": 0.04,
+                    "mean": 0.5614450261780097,
+                    "stddev": 0.5139525574127172
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

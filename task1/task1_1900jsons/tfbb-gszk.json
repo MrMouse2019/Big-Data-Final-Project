@@ -1,0 +1,326 @@
+{
+    "dataset_name": "tfbb-gszk",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Bronx ",
+                "Queens ",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20,
+                    "shortest_values": [
+                        "Bronx ",
+                        "Queens ",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens ",
+                        "Bronx "
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Disposition  Type",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Adult Operations",
+                "Juvenile Operations",
+                "Brownsville NeON",
+                "Central Offices",
+                "Harlem NeON"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20,
+                    "shortest_values": [
+                        "Harlem NeON",
+                        "Jamaica NeON",
+                        "Central Offices",
+                        "Adult Operations",
+                        "Brownsville NeON"
+                    ],
+                    "longest_values": [
+                        "Adult Operations and NeON",
+                        "Bedford Stuyvesant NeON",
+                        "Juvenile Operations",
+                        "East New York NeON",
+                        "Brownsville NeON"
+                    ],
+                    "average_length": 17.15
+                }
+            ]
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "345 Adams Street",
+                "33 Beaver Street",
+                "900 Sheridan Avenue ",
+                "125 01 Queens Blvd",
+                "60 Lafayette Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20,
+                    "shortest_values": [
+                        "330 Jay Street",
+                        "340 Bay Street",
+                        "66 John Street",
+                        "345 Adams Street",
+                        "510 Gates Avenue"
+                    ],
+                    "longest_values": [
+                        "444 Thomas Boyland Street",
+                        "162 24 Jamaica Avenue ",
+                        "265 East 161st Street ",
+                        "130 Stuyvestant Place",
+                        "127 West 127th Street"
+                    ],
+                    "average_length": 18.8
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "10451",
+                "11201",
+                "10301",
+                "10013",
+                "11432"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 11432,
+                    "min_value": 10004,
+                    "mean": 10700.9,
+                    "stddev": 548.0529992619328
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "40.716084",
+                "40.704394",
+                "40.694495",
+                "40.6934",
+                "40.63368"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 20,
+                    "max_value": 40.826873,
+                    "min_value": 40.63368,
+                    "mean": 40.7234499,
+                    "stddev": 0.061302990272824584
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "-73.895074",
+                "-74.075159",
+                "-73.987198",
+                "-73.920529",
+                "-73.945496"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 20,
+                    "max_value": -73.797517,
+                    "min_value": -74.076874,
+                    "mean": -73.94752530000001,
+                    "stddev": 0.07637779258796447
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "1",
+                "4",
+                "2",
+                "12",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 16,
+                    "min_value": 1,
+                    "mean": 4.75,
+                    "stddev": 4.4144648599802
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "16",
+                "1",
+                "33",
+                "49",
+                "27"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 49,
+                    "min_value": 1,
+                    "mean": 23.55,
+                    "stddev": 15.38010077990388
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "18302",
+                "9",
+                "11",
+                "902",
+                "224"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 44601,
+                    "min_value": 3,
+                    "mean": 5209.25,
+                    "stddev": 11081.566856158022
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "2002704",
+                "4438731",
+                "3080726",
+                "3083681",
+                "4215624"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 5013302,
+                    "min_value": 1000817,
+                    "mean": 2762662.9,
+                    "stddev": 1322489.9943253975
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "2024540001",
+                "3034960004",
+                "2024430094",
+                "1019120012",
+                "1001670001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 5005030032,
+                    "min_value": 1000240001,
+                    "mean": 2676029140.3,
+                    "stddev": 1289654185.3565075
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 20,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "East Concourse-Concourse Village                                           ",
+                "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill                           ",
+                "Battery Park City-Lower Manhattan                                          ",
+                "Jamaica                                                                    ",
+                "Kew Gardens                                                                "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20,
+                    "shortest_values": [
+                        "West New Brighton-New Brighton-St. George",
+                        "East Concourse-Concourse Village                                           ",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill                           ",
+                        "Brooklyn Heights-Cobble Hill                                               ",
+                        "Bedford                                                                    "
+                    ],
+                    "longest_values": [
+                        "Stapleton-Rosebank                                                         ",
+                        "Jamaica                                                                    ",
+                        "Kew Gardens                                                                ",
+                        "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                        "Central Harlem North-Polo Grounds                                          "
+                    ],
+                    "average_length": 73.3
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

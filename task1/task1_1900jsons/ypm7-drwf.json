@@ -1,0 +1,447 @@
+{
+    "dataset_name": "ypm7-drwf",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 875,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "STATEN ISLAND",
+                "QUEENS",
+                "BRONX",
+                "BROOKLYN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 875,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Grade",
+            "number_non_empty_cells": 875,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "All Grades",
+                "8",
+                "6",
+                "7",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 750,
+                    "max_value": 8,
+                    "min_value": 3,
+                    "mean": 5.5,
+                    "stddev": 1.707825127659933
+                },
+                {
+                    "type": "TEXT",
+                    "count": 125,
+                    "shortest_values": [
+                        "All Grades"
+                    ],
+                    "longest_values": [
+                        "All Grades"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 875,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "2011",
+                "2009",
+                "2008",
+                "2007",
+                "2006"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 875,
+                    "max_value": 2011,
+                    "min_value": 2006,
+                    "mean": 2008.6,
+                    "stddev": 1.743559577416257
+                }
+            ]
+        },
+        {
+            "column_name": "Category",
+            "number_non_empty_cells": 875,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Asian",
+                "Hispanic",
+                "White",
+                "Black",
+                "Pacific Islander"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 875,
+                    "shortest_values": [
+                        "Asian",
+                        "Black",
+                        "White",
+                        "Hispanic",
+                        "Pacific Islander"
+                    ],
+                    "longest_values": [
+                        "Pacific Islander",
+                        "Hispanic",
+                        "White",
+                        "Black",
+                        "Asian"
+                    ],
+                    "average_length": 6.16
+                }
+            ]
+        },
+        {
+            "column_name": "Number Tested",
+            "number_non_empty_cells": 875,
+            "number_empty_cells": 0,
+            "number_distinct_values": 800,
+            "frequent_values": [
+                "571",
+                "27",
+                "2824",
+                "677",
+                "673"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 875,
+                    "max_value": 65510,
+                    "min_value": 1,
+                    "mean": 5852.733714285714,
+                    "stddev": 9286.66184706127
+                }
+            ]
+        },
+        {
+            "column_name": "Mean Scale Score",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 94,
+            "frequent_values": [
+                "673",
+                "701",
+                "697",
+                "664",
+                "680"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 870,
+                    "max_value": 723,
+                    "min_value": 623,
+                    "mean": 678.1574712643678,
+                    "stddev": 19.962073995534574
+                }
+            ]
+        },
+        {
+            "column_name": "Level 1 #",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 502,
+            "frequent_values": [
+                "6",
+                "21",
+                "2",
+                "28",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 870,
+                    "max_value": 13226,
+                    "min_value": 0,
+                    "mean": 547.7563218390804,
+                    "stddev": 1223.1239382037945
+                }
+            ]
+        },
+        {
+            "column_name": "Level 1 %",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 228,
+            "frequent_values": [
+                "2.6",
+                "2.9",
+                "1.9",
+                "3.1",
+                "2.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 82,
+                    "max_value": 23,
+                    "min_value": 0,
+                    "mean": 6.987804878048781,
+                    "stddev": 5.8632670124674
+                },
+                {
+                    "type": "REAL",
+                    "count": 788,
+                    "max_value": 36.7,
+                    "min_value": 0.1,
+                    "mean": 7.752664974619292,
+                    "stddev": 6.50840967143355
+                }
+            ]
+        },
+        {
+            "column_name": "Level 2 #",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 674,
+            "frequent_values": [
+                "18",
+                "12",
+                "109",
+                "179",
+                "287"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 870,
+                    "max_value": 25473,
+                    "min_value": 2,
+                    "mean": 1514.2528735632184,
+                    "stddev": 2974.5130049328636
+                }
+            ]
+        },
+        {
+            "column_name": "Level 2 %",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 385,
+            "frequent_values": [
+                "16.2",
+                "11.7",
+                "13.8",
+                "4",
+                "36.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 92,
+                    "max_value": 49,
+                    "min_value": 2,
+                    "mean": 19.66304347826087,
+                    "stddev": 13.544032196083425
+                },
+                {
+                    "type": "REAL",
+                    "count": 778,
+                    "max_value": 52.3,
+                    "min_value": 1.1,
+                    "mean": 22.59190231362466,
+                    "stddev": 13.430944921008987
+                }
+            ]
+        },
+        {
+            "column_name": "Level 3 #",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 762,
+            "frequent_values": [
+                "8",
+                "1314",
+                "285",
+                "146",
+                "291"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 870,
+                    "max_value": 35214,
+                    "min_value": 4,
+                    "mean": 2602.980459770115,
+                    "stddev": 4276.551646709591
+                }
+            ]
+        },
+        {
+            "column_name": "Level 3 %",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 361,
+            "frequent_values": [
+                "52.4",
+                "47.1",
+                "36.8",
+                "44.4",
+                "47.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 92,
+                    "max_value": 73,
+                    "min_value": 20,
+                    "mean": 44.30434782608695,
+                    "stddev": 11.274961805039693
+                },
+                {
+                    "type": "REAL",
+                    "count": 778,
+                    "max_value": 73.6,
+                    "min_value": 12.9,
+                    "mean": 43.41915167095121,
+                    "stddev": 10.682199632920247
+                }
+            ]
+        },
+        {
+            "column_name": "Level 4 #",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 694,
+            "frequent_values": [
+                "10",
+                "84",
+                "48",
+                "210",
+                "172"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 870,
+                    "max_value": 18015,
+                    "min_value": 3,
+                    "mean": 1221.364367816092,
+                    "stddev": 1957.3583991870983
+                }
+            ]
+        },
+        {
+            "column_name": "Level 4 %",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 448,
+            "frequent_values": [
+                "20.8",
+                "12.2",
+                "12.8",
+                "8.8",
+                "11.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 72,
+                    "max_value": 56,
+                    "min_value": 2,
+                    "mean": 23.25,
+                    "stddev": 14.440250459508427
+                },
+                {
+                    "type": "REAL",
+                    "count": 798,
+                    "max_value": 74.2,
+                    "min_value": 1.1,
+                    "mean": 26.821303258145377,
+                    "stddev": 17.6614215689268
+                }
+            ]
+        },
+        {
+            "column_name": "Level 3+4 #",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 796,
+            "frequent_values": [
+                "441",
+                "1821",
+                "459",
+                "17",
+                "2496"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 870,
+                    "max_value": 44540,
+                    "min_value": 9,
+                    "mean": 3824.344827586207,
+                    "stddev": 5835.3074219513155
+                }
+            ]
+        },
+        {
+            "column_name": "Level 3+4 %",
+            "number_non_empty_cells": 870,
+            "number_empty_cells": 5,
+            "number_distinct_values": 476,
+            "frequent_values": [
+                "89",
+                "76.8",
+                "80.6",
+                "84.1",
+                "85.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 88,
+                    "max_value": 98,
+                    "min_value": 32,
+                    "mean": 72.63636363636364,
+                    "stddev": 17.697702610394106
+                },
+                {
+                    "type": "REAL",
+                    "count": 782,
+                    "max_value": 98.6,
+                    "min_value": 20.4,
+                    "mean": 69.74565217391303,
+                    "stddev": 19.237601720876967
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

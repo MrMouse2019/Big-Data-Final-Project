@@ -1,0 +1,640 @@
+{
+    "dataset_name": "y4fw-iqfr",
+    "columns": [
+        {
+            "column_name": "NYC_Cooling_Tower_ID",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6241,
+            "frequent_values": [
+                "1000022372",
+                "1000022278",
+                "1000002309",
+                "1000002658",
+                "1000004695"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6241,
+                    "max_value": 1000023529,
+                    "min_value": 1000000014,
+                    "mean": 1000006641.1897132,
+                    "stddev": 7425.383019025397
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4144,
+            "frequent_values": [
+                "1002192",
+                "1083810",
+                "1024909",
+                "1012541",
+                "1001241"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6241,
+                    "max_value": 5165197,
+                    "min_value": 1000000,
+                    "mean": 1674474.6665598461,
+                    "stddev": 1150481.0846764883
+                }
+            ]
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4154,
+            "frequent_values": [
+                "32 6TH AVE",
+                "1000 5TH AVENUE",
+                "75 NINTH AVENUE",
+                "1790 BROADWAY",
+                "225 BROADWAY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6241,
+                    "shortest_values": [
+                        "1 CPW",
+                        "150 55",
+                        "52 W13",
+                        "60 PINE",
+                        "308 W58"
+                    ],
+                    "longest_values": [
+                        "110 LASKER ICE SKATING RINK & POOL",
+                        "180 ORCHARD/ALSO 171 LUDLOW STREET",
+                        "2130 ADAM CLAYTON POWELL BOULEVARD",
+                        "2090 ADAM CLAYTON POWELL JR. BLVD",
+                        "2770 FREDERICK DOUGLASS BOULEVARD"
+                    ],
+                    "average_length": 15.775997436308284
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6241,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 8.46595096939593
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 211,
+            "frequent_values": [
+                "10019",
+                "10022",
+                "10017",
+                "10036",
+                "10016"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6241,
+                    "max_value": 11694,
+                    "min_value": 10001,
+                    "mean": 10304.212305720237,
+                    "stddev": 500.43044693702086
+                }
+            ]
+        },
+        {
+            "column_name": "Intended_Use",
+            "number_non_empty_cells": 2249,
+            "number_empty_cells": 3992,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "AIR CONDITIONING",
+                "REFRIGERATION",
+                "BASE BUILDING HVAC",
+                "CONDENSATE WATER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2249,
+                    "shortest_values": [
+                        "REFRIGERATION",
+                        "AIR CONDITIONING",
+                        "CONDENSATE WATER",
+                        "BASE BUILDING HVAC"
+                    ],
+                    "longest_values": [
+                        "BASE BUILDING HVAC",
+                        "CONDENSATE WATER",
+                        "AIR CONDITIONING",
+                        "REFRIGERATION"
+                    ],
+                    "average_length": 15.83281458425967
+                }
+            ]
+        },
+        {
+            "column_name": "Make",
+            "number_non_empty_cells": 6017,
+            "number_empty_cells": 224,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "BALTIMORE AIRCOIL COMPANY (BAC)",
+                "MARLEY",
+                "EVAPCO",
+                "OTHER",
+                "RECOLD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6017,
+                    "shortest_values": [
+                        "BAC",
+                        "SPX",
+                        "AON",
+                        "CWT",
+                        "AAON"
+                    ],
+                    "longest_values": [
+                        "BALTIMORE AIRCOIL COMPANY (BAC)",
+                        "SPX COOLING TECHNOLOGIES, INC",
+                        "MARLEY COOLING TECHNOLOGIES",
+                        "BALTIMORE AIR COIL COMPANY",
+                        "BALTIMORE AIRCOIL COMPANY "
+                    ],
+                    "average_length": 16.3980388898122
+                }
+            ]
+        },
+        {
+            "column_name": "Model",
+            "number_non_empty_cells": 5458,
+            "number_empty_cells": 783,
+            "number_distinct_values": 3755,
+            "frequent_values": [
+                "SPX",
+                "UNKNOWN",
+                "0",
+                "492D",
+                "492B"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 320,
+                    "max_value": 21446144820,
+                    "min_value": 0,
+                    "mean": 76501683.428125,
+                    "stddev": 1202205537.657275
+                },
+                {
+                    "type": "REAL",
+                    "count": 6,
+                    "max_value": 15425.1,
+                    "min_value": 458.114,
+                    "mean": 4826.002333333333,
+                    "stddev": 4849.850724145424
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5132,
+                    "shortest_values": [
+                        "-",
+                        "MD",
+                        "CT",
+                        "OB",
+                        "1C"
+                    ],
+                    "longest_values": [
+                        "S3E-8518-06L                                                                            3E-8518-06L",
+                        "3R-B11MBL                                          XXX",
+                        "NC CLASS COOLING TOWER NC8311F2SG -09",
+                        "DFHHBEFRCL-1202-G1000-G1250-88-MUA",
+                        "NC CLASS COOLING TOWER NC8311F2SG"
+                    ],
+                    "average_length": 9.122564302416212
+                }
+            ]
+        },
+        {
+            "column_name": "Serial_Number",
+            "number_non_empty_cells": 6139,
+            "number_empty_cells": 102,
+            "number_distinct_values": 5925,
+            "frequent_values": [
+                "0",
+                "unknown",
+                "Main_System",
+                "Unknown",
+                "TBD"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1199,
+                    "max_value": 99999111111,
+                    "min_value": 0,
+                    "mean": 453855648.8648874,
+                    "stddev": 4819027555.757123
+                },
+                {
+                    "type": "REAL",
+                    "count": 9,
+                    "max_value": 2203080000000000.0,
+                    "min_value": 11.45494,
+                    "mean": 255762975677838.78,
+                    "stddev": 689144549803891.2
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4931,
+                    "shortest_values": [
+                        "U",
+                        "na",
+                        "xxx",
+                        "***",
+                        "TBD"
+                    ],
+                    "longest_values": [
+                        "10111682-A1-NC8414SG-15, 10111682-A2-NC8414SG-15, 10111682-A3-NC8414SG-15, 10111682-A4-NC8414SG-15",
+                        "Cell (5) 162158-004-00     Cell (6) 162158-003-00   Cell (7) 162158-002-00  Cell (8) 16215800100",
+                        "MD-10107468-A1, MD-10107468-A2, MD-10107468-A3, MD-10107468-B1, MD-1017468-B2, MD-10107468-B3",
+                        "U150511119-01-01 (Other cells end in 02 and 03) (3 Cell Tower common sump)",
+                        "Cooling tower 1 serial # is T010288 & cooling tower 2 serial # is T010289"
+                    ],
+                    "average_length": 12.147637396065706
+                }
+            ]
+        },
+        {
+            "column_name": "Cooling_Capacity",
+            "number_non_empty_cells": 5949,
+            "number_empty_cells": 292,
+            "number_distinct_values": 1528,
+            "frequent_values": [
+                "500",
+                "100",
+                "400",
+                "50",
+                "200"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5894,
+                    "max_value": 56250000000,
+                    "min_value": 0,
+                    "mean": 49480175.2648456,
+                    "stddev": 1367272568.3928602
+                },
+                {
+                    "type": "REAL",
+                    "count": 55,
+                    "max_value": 993.67,
+                    "min_value": 0.3,
+                    "mean": 197.66404545454537,
+                    "stddev": 297.0282458226409
+                }
+            ]
+        },
+        {
+            "column_name": "Cooling_Capacity_Units",
+            "number_non_empty_cells": 4344,
+            "number_empty_cells": 1897,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "REFRIGERATION TONS",
+                "BTU/HR",
+                "CFM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4344,
+                    "shortest_values": [
+                        "CFM",
+                        "BTU/HR",
+                        "REFRIGERATION TONS"
+                    ],
+                    "longest_values": [
+                        "REFRIGERATION TONS",
+                        "BTU/HR",
+                        "CFM"
+                    ],
+                    "average_length": 13.993093922651934
+                }
+            ]
+        },
+        {
+            "column_name": "Date_Registered",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 517,
+            "frequent_values": [
+                "09/01/2015",
+                "08/31/2015",
+                "09/02/2015",
+                "08/28/2015",
+                "09/03/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 6241,
+                    "max_value": "2018-01-29 00:00:00",
+                    "min_value": "2015-08-11 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Date_Commissioned",
+            "number_non_empty_cells": 3669,
+            "number_empty_cells": 2572,
+            "number_distinct_values": 1660,
+            "frequent_values": [
+                "01/01/2000",
+                "01/01/2010",
+                "01/01/2013",
+                "09/06/2016",
+                "01/01/2008"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3669,
+                    "max_value": "2018-01-29 00:00:00",
+                    "min_value": "1950-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4072,
+            "frequent_values": [
+                "40.720073",
+                "40.780007",
+                "40.741869",
+                "40.711991",
+                "40.766742"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 6241,
+                    "max_value": 40.910521,
+                    "min_value": 40.516877,
+                    "mean": 40.7446697743951,
+                    "stddev": 0.04592174208126231
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4070,
+            "frequent_values": [
+                "-74.004636",
+                "-73.962824",
+                "-73.981419",
+                "-74.004713",
+                "-74.008653"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 6241,
+                    "max_value": -73.707496,
+                    "min_value": -74.243898,
+                    "mean": -73.96583698621994,
+                    "stddev": 0.05271896636633371
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 6119,
+            "number_empty_cells": 122,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "5",
+                "1",
+                "8",
+                "2",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6119,
+                    "max_value": 83,
+                    "min_value": 1,
+                    "mean": 5.918614152639321,
+                    "stddev": 7.437614039886098
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 6119,
+            "number_empty_cells": 122,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "4",
+                "3",
+                "1",
+                "2",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6119,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 10.25657787220134,
+                    "stddev": 12.54766478698605
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 6119,
+            "number_empty_cells": 122,
+            "number_distinct_values": 631,
+            "frequent_values": [
+                "9",
+                "7",
+                "102",
+                "21",
+                "137"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6119,
+                    "max_value": 157101,
+                    "min_value": 1,
+                    "mean": 3365.6206896551726,
+                    "stddev": 13329.895431835412
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 6106,
+            "number_empty_cells": 135,
+            "number_distinct_values": 3940,
+            "frequent_values": [
+                "1001920001",
+                "1011110001",
+                "1014800010",
+                "1000880018",
+                "1007130001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6106,
+                    "max_value": 5079910100,
+                    "min_value": 0,
+                    "mean": 1614475632.6631184,
+                    "stddev": 1096130458.3693628
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 6120,
+            "number_empty_cells": 121,
+            "number_distinct_values": 179,
+            "frequent_values": [
+                "Midtown-Midtown South                                                      ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 ",
+                "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                "Battery Park City-Lower Manhattan                                          ",
+                "Turtle Bay-East Midtown                                                    "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6120,
+                    "shortest_values": [
+                        "Jamaica                                                                    ",
+                        "Grymes Hill-Clifton-Fox Hills                                              ",
+                        "East Flushing                                                              ",
+                        "Old Town-Dongan Hills-South Beach                                          ",
+                        "Crown Heights North                                                        "
+                    ],
+                    "longest_values": [
+                        "Pelham Bay-Country Club-City Island                                        ",
+                        "Melrose South-Mott Haven North                                             ",
+                        "Glen Oaks-Floral Park-New Hyde Park                                        ",
+                        "East New York (Pennsylvania Ave)                                           ",
+                        "Van Nest-Morris Park-Westchester Square                                    "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "Deleted",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6241,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0086524595417403
+                }
+            ]
+        },
+        {
+            "column_name": "Location 1",
+            "number_non_empty_cells": 6241,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4151,
+            "frequent_values": [
+                "(40.720073, -74.004636)",
+                "(40.780007, -73.962824)",
+                "(40.741869, -74.004713)",
+                "(40.766742, -73.981419)",
+                "(40.711991, -74.008653)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6241,
+                    "shortest_values": [
+                        "(40.76867, -73.986)",
+                        "(40.780224, -73.98)",
+                        "(40.7644, -73.9662)",
+                        "(40.74417, -73.937)",
+                        "(40.705344, -74.012)"
+                    ],
+                    "longest_values": [
+                        "(40.718286, -73.994322)",
+                        "(40.737254, -74.009422)",
+                        "(40.706014, -74.011787)",
+                        "(40.764422, -73.985474)",
+                        "(40.692538, -73.986535)"
+                    ],
+                    "average_length": 22.788014741227368
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

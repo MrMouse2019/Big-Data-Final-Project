@@ -1,0 +1,294 @@
+{
+    "dataset_name": "tap2-dwrw",
+    "columns": [
+        {
+            "column_name": "ID",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 159537,
+            "frequent_values": [
+                "217146",
+                "218153",
+                "218154",
+                "218155",
+                "218156"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 166232,
+                    "max_value": 228206,
+                    "min_value": 6710,
+                    "mean": 133014.6392271043,
+                    "stddev": 59369.95652672647
+                }
+            ]
+        },
+        {
+            "column_name": "SURVEY_NUMBER",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "50003666",
+                "101",
+                "87",
+                "103",
+                "108"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 166232,
+                    "max_value": 50003666,
+                    "min_value": 15,
+                    "mean": 17706418.52990399,
+                    "stddev": 23913726.24611594
+                }
+            ]
+        },
+        {
+            "column_name": "SURVEY_INSTANCE_ID",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19844,
+            "frequent_values": [
+                "90008631",
+                "2000",
+                "5774",
+                "90002829",
+                "90003876"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 166232,
+                    "max_value": 90011444,
+                    "min_value": 1,
+                    "mean": 57738309.959159486,
+                    "stddev": 43161201.309944645
+                }
+            ]
+        },
+        {
+            "column_name": "SURVEY_STATUS",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Complete",
+                "Partial"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 166232,
+                    "shortest_values": [
+                        "Partial",
+                        "Complete"
+                    ],
+                    "longest_values": [
+                        "Complete",
+                        "Partial"
+                    ],
+                    "average_length": 7.9977982578564895
+                }
+            ]
+        },
+        {
+            "column_name": "SURVEY_LANGUAGE",
+            "number_non_empty_cells": 166163,
+            "number_empty_cells": 69,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "English",
+                "Spanish",
+                "Chinese",
+                "Russian",
+                "Korean"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 166163,
+                    "shortest_values": [
+                        "Urdu",
+                        "Korean",
+                        "Arabic",
+                        "Polish",
+                        "French"
+                    ],
+                    "longest_values": [
+                        "Chinese (simplified)",
+                        "Haitian",
+                        "Bengali",
+                        "Russian",
+                        "Chinese"
+                    ],
+                    "average_length": 7.001077255466019
+                }
+            ]
+        },
+        {
+            "column_name": "DT_SUBMITTED",
+            "number_non_empty_cells": 147301,
+            "number_empty_cells": 18931,
+            "number_distinct_values": 1341,
+            "frequent_values": [
+                "08/05/2019",
+                "02/07/2019",
+                "01/23/2019",
+                "08/02/2019",
+                "09/10/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 147301,
+                    "max_value": "9019-04-18 00:00:00",
+                    "min_value": "0007-05-14 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "QUESTION",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "Do you want to answer the questions?",
+                "What NYC agency did you apply for services with today?",
+                "What ancestries or heritages do you identify with?",
+                "What service did you apply for?",
+                "What races or ethnicities do you identify with?"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 166232,
+                    "shortest_values": [
+                        "Are you intersex?",
+                        "How well do you speak English?",
+                        "What service did you apply for?",
+                        "What is your sexual orientation?",
+                        "What sex were you given at birth?"
+                    ],
+                    "longest_values": [
+                        "What NYC agency did you apply for services with today?",
+                        "10a. If you are intersex, please select from below.",
+                        "What ancestries or heritages do you identify with?",
+                        "What races or ethnicities do you identify with?",
+                        "Has anyone in your household served Write in:"
+                    ],
+                    "average_length": 38.7718730449011
+                }
+            ]
+        },
+        {
+            "column_name": "ANSWER",
+            "number_non_empty_cells": 166227,
+            "number_empty_cells": 5,
+            "number_distinct_values": 3441,
+            "frequent_values": [
+                "No",
+                "Female",
+                "Yes",
+                "English",
+                "HRA - Human Resources Administration / Social Services"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 166227,
+                    "shortest_values": [
+                        "V",
+                        "Z",
+                        "C",
+                        "j",
+                        "P"
+                    ],
+                    "longest_values": [
+                        "Asian / Pacific Islander not listed Write-in: Asian / Pacific Islander not listed (write-in optional)",
+                        "Hispanic or Latino not listed Write-in: Hispanic or Latino not listed (write-in optional)",
+                        "African / Subsaharan African Write-in: African / Subsaharan African (write-in optional)",
+                        "Another sexual orientation - Write-in: Another sexual orientation - (write-in optional)",
+                        "European not listed ( write-in optional)European not listed ( write-in optional)"
+                    ],
+                    "average_length": 16.311616043121756
+                }
+            ]
+        },
+        {
+            "column_name": "ANSWER_IS_OPTIONAL",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 166232,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.960428798305982
+                }
+            ]
+        },
+        {
+            "column_name": "DATA_SOURCE",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Paper",
+                "OnLine"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 166232,
+                    "shortest_values": [
+                        "Paper",
+                        "OnLine"
+                    ],
+                    "longest_values": [
+                        "OnLine",
+                        "Paper"
+                    ],
+                    "average_length": 5.354101496703403
+                }
+            ]
+        },
+        {
+            "column_name": "CREATE_DT",
+            "number_non_empty_cells": 166232,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "08/05/2019",
+                "02/07/2019",
+                "07/25/2019",
+                "12/18/2018",
+                "09/10/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 166232,
+                    "max_value": "2019-09-10 00:00:00",
+                    "min_value": "2018-11-15 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

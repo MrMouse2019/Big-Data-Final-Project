@@ -1,0 +1,367 @@
+{
+    "dataset_name": "emrz-5p35",
+    "columns": [
+        {
+            "column_name": "InvoiceID",
+            "number_non_empty_cells": 630053,
+            "number_empty_cells": 0,
+            "number_distinct_values": 92,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 630053,
+                    "max_value": 92,
+                    "min_value": 1,
+                    "mean": 5.426514912237542,
+                    "stddev": 9.706541030525491
+                }
+            ]
+        },
+        {
+            "column_name": "InvoiceSequenceID",
+            "number_non_empty_cells": 630053,
+            "number_empty_cells": 0,
+            "number_distinct_values": 582456,
+            "frequent_values": [
+                "1",
+                "0",
+                "2",
+                "452015010000033",
+                "482029011000060"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 271357,
+                    "max_value": 702145206000147,
+                    "min_value": -8126001554,
+                    "mean": 39504299420772.83,
+                    "stddev": 144128698699781.8
+                },
+                {
+                    "type": "REAL",
+                    "count": 13,
+                    "max_value": 92519756.0,
+                    "min_value": 0.5352,
+                    "mean": 7117886.1156580765,
+                    "stddev": 24653396.30597189
+                },
+                {
+                    "type": "TEXT",
+                    "count": 358683,
+                    "shortest_values": [
+                        ".",
+                        "*",
+                        "P",
+                        "E",
+                        " "
+                    ],
+                    "longest_values": [
+                        "63-3236-2465-00",
+                        "63-3026-4327-00",
+                        "63-3056-2835-00",
+                        "46-3223-1180-00",
+                        "D80014003042010"
+                    ],
+                    "average_length": 7.234176138818957
+                }
+            ]
+        },
+        {
+            "column_name": "OMONumber",
+            "number_non_empty_cells": 630053,
+            "number_empty_cells": 0,
+            "number_distinct_values": 376678,
+            "frequent_values": [
+                "EF04458",
+                "EF04562",
+                "EG08340",
+                "EF08679",
+                "EG07899"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 630053,
+                    "shortest_values": [
+                        "ED00222",
+                        "E909991",
+                        "EA03865",
+                        "EF06262",
+                        "E623652"
+                    ],
+                    "longest_values": [
+                        "EA05914",
+                        "EA22701",
+                        "EB01084",
+                        "EB05592",
+                        "EB22874"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "InvoiceStatus",
+            "number_non_empty_cells": 630053,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "VCREATE",
+                "NOPAY",
+                "APRV",
+                "HLD",
+                "PENDSIGN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 630053,
+                    "shortest_values": [
+                        "HLD",
+                        "APRV",
+                        "REJC",
+                        "NOPAY",
+                        "OMORR"
+                    ],
+                    "longest_values": [
+                        "APRVVOUCH",
+                        "PENCPLDT",
+                        "CNCLAPRV",
+                        "CNCLARPV",
+                        "PENDSIGN"
+                    ],
+                    "average_length": 6.918581452671442
+                }
+            ]
+        },
+        {
+            "column_name": "InvoiceDate",
+            "number_non_empty_cells": 630050,
+            "number_empty_cells": 3,
+            "number_distinct_values": 7687,
+            "frequent_values": [
+                "05/25/2005",
+                "10/31/2006",
+                "03/31/2009",
+                "01/31/2006",
+                "11/30/2006"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 630050,
+                    "max_value": "2019-08-30 00:00:00",
+                    "min_value": "1990-07-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "InvoiceBillAmount",
+            "number_non_empty_cells": 630053,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102352,
+            "frequent_values": [
+                "70",
+                "100",
+                "50",
+                "150",
+                "14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 297788,
+                    "max_value": 1596821,
+                    "min_value": -1940,
+                    "mean": 1194.4896268486307,
+                    "stddev": 9886.20982710581
+                },
+                {
+                    "type": "REAL",
+                    "count": 332265,
+                    "max_value": 983702.5,
+                    "min_value": -2220.35,
+                    "mean": 536.0054254887602,
+                    "stddev": 5219.264215375246
+                }
+            ]
+        },
+        {
+            "column_name": "InvoicePayAmount",
+            "number_non_empty_cells": 630053,
+            "number_empty_cells": 0,
+            "number_distinct_values": 104659,
+            "frequent_values": [
+                "70",
+                "100",
+                "50",
+                "0",
+                "150"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 303738,
+                    "max_value": 1544834,
+                    "min_value": -9191,
+                    "mean": 1049.7123244375086,
+                    "stddev": 8894.084846663394
+                },
+                {
+                    "type": "REAL",
+                    "count": 326315,
+                    "max_value": 983702.5,
+                    "min_value": -52955.8,
+                    "mean": 487.00343159224747,
+                    "stddev": 5416.328453823634
+                }
+            ]
+        },
+        {
+            "column_name": "SalesTax",
+            "number_non_empty_cells": 630042,
+            "number_empty_cells": 11,
+            "number_distinct_values": 31725,
+            "frequent_values": [
+                "8.88",
+                "6.04",
+                "4.44",
+                "0",
+                "5.86"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20200,
+                    "max_value": 100536,
+                    "min_value": -302,
+                    "mean": 83.62861386138614,
+                    "stddev": 1186.3001200140989
+                },
+                {
+                    "type": "REAL",
+                    "count": 609842,
+                    "max_value": 87303.6,
+                    "min_value": -4699.83,
+                    "mean": 54.084210385602475,
+                    "stddev": 544.824792384589
+                }
+            ]
+        },
+        {
+            "column_name": "AdminFee",
+            "number_non_empty_cells": 630042,
+            "number_empty_cells": 11,
+            "number_distinct_values": 44820,
+            "frequent_values": [
+                "15",
+                "75",
+                "0",
+                "40",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 284390,
+                    "max_value": 150000,
+                    "min_value": 0,
+                    "mean": 147.31493723407996,
+                    "stddev": 1018.8580338863936
+                },
+                {
+                    "type": "REAL",
+                    "count": 345652,
+                    "max_value": 68766.6,
+                    "min_value": 0.01,
+                    "mean": 134.19089749228218,
+                    "stddev": 644.7137678379813
+                }
+            ]
+        },
+        {
+            "column_name": "PaymentID",
+            "number_non_empty_cells": 606192,
+            "number_empty_cells": 23861,
+            "number_distinct_values": 606192,
+            "frequent_values": [
+                "1057340",
+                "1818853",
+                "933427",
+                "933424",
+                "933425"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 606192,
+                    "max_value": 2250952,
+                    "min_value": 1,
+                    "mean": 1241745.7093412648,
+                    "stddev": 715475.4820290596
+                }
+            ]
+        },
+        {
+            "column_name": "ChargeAmount",
+            "number_non_empty_cells": 630048,
+            "number_empty_cells": 5,
+            "number_distinct_values": 119320,
+            "frequent_values": [
+                "0",
+                "91.04",
+                "148.88",
+                "158.88",
+                "74.44"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 27301,
+                    "max_value": 1569834,
+                    "min_value": 0,
+                    "mean": 2033.920698875499,
+                    "stddev": 22820.25893312505
+                },
+                {
+                    "type": "REAL",
+                    "count": 602747,
+                    "max_value": 930230.9,
+                    "min_value": -2320.27,
+                    "mean": 915.7840512188734,
+                    "stddev": 7073.810022964838
+                }
+            ]
+        },
+        {
+            "column_name": "DateTransferDoF",
+            "number_non_empty_cells": 600767,
+            "number_empty_cells": 29286,
+            "number_distinct_values": 244,
+            "frequent_values": [
+                "07/17/2019",
+                "10/22/2001",
+                "11/22/2005",
+                "07/20/2012",
+                "06/20/2005"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 600767,
+                    "max_value": "2019-07-17 00:00:00",
+                    "min_value": "1999-05-28 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

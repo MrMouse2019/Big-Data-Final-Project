@@ -1,0 +1,320 @@
+{
+    "dataset_name": "kf2b-aeh5",
+    "columns": [
+        {
+            "column_name": "location",
+            "number_non_empty_cells": 1386,
+            "number_empty_cells": 22065,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "Queens Workforce1 Career Center",
+                "Rockaway Workforce1 Career Center",
+                "Coney Island (Sandy) Workforce1 Career Center",
+                "Flushing Library Workforce1 Career Center",
+                "Healthcare Sector Center - LM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1386,
+                    "shortest_values": [
+                        "ITC - Bronx",
+                        "ITC - Queens",
+                        "ITC - Brooklyn",
+                        "ITC - Long Island",
+                        "ITC - Staten Island"
+                    ],
+                    "longest_values": [
+                        "W+B165:N165ashingto+B152:N152n Heights Workforce1 Career Center",
+                        "Washingto+B152:N152n Heights Workforce1 Career Center",
+                        "Coney Island (Sandy) Workforce1 Career Center",
+                        "Washington Heights Workforce1 Career Center",
+                        "Flushing Library Workforce1 Career Center"
+                    ],
+                    "average_length": 31.462481962481963
+                }
+            ]
+        },
+        {
+            "column_name": "event_date",
+            "number_non_empty_cells": 1386,
+            "number_empty_cells": 22065,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Thursday, September 26, 2019",
+                "Wednesday, September 25, 2019",
+                "Monday, September 23, 2019",
+                "Tuesday, September 24, 2019",
+                "Friday, September 27, 2019"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1386,
+                    "shortest_values": [
+                        "Friday, September 27, 2019",
+                        "Monday, September 23, 2019",
+                        "Tuesday, September 24, 2019",
+                        "Thursday, September 26, 2019",
+                        "Wednesday, September 25, 2019"
+                    ],
+                    "longest_values": [
+                        "Wednesday, September 25, 2019",
+                        "Thursday, September 26, 2019",
+                        "Tuesday, September 24, 2019",
+                        "Monday, September 23, 2019",
+                        "Friday, September 27, 2019"
+                    ],
+                    "average_length": 27.305916305916305
+                }
+            ]
+        },
+        {
+            "column_name": "check_in_from",
+            "number_non_empty_cells": 1386,
+            "number_empty_cells": 22065,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "1:30 PM",
+                "8:45 AM",
+                "9:00 AM",
+                "9:30 AM",
+                "10:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1386,
+                    "max_value": "1900-01-01 14:15:00",
+                    "min_value": "1900-01-01 08:30:00"
+                }
+            ]
+        },
+        {
+            "column_name": "check_in_to",
+            "number_non_empty_cells": 1386,
+            "number_empty_cells": 22065,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "9:00 AM",
+                "1:45 PM",
+                "1:00 PM",
+                "10:00 AM",
+                "2:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1386,
+                    "max_value": "1900-01-01 15:00:00",
+                    "min_value": "1900-01-01 09:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "event_title",
+            "number_non_empty_cells": 1386,
+            "number_empty_cells": 22065,
+            "number_distinct_values": 217,
+            "frequent_values": [
+                "Security Guards",
+                "Security Guard",
+                "Call Center Agents",
+                "Direct Support Professionals",
+                "Sales Associates"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1386,
+                    "shortest_values": [
+                        "HHA",
+                        "Host",
+                        "Cook",
+                        "Chef",
+                        "Cooks"
+                    ],
+                    "longest_values": [
+                        "Program Directors, Director of Social Services, Operations Managers, Case Managers, Case Managers, Senior Case Managers, Case Workers, Residential Aides, Shift Supervisors, Social Workers, Housing Specialists, Employment Specialists",
+                        "Bilingual Customer Service Representatives, Care Management Coordinators, Case Supervisors/Managers, Data Analyst",
+                        "Equipment Assembler, Porter, Dishroom Attendant, Customer Service Representatives Drivers",
+                        "Vehicle Service Agents, Customer Service Representatives, Counter Sales Rep, Car Cleaners",
+                        "Coordinators, Non-Certified/Certified HHAs, Free Mandarin/Spanish/English Classes"
+                    ],
+                    "average_length": 22.76984126984127
+                }
+            ]
+        },
+        {
+            "column_name": "job_family",
+            "number_non_empty_cells": 1378,
+            "number_empty_cells": 22073,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "Transportation, Shipping, Warehousing",
+                "Healthcare Practitioners and Support",
+                "Protective Service",
+                "Food Service and Accommodations",
+                "Social Work, Child Care, Counseling"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1378,
+                    "shortest_values": [
+                        "Protective Service",
+                        "Education, Library",
+                        "Manufacturing/Production",
+                        "Construction, Architecture",
+                        "Customer Service (Non-Sales)"
+                    ],
+                    "longest_values": [
+                        "Sales, Marketing, Wholesaling, Food Service and Accommodations",
+                        "Transportation, Shipping, Warehousing",
+                        "Healthcare Practitioners and Support",
+                        "Social Work, Child Care, Counseling",
+                        "Building Cleaning and Maintenance"
+                    ],
+                    "average_length": 30.952830188679247
+                }
+            ]
+        },
+        {
+            "column_name": "company_name_or_type",
+            "number_non_empty_cells": 1386,
+            "number_empty_cells": 22065,
+            "number_distinct_values": 200,
+            "frequent_values": [
+                "Various",
+                "Uncommon Goods",
+                "Transportation Company",
+                "Construction Company",
+                "Silver Chicken and Seafood LLC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1386,
+                    "shortest_values": [
+                        "PLS",
+                        "PAL",
+                        "YAI",
+                        "GAP",
+                        "GNC"
+                    ],
+                    "longest_values": [
+                        "Best Care, Home Family Care, Heart to Heart, Advance Care Alliance , Care Design, Community Action, HELP USA, SELF CARE",
+                        "Madison, Securitas,  SOS, Epic Security, Watchguard, Sentry Security, Winfield Security, Security Resources",
+                        "Best Care, Home Family Care, Heart to Heart, Advance Care Alliance , Care Design, Community Action",
+                        "Securitas, Sera, SOS Security, Prime Protective, Madison, CAMBA",
+                        "Bath & Body Works            Employer Interview Career Center"
+                    ],
+                    "average_length": 16.847763347763347
+                }
+            ]
+        },
+        {
+            "column_name": "qualifications",
+            "number_non_empty_cells": 1385,
+            "number_empty_cells": 22066,
+            "number_distinct_values": 255,
+            "frequent_values": [
+                "No experience/certifications required.",
+                "HSD/GED, Associates, BA.",
+                "Must have valid 8 & 16 hour certificate and NYS Security License.",
+                "Must have HSD/GED. Must have NYS Security Guard License.",
+                "Must be able to work a flexible schedule, including nights and weekends. Customer service oriented a must. Responsibilities include greeting customers, assisting guests with finding merchandise, stocking and organizing product on the sales floor, ringing up purchases, and handling returns and other discrepancies."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1385,
+                    "shortest_values": [
+                        "No experience required.",
+                        "HSD/GED, Associates, BA.",
+                        "2 years of related experience",
+                        "At least 1 year of experience.",
+                        "Must have related work experience."
+                    ],
+                    "longest_values": [
+                        "Perfect Building Maintenance -Janitorial Worker Must have 1 year in residential or commercial cleaning. Must be able to work in a compactor room. Open availability is required. Must be able to pass a background check                           Shleppers-Driver/Mover                                         6 months professional experience driving a box truck. No more than 2 points off your driver\u0092s license, More than 2 years with a NYS driver\u0092s license. No prior suspensions. Able to lift 50-60lbs                                                                       Fresh Direct- Overnight Shipping Loader                                      Must have overnight shift experience and be able to lift minimum of 50lbs. Weekends Required (Sat, Sun). Must be able to work 8-12 hours a day and have consistent work history. 1 year of related experience required.                       Fresh Direct- Driver                                                       Must have NYS driver\u0092s License, at least 1year experience driving a box truck and have a clean License (no points)                                                               SEBCO- Porter/Maintenance Maintenance of common areas, sorting/removal of garbage, sweeping, mopping and assisting with property management duties. Knowledge of boiler systems, plumbing, electrical and carpentry skills are a plus. Bilingual Spanish is also a plus. 1 year of related experience required.                SEBCO- Superintendent  Responsible for keeping property clean, Handling tenant complaints. 1 year of related experience required.                                                       Premier Brands- Material Handler                                Prepares finished stock for shipment by identifying, pulling, packing, loading, and securing product. Maintains inventory by labeling, placing materials and supplies in stock; recording location of inventory. Must be able to pass Drug and Background check. H/S Diploma Preferred but not required.                         Premier Brands- Porter/Maintenance                     Must have at least 1 year of commercial maintenance experience. H/S Diploma Preferred",
+                        "Maison Kayser- Apprentice, Pastry Helper 6 months experience working in high volume food production packaging items highly desired.  Team player, can-do attitude.  Early morning, late evening, weekend, and holiday availability required.  Lift & carry up to 40 lbs.  Push or pull up to 150 lbs.  Work in a standing position for up to 8 hours.                                            Maison Kayser- Driver                                               Must have NYS driver\u0092s License, at least 1 year of  experience driving a box truck and have a clean License (no points)                                         E.A.T.S- Cook-                                                       At least 1 year of Cook experience. Must have  food handlers certification.                                                                  E.A.T.S- Prep Cook-                                              Minimum of 6 months experience as kitchen helper. No food handler's certification required.                                          E.A.T.S- Utility Worker-                                         Must have previous related experience.                                                    E.A.T.S- Driver-                                                  Clean NYS Driver's license Class D required.  (No points)",
+                        "Best Care, Home Family Care, Heart to Heart, Self Care- Certified/ Non-Certified HHA &PCA No educational requirements.  Must pass a criminal background check. Must pass a drug test. Advance Care Alliance -Care Manager Must have experience as a Case manager or Direct support professional working with Developmental disability population. Bachelor\u0092s degree required in any field. Bilingual is a plus but not required.                       Care Design- Case Manager                                  2 years of relevant experience in a mental or behavioral health environment. Bachelor\u0092s Degree Required.                                                      Community Action-  Direct Support Professional                                                            Strong desire to work with people with special needs. Provide care and assist with personal development and independence of residents.  Train residents in activities of daily living and in development of self-help and social skills. Driver\u0092s License required.                                        HELP USA- Case Manager                                         Must have previous case management experience or at least 1 year of customer service. Bachelor's degreed required. Bilingual is a plus",
+                        "Perform periodic facility inspections and surveys on utility-owned gas meters;  Complete all necessary documentation; Ensure readings and records are in compliance with all company and regulatory requirements;  Support the successful completion of regulatory audits and inspections;  Integrity surveys, which include direct assessments and close interval surveys;  Perform audit reviews with operations and support them during audits;  Visual inspection  PREFERRED valid state driver\u0092s license with the ability to obtain Department of Transportation (DOT) certification is required \u0096 A lot of people on foot;  High school diploma or equivalent; Start location (aka Tailboard): BX, QNS, Manhattan, Westchester \u0096 Also SI",
+                        "Bachelor\u0092s degree in relevant field with a minimum of (1) year of work experience with persons with intellectual and other development disabilities required, (QIDP); Excellent interpersonal, communication and organizational skills along with attention to detail required; Working knowledge of Microsoft Word and Excel in a windows environment required; Excellent follow-up and problem resolution skills also required;  Proficiency with health-related computer applications desired; Valid Driver\u0092s License to travel within NYS preferred, and must be able to travel as necessary and adhere to PHP\u0092s travel polices."
+                    ],
+                    "average_length": 153.9407942238267
+                }
+            ]
+        },
+        {
+            "column_name": "borough",
+            "number_non_empty_cells": 1361,
+            "number_empty_cells": 22090,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Bronx",
+                "Staten Island",
+                "Manhattan"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1361,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 6.656135194709773
+                }
+            ]
+        },
+        {
+            "column_name": "location_name_and_address",
+            "number_non_empty_cells": 1361,
+            "number_empty_cells": 22090,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "Queens Workforce1 Career Center, 168-25 Jamaica Avenue, 2nd Floor, Jamaica, NY 11342",
+                "Rockaway Workforce1 Career Center, 57-17 Rockaway Beach Boulevard, Arverne, NY 11692",
+                "Flushing Library Workforce1 Career Center, 41-17 Main Street, 3rd Floor, Flushing, NY 11355",
+                "Coney Island Workforce1 Career Center- 1906 Mermaid Avenue, 2nd Floor, Brooklyn, NY 11224",
+                "Brooklyn Workforce1 Career Center, 9 Bond Street, 5th Floor, Brooklyn, NY 11201"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1361,
+                    "shortest_values": [
+                        "2619A Atlantic Avenue",
+                        "90 Lincoln Avenue 3rd Floor, Bronx, NY 10454",
+                        "168-46 91st Ave, 2nd Floor, Jamaica, NY 11432",
+                        "1972 Richmond Terrace, Staten Island, NY 10302",
+                        "Brooklyn Army Terminal 140 58th Street, Building 'B' Lobby, Brooklyn, NY 11220"
+                    ],
+                    "longest_values": [
+                        "Long Island City Workforce1 Industrial & Transportation Career Center, 47-10 Austell Place, Long Island City, NY 11101",
+                        "Brooklyn Central Library Workforce1 Career Center, 10 Grand Army Plaza, 2nd Floor, Brooklyn, NY 11238",
+                        "Bronx Workforce1 Career Center, 400 East Fordham Road (entrance on Webster), Bronx, NY 10458",
+                        "Flushing Library Workforce1 Career Center, 41-17 Main Street, 3rd Floor, Flushing, NY 11355",
+                        "Upper Manhattan Workforce1 Career Center, 215 125th Street, 6th Floor, New York, NY 10027"
+                    ],
+                    "average_length": 82.45554739162381
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

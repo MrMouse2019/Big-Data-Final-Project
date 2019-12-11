@@ -1,0 +1,615 @@
+{
+    "dataset_name": "nk7g-qeep",
+    "columns": [
+        {
+            "column_name": "UniqueID",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 478,
+            "frequent_values": [
+                "408",
+                "98",
+                "6",
+                "469",
+                "258"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 478,
+                    "max_value": 478,
+                    "min_value": 1,
+                    "mean": 239.5,
+                    "stddev": 137.9864123745523
+                }
+            ]
+        },
+        {
+            "column_name": "FacilityName",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 168,
+            "frequent_values": [
+                "Montefiore - Division of Substance Abuse",
+                "Addabbo Family Health Center",
+                "Albert Einstein College of Medicine - Hepatology",
+                "STD Clinic - NYC Health Department",
+                "Elmhurst Hospital"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "BronxWorks",
+                        "Ng Medical",
+                        "Iris House",
+                        "BOOM!Health",
+                        "Harlem United"
+                    ],
+                    "longest_values": [
+                        "NewYork-Presbyterian Columbia - Center for Liver Disease and Transplantation",
+                        "Mount Sinai - Medical Specialty Services Center for Advanced Medicine (CAM)",
+                        "Interfaith Medical Center - Bishop Orris G. Walker Junior Health Center",
+                        "Safe Horizon - Streetwork Lower East Side and the Space At Tompkins",
+                        "Kingsbrook Jewish Hospital - Pierre Toussaint Family Health Center"
+                    ],
+                    "average_length": 36.91213389121339
+                }
+            ]
+        },
+        {
+            "column_name": "Facility Type",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Community Health Center",
+                "Hospital",
+                "Syringe Exchange Program",
+                "Private Practice Physician",
+                "Community Organization"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "Hospital",
+                        "Pharmacy",
+                        "Community Organization",
+                        "Community Health Center",
+                        "Syringe Exchange Program"
+                    ],
+                    "longest_values": [
+                        "Private Practice Physician",
+                        "Syringe Exchange Program",
+                        "Community Health Center",
+                        "Community Organization",
+                        "Pharmacy"
+                    ],
+                    "average_length": 18.115062761506277
+                }
+            ]
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 172,
+            "frequent_values": [
+                "17 East 102nd Street",
+                "3444 Kossuth Avenue",
+                "226 East 144th Street",
+                "305 East 161st Street",
+                "121 DeKalb Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "400 Broadway",
+                        "302 Broadway",
+                        "170 Broadway",
+                        "1204 Broadway",
+                        "1238 Broadway"
+                    ],
+                    "longest_values": [
+                        "160 West 100th Street (between Columbus/Amsterdam)",
+                        "2348 Adam Clayton Powell Jr Boulevard",
+                        "182-15 Horace Harding Expressway",
+                        "281 1st Avenue at 16th Street",
+                        "26-19 Francis Lewis Boulevard"
+                    ],
+                    "average_length": 19.223849372384937
+                }
+            ]
+        },
+        {
+            "column_name": "Address 2",
+            "number_non_empty_cells": 197,
+            "number_empty_cells": 281,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "2nd Floor",
+                "3rd Floor",
+                "1st Floor",
+                "4th Floor",
+                "7th Floor"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 307,
+                    "min_value": 3,
+                    "mean": 100.71428571428571,
+                    "stddev": 93.86877510000602
+                },
+                {
+                    "type": "TEXT",
+                    "count": 190,
+                    "shortest_values": [
+                        "2S",
+                        "1F",
+                        "Suite 2",
+                        "Suite 2K",
+                        "Suite 1A"
+                    ],
+                    "longest_values": [
+                        "H Bldg, 3rd Flr, Rm 117",
+                        "2nd Floor (ring bell)",
+                        "625 Ullman Building",
+                        "Ground Level",
+                        "Suite 3101 A"
+                    ],
+                    "average_length": 9.473684210526315
+                }
+            ]
+        },
+        {
+            "column_name": "ZipCode",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "10451",
+                "10461",
+                "10027",
+                "10013",
+                "11201"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 478,
+                    "max_value": 11692,
+                    "min_value": 10001,
+                    "mean": 10601.512552301256,
+                    "stddev": 560.2123129818717
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "BRONX",
+                "BROOKLYN",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.46234309623431
+                }
+            ]
+        },
+        {
+            "column_name": "Phone Number",
+            "number_non_empty_cells": 477,
+            "number_empty_cells": 1,
+            "number_distinct_values": 160,
+            "frequent_values": [
+                "(718) 299-1100",
+                "(855) 681-8700 Ext 3476",
+                "(718) 945-7150",
+                "(212) 523-6500",
+                "Call 311"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 477,
+                    "shortest_values": [
+                        "Call 311",
+                        "(212) 263-3643",
+                        "(212) 794-0240",
+                        "(877) LIVER-MD",
+                        "(718) 435-3890"
+                    ],
+                    "longest_values": [
+                        "(855) 681-8700 Ext 3474",
+                        "(855) 681-8700 Ext 3476",
+                        "(212) 966-0466 Ext 1107",
+                        "(718) 802-9540 Ext 12",
+                        "(212) 334-6029"
+                    ],
+                    "average_length": 14.280922431865829
+                }
+            ]
+        },
+        {
+            "column_name": "AdditionalInfo",
+            "number_non_empty_cells": 425,
+            "number_empty_cells": 53,
+            "number_distinct_values": 128,
+            "frequent_values": [
+                "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.ryancenter.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                "Free services are available.<br><a href=\"http://www.acacianetwork.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.housingworks.org/heal/medical-and-dental-care/hep-c/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                "Free services are available.<br><a href=\"http://www.brightpointhealth.org\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.addabbo.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 425,
+                    "shortest_values": [
+                        "Free services are available.<br><a href=\"http://acqc.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Free services are available.<br><a href=\"http://dsfhs.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Free services are available.<br><a href=\"http://hafnyc.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Free services are available.<br><a href=\"http://fsnny1.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Free services are available.<br><a href=\"http://www.acqc.org/\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>"
+                    ],
+                    "longest_values": [
+                        "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.kingsbrook.org/Healthcare_Services_Medical_Education/Programs_Services/Ambulatory_Services/Pierre_Toussaint_Family_Healthcare_Center.aspx\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.mountsinai.org/patient-care/service-areas/organ-transplants/programs-and-services/adult-liver-diseases-and-transplantation\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.mountsinai.org/patient-care/service-areas/infectious-diseases/hiv-aids/jack-martin-fund-clinic\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.siuh.edu/Our-Services/Clinical-Services/Gastroenterology-Digestive-and-Liver-Diseases-.aspx\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>",
+                        "Call for insurance and payment methods. There may be a cost for care.<br><a href=\"http://www.sbhny.org/patient-care/clinical-services/gastroenterology-and-hepatology/?term=hepatology\" target=\"_blank\"><font size = +1><b>Program Website</b></font></a>"
+                    ],
+                    "average_length": 185.70117647058822
+                }
+            ]
+        },
+        {
+            "column_name": "Service Category",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Hepatitis"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "Hepatitis"
+                    ],
+                    "longest_values": [
+                        "Hepatitis"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Service Type",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Hep C Treatment",
+                "Hep C Testing",
+                "Hep B Treatment",
+                "Hep B Testing",
+                "Hep B Vaccine"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "Hep B Testing",
+                        "Hep C Testing",
+                        "Hep B Vaccine",
+                        "Hep B Treatment",
+                        "Hep C Treatment"
+                    ],
+                    "longest_values": [
+                        "Syringe Exchange",
+                        "Hep C Treatment",
+                        "Hep B Treatment",
+                        "Hep B Vaccine",
+                        "Hep C Testing"
+                    ],
+                    "average_length": 14.064853556485355
+                }
+            ]
+        },
+        {
+            "column_name": "Free Service",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.7656903765690375
+                }
+            ]
+        },
+        {
+            "column_name": "Sliding Scale Cost",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.502092050209205
+                }
+            ]
+        },
+        {
+            "column_name": "Accepts Walk-in",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.855648535564853
+                }
+            ]
+        },
+        {
+            "column_name": "Hepatitis and HIV Services",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 478,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.7426778242677825
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 469,
+            "number_empty_cells": 9,
+            "number_distinct_values": 166,
+            "frequent_values": [
+                "1016080005",
+                "2033270001",
+                "2023400221",
+                "1010680001",
+                "3020880004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469,
+                    "max_value": 5066940195,
+                    "min_value": 1000157501,
+                    "mean": 2222661544.5927505,
+                    "stddev": 1138385129.9992318
+                }
+            ]
+        },
+        {
+            "column_name": "INPUT_1_INPUT_1_Latitude",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 201,
+            "frequent_values": [
+                "40.791484",
+                "40.8812402",
+                "40.6904629",
+                "40.7697168",
+                "40.6423899"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 478,
+                    "max_value": 40.8840071,
+                    "min_value": 40.516429,
+                    "mean": 40.75241442050204,
+                    "stddev": 0.07339229058399625
+                }
+            ]
+        },
+        {
+            "column_name": "INPUT_1_INPUT_1_Longitude",
+            "number_non_empty_cells": 478,
+            "number_empty_cells": 0,
+            "number_distinct_values": 202,
+            "frequent_values": [
+                "-73.9520122",
+                "-73.9780736",
+                "-73.8811275",
+                "-73.9868805",
+                "-73.9461696"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 478,
+                    "max_value": -73.7356815,
+                    "min_value": -74.197306,
+                    "mean": -73.93120505815897,
+                    "stddev": 0.06566659552468833
+                }
+            ]
+        },
+        {
+            "column_name": "OUTPUT_BBL",
+            "number_non_empty_cells": 469,
+            "number_empty_cells": 9,
+            "number_distinct_values": 166,
+            "frequent_values": [
+                "1016080005",
+                "2033270001",
+                "2023400221",
+                "1010680001",
+                "3020880004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469,
+                    "max_value": 5066940195,
+                    "min_value": 1000157501,
+                    "mean": 2222661544.5927505,
+                    "stddev": 1138385129.9992318
+                }
+            ]
+        },
+        {
+            "column_name": "OUTPUT_BIN",
+            "number_non_empty_cells": 469,
+            "number_empty_cells": 9,
+            "number_distinct_values": 167,
+            "frequent_values": [
+                "1051492",
+                "2000997",
+                "2094749",
+                "1082718",
+                "3058410"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469,
+                    "max_value": 5104756,
+                    "min_value": 1001281,
+                    "mean": 2302636.3091684435,
+                    "stddev": 1194883.946291255
+                }
+            ]
+        },
+        {
+            "column_name": "OUTPUT_City_Council_District",
+            "number_non_empty_cells": 470,
+            "number_empty_cells": 8,
+            "number_distinct_values": 39,
+            "frequent_values": [
+                "1",
+                "9",
+                "8",
+                "17",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 470,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 18.182978723404254,
+                    "stddev": 13.789316233629439
+                }
+            ]
+        },
+        {
+            "column_name": "OUTPUT_Community_District",
+            "number_non_empty_cells": 472,
+            "number_empty_cells": 6,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "110",
+                "412",
+                "111",
+                "302",
+                "207"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 472,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 225.1334745762712,
+                    "stddev": 112.77648314537556
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

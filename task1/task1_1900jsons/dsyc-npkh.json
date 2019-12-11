@@ -1,0 +1,678 @@
+{
+    "dataset_name": "dsyc-npkh",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "09/13/2018",
+                "09/12/2018",
+                "09/08/2018",
+                "09/10/2018",
+                "09/09/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 264,
+                    "max_value": "2018-09-14 00:00:00",
+                    "min_value": "2018-09-07 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Sample Location",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "Hallway",
+                "3rd Floor",
+                "5th Floor",
+                "12th Floor",
+                "15th Floor"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 264,
+                    "shortest_values": [
+                        "Office",
+                        "Hallway",
+                        "Basement:",
+                        "9th Floor",
+                        "8th Floor"
+                    ],
+                    "longest_values": [
+                        "Sprinkler control valve room",
+                        "Tenant Association room",
+                        "Electric meter room",
+                        "Boiler/tank room",
+                        "Slop sink room:"
+                    ],
+                    "average_length": 11.473484848484848
+                }
+            ]
+        },
+        {
+            "column_name": "Time1",
+            "number_non_empty_cells": 147,
+            "number_empty_cells": 117,
+            "number_distinct_values": 98,
+            "frequent_values": [
+                " 08:20:00",
+                " 08:12:00",
+                " 08:16:00",
+                " 08:46:00",
+                " 08:11:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 147,
+                    "shortest_values": [
+                        "--",
+                        " 10:39:00",
+                        " 08:09:00",
+                        " 11:18:00",
+                        " 11:49:00"
+                    ],
+                    "longest_values": [
+                        " 10:01:00",
+                        " 08:29:00",
+                        " 08:18:00",
+                        " 09:58:00",
+                        " 10:41:00"
+                    ],
+                    "average_length": 8.952380952380953
+                }
+            ]
+        },
+        {
+            "column_name": "VOCs1 (ppm)",
+            "number_non_empty_cells": 234,
+            "number_empty_cells": 30,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "<0.1",
+                "0.2",
+                "0.3",
+                "0.1",
+                "0.4"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 138,
+                    "max_value": 1.9,
+                    "min_value": 0.1,
+                    "mean": 0.3695652173913043,
+                    "stddev": 0.2799090679602968
+                },
+                {
+                    "type": "TEXT",
+                    "count": 96,
+                    "shortest_values": [
+                        "--",
+                        "<0.1",
+                        "0.3*",
+                        "0.5-2.0"
+                    ],
+                    "longest_values": [
+                        "0.5-2.0",
+                        "0.3*",
+                        "<0.1",
+                        "--"
+                    ],
+                    "average_length": 3.9895833333333335
+                }
+            ]
+        },
+        {
+            "column_name": "Temp1 (\u00b0F)",
+            "number_non_empty_cells": 203,
+            "number_empty_cells": 61,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "78.2",
+                "77.5",
+                "77.6",
+                "77.7",
+                "75.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22,
+                    "max_value": 82,
+                    "min_value": 70,
+                    "mean": 75.5,
+                    "stddev": 3.1586821187439433
+                },
+                {
+                    "type": "REAL",
+                    "count": 181,
+                    "max_value": 83.4,
+                    "min_value": 62.4,
+                    "mean": 75.72707182320435,
+                    "stddev": 3.9702327109845608
+                }
+            ]
+        },
+        {
+            "column_name": "Humidity1 (%)",
+            "number_non_empty_cells": 196,
+            "number_empty_cells": 68,
+            "number_distinct_values": 146,
+            "frequent_values": [
+                "62.9",
+                "64.2",
+                "61.2",
+                "74.2",
+                "no access"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 175,
+                    "max_value": 94.8,
+                    "min_value": 46.2,
+                    "mean": 70.09828571428574,
+                    "stddev": 11.6577943235329
+                },
+                {
+                    "type": "TEXT",
+                    "count": 21,
+                    "shortest_values": [
+                        "--",
+                        "no access",
+                        "food odor",
+                        "Door open",
+                        "paint odor"
+                    ],
+                    "longest_values": [
+                        "strong odor (Reading by 3B is 2.5ppm)",
+                        "strong odor; high readings by 4D",
+                        "mop bucket/cleaning chemicals",
+                        "strong odor from 3rd floor",
+                        "chemical cleaner odor"
+                    ],
+                    "average_length": 14.285714285714286
+                }
+            ]
+        },
+        {
+            "column_name": "Observations1",
+            "number_non_empty_cells": 82,
+            "number_empty_cells": 182,
+            "number_distinct_values": 49,
+            "frequent_values": [
+                "No access",
+                "high temperature, humid, poor ventillation, stagnant air ",
+                "Odor",
+                "1899-12-31T16:13:00",
+                "1899-12-31T16:35:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 82,
+                    "shortest_values": [
+                        " ",
+                        "odor",
+                        "Odor",
+                        "Cooking",
+                        "Apt 2E*"
+                    ],
+                    "longest_values": [
+                        "high temperature, humid, poor ventillation, stagnant air, floor being mopped",
+                        "high temperature, humid, poor ventillation, stagnant air, active smoking",
+                        "high temperature, humid, poor ventillation, stagnant air, cooking smell",
+                        "high temperature, humid, poor ventillation, stagnant air ",
+                        "high temperature, humid, poor ventillation, stagnant air"
+                    ],
+                    "average_length": 23.536585365853657
+                }
+            ]
+        },
+        {
+            "column_name": "Time2",
+            "number_non_empty_cells": 168,
+            "number_empty_cells": 96,
+            "number_distinct_values": 88,
+            "frequent_values": [
+                "<0.1",
+                " 16:10:00",
+                "0.3",
+                " 16:24:00",
+                " 16:25:00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 17,
+                    "max_value": 15.38,
+                    "min_value": 0.2,
+                    "mean": 1.2811764705882351,
+                    "stddev": 3.528375534156562
+                },
+                {
+                    "type": "TEXT",
+                    "count": 151,
+                    "shortest_values": [
+                        "--",
+                        "<0.1",
+                        " 15:44:00",
+                        " 15:38:00",
+                        " 17:01:00"
+                    ],
+                    "longest_values": [
+                        " 16:05:00",
+                        " 15:45:00",
+                        " 16:29:00",
+                        " 15:52:00",
+                        " 16:28:00"
+                    ],
+                    "average_length": 8.52980132450331
+                }
+            ]
+        },
+        {
+            "column_name": "VOCs2 (ppm)",
+            "number_non_empty_cells": 199,
+            "number_empty_cells": 65,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "<0.1",
+                "0.2",
+                "0.1",
+                "0.3",
+                "0.4"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 140,
+                    "max_value": 81.6,
+                    "min_value": 0.1,
+                    "mean": 14.730000000000002,
+                    "stddev": 30.28944582806738
+                },
+                {
+                    "type": "TEXT",
+                    "count": 59,
+                    "shortest_values": [
+                        "--",
+                        "<0.1",
+                        "0.8*",
+                        "0.7*",
+                        "1.1**"
+                    ],
+                    "longest_values": [
+                        "1.1**",
+                        "0.7*",
+                        "0.8*",
+                        "<0.1",
+                        "--"
+                    ],
+                    "average_length": 3.7796610169491527
+                }
+            ]
+        },
+        {
+            "column_name": "Temp2 (\u00b0F)",
+            "number_non_empty_cells": 185,
+            "number_empty_cells": 79,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "--",
+                "78.3",
+                "78.1",
+                "78.6",
+                "80.6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 77,
+                    "min_value": 77,
+                    "mean": 77.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 164,
+                    "max_value": 82.6,
+                    "min_value": 66.9,
+                    "mean": 77.0054878048781,
+                    "stddev": 2.974408181527728
+                },
+                {
+                    "type": "TEXT",
+                    "count": 20,
+                    "shortest_values": [
+                        "--",
+                        "no access",
+                        "food odor",
+                        "no access ",
+                        "strong odor"
+                    ],
+                    "longest_values": [
+                        "strong odor; high readings by 4D",
+                        "fan and exhaust on",
+                        "strong odor",
+                        "no access ",
+                        "food odor"
+                    ],
+                    "average_length": 8.05
+                }
+            ]
+        },
+        {
+            "column_name": "Humidity2 (%)",
+            "number_non_empty_cells": 199,
+            "number_empty_cells": 65,
+            "number_distinct_values": 143,
+            "frequent_values": [
+                "--",
+                "79.7",
+                "67.9",
+                "44.3",
+                "77.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 81,
+                    "min_value": 73,
+                    "mean": 78.0,
+                    "stddev": 3.559026084010437
+                },
+                {
+                    "type": "REAL",
+                    "count": 162,
+                    "max_value": 94.1,
+                    "min_value": 43.9,
+                    "mean": 67.72222222222223,
+                    "stddev": 11.601149368345647
+                },
+                {
+                    "type": "TEXT",
+                    "count": 34,
+                    "shortest_values": [
+                        "--",
+                        "1899-12-31T22:39:00",
+                        "1899-12-31T22:30:00",
+                        "1899-12-31T22:15:00",
+                        "1899-12-31T22:18:00"
+                    ],
+                    "longest_values": [
+                        "1899-12-31T22:21:00",
+                        "1899-12-31T22:33:00",
+                        "1899-12-31T22:17:00",
+                        "1899-12-31T22:41:00",
+                        "1899-12-31T22:26:00"
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "Observations2",
+            "number_non_empty_cells": 70,
+            "number_empty_cells": 194,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "No access",
+                "<0.1",
+                "0.3",
+                "Cooking Odor",
+                "Cooking odor"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15,
+                    "max_value": 1.3,
+                    "min_value": 0.2,
+                    "mean": 0.4666666666666666,
+                    "stddev": 0.29814239699997197
+                },
+                {
+                    "type": "TEXT",
+                    "count": 55,
+                    "shortest_values": [
+                        "Odor",
+                        "<0.1",
+                        "Smoking",
+                        "Apt 14E",
+                        "No access"
+                    ],
+                    "longest_values": [
+                        "hallway door to roof open",
+                        "Cooking ( bad burnt odor)",
+                        "Joint compound near vent",
+                        "rain/wind/backdoor open",
+                        "Cleaning chemical odor"
+                    ],
+                    "average_length": 10.436363636363636
+                }
+            ]
+        },
+        {
+            "column_name": "Time3",
+            "number_non_empty_cells": 138,
+            "number_empty_cells": 126,
+            "number_distinct_values": 90,
+            "frequent_values": [
+                "--",
+                "23:06:00",
+                "10:25:00",
+                "22:07:00",
+                "22:06:00"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 78,
+                    "min_value": 74,
+                    "mean": 76.66666666666667,
+                    "stddev": 1.8856180831641267
+                },
+                {
+                    "type": "REAL",
+                    "count": 23,
+                    "max_value": 82.7,
+                    "min_value": 75.5,
+                    "mean": 78.06521739130436,
+                    "stddev": 1.498871661313553
+                },
+                {
+                    "type": "TEXT",
+                    "count": 112,
+                    "shortest_values": [
+                        "--",
+                        "22:57:00",
+                        "10:42:00",
+                        "22:06:00",
+                        "22:59:00"
+                    ],
+                    "longest_values": [
+                        "10:21:00",
+                        "22:08:00",
+                        "23:03:00",
+                        "10:25:00",
+                        "23:09:00"
+                    ],
+                    "average_length": 7.732142857142857
+                }
+            ]
+        },
+        {
+            "column_name": "VOCs3 (ppm)",
+            "number_non_empty_cells": 150,
+            "number_empty_cells": 114,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "<0.1",
+                "0.3",
+                "0.2",
+                "0.1",
+                "0.4"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 88,
+                    "max_value": 0.8,
+                    "min_value": 0.1,
+                    "mean": 0.31931818181818195,
+                    "stddev": 0.17179397977695055
+                },
+                {
+                    "type": "TEXT",
+                    "count": 62,
+                    "shortest_values": [
+                        "--",
+                        "<0.1",
+                        "no access",
+                        "strong odor",
+                        "odor by 5G and 5H "
+                    ],
+                    "longest_values": [
+                        "high readings by 13B (5.7 ppm) & 13D (3.6ppm)",
+                        "strong odor; high readings by 4B (1.1 ppm)",
+                        "readings by 15E (1.0 ppm) &  15B (1.2 ppm)",
+                        "odor and high readings by 6H (3.6 ppm)",
+                        "odor by 5G and 5H "
+                    ],
+                    "average_length": 7.096774193548387
+                }
+            ]
+        },
+        {
+            "column_name": "Temp3 (\u00b0F)",
+            "number_non_empty_cells": 138,
+            "number_empty_cells": 126,
+            "number_distinct_values": 68,
+            "frequent_values": [
+                "77.1",
+                "--",
+                "76.8",
+                "75.5",
+                "78.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12,
+                    "max_value": 81,
+                    "min_value": 62,
+                    "mean": 72.58333333333333,
+                    "stddev": 6.40908643169125
+                },
+                {
+                    "type": "REAL",
+                    "count": 121,
+                    "max_value": 81.4,
+                    "min_value": 63.8,
+                    "mean": 76.53057851239672,
+                    "stddev": 3.2559885824115664
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "--"
+                    ],
+                    "longest_values": [
+                        "--"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Humidity3 (%)",
+            "number_non_empty_cells": 138,
+            "number_empty_cells": 126,
+            "number_distinct_values": 95,
+            "frequent_values": [
+                "--",
+                "54.6",
+                "56.1",
+                "53.6",
+                "79.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 82,
+                    "min_value": 54,
+                    "mean": 64.0,
+                    "stddev": 10.198039027185569
+                },
+                {
+                    "type": "REAL",
+                    "count": 127,
+                    "max_value": 89.8,
+                    "min_value": 3.7,
+                    "mean": 65.41732283464566,
+                    "stddev": 11.84395320315202
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "--"
+                    ],
+                    "longest_values": [
+                        "--"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Observations3",
+            "number_non_empty_cells": 48,
+            "number_empty_cells": 216,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "No access",
+                "Odor",
+                "strong odor",
+                "Cooking Odor",
+                "Smoking odor"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 48,
+                    "shortest_values": [
+                        "Odor",
+                        " Smoking",
+                        "rain/wind",
+                        "No access",
+                        "food odor"
+                    ],
+                    "longest_values": [
+                        "High reading by apartment 6G and 6H",
+                        "1.2-1.5 ppm near trash compactor",
+                        "hallway door to roof open",
+                        "4.3ppm near Apt. 11D",
+                        "Paint odor near 13A"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

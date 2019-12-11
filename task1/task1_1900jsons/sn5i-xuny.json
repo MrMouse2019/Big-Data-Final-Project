@@ -1,0 +1,197 @@
+{
+    "dataset_name": "sn5i-xuny",
+    "columns": [
+        {
+            "column_name": "Alert Date",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "11/01/2016",
+                "04/06/2017",
+                "02/01/2017",
+                "04/13/2017",
+                "01/20/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 8,
+                    "max_value": "2017-04-13 00:00:00",
+                    "min_value": "2016-11-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Dataset",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4",
+                "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-References/qpy9-5hqe",
+                "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Remarks/9p4w-7npp",
+                "https://data.cityofnewyork.us/City-Government/ACRIS-Personal-Property-Parties/gq4f-jwz9",
+                "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Parties/nf4v-htvt"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4",
+                        "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Remarks/9p4w-7npp",
+                        "https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95",
+                        "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Parties/nf4v-htvt",
+                        "https://data.cityofnewyork.us/City-Government/OATH-ECB-Hearings-Case-Status/y6h5-jvss"
+                    ],
+                    "longest_values": [
+                        "https://data.cityofnewyork.us/City-Government/ACRIS-Personal-Property-Parties/gq4f-jwz9",
+                        "https://data.cityofnewyork.us/City-Government/ACRIS-Personal-Property-Remarks/fuzi-5ks9",
+                        "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-References/qpy9-5hqe",
+                        "https://data.cityofnewyork.us/City-Government/OATH-ECB-Hearings-Case-Status/y6h5-jvss",
+                        "https://data.cityofnewyork.us/City-Government/ACRIS-Real-Property-Parties/nf4v-htvt"
+                    ],
+                    "average_length": 82.375
+                }
+            ]
+        },
+        {
+            "column_name": "Dataset Name",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "ACRIS Real Property References",
+                "Evictions",
+                "ACRIS - Real Property Remarks",
+                "ACRIS - Personal Property Remarks",
+                "ACRIS Real Property Parties"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "Evictions",
+                        "ACRIS Real Property Parties",
+                        "NYPD Motor Vehicle Collision",
+                        "OATH ECB Hearings Case Status",
+                        "ACRIS - Real Property Remarks"
+                    ],
+                    "longest_values": [
+                        "ACRIS - Personal Property Remarks",
+                        "ACRIS Personal Property Parties",
+                        "ACRIS Real Property References",
+                        "ACRIS - Real Property Remarks",
+                        "OATH ECB Hearings Case Status"
+                    ],
+                    "average_length": 27.0
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Open",
+                "Resolved"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "Open",
+                        "Resolved"
+                    ],
+                    "longest_values": [
+                        "Resolved",
+                        "Open"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Details",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Several records in the dataset are corrupt.",
+                "In some cases, one character is being dropp from the the Remark Line NBR field.",
+                "Data issues have been confirmed and a fix is being investigated.",
+                "A small number of records are not reflecting the latest information. ",
+                "This dataset has been taken down while reported data issues are being investigated."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "Several records in the dataset are corrupt.",
+                        "Data issues have been confirmed and a fix is being investigated.",
+                        "A small number of records are not reflecting the latest information. ",
+                        "In some cases, one character is being dropp from the the Remark Line NBR field.",
+                        "This dataset has been taken down while reported data issues are being investigated."
+                    ],
+                    "longest_values": [
+                        "This dataset has been taken down while reported data issues are being investigated.",
+                        "In some cases, one character is being dropp from the the Remark Line NBR field.",
+                        "A small number of records are not reflecting the latest information. ",
+                        "Data issues have been confirmed and a fix is being investigated.",
+                        "Several records in the dataset are corrupt."
+                    ],
+                    "average_length": 62.875
+                }
+            ]
+        },
+        {
+            "column_name": "Resolution Date",
+            "number_non_empty_cells": 4,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "02/16/2017 12:00:00 AM",
+                "05/04/2017 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4,
+                    "max_value": "2017-05-04 00:00:00",
+                    "min_value": "2017-02-16 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Resolution",
+            "number_non_empty_cells": 4,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Datasets were recreated and reloaded.",
+                "Records were re-loaded."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4,
+                    "shortest_values": [
+                        "Records were re-loaded.",
+                        "Datasets were recreated and reloaded."
+                    ],
+                    "longest_values": [
+                        "Datasets were recreated and reloaded.",
+                        "Records were re-loaded."
+                    ],
+                    "average_length": 33.5
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

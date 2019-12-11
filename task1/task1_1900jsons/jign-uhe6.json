@@ -1,0 +1,349 @@
+{
+    "dataset_name": "jign-uhe6",
+    "columns": [
+        {
+            "column_name": "Target Geographic Area",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "South Bronx",
+                "Harlem",
+                "South Jamaica",
+                "Highbridge",
+                "Bedford Stuyvesant"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        "Harlem",
+                        "Edenwald",
+                        "Soundview",
+                        "Highbridge",
+                        "St. George"
+                    ],
+                    "longest_values": [
+                        "Grand Concourse & University Heights",
+                        "Bedford Stuyvesant",
+                        "Port Richmond",
+                        "South Jamaica",
+                        "East New York"
+                    ],
+                    "average_length": 13.0
+                }
+            ]
+        },
+        {
+            "column_name": "Organization Name",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "BronxWorks, Inc",
+                "New York Center for Interpersonal Development",
+                "The Children's Village",
+                "Health People, Inc",
+                "Friends of Bedford, Inc"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        "BronxWorks, Inc",
+                        "Health People, Inc",
+                        "Safe Space NYC Inc",
+                        "The Children's Village",
+                        "Good Shepherd Services"
+                    ],
+                    "longest_values": [
+                        "Fedcap Rehabilitation Services, Inc. (partnering with Bronx Clergy Roundtable)",
+                        "Federation Employment & Guidance Services, Inc",
+                        "New York Center for Interpersonal Development",
+                        "Alpha School Center for Progressive Living",
+                        "Phipps Community Development Corporation"
+                    ],
+                    "average_length": 31.136363636363637
+                }
+            ]
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "130 Stuyvesant Place - 4th Floor, Staten Island, NY 10301",
+                "400 East Fordham Road, Bronx, NY 10458",
+                "1130 Grand Concourse, Bronx, NY 10456",
+                "510 Gates Ave., Brooklyn, NY 11216",
+                "809 Westchester Avenue, Bronx, NY 10455"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        "Site address is being finalized",
+                        "1175 Boston Road, Bronx, NY 10456",
+                        "510 Gates Ave., Brooklyn, NY 11216",
+                        "2271 Third Ave, New York, NY 10035",
+                        "862 Park Avenue, Brooklyn, NY 11206"
+                    ],
+                    "longest_values": [
+                        "130 Stuyvesant Place - 4th Floor, Staten Island, NY 10301",
+                        "89-74 162nd Street, 3rd Fl., Jamaica, NY 11432",
+                        "552 Southern Blvd, 2nd Fl., Bronx, NY 10455",
+                        "361 West 125th Street, New York, NY 10027",
+                        "809 Westchester Avenue, Bronx, NY 10455"
+                    ],
+                    "average_length": 38.95454545454545
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "10456",
+                "10455",
+                "10458",
+                "11432",
+                "10035"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 11432,
+                    "min_value": 10027,
+                    "mean": 10598.285714285714,
+                    "stddev": 463.9158526794993
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2",
+                "3",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.4761904761904763,
+                    "stddev": 1.1799534946060826
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "40.832331",
+                "40.861668",
+                "40.642891",
+                "40.705079",
+                "40.812337"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 21,
+                    "max_value": 40.861668,
+                    "min_value": 40.642891,
+                    "mean": 40.76787004761904,
+                    "stddev": 0.07549425074576506
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "-73.891337",
+                "-73.91959",
+                "-74.076874",
+                "-73.902839",
+                "-73.937414"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 21,
+                    "max_value": -73.798033,
+                    "min_value": -74.076874,
+                    "mean": -73.91900280952382,
+                    "stddev": 0.06528723423867283
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "1",
+                "3",
+                "9",
+                "6",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 16,
+                    "min_value": 1,
+                    "mean": 6.190476190476191,
+                    "stddev": 4.403667817789292
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "8",
+                "9",
+                "16",
+                "36",
+                "42"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 49,
+                    "min_value": 8,
+                    "mean": 22.19047619047619,
+                    "stddev": 13.79999671366092
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "38302",
+                "18102",
+                "44601",
+                "3",
+                "20901"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 44601,
+                    "min_value": 3,
+                    "mean": 12130.666666666666,
+                    "stddev": 16517.367218817584
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "5000085",
+                "2002833",
+                "2116415",
+                "4208888",
+                "2004287"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 5000085,
+                    "min_value": 1054159,
+                    "mean": 2551096.6666666665,
+                    "stddev": 1198824.7569542879
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "5000080070",
+                "2030337501",
+                "2024620042",
+                "2035510001",
+                "1017880004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 5000080070,
+                    "min_value": 1017400001,
+                    "mean": 2506309191.047619,
+                    "stddev": 1185638239.911578
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 1,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "East Concourse-Concourse Village                                           ",
+                "West New Brighton-New Brighton-St. George",
+                "Central Harlem North-Polo Grounds                                          ",
+                "Fordham South                                                              ",
+                "Jamaica                                                                    "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21,
+                    "shortest_values": [
+                        "West New Brighton-New Brighton-St. George",
+                        "Stuyvesant Heights                                                         ",
+                        "Bedford                                                                    ",
+                        "Brownsville                                                                ",
+                        "East New York                                                              "
+                    ],
+                    "longest_values": [
+                        "Morrisania-Melrose                                                         ",
+                        "Longwood                                                                   ",
+                        "Melrose South-Mott Haven North                                             ",
+                        "Mott Haven-Port Morris                                                     ",
+                        "Jamaica                                                                    "
+                    ],
+                    "average_length": 71.76190476190476
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

@@ -1,0 +1,137 @@
+{
+    "dataset_name": "ctpn-f4h4",
+    "columns": [
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 59,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "10/01/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 59,
+                    "max_value": "2017-10-01 00:00:00",
+                    "min_value": "2017-10-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 59,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 59,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.372881355932203
+                }
+            ]
+        },
+        {
+            "column_name": "Community_District",
+            "number_non_empty_cells": 59,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "Q05",
+                "Q10",
+                "K01",
+                "M09",
+                "M08"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 59,
+                    "shortest_values": [
+                        "M01",
+                        "B02",
+                        "B03",
+                        "B04",
+                        "B05"
+                    ],
+                    "longest_values": [
+                        "S03",
+                        "K03",
+                        "K15",
+                        "K14",
+                        "K13"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "DRS_CA_Recipients",
+            "number_non_empty_cells": 59,
+            "number_empty_cells": 0,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "3992",
+                "6232",
+                "2200",
+                "5063",
+                "5904"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 59,
+                    "max_value": 18478,
+                    "min_value": 371,
+                    "mean": 6223.322033898305,
+                    "stddev": 4661.337665144797
+                }
+            ]
+        },
+        {
+            "column_name": "DRS_CA_Cases",
+            "number_non_empty_cells": 59,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "2399",
+                "854",
+                "506",
+                "737",
+                "5351"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 59,
+                    "max_value": 9284,
+                    "min_value": 282,
+                    "mean": 3304.9322033898306,
+                    "stddev": 2304.1929199510996
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

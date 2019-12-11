@@ -1,0 +1,196 @@
+{
+    "dataset_name": "pasr-j7fb",
+    "columns": [
+        {
+            "column_name": "Incident Type",
+            "number_non_empty_cells": 8708,
+            "number_empty_cells": 0,
+            "number_distinct_values": 443,
+            "frequent_values": [
+                "Fire-2nd Alarm",
+                "Utility-Water Main",
+                "Law Enforcement-Suspicious Package",
+                "Fire-3rd Alarm",
+                "Fire-1st Alarm"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8708,
+                    "shortest_values": [
+                        "HazMat-BIO",
+                        "Fire-Drill",
+                        "Fire-Wires",
+                        "Fire-Other",
+                        "Fire-Brush"
+                    ],
+                    "longest_values": [
+                        "Utility-Staten Island Hospital - Air Conditioning Failure",
+                        "Structural-One Vehicle Collision With Building Damage",
+                        "Structural-Dangerous Condition - Tree Into a House",
+                        "HazMat-Disabled Tractor Trailer Carrying Asbestos",
+                        "Administration-New Year's Eve Times Square Event"
+                    ],
+                    "average_length": 20.448897565457052
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 7922,
+            "number_empty_cells": 786,
+            "number_distinct_values": 5890,
+            "frequent_values": [
+                "141 5th Avenue",
+                "Northern Boulevard & 114th Street",
+                "FDR Drive & East 14th Street",
+                "151 West 100 Street",
+                "702 44th street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7922,
+                    "shortest_values": [
+                        "JFK",
+                        "CIBUS",
+                        "Queens",
+                        "Bowery",
+                        "159 Ave"
+                    ],
+                    "longest_values": [
+                        "Westbound Long Island Expressway  & Springfield Blvd Overpass",
+                        "Cross Island Parkway Service Road Eastbound & 208 Place",
+                        "Beach 207 Street (Breezy Point) & Rockaway Point  Blvd",
+                        "Trans Manhattan Expressway & George Washington Bridge",
+                        "Arthur Kill Road at Bentley Street &  Bentley Street"
+                    ],
+                    "average_length": 19.74147942438778
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 8708,
+            "number_empty_cells": 0,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8708,
+                    "shortest_values": [
+                        "SI",
+                        "nyc",
+                        "Queen",
+                        "Bronx",
+                        "Essex"
+                    ],
+                    "longest_values": [
+                        "Staten Island (Midland Beach Area)",
+                        "Manhattan (Waldorf Astoria)",
+                        "Brooklyn (NYCHA-Brevoort)",
+                        "Richmond/Staten Island",
+                        "Manhattan (Pier 92)"
+                    ],
+                    "average_length": 7.848530087276068
+                }
+            ]
+        },
+        {
+            "column_name": "Creation Date",
+            "number_non_empty_cells": 8708,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6765,
+            "frequent_values": [
+                "07/19/2018 07:02:24 AM",
+                "01/04/2019 02:23:28 PM",
+                "09/28/2017 07:44:57 PM",
+                "12/23/2016 01:36:49 PM",
+                "04/03/2019 05:10:29 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 8708,
+                    "max_value": "2019-09-27 20:00:45",
+                    "min_value": "2011-05-04 06:03:58"
+                }
+            ]
+        },
+        {
+            "column_name": "Closed Date",
+            "number_non_empty_cells": 6768,
+            "number_empty_cells": 1940,
+            "number_distinct_values": 6768,
+            "frequent_values": [
+                "01/15/2019 07:39:14 PM",
+                "05/06/2015 05:46:45 PM",
+                "06/10/2015 06:37:07 PM",
+                "04/30/2018 12:43:46 PM",
+                "01/11/2017 02:24:40 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 6768,
+                    "max_value": "2019-09-28 03:28:29",
+                    "min_value": "2011-05-04 10:40:25"
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 7239,
+            "number_empty_cells": 1469,
+            "number_distinct_values": 5073,
+            "frequent_values": [
+                "40.71442154062271",
+                "40.71400364095638",
+                "40.74003718789318",
+                "40.758309",
+                "40.78499400000001"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 7239,
+                    "max_value": 40.91282761293594,
+                    "min_value": 40.499285245491734,
+                    "mean": 40.72927504852414,
+                    "stddev": 0.07582878856890526
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 7239,
+            "number_empty_cells": 1469,
+            "number_distinct_values": 5070,
+            "frequent_values": [
+                "-74.00607638041981",
+                "-73.82998933154158",
+                "-73.99063758200136",
+                "-73.85560199999999",
+                "-73.94091300000001"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 7239,
+                    "max_value": 74.0718,
+                    "min_value": -74.2520669496912,
+                    "mean": -73.9235403040199,
+                    "stddev": 1.7413496290098802
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

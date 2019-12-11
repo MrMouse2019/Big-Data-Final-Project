@@ -1,0 +1,301 @@
+{
+    "dataset_name": "4qii-5cz9",
+    "columns": [
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Q",
+                "X",
+                "K",
+                "M",
+                "R"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2347,
+                    "shortest_values": [
+                        "K",
+                        "M",
+                        "Q",
+                        "R",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "X",
+                        "R",
+                        "Q",
+                        "M",
+                        "K"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "GRADE LEVEL",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "09-12",
+                "MS Core",
+                "0K-09",
+                "08",
+                "05"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 813,
+                    "max_value": 8,
+                    "min_value": 1,
+                    "mean": 4.530135301353013,
+                    "stddev": 2.2956485080940556
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1534,
+                    "shortest_values": [
+                        "0K",
+                        "0K-09",
+                        "09-12",
+                        "MS Core"
+                    ],
+                    "longest_values": [
+                        "MS Core",
+                        "09-12",
+                        "0K-09",
+                        "0K"
+                    ],
+                    "average_length": 5.683833116036506
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRAM TYPE",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "GEN ED / CTT / G&T",
+                "GEN ED / CTT",
+                "SPEC ED"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2347,
+                    "shortest_values": [
+                        "SPEC ED",
+                        "GEN ED / CTT",
+                        "GEN ED / CTT / G&T"
+                    ],
+                    "longest_values": [
+                        "GEN ED / CTT / G&T",
+                        "GEN ED / CTT",
+                        "SPEC ED"
+                    ],
+                    "average_length": 13.070728589688965
+                }
+            ]
+        },
+        {
+            "column_name": "CORE SUBJECT \n(MS CORE and \n09-12 ONLY)",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "-",
+                "Science",
+                "Math",
+                "Social Studies",
+                "English"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2347,
+                    "shortest_values": [
+                        "-",
+                        "Math",
+                        "English",
+                        "Science",
+                        "Social Studies"
+                    ],
+                    "longest_values": [
+                        "Social Studies",
+                        "Science",
+                        "English",
+                        "Math",
+                        "-"
+                    ],
+                    "average_length": 4.950149126544525
+                }
+            ]
+        },
+        {
+            "column_name": "SERVICE CATEGORY\n(0K-08* ONLY)",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "-",
+                "12:1:1",
+                "12:1",
+                "6:1:1",
+                "8:1:1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 8,
+                    "min_value": 6,
+                    "mean": 6.75,
+                    "stddev": 0.82915619758885
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2343,
+                    "shortest_values": [
+                        "-",
+                        "12:1",
+                        "6:1:1",
+                        "8:1:1",
+                        "12:1:1"
+                    ],
+                    "longest_values": [
+                        "12:1:1",
+                        "8:1:1",
+                        "6:1:1",
+                        "12:1",
+                        "-"
+                    ],
+                    "average_length": 1.2052923602219376
+                }
+            ]
+        },
+        {
+            "column_name": "CLASS SIZE",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "15",
+                "28",
+                "25",
+                "26",
+                "27"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2121,
+                    "max_value": 34,
+                    "min_value": 6,
+                    "mean": 21.19000471475719,
+                    "stddev": 7.8818607242903616
+                },
+                {
+                    "type": "TEXT",
+                    "count": 226,
+                    "shortest_values": [
+                        "<6",
+                        "<15",
+                        ">34",
+                        ">15"
+                    ],
+                    "longest_values": [
+                        ">15",
+                        ">34",
+                        "<15",
+                        "<6"
+                    ],
+                    "average_length": 2.7610619469026547
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF CLASSES",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 236,
+            "frequent_values": [
+                "3",
+                "1",
+                "2",
+                "4",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2347,
+                    "max_value": 612,
+                    "min_value": 1,
+                    "mean": 46.65786109927567,
+                    "stddev": 61.681819809052506
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF STUDENTS",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1004,
+            "frequent_values": [
+                "60",
+                "42",
+                "18",
+                "72",
+                "30"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2347,
+                    "max_value": 20808,
+                    "min_value": 3,
+                    "mean": 1160.5509160630593,
+                    "stddev": 1862.8094350566232
+                }
+            ]
+        },
+        {
+            "column_name": "PERCENT OF STUDENTS IN BOROUGH / PROGRAM / GRADE / SUBJECT",
+            "number_non_empty_cells": 2347,
+            "number_empty_cells": 0,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "0.01",
+                "0.02",
+                "0.03",
+                "0.04",
+                "0.05"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 162,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.037037037037037035,
+                    "stddev": 0.18885257457751045
+                },
+                {
+                    "type": "REAL",
+                    "count": 2185,
+                    "max_value": 0.71,
+                    "min_value": 0.01,
+                    "mean": 0.06394965675057242,
+                    "stddev": 0.06244746794500621
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}
