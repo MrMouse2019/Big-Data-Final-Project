@@ -2,23 +2,23 @@
 import json
 
 def convert_col_name(val):
-	if val == 'LAT/LON coordinates':
-		val = 'lat_lon_cord'
-	if val == 'School Levels':
-		val = 'school_level'
-	if val == 'Websites':
-		val = 'website'
-	if val == 'Type of Location':
-		val = 'location_type'
-	if val == 'Parks/Playgrounds':
-		val = 'park_playground'
-	if val == 'College/University names':
-		val = 'college_name'
-	if val == 'Subjects in School':
-		val = 'subject_in_school'
-	if val == 'Areas of study':
-		val = 'area_of_study'
 	val = val.lower()
+	if val == 'LAT/LON coordinates'.lower():
+		val = 'lat_lon_cord'
+	if val == 'School Levels'.lower():
+		val = 'school_level'
+	if val == 'Websites'.lower():
+		val = 'website'
+	if val == 'Type of Location'.lower():
+		val = 'location_type'
+	if val == 'Parks/Playgrounds'.lower():
+		val = 'park_playground'
+	if val == 'College/University names'.lower():
+		val = 'college_name'
+	if val == 'Subjects in School'.lower():
+		val = 'subject_in_school'
+	if val == 'Areas of study'.lower():
+		val = 'area_of_study'
 	val = val.replace(' ', '_')
 	return val
 
