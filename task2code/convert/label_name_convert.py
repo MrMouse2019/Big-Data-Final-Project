@@ -16,6 +16,8 @@ def convert_col_name(val):
 		val = 'college_name'
 	if val == 'Subjects in School':
 		val = 'subject_in_school'
+	if val == 'Areas of study':
+		val = 'area_of_study'
 	val = val.lower()
 	val = val.replace(' ', '_')
 	return val
@@ -32,3 +34,4 @@ for column in columns:
 
 with open('task2-manual-labels-converted.json','w')as json_file:
     json.dump(data, json_file, indent=4)
+
