@@ -1,0 +1,688 @@
+{
+    "dataset_name": "fuhs-xmg2",
+    "columns": [
+        {
+            "column_name": "Date and Time of initial call",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 903,
+            "frequent_values": [
+                "12/04/2018 09:30:00 AM",
+                "08/21/2018 08:00:00 AM",
+                "08/09/2018 08:30:00 AM",
+                "08/16/2018 08:00:00 AM",
+                "11/09/2018 08:30:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 982,
+                    "max_value": "2019-06-12 09:20:00",
+                    "min_value": "2018-05-02 09:30:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Date and time of Ranger response",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 943,
+            "frequent_values": [
+                "07/18/2018 01:00:00 PM",
+                "11/06/2018 09:56:00 AM",
+                "10/15/2018 09:15:00 AM",
+                "11/09/2018 08:58:00 AM",
+                "11/07/2018 09:10:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 982,
+                    "max_value": "2019-06-12 09:20:00",
+                    "min_value": "2018-05-02 12:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Staten Island",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.424643584521386
+                }
+            ]
+        },
+        {
+            "column_name": "Property",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "Central Park",
+                "Prospect Park",
+                "Inwood Hill Park",
+                "Forest Park",
+                "Marine Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "PS 153",
+                        "Bronx Park",
+                        "Isham Park",
+                        "Bowne Park",
+                        "Haffen Park"
+                    ],
+                    "longest_values": [
+                        "Alley Pond Park Tennis Courts Near Court 16",
+                        "Ocean Breeze Track & Field Athletic Complex",
+                        "Franklin D. Roosevelt Boardwalk and Beach",
+                        "Hudson Yards entrance to Highline Park",
+                        "Flushing Meadows Corona Park Boathouse"
+                    ],
+                    "average_length": 14.962321792260692
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 920,
+            "number_empty_cells": 62,
+            "number_distinct_values": 868,
+            "frequent_values": [
+                "Willowbrook Lake",
+                "Harlem Meer",
+                "Picnic House",
+                "Loeb Boathouse",
+                "Parade Grounds"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 920,
+                    "shortest_values": [
+                        "IH",
+                        "VC",
+                        "n/a",
+                        "Pond",
+                        "Lake"
+                    ],
+                    "longest_values": [
+                        "In the Clove section of park, about 100 feet from Shorakapok Rock where the Orange trail diverges from the Blue. Was found next to the downed tree that bears the orange trail blaze. (40.873394, -73.924184)",
+                        "Underneath and east of Henry Hudson Bridge, White trail of inwood hill park, in middle of a desire line that leads to lesser known glacial rock formations. GPS (40.875924, -73.922876 )",
+                        "40.870932, -73.925640 In the Clove section of the park, south of the Rock Formations (AKA Indian Caves) East side of Blue trail underneath a large downed tree.",
+                        "In the Clove section of the park, east of the Rock Formations (AKA Indian Caves) East side of Blue trail, on top of the Shell Midden. (40.872589, -73.924204)",
+                        "At the Rock Formations (AKA Indian Caves) in The Clove section of the park. The unhealthy raccoon was seen in the lowest of the cave crevices"
+                    ],
+                    "average_length": 37.082608695652176
+                }
+            ]
+        },
+        {
+            "column_name": "Species Description",
+            "number_non_empty_cells": 970,
+            "number_empty_cells": 12,
+            "number_distinct_values": 146,
+            "frequent_values": [
+                "Raccoon",
+                "raccoon",
+                "Canada Goose",
+                "Chicken",
+                "Red-tailed Hawk"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 970,
+                    "shortest_values": [
+                        "Bat",
+                        "Cat",
+                        "Dog",
+                        "bat",
+                        "n/a"
+                    ],
+                    "longest_values": [
+                        "2 black back gulls and 1 pigeon",
+                        "Fledgling (possibly Starling)",
+                        "Freshwater Fish and Turtles",
+                        "Turtle/ Unspecified species",
+                        "Yellow Crowned Night Heron"
+                    ],
+                    "average_length": 8.414432989690722
+                }
+            ]
+        },
+        {
+            "column_name": "Call Source",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Conservancies/\"Friends of\" Groups",
+                "Employee",
+                "Central",
+                "Public",
+                "Other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "Other",
+                        "Public",
+                        "Central",
+                        "Employee",
+                        "Observed by Ranger"
+                    ],
+                    "longest_values": [
+                        "Conservancies/\"Friends of\" Groups",
+                        "Observed by Ranger",
+                        "Employee",
+                        "Central",
+                        "Public"
+                    ],
+                    "average_length": 15.007128309572302
+                }
+            ]
+        },
+        {
+            "column_name": "Species Status",
+            "number_non_empty_cells": 968,
+            "number_empty_cells": 14,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Native",
+                "Domestic",
+                "Invasive",
+                "Exotic"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 968,
+                    "shortest_values": [
+                        "Native",
+                        "Exotic",
+                        "Domestic",
+                        "Invasive"
+                    ],
+                    "longest_values": [
+                        "Invasive",
+                        "Domestic",
+                        "Exotic",
+                        "Native"
+                    ],
+                    "average_length": 6.18595041322314
+                }
+            ]
+        },
+        {
+            "column_name": "Animal Condition",
+            "number_non_empty_cells": 758,
+            "number_empty_cells": 224,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Unhealthy",
+                "Healthy",
+                "Injured",
+                "DOA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 758,
+                    "shortest_values": [
+                        "DOA",
+                        "Injured",
+                        "Healthy",
+                        "Unhealthy"
+                    ],
+                    "longest_values": [
+                        "Unhealthy",
+                        "Healthy",
+                        "Injured",
+                        "DOA"
+                    ],
+                    "average_length": 7.403693931398417
+                }
+            ]
+        },
+        {
+            "column_name": "Duration of Response",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "1",
+                "0.5",
+                "1.5",
+                "2",
+                "0.25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 426,
+                    "max_value": 21,
+                    "min_value": 0,
+                    "mean": 1.6971830985915493,
+                    "stddev": 1.3822623998581995
+                },
+                {
+                    "type": "REAL",
+                    "count": 556,
+                    "max_value": 4.5,
+                    "min_value": 0.05,
+                    "mean": 1.1544064748201435,
+                    "stddev": 0.8265727369412084
+                }
+            ]
+        },
+        {
+            "column_name": "Age",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Adult",
+                "Juvenile",
+                "Infant",
+                "Adult;#Juvenile",
+                "Adult;#Juvenile;#Infant"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "Adult",
+                        "Infant",
+                        "Juvenile",
+                        "Adult;#Juvenile",
+                        "Juvenile;#Adult"
+                    ],
+                    "longest_values": [
+                        "Adult;#Juvenile;#Infant",
+                        "Infant;#Juvenile",
+                        "Juvenile;#Adult",
+                        "Adult;#Juvenile",
+                        "Juvenile"
+                    ],
+                    "average_length": 5.871690427698574
+                }
+            ]
+        },
+        {
+            "column_name": "Animal Class",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Small Mammals-RVS",
+                "Birds",
+                "Domestic",
+                "Raptors",
+                "Small Mammals-non RVS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "Deer",
+                        "Birds",
+                        "Raptors",
+                        "Coyotes",
+                        "Domestic"
+                    ],
+                    "longest_values": [
+                        "Fish-numerous quantity;#Terrestrial Reptile or Amphibian",
+                        "Terrestrial Reptile or Amphibian",
+                        "Domestic;#Small Mammals-non RVS",
+                        "Marine Mammals-whales, Dolphin",
+                        "Domestic;#Small Mammals-RVS"
+                    ],
+                    "average_length": 14.231160896130346
+                }
+            ]
+        },
+        {
+            "column_name": "311SR Number",
+            "number_non_empty_cells": 584,
+            "number_empty_cells": 398,
+            "number_distinct_values": 534,
+            "frequent_values": [
+                "n/a",
+                "1-1-1636062570",
+                "1-1-1594820091",
+                "1-1-1642034892",
+                "1-1-1636492910"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 111591900350,
+                    "min_value": 111591900350,
+                    "mean": 111591900350.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 583,
+                    "shortest_values": [
+                        "n/a",
+                        "1-71-1055070",
+                        "1-1-15950040",
+                        "1-1-626701740",
+                        "1-1-171466824"
+                    ],
+                    "longest_values": [
+                        "1-1-161-111-2542",
+                        "1-1-1 7178168040",
+                        "1-1-1-6654050701",
+                        "1-11-5729099901",
+                        "1-1-16475333360"
+                    ],
+                    "average_length": 13.789022298456262
+                }
+            ]
+        },
+        {
+            "column_name": "Final Ranger Action",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "ACC",
+                "Unfounded",
+                "Relocated/Condition Corrected",
+                "Monitored Animal",
+                "Rehabilitator"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "ACC",
+                        "Unfounded",
+                        "Rehabilitator",
+                        "Monitored Animal",
+                        "Advised/Educated others"
+                    ],
+                    "longest_values": [
+                        "Relocated/Condition Corrected",
+                        "Submitted for DEC Testing",
+                        "Advised/Educated others",
+                        "Monitored Animal",
+                        "Rehabilitator"
+                    ],
+                    "average_length": 10.885947046843178
+                }
+            ]
+        },
+        {
+            "column_name": "# of Animals",
+            "number_non_empty_cells": 974,
+            "number_empty_cells": 8,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "1",
+                "0",
+                "2",
+                "3",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 974,
+                    "max_value": 11,
+                    "min_value": 0,
+                    "mean": 1.0903490759753593,
+                    "stddev": 0.7321098882086646
+                }
+            ]
+        },
+        {
+            "column_name": "PEP Response",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 2,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 980,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.973469387755102
+                }
+            ]
+        },
+        {
+            "column_name": "Animal Monitored",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 2,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 980,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.877551020408164
+                }
+            ]
+        },
+        {
+            "column_name": "Rehabilitator",
+            "number_non_empty_cells": 53,
+            "number_empty_cells": 929,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Wild Bird Fund",
+                "Bobby Horvath",
+                "Wildbird Fund",
+                "WBF",
+                "Wild Bird Fun"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 53,
+                    "shortest_values": [
+                        "WBF",
+                        "WINOR",
+                        "Wildbird Fund",
+                        "Bobby Horvath",
+                        "Wild Bird Fun"
+                    ],
+                    "longest_values": [
+                        "Animal Medical Center Manhattan",
+                        "Wild Bird Fund, Manhattan",
+                        "Wild Bird Fund Manhattan",
+                        "Animal Medical Center",
+                        "Wild Bird Fund"
+                    ],
+                    "average_length": 13.924528301886792
+                }
+            ]
+        },
+        {
+            "column_name": "Hours spent monitoring",
+            "number_non_empty_cells": 120,
+            "number_empty_cells": 862,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "0.5",
+                "1",
+                "0.25",
+                "2",
+                "1.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 42,
+                    "max_value": 4,
+                    "min_value": 1,
+                    "mean": 1.5238095238095237,
+                    "stddev": 0.8518354199999199
+                },
+                {
+                    "type": "REAL",
+                    "count": 78,
+                    "max_value": 3.5,
+                    "min_value": 0.15,
+                    "mean": 0.6666666666666666,
+                    "stddev": 0.6698960245894016
+                }
+            ]
+        },
+        {
+            "column_name": "Police Response",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 2,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 980,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.9714285714285715
+                }
+            ]
+        },
+        {
+            "column_name": "ESU Response",
+            "number_non_empty_cells": 982,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 982,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.993890020366599
+                }
+            ]
+        },
+        {
+            "column_name": "ACC Intake Number",
+            "number_non_empty_cells": 402,
+            "number_empty_cells": 580,
+            "number_distinct_values": 399,
+            "frequent_values": [
+                "47447 OR 47448 (see details)",
+                "44087",
+                "36061",
+                "1-1-1607314261",
+                "54677"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 388,
+                    "max_value": 86580,
+                    "min_value": 28316,
+                    "mean": 45502.17525773196,
+                    "stddev": 9259.85752630293
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14,
+                    "shortest_values": [
+                        "1  43639",
+                        "65379 65380",
+                        "36464/36465",
+                        "63836, 63837",
+                        "50616, 50617"
+                    ],
+                    "longest_values": [
+                        "47447 OR 47448 (see details)",
+                        "51650, 51652, 51653",
+                        "40180/40181/40182",
+                        "1-1-1599539332",
+                        "1-1-1607314261"
+                    ],
+                    "average_length": 15.142857142857142
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Date and Time of initial call",
+        "Date and time of Ranger response"
+    ]
+}

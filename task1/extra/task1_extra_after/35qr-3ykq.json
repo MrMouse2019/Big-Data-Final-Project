@@ -1,0 +1,210 @@
+{
+    "dataset_name": "35qr-3ykq",
+    "columns": [
+        {
+            "column_name": "Grade Level",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "HS Core",
+                "MS Core"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 101,
+                    "shortest_values": [
+                        "HS Core",
+                        "MS Core"
+                    ],
+                    "longest_values": [
+                        "MS Core",
+                        "HS Core"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Program Type",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "ICT",
+                "Gen Ed",
+                "SC",
+                "Accelerated",
+                "ICT & Acc"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 101,
+                    "shortest_values": [
+                        "SC",
+                        "ICT",
+                        "Gen Ed",
+                        "ICT & Acc",
+                        "Accelerated"
+                    ],
+                    "longest_values": [
+                        "Accelerated",
+                        "ICT & Acc",
+                        "Gen Ed",
+                        "ICT",
+                        "SC"
+                    ],
+                    "average_length": 4.257425742574258
+                }
+            ]
+        },
+        {
+            "column_name": "Department",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Math",
+                "Science",
+                "English",
+                "Social Studies"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 101,
+                    "shortest_values": [
+                        "Math",
+                        "English",
+                        "Science",
+                        "Social Studies"
+                    ],
+                    "longest_values": [
+                        "Social Studies",
+                        "Science",
+                        "English",
+                        "Math"
+                    ],
+                    "average_length": 7.435643564356436
+                }
+            ]
+        },
+        {
+            "column_name": "Subject",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "MS Integrated Algebra",
+                "MS Social Studies Other",
+                "MS English Core",
+                "MS Science Other",
+                "MS Math Other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 101,
+                    "shortest_values": [
+                        "HS Physics",
+                        "HS Geometry",
+                        "HS Chemistry",
+                        "MS Math Core",
+                        "HS Algebra I"
+                    ],
+                    "longest_values": [
+                        "HS Social Studies Other",
+                        "MS Social Studies Other",
+                        "MS Social Studies Core",
+                        "MS Integrated Algebra",
+                        "HS Living Environment"
+                    ],
+                    "average_length": 15.722772277227723
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Students",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "23361",
+                "479",
+                "99",
+                "823",
+                "49692"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 101,
+                    "max_value": 125165,
+                    "min_value": 7,
+                    "mean": 21563.663366336634,
+                    "stddev": 28534.093614855396
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Classes",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 95,
+            "frequent_values": [
+                "254",
+                "6",
+                "10",
+                "38",
+                "104"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 101,
+                    "max_value": 4501,
+                    "min_value": 1,
+                    "mean": 849.8613861386139,
+                    "stddev": 1050.341123557343
+                }
+            ]
+        },
+        {
+            "column_name": "Average Class Size",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "27.8",
+                "27.9",
+                "27.4",
+                "27.5",
+                "26.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10,
+                    "max_value": 30,
+                    "min_value": 7,
+                    "mean": 19.6,
+                    "stddev": 8.924124606929244
+                },
+                {
+                    "type": "REAL",
+                    "count": 91,
+                    "max_value": 29.4,
+                    "min_value": 8.4,
+                    "mean": 22.1010989010989,
+                    "stddev": 7.589763124559415
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Grade Level",
+        "Program Type"
+    ]
+}

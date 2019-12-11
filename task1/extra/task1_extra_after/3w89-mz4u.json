@@ -1,0 +1,182 @@
+{
+    "dataset_name": "3w89-mz4u",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Bronx",
+                "Queens",
+                "Staten Is"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 152,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Is"
+                    ],
+                    "longest_values": [
+                        "Staten Is",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.427631578947368
+                }
+            ]
+        },
+        {
+            "column_name": "Grade Level",
+            "number_non_empty_cells": 152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "K-8 SC",
+                "4",
+                "3",
+                "2",
+                "K"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 115,
+                    "max_value": 8,
+                    "min_value": 1,
+                    "mean": 4.052173913043478,
+                    "stddev": 2.1582741827708367
+                },
+                {
+                    "type": "TEXT",
+                    "count": 37,
+                    "shortest_values": [
+                        "K",
+                        "K-8 SC"
+                    ],
+                    "longest_values": [
+                        "K-8 SC",
+                        "K"
+                    ],
+                    "average_length": 3.8378378378378377
+                }
+            ]
+        },
+        {
+            "column_name": "Program Type",
+            "number_non_empty_cells": 152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "ICT",
+                "Gen Ed",
+                "G&T",
+                "ICT & G&T",
+                "SC 12:1:1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 152,
+                    "shortest_values": [
+                        "G&T",
+                        "ICT",
+                        "Gen Ed",
+                        "SC 12:1",
+                        "SC 15:1"
+                    ],
+                    "longest_values": [
+                        "SC 12:1:1",
+                        "ICT & G&T",
+                        "SC 6:1:1",
+                        "SC 8:1:1",
+                        "SC 15:1"
+                    ],
+                    "average_length": 4.993421052631579
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Students",
+            "number_non_empty_cells": 152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 149,
+            "frequent_values": [
+                "82",
+                "112",
+                "3138",
+                "1001",
+                "12625"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 152,
+                    "max_value": 14886,
+                    "min_value": 2,
+                    "mean": 4083.8223684210525,
+                    "stddev": 4267.620918494675
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Classes",
+            "number_non_empty_cells": 152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 109,
+            "frequent_values": [
+                "1",
+                "6",
+                "5",
+                "7",
+                "23"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 152,
+                    "max_value": 809,
+                    "min_value": 1,
+                    "mean": 175.8684210526316,
+                    "stddev": 185.2714468091889
+                }
+            ]
+        },
+        {
+            "column_name": "Average Class Size",
+            "number_non_empty_cells": 152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 81,
+            "frequent_values": [
+                "26.7",
+                "27.3",
+                "27.6",
+                "26.0",
+                "25.0"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 152,
+                    "max_value": 32.0,
+                    "min_value": 2.0,
+                    "mean": 23.228289473684214,
+                    "stddev": 6.712737477551224
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "Grade Level"
+    ]
+}

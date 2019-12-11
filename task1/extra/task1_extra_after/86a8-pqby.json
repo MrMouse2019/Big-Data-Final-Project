@@ -1,0 +1,201 @@
+{
+    "dataset_name": "86a8-pqby",
+    "columns": [
+        {
+            "column_name": "Inventory ID",
+            "number_non_empty_cells": 49647,
+            "number_empty_cells": 0,
+            "number_distinct_values": 49647,
+            "frequent_values": [
+                "26489",
+                "17447",
+                "7110",
+                "16253",
+                "54559"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49647,
+                    "max_value": 63711,
+                    "min_value": 4,
+                    "mean": 29574.509980462062,
+                    "stddev": 19065.041734322964
+                }
+            ]
+        },
+        {
+            "column_name": "Prop ID",
+            "number_non_empty_cells": 49647,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3758,
+            "frequent_values": [
+                "Q411-G01",
+                "B057-G01",
+                "Q015-G01",
+                "B028-G01",
+                "R104-G01"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49647,
+                    "shortest_values": [
+                        "X196",
+                        "Q052",
+                        "X059",
+                        "BZ01",
+                        "B100"
+                    ],
+                    "longest_values": [
+                        "M010-ZN22&23",
+                        "M010-ZN10&11",
+                        "M010-ZN24&25",
+                        "M010-ZN12&13",
+                        "M010-ZN18&19"
+                    ],
+                    "average_length": 5.799947630269704
+                }
+            ]
+        },
+        {
+            "column_name": "Feature",
+            "number_non_empty_cells": 49647,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "Paved Surfaces",
+                "Sidewalks",
+                "Fences",
+                "Play Equipment",
+                "Horticultural Areas"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49647,
+                    "shortest_values": [
+                        "Lawn",
+                        "Lawns",
+                        "Trees",
+                        "Rough",
+                        "Greens"
+                    ],
+                    "longest_values": [
+                        "Horticultural areas",
+                        "Horticultural Areas",
+                        "Athletic Fields",
+                        "Play Equipment",
+                        "Safety Surface"
+                    ],
+                    "average_length": 10.965395693596793
+                }
+            ]
+        },
+        {
+            "column_name": "Type",
+            "number_non_empty_cells": 49647,
+            "number_empty_cells": 0,
+            "number_distinct_values": 268,
+            "frequent_values": [
+                "Concrete Curbs",
+                "Concrete Flags",
+                "Bushes",
+                "Belgian Blocks",
+                "Concrete"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49647,
+                    "shortest_values": [
+                        "Bay",
+                        "1-5",
+                        "PFU",
+                        ">10",
+                        "Wire"
+                    ],
+                    "longest_values": [
+                        "Football/Soccer Fields - Artificial",
+                        "\"C\" Multi-Use Fields - Artificial",
+                        "\"B\" Softball Fields - Artificial",
+                        "Football/Soccer Fields - Natural",
+                        "\"B\" Baseball Fields - Artificial"
+                    ],
+                    "average_length": 10.487038491751768
+                }
+            ]
+        },
+        {
+            "column_name": "Category",
+            "number_non_empty_cells": 49638,
+            "number_empty_cells": 9,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Structural Features",
+                "Landscape Features",
+                "Structural features",
+                "Landscape Featuers",
+                "Structural Featres"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49638,
+                    "shortest_values": [
+                        "Landscape Features",
+                        "Landscape Featuers",
+                        "Structural Featres",
+                        "Structural Features",
+                        "Structural features"
+                    ],
+                    "longest_values": [
+                        "Structural features",
+                        "Structural Features",
+                        "Structural Featres",
+                        "Landscape Featuers",
+                        "Landscape Features"
+                    ],
+                    "average_length": 18.75399895241549
+                }
+            ]
+        },
+        {
+            "column_name": "Sub-Category",
+            "number_non_empty_cells": 1347,
+            "number_empty_cells": 48300,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "Manual",
+                "Natural Turf",
+                "Artificial Turf",
+                "Timer",
+                "Hard Surface"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1347,
+                    "shortest_values": [
+                        "Clay",
+                        "Timer",
+                        "Folly",
+                        "Touch",
+                        "Manual"
+                    ],
+                    "longest_values": [
+                        "Industrial Structure",
+                        "Concrete, Gravel",
+                        "Artificial Turf",
+                        "Flowers & Trees",
+                        "Touch/Manual"
+                    ],
+                    "average_length": 9.424647364513735
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Inventory ID"
+    ]
+}

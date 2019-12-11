@@ -1,0 +1,170 @@
+{
+    "dataset_name": "nwrb-z58j",
+    "columns": [
+        {
+            "column_name": "DISTRICT###",
+            "number_non_empty_cells": 1559,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "4",
+                "22",
+                "25",
+                "2",
+                "27"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1559,
+                    "max_value": 32,
+                    "min_value": 1,
+                    "mean": 16.522771007055805,
+                    "stddev": 9.259530105449883
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRAM",
+            "number_non_empty_cells": 1559,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "GENERAL EDUCATION",
+                "GENERAL EDUCATION ",
+                "COLLABORATIVE TEAM TEACHING    ",
+                "SPECIAL CLASS - High School",
+                "GIFTED & TALENTED    "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1559,
+                    "shortest_values": [
+                        "GENERAL EDUCATION",
+                        "GENERAL EDUCATION ",
+                        "GIFTED & TALENTED    ",
+                        "SPECIAL CLASS - Grades K-9#",
+                        "SPECIAL CLASS - High School"
+                    ],
+                    "longest_values": [
+                        "COLLABORATIVE TEAM TEACHING    ",
+                        "SPECIAL CLASS - High School",
+                        "SPECIAL CLASS - Grades K-9#",
+                        "GIFTED & TALENTED    ",
+                        "GENERAL EDUCATION "
+                    ],
+                    "average_length": 22.118024374599102
+                }
+            ]
+        },
+        {
+            "column_name": "GRADE OR SERVICE CATEGORY##",
+            "number_non_empty_cells": 1559,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Mainstream",
+                "9",
+                "11",
+                "10",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1159,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 7.138050043140638,
+                    "stddev": 3.5287445299718536
+                },
+                {
+                    "type": "TEXT",
+                    "count": 400,
+                    "shortest_values": [
+                        "Mainstream",
+                        "Self-Contained",
+                        "09#           ",
+                        "12:1           ",
+                        "12:1:1         "
+                    ],
+                    "longest_values": [
+                        "Kindergarten             ",
+                        "12:1:1         ",
+                        "12:1           ",
+                        "09#           ",
+                        "Self-Contained"
+                    ],
+                    "average_length": 15.08
+                }
+            ]
+        },
+        {
+            "column_name": "CORE COURSE(High Schools only)",
+            "number_non_empty_cells": 763,
+            "number_empty_cells": 796,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "MATH   ",
+                "SCIENCE",
+                "ENGLISH",
+                "SOCIAL STUDIES"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 763,
+                    "shortest_values": [
+                        "ENGLISH",
+                        "MATH   ",
+                        "SCIENCE",
+                        "SOCIAL STUDIES"
+                    ],
+                    "longest_values": [
+                        "SOCIAL STUDIES",
+                        "SCIENCE",
+                        "MATH   ",
+                        "ENGLISH"
+                    ],
+                    "average_length": 8.743119266055047
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE CLASS SIZE",
+            "number_non_empty_cells": 1559,
+            "number_empty_cells": 0,
+            "number_distinct_values": 230,
+            "frequent_values": [
+                "27.8",
+                "27.2",
+                "25.6",
+                "26.4",
+                "28.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 202,
+                    "max_value": 33,
+                    "min_value": 7,
+                    "mean": 23.514851485148515,
+                    "stddev": 5.633376247707974
+                },
+                {
+                    "type": "REAL",
+                    "count": 1357,
+                    "max_value": 34.2,
+                    "min_value": 7.2,
+                    "mean": 23.45873249815765,
+                    "stddev": 5.645406831245239
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "DISTRICT###",
+        "PROGRAM"
+    ]
+}

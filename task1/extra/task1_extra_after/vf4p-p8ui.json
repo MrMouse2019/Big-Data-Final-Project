@@ -1,0 +1,630 @@
+{
+    "dataset_name": "vf4p-p8ui",
+    "columns": [
+        {
+            "column_name": "Publication Date",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "2018 11 8",
+                "2017 11 21",
+                "2016 11 17"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5155,
+                    "max_value": "2018-11-08 00:00:00",
+                    "min_value": "2016-11-17 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "2019",
+                "2018",
+                "2017"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 2019,
+                    "min_value": 2017,
+                    "mean": 2018.066731328807,
+                    "stddev": 0.8259896245840928
+                }
+            ]
+        },
+        {
+            "column_name": "Fundind Source Name",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Federal Grants",
+                "City Funds",
+                "State Grants",
+                "Intra-City",
+                "Other Categorical Grants"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "City Funds",
+                        "Intra-City",
+                        "State Grants",
+                        "Federal Grants",
+                        "Inter Fund Agreements"
+                    ],
+                    "longest_values": [
+                        "Other Categorical Grants",
+                        "Community Development",
+                        "Inter Fund Agreements",
+                        "Federal Grants",
+                        "State Grants"
+                    ],
+                    "average_length": 13.761590688651795
+                }
+            ]
+        },
+        {
+            "column_name": "FPS Group",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "35",
+                "24",
+                "30",
+                "40",
+                "19"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 40,
+                    "min_value": 1,
+                    "mean": 30.012027158098935,
+                    "stddev": 7.503445756348644
+                }
+            ]
+        },
+        {
+            "column_name": "FPS Group Name",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "Other - Federal",
+                "Intra-City Revenue",
+                "Other Categorical Grants",
+                "Other - State Grants",
+                "Charges for Service"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "Hotel",
+                        "Utility",
+                        "Cigarette",
+                        "All Other",
+                        "Sale and Use"
+                    ],
+                    "longest_values": [
+                        "Reserve for Disallowance of Categorical Grants",
+                        "Department of Health and Mental Hygiene - St",
+                        "Community Development - Federal",
+                        "State Tax Relief Program - STAR",
+                        "Licenses, Permits & Franchises"
+                    ],
+                    "average_length": 19.562754607177496
+                }
+            ]
+        },
+        {
+            "column_name": "Agency Number",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 79,
+            "frequent_values": [
+                "816",
+                "806",
+                "846",
+                "056",
+                "841"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5154,
+                    "max_value": 945,
+                    "min_value": 2,
+                    "mean": 505.1720993403182,
+                    "stddev": 385.2631473855098
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 816.0,
+                    "min_value": 816.0,
+                    "mean": 816.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 78,
+            "frequent_values": [
+                "Department of Health and Mental Hygiene",
+                "Housing Preservation and Development",
+                "Department of Parks and Recreation",
+                "Police Department",
+                "Department of Transportation"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "Mayoralty",
+                        "City Clerk",
+                        "Debt Service",
+                        "Miscellaneous",
+                        "Law Department"
+                    ],
+                    "longest_values": [
+                        "Department of Information Technology and Telecommunications",
+                        "Department of Records and Information Services",
+                        "Department of Citywide Administrative Services",
+                        "Department of Youth and Community Development",
+                        "Office of Administrative Trials and Hearings"
+                    ],
+                    "average_length": 30.666925315227935
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Category",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "25",
+                "22",
+                "26",
+                "27",
+                "24"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 90,
+                    "min_value": 20,
+                    "mean": 25.031231813773037,
+                    "stddev": 5.390115098184191
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Category Name",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "CHARGES FOR SERVICES",
+                "Federal Grants and Contracts-Categorical",
+                "Non-Governmental Grants",
+                "State Grants and Contracts-Categorical",
+                "Federal Grants-Categorical"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "TAXES",
+                        "MISCELLANEOUS",
+                        "INTEREST INCOME",
+                        "CHARGES FOR SERVICES",
+                        "FINES AND FOREITURES"
+                    ],
+                    "longest_values": [
+                        "Federal Grants and Contracts-Categorical",
+                        "State Grants and Contracts-Categorical",
+                        "Unrestricted Federal and State Aid",
+                        "LICENS. PERM. PRIV, FRANCHISES",
+                        "ANTICIPATED REVENUE INCREASES"
+                    ],
+                    "average_length": 27.668089233753637
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Class Code",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 74,
+            "frequent_values": [
+                "013",
+                "039",
+                "293",
+                "010",
+                "214"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5154,
+                    "max_value": 437,
+                    "min_value": 1,
+                    "mean": 166.77396197128445,
+                    "stddev": 157.06643835822038
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 414.0,
+                    "min_value": 414.0,
+                    "mean": 414.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Class Name",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 68,
+            "frequent_values": [
+                "INTRA-CITY CHARGES",
+                "NONGOVT GRANTS-OTHER",
+                "Health and Human Services",
+                "GENERAL GOVERNMENTAL CHARGES",
+                "HOUSING AND URBAN DEVELOPMENT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "OTHER",
+                        "LABOR",
+                        "STATE",
+                        "YOUTH",
+                        "AGING"
+                    ],
+                    "longest_values": [
+                        "U.S. SOCIAL SECURITY ADMINISTRATION",
+                        "DEPARTMENT of  HOMELAND SECURITY",
+                        "NONGOVT GRANTS-HEALTH/HOSPITAL",
+                        "ANTICIPATED REVENUE INCREASES",
+                        "NONGOVT GRANTS-HIGHWAYS & STS"
+                    ],
+                    "average_length": 18.935596508244423
+                }
+            ]
+        },
+        {
+            "column_name": "Budget Code",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1373,
+            "frequent_values": [
+                "0421",
+                "0302",
+                "0031",
+                "8000",
+                "8701"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4958,
+                    "max_value": 9920,
+                    "min_value": 17,
+                    "mean": 3429.1811214199274,
+                    "stddev": 2871.240419621401
+                },
+                {
+                    "type": "TEXT",
+                    "count": 197,
+                    "shortest_values": [
+                        "Z231",
+                        "B710",
+                        "E104",
+                        "Z031",
+                        "E571"
+                    ],
+                    "longest_values": [
+                        "8,701.00",
+                        "Z101",
+                        "A800",
+                        "A421",
+                        "Z850"
+                    ],
+                    "average_length": 4.020304568527918
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Source",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 615,
+            "frequent_values": [
+                "00595",
+                "43900",
+                "50002",
+                "00470",
+                "00859"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5154,
+                    "max_value": 99990,
+                    "min_value": 1,
+                    "mean": 17092.46158323632,
+                    "stddev": 18723.868274178745
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "23,980.00"
+                    ],
+                    "longest_values": [
+                        "23,980.00"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Source Name",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 598,
+            "frequent_values": [
+                "OTHER SERVICES/FEES",
+                "PRIVATE GRANTS",
+                "Continuum of Care - Shelter Plus Care",
+                "OTHER SERVICES AND FEES",
+                "SUNDRIES"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "WORK NOW",
+                        "TRAINING",
+                        "ADOPTION",
+                        "SUNDRIES",
+                        "SHELTERS"
+                    ],
+                    "longest_values": [
+                        "HIV Prevention Activities Non-Governmental Organization Base",
+                        "Supplemental Nutrition Assistance Program, Process and Techn",
+                        "Protecting Inmates and Safeguarding Communities Dis Gnt Prog",
+                        "Epidemiology and Laboratory Capacity for Infectious Diseases",
+                        "State and Local Public Health Actions to Prevent Obesity, Di"
+                    ],
+                    "average_length": 25.267313288069836
+                }
+            ]
+        },
+        {
+            "column_name": "Revenue Structure Description",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1917,
+            "frequent_values": [
+                "OTHER SERVICES/FEES",
+                "SARA GRANT - LGRMIF",
+                "FEMA SANDY E BUILDINGS AND EQUIPMENT",
+                "STOP D. W.I. PROGRAM",
+                "PLANYC ENERGY - DCAS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5155,
+                    "shortest_values": [
+                        "TRAINING",
+                        "SUNDRIES",
+                        "TANF-EAF",
+                        "IC-OTHER",
+                        "CONH FEE"
+                    ],
+                    "longest_values": [
+                        "SAFE STEPS TO TRANSIT PHASE 1 INCREASE PEDESTRIAN ACCESSIBILITY TO BUS AND RAIL",
+                        "SUCCEED PGM - SCALING UP CO-INFECTION CARE & ELIMINATING ETHNIC DISPARITIES",
+                        "ESTABLISHING METRICS & MONITORING FOR COASTAL GREEN INFRASTRUCTURE FOR NYS",
+                        "SEC 5310 RAISED CROSSWALK AND INTERSECTION-ACCESSIBILITY IMPROVEMENTS",
+                        "EBOLA-PPHF 2014 EPIDEMIOLOGY & LAB CAPACITY FOR  INFECTIOUS DISEASES"
+                    ],
+                    "average_length": 26.147429679922407
+                }
+            ]
+        },
+        {
+            "column_name": "Adopted Budget Amount",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1844,
+            "frequent_values": [
+                "0",
+                "50000",
+                "1000000",
+                "150000",
+                "100000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 13646000000,
+                    "min_value": -1268000000,
+                    "mean": 50808385.35518914,
+                    "stddev": 573780814.9358187
+                }
+            ]
+        },
+        {
+            "column_name": "Current Modified Budget Amount",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3119,
+            "frequent_values": [
+                "0",
+                "100000",
+                "150000",
+                "50000",
+                "1000000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 13646000000,
+                    "min_value": -1268000000,
+                    "mean": 51422272.36973812,
+                    "stddev": 573946480.9485186
+                }
+            ]
+        },
+        {
+            "column_name": "Yr1_FY",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "2019",
+                "2018",
+                "2017"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 2019,
+                    "min_value": 2017,
+                    "mean": 2018.066731328807,
+                    "stddev": 0.8259896245840928
+                }
+            ]
+        },
+        {
+            "column_name": "Year 1 Revenue Amount",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3158,
+            "frequent_values": [
+                "0",
+                "100000",
+                "150000",
+                "1000000",
+                "50000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 13890000000,
+                    "min_value": -1268000000,
+                    "mean": 51617556.20116392,
+                    "stddev": 573883900.6111145
+                }
+            ]
+        },
+        {
+            "column_name": "Year 2 Revenue Amount",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1682,
+            "frequent_values": [
+                "0",
+                "1000000",
+                "50000",
+                "150000",
+                "200000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 14272000000,
+                    "min_value": -1303000000,
+                    "mean": 52233829.41901067,
+                    "stddev": 600969969.6458805
+                }
+            ]
+        },
+        {
+            "column_name": "Year 3 Revenue Amount",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1586,
+            "frequent_values": [
+                "0",
+                "1000000",
+                "50000",
+                "150000",
+                "10000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 14746000000,
+                    "min_value": -1356000000,
+                    "mean": 53940393.98758487,
+                    "stddev": 627938742.0401595
+                }
+            ]
+        },
+        {
+            "column_name": "Year 4 Revenue Amount",
+            "number_non_empty_cells": 5155,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1545,
+            "frequent_values": [
+                "0",
+                "1000000",
+                "50000",
+                "150000",
+                "10000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5155,
+                    "max_value": 15122000000,
+                    "min_value": -1400000000,
+                    "mean": 55454061.93326867,
+                    "stddev": 651226234.6530656
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Publication Date",
+        "Fiscal Year"
+    ]
+}

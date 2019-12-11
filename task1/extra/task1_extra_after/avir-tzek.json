@@ -1,0 +1,636 @@
+{
+    "dataset_name": "avir-tzek",
+    "columns": [
+        {
+            "column_name": "Demographic",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Borough Total",
+                "Female",
+                "Asian",
+                "English Proficient Students",
+                "Special Education"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 385,
+                    "shortest_values": [
+                        "Male",
+                        "Asian",
+                        "Black",
+                        "White",
+                        "Female"
+                    ],
+                    "longest_values": [
+                        "English Proficient Students",
+                        "English Language Learners",
+                        "General Education",
+                        "Special Education",
+                        "Borough Total"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Staten Island",
+                "Manhattan",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 385,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Aug 2006",
+                "2005",
+                "2004",
+                "2006",
+                "2001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 330,
+                    "max_value": 2006,
+                    "min_value": 2001,
+                    "mean": 2003.5,
+                    "stddev": 1.707825127659933
+                },
+                {
+                    "type": "TEXT",
+                    "count": 55,
+                    "shortest_values": [
+                        "Aug 2006"
+                    ],
+                    "longest_values": [
+                        "Aug 2006"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Total Cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 324,
+            "frequent_values": [
+                "153",
+                "636",
+                "778",
+                "10202",
+                "22177"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 22353,
+                    "min_value": 153,
+                    "mean": 6664.6,
+                    "stddev": 5760.5519023111565
+                }
+            ]
+        },
+        {
+            "column_name": "Total Grads - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 379,
+            "frequent_values": [
+                "691",
+                "479",
+                "4091",
+                "429",
+                "349"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 14043,
+                    "min_value": 36,
+                    "mean": 3824.548051948052,
+                    "stddev": 3505.257232853279
+                }
+            ]
+        },
+        {
+            "column_name": "Total Grads - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 289,
+            "frequent_values": [
+                "51.7",
+                "61.9",
+                "61.1",
+                "72.7",
+                "41.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 39,
+                    "max_value": 86,
+                    "min_value": 15,
+                    "mean": 57.0,
+                    "stddev": 16.812693617224657
+                },
+                {
+                    "type": "REAL",
+                    "count": 346,
+                    "max_value": 89.5,
+                    "min_value": 13.7,
+                    "mean": 55.71849710982663,
+                    "stddev": 16.68597777742496
+                }
+            ]
+        },
+        {
+            "column_name": "Total Regents - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 367,
+            "frequent_values": [
+                "396",
+                "4905",
+                "5618",
+                "1678",
+                "3861"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 10945,
+                    "min_value": 15,
+                    "mean": 2828.4727272727273,
+                    "stddev": 2725.5862679067154
+                }
+            ]
+        },
+        {
+            "column_name": "Total Regents - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 292,
+            "frequent_values": [
+                "44.9",
+                "55",
+                "51.4",
+                "28.5",
+                "42.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 42,
+                    "max_value": 77,
+                    "min_value": 4,
+                    "mean": 43.38095238095238,
+                    "stddev": 19.53013834704904
+                },
+                {
+                    "type": "REAL",
+                    "count": 343,
+                    "max_value": 83.4,
+                    "min_value": 1.8,
+                    "mean": 40.90728862973762,
+                    "stddev": 18.969542242281637
+                }
+            ]
+        },
+        {
+            "column_name": "Total Regents - % of grads",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 279,
+            "frequent_values": [
+                "77.6",
+                "72.2",
+                "76.8",
+                "83.8",
+                "82.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 35,
+                    "max_value": 95,
+                    "min_value": 15,
+                    "mean": 71.02857142857142,
+                    "stddev": 18.497081954090124
+                },
+                {
+                    "type": "REAL",
+                    "count": 350,
+                    "max_value": 95.3,
+                    "min_value": 12.9,
+                    "mean": 68.57599999999995,
+                    "stddev": 17.677569192946997
+                }
+            ]
+        },
+        {
+            "column_name": "Advanced Regents - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 331,
+            "frequent_values": [
+                "13",
+                "8",
+                "573",
+                "85",
+                "461"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 3763,
+                    "min_value": 1,
+                    "mean": 1050.2467532467533,
+                    "stddev": 1036.4323491851806
+                }
+            ]
+        },
+        {
+            "column_name": "Advanced Regents - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 235,
+            "frequent_values": [
+                "8",
+                "0.6",
+                "1.4",
+                "8.1",
+                "8.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 39,
+                    "max_value": 61,
+                    "min_value": 1,
+                    "mean": 15.564102564102564,
+                    "stddev": 12.70734669756219
+                },
+                {
+                    "type": "REAL",
+                    "count": 346,
+                    "max_value": 59.8,
+                    "min_value": 0.1,
+                    "mean": 17.14277456647399,
+                    "stddev": 13.285663851613949
+                }
+            ]
+        },
+        {
+            "column_name": "Advanced Regents - % of grads",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 267,
+            "frequent_values": [
+                "19.8",
+                "29.3",
+                "33.2",
+                "26.7",
+                "28.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28,
+                    "max_value": 62,
+                    "min_value": 4,
+                    "mean": 27.285714285714285,
+                    "stddev": 12.679728317439679
+                },
+                {
+                    "type": "REAL",
+                    "count": 357,
+                    "max_value": 70.4,
+                    "min_value": 0.4,
+                    "mean": 26.496358543417358,
+                    "stddev": 15.881085173615011
+                }
+            ]
+        },
+        {
+            "column_name": "Regents w/o Advanced - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 364,
+            "frequent_values": [
+                "88",
+                "66",
+                "122",
+                "601",
+                "264"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 7182,
+                    "min_value": 12,
+                    "mean": 1778.225974025974,
+                    "stddev": 1749.42619115137
+                }
+            ]
+        },
+        {
+            "column_name": "Regents w/o Advanced - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 237,
+            "frequent_values": [
+                "19.9",
+                "24.4",
+                "22.4",
+                "32.4",
+                "21.4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 29,
+                    "max_value": 38,
+                    "min_value": 3,
+                    "mean": 25.17241379310345,
+                    "stddev": 8.777199952216483
+                },
+                {
+                    "type": "REAL",
+                    "count": 356,
+                    "max_value": 45.6,
+                    "min_value": 1.5,
+                    "mean": 24.112921348314615,
+                    "stddev": 9.419812458144955
+                }
+            ]
+        },
+        {
+            "column_name": "Regents w/o Advanced - % of grads",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 237,
+            "frequent_values": [
+                "42",
+                "45.2",
+                "52.9",
+                "43.5",
+                "42.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 33,
+                    "max_value": 60,
+                    "min_value": 11,
+                    "mean": 39.06060606060606,
+                    "stddev": 11.752341852866174
+                },
+                {
+                    "type": "REAL",
+                    "count": 352,
+                    "max_value": 66.3,
+                    "min_value": 11.7,
+                    "mean": 42.540340909090894,
+                    "stddev": 10.364535681051082
+                }
+            ]
+        },
+        {
+            "column_name": "Local - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 353,
+            "frequent_values": [
+                "122",
+                "2226",
+                "158",
+                "254",
+                "276"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 3591,
+                    "min_value": 21,
+                    "mean": 996.8415584415584,
+                    "stddev": 878.4056828865822
+                }
+            ]
+        },
+        {
+            "column_name": "Local - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 151,
+            "frequent_values": [
+                "15.2",
+                "14.4",
+                "14.7",
+                "13.7",
+                "12.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 32,
+                    "max_value": 19,
+                    "min_value": 5,
+                    "mean": 14.15625,
+                    "stddev": 4.176641705664971
+                },
+                {
+                    "type": "REAL",
+                    "count": 353,
+                    "max_value": 27.6,
+                    "min_value": 3.8,
+                    "mean": 14.730878186968845,
+                    "stddev": 3.974234805377978
+                }
+            ]
+        },
+        {
+            "column_name": "Local - % of grads",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 276,
+            "frequent_values": [
+                "29.2",
+                "17.5",
+                "22.4",
+                "20.9",
+                "27.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 36,
+                    "max_value": 79,
+                    "min_value": 5,
+                    "mean": 27.11111111111111,
+                    "stddev": 16.370328473216038
+                },
+                {
+                    "type": "REAL",
+                    "count": 349,
+                    "max_value": 87.7,
+                    "min_value": 4.7,
+                    "mean": 31.663323782235,
+                    "stddev": 17.90238499137492
+                }
+            ]
+        },
+        {
+            "column_name": "Still Enrolled - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 368,
+            "frequent_values": [
+                "238",
+                "2951",
+                "561",
+                "3512",
+                "40"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 6571,
+                    "min_value": 21,
+                    "mean": 1708.3818181818183,
+                    "stddev": 1514.9866699278343
+                }
+            ]
+        },
+        {
+            "column_name": "Still Enrolled - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 235,
+            "frequent_values": [
+                "18.2",
+                "26.2",
+                "31.2",
+                "19.4",
+                "32.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 46,
+                    "max_value": 45,
+                    "min_value": 5,
+                    "mean": 26.52173913043478,
+                    "stddev": 8.699672983446195
+                },
+                {
+                    "type": "REAL",
+                    "count": 339,
+                    "max_value": 50.7,
+                    "min_value": 4.8,
+                    "mean": 25.566666666666634,
+                    "stddev": 8.821496493980693
+                }
+            ]
+        },
+        {
+            "column_name": "Dropped Out - n",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 340,
+            "frequent_values": [
+                "77",
+                "1052",
+                "90",
+                "424",
+                "87"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 385,
+                    "max_value": 3547,
+                    "min_value": 6,
+                    "mean": 909.1194805194805,
+                    "stddev": 774.0292831533897
+                }
+            ]
+        },
+        {
+            "column_name": "Dropped Out - % of cohort",
+            "number_non_empty_cells": 385,
+            "number_empty_cells": 0,
+            "number_distinct_values": 185,
+            "frequent_values": [
+                "13.5",
+                "10.8",
+                "8.8",
+                "16.1",
+                "12.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 35,
+                    "min_value": 5,
+                    "mean": 14.4,
+                    "stddev": 6.140575434490376
+                },
+                {
+                    "type": "REAL",
+                    "count": 355,
+                    "max_value": 38.3,
+                    "min_value": 1.6,
+                    "mean": 14.17830985915493,
+                    "stddev": 6.096071925270553
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Demographic",
+        "Borough"
+    ]
+}

@@ -1,0 +1,1903 @@
+{
+    "dataset_name": "w9ak-ipjd",
+    "columns": [
+        {
+            "column_name": "Job Filing Number",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 49387,
+            "frequent_values": [
+                "B00156426-I1",
+                "M00175820-I1",
+                "M00082015-I1",
+                "Q00045734-I1",
+                "B00104002-I1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "B00015152-I1",
+                        "Q00000416-I1",
+                        "Q00000417-I1",
+                        "Q00000421-I1",
+                        "Q00000422-I1"
+                    ],
+                    "longest_values": [
+                        "X00217766-I1",
+                        "M00022049-I1",
+                        "M00023032-I1",
+                        "M00023029-I1",
+                        "M00022967-P2"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Status",
+            "number_non_empty_cells": 49385,
+            "number_empty_cells": 2,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "Permit Entire",
+                "LOC Issued",
+                "Approved",
+                "Objections",
+                "TA Certificate of Operation Issued"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49385,
+                    "shortest_values": [
+                        "Approved",
+                        "Withdrawn",
+                        "QA Failed",
+                        "Incomplete",
+                        "Objections"
+                    ],
+                    "longest_values": [
+                        "Chief Plan Examiner/ Assistant Chief Plan Examiner Review",
+                        "TA Certificate of Operation Issued",
+                        "PA Certificate of Operation Issued",
+                        "Pending Plan Examiner Assignment",
+                        "Pending Prof Cert QA Assignment"
+                    ],
+                    "average_length": 12.38209982788296
+                }
+            ]
+        },
+        {
+            "column_name": "House No",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8209,
+            "frequent_values": [
+                "1",
+                "50",
+                "25",
+                "11",
+                "200"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 40504,
+                    "max_value": 26452,
+                    "min_value": 1,
+                    "mean": 852.235458226348,
+                    "stddev": 1335.6182824856232
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8883,
+                    "shortest_values": [
+                        "2A",
+                        "4A",
+                        "4B",
+                        "2B",
+                        "58B"
+                    ],
+                    "longest_values": [
+                        "84-42 GARAGE",
+                        "87-48 GARAGE",
+                        "73-36 GARAGE",
+                        "91-08 GARAGE",
+                        "5803 GARAGE"
+                    ],
+                    "average_length": 5.375548801080716
+                }
+            ]
+        },
+        {
+            "column_name": "Street Name",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3807,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVENUE",
+                "PARK AVENUE",
+                "3 AVENUE",
+                "MADISON AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "BQE",
+                        "CPW",
+                        "BOWERY",
+                        "69 ROAD",
+                        "12 ROAD"
+                    ],
+                    "longest_values": [
+                        "ADAM CLAYTON POWELL JR BOULEVARD",
+                        "NEW ENGLAND THRUWAY SERVICE ROAD",
+                        "INTERNATIONAL AIRPORT CENTER BL",
+                        "BROOKLYN QUEENS EXPRESSWAY WEST",
+                        "REVEREND JAMES A POLITE AVENUE"
+                    ],
+                    "average_length": 13.077672261931278
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.980966651143014
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7547,
+            "frequent_values": [
+                "702",
+                "16",
+                "2",
+                "13",
+                "8329"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 20092,
+                    "min_value": 1,
+                    "mean": 2970.6741450179197,
+                    "stddev": 3070.378495501102
+                }
+            ]
+        },
+        {
+            "column_name": "LOT",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 548,
+            "frequent_values": [
+                "1",
+                "7501",
+                "29",
+                "5",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 9999,
+                    "min_value": 0,
+                    "mean": 557.7398505679632,
+                    "stddev": 1893.7466125654278
+                }
+            ]
+        },
+        {
+            "column_name": "Bin",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 27018,
+            "frequent_values": [
+                "1000045",
+                "1089411",
+                "1813346",
+                "1075692",
+                "1002734"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 5867738,
+                    "min_value": 1000003,
+                    "mean": 2564921.9114746796,
+                    "stddev": 1379159.3866138097
+                }
+            ]
+        },
+        {
+            "column_name": "Commmunity - Board",
+            "number_non_empty_cells": 49366,
+            "number_empty_cells": 21,
+            "number_distinct_values": 67,
+            "frequent_values": [
+                "105",
+                "108",
+                "102",
+                "104",
+                "301"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49366,
+                    "max_value": 505,
+                    "min_value": 101,
+                    "mean": 249.6272738321922,
+                    "stddev": 130.3826995336883
+                }
+            ]
+        },
+        {
+            "column_name": "Work on Floor",
+            "number_non_empty_cells": 49385,
+            "number_empty_cells": 2,
+            "number_distinct_values": 2478,
+            "frequent_values": [
+                "Ope 001 thru 001",
+                "Ope 000 thru 000",
+                "Ope 1 thru 1",
+                "Gro 001 thru 001",
+                "OG - On Grade"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 61,
+                    "max_value": 37,
+                    "min_value": 1,
+                    "mean": 4.622950819672131,
+                    "stddev": 6.816479391347359
+                },
+                {
+                    "type": "TEXT",
+                    "count": 49324,
+                    "shortest_values": [
+                        "ATT",
+                        "1st",
+                        "ALL",
+                        "1ST",
+                        "Con"
+                    ],
+                    "longest_values": [
+                        "Floor Number(s) 3 through 3, Floor Number(s) 5 through 5, Floor Number(s) 7 through 7, Floor Number(",
+                        "Floor Number(s) 2 through 2, Floor Number(s) 3 through 3, Floor Number(s) 4 through 4, Floor Number(",
+                        "Floor Number(s) 2 through 2, Floor Number(s) 7 through 8, Floor Number(s) 18 through 18, Floor Numbe",
+                        "Floor Number(s) 5 through 6, Floor Number(s) 9 through 9, Floor Number(s) 13 through 14, Floor Numbe",
+                        "Floor Number(s) 001 through 011, Floor Number(s) 013 through 016, Floor Number(s) 019 through 019, S"
+                    ],
+                    "average_length": 16.095572135268835
+                }
+            ]
+        },
+        {
+            "column_name": "Apt./Condo No(s)",
+            "number_non_empty_cells": 1777,
+            "number_empty_cells": 47610,
+            "number_distinct_values": 542,
+            "frequent_values": [
+                "OSP",
+                "-",
+                "NONE",
+                "1",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 263,
+                    "max_value": 43144717,
+                    "min_value": 0,
+                    "mean": 341717.8935361217,
+                    "stddev": 2733286.2418450667
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1514,
+                    "shortest_values": [
+                        "B",
+                        "A",
+                        "-",
+                        "S",
+                        "`"
+                    ],
+                    "longest_values": [
+                        "G1,G2,G3,G4,G11,G12,G13,G14,G21,G22",
+                        "Molloy Studios @ Molloy College",
+                        "3A,3B,3C,3D,4A,4B,4C,4D, Store",
+                        "21H, 21J, 23F, 23G, 25D, 25E",
+                        "18J, 18K, 40D, 40E, 43D, 43E"
+                    ],
+                    "average_length": 3.9907529722589166
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant Professional Title",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "PE",
+                "RA",
+                "GC",
+                "PR",
+                "S"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "S",
+                        "PE",
+                        "RA",
+                        "GC",
+                        "LA"
+                    ],
+                    "longest_values": [
+                        "PR",
+                        "LA",
+                        "GC",
+                        "RA",
+                        "PE"
+                    ],
+                    "average_length": 1.9997975175653513
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant License #",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2523,
+            "frequent_values": [
+                "082770",
+                "049434",
+                "035839",
+                "094567",
+                "089587"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 833531,
+                    "min_value": 166,
+                    "mean": 65563.4246664102,
+                    "stddev": 44432.725150322236
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant First Name",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1116,
+            "frequent_values": [
+                "PAUL",
+                "VICTOR",
+                "BRIAN",
+                "JAFAR",
+                "JOEL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "J",
+                        "BO",
+                        "DE",
+                        "KY",
+                        "AN"
+                    ],
+                    "longest_values": [
+                        "MICKEY WING KWAN",
+                        "MICHAEL KRAIWOOT",
+                        "ANTHONY ORLANDO",
+                        "ROSS ADAM COLE",
+                        "C.S. JEFFERSON"
+                    ],
+                    "average_length": 5.499179946139672
+                }
+            ]
+        },
+        {
+            "column_name": "Applicants Middle Initial",
+            "number_non_empty_cells": 1,
+            "number_empty_cells": 49386,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Manoj"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "Manoj"
+                    ],
+                    "longest_values": [
+                        "Manoj"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant Last Name",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2166,
+            "frequent_values": [
+                "BAILEY",
+                "SUBEN",
+                "O'CONNOR",
+                "HAIDER",
+                "PHAGOO"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "YE",
+                        "AN",
+                        "LI",
+                        "YU",
+                        "WU"
+                    ],
+                    "longest_values": [
+                        "STEINSCHRABER- ESKREIS",
+                        "SFINAROLAKIS-KOKOLIS",
+                        "ROSENSTADT-BRESLER",
+                        "JASIULEWICZ MAJRAN",
+                        "RODRIGUEZ-INFANZON"
+                    ],
+                    "average_length": 6.434041346913156
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's Business Name",
+            "number_non_empty_cells": 49366,
+            "number_empty_cells": 21,
+            "number_distinct_values": 2368,
+            "frequent_values": [
+                "AE DESIGN SOLUTION INC",
+                "ROYAL ENGINEERING PC",
+                "BRIAN T. O'CONNOR",
+                "HAIDER ENGINEERING, P.E.",
+                "JOEL PHAGOO P.E. PLLC"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19,
+                    "max_value": 2001,
+                    "min_value": 1950,
+                    "mean": 1972.421052631579,
+                    "stddev": 21.057104787929926
+                },
+                {
+                    "type": "TEXT",
+                    "count": 49347,
+                    "shortest_values": [
+                        "PR",
+                        "ADG",
+                        "HNY",
+                        "IDS",
+                        "WSP"
+                    ],
+                    "longest_values": [
+                        "MADSEN CONSULTING ENGINEERING, PLLC",
+                        "PLATT BYARD DOVELL WHITE ARCHITECTS",
+                        "SHANE HAMILTON, CONSULTING ENGINEER",
+                        "HILLMAN & MILEY CONSULTING ENGINEER",
+                        "EDELMAN SULTAN KNOX WOOD/ARCHITECTS"
+                    ],
+                    "average_length": 21.21123877844651
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's Street Name",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2320,
+            "frequent_values": [
+                "71 LEONARD STREET",
+                "146-02 HILLSIDE AVE,",
+                "130 N. WINDHORST AVE",
+                "902 41ST STREET",
+                "122 MILLER AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 939,
+                    "min_value": 315,
+                    "mean": 627.0,
+                    "stddev": 312.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 49385,
+                    "shortest_values": [
+                        "QAZ",
+                        "QAZ4",
+                        "80-15",
+                        "73-26",
+                        "114-92"
+                    ],
+                    "longest_values": [
+                        "469 SEVENTH AVE 9TH FLOOR/SUITE 900",
+                        "239 CENTRAL AVENUE, SUITE 200",
+                        "62 WILLIAM STREET, 7TH FLOOR",
+                        "277 BROADWAY, STUDIO 1300",
+                        "A&amp;D ASSOCIATES, INC."
+                    ],
+                    "average_length": 17.186291384023487
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 465,
+            "frequent_values": [
+                "NEW YORK",
+                "BROOKLYN",
+                "JAMAICA",
+                "BETPAGE",
+                "HUNTINGDON VALLEY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "NY",
+                        "RYE",
+                        "LIC",
+                        "NYC",
+                        "AVON"
+                    ],
+                    "longest_values": [
+                        "SPRINGFIELD GARDENS",
+                        "HASTINGS ON HUDSON",
+                        "HUNTINGTON STATION",
+                        "NORTH MYRTLE BEACH",
+                        "ATLANTIC HIGHLANDS"
+                    ],
+                    "average_length": 8.865936380019033
+                }
+            ]
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "PA",
+                "CT",
+                "MD"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 31,
+                    "min_value": 31,
+                    "mean": 31.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 49385,
+                    "shortest_values": [
+                        "NY",
+                        "MN",
+                        "TN",
+                        "OH",
+                        "ON"
+                    ],
+                    "longest_values": [
+                        "VT",
+                        "DE",
+                        "FL",
+                        "VA",
+                        "NC"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Zip",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 625,
+            "frequent_values": [
+                "10013",
+                "10038",
+                "11435",
+                "11219",
+                "11714"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49349,
+                    "max_value": 117880153,
+                    "min_value": 1772,
+                    "mean": 212289.1377940789,
+                    "stddev": 4707510.571659108
+                },
+                {
+                    "type": "TEXT",
+                    "count": 38,
+                    "shortest_values": [
+                        "10307-",
+                        "M5V1J2",
+                        "10007-13",
+                        "07920-___",
+                        "11234-574"
+                    ],
+                    "longest_values": [
+                        "30318-235",
+                        "10994-281",
+                        "11778-000",
+                        "11362-133",
+                        "10018-938"
+                    ],
+                    "average_length": 8.447368421052632
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative First Name",
+            "number_non_empty_cells": 42718,
+            "number_empty_cells": 6669,
+            "number_distinct_values": 1075,
+            "frequent_values": [
+                "ELY",
+                "SATWANT",
+                "MATTHEW",
+                "JAFAR",
+                "JEEWAN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42718,
+                    "shortest_values": [
+                        "J",
+                        "L",
+                        ".",
+                        "YU",
+                        "PU"
+                    ],
+                    "longest_values": [
+                        "HAN/MAR/JOEL/KYLE/SA",
+                        "MHD FARES/ MOHAMED",
+                        "YAU SAN / JIARONG",
+                        "MICHE/BRAN/JO/ADR",
+                        "VI/EN/AN/NA/M/MI"
+                    ],
+                    "average_length": 6.3802378388501335
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative Middle Initial",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 49387,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Filing Representative Last Name",
+            "number_non_empty_cells": 42718,
+            "number_empty_cells": 6669,
+            "number_distinct_values": 1326,
+            "frequent_values": [
+                "SEPULVEDA",
+                "MINHAS",
+                "CALVO",
+                "HAIDER",
+                "ITWARIE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42718,
+                    "shortest_values": [
+                        ".",
+                        "S",
+                        "B",
+                        "NG",
+                        "LI"
+                    ],
+                    "longest_values": [
+                        "MERCE/POPOW/GONZA/NA/LOM",
+                        "ROSENFELD/UKONU/MURILLO",
+                        "DA/RO/SO/BU/PU/BA/VA",
+                        "CAVAGNARO (SCALTRO)",
+                        "ROSENSTADT-BRESLER"
+                    ],
+                    "average_length": 7.053115782574091
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative Business Name",
+            "number_non_empty_cells": 42618,
+            "number_empty_cells": 6769,
+            "number_distinct_values": 1426,
+            "frequent_values": [
+                "AE DESIGN SOLUTION INC.",
+                "ATLANTIC BUILDING SUPPLY INC.",
+                "BUILDING BROTHERS INC.",
+                "HAIDER ENGINEERING, P.E.",
+                "A1 EXPEDITING SERVICE CORP."
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 183687363,
+                    "min_value": 1955,
+                    "mean": 50097989.18181818,
+                    "stddev": 81806450.22811672
+                },
+                {
+                    "type": "TEXT",
+                    "count": 42607,
+                    "shortest_values": [
+                        "PT",
+                        "PR",
+                        "CPS",
+                        "PWF",
+                        "OOA"
+                    ],
+                    "longest_values": [
+                        "AM EXPEDITING DRAFTING & DESIGN LLC",
+                        "W/J PROFESSIONAL EXPEDITING COMPANY",
+                        "MAXFIELD BLAUFEUX & HEYWOOD BLAUFEU",
+                        "T.F. CUSANELLI & FILLETTI ARCHITECT",
+                        "NEW YORK ARCHITECTURAL SOLUTIONS, P"
+                    ],
+                    "average_length": 22.962658718051024
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative Street Name",
+            "number_non_empty_cells": 42709,
+            "number_empty_cells": 6678,
+            "number_distinct_values": 1401,
+            "frequent_values": [
+                "71 LEONARD STREET",
+                "120-08 95 AVE",
+                "43-07 48 AVE",
+                "902 41ST STREET",
+                "959 FULTON STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 36,
+                    "max_value": 7185692112,
+                    "min_value": 39,
+                    "mean": 399205220.0277778,
+                    "stddev": 1645964840.1453643
+                },
+                {
+                    "type": "TEXT",
+                    "count": 42673,
+                    "shortest_values": [
+                        "P.O.",
+                        "15-19",
+                        "138-72",
+                        "WDF INC",
+                        "PO BOX 9"
+                    ],
+                    "longest_values": [
+                        "1425 TOWNSEND AVE. APT. 603",
+                        "241 37TH STREET STE 448",
+                        "17 SAINT MARYS AVENUE",
+                        "108-08 52ND AVE, 2FL",
+                        "611 BROADWAY STE 721"
+                    ],
+                    "average_length": 16.688491552035245
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative City",
+            "number_non_empty_cells": 42718,
+            "number_empty_cells": 6669,
+            "number_distinct_values": 243,
+            "frequent_values": [
+                "NEW YORK",
+                "BROOKLYN",
+                "RICHMOND HILL",
+                "WOODSIDE",
+                "FARMINGDALE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42718,
+                    "shortest_values": [
+                        "NY",
+                        "NYC",
+                        "LIC",
+                        "RYE",
+                        "ELM"
+                    ],
+                    "longest_values": [
+                        "144 EAST 44TH STREET",
+                        "SPRINGFIELD GARDENS",
+                        "SOUTH RICHMOND HILL",
+                        "BELL BOULEVARD # 2",
+                        "HUNTINGTON STATION"
+                    ],
+                    "average_length": 9.429350625029262
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative State",
+            "number_non_empty_cells": 42718,
+            "number_empty_cells": 6669,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "NE",
+                "ny",
+                "AZ"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42718,
+                    "shortest_values": [
+                        "N",
+                        "NY",
+                        "CT",
+                        "NJ",
+                        "FL"
+                    ],
+                    "longest_values": [
+                        "New York",
+                        "PA",
+                        "KS",
+                        "ny",
+                        "NE"
+                    ],
+                    "average_length": 2.0002575026920737
+                }
+            ]
+        },
+        {
+            "column_name": "Filing Representative Zip",
+            "number_non_empty_cells": 42718,
+            "number_empty_cells": 6669,
+            "number_distinct_values": 327,
+            "frequent_values": [
+                "10013",
+                "11419",
+                "11219",
+                "11377",
+                "10001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 42705,
+                    "max_value": 117880153,
+                    "min_value": 1007,
+                    "mean": 37237.57375014635,
+                    "stddev": 1695816.9836448343
+                },
+                {
+                    "type": "TEXT",
+                    "count": 13,
+                    "shortest_values": [
+                        "11580-",
+                        "11354-653",
+                        "10007-300"
+                    ],
+                    "longest_values": [
+                        "10007-300",
+                        "11354-653",
+                        "11580-"
+                    ],
+                    "average_length": 8.538461538461538
+                }
+            ]
+        },
+        {
+            "column_name": "Sprinkler (Work Type)",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.99671978455869
+                }
+            ]
+        },
+        {
+            "column_name": "Plumbing (Work Type)",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.996274323202462
+                }
+            ]
+        },
+        {
+            "column_name": "Initial Cost",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3025,
+            "frequent_values": [
+                "5000",
+                "1000",
+                "1",
+                "0",
+                "10000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 48806,
+                    "max_value": 125000000,
+                    "min_value": 0,
+                    "mean": 133243.88200221283,
+                    "stddev": 3800868.04439397
+                },
+                {
+                    "type": "REAL",
+                    "count": 581,
+                    "max_value": 5586875.5,
+                    "min_value": 0.01,
+                    "mean": 142131.4614113598,
+                    "stddev": 411861.2172302808
+                }
+            ]
+        },
+        {
+            "column_name": "Total Construction Floor Area",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3279,
+            "frequent_values": [
+                "0",
+                "1000",
+                "100",
+                "50",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 5541030,
+                    "min_value": 0,
+                    "mean": 7627.595480592058,
+                    "stddev": 135931.8022636123
+                }
+            ]
+        },
+        {
+            "column_name": "Review Building Code",
+            "number_non_empty_cells": 48390,
+            "number_empty_cells": 997,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2014",
+                "1968",
+                "Prior to 1968",
+                "2008"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47814,
+                    "max_value": 2014,
+                    "min_value": 1968,
+                    "mean": 2011.6050529133727,
+                    "stddev": 10.099125781830018
+                },
+                {
+                    "type": "TEXT",
+                    "count": 576,
+                    "shortest_values": [
+                        "Prior to 1968"
+                    ],
+                    "longest_values": [
+                        "Prior to 1968"
+                    ],
+                    "average_length": 13.0
+                }
+            ]
+        },
+        {
+            "column_name": "Little E",
+            "number_non_empty_cells": 47969,
+            "number_empty_cells": 1418,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 47969,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0427359336237987
+                }
+            ]
+        },
+        {
+            "column_name": "Unmapped/CCO Street",
+            "number_non_empty_cells": 41977,
+            "number_empty_cells": 7410,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 41977,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.001143483336113
+                }
+            ]
+        },
+        {
+            "column_name": "Request Legalization",
+            "number_non_empty_cells": 357,
+            "number_empty_cells": 49030,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 357,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.089635854341737
+                }
+            ]
+        },
+        {
+            "column_name": "Includes Permanent Removal",
+            "number_non_empty_cells": 357,
+            "number_empty_cells": 49030,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 357,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.008403361344538
+                }
+            ]
+        },
+        {
+            "column_name": "In Compliance with NYCECC",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.926863344604856
+                }
+            ]
+        },
+        {
+            "column_name": "Exempt from NYCECC",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "True",
+                "False"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.19217607872517
+                }
+            ]
+        },
+        {
+            "column_name": "Building Type",
+            "number_non_empty_cells": 37427,
+            "number_empty_cells": 11960,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Other",
+                "2 Family",
+                "3 Family",
+                "Hotel",
+                "Office Bldg"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 37427,
+                    "shortest_values": [
+                        "Other",
+                        "Hotel",
+                        "Garage",
+                        "3 Family",
+                        "2 Family"
+                    ],
+                    "longest_values": [
+                        "Office Bldg",
+                        "2 Family",
+                        "3 Family",
+                        "Garage",
+                        "Hotel"
+                    ],
+                    "average_length": 5.274721457771128
+                }
+            ]
+        },
+        {
+            "column_name": "Existing Stories",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                "0",
+                "2",
+                "1",
+                "6",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 878,
+                    "min_value": 0,
+                    "mean": 5.243890092534473,
+                    "stddev": 10.476314267237392
+                }
+            ]
+        },
+        {
+            "column_name": "Existing Height",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 583,
+            "frequent_values": [
+                "0",
+                "25",
+                "65",
+                "35",
+                "60"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 3435,
+                    "min_value": 0,
+                    "mean": 58.658371636260554,
+                    "stddev": 103.5422506631752
+                }
+            ]
+        },
+        {
+            "column_name": "Existing Dwelling Units",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 610,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 8764,
+                    "min_value": 0,
+                    "mean": 31.86812319031324,
+                    "stddev": 146.14298078292802
+                }
+            ]
+        },
+        {
+            "column_name": "Proposed No of Stories",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 101,
+            "frequent_values": [
+                "0",
+                "2",
+                "4",
+                "3",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 66825,
+                    "min_value": 0,
+                    "mean": 6.949399639581267,
+                    "stddev": 300.8613834380011
+                }
+            ]
+        },
+        {
+            "column_name": "Proposed Height",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "1",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.747949865349181,
+                    "stddev": 0.43418989425506915
+                }
+            ]
+        },
+        {
+            "column_name": "Proposed Dwelling Units",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 619,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49387,
+                    "max_value": 8764,
+                    "min_value": 0,
+                    "mean": 33.587239556968434,
+                    "stddev": 147.3161046279975
+                }
+            ]
+        },
+        {
+            "column_name": "SpecialInspectionRequirement",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 49387,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Special Inspection Agency Number",
+            "number_non_empty_cells": 4401,
+            "number_empty_cells": 44986,
+            "number_distinct_values": 891,
+            "frequent_values": [
+                "000513",
+                "000106",
+                "00513",
+                "000329",
+                "006303"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4205,
+                    "max_value": 7471,
+                    "min_value": 106,
+                    "mean": 2546.3633769322237,
+                    "stddev": 2304.3581681511423
+                },
+                {
+                    "type": "TEXT",
+                    "count": 196,
+                    "shortest_values": [
+                        "0591, 591",
+                        "0540, 238",
+                        "0329, 329",
+                        "2003, 798",
+                        "1761, 2782"
+                    ],
+                    "longest_values": [
+                        "001826, 005956, 5956",
+                        "000544, 000919, 919",
+                        "000152, 006864",
+                        "000329, 003692",
+                        "001158, 001729"
+                    ],
+                    "average_length": 12.28061224489796
+                }
+            ]
+        },
+        {
+            "column_name": "ProgressInspectionRequirement",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 49387,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Built 1 information value",
+            "number_non_empty_cells": 248,
+            "number_empty_cells": 49139,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 248,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Built 2 information value",
+            "number_non_empty_cells": 248,
+            "number_empty_cells": 49139,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 248,
+                    "shortest_values": [
+                        "No"
+                    ],
+                    "longest_values": [
+                        "No"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Built 2 A information value",
+            "number_non_empty_cells": 248,
+            "number_empty_cells": 49139,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 248,
+                    "shortest_values": [
+                        "No"
+                    ],
+                    "longest_values": [
+                        "No"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Built 2 B information value",
+            "number_non_empty_cells": 248,
+            "number_empty_cells": 49139,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 248,
+                    "shortest_values": [
+                        "No"
+                    ],
+                    "longest_values": [
+                        "No"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Standpipe",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.999412800939519
+                }
+            ]
+        },
+        {
+            "column_name": "Antenna",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.959260534148663
+                }
+            ]
+        },
+        {
+            "column_name": "Curb Cut",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.954522445177881
+                }
+            ]
+        },
+        {
+            "column_name": "Sign",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.873003016988276
+                }
+            ]
+        },
+        {
+            "column_name": "Fence",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.8239415230728735
+                }
+            ]
+        },
+        {
+            "column_name": "Scaffold",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.872294328467006
+                }
+            ]
+        },
+        {
+            "column_name": "Shed",
+            "number_non_empty_cells": 49387,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49387,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.756028914491668
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 49149,
+            "number_empty_cells": 238,
+            "number_distinct_values": 25922,
+            "frequent_values": [
+                "40.705752",
+                "40.752652",
+                "40.758323",
+                "40.721170",
+                "40.643012"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 49149,
+                    "max_value": 40.912828,
+                    "min_value": 40.499122,
+                    "mean": 40.72547045254235,
+                    "stddev": 0.07255084653799734
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 49149,
+            "number_empty_cells": 238,
+            "number_distinct_values": 25639,
+            "frequent_values": [
+                "-74.013374",
+                "-74.002364",
+                "-73.977368",
+                "-74.006559",
+                "-74.075750"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 49149,
+                    "max_value": -73.701392,
+                    "min_value": -74.25447,
+                    "mean": -73.94770290514492,
+                    "stddev": 0.07780935774557929
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 49149,
+            "number_empty_cells": 238,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "4",
+                "3",
+                "1",
+                "33",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49149,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 21.144885959022563,
+                    "stddev": 16.248068837014035
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 49149,
+            "number_empty_cells": 238,
+            "number_distinct_values": 1284,
+            "frequent_values": [
+                "99",
+                "33",
+                "37",
+                "21",
+                "119"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 49149,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 5757.3312783576475,
+                    "stddev": 19727.135420469494
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 49149,
+            "number_empty_cells": 238,
+            "number_distinct_values": 192,
+            "frequent_values": [
+                "Midtown-Midtown South",
+                "Hudson Yards-Chelsea-Flatiron-Union Square",
+                "SoHo-TriBeCa-Civic Center-Little Italy",
+                "West Village",
+                "Upper East Side-Carnegie Hill"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 49149,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Astoria",
+                        "Midwood",
+                        "Norwood"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 20.92408797737492
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 47468,
+            "number_empty_cells": 1919,
+            "number_distinct_values": 24836,
+            "frequent_values": [
+                "3000000",
+                "4000000",
+                "1000000",
+                "2000000",
+                "5000000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47468,
+                    "max_value": 5167956,
+                    "min_value": 1000000,
+                    "mean": 2475813.974193141,
+                    "stddev": 1330468.2569870483
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Job Filing Number"
+    ]
+}

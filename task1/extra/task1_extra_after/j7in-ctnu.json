@@ -1,0 +1,183 @@
+{
+    "dataset_name": "j7in-ctnu",
+    "columns": [
+        {
+            "column_name": "CHECK NUMBER",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9539,
+            "frequent_values": [
+                "7049829",
+                "7048246",
+                "7042874",
+                "7044579",
+                "7049968"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 72080,
+                    "max_value": 7051861,
+                    "min_value": 7042305,
+                    "mean": 7047027.117966149,
+                    "stddev": 2972.5695178090436
+                }
+            ]
+        },
+        {
+            "column_name": "CHECK DATE",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "12/06/2018",
+                "01/10/2019",
+                "11/01/2018",
+                "11/15/2018",
+                "12/13/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 72080,
+                    "max_value": "2019-01-28 00:00:00",
+                    "min_value": "2018-11-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24492,
+            "frequent_values": [
+                "5-2450-1732",
+                "3-1893-1222",
+                "3-1893-1224",
+                "3-1893-1223",
+                "4-1204-1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 72080,
+                    "shortest_values": [
+                        "4-43-4",
+                        "1-56-1",
+                        "1-76-1",
+                        "3-53-9",
+                        "1-64-2"
+                    ],
+                    "longest_values": [
+                        "4-16226-1131",
+                        "4-70022-2004",
+                        "4-16137-1165",
+                        "4-15631-1011",
+                        "4-16137-1146"
+                    ],
+                    "average_length": 10.106645394006659
+                }
+            ]
+        },
+        {
+            "column_name": "CASE NUMBER",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25716,
+            "frequent_values": [
+                "17007360",
+                "17244582",
+                "17244581",
+                "17244580",
+                "17500788"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 72080,
+                    "max_value": 17551216,
+                    "min_value": 4846360,
+                    "mean": 17182785.321711987,
+                    "stddev": 463943.4485729939
+                }
+            ]
+        },
+        {
+            "column_name": "PERIOD BEGIN",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 113,
+            "frequent_values": [
+                "07/01/2018",
+                "01/01/2018",
+                "07/01/2017",
+                "04/01/2018",
+                "10/01/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 72080,
+                    "max_value": "2019-04-01 00:00:00",
+                    "min_value": "1979-10-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PERIOD END",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "07/01/2018",
+                "01/01/2018",
+                "07/01/2017",
+                "09/30/2018",
+                "04/01/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 72080,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "1979-10-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "REFUND AMOUNT",
+            "number_non_empty_cells": 72080,
+            "number_empty_cells": 0,
+            "number_distinct_values": 28199,
+            "frequent_values": [
+                "3.68",
+                "63.36",
+                "61.66",
+                "2.45",
+                "136.47"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 900,
+                    "max_value": 220966,
+                    "min_value": 0,
+                    "mean": 2710.12,
+                    "stddev": 13517.396757883702
+                },
+                {
+                    "type": "REAL",
+                    "count": 71180,
+                    "max_value": 2734419.72,
+                    "min_value": 0.01,
+                    "mean": 1706.3876265805445,
+                    "stddev": 24293.07771735089
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CHECK NUMBER",
+        "CHECK DATE"
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "dataset_name": "krwf-eng6",
+    "columns": [
+        {
+            "column_name": "Vendor Status",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Suspended",
+                "Disqualified",
+                "Ineligible"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 240,
+                    "shortest_values": [
+                        "Suspended",
+                        "Ineligible",
+                        "Disqualified"
+                    ],
+                    "longest_values": [
+                        "Disqualified",
+                        "Ineligible",
+                        "Suspended"
+                    ],
+                    "average_length": 9.391666666666667
+                }
+            ]
+        },
+        {
+            "column_name": "Vendor Name",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 240,
+            "frequent_values": [
+                "ASSOS CONSTRUCTION CORP.",
+                "KAYBAMZ, INC.",
+                "CCM CONSTRUCTION INC.",
+                "Litespeed Electric, Inc.",
+                "TRIPLE M CONTRACTING, LTD."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 240,
+                    "shortest_values": [
+                        "I.G.W.T.",
+                        "Onekey,LLC",
+                        "BASS & BASS",
+                        "UNESCO, INC.",
+                        "KAYBAMZ, INC."
+                    ],
+                    "longest_values": [
+                        "Atane Engineers, Architects and Land Surveyors, D.P.C.",
+                        "M.S.T. General Contracting Restoration, Inc.",
+                        "ALL NATIONS SECURITY SERVICES AGENCY, INC.",
+                        "Precision Test and Balance of NY Corp.",
+                        "SURTON CONSTRUCTION CONTRACTING CORP."
+                    ],
+                    "average_length": 26.058333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Disqualified From Date",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 193,
+            "frequent_values": [
+                "12/31/1994 12:00:00 AM",
+                "09/11/1995 12:00:00 AM",
+                "06/18/1997 12:00:00 AM",
+                "07/01/1996 12:00:00 AM",
+                "11/23/1998 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 240,
+                    "max_value": "2019-09-04 00:00:00",
+                    "min_value": "1994-12-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Disqualified To Date",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 215,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "03/11/2020 12:00:00 AM",
+                "02/25/2021 12:00:00 AM",
+                "12/01/2020 12:00:00 AM",
+                "09/22/2020 12:00:00 AM",
+                "03/28/2023 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 25,
+                    "max_value": "2024-05-20 00:00:00",
+                    "min_value": "2019-02-08 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Vendor Name"
+    ]
+}

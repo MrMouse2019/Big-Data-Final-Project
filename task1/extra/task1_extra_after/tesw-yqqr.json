@@ -1,0 +1,471 @@
+{
+    "dataset_name": "tesw-yqqr",
+    "columns": [
+        {
+            "column_name": "RegistrationID",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 167444,
+            "frequent_values": [
+                "911741",
+                "912547",
+                "913236",
+                "912546",
+                "911726"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 999995,
+                    "min_value": 0,
+                    "mean": 386054.32610551186,
+                    "stddev": 236208.73603018656
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 176898,
+            "frequent_values": [
+                "813101",
+                "915108",
+                "915106",
+                "915113",
+                "915091"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 991726,
+                    "min_value": 1,
+                    "mean": 394939.3489986377,
+                    "stddev": 310665.8567076785
+                }
+            ]
+        },
+        {
+            "column_name": "BoroID",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "4",
+                "1",
+                "2",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.85148861844225,
+                    "stddev": 1.058677228818665
+                }
+            ]
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 176909,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.3549508504372305
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21152,
+            "frequent_values": [
+                "15",
+                "20",
+                "25",
+                "115",
+                "120"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 130804,
+                    "max_value": 12699,
+                    "min_value": 1,
+                    "mean": 1004.1743142411547,
+                    "stddev": 1397.371044000487
+                },
+                {
+                    "type": "TEXT",
+                    "count": 46105,
+                    "shortest_values": [
+                        "3B",
+                        "1A",
+                        "5A",
+                        "5B",
+                        "2A"
+                    ],
+                    "longest_values": [
+                        "116-24 FRONT",
+                        "102-12 REAR",
+                        "100-16 REAR",
+                        "109-38 REAR",
+                        "105-11 REAR"
+                    ],
+                    "average_length": 5.353454072226439
+                }
+            ]
+        },
+        {
+            "column_name": "LowHouseNumber",
+            "number_non_empty_cells": 176879,
+            "number_empty_cells": 30,
+            "number_distinct_values": 21337,
+            "frequent_values": [
+                "15",
+                "20",
+                "14",
+                "18",
+                "19"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 130731,
+                    "max_value": 111111111,
+                    "min_value": 0,
+                    "mean": 1905.823836733445,
+                    "stddev": 307367.5111053496
+                },
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 0.319,
+                    "min_value": 0.126,
+                    "mean": 0.22766666666666668,
+                    "stddev": 0.07912999150483686
+                },
+                {
+                    "type": "TEXT",
+                    "count": 46145,
+                    "shortest_values": [
+                        "S",
+                        "-",
+                        "+",
+                        "X",
+                        "D"
+                    ],
+                    "longest_values": [
+                        "90-41 GARAGE",
+                        "116-24 FRONT",
+                        "105-15 REAR",
+                        "25-69 front",
+                        "100-10 REAR"
+                    ],
+                    "average_length": 5.348120056344133
+                }
+            ]
+        },
+        {
+            "column_name": "HighHouseNumber",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21337,
+            "frequent_values": [
+                "15",
+                "19",
+                "20",
+                "14",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 130777,
+                    "max_value": 12699,
+                    "min_value": 0,
+                    "mean": 1006.2124838465479,
+                    "stddev": 1402.7223701034486
+                },
+                {
+                    "type": "TEXT",
+                    "count": 46132,
+                    "shortest_values": [
+                        "`",
+                        "4a",
+                        "5A",
+                        "6A",
+                        "8A"
+                    ],
+                    "longest_values": [
+                        "90-41 GARAGE",
+                        "116-24 FRONT",
+                        "100-10 REAR",
+                        "108-11 REAR",
+                        "109-38 REAR"
+                    ],
+                    "average_length": 5.351643111072574
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4967,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "5 AVENUE",
+                "GREENE AVENUE",
+                "2 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 176909,
+                    "shortest_values": [
+                        "58 ST",
+                        "79 ST",
+                        "10 ST",
+                        "57 DR",
+                        "90 AVE"
+                    ],
+                    "longest_values": [
+                        "ADAM CLAYTON POWELL JR BOULEVARD",
+                        "HOR HARDING EXPRESSWAY SR SOUTH",
+                        "HOR HARDING EXPRESSWAY S SVC RD",
+                        "HOR HARDING EXPRESSWAY SR NORTH",
+                        "HORACE HARDING EXPRESSWAY SR N"
+                    ],
+                    "average_length": 12.753138619290144
+                }
+            ]
+        },
+        {
+            "column_name": "StreetCode",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4651,
+            "frequent_values": [
+                "0",
+                "18630",
+                "10110",
+                "45930",
+                "10010"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 99800,
+                    "min_value": 0,
+                    "mean": 35157.842885325226,
+                    "stddev": 23346.738263313862
+                }
+            ]
+        },
+        {
+            "column_name": "Zip",
+            "number_non_empty_cells": 176322,
+            "number_empty_cells": 587,
+            "number_distinct_values": 211,
+            "frequent_values": [
+                "11385",
+                "11221",
+                "11215",
+                "11233",
+                "11216"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176320,
+                    "max_value": 112233,
+                    "min_value": 1987,
+                    "mean": 10940.197243647914,
+                    "stddev": 617.4542262265368
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        " "
+                    ],
+                    "longest_values": [
+                        " "
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10836,
+            "frequent_values": [
+                "7632",
+                "3432",
+                "8276",
+                "8401",
+                "7117"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 16317,
+                    "min_value": 0,
+                    "mean": 3683.779530719183,
+                    "stddev": 3057.577234770321
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 850,
+            "frequent_values": [
+                "1",
+                "7501",
+                "2",
+                "3",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 9100,
+                    "min_value": 0,
+                    "mean": 486.5219010903911,
+                    "stddev": 1762.0463711023679
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 176866,
+            "number_empty_cells": 43,
+            "number_distinct_values": 172320,
+            "frequent_values": [
+                "0",
+                "3000000",
+                "4000000",
+                "2000000",
+                "4445478"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176866,
+                    "max_value": 34008881,
+                    "min_value": 0,
+                    "mean": 2953731.719335542,
+                    "stddev": 1164927.2816250583
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "1",
+                "3",
+                "12",
+                "11",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 176909,
+                    "max_value": 82,
+                    "min_value": 0,
+                    "mean": 7.251411742760403,
+                    "stddev": 4.4616485222536015
+                }
+            ]
+        },
+        {
+            "column_name": "LastRegistrationDate",
+            "number_non_empty_cells": 175427,
+            "number_empty_cells": 1482,
+            "number_distinct_values": 4924,
+            "frequent_values": [
+                "07/19/2019",
+                "08/13/2019",
+                "08/21/2019",
+                "07/31/2019",
+                "08/20/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 175427,
+                    "max_value": "2019-08-31 00:00:00",
+                    "min_value": "1993-04-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "RegistrationEndDate",
+            "number_non_empty_cells": 176909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "09/01/2020",
+                "09/01/2019",
+                "09/01/2018",
+                "09/01/2017",
+                "09/01/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 176909,
+                    "max_value": "2020-09-01 00:00:00",
+                    "min_value": "1994-05-31 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "RegistrationID",
+        "BuildingID"
+    ]
+}

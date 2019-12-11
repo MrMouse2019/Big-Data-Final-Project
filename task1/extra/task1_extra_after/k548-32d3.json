@@ -1,0 +1,86 @@
+{
+    "dataset_name": "k548-32d3",
+    "columns": [
+        {
+            "column_name": "INCIDENT_ID",
+            "number_non_empty_cells": 20021,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20021,
+            "frequent_values": [
+                "8489",
+                "5935",
+                "17164",
+                "11024",
+                "19157"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20021,
+                    "max_value": 25250,
+                    "min_value": 2970,
+                    "mean": 14371.643424404376,
+                    "stddev": 6311.773633563625
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_DT",
+            "number_non_empty_cells": 20021,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19357,
+            "frequent_values": [
+                "12/20/2016 09:00:00 PM",
+                "01/20/2019 06:30:00 PM",
+                "06/16/2018 07:00:00 PM",
+                "02/20/2018 01:00:00 PM",
+                "04/01/2019 05:55:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 20021,
+                    "max_value": "2019-08-30 21:05:00",
+                    "min_value": "2016-02-01 01:15:00"
+                }
+            ]
+        },
+        {
+            "column_name": "FACILITY",
+            "number_non_empty_cells": 11093,
+            "number_empty_cells": 8928,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "AMKC",
+                "RNDC",
+                "OBCC",
+                "BKDC",
+                "GRVC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11093,
+                    "shortest_values": [
+                        "WF",
+                        "TD",
+                        "SOD",
+                        "SSD",
+                        "MDC"
+                    ],
+                    "longest_values": [
+                        "BKCTS",
+                        "QNCTS",
+                        "RNDC",
+                        "HOJC",
+                        "RMSC"
+                    ],
+                    "average_length": 3.9244568646894438
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "INCIDENT_ID"
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "dataset_name": "7hi3-kaps",
+    "columns": [
+        {
+            "column_name": "INCIDENT_ID",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 110,
+            "frequent_values": [
+                "83603",
+                "90976",
+                "123227",
+                "107299",
+                "123408"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 110,
+                    "max_value": 124257,
+                    "min_value": 75250,
+                    "mean": 100927.16363636364,
+                    "stddev": 13582.35930538196
+                }
+            ]
+        },
+        {
+            "column_name": "REPORTED_DT",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 110,
+            "frequent_values": [
+                "08/06/2019 08:31:00 PM",
+                "11/21/2018 05:10:00 PM",
+                "12/22/2017 10:09:00 AM",
+                "01/18/2018 10:16:00 AM",
+                "11/22/2018 01:22:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 110,
+                    "max_value": "2019-08-27 14:59:00",
+                    "min_value": "2016-01-06 18:55:00"
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_TYPE",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Use of Force"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 110,
+                    "shortest_values": [
+                        "Use of Force"
+                    ],
+                    "longest_values": [
+                        "Use of Force"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "REASON",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Assault on Staff"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 110,
+                    "shortest_values": [
+                        "Assault on Staff"
+                    ],
+                    "longest_values": [
+                        "Assault on Staff"
+                    ],
+                    "average_length": 16.0
+                }
+            ]
+        },
+        {
+            "column_name": "FACILITY",
+            "number_non_empty_cells": 70,
+            "number_empty_cells": 40,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "AMKC",
+                "OBCC",
+                "GRVC",
+                "RNDC",
+                "BKDC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 70,
+                    "shortest_values": [
+                        "TD",
+                        "MDC",
+                        "RMSC",
+                        "AMKC",
+                        "BKDC"
+                    ],
+                    "longest_values": [
+                        "QNCTS",
+                        "BKCTS",
+                        "HOJC",
+                        "BHPW",
+                        "RNDC"
+                    ],
+                    "average_length": 3.9571428571428573
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "REPORTED_DT"
+    ]
+}

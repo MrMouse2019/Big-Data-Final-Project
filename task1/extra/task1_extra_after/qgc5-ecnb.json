@@ -1,0 +1,1430 @@
+{
+    "dataset_name": "qgc5-ecnb",
+    "columns": [
+        {
+            "column_name": "Menu_Item_ID",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44936,
+            "frequent_values": [
+                "1930",
+                "35419",
+                "98791",
+                "98792",
+                "98793"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 179840,
+                    "min_value": 7,
+                    "mean": 103164.32611662245,
+                    "stddev": 60359.85446713432
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "2017",
+                "2018"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 2018,
+                    "min_value": 2017,
+                    "mean": 2017.4618286082277,
+                    "stddev": 0.4985408156314526
+                }
+            ]
+        },
+        {
+            "column_name": "Restaurant_Item_Name",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51660,
+            "frequent_values": [
+                "Jack in the Box Fanta Zero Cherry, Fruit Punch, Grape, Lime, Orange, Peach, Raspberry or Strawberry,",
+                "Jack in the Box POWERade Zero Cherry, Fruit Punch, Grape, Lemon, Lime, Orange, Raspberry or Strawber",
+                "Jack in the Box Hi C Cherry, Fruit Punch, Grape, Lemon, Orange, Orange Vanilla, Raspberry, Raspberry",
+                "Jack in the Box Fruitwater Fizzy Cherry Lime, Lemonade, Lemon Lime, Mixed Berry, Peach Lemonade or S",
+                "BJ's Restaurant & Brewhouse BJs Signature Five Cheese Blend, for 1 Topping Build Your Own Deep Dish"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65219,
+                    "shortest_values": [
+                        "Wawa Ham",
+                        "Sonic Nuts",
+                        "IHOP Migas",
+                        "Qdoba Eggs",
+                        "Subway Oil"
+                    ],
+                    "longest_values": [
+                        "Jack in the Box Fanta Cherry, Fruit Punch, Grape, Lime, Orange, Peach, Raspberry or Strawberry, 16 f",
+                        "Olive Garden Tomato, for Cucina Mia, Chicken Parmigiana, Fettuccine Alfredo & Five Cheese Zito al Fo",
+                        "Starbucks Caffe Vanilla Light Frappuccino Blended Coffee w/ Nonfat Milk & Whipped Cream, Venti, 24 o",
+                        "Starbucks Caffe Vanilla Light Frappuccino Blended Coffee w/ Coconut Milk & Whipped Cream, Grande, 16",
+                        "McDonald's McCafe Frappe Chocolate Chip w/ Whipped Topping, Caramel Drizzle & Chocolate Drizzle, Lar"
+                    ],
+                    "average_length": 43.23482420766955
+                }
+            ]
+        },
+        {
+            "column_name": "restaurant",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 96,
+            "frequent_values": [
+                "Starbucks",
+                "Dunkin' Donuts",
+                "Wawa",
+                "Sheetz",
+                "Sonic"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65219,
+                    "shortest_values": [
+                        "KFC",
+                        "Wawa",
+                        "IHOP",
+                        "Sonic",
+                        "Qdoba"
+                    ],
+                    "longest_values": [
+                        "BJ's Restaurant & Brewhouse",
+                        "Checker's Drive-In/Rallys",
+                        "California Pizza Kitchen",
+                        "Carrabba's Italian Grill",
+                        "Romano's Macaroni Grill"
+                    ],
+                    "average_length": 11.413683129149481
+                }
+            ]
+        },
+        {
+            "column_name": "Restaurant_ID",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 94,
+            "frequent_values": [
+                "80",
+                "30",
+                "87",
+                "78",
+                "79"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 94,
+                    "min_value": 1,
+                    "mean": 53.06015118293749,
+                    "stddev": 27.10798815143138
+                }
+            ]
+        },
+        {
+            "column_name": "Item_Name",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 46995,
+            "frequent_values": [
+                "Diet Coke",
+                "Sprite",
+                "Coffee",
+                "Dr Pepper",
+                "Caesar Salad"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65219,
+                    "shortest_values": [
+                        "Egg",
+                        "Bun",
+                        "J&B",
+                        "Leg",
+                        "Cod"
+                    ],
+                    "longest_values": [
+                        "Anchovies, for Small 10\" Crunchy Thin Crust Pizza, Medium 12\" Hand Tossed & Handmade Pan Pizzas, Large 14\" Hand Tossed & Crunchy Thin Crust Pizzas & Extra Large 16\" Hand Tossed Pizza",
+                        "Wing Sauce, for Small 10\" Crunchy Thin Crust Pizza, Medium 12\" Crunchy Thin Crust Pizza, Large 14\" Brooklyn Style Pizza & Extra Large 16\" Hand Tossed Pizza",
+                        "Powerade, Medium, Drink Add Ins & Toppings, Flavor Add Ins, Customize Your Drink, Ultimate Drink Stop; Choice in: Candy Slushes & Famous Slushes",
+                        "Regular Cheese, for Small 10\" Crunchy Thin Crust Pizza & Large 14\" Hand Tossed & Crunchy Thin Crust Pizzas, Cheese Pizza w/ Other Toppings",
+                        "Hot Banana Peppers, for Medium 12\" Crunchy Thin Crust Pizza, Extra Large 16\" Hand Tossed Pizza & Large 14\" Brooklyn Style Pizza"
+                    ],
+                    "average_length": 30.85795550376424
+                }
+            ]
+        },
+        {
+            "column_name": "Item_Description",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62859,
+            "frequent_values": [
+                "Chocolate Chip Cookie, Desserts",
+                "Sausage Biscuit, Breakfast",
+                "Biscuit, Breakfast",
+                "Bottled Water, Drinks",
+                "Coffee, Beverages"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 65218,
+                    "shortest_values": [
+                        "Honey",
+                        "Pepsi",
+                        "Drinks",
+                        "Tomato",
+                        "Chicken"
+                    ],
+                    "longest_values": [
+                        "Pepper Jack Cheese, for Breakfast Hoagies, Artisan Sandwiches, Club Sandwiches, Flatbreads & Sandwiches, Extra, Artisan Sandwiches, Cheese Artisan Sandwich, Choose First Cheese, Custom Artisan Sandwich, Artisan Sandwich Extra Cheese, Breakfast Hoagies, Classic 10 Inches, Breakfast Hoagies, Shorti 6 Inches, Bacon Breakfast Hoagie, Beef Steak Breakfast Hoagie, Chicken Steak Breakfast Hoagie, Egg Omelet Breakfast Hoagie, Egg White Breakfast Hoagie, Ham Breakfast Hoagie, Honey Smoked Turkey Breakfast Hoagie, Italian Breakfast Hoagie, Oven Roasted Turkey Breakfast Hoagie, Pepperoni Breakfast Hoagie, Pulled Pork Breakfast Hoagie, Roast Beef Breakfast Hoagie, Scrambled Egg Breakfast Hoagie, Sausage Breakfast Hoagie, Breakfast Hoagie Cheese, Breakfast Hoagie Extra Cheese, Club Sandwiches, Turkey Club Sandwich, Turkey & Ham Club Sandwich, Tuna Salad Club Sandwich FL, Tuna Salad Club Sandwich, Spicy Turkey With Chipotle Club Sandwich, Roast Beef Horseradish Club Sandwich, Roast Beef Club Sandwich, Ham Club Sandwich, Egg Salad Club Sandwich, Chicken Salad Club Sandwich FL, Chicken Salad Club Sandwich, Bacon Avocado Club Sandwich, Club Sandwich Cheese, Club Sandwich Extra Cheese, Cold Hoagies, Shorti 6 Inches, Cheese, Choose Second Cheese, Cold Turkey Gobbler, Hoagie Cheeses, BBQ Roast Beef, BLT, Chicken Salad, Chicken Salad FL, Egg Salad, Ham, Honey Mustard Ham & Cheese, Honey Smoked Turkey, Italian, Oven Roasted Turkey, Pepperoni, Roast Beef, Roasted Pepper Italian, Roasted Veggie, Smoked Turkey & Ham, Spicy Italian, Spicy Roast Beef & Turkey, Spicy Turkey, Tuna Salad, Tuna Salad FL, Turkey Veggie Ranch, Tuscan Turkey, Veggie, Cold Hoagie Cheese, Cold Hoagie Extra Cheese, Junior 4 Inches, Cheese, Choose First Cheese, Flatbreads, Whole, Tuscan Turkey Flatbread, Santa Fe Chicken Flatbread, Custom Flatbread, Chicken Club Flatbread, Cheese Flatbread, Cheese, Hot Hoagies, Shorti 6 Inches, Chipotle Chicken Steak, Chicken Strip Parmesan, Chicken Steak, Buffalo Chicken Strip, Buffalo Chicken Cheesesteak, Breaded Chicken Strip, Beefsteak Burger, Beef Steak, BBQ Chicken Cheesesteak, BBQ Cheesesteak, BBQ Breaded Chicken, Veggie Ranch Roasted Chicken, Sriracha Philly Style Chicken Steak, Sriracha Philly Style Beef Steak, Roasted Chicken Parmesan, Roasted Chicken, Pulled Pork, Pizza Chicken Cheesesteak, Pizza Cheesesteak, Philly Style Chicken Steak, Philly Style Beef Steak, Pepperoni Pizza, Meatball Parmesan, Meatball, Hot Hoagie Extra Cheese, Hot Turkey Gobbler, Hot Turkey, Tripleta FL, Hot Hoagie Cheese, Quesadillas, Roasted Veggie Quesadilla, Pulled Pork Quesadilla, Chipotle Pork Quesadilla, Chicken Quesadilla, Buffalo Chicken Quesadilla, Beef Quesadilla, BBQ Pork Quesadilla, BBQ Chicken Quesadilla, Choose First Cheese, Choose Second Cheese, Quesadilla Extra Cheese, Sandwiches, BLT Sandwich, Chicken Salad Sandwich FL, Chicken Salad Sandwich, Veggie Sandwich, Tuna Salad Sandwich FL, Tuna Salad Sandwich, Roasted Veggie Sandwich, Roast Beef Sandwich, Pepperoni Sandwich, Oven Roasted Turkey Sandwich, Italian Sandwich, Honey Smoked Turkey Sandwich, Ham Sandwich, Sandwich Extra Cheese, Egg Salad Sandwich, Sandwich Cheese, Cheese Sandwich, Choose First Cheese, Choose Second Cheese; Choice in: Breakfast Hoagies, Artisan Sandwiches, Club Sandwiches, Hoagies & Flatbreads, Sandwiches, BBQ Pork Quesadilla, Chipotle Pork Quesadilla, Chicken Quesadilla, Cheese Quesadilla, Buffalo Chicken Quesadilla, Beef Quesadilla, Pulled Pork Quesadilla, Roasted Veggie Quesadilla, Cheese Sandwich, Chicken Salad Sandwich, Chicken Salad Sandwich, FL, Egg Salad Sandwich, Ham Sandwich, Honey Smoked Turkey Sandwich, Italian Sandwich, Oven Roasted Turkey Sandwich, Pepperoni Sandwich, Roast Beef Sandwich, Roasted Veggie Sandwich, Tuna Salad Sandwich, Tuna Salad Sandwich, FL, Veggie Sandwich, also called Pepper Jack Cheese Only",
+                        "Whipped Cream, for Iced Chai Tea, Small, Iced Chai Tea, Medium, Steamerz, Small, Steamerz, Medium, Steamerz, Large, Smores Iced Mocha, Small, Smores Iced Mocha, Medium, Smores Iced Mocha, Large, Smores Hot Mocha, Large, Smores Hot Mocha, Medium, Smores Hot Mocha, Small, Smores Frozen Mocha, Small, Smores Frozen Mocha, Large, Smoothiez, Large, Iced Mocha, Large, Cinnabon Frozen Mocha, Large, Iced Chai Tea, Large, Hot Chai Tea, Small, Hot Chai Tea, Medium, Smores Frozen Mocha, Medium, Smoothiez, Small, Smoothiez, Medium, Iced Mocha, Small, Iced Mocha, Medium, Hot Mocha, Large, Hot Mocha, Medium, Hot Mocha, Small, Frozen Mocha, Small, Frozen Mocha, Medium, Frozen Mocha, Large, Frozen Lemonade, Small, Frozen Lemonade, Medium, Frozen Lemonade, Large, Iced Latte, Large, Iced Latte, Medium, Iced Latte, Small, Hot Latte, Small, Hot Latte, Medium, Hot Latte, Large, Frozen Latte, Small, Frozen Latte, Medium, Frozen Latte, Large, Hot Kona Mocha Latte, Hot Kona Mocha, Frozen Kona Mocha, Hot Pumpkin Pie Latte, Small, Hot Pumpkin Pie Latte, Medium, Hot Pumpkin Pie Latte, Large, Hot Maple Latte, Small, Hot Maple Latte, Medium, Hot Maple Latte, Large, MTO Greek Yogurt Smoothie, Large, MTO Greek Yogurt Smoothie, Medium, MTO Greek Yogurt Smoothie, Small, Orange Dreamsicle Smoothie, Horchata Smoothie, Cinnabon Iced Mocha, Small, Cinnabon Iced Mocha, Medium, Cinnabon Iced Mocha, Large, Cinnabon Hot Mocha, Small, Cinnabon Hot Mocha, Medium, Cinnabon Hot Mocha, Large, Cinnabon Frozen Mocha, Small, Cinnabon Frozen Mocha, Medium, Hot Chai Tea, Large, Frozen Chai Tea, Small, Frozen Chai Tea, Medium, Frozen Chai Tea, Large, Cappuccino, Small, Cappuccino, Medium & Cappuccino, Large, Chai Tea, Iced, Steamerz, Smores Iced Mocha, Smores Hot Mocha, Smores Frozen Mocha, Smoothiez, Iced Mochas, Cinnabon Frozen Mocha, Chai Tea, Hot, Hot Mochas, Frozen Mochas, Lemonades, Frozen, Iced Lattes, Hot Lattes, Frozen Lattes, Kona Mochas, Hot Pumpkin Pie Latte, Hot Maple Latte, Greek Yogurt Smoothiez, Orange Dreamsicle Smoothie, Horchata Smoothie, Cinnabon Iced Mocha, Cinnabon Hot Mocha, Cinnabon Frozen Mocha, Chai Tea, Frozen, Cappuccino; Choice of: Whipped Cream, for Iced Chai Tea, Small, Iced Chai Tea, Medium, Steamerz, Small, Steamerz, Medium, Steamerz, Large, Smores Iced Mocha, Small, Smores Iced Mocha, Medium, Smores Iced Mocha, Large, Smores Hot Mocha, Large, Smores Hot Mocha, Medium, Smores Hot Mocha, Small, Smores Frozen Mocha, Small, Smores Frozen Mocha, Large, Smoothiez, Large, Iced Mocha, Large, Cinnabon Frozen Mocha, Large, Iced Chai Tea, Large, Hot Chai Tea, Small, Hot Chai Tea, Medium, Smores Frozen Mocha, Medium, Smoothiez, Small, Smoothiez, Medium, Iced Mocha, Small, Iced Mocha, Medium, Hot Mocha, Large, Hot Mocha, Medium, Hot Mocha, Small, Frozen Mocha, Small, Frozen Mocha, Medium, Frozen Mocha, Large, Frozen Lemonade, Small, Frozen Lemonade, Medium, Frozen Lemonade, Large, Iced Latte, Large, Iced Latte, Medium, Iced Latte, Small, Hot Latte, Small, Hot Latte, Medium, Hot Latte, Large, Frozen Latte, Small, Frozen Latte, Medium, Frozen Latte, Large, Hot Kona Mocha Latte, Hot Kona Mocha, Frozen Kona Mocha, Hot Pumpkin Pie Latte, Small, Hot Pumpkin Pie Latte, Medium, Hot Pumpkin Pie Latte, Large, Hot Maple Latte, Small, Hot Maple Latte, Medium, Hot Maple Latte, Large, MTO Greek Yogurt Smoothie, Large, MTO Greek Yogurt Smoothie, Medium, MTO Greek Yogurt Smoothie, Small, Orange Dreamsicle Smoothie, Horchata Smoothie, Cinnabon Iced Mocha, Small, Cinnabon Iced Mocha, Medium, Cinnabon Iced Mocha, Large, Cinnabon Hot Mocha, Small, Cinnabon Hot Mocha, Medium, Cinnabon Hot Mocha, Large, Cinnabon Frozen Mocha, Small, Cinnabon Frozen Mocha, Medium, Hot Chai Tea, Large, Frozen Chai Tea, Small, Frozen Chai Tea, Medium, Frozen Chai Tea, Large, Cappuccino, Small, Cappuccino, Medium & Cappuccino, Large",
+                        "White American Cheese, Extra for Breakfast Bowl, Breakfast Burritos, Breakfast Panini, Burrito, Burrito Bowl, Chicken, Hoagies, Flatbreads & Flatbread Combo, Breakfast Bowls, Turkey Sausage Breakfast Bowl, Sausage Breakfast Bowl, Roasted Vegetable Breakfast Bowl, Pulled Pork Breakfast Bowl, Ham Breakfast Bowl, Chicken Steak Breakfast Bowl, Beef Steak Breakfast Bowl, Bacon Breakfast Bowl, Egg Bowl Cheese, Breakfast Burritos, Bacon Breakfast Burrito, Beef Steak Breakfast Burrito, Chicken Steak Breakfast Burrito, Egg Breakfast Burrito, Egg Omelet Breakfast Burrito, Egg White Omelet Breakfast Burrito, Ham Breakfast Burrito, Pulled Pork Breakfast Burrito, Roasted Veggie Breakfast Burrito, Sausage Breakfast Burrito, Scrambled Egg Breakfast Burrito, Veggie Breakfast Burrito, Breakfast Burrito Cheese, Breakfast Burrito Extra Cheese, Breakfast Panini, Applewood Smoked Bacon Breakfast Panini, Beef Steak Breakfast Panini, Chicken Steak Breakfast Panini, Custom Breakfast Panini, Egg Omelet Breakfast Panini, Egg White Breakfast Panini, Ham Breakfast Panini, Oven Roasted Turkey Breakfast Panini, Roast Beef Breakfast Panini, Roasted Veggie Breakfast Panini, Breakfast Panini Cheese, Breakfast Sandwiches, Spinach & Tomato Egg Omelet Breakfast Sandwich, Roasted Veggie Breakfast Sandwich, Ham Egg White Omelet Breakfast Sandwich, Ham Egg Omelet Breakfast Sandwich, Egg White Omelet Breakfast Sandwich, Egg Omelet Breakfast Sandwich, Breakfast Sandwich Cheese, Burritos & Bowls, Burrito, Burrito Bowl, Beef Steak, Chicken Steak, Pulled Pork, Rice and Bean, Roasted Veggie, Cheese, Extras, Burrito Bowl, Beef Steak, Chicken Steak, Chili, Pulled Pork, Rice and Bean, Roasted Veggie, Extras, Chicken, BBQ Roasted Chicken Sandwich, Buffalo Roasted Chicken Sandwich, Custom Roasted Chicken Sandwich, Honey Mustard Roasted Chicken Sandwich, Sandwich Cheese, Cold Hoagies, Junior 4 Inches, BBQ Roast Beef, BLT, Chicken Salad, Chicken Salad FL, Egg Salad, Ham, Honey Mustard Ham & Cheese, Honey Smoked Turkey, Italian, Oven Roasted Turkey, Pepperoni, Roast Beef, Roasted Pepper Italian, Roasted Veggie, Smoked Turkey & Ham, Spicy Italian, Spicy Roast Beef & Turkey, Spicy Turkey, Tuna Salad, Tuna Salad FL, Turkey, Turkey Veggie Ranch, Tuscan Turkey, Veggie, Cold Hoagie Cheese, Cold Hoagie Extra Cheese, Cheese, Choose Second Cheese, Flatbreads, Whole, Tuscan Turkey Flatbread, Santa Fe Chicken Flatbread, Custom Flatbread, Chicken Club Flatbread, Cheese Flatbread, Extra Cheese, 1/2 Flatbread Combo, Cheese 1/2, Chicken Club 1/2, Custom 1/2, Sante Fe Chicken 1/2, Tuscan Turkey 1/2, Cheese, Extra Cheese, Hot Hoagies, Junior 4 Inches, Buffalo Chicken Cheesesteak, Breaded Chicken Strip, Beefsteak Burger, Beef Steak, BBQ Chicken Cheesesteak, BBQ Cheesesteak, BBQ Breaded Chicken, Chipotle Chicken Steak, Chicken Strip Parmesan, Chicken Steak, Pizza Chicken Cheesesteak, Pizza Cheesesteak, Philly Style Chicken Steak, Philly Style Beef Steak, Pepperoni Pizza, Meatball Parmesan, Meatball, Sriracha Philly Style Chicken Steak, Sriracha Philly Style Beef Steak, Hot Hoagie Cheese, Hot Hoagie Extra Cheese; Choice in: Breakfast Bowl, Breakfast Burritos, Breakfast Panini, Burrito, Burrito Bowl, Chicken, Hoagies, Flatbreads & Flatbread Combo, also called White American Cheese",
+                        "Crushed Chili Pepper, for Angus Steak & Roasted Garlic Family, Angus Steak & Roasted Garlic Large, Angus Steak & Roasted Garlic Medium, Angus Steak & Roasted Garlic Family Thin, Angus Steak & Roasted Garlic Large Thin, Spicy Fennel Sausage Family, Spicy Fennel Sausage Large, Spicy Fennel Sausage Medium, Spicy Fennel Sausage Family Thin, Spicy Fennel Sausage Large Thin, Tuscan Chicken & Sausage Family, Tuscan Chicken & Sausage Large, Tuscan Chicken & Sausage Medium, Tuscan Chicken & Sausage Family Thin, Tuscan Chicken & Sausage Large Thin, 5 Meat Stuffed Crust Family, 5 Meat Stuffed Crust Large, Bacon Cheeseburger Family, Bacon Cheeseburger Large, Bacon Cheeseburger Medium, Bacon Cheeseburger Family Thin, Bacon Cheeseburger Large Thin, BBQ Chicken Family, BBQ Chicken Large, BBQ Chicken Medium, BBQ Chicken Family Thin, BBQ Chicken Large Thin, Big Murphy's Stuffed Crust Family, Big Murphy's Stuffed Crust Large, Chicago Style Stuffed Crust Family, Chicago Style Stuffed Crust Large, Chicken Bacon Artichoke Family, Chicken Bacon Artichoke Large, Chicken Bacon Artichoke Medium, Chicken Bacon Artichoke Family Thin, Chicken Bacon Artichoke Large Thin, Chicken Bacon Stuffed Crust Family, Chicken Bacon Stuffed Crust Large, Chicken Garlic Family, Chicken Garlic Large, Chicken Garlic Medium, Chicken Garlic Family Thin, Chicken Garlic Large Thin, Cowboy Family, Cowboy Large, Cowboy Medium, Cowboy Family Thin, Cowboy Large Thin, Garden Veggie Family, Garden Veggie Large, Garden Veggie Medium, Garden Veggie Family Thin, Garden Veggie Large Thin, Gourmet Vegetarian Family, Gourmet Vegetarian Large, Gourmet Vegetarian Medium, Gourmet Vegetarian Family Thin, Gourmet Vegetarian Large Thin, Hawaiian Pizza Family, Hawaiian Pizza Large, Hawaiian Pizza Medium, Hawaiian Pizza Family Thin, Hawaiian Pizza Large Thin, Herb Chicken Mediterranean Family, Herb Chicken Mediterranean Large, Herb Chicken Mediterranean Medium, Herb Chicken Mediterranean Family Thin, Herb Chicken Mediterranean Large Thin, Murphy Combo Family, Murphy Combo Large, Murphy Combo Medium, Murphy Combo Family Thin, Murphy Combo Family Large, Papas All Meat Family, Papas All Meat Large, Papas All Meat Medium, Papas All Meat Family Thin, Papas All Meat Large Thin, Papas Favorite Family, Papas Favorite Large, Papas Favorite Medium, Papas Favorite Family Thin, Papas Favorite Large Thin, Pepperoni Family, for Pepperoni Large, Pepperoni Medium, Pepperoni Family Thin, Pepperoni Large Thin, Rancher Family, Rancher Large, Rancher Medium, Rancher Family Thin, Rancher Large Thin, Thai Chicken Family, Thai Chicken Large, Thai Chicken Medium, Thai Chicken Family Thin, Thai Chicken Large Thin, CYO Multi Topping Family, CYO Multi Topping Large, CYO Multi Topping Medium, CYO Multi Topping Family Thin, CYO Multi Topping Large Thin, CYO Single Topping Family, CYO Single Topping Large, CYO Single Topping Medium, CYO Single Topping Family Thin, CYO Single Topping Large Thin, CYO Stuffed Crust Family & CYO Stuffed Crust Large, Toppings",
+                        "Green Onions, for Angus Steak & Roasted Garlic Family, Angus Steak & Roasted Garlic Large, Angus Steak & Roasted Garlic Medium, Angus Steak & Roasted Garlic Family Thin, Angus Steak & Roasted Garlic Large Thin, Spicy Fennel Sausage Family, Spicy Fennel Sausage Large, Spicy Fennel Sausage Medium, Spicy Fennel Sausage Family Thin, Spicy Fennel Sausage Large Thin, Tuscan Chicken & Sausage Family, Tuscan Chicken & Sausage Large, Tuscan Chicken & Sausage Medium, Tuscan Chicken & Sausage Family Thin, Tuscan Chicken & Sausage Large Thin, 5 Meat Stuffed Crust Family, 5 Meat Stuffed Crust Large, Bacon Cheeseburger Family, Bacon Cheeseburger Large, Bacon Cheeseburger Medium, Bacon Cheeseburger Family Thin, Bacon Cheeseburger Large Thin, BBQ Chicken Family, BBQ Chicken Large, BBQ Chicken Medium, BBQ Chicken Family Thin, BBQ Chicken Large Thin, Big Murphy's Stuffed Crust Family, Big Murphy's Stuffed Crust Large, Chicago Style Stuffed Crust Family, Chicago Style Stuffed Crust Large, Chicken Bacon Artichoke Family, Chicken Bacon Artichoke Large, Chicken Bacon Artichoke Medium, Chicken Bacon Artichoke Family Thin, Chicken Bacon Artichoke Large Thin, Chicken Bacon Stuffed Crust Family, Chicken Bacon Stuffed Crust Large, Chicken Garlic Family, Chicken Garlic Large, Chicken Garlic Medium, Chicken Garlic Family Thin, Chicken Garlic Large Thin, Cowboy Family, Cowboy Large, Cowboy Medium, Cowboy Family Thin, Cowboy Large Thin, Garden Veggie Family, Garden Veggie Large, Garden Veggie Medium, Garden Veggie Family Thin, Garden Veggie Large Thin, Gourmet Vegetarian Family, Gourmet Vegetarian Large, Gourmet Vegetarian Medium, Gourmet Vegetarian Family Thin, Gourmet Vegetarian Large Thin, Hawaiian Pizza Family, Hawaiian Pizza Large, Hawaiian Pizza Medium, Hawaiian Pizza Family Thin, Hawaiian Pizza Large Thin, Herb Chicken Mediterranean Family, Herb Chicken Mediterranean Large, Herb Chicken Mediterranean Medium, Herb Chicken Mediterranean Family Thin, Herb Chicken Mediterranean Large Thin, Murphy Combo Family, Murphy Combo Large, Murphy Combo Medium, Murphy Combo Family Thin, Murphy Combo Family Large, Papas All Meat Family, Papas All Meat Large, Papas All Meat Medium, Papas All Meat Family Thin, Papas All Meat Large Thin, Papas Favorite Family, Papas Favorite Large, Papas Favorite Medium, Papas Favorite Family Thin, Papas Favorite Large Thin, Pepperoni Family, Pepperoni Large, Pepperoni Medium, Pepperoni Family Thin, Pepperoni Large Thin, Rancher Family, Rancher Large, Rancher Medium, Rancher Family Thin, Rancher Large Thin, Thai Chicken Family, Thai Chicken Large, Thai Chicken Medium, Thai Chicken Family Thin, Thai Chicken Large Thin, CYO Multi Topping Family, CYO Multi Topping Large, CYO Multi Topping Medium, CYO Multi Topping Family Thin, CYO Multi Topping Large Thin, CYO Single Topping Family, CYO Single Topping Large, CYO Single Topping Medium, CYO Single Topping Family Thin, CYO Single Topping Large Thin, CYO Stuffed Crust Family & CYO Stuffed Crust Large, Toppings"
+                    ],
+                    "average_length": 106.8636419393419
+                }
+            ]
+        },
+        {
+            "column_name": "Food_Category",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Beverages",
+                "Toppings & Ingredients",
+                "Entrees",
+                "Sandwiches",
+                "Appetizers & Sides"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65219,
+                    "shortest_values": [
+                        "Soup",
+                        "Pizza",
+                        "Salads",
+                        "Entrees",
+                        "Burgers"
+                    ],
+                    "longest_values": [
+                        "Toppings & Ingredients",
+                        "Appetizers & Sides",
+                        "Fried Potatoes",
+                        "Baked Goods",
+                        "Sandwiches"
+                    ],
+                    "average_length": 11.099464879866296
+                }
+            ]
+        },
+        {
+            "column_name": "Serving_Size",
+            "number_non_empty_cells": 26899,
+            "number_empty_cells": 38320,
+            "number_distinct_values": 1163,
+            "frequent_values": [
+                "16",
+                "12",
+                "24",
+                "20",
+                "32"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25606,
+                    "max_value": 3792,
+                    "min_value": 0,
+                    "mean": 95.57142857142857,
+                    "stddev": 175.41803173307903
+                },
+                {
+                    "type": "REAL",
+                    "count": 1293,
+                    "max_value": 1121.5,
+                    "min_value": 0.02,
+                    "mean": 25.905073472544426,
+                    "stddev": 85.7493191732954
+                }
+            ]
+        },
+        {
+            "column_name": "Serving_Size_text",
+            "number_non_empty_cells": 39,
+            "number_empty_cells": 65180,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "14.00-56.00",
+                "oz",
+                "'12-20",
+                "14.00-54.00",
+                "12.00-20.00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "oz",
+                        "'5-6",
+                        "18-25",
+                        "16-24",
+                        "'12-20"
+                    ],
+                    "longest_values": [
+                        "620.00-1350.00",
+                        "300.00-680.00",
+                        "10.98-11.00",
+                        "14.00-54.00",
+                        "14.00-56.00"
+                    ],
+                    "average_length": 9.025641025641026
+                }
+            ]
+        },
+        {
+            "column_name": "Serving_Size_Unit",
+            "number_non_empty_cells": 26927,
+            "number_empty_cells": 38292,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "g",
+                "fl oz",
+                "oz",
+                "ml"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 26927,
+                    "shortest_values": [
+                        "g",
+                        "oz",
+                        "ml",
+                        "fl oz"
+                    ],
+                    "longest_values": [
+                        "fl oz",
+                        "ml",
+                        "oz",
+                        "g"
+                    ],
+                    "average_length": 2.7224718683848925
+                }
+            ]
+        },
+        {
+            "column_name": "Serving_Size_household",
+            "number_non_empty_cells": 15238,
+            "number_empty_cells": 49981,
+            "number_distinct_values": 815,
+            "frequent_values": [
+                "1 Slice",
+                "1 Sandwich",
+                "Large",
+                "Small",
+                "Medium"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15238,
+                    "shortest_values": [
+                        "6\"",
+                        "XL",
+                        "Jr",
+                        "Cup",
+                        "3 L"
+                    ],
+                    "longest_values": [
+                        "1 Slice; 1/8 Pizza, 1 Slice; 1/12 Pizza",
+                        "1 Slice; 1/6 Pizza, 1 Slice; 1/12 Pizza",
+                        "1 Large Slice, 12 Servings per Pizza",
+                        "1 Chocolate Frosted Sprinkle Donut",
+                        "1 Chocolate Chocolate Chip Muffin"
+                    ],
+                    "average_length": 9.01050006562541
+                }
+            ]
+        },
+        {
+            "column_name": "Calories",
+            "number_non_empty_cells": 55315,
+            "number_empty_cells": 9904,
+            "number_distinct_values": 1347,
+            "frequent_values": [
+                "0",
+                "170",
+                "150",
+                "160",
+                "240"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 55137,
+                    "max_value": 13960,
+                    "min_value": 0,
+                    "mean": 379.805266880679,
+                    "stddev": 420.9996068342677
+                },
+                {
+                    "type": "REAL",
+                    "count": 178,
+                    "max_value": 1715.96,
+                    "min_value": 0.5,
+                    "mean": 446.8089325842696,
+                    "stddev": 269.71165440710547
+                }
+            ]
+        },
+        {
+            "column_name": "Total_Fat",
+            "number_non_empty_cells": 54846,
+            "number_empty_cells": 10373,
+            "number_distinct_values": 612,
+            "frequent_values": [
+                "0",
+                "6",
+                "9",
+                "8",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 50550,
+                    "max_value": 1078,
+                    "min_value": 0,
+                    "mean": 17.918793273986154,
+                    "stddev": 25.849788886707845
+                },
+                {
+                    "type": "REAL",
+                    "count": 4296,
+                    "max_value": 509.1,
+                    "min_value": 0.1,
+                    "mean": 9.221378026070777,
+                    "stddev": 18.552818471614874
+                }
+            ]
+        },
+        {
+            "column_name": "Saturated_Fat",
+            "number_non_empty_cells": 54143,
+            "number_empty_cells": 11076,
+            "number_distinct_values": 390,
+            "frequent_values": [
+                "0",
+                "6",
+                "5",
+                "7",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 46248,
+                    "max_value": 2046,
+                    "min_value": 0,
+                    "mean": 6.871021449576198,
+                    "stddev": 14.175053463630851
+                },
+                {
+                    "type": "REAL",
+                    "count": 7895,
+                    "max_value": 199.8,
+                    "min_value": 0.1,
+                    "mean": 4.249134895503488,
+                    "stddev": 6.328599967948329
+                }
+            ]
+        },
+        {
+            "column_name": "Trans_Fat",
+            "number_non_empty_cells": 51503,
+            "number_empty_cells": 13716,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                "0",
+                "1",
+                "0.5",
+                "1.5",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47555,
+                    "max_value": 1470,
+                    "min_value": 0,
+                    "mean": 0.24180422668489118,
+                    "stddev": 11.397010172992115
+                },
+                {
+                    "type": "REAL",
+                    "count": 3948,
+                    "max_value": 43.8,
+                    "min_value": 0.01,
+                    "mean": 1.0121808510638284,
+                    "stddev": 1.0613505908583347
+                }
+            ]
+        },
+        {
+            "column_name": "Cholesterol",
+            "number_non_empty_cells": 53219,
+            "number_empty_cells": 12000,
+            "number_distinct_values": 765,
+            "frequent_values": [
+                "0",
+                "10",
+                "20",
+                "15",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52775,
+                    "max_value": 2680,
+                    "min_value": 0,
+                    "mean": 56.51003315963998,
+                    "stddev": 105.46079480490326
+                },
+                {
+                    "type": "REAL",
+                    "count": 444,
+                    "max_value": 1090.5,
+                    "min_value": 0.1,
+                    "mean": 82.47328828828833,
+                    "stddev": 99.39458381113613
+                }
+            ]
+        },
+        {
+            "column_name": "Sodium",
+            "number_non_empty_cells": 54991,
+            "number_empty_cells": 10228,
+            "number_distinct_values": 2427,
+            "frequent_values": [
+                "0",
+                "10",
+                "15",
+                "5",
+                "20"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 54551,
+                    "max_value": 41290,
+                    "min_value": 0,
+                    "mean": 683.4637311873292,
+                    "stddev": 1059.7842139578493
+                },
+                {
+                    "type": "REAL",
+                    "count": 440,
+                    "max_value": 20356.5,
+                    "min_value": 0.1,
+                    "mean": 1071.7509772727271,
+                    "stddev": 1427.1288089409704
+                }
+            ]
+        },
+        {
+            "column_name": "Potassium",
+            "number_non_empty_cells": 1098,
+            "number_empty_cells": 64121,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "0",
+                "50",
+                "35",
+                "15",
+                "20"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1087,
+                    "max_value": 1900,
+                    "min_value": 0,
+                    "mean": 233.65133394664213,
+                    "stddev": 308.86886678337487
+                },
+                {
+                    "type": "REAL",
+                    "count": 11,
+                    "max_value": 1343.55,
+                    "min_value": 34.21,
+                    "mean": 603.6918181818182,
+                    "stddev": 314.054907556514
+                }
+            ]
+        },
+        {
+            "column_name": "Carbohydrates",
+            "number_non_empty_cells": 54288,
+            "number_empty_cells": 10931,
+            "number_distinct_values": 717,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 53775,
+                    "max_value": 3763,
+                    "min_value": 0,
+                    "mean": 43.32768014876802,
+                    "stddev": 67.97869233644589
+                },
+                {
+                    "type": "REAL",
+                    "count": 513,
+                    "max_value": 456.9,
+                    "min_value": 0.1,
+                    "mean": 42.4359454191033,
+                    "stddev": 41.456387999650026
+                }
+            ]
+        },
+        {
+            "column_name": "Protein",
+            "number_non_empty_cells": 54233,
+            "number_empty_cells": 10986,
+            "number_distinct_values": 508,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 53716,
+                    "max_value": 679,
+                    "min_value": 0,
+                    "mean": 14.213735199940427,
+                    "stddev": 22.513528051108317
+                },
+                {
+                    "type": "REAL",
+                    "count": 517,
+                    "max_value": 295.5,
+                    "min_value": 0.1,
+                    "mean": 24.33282398452612,
+                    "stddev": 25.530822896069193
+                }
+            ]
+        },
+        {
+            "column_name": "Sugar",
+            "number_non_empty_cells": 52931,
+            "number_empty_cells": 12288,
+            "number_distinct_values": 460,
+            "frequent_values": [
+                "0",
+                "2",
+                "1",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52498,
+                    "max_value": 783,
+                    "min_value": 0,
+                    "mean": 21.98577088650996,
+                    "stddev": 34.124878059564786
+                },
+                {
+                    "type": "REAL",
+                    "count": 433,
+                    "max_value": 260.3,
+                    "min_value": 0.03,
+                    "mean": 11.799976905311786,
+                    "stddev": 27.53829515419331
+                }
+            ]
+        },
+        {
+            "column_name": "Dietary_Fiber",
+            "number_non_empty_cells": 53440,
+            "number_empty_cells": 11779,
+            "number_distinct_values": 166,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52954,
+                    "max_value": 1400,
+                    "min_value": 0,
+                    "mean": 2.0434150394682176,
+                    "stddev": 7.176792368153692
+                },
+                {
+                    "type": "REAL",
+                    "count": 486,
+                    "max_value": 44.7,
+                    "min_value": 0.04,
+                    "mean": 2.375308641975307,
+                    "stddev": 3.720571580856795
+                }
+            ]
+        },
+        {
+            "column_name": "Calories_100g",
+            "number_non_empty_cells": 25878,
+            "number_empty_cells": 39341,
+            "number_distinct_values": 595,
+            "frequent_values": [
+                "0",
+                "44",
+                "1",
+                "53",
+                "49"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25878,
+                    "max_value": 9030,
+                    "min_value": 0,
+                    "mean": 140.38577169796739,
+                    "stddev": 154.20651977030042
+                }
+            ]
+        },
+        {
+            "column_name": "Total_Fat_100g",
+            "number_non_empty_cells": 25686,
+            "number_empty_cells": 39533,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25686,
+                    "max_value": 988,
+                    "min_value": 0,
+                    "mean": 6.962859145059565,
+                    "stddev": 12.45362739543062
+                }
+            ]
+        },
+        {
+            "column_name": "Saturated_Fat_100g",
+            "number_non_empty_cells": 25285,
+            "number_empty_cells": 39934,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25285,
+                    "max_value": 572,
+                    "min_value": 0,
+                    "mean": 2.51382242436227,
+                    "stddev": 5.354664419789109
+                }
+            ]
+        },
+        {
+            "column_name": "Trans_Fat_100g",
+            "number_non_empty_cells": 23828,
+            "number_empty_cells": 41391,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 23828,
+                    "max_value": 53,
+                    "min_value": 0,
+                    "mean": 0.052039617257008564,
+                    "stddev": 0.7167587544487104
+                }
+            ]
+        },
+        {
+            "column_name": "Cholesterol_100g",
+            "number_non_empty_cells": 25126,
+            "number_empty_cells": 40093,
+            "number_distinct_values": 263,
+            "frequent_values": [
+                "0",
+                "1",
+                "7",
+                "4",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25126,
+                    "max_value": 1188,
+                    "min_value": 0,
+                    "mean": 19.05675396004139,
+                    "stddev": 37.414837399932786
+                }
+            ]
+        },
+        {
+            "column_name": "Sodium_100g",
+            "number_non_empty_cells": 25853,
+            "number_empty_cells": 39366,
+            "number_distinct_values": 1391,
+            "frequent_values": [
+                "0",
+                "2",
+                "3",
+                "4",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25853,
+                    "max_value": 209000,
+                    "min_value": 0,
+                    "mean": 292.0444822651143,
+                    "stddev": 1448.276069947379
+                }
+            ]
+        },
+        {
+            "column_name": "Potassium_100g",
+            "number_non_empty_cells": 623,
+            "number_empty_cells": 64596,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "0",
+                "2",
+                "60",
+                "66",
+                "222"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 623,
+                    "max_value": 561,
+                    "min_value": 0,
+                    "mean": 134.13483146067415,
+                    "stddev": 119.84174070690801
+                }
+            ]
+        },
+        {
+            "column_name": "Carbohydrates_100g",
+            "number_non_empty_cells": 25592,
+            "number_empty_cells": 39627,
+            "number_distinct_values": 110,
+            "frequent_values": [
+                "0",
+                "12",
+                "13",
+                "11",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25592,
+                    "max_value": 1800,
+                    "min_value": 0,
+                    "mean": 15.033565176617692,
+                    "stddev": 20.08182519906545
+                }
+            ]
+        },
+        {
+            "column_name": "Protein_100g",
+            "number_non_empty_cells": 25531,
+            "number_empty_cells": 39688,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25531,
+                    "max_value": 425,
+                    "min_value": 0,
+                    "mean": 4.537190082644628,
+                    "stddev": 6.942924477923728
+                }
+            ]
+        },
+        {
+            "column_name": "Sugar_100g",
+            "number_non_empty_cells": 25207,
+            "number_empty_cells": 40012,
+            "number_distinct_values": 92,
+            "frequent_values": [
+                "0",
+                "2",
+                "1",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25207,
+                    "max_value": 1800,
+                    "min_value": 0,
+                    "mean": 7.602094656246281,
+                    "stddev": 15.596677778747244
+                }
+            ]
+        },
+        {
+            "column_name": "Dietary_Fiber_100g",
+            "number_non_empty_cells": 25391,
+            "number_empty_cells": 39828,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25391,
+                    "max_value": 400,
+                    "min_value": 0,
+                    "mean": 0.6761450907801977,
+                    "stddev": 2.9644284255047735
+                }
+            ]
+        },
+        {
+            "column_name": "Calories_text",
+            "number_non_empty_cells": 303,
+            "number_empty_cells": 64916,
+            "number_distinct_values": 238,
+            "frequent_values": [
+                "<5",
+                "0-5",
+                "40-160",
+                "3480-3720",
+                "'10-25"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 303,
+                    "shortest_values": [
+                        "<5",
+                        "0-5",
+                        "0-60",
+                        "0-80",
+                        "0-20"
+                    ],
+                    "longest_values": [
+                        "1260-1680",
+                        "1740-2160",
+                        "1020-1220",
+                        "2170-2300",
+                        "1000-1420"
+                    ],
+                    "average_length": 6.976897689768977
+                }
+            ]
+        },
+        {
+            "column_name": "Total_Fat_text",
+            "number_non_empty_cells": 69,
+            "number_empty_cells": 65150,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "68-70",
+                "71-74",
+                "4.3-15.4",
+                "'7-28",
+                "'3-10"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 69,
+                    "shortest_values": [
+                        "0-8",
+                        "0-1",
+                        "'1-4",
+                        "'1-5",
+                        "'5-7"
+                    ],
+                    "longest_values": [
+                        "20.8-25.3",
+                        "11.4-16.4",
+                        "4.3-15.4",
+                        "13-17.4",
+                        "119-131"
+                    ],
+                    "average_length": 5.188405797101449
+                }
+            ]
+        },
+        {
+            "column_name": "Saturated_Fat_text",
+            "number_non_empty_cells": 50,
+            "number_empty_cells": 65169,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "'1-3",
+                "35-36",
+                "1.8-7.9",
+                "0-1",
+                "21-22"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 50,
+                    "shortest_values": [
+                        "0-1",
+                        "0-3",
+                        "'1-3",
+                        "'1-2",
+                        "'2-3"
+                    ],
+                    "longest_values": [
+                        "8.5-10.2",
+                        "3.7-5.9",
+                        "7.1-8.8",
+                        "4.9-6.1",
+                        "6.2-7.9"
+                    ],
+                    "average_length": 5.08
+                }
+            ]
+        },
+        {
+            "column_name": "Trans_Fat_text",
+            "number_non_empty_cells": 10,
+            "number_empty_cells": 65209,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "'1-3",
+                "0-1",
+                "1.5-3",
+                "'1-2",
+                "'2-8"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "0-1",
+                        "'1-3",
+                        "'2-8",
+                        "'1-6",
+                        "'1-2"
+                    ],
+                    "longest_values": [
+                        "'7-15",
+                        "1.5-3",
+                        "'1-2",
+                        "'1-6",
+                        "'2-8"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Cholesterol_text",
+            "number_non_empty_cells": 358,
+            "number_empty_cells": 64861,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "<5",
+                "'10-15",
+                "<1",
+                "41.2-46.6",
+                "'3-13"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 358,
+                    "shortest_values": [
+                        "<5",
+                        "<1",
+                        "'1-2",
+                        "'1-4",
+                        "36-44"
+                    ],
+                    "longest_values": [
+                        "30.1-33.6",
+                        "10.3-37.8",
+                        "41.2-46.6",
+                        "523-1014",
+                        "303-370"
+                    ],
+                    "average_length": 2.3659217877094973
+                }
+            ]
+        },
+        {
+            "column_name": "Sodium_text",
+            "number_non_empty_cells": 93,
+            "number_empty_cells": 65126,
+            "number_distinct_values": 82,
+            "frequent_values": [
+                "0-35",
+                "14-55",
+                "67-268",
+                "'3-10",
+                "'3-11"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 93,
+                    "shortest_values": [
+                        "<5",
+                        "'1-5",
+                        "0-35",
+                        "0-55",
+                        "'6-45"
+                    ],
+                    "longest_values": [
+                        "774.4-801.9",
+                        "488.8-506.8",
+                        "555.8-798.5",
+                        "941.1-968.3",
+                        "1180-1230"
+                    ],
+                    "average_length": 7.419354838709677
+                }
+            ]
+        },
+        {
+            "column_name": "Potassium_text",
+            "number_non_empty_cells": 2,
+            "number_empty_cells": 65217,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "<1",
+                "450-470"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "<1",
+                        "450-470"
+                    ],
+                    "longest_values": [
+                        "450-470",
+                        "<1"
+                    ],
+                    "average_length": 4.5
+                }
+            ]
+        },
+        {
+            "column_name": "Carbohydrates_text",
+            "number_non_empty_cells": 634,
+            "number_empty_cells": 64585,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "<1",
+                "99-105",
+                "98-104",
+                "'10-40",
+                "96-102"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 634,
+                    "shortest_values": [
+                        "<1",
+                        "0-2",
+                        "0-1",
+                        "0-7",
+                        "0-30"
+                    ],
+                    "longest_values": [
+                        "44.6-47.7",
+                        "34.2-37.3",
+                        "14.7-16.6",
+                        "9.4-11.7",
+                        "7.8-14.3"
+                    ],
+                    "average_length": 2.4637223974763405
+                }
+            ]
+        },
+        {
+            "column_name": "Protein_text",
+            "number_non_empty_cells": 467,
+            "number_empty_cells": 64752,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "<1",
+                "43-45",
+                "'10-40",
+                "29-31",
+                "59-60"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 467,
+                    "shortest_values": [
+                        "<1",
+                        "0-1",
+                        "0-2",
+                        "'4-6",
+                        "'1-2"
+                    ],
+                    "longest_values": [
+                        "20.8-23.7",
+                        "30.5-31.5",
+                        "30.6-31",
+                        "'10-39",
+                        "3.5-14"
+                    ],
+                    "average_length": 2.4089935760171306
+                }
+            ]
+        },
+        {
+            "column_name": "Sugar_text",
+            "number_non_empty_cells": 591,
+            "number_empty_cells": 64628,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "<1",
+                "'5-19",
+                "'9-11",
+                "'7-26",
+                "'6-24"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 591,
+                    "shortest_values": [
+                        "<1",
+                        "0-1",
+                        "'2-8",
+                        "0-41",
+                        "'5-8"
+                    ],
+                    "longest_values": [
+                        "146-254",
+                        "34-65",
+                        "'5-19",
+                        "'5-18",
+                        "40-61"
+                    ],
+                    "average_length": 2.255499153976311
+                }
+            ]
+        },
+        {
+            "column_name": "Dietary_Fiber_text",
+            "number_non_empty_cells": 811,
+            "number_empty_cells": 64408,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "<1",
+                "'8-9",
+                "-1",
+                "0-1",
+                "'7-8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": -1,
+                    "min_value": -1,
+                    "mean": -1.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 805,
+                    "shortest_values": [
+                        "<1",
+                        "<8",
+                        "0-3",
+                        "0-5",
+                        "0-2"
+                    ],
+                    "longest_values": [
+                        "'10-12",
+                        "'11-12",
+                        "'10-11",
+                        "'2-12",
+                        "'9-11"
+                    ],
+                    "average_length": 2.1440993788819878
+                }
+            ]
+        },
+        {
+            "column_name": "Kids_Meal",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.05762124534261488,
+                    "stddev": 0.2330258299583595
+                }
+            ]
+        },
+        {
+            "column_name": "Limited_Time_Offer",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.03244453303485181,
+                    "stddev": 0.17717755306750435
+                }
+            ]
+        },
+        {
+            "column_name": "Regional",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.03196921142611816,
+                    "stddev": 0.17591810863829344
+                }
+            ]
+        },
+        {
+            "column_name": "Shareable",
+            "number_non_empty_cells": 65219,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65219,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.028641960164982598,
+                    "stddev": 0.16679807637637284
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Menu_Item_ID",
+        "Year"
+    ]
+}

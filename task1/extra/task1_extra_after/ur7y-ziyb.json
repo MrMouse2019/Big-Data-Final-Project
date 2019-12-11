@@ -1,0 +1,178 @@
+{
+    "dataset_name": "ur7y-ziyb",
+    "columns": [
+        {
+            "column_name": "Report Date",
+            "number_non_empty_cells": 2304,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "06/30/2019",
+                "04/10/2019",
+                "09/30/2018",
+                "08/31/2018",
+                "08/31/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2304,
+                    "max_value": "2019-08-31 00:00:00",
+                    "min_value": "2018-07-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 2304,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Manhattan",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2304,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.4375
+                }
+            ]
+        },
+        {
+            "column_name": "Community District",
+            "number_non_empty_cells": 2304,
+            "number_empty_cells": 0,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "No CD",
+                "408",
+                "414",
+                "315",
+                "316"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2124,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 280.3050847457627,
+                    "stddev": 117.75819151575227
+                },
+                {
+                    "type": "TEXT",
+                    "count": 180,
+                    "shortest_values": [
+                        "No CD"
+                    ],
+                    "longest_values": [
+                        "No CD"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Case Type",
+            "number_non_empty_cells": 2304,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "SINGLE ADULT",
+                "ADULT FAMILY",
+                "FAMILY WITH CHILDREN",
+                "Adult Family",
+                "Single Adult"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2304,
+                    "shortest_values": [
+                        "ADULT FAMILY",
+                        "SINGLE ADULT",
+                        "Adult Family",
+                        "Single Adult",
+                        "FAMILY WITH CHILDREN"
+                    ],
+                    "longest_values": [
+                        "Family With Children",
+                        "FAMILY WITH CHILDREN",
+                        "Single Adult",
+                        "Adult Family",
+                        "SINGLE ADULT"
+                    ],
+                    "average_length": 14.666666666666666
+                }
+            ]
+        },
+        {
+            "column_name": "Cases",
+            "number_non_empty_cells": 2304,
+            "number_empty_cells": 0,
+            "number_distinct_values": 528,
+            "frequent_values": [
+                "12",
+                "5",
+                "6",
+                "18",
+                "14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2304,
+                    "max_value": 1443,
+                    "min_value": 0,
+                    "mean": 148.03342013888889,
+                    "stddev": 186.0353470682084
+                }
+            ]
+        },
+        {
+            "column_name": "Individuals",
+            "number_non_empty_cells": 2304,
+            "number_empty_cells": 0,
+            "number_distinct_values": 731,
+            "frequent_values": [
+                "10",
+                "14",
+                "15",
+                "66",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2304,
+                    "max_value": 1966,
+                    "min_value": 0,
+                    "mean": 289.6744791666667,
+                    "stddev": 396.3650057975707
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Report Date",
+        "Borough"
+    ]
+}

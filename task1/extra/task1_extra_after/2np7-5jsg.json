@@ -1,0 +1,446 @@
+{
+    "dataset_name": "2np7-5jsg",
+    "columns": [
+        {
+            "column_name": "vendorid",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                2,
+                1
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15837001,
+                    "max_value": 2,
+                    "min_value": 1,
+                    "mean": 1.7788782737337707,
+                    "stddev": 0.41500229938219313
+                }
+            ]
+        },
+        {
+            "column_name": "pickup_datetime",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11734824,
+            "frequent_values": [
+                "08/09/2014 03:54:25 PM",
+                "06/07/2014 12:00:00 AM",
+                "03/14/2014 12:00:00 AM",
+                "02/12/2014 12:00:00 AM",
+                "02/28/2014 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 15837001,
+                    "max_value": "2014-12-31 23:59:57",
+                    "min_value": "2014-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "dropoff_datetime",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11745808,
+            "frequent_values": [
+                "08/10/2014 02:55:38 PM",
+                "08/03/2014 12:00:00 AM",
+                "11/02/2014 12:00:00 AM",
+                "12/25/2014 12:00:00 AM",
+                "05/04/2014 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 15837001,
+                    "max_value": "2015-01-01 23:41:02",
+                    "min_value": "2014-01-01 00:01:15"
+                }
+            ]
+        },
+        {
+            "column_name": "Store_and_fwd_flag",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15837001,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "rate_code",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                1,
+                5,
+                2,
+                3,
+                4
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15837001,
+                    "max_value": 99,
+                    "min_value": 1,
+                    "mean": 1.0920267669364925,
+                    "stddev": 0.6195168894964322
+                }
+            ]
+        },
+        {
+            "column_name": "Pickup_longitude",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44065,
+            "frequent_values": [
+                0.0,
+                -73.84429931640625,
+                -73.84427642822266,
+                -73.84429168701173,
+                -73.84426879882812
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 73.93763732910156,
+                    "min_value": -121.92626953125,
+                    "mean": -73.80959908808903,
+                    "stddev": 3.0205602208129188
+                }
+            ]
+        },
+        {
+            "column_name": "Pickup_latitude",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 87371,
+            "frequent_values": [
+                0.0,
+                40.721351623535156,
+                40.721336364746094,
+                40.72136688232422,
+                40.721355438232415
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 42.90093231201172,
+                    "min_value": -40.75827407836913,
+                    "mean": 40.68850152434177,
+                    "stddev": 1.6658269159598937
+                }
+            ]
+        },
+        {
+            "column_name": "Dropoff_longitude",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 58146,
+            "frequent_values": [
+                0.0,
+                -73.93916320800781,
+                -73.93915557861328,
+                -73.95272827148438,
+                -73.95274353027344
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 0.0,
+                    "min_value": -121.9264678955078,
+                    "mean": -73.81731726800115,
+                    "stddev": 2.9253058297019416
+                }
+            ]
+        },
+        {
+            "column_name": "Dropoff_latitude",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 99626,
+            "frequent_values": [
+                0.0,
+                40.7743034362793,
+                40.77432632446289,
+                40.77431869506836,
+                40.77428817749024
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 44.489013671875,
+                    "min_value": 0.0,
+                    "mean": 40.69002845667334,
+                    "stddev": 1.6131667901753493
+                }
+            ]
+        },
+        {
+            "column_name": "Passenger_count",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                1,
+                2,
+                5,
+                3,
+                6
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15837001,
+                    "max_value": 9,
+                    "min_value": 0,
+                    "mean": 1.428515664045232,
+                    "stddev": 1.1309247664383146
+                }
+            ]
+        },
+        {
+            "column_name": "Trip_distance",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4768,
+            "frequent_values": [
+                0.0,
+                1.0,
+                0.9,
+                1.1,
+                0.8
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 688.1,
+                    "min_value": 0.0,
+                    "mean": 2.9772358952320364,
+                    "stddev": 2.989341033946792
+                }
+            ]
+        },
+        {
+            "column_name": "Fare_amount",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1916,
+            "frequent_values": [
+                6.0,
+                5.5,
+                6.5,
+                7.0,
+                5.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 4543.0,
+                    "min_value": -499.0,
+                    "mean": 12.478590956077984,
+                    "stddev": 10.297415687636216
+                }
+            ]
+        },
+        {
+            "column_name": "Extra",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 132,
+            "frequent_values": [
+                0.0,
+                0.5,
+                1.0,
+                -0.5,
+                -1.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 565.84,
+                    "min_value": -1.0,
+                    "mean": 0.358716185595997,
+                    "stddev": 0.44557385620911827
+                }
+            ]
+        },
+        {
+            "column_name": "MTA_tax",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                0.5,
+                0.0,
+                -0.5,
+                1.5,
+                1.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 7.35,
+                    "min_value": -1.5,
+                    "mean": 0.48873368638418346,
+                    "stddev": 0.07650565485913381
+                }
+            ]
+        },
+        {
+            "column_name": "Tip_amount",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3190,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                1.5,
+                3.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 931.29,
+                    "min_value": -100.0,
+                    "mean": 1.0867508539011028,
+                    "stddev": 2.5662470656912326
+                }
+            ]
+        },
+        {
+            "column_name": "Tolls_amount",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 596,
+            "frequent_values": [
+                0.0,
+                5.33,
+                2.44,
+                7.5,
+                9.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 1600.08,
+                    "min_value": -17.5,
+                    "mean": 0.11427995489836798,
+                    "stddev": 1.2236815888406476
+                }
+            ]
+        },
+        {
+            "column_name": "Ehail_fee",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 15837001,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Total_amount",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9604,
+            "frequent_values": [
+                7.0,
+                6.5,
+                8.0,
+                7.5,
+                6.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15837001,
+                    "max_value": 88064.93,
+                    "min_value": -499.0,
+                    "mean": 14.536840109467326,
+                    "stddev": 28.23013948907218
+                }
+            ]
+        },
+        {
+            "column_name": "Payment_type",
+            "number_non_empty_cells": 15837001,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                2,
+                1,
+                4,
+                3,
+                5
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15837001,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 1.593632026669696,
+                    "stddev": 0.510926991668209
+                }
+            ]
+        },
+        {
+            "column_name": "Trip_type",
+            "number_non_empty_cells": 14058084,
+            "number_empty_cells": 1778917,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                1.0,
+                2.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 14058084,
+                    "max_value": 2.0,
+                    "min_value": 1.0,
+                    "mean": 1.0183857202731184,
+                    "stddev": 0.13434167469341887
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "vendorid",
+        "pickup_datetime"
+    ]
+}

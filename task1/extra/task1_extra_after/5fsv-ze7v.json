@@ -1,0 +1,362 @@
+{
+    "dataset_name": "5fsv-ze7v",
+    "columns": [
+        {
+            "column_name": "MEETING_DATE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "05/22/2017",
+                "06/19/2017",
+                "10/16/2017",
+                "09/18/2017",
+                "04/24/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 957,
+                    "max_value": "2017-12-11 00:00:00",
+                    "min_value": "2017-01-18 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PROJECT_ID",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 711,
+            "frequent_values": [
+                "17035",
+                "16986",
+                "7964",
+                "17301",
+                "17342"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 957,
+                    "max_value": 20286,
+                    "min_value": 3968,
+                    "mean": 15792.848484848484,
+                    "stddev": 3180.47821878034
+                }
+            ]
+        },
+        {
+            "column_name": "TITLE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 682,
+            "frequent_values": [
+                "Construction of a concrete facility (Ferrara Brothers), 730 3rd Avenue between 24th Street, 25th Street, and the Gowanus Canal, Brooklyn",
+                "Rehabilitation of the ground floor and adjacent site work, Building 77, Brooklyn Navy Yard Industrial Park, 63 Flushing Avenue, Brooklyn",
+                "Construction of Cary Leeds Tennis Center, including a clubhouse, Crotona Park, Crotona Park South, Crotona Park East, Crotona Park North and Fulton Avenue, Bronx",
+                "Reconstruction of a nature center and adjacent site work, West 218th Street and Indian Road, Inwood Hill Park, Manhattan",
+                "Construction of a garage, Brooklyn Community District 3, 559 Park Avenue, Brooklyn"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "Times Square bollards",
+                        "520 Park Avenue planters",
+                        "Lyons Square Park comfort station, Bronx",
+                        "Renovation of NYPD Times Square substation",
+                        "Melrose Commons Park comfort station, Bronx"
+                    ],
+                    "longest_values": [
+                        "Reconstruction of a playground, including the installation of an artificial turf field and adult fitness equipment and construction of a prototypical comfort station, as Phase II of the reconstruction of Highbridge Park, Edgecombe Avenue, West 163rd to West 168th Street, and West 175th Street to West 176th Street, Manhattan",
+                        "Construction of Admiral\u2019s Row Plaza, including the construction of two retail buildings and a mixed-use building, the rehabilitation of Building B and the Timber Shed, and adjacent site work, Brooklyn Navy Yard Industrial Park, Navy Street, Flushing Avenue, Fourth Street and Gate Street, Brooklyn",
+                        "Construction of Parachute Way Plaza, including the installation of an artwork by Xenobia Bailey and the relocation of the Jackie Robinson and Pee Wee Reese Memorial (2005) by William Behrends, between Surf Avenue and the boardwalk, as part of the Coney Island Infrastructure Project, Brooklyn",
+                        "Installation of streetscape improvements, Manhattanville/West Harlem, 125th Street between Marginal Street and Old Broadway, Old Broadway between 125th Street and 126th Street, Broadway between 124th Street and 126th Street and St. Claire Place between West 125th Street and Marginal Street",
+                        "Reconstruction of an administrative building and western tennis courts, including construction of a spectator deck, and adjacent site work as part of the United States Tennis Association's Billie Jean King National Tennis Center strategic vision plan, Flushing Meadows Corona Park, Queens"
+                    ],
+                    "average_length": 130.10762800417973
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Upstate",
+                        "Brooklyn",
+                        "Citywide"
+                    ],
+                    "longest_values": [
+                        "Manhattan/Brooklyn",
+                        "Staten Island",
+                        "Manhattan",
+                        "Citywide",
+                        "Brooklyn"
+                    ],
+                    "average_length": 7.825496342737722
+                }
+            ]
+        },
+        {
+            "column_name": "LEAD_AGENCY",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "DPR",
+                "DDC",
+                "DEP",
+                "DOT",
+                "EDC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "EM",
+                        "QL",
+                        "EDC",
+                        "BPL",
+                        "OEM"
+                    ],
+                    "longest_values": [
+                        "NYCEM",
+                        "DCLA%",
+                        "BNYDC",
+                        "DCLA",
+                        "NYPD"
+                    ],
+                    "average_length": 3.1985370950888194
+                }
+            ]
+        },
+        {
+            "column_name": "SECONDARY_AGENCY",
+            "number_non_empty_cells": 266,
+            "number_empty_cells": 691,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "DOT",
+                "DPR",
+                "PPA",
+                "CPC",
+                "DEP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 266,
+                    "shortest_values": [
+                        "MF",
+                        "QL",
+                        "BPL",
+                        "BBP",
+                        "PPA"
+                    ],
+                    "longest_values": [
+                        "DOT/DCAS/DOE",
+                        "NYRP/ROWNY",
+                        "DPR/DCLA%",
+                        "DCLA/DPR",
+                        "DEP/ DPR"
+                    ],
+                    "average_length": 3.7969924812030076
+                }
+            ]
+        },
+        {
+            "column_name": "PUBLIC_PRIVATE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Public",
+                "Private",
+                "Public and Private"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "Public",
+                        "Private",
+                        "Public and Private"
+                    ],
+                    "longest_values": [
+                        "Public and Private",
+                        "Private",
+                        "Public"
+                    ],
+                    "average_length": 6.925809822361546
+                }
+            ]
+        },
+        {
+            "column_name": "PROJECT_TYPE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Landscape architecture",
+                "Architecture",
+                "Building systems & Modifications",
+                "Newsstands",
+                "Streetscape"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "Bridge",
+                        "Artwork",
+                        "Signage",
+                        "Newsstands",
+                        "Streetscape"
+                    ],
+                    "longest_values": [
+                        "Building systems & Modifications",
+                        "Landscape architecture",
+                        "Architecture",
+                        "Streetscape",
+                        "Newsstands"
+                    ],
+                    "average_length": 18.258098223615466
+                }
+            ]
+        },
+        {
+            "column_name": "CONSTRUCTION_TYPE",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Installation",
+                "Reconstruction",
+                "Construction",
+                "Rehabilitation",
+                "Design"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "Design",
+                        "Removal",
+                        "Demolition",
+                        "Renovation",
+                        "Relocation"
+                    ],
+                    "longest_values": [
+                        "Reconstruction",
+                        "Rehabilitation",
+                        "Conservation",
+                        "Installation",
+                        "Construction"
+                    ],
+                    "average_length": 12.58516196447231
+                }
+            ]
+        },
+        {
+            "column_name": "RESULT",
+            "number_non_empty_cells": 957,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Commented",
+                "Approved",
+                "Approved with conditions",
+                "Found incomplete",
+                "Withdrawn"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 957,
+                    "shortest_values": [
+                        "Approved",
+                        "Rejected",
+                        "Commented",
+                        "Withdrawn",
+                        "Found incomplete"
+                    ],
+                    "longest_values": [
+                        "Approved with conditions",
+                        "Found incomplete",
+                        "Withdrawn",
+                        "Commented",
+                        "Rejected"
+                    ],
+                    "average_length": 10.76907001044932
+                }
+            ]
+        },
+        {
+            "column_name": "REVIEW_CYCLES",
+            "number_non_empty_cells": 434,
+            "number_empty_cells": 523,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "1",
+                "2",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 434,
+                    "max_value": 3,
+                    "min_value": 1,
+                    "mean": 1.195852534562212,
+                    "stddev": 0.46626403825424007
+                }
+            ]
+        },
+        {
+            "column_name": "2016_SUBMISSION",
+            "number_non_empty_cells": 58,
+            "number_empty_cells": 899,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "x"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 58,
+                    "shortest_values": [
+                        "x"
+                    ],
+                    "longest_values": [
+                        "x"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "MEETING_DATE",
+        "PROJECT_ID"
+    ]
+}

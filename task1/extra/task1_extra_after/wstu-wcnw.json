@@ -1,0 +1,236 @@
+{
+    "dataset_name": "wstu-wcnw",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Bronx",
+                "Queens",
+                "Staten Is"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 468,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Is"
+                    ],
+                    "longest_values": [
+                        "Staten Is",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.363247863247863
+                }
+            ]
+        },
+        {
+            "column_name": "Grade Level",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "HS Core",
+                "MS Core"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 468,
+                    "shortest_values": [
+                        "HS Core",
+                        "MS Core"
+                    ],
+                    "longest_values": [
+                        "MS Core",
+                        "HS Core"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Program Type",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Gen Ed",
+                "ICT",
+                "SC",
+                "Accelerated",
+                "ICT & Acc"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 468,
+                    "shortest_values": [
+                        "SC",
+                        "ICT",
+                        "Gen Ed",
+                        "ICT & Acc",
+                        "Accelerated"
+                    ],
+                    "longest_values": [
+                        "Accelerated",
+                        "ICT & Acc",
+                        "Gen Ed",
+                        "ICT",
+                        "SC"
+                    ],
+                    "average_length": 4.305555555555555
+                }
+            ]
+        },
+        {
+            "column_name": "Department",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Math",
+                "Science",
+                "English",
+                "Social Studies"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 468,
+                    "shortest_values": [
+                        "Math",
+                        "English",
+                        "Science",
+                        "Social Studies"
+                    ],
+                    "longest_values": [
+                        "Social Studies",
+                        "Science",
+                        "English",
+                        "Math"
+                    ],
+                    "average_length": 7.538461538461538
+                }
+            ]
+        },
+        {
+            "column_name": "Subject",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "MS English Core",
+                "MS Science Other",
+                "MS Social Studies Other",
+                "MS Math Other",
+                "HS English 09"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 468,
+                    "shortest_values": [
+                        "HS Physics",
+                        "HS Geometry",
+                        "HS Chemistry",
+                        "MS Math Core",
+                        "HS Algebra I"
+                    ],
+                    "longest_values": [
+                        "HS Social Studies Other",
+                        "MS Social Studies Other",
+                        "MS Social Studies Core",
+                        "MS Integrated Algebra",
+                        "HS Living Environment"
+                    ],
+                    "average_length": 15.643162393162394
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Students",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 431,
+            "frequent_values": [
+                "58",
+                "126",
+                "40",
+                "234",
+                "30"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 468,
+                    "max_value": 42012,
+                    "min_value": 3,
+                    "mean": 4672.038461538462,
+                    "stddev": 6970.784355630912
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Classes",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 256,
+            "frequent_values": [
+                "1",
+                "3",
+                "6",
+                "5",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 468,
+                    "max_value": 1491,
+                    "min_value": 1,
+                    "mean": 184.18803418803418,
+                    "stddev": 259.43335463630183
+                }
+            ]
+        },
+        {
+            "column_name": "Average Class Size",
+            "number_non_empty_cells": 468,
+            "number_empty_cells": 0,
+            "number_distinct_values": 155,
+            "frequent_values": [
+                "10.0",
+                "27.5",
+                "26.9",
+                "28.5",
+                "26.8"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 468,
+                    "max_value": 34.0,
+                    "min_value": 3.0,
+                    "mean": 22.09337606837607,
+                    "stddev": 7.953552324909189
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "Grade Level"
+    ]
+}

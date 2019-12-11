@@ -1,0 +1,197 @@
+{
+    "dataset_name": "wymh-dvmd",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "2017",
+                "2018"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 104,
+                    "max_value": 2018,
+                    "min_value": 2017,
+                    "mean": 2017.2307692307693,
+                    "stddev": 0.42132504423474304
+                }
+            ]
+        },
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "8",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 104,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 6.230769230769231,
+                    "stddev": 3.4452608733167223
+                }
+            ]
+        },
+        {
+            "column_name": "Metric",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Vital Records",
+                "Vital Records Total",
+                "STD Results",
+                "STD Results Overflow",
+                "PROVIDERS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 104,
+                    "shortest_values": [
+                        "PROVIDERS",
+                        "STD Totals",
+                        "STD Results",
+                        "Vital Records",
+                        "Dog License Unit"
+                    ],
+                    "longest_values": [
+                        "Vital Records Overflow",
+                        "STD Results Overflow",
+                        "Vital Records Total",
+                        "Dog License Unit",
+                        "Vital Records"
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "TotalNoOfCalls",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 103,
+            "frequent_values": [
+                "517",
+                "2067",
+                "469",
+                "679",
+                "718"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 104,
+                    "max_value": 5845,
+                    "min_value": 208,
+                    "mean": 1632.9134615384614,
+                    "stddev": 1545.7418688783075
+                }
+            ]
+        },
+        {
+            "column_name": "AvgSpeedOfAnswer",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 57,
+            "frequent_values": [
+                "00:00:05",
+                "00:00:06",
+                "00:00:14",
+                "00:00:15",
+                "00:00:16"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 104,
+                    "shortest_values": [
+                        "00:00:45",
+                        "00:00:39",
+                        "00:00:08",
+                        "00:02:26",
+                        "00:01:09"
+                    ],
+                    "longest_values": [
+                        "00:02:22",
+                        "00:00:42",
+                        "00:00:18",
+                        "00:00:28",
+                        "00:01:20"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "CallPctAnsweredWi30Secs",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "80.51",
+                "100",
+                "51.39",
+                "84.6",
+                "89.03"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 100,
+                    "min_value": 30,
+                    "mean": 67.5,
+                    "stddev": 32.69174207655505
+                },
+                {
+                    "type": "REAL",
+                    "count": 100,
+                    "max_value": 99.83,
+                    "min_value": 21.32,
+                    "mean": 73.67060000000001,
+                    "stddev": 24.69227915037411
+                }
+            ]
+        },
+        {
+            "column_name": "SortOrder",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "8",
+                "6",
+                "7",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 104,
+                    "max_value": 8,
+                    "min_value": 1,
+                    "mean": 4.5,
+                    "stddev": 2.29128784747792
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Year",
+        "Month"
+    ]
+}

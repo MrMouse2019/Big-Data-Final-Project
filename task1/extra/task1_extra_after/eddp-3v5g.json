@@ -1,0 +1,127 @@
+{
+    "dataset_name": "eddp-3v5g",
+    "columns": [
+        {
+            "column_name": "DOC_EMPLOYEE_ID",
+            "number_non_empty_cells": 42444,
+            "number_empty_cells": 0,
+            "number_distinct_values": 42444,
+            "frequent_values": [
+                "26489",
+                "24818",
+                "33672",
+                "59828",
+                "24813"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 42444,
+                    "max_value": 69613,
+                    "min_value": 22375,
+                    "mean": 45011.03951088493,
+                    "stddev": 13949.176841943929
+                }
+            ]
+        },
+        {
+            "column_name": "LEAVE_STATUS_DESC",
+            "number_non_empty_cells": 42444,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "CEASED",
+                "ACTIVE",
+                "ON SEPARATION LEAVE",
+                "TERMINATED-SEVERANCE",
+                "CHILD CARE LEAVE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42444,
+                    "shortest_values": [
+                        "CEASED",
+                        "ACTIVE",
+                        "SUSPENDED",
+                        "LIMITED DUTY",
+                        "MILITARY LEAVE"
+                    ],
+                    "longest_values": [
+                        "ORDER MILITARY DUTY-EXTEND PAY",
+                        "TERMINATED-PEND MGRL LUMP SUM",
+                        "APPROVED LWOP DUE TO ILLNESS",
+                        "TERMINATED-SEVERANCE RETIRE",
+                        "OTHER LEAVE WITHOUT PAY"
+                    ],
+                    "average_length": 6.178823862029969
+                }
+            ]
+        },
+        {
+            "column_name": "RANK_TITLE",
+            "number_non_empty_cells": 42444,
+            "number_empty_cells": 0,
+            "number_distinct_values": 276,
+            "frequent_values": [
+                "CORRECTION OFFICER",
+                "CAPTAIN",
+                "UNKNOWN",
+                "COOK",
+                "PRINCIPAL ADMINISTRATIVE ASSOCIATE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42444,
+                    "shortest_values": [
+                        "COOK",
+                        "BAKER",
+                        "OILER",
+                        "CLERK",
+                        "WELDER"
+                    ],
+                    "longest_values": [
+                        "ADMINISTRATIVE COMMUNITY RELATIONS SPECIALIST(NON-MGRL) FORMER M1-3",
+                        "ADMINISTRATIVE CONSTRUCTION PROJECT MANAGER (NON-MGRL)",
+                        "ADMINISTRATIVE DIRECTOR OF SOCIAL SERVICES, NM (I/II)",
+                        "SUPERVISOR OF MECHANICAL INSTALLATIONS AND MAINTENACE",
+                        "Administrative Project Manager (Non-Mgrl) Formerly M1"
+                    ],
+                    "average_length": 16.697318820092356
+                }
+            ]
+        },
+        {
+            "column_name": "GENDER",
+            "number_non_empty_cells": 42444,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "MALE",
+                "FEMALE",
+                "UKNOWN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42444,
+                    "shortest_values": [
+                        "MALE",
+                        "FEMALE",
+                        "UKNOWN"
+                    ],
+                    "longest_values": [
+                        "UKNOWN",
+                        "FEMALE",
+                        "MALE"
+                    ],
+                    "average_length": 4.7694844972198664
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "DOC_EMPLOYEE_ID"
+    ]
+}

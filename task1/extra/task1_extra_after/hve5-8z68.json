@@ -1,0 +1,55 @@
+{
+    "dataset_name": "hve5-8z68",
+    "columns": [
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 10,
+            "number_empty_cells": 1,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "2010",
+                "2009",
+                "2008",
+                "2005",
+                "2004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10,
+                    "max_value": 2010,
+                    "min_value": 2001,
+                    "mean": 2005.5,
+                    "stddev": 2.8722813232690143
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Incidents",
+            "number_non_empty_cells": 10,
+            "number_empty_cells": 1,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "40",
+                "37",
+                "34",
+                "29",
+                "30"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10,
+                    "max_value": 54,
+                    "min_value": 19,
+                    "mean": 34.1,
+                    "stddev": 9.61717214153932
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Fiscal Year",
+        "Number of Incidents"
+    ]
+}

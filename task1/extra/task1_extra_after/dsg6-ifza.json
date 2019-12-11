@@ -1,0 +1,959 @@
+{
+    "dataset_name": "dsg6-ifza",
+    "columns": [
+        {
+            "column_name": "Center Name",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2220,
+            "frequent_values": [
+                "NORTHEAST BRONX DAY CARE CENTER, INC.",
+                "THE CHILDREN'S AID SOCIETY",
+                "THE LEARNING EXPERIENCE",
+                "CARDINAL MCCLOSKEY COMMUNITY SERVICES",
+                "CHILDREN'S CORNER LEARNING CENTER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "I",
+                        "TLE",
+                        "ECFS",
+                        "SBCC",
+                        "ICCD"
+                    ],
+                    "longest_values": [
+                        "ADAPTIVE SOLUTIONS MULTI SERVICES(Speech language pathology, physical therapy, occupational therapy, psychology) PLLC",
+                        "MILLER EVANGELICAL CHRISTIAN UNION CHURCH OF THE CHURCHES OF CHRIST IN THE CHRISTIAN UNION",
+                        "Saint Peter\u001as Evangelical Lutheran Church, in the Borough of Brooklyn, City of New York",
+                        "PUERTO RICAN ORGANIZATION TO MOTIVATE, ENLIGHTEN AND SERVE ADDICTS, INC. (PROMESA)",
+                        "TOWN HOUSE INTERNATIONAL SCHOOL OF FILIPINAS AMERICAS SCIENCE AND ART FOUNDATION"
+                    ],
+                    "average_length": 30.639235953354536
+                }
+            ]
+        },
+        {
+            "column_name": "Legal Name",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2133,
+            "frequent_values": [
+                "BROOKLYN ARCHDIOCESE",
+                "BRIGHT HORIZONS CHILDREN'S CENTERS LLC",
+                "THE CHILDREN'S AID SOCIETY",
+                "BRONX CENTER MANAGEMENT ASSOCIATES I, INC",
+                "FRIENDS OF CROWN HEIGHTS EDUCATIONAL CENTERS, INC."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "GAN INC.",
+                        "KOCHAVIM",
+                        "CNNA INC",
+                        "QSAC,INC.",
+                        "Tiegerman"
+                    ],
+                    "longest_values": [
+                        "ADAPTIVE SOLUTIONS MULTI SERVICES(Speech language pathology, physical therapy, occupational therapy, psychology) PLLC",
+                        "THE RECTOR, CHURCHWARDENS AND VESTRYMEN OF THE PARISH OF CALVARY, HOLY COMMUNION AND ST. GEORGE'S IN",
+                        "RABBINICAL COMMITTEE OF BROWNSTONE BROOKLYN INC./CHAI TOTS PRESCHOOL OF WINDSOR TERRACE(TODDLER)''",
+                        "MILLER EVANGELICAL CHRISTIAN UNION CHURCH OF THE CHURCHES OF CHRIST IN THE CHRISTIAN UNION",
+                        "ROMAN CATHOLIC CHURCH OF OUR LADY OF THE ASSUMPTION SCHOOL AND ST. MARY STAR OF THE SEA"
+                    ],
+                    "average_length": 32.052040739058
+                }
+            ]
+        },
+        {
+            "column_name": "Building",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1669,
+            "frequent_values": [
+                "1776",
+                "50",
+                "125",
+                "300",
+                "20"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 38333,
+                    "max_value": 10510,
+                    "min_value": 1,
+                    "mean": 1401.7035974225862,
+                    "stddev": 1648.1947957819148
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14491,
+                    "shortest_values": [
+                        "318A",
+                        "100A",
+                        "529A",
+                        "111A",
+                        "580A"
+                    ],
+                    "longest_values": [
+                        "1065 -1085",
+                        "2060-2064",
+                        "2856-2860",
+                        "1020-1022",
+                        "2802-2808"
+                    ],
+                    "average_length": 5.558691601683804
+                }
+            ]
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1548,
+            "frequent_values": [
+                "BROADWAY",
+                "EAST TREMONT AVENUE",
+                "LINDEN BOULEVARD",
+                "CHURCH AVENUE",
+                "BATHGATE AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "91st",
+                        "Ave L",
+                        "70 ST",
+                        "38 ST",
+                        "108 ST"
+                    ],
+                    "longest_values": [
+                        "BROADWAY (ENTRANCE 54 READE STREET)",
+                        "ST. JOHN'S LANE  (AKA 1 YORK ST)",
+                        "HELL GATE CIRCLE  BUILDING 13",
+                        "FREDERICK DOUGLAS BOULEVARD",
+                        "Fredrick Douglas Boulevard"
+                    ],
+                    "average_length": 13.568870210510374
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "MANHATTAN",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.184026200212025
+                }
+            ]
+        },
+        {
+            "column_name": "ZipCode",
+            "number_non_empty_cells": 52800,
+            "number_empty_cells": 24,
+            "number_distinct_values": 180,
+            "frequent_values": [
+                "10466",
+                "10461",
+                "11219",
+                "10467",
+                "10463"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52800,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10835.656590909091,
+                    "stddev": 530.347737361759
+                }
+            ]
+        },
+        {
+            "column_name": "Phone",
+            "number_non_empty_cells": 52774,
+            "number_empty_cells": 50,
+            "number_distinct_values": 2180,
+            "frequent_values": [
+                "718-239-1062",
+                "718-484-8777",
+                "718-215-4125",
+                "718-723-3967",
+                "718-324-1052"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52774,
+                    "shortest_values": [
+                        "718-332-260",
+                        "718-658-7066",
+                        "718-293-3365",
+                        "212-965-9718",
+                        "212-722-9277"
+                    ],
+                    "longest_values": [
+                        "310-922-1745",
+                        "212-777-1624",
+                        "212-867-3386",
+                        "718-633-3979",
+                        "718-626-1686"
+                    ],
+                    "average_length": 11.999810512752491
+                }
+            ]
+        },
+        {
+            "column_name": "Permit Number",
+            "number_non_empty_cells": 46033,
+            "number_empty_cells": 6791,
+            "number_distinct_values": 2288,
+            "frequent_values": [
+                "7019",
+                "93817",
+                "7117",
+                "8390",
+                "4669"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 46033,
+                    "max_value": 105051,
+                    "min_value": 375,
+                    "mean": 32737.99028957487,
+                    "stddev": 37810.26504694617
+                }
+            ]
+        },
+        {
+            "column_name": "Permit Expiration",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 797,
+            "frequent_values": [
+                "01/23/2115",
+                "10/25/2020",
+                "10/31/2020",
+                "09/08/2021",
+                "09/28/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 52824,
+                    "max_value": "2117-09-17 00:00:00",
+                    "min_value": "1900-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Permitted",
+                "Active",
+                "Expired-In Renewal"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "Active",
+                        "Permitted",
+                        "Expired-In Renewal"
+                    ],
+                    "longest_values": [
+                        "Expired-In Renewal",
+                        "Permitted",
+                        "Active"
+                    ],
+                    "average_length": 9.021524307133122
+                }
+            ]
+        },
+        {
+            "column_name": "Age Range",
+            "number_non_empty_cells": 47095,
+            "number_empty_cells": 5729,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "2 YEARS - 5 YEARS",
+                "0 YEARS - 2 YEARS",
+                "3 YEARS - 5 YEARS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 47095,
+                    "shortest_values": [
+                        "3 YEARS - 5 YEARS",
+                        "2 YEARS - 5 YEARS",
+                        "0 YEARS - 2 YEARS"
+                    ],
+                    "longest_values": [
+                        "0 YEARS - 2 YEARS",
+                        "2 YEARS - 5 YEARS",
+                        "3 YEARS - 5 YEARS"
+                    ],
+                    "average_length": 17.0
+                }
+            ]
+        },
+        {
+            "column_name": "Maximum Capacity",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 229,
+            "frequent_values": [
+                "0",
+                "60",
+                "18",
+                "40",
+                "30"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52824,
+                    "max_value": 643,
+                    "min_value": 0,
+                    "mean": 64.78335605028018,
+                    "stddev": 56.55013307887889
+                }
+            ]
+        },
+        {
+            "column_name": "Day Care ID",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2768,
+            "frequent_values": [
+                "DC10897",
+                "DC26018",
+                "DC3129",
+                "DC21623",
+                "DC346"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "DC7",
+                        "DC82",
+                        "DC65",
+                        "DC84",
+                        "DC58"
+                    ],
+                    "longest_values": [
+                        "DC38011",
+                        "DC11853",
+                        "DC17412",
+                        "DC14921",
+                        "DC21712"
+                    ],
+                    "average_length": 6.597209601696199
+                }
+            ]
+        },
+        {
+            "column_name": "Program Type",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "PRESCHOOL",
+                "INFANT TODDLER",
+                "Preschool"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "PRESCHOOL",
+                        "Preschool",
+                        "INFANT TODDLER"
+                    ],
+                    "longest_values": [
+                        "INFANT TODDLER",
+                        "Preschool",
+                        "PRESCHOOL"
+                    ],
+                    "average_length": 9.669203392397396
+                }
+            ]
+        },
+        {
+            "column_name": "Facility Type",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "GDC",
+                "SBCC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "GDC",
+                        "SBCC"
+                    ],
+                    "longest_values": [
+                        "SBCC",
+                        "GDC"
+                    ],
+                    "average_length": 3.1324208693018325
+                }
+            ]
+        },
+        {
+            "column_name": "Child Care Type",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Child Care - Pre School",
+                "Child Care - Infants/Toddlers",
+                "School Based Child Care"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52824,
+                    "shortest_values": [
+                        "School Based Child Care",
+                        "Child Care - Pre School",
+                        "Child Care - Infants/Toddlers"
+                    ],
+                    "longest_values": [
+                        "Child Care - Infants/Toddlers",
+                        "Child Care - Pre School",
+                        "School Based Child Care"
+                    ],
+                    "average_length": 23.803044070876876
+                }
+            ]
+        },
+        {
+            "column_name": "Building Identification Number",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2205,
+            "frequent_values": [
+                "2047127",
+                "2000000",
+                "2118328",
+                "2000053",
+                "3000000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52824,
+                    "max_value": 5170168,
+                    "min_value": 0,
+                    "mean": 2845635.6456156294,
+                    "stddev": 1200881.3120021399
+                }
+            ]
+        },
+        {
+            "column_name": "URL",
+            "number_non_empty_cells": 26181,
+            "number_empty_cells": 26643,
+            "number_distinct_values": 889,
+            "frequent_values": [
+                "www.archny.org/education",
+                "www.brighthorizons.com",
+                "fochdaycare.org",
+                "www.tendertotsny.com",
+                "www.sunshinenewyork.com"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 26181,
+                    "shortest_values": [
+                        "bca.net",
+                        "cqy.org",
+                        "yai.org",
+                        "bhc.org",
+                        "BCA.net"
+                    ],
+                    "longest_values": [
+                        "www.baruch.cuny.edu/studentaffairs/studentlife",
+                        "www.greenwichhouse.org/nursery_school/index",
+                        "brightbeginningsearlylearning.weebly.com",
+                        "http://sco.org/programs/early-childhood/",
+                        "http://thelanguageandlaughterstudio.com/"
+                    ],
+                    "average_length": 21.022611817730414
+                }
+            ]
+        },
+        {
+            "column_name": "Date Permitted",
+            "number_non_empty_cells": 45829,
+            "number_empty_cells": 6995,
+            "number_distinct_values": 1500,
+            "frequent_values": [
+                "10/25/2012",
+                "10/16/2012",
+                "07/28/2015",
+                "06/19/2013",
+                "08/25/2003"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 45829,
+                    "max_value": "2019-09-26 00:00:00",
+                    "min_value": "1943-10-08 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Actual",
+            "number_non_empty_cells": 45829,
+            "number_empty_cells": 6995,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Y",
+                "N"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 45829,
+                    "shortest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "longest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Rate Percent",
+            "number_non_empty_cells": 52683,
+            "number_empty_cells": 141,
+            "number_distinct_values": 30,
+            "frequent_values": [
+                "50.0000",
+                "33.3333",
+                "66.6667",
+                "0.0000",
+                "60.0000"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 52683,
+                    "max_value": 100.0,
+                    "min_value": 0.0,
+                    "mean": 46.500478638268525,
+                    "stddev": 26.18478037092173
+                }
+            ]
+        },
+        {
+            "column_name": "Average Violation Rate Percent",
+            "number_non_empty_cells": 52664,
+            "number_empty_cells": 160,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "33.4024",
+                "31.4590",
+                "41.2500"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 52664,
+                    "max_value": 41.25,
+                    "min_value": 31.459,
+                    "mean": 34.178059748610096,
+                    "stddev": 2.833105338629202
+                }
+            ]
+        },
+        {
+            "column_name": "Total Educational Workers",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "7",
+                "6",
+                "4",
+                "8",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52824,
+                    "max_value": 109,
+                    "min_value": 0,
+                    "mean": 12.389803877025594,
+                    "stddev": 10.041150893925124
+                }
+            ]
+        },
+        {
+            "column_name": "Average Total Educational Workers",
+            "number_non_empty_cells": 52824,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "11.4242",
+                "7.4689",
+                "7.3393",
+                "0.0000"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 52824,
+                    "max_value": 11.4242,
+                    "min_value": 0.0,
+                    "mean": 10.351254119342228,
+                    "stddev": 1.7869566663966272
+                }
+            ]
+        },
+        {
+            "column_name": "Public Health Hazard Violation Rate",
+            "number_non_empty_cells": 52683,
+            "number_empty_cells": 141,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "0",
+                "16.6667",
+                "33.3333",
+                "20",
+                "50"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 32786,
+                    "max_value": 100,
+                    "min_value": 0,
+                    "mean": 19.707192094186542,
+                    "stddev": 25.462140434403928
+                },
+                {
+                    "type": "REAL",
+                    "count": 19897,
+                    "max_value": 83.3333,
+                    "min_value": 9.0909,
+                    "mean": 28.050601859578403,
+                    "stddev": 15.946704153479548
+                }
+            ]
+        },
+        {
+            "column_name": "Average Public Health Hazard Violation Rate",
+            "number_non_empty_cells": 52664,
+            "number_empty_cells": 160,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "13.6327",
+                "11.3542",
+                "23.6687"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 52664,
+                    "max_value": 23.6687,
+                    "min_value": 11.3542,
+                    "mean": 14.652284564400086,
+                    "stddev": 3.597231543451684
+                }
+            ]
+        },
+        {
+            "column_name": "Critical Violation Rate",
+            "number_non_empty_cells": 52683,
+            "number_empty_cells": 141,
+            "number_distinct_values": 30,
+            "frequent_values": [
+                "50",
+                "0",
+                "33.3333",
+                "66.6667",
+                "40"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 29360,
+                    "max_value": 100,
+                    "min_value": 0,
+                    "mean": 40.89730926430518,
+                    "stddev": 28.733889804159627
+                },
+                {
+                    "type": "REAL",
+                    "count": 23323,
+                    "max_value": 87.5,
+                    "min_value": 11.1111,
+                    "mean": 41.09609977704441,
+                    "stddev": 20.068979013749622
+                }
+            ]
+        },
+        {
+            "column_name": "Average Critical Violation Rate",
+            "number_non_empty_cells": 52664,
+            "number_empty_cells": 160,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "29.8981",
+                "28.0345",
+                "31.7243"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 52664,
+                    "max_value": 31.7243,
+                    "min_value": 28.0345,
+                    "mean": 29.890123253094966,
+                    "stddev": 0.9506126518505731
+                }
+            ]
+        },
+        {
+            "column_name": "Inspection Date",
+            "number_non_empty_cells": 52737,
+            "number_empty_cells": 87,
+            "number_distinct_values": 748,
+            "frequent_values": [
+                "05/09/2018",
+                "02/14/2018",
+                "02/08/2018",
+                "03/13/2019",
+                "05/15/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 52737,
+                    "max_value": "2019-09-26 00:00:00",
+                    "min_value": "2016-09-27 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Regulation Summary",
+            "number_non_empty_cells": 52737,
+            "number_empty_cells": 87,
+            "number_distinct_values": 400,
+            "frequent_values": [
+                "There were no new violations observed at the time of this inspection/visit.",
+                "Staff failed to obtain proof of immunization; Except for exempt staff, required staff immunizations were not submitted to child care service; records not confidential.",
+                "At time of inspection floors/walls ceilings were observed not maintained; in disrepair or covered in a toxic finish.",
+                "At time of inspection it was determined that child care service allows staff to perform their duties that are not healthy or are incapable of carrying out their duties. Staff medical clearances are not maintained by child care service.",
+                "All staff do not have required immunizations certified by a health care provider; record not available for inspection"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52737,
+                    "shortest_values": [
+                        "Toxic substances properly stored",
+                        "Food protected from cross contamination",
+                        "Clean sheet not provided for each child",
+                        "Premises free of accumulated standing water",
+                        "School operator arranges for fingerprinting"
+                    ],
+                    "longest_values": [
+                        "New permit application submitted without required documentation such as identity of owners, pre-permit technical plan, certificate of occupancy, fire safety statement, written safety plan, staff certifications and qualifications including required review, permit fee and proof of workers' compensation and disability benefits insurance",
+                        "School-based child care program determined to maintain a lead based hazard. Safe work practices not employed during activity that may disturb lead paint or paint of unknown lead content. School-based child care program failed to test soil for lead content. School-based child care program failed to conduct annual lead paint survey.",
+                        "Permits may be denied issuance or renewal or revoke for multiple suspensions, suspension for lost child, failure to impliment Corrective Action Plan, operating during period of suspension or without a permit, program deemed unable to comply, permitee had a previous permit or license suspended or revoked",
+                        "Peeling lead-based paint or peeling paint of unknown lead content observed in child care facility at time of inspection. At time of inspection it was determined that safe work practices were not employed during activity that potentially disturbed lead-based paint or paint of unknown lead content.",
+                        "Education Director not designated for each permitted child care held by program; Educational Director does not meet qualification requirements; failure to notify Department of Ed Director resignation/termination; failure to notify staff of Ed Director coverage, proof of notification not available"
+                    ],
+                    "average_length": 121.79217627092933
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Category",
+            "number_non_empty_cells": 38621,
+            "number_empty_cells": 14203,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "GENERAL",
+                "CRITICAL",
+                "PUBLIC HEALTH HAZARD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38621,
+                    "shortest_values": [
+                        "GENERAL",
+                        "CRITICAL",
+                        "PUBLIC HEALTH HAZARD"
+                    ],
+                    "longest_values": [
+                        "PUBLIC HEALTH HAZARD",
+                        "CRITICAL",
+                        "GENERAL"
+                    ],
+                    "average_length": 9.016286476269388
+                }
+            ]
+        },
+        {
+            "column_name": "Health Code Sub Section",
+            "number_non_empty_cells": 38621,
+            "number_empty_cells": 14203,
+            "number_distinct_values": 532,
+            "frequent_values": [
+                "47.33 (c)",
+                "47.33(c)",
+                "47.41(j)",
+                "47.19 (c)",
+                "43.11 (c)"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 616,
+                    "max_value": 173.14,
+                    "min_value": 3.05,
+                    "mean": 43.23298701298702,
+                    "stddev": 30.738568261064017
+                },
+                {
+                    "type": "TEXT",
+                    "count": 38005,
+                    "shortest_values": [
+                        "17-172",
+                        "17-504",
+                        "3.15(a)",
+                        "81.27(a)",
+                        "81.09(g)"
+                    ],
+                    "longest_values": [
+                        "43.17(a)(2)(B)(i)",
+                        "147.13(e)(1)(F)",
+                        "81.29(a)(3)(A)",
+                        "47.25(a)(2)(C)",
+                        "43.17(a)(2)(D)"
+                    ],
+                    "average_length": 9.288330482831206
+                }
+            ]
+        },
+        {
+            "column_name": "Violation Status",
+            "number_non_empty_cells": 38621,
+            "number_empty_cells": 14203,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "CORRECTED",
+                "OPEN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38621,
+                    "shortest_values": [
+                        "OPEN",
+                        "CORRECTED"
+                    ],
+                    "longest_values": [
+                        "CORRECTED",
+                        "OPEN"
+                    ],
+                    "average_length": 8.722819191631496
+                }
+            ]
+        },
+        {
+            "column_name": "Inspection Summary Result",
+            "number_non_empty_cells": 52008,
+            "number_empty_cells": 816,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "Initial Annual Inspection - Reinspection Required; Fines pending",
+                "Initial Annual Inspection - Reinspection Required",
+                "Initial Annual Inspection - Passed inspection with no violations",
+                "Initial Annual Inspection - Reinspection Not Required",
+                "Compliance Inspection of Open Violations - Reinspection Required; Fines pending"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52008,
+                    "shortest_values": [
+                        "Initial Annual Inspection - Reinspection Required",
+                        "Initial Annual Inspection - Reinspection Not Required",
+                        "Monitoring Inspection Non-Routine - Reinspection Required",
+                        "Monitoring Inspection Non-Routine - Reinspection Not Required",
+                        "Initial Annual Inspection - Previously closed program re-opened"
+                    ],
+                    "longest_values": [
+                        "Compliance Inspection of Open Violations - Reinspection Required; Violations corrected at time of inspection",
+                        "Compliance Inspection of Open Violations - Passed inspection; Violations corrected at time of inspection",
+                        "Monitoring Inspection Non-Routine - Reinspection Required; Violations corrected at time of inspection",
+                        "Monitoring Inspection Non-Routine - Passed inspection; Violations corrected at time of inspection",
+                        "Initial Annual Inspection - Reinspection Required; Violations corrected at time of inspection"
+                    ],
+                    "average_length": 63.830641439778496
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

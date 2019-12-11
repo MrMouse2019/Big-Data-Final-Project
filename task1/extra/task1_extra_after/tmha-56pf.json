@@ -1,0 +1,52 @@
+{
+    "dataset_name": "tmha-56pf",
+    "columns": [
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "09/01/2018 12:00:00 AM",
+                "10/01/2018 12:00:00 AM",
+                "05/01/2018 12:00:00 AM",
+                "06/01/2018 12:00:00 AM",
+                "07/01/2018 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 11,
+                    "max_value": "2018-11-01 00:00:00",
+                    "min_value": "2018-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "MONTHLY MEDIATIONS CLOSED",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "7",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 7,
+                    "min_value": 0,
+                    "mean": 2.8181818181818183,
+                    "stddev": 1.8982375470746453
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Month"
+    ]
+}

@@ -1,0 +1,352 @@
+{
+    "dataset_name": "rqhp-hivt",
+    "columns": [
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 38732,
+            "number_empty_cells": 0,
+            "number_distinct_values": 166,
+            "frequent_values": [
+                "2015 / 05",
+                "2015 / 11",
+                "2017 / 11",
+                "2017 / 10",
+                "2017 / 12"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38732,
+                    "shortest_values": [
+                        "2018 / 10",
+                        "2009 / 12",
+                        "2009 / 11",
+                        "2009 / 10",
+                        "2009 / 09"
+                    ],
+                    "longest_values": [
+                        "2005 / 01",
+                        "2013 / 09",
+                        "2013 / 11",
+                        "2013 / 12",
+                        "2014 / 01"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 38732,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Queens",
+                "Manhattan",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38732,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.521635856655995
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 38732,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "12",
+                "3",
+                "7",
+                "1",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 38732,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 7.976556852215222,
+                    "stddev": 4.661678712149691
+                }
+            ]
+        },
+        {
+            "column_name": "District",
+            "number_non_empty_cells": 38732,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "SI03",
+                "QE07",
+                "QE13",
+                "QE12",
+                "BKS18"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38732,
+                    "shortest_values": [
+                        "QW09",
+                        "QE13",
+                        "MN01",
+                        "MN10",
+                        "BX07"
+                    ],
+                    "longest_values": [
+                        "BKN05",
+                        "BKS13",
+                        "BKN16",
+                        "BKN17",
+                        "BKN01"
+                    ],
+                    "average_length": 4.338324899308065
+                }
+            ]
+        },
+        {
+            "column_name": "Cleaning Section",
+            "number_non_empty_cells": 38732,
+            "number_empty_cells": 0,
+            "number_distinct_values": 234,
+            "frequent_values": [
+                "MN081",
+                "BKN053",
+                "SI036",
+                "SI035",
+                "SI034"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38732,
+                    "shortest_values": [
+                        "SI012",
+                        "MN074",
+                        "BX052",
+                        "QE133",
+                        "BX083"
+                    ],
+                    "longest_values": [
+                        "BKN1611",
+                        "BKN1612",
+                        "BKN1621",
+                        "BKN1622",
+                        "BKS072"
+                    ],
+                    "average_length": 5.355468346586802
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Streets %",
+            "number_non_empty_cells": 38313,
+            "number_empty_cells": 419,
+            "number_distinct_values": 1207,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "90.00",
+                "92.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38313,
+                    "max_value": 100.0,
+                    "min_value": 15.38,
+                    "mean": 93.5212966878093,
+                    "stddev": 7.17932460451165
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Sidewalks %",
+            "number_non_empty_cells": 38313,
+            "number_empty_cells": 419,
+            "number_distinct_values": 924,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "97.50",
+                "90.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38313,
+                    "max_value": 100.0,
+                    "min_value": 40.0,
+                    "mean": 96.24129564377785,
+                    "stddev": 4.996832628922512
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Streets % - Previous Month",
+            "number_non_empty_cells": 38310,
+            "number_empty_cells": 422,
+            "number_distinct_values": 1206,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "90.00",
+                "92.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38310,
+                    "max_value": 100.0,
+                    "min_value": 15.38,
+                    "mean": 93.50659279561572,
+                    "stddev": 7.177803877817795
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Sidewalks % - Previous Month",
+            "number_non_empty_cells": 38310,
+            "number_empty_cells": 422,
+            "number_distinct_values": 926,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "97.50",
+                "90.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38310,
+                    "max_value": 100.0,
+                    "min_value": 40.0,
+                    "mean": 96.22372096058628,
+                    "stddev": 5.01287948777954
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Streets % - Previous Year",
+            "number_non_empty_cells": 38282,
+            "number_empty_cells": 450,
+            "number_distinct_values": 1251,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "90.00",
+                "92.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38282,
+                    "max_value": 100.0,
+                    "min_value": 15.38,
+                    "mean": 93.09887832401705,
+                    "stddev": 7.564870455810495
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Sidewalks % - Previous Year",
+            "number_non_empty_cells": 38282,
+            "number_empty_cells": 450,
+            "number_distinct_values": 961,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "97.50",
+                "90.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38282,
+                    "max_value": 100.0,
+                    "min_value": 40.0,
+                    "mean": 96.01275586437598,
+                    "stddev": 5.220492150267911
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Streets % - Previous Fiscal Quarter",
+            "number_non_empty_cells": 38304,
+            "number_empty_cells": 428,
+            "number_distinct_values": 1209,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "90.00",
+                "92.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38304,
+                    "max_value": 100.0,
+                    "min_value": 15.38,
+                    "mean": 93.46855811403614,
+                    "stddev": 7.186140736431903
+                }
+            ]
+        },
+        {
+            "column_name": "Acceptable Sidewalks % - Previous Fiscal Quarter",
+            "number_non_empty_cells": 38304,
+            "number_empty_cells": 428,
+            "number_distinct_values": 931,
+            "frequent_values": [
+                "100.00",
+                "95.00",
+                "96.00",
+                "97.50",
+                "90.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38304,
+                    "max_value": 100.0,
+                    "min_value": 40.0,
+                    "mean": 96.20133719716105,
+                    "stddev": 5.027142512893183
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Month",
+        "Borough"
+    ]
+}

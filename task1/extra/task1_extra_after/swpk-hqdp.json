@@ -1,0 +1,177 @@
+{
+    "dataset_name": "swpk-hqdp",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 390,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 390,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.456410256410257
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 390,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "2010",
+                "2000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 390,
+                    "max_value": 2010,
+                    "min_value": 2000,
+                    "mean": 2005.0,
+                    "stddev": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "FIPS County Code",
+            "number_non_empty_cells": 390,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "081",
+                "047",
+                "005",
+                "061",
+                "085"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 390,
+                    "max_value": 85,
+                    "min_value": 5,
+                    "mean": 54.712820512820514,
+                    "stddev": 28.24797863870813
+                }
+            ]
+        },
+        {
+            "column_name": "NTA Code",
+            "number_non_empty_cells": 390,
+            "number_empty_cells": 0,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "BK69",
+                "QN42",
+                "MN33",
+                "MN32",
+                "MN31"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 390,
+                    "shortest_values": [
+                        "BX01",
+                        "QN08",
+                        "QN10",
+                        "QN12",
+                        "QN15"
+                    ],
+                    "longest_values": [
+                        "SI99",
+                        "BK30",
+                        "BK69",
+                        "BK68",
+                        "BK64"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "NTA Name",
+            "number_non_empty_cells": 390,
+            "number_empty_cells": 0,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "Sunset Park West",
+                "East Tremont",
+                "Elmhurst-Maspeth",
+                "Rosedale",
+                "East Concourse-Concourse Village"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 390,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Jamaica",
+                        "Bedford",
+                        "Belmont"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emersn Hill-Heartland Villg-Lighthse Hill",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "Breezy Point-Belle Harbor-Rockwy Prk-Broad Chnl",
+                        "Soundview-Castle Hill-Clason Point-Harding Park",
+                        "Georgetown-Marine Park-Bergen Beach-Mill Basin"
+                    ],
+                    "average_length": 19.225641025641025
+                }
+            ]
+        },
+        {
+            "column_name": "Population",
+            "number_non_empty_cells": 390,
+            "number_empty_cells": 0,
+            "number_distinct_values": 387,
+            "frequent_values": [
+                "0",
+                "32496",
+                "27140",
+                "50742",
+                "38675"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 390,
+                    "max_value": 136954,
+                    "min_value": 0,
+                    "mean": 41495.92564102564,
+                    "stddev": 22373.11385906934
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "Year"
+    ]
+}

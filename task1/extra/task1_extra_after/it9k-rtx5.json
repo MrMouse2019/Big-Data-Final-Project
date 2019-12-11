@@ -1,0 +1,305 @@
+{
+    "dataset_name": "it9k-rtx5",
+    "columns": [
+        {
+            "column_name": "Appeal Type",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Section 50",
+                "Waiting for DQ",
+                "Section 76",
+                "Jurisdictional Issue",
+                "Other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        "Other",
+                        "Section 50",
+                        "Section 76",
+                        "Section 72",
+                        "Waiting for DQ"
+                    ],
+                    "longest_values": [
+                        "Waiting for Appeal Request",
+                        "Jurisdictional Issue",
+                        "Waiting for DQ",
+                        "Section 72",
+                        "Section 76"
+                    ],
+                    "average_length": 10.194972067039107
+                }
+            ]
+        },
+        {
+            "column_name": "Appeal Subtype",
+            "number_non_empty_cells": 1650,
+            "number_empty_cells": 140,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Medical",
+                "Character",
+                "Education and Experience",
+                "Psych",
+                "Timeliness"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1650,
+                    "shortest_values": [
+                        "Age",
+                        "Psych",
+                        "Score",
+                        "Medical",
+                        "Character"
+                    ],
+                    "longest_values": [
+                        "Education and Experience",
+                        "Veterans Credits",
+                        "Eligibility",
+                        "Timeliness",
+                        "Seniority"
+                    ],
+                    "average_length": 10.648484848484848
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Police Department - NYPD",
+                "Department of Citywide Administrative Services - DCAS",
+                "Department of Correction - DOC",
+                "Fire Department - FDNY",
+                "Department of Sanitation - DSNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        "Other - OTH",
+                        "Fire Department - FDNY",
+                        "Police Department - NYPD",
+                        "Transit Authority - NYCTA",
+                        "Housing Authority - NYCHA"
+                    ],
+                    "longest_values": [
+                        "Department of Citywide Administrative Services - DCAS",
+                        "Department of Environmental Protection - DEP",
+                        "Triborough Bridge and Tunnel Authority - TBT",
+                        "Administration for Children's Services - ACS",
+                        "Fire Department (old, dont use) - FIR"
+                    ],
+                    "average_length": 33.3804469273743
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Closed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        "Closed"
+                    ],
+                    "longest_values": [
+                        "Closed"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Date Filed",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 613,
+            "frequent_values": [
+                "11/24/2014",
+                "11/14/2014",
+                "04/21/2015",
+                "12/15/2014",
+                "11/05/2014"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1790,
+                    "max_value": "2015-12-30 00:00:00",
+                    "min_value": "2010-06-14 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Date Closed",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 217,
+            "frequent_values": [
+                "11/27/2015",
+                "11/09/2015",
+                "05/08/2015",
+                "12/15/2015",
+                "03/12/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1790,
+                    "max_value": "2015-12-31 00:00:00",
+                    "min_value": "2015-01-05 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Exam No.",
+            "number_non_empty_cells": 1654,
+            "number_empty_cells": 136,
+            "number_distinct_values": 271,
+            "frequent_values": [
+                "2000",
+                "6063",
+                "4010",
+                "4004",
+                "3057"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1654,
+                    "max_value": 999999,
+                    "min_value": 101,
+                    "mean": 3805.392986698912,
+                    "stddev": 24717.682826957596
+                }
+            ]
+        },
+        {
+            "column_name": "Title ",
+            "number_non_empty_cells": 1649,
+            "number_empty_cells": 141,
+            "number_distinct_values": 220,
+            "frequent_values": [
+                "Correction Officer",
+                "Police Officer",
+                "POLICE OFFICER",
+                "Firefighter",
+                "SANITATION WORKER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1649,
+                    "shortest_values": [
+                        "Cadet",
+                        "OIler",
+                        "Oiler",
+                        "Plumber",
+                        "Painter"
+                    ],
+                    "longest_values": [
+                        "SUPERVISOR OF MECHANICS (MECHANICAL EQUIPMENT)",
+                        "ADMINISTRATIVE COMMUNITY RELATIONS SPECIALIST",
+                        "Assistant Superintendent of Welfare Shelters",
+                        "Transit Electro-Mechanical Maintainer V & D",
+                        "Associate Fire Protection Inspector (Prom)"
+                    ],
+                    "average_length": 17.50212249848393
+                }
+            ]
+        },
+        {
+            "column_name": "Expiration",
+            "number_non_empty_cells": 1294,
+            "number_empty_cells": 496,
+            "number_distinct_values": 167,
+            "frequent_values": [
+                "06/26/2017",
+                "02/20/2012",
+                "02/19/2018",
+                "05/30/2016",
+                "06/28/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1294,
+                    "max_value": "2019-12-11 00:00:00",
+                    "min_value": "2011-04-18 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Extension",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 1688,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "02/20/2016",
+                "02/16/2016",
+                "02/10/2016",
+                "12/01/2015",
+                "04/18/2014"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 102,
+                    "max_value": "2018-05-14 00:00:00",
+                    "min_value": "2014-04-18 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Acronym",
+            "number_non_empty_cells": 1790,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "NYPD",
+                "DCAS",
+                "DOC",
+                "FDNY",
+                "DSNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1790,
+                    "shortest_values": [
+                        "DEP",
+                        "DOF",
+                        "DOT",
+                        "DOP",
+                        "TBT"
+                    ],
+                    "longest_values": [
+                        "NYCTA",
+                        "NYCHA",
+                        "NYCT",
+                        "FDNY",
+                        "DCAS"
+                    ],
+                    "average_length": 3.870949720670391
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

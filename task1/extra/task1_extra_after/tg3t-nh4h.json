@@ -1,0 +1,1108 @@
+{
+    "dataset_name": "tg3t-nh4h",
+    "columns": [
+        {
+            "column_name": "UNIQUEID",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7497,
+            "frequent_values": [
+                "2864",
+                "4085",
+                "3971",
+                "3012",
+                "2286"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 36051,
+                    "max_value": 17939,
+                    "min_value": 1,
+                    "mean": 3325.8443593797674,
+                    "stddev": 2500.2970957899965
+                }
+            ]
+        },
+        {
+            "column_name": "INSPECTIONID",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36051,
+            "frequent_values": [
+                "26489",
+                "79",
+                "3612",
+                "3611",
+                "48817"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 36051,
+                    "max_value": 66031,
+                    "min_value": 1,
+                    "mean": 29539.837729882667,
+                    "stddev": 19536.52380980131
+                }
+            ]
+        },
+        {
+            "column_name": "INSPECTIONDATE",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34580,
+            "frequent_values": [
+                "04/30/2013 12:00:00 AM +0000",
+                "05/07/2013 12:00:00 AM +0000",
+                "05/28/2013 12:00:00 AM +0000",
+                "05/16/2013 12:00:00 AM +0000",
+                "05/18/2013 12:00:00 AM +0000"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36051,
+                    "shortest_values": [
+                        "09/09/2013 11:27:38 AM +0000",
+                        "09/18/2015 04:24:53 PM +0000",
+                        "10/17/2014 12:00:00 AM +0000",
+                        "05/03/2017 01:01:50 PM +0000",
+                        "10/12/2016 05:29:27 PM +0000"
+                    ],
+                    "longest_values": [
+                        "09/24/2014 03:33:31 PM +0000",
+                        "11/03/2014 03:57:16 PM +0000",
+                        "04/26/2014 02:16:46 PM +0000",
+                        "11/03/2014 04:05:18 PM +0000",
+                        "05/21/2015 10:41:05 AM +0000"
+                    ],
+                    "average_length": 28.0
+                }
+            ]
+        },
+        {
+            "column_name": "BusinessName",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6818,
+            "frequent_values": [
+                "Domino's",
+                "Subway",
+                "Domino's Pizza",
+                "Spice",
+                "Papa John's"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36051,
+                    "shortest_values": [
+                        "7A",
+                        "ERB",
+                        "Zon",
+                        "CVS",
+                        "Tao"
+                    ],
+                    "longest_values": [
+                        "AHIMSA AUTHENTIC INDIAN VEGETARIAN KOSHER RESTAURANT",
+                        "FU FAN & CHINA CHINESE & JAPANESE RESTAURANT INC.",
+                        "Broadway Coffee Shop Crown Fried Chicken & Pizza ",
+                        "LA FLOR DEL PARAISO BAR & RESTAURANT NO. 5 CORP.",
+                        "FAMOUS RESTAURANT ROTESSERIE GRILL TACO AND CHIN"
+                    ],
+                    "average_length": 14.126071398851627
+                }
+            ]
+        },
+        {
+            "column_name": "TypeOfBusiness",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Food Establishment",
+                "Other (Please specify)",
+                "Grocery",
+                "Pharmacy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36051,
+                    "shortest_values": [
+                        "Grocery",
+                        "Pharmacy",
+                        "Food Establishment",
+                        "Other (Please specify)"
+                    ],
+                    "longest_values": [
+                        "Other (Please specify)",
+                        "Food Establishment",
+                        "Pharmacy",
+                        "Grocery"
+                    ],
+                    "average_length": 17.964328312668165
+                }
+            ]
+        },
+        {
+            "column_name": "RepresentativeName",
+            "number_non_empty_cells": 33206,
+            "number_empty_cells": 2845,
+            "number_distinct_values": 6360,
+            "frequent_values": [
+                "BLANK",
+                "Blank",
+                "Authorized Agent",
+                "John",
+                "Mike"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 6,
+                    "max_value": "nan",
+                    "min_value": "nan",
+                    "mean": "nan",
+                    "stddev": "nan"
+                },
+                {
+                    "type": "TEXT",
+                    "count": 33200,
+                    "shortest_values": [
+                        " ",
+                        "Li",
+                        "Wa",
+                        "PA",
+                        "Ke"
+                    ],
+                    "longest_values": [
+                        "Piivg Zoli /alice on 8/29/2013 at 4:14pm I spoke to Alice. Inspector#564.",
+                        "Joshua Hernandez / on 8/29/2013 at 2:30pm I spoke to Mr Prashant Bhatt .",
+                        "<script>alert(\"nGuard XSS Test- Representative Name\")</script>",
+                        "Michael. Lai.  Owner, came. Le. The manager.",
+                        "FEDEL DAVDI & NICOLA RESCINOTI"
+                    ],
+                    "average_length": 8.928493975903615
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36051,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.154614296413415
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 36051,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6758,
+            "frequent_values": [
+                "77 Pearl Street 10004",
+                "764 9 Avenue 10019",
+                "754 10 Avenue 10019",
+                "54 7 Avenue 11217",
+                "520 8 Avenue 10018"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36051,
+                    "shortest_values": [
+                        "339 9th St 11215",
+                        "81 2nd Ave 10003",
+                        "9 Broadway 10004",
+                        "56 West St 10004",
+                        "84 Hoyt St 11201"
+                    ],
+                    "longest_values": [
+                        "2143 Adam Clayton Powell Jr Blvd 10027",
+                        "2726A Fredrick Douglas Boulevard 10030",
+                        "2234 Adam Clayton Powell Jr Blvd 10027",
+                        "2167 Adam Clayton Powell Jr Blvd 10027",
+                        "2546 Adam Clayton Powell Jr Blvd 10039"
+                    ],
+                    "average_length": 21.546198441097335
+                }
+            ]
+        },
+        {
+            "column_name": "Question1",
+            "number_non_empty_cells": 36049,
+            "number_empty_cells": 2,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36049,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.693999833559877
+                }
+            ]
+        },
+        {
+            "column_name": "Question2",
+            "number_non_empty_cells": 36037,
+            "number_empty_cells": 14,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36037,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8822044010322725
+                }
+            ]
+        },
+        {
+            "column_name": "2-Option1",
+            "number_non_empty_cells": 4028,
+            "number_empty_cells": 32023,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4028,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "2-Option2",
+            "number_non_empty_cells": 190,
+            "number_empty_cells": 35861,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 190,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "2-TicketNumber",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 36051,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "2-NOVCode",
+            "number_non_empty_cells": 4216,
+            "number_empty_cells": 31835,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "DF5",
+                "DF6",
+                "Df5",
+                "DF4"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4216,
+                    "shortest_values": [
+                        "DF6",
+                        "DF5",
+                        "Df5",
+                        "DF4"
+                    ],
+                    "longest_values": [
+                        "DF4",
+                        "Df5",
+                        "DF5",
+                        "DF6"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "2-NOVNumber",
+            "number_non_empty_cells": 4216,
+            "number_empty_cells": 31835,
+            "number_distinct_values": 4216,
+            "frequent_values": [
+                "182244251",
+                "182719552",
+                "187138252",
+                "182526190",
+                "182218924"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4216,
+                    "max_value": 199201834,
+                    "min_value": 18919033,
+                    "mean": 185887983.43240038,
+                    "stddev": 4348650.05439309
+                }
+            ]
+        },
+        {
+            "column_name": "Question3",
+            "number_non_empty_cells": 35992,
+            "number_empty_cells": 59,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35992,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.969437652811736
+                }
+            ]
+        },
+        {
+            "column_name": "3-Option1",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 36051,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "3-Option2",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 36051,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "3-TicketNumber",
+            "number_non_empty_cells": 1079,
+            "number_empty_cells": 34972,
+            "number_distinct_values": 1079,
+            "frequent_values": [
+                "3-017648-06052018-541668818996",
+                "3-005115-08042015-484682307996",
+                "1-001761-11162015-594796145165",
+                "1-001025-12092015-415256626482",
+                "4-003729-06052015-419044214864"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1079,
+                    "shortest_values": [
+                        "2-003068-06132017-562789468524",
+                        "1-002106-11192015-632397124956",
+                        "1-001196-11072016-431273510654",
+                        "3-004607-10202014-604143197377",
+                        "3-006849-03272017-535795411425"
+                    ],
+                    "longest_values": [
+                        "4-003032-07032013-1071685404631",
+                        "1-002318-08222013-1071677344631",
+                        "3-004287-12122013-1075244843398",
+                        "1-001580-06272013-1071669074631",
+                        "1-003140-06172013-1071686744631"
+                    ],
+                    "average_length": 30.156626506024097
+                }
+            ]
+        },
+        {
+            "column_name": "3-NOVCode",
+            "number_non_empty_cells": 1079,
+            "number_empty_cells": 34972,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "DF9",
+                "DG1",
+                "Df9"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1079,
+                    "shortest_values": [
+                        "DF9",
+                        "DG1",
+                        "Df9"
+                    ],
+                    "longest_values": [
+                        "Df9",
+                        "DG1",
+                        "DF9"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "3-NOVNumber",
+            "number_non_empty_cells": 1079,
+            "number_empty_cells": 34972,
+            "number_distinct_values": 1079,
+            "frequent_values": [
+                "189188084",
+                "182632506",
+                "189199634",
+                "189193272",
+                "193146113"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1079,
+                    "max_value": 197349131,
+                    "min_value": 180306125,
+                    "mean": 187058064.3308619,
+                    "stddev": 3662296.907907304
+                }
+            ]
+        },
+        {
+            "column_name": "Question4",
+            "number_non_empty_cells": 35988,
+            "number_empty_cells": 63,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35988,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8806268756252082
+                }
+            ]
+        },
+        {
+            "column_name": "4-Option1",
+            "number_non_empty_cells": 1691,
+            "number_empty_cells": 34360,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1691,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-Option2",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 36040,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-Option3",
+            "number_non_empty_cells": 1689,
+            "number_empty_cells": 34362,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1689,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-Option4",
+            "number_non_empty_cells": 865,
+            "number_empty_cells": 35186,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 865,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-Option5",
+            "number_non_empty_cells": 1032,
+            "number_empty_cells": 35019,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1032,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-Option6",
+            "number_non_empty_cells": 154,
+            "number_empty_cells": 35897,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 154,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-TicketNumber",
+            "number_non_empty_cells": 4259,
+            "number_empty_cells": 31792,
+            "number_distinct_values": 4259,
+            "frequent_values": [
+                "1-017443-09182017-553508146623",
+                "1-004084-06182014-491820945964",
+                "3-002982-02272017-510704078027",
+                "3-005616-12152015-566145365853",
+                "1-001649-02012017-542801177437"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4259,
+                    "shortest_values": [
+                        "1-000001-03202014-458814739256",
+                        "4-004821-02272016-493870302567",
+                        "1-000327-06282014-571238062137",
+                        "1-004410-04212015-552897575491",
+                        "1-001272-04162016-373920732480"
+                    ],
+                    "longest_values": [
+                        "1-001093-08192013-1071660433273",
+                        "1-000101-07232013-1071649673273",
+                        "1-000141-07232013-1071650133273",
+                        "1-002207-04252013-1071677933273",
+                        "3-002206-04252013-1071677903273"
+                    ],
+                    "average_length": 30.18548955153792
+                }
+            ]
+        },
+        {
+            "column_name": "4-NOVCode",
+            "number_non_empty_cells": 4259,
+            "number_empty_cells": 31792,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "DF3",
+                "DF4",
+                "DF6"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4259,
+                    "shortest_values": [
+                        "DF3",
+                        "DF4",
+                        "DF6"
+                    ],
+                    "longest_values": [
+                        "DF6",
+                        "DF4",
+                        "DF3"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "4-NOVNumber",
+            "number_non_empty_cells": 4259,
+            "number_empty_cells": 31792,
+            "number_distinct_values": 4259,
+            "frequent_values": [
+                "182218374",
+                "182505768",
+                "187348902",
+                "182538649",
+                "185529814"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4259,
+                    "max_value": 198184940,
+                    "min_value": 19314151,
+                    "mean": 187424392.06339517,
+                    "stddev": 4873249.365207559
+                }
+            ]
+        },
+        {
+            "column_name": "Question5",
+            "number_non_empty_cells": 35933,
+            "number_empty_cells": 118,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35933,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.9324019703336766
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option1",
+            "number_non_empty_cells": 2,
+            "number_empty_cells": 36049,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option2",
+            "number_non_empty_cells": 1,
+            "number_empty_cells": 36050,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option3",
+            "number_non_empty_cells": 1441,
+            "number_empty_cells": 34610,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1441,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option4",
+            "number_non_empty_cells": 1709,
+            "number_empty_cells": 34342,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1709,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option5",
+            "number_non_empty_cells": 10,
+            "number_empty_cells": 36041,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option6",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 36046,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-Option7",
+            "number_non_empty_cells": 1107,
+            "number_empty_cells": 34944,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1107,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-TicketNumber",
+            "number_non_empty_cells": 2404,
+            "number_empty_cells": 33647,
+            "number_distinct_values": 2403,
+            "frequent_values": [
+                "1-000192-05182013-1071653931915",
+                "1-004120-09092013-1262647852656",
+                "1-002445-05292013-1071682231915",
+                "1-000173-07252013-1071653161915",
+                "3-003027-12182013-446990176863"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2404,
+                    "shortest_values": [
+                        "1-000001-03202014-460655527456",
+                        "1-004544-08262014-537691918897",
+                        "3-004876-12292015-501856329158",
+                        "1-005609-05242016-472971514936",
+                        "1-001437-05162014-591117906587"
+                    ],
+                    "longest_values": [
+                        "4-001685-05202013-1071675701915",
+                        "2-001116-04292013-1071662861915",
+                        "4-002533-05092013-1071708631915",
+                        "1-000596-06242013-1071704361915",
+                        "1-003232-05222013-1071691361915"
+                    ],
+                    "average_length": 30.33153078202995
+                }
+            ]
+        },
+        {
+            "column_name": "5-NOVCode",
+            "number_non_empty_cells": 2404,
+            "number_empty_cells": 33647,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "DF7",
+                "DF8",
+                "Df7",
+                "DF6",
+                "DF5"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2404,
+                    "shortest_values": [
+                        "DF7",
+                        "DF8",
+                        "Df7",
+                        "DF6",
+                        "DF5"
+                    ],
+                    "longest_values": [
+                        "DF5",
+                        "DF6",
+                        "Df7",
+                        "DF8",
+                        "DF7"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "5-NOVNumber",
+            "number_non_empty_cells": 2404,
+            "number_empty_cells": 33647,
+            "number_distinct_values": 2404,
+            "frequent_values": [
+                "182581549",
+                "182769162",
+                "182613586",
+                "189482445",
+                "182538373"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2404,
+                    "max_value": 193199610,
+                    "min_value": 157580342,
+                    "mean": 185025166.1780366,
+                    "stddev": 3037884.985777836
+                }
+            ]
+        },
+        {
+            "column_name": "ComplaintNumber",
+            "number_non_empty_cells": 2,
+            "number_empty_cells": 36049,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "885038937",
+                "123456789"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 885038937,
+                    "min_value": 123456789,
+                    "mean": 504247863.0,
+                    "stddev": 380791074.0
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionComments",
+            "number_non_empty_cells": 34307,
+            "number_empty_cells": 1744,
+            "number_distinct_values": 28925,
+            "frequent_values": [
+                "Business closed down.",
+                "Business closed down ",
+                "Business is closed down.",
+                "Business. Close down",
+                "Pass"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 34307,
+                    "shortest_values": [
+                        "Pass",
+                        "PASS",
+                        "Nick",
+                        "Passs",
+                        "Sal, "
+                    ],
+                    "longest_values": [
+                        "Upon conducting short surveillance prior to entering establishment I witnessed a delivery being made. Upon entering business I was told that the last inspector told that they don't deliver by bike so why am I there. I explained that I witnessed commercial bicyclist leaving. I was then told that the cyclist is from another and does deliveries for this businesses from time to time. I explained that since this business benefits from the delivery that they are responsible for compliance Jose Ortega.",
+                        "Waited for cyclist. Done with Anthony Rodriguez. He called owner's son, who told me that poster was being \"processed\" and come back later. I explained that we as DOT don't conduct our inspections in that manner. I proceeded with the inspection in which at the end resulted in 2 violations. One for the not having poster posted, the other for not being able to present the roster. While writing NOV for roster right outside in my vehicle, Anthony approached with folded poster. I gave a pass on poster",
+                        "At Time Of Inspection I Spoke To Employee  ( Name Not Given) who stated business uses external delivery services  (Postmates) for deliveries. Mention person stated that most of the deliveries he saw were picked up  by delivery person using cars. I then asked was there a Tablet or other device provided by Postmate to confirm these deliveries were being made by a 3rd party delivery service. He stated that the orders were placed when the delivery person came into the establishment using their phone",
+                        "At time of inspection I spoke to manager Mr. Oz in English. Note this is establishment is located on the third floor of mentioned address. Said person did not have roster of bicycles operators, information was on computer I informed said person to print documents out for future inspections as required for compliance. None of the delivery cyclists (MESSENGERS) were on site therefore complete inspection could not be done. This location may require another inspection to determine actual compliance.",
+                        "Spoke to Shimon in English during inspection. He stated the business doesn't make deliveries by bicycle yet but may in the future. I witnessed a delivery being by a bike operator in the area with the name of the business on his vest that marched the business. When brought up to manager he stated the bike operator is from the sister business with the same name. When checked in the app the sister business was cited by other inspector for not being in compliance. Keep eye on business in the future."
+                    ],
+                    "average_length": 63.29754860524091
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "INSPECTIONID"
+    ]
+}

@@ -1,0 +1,401 @@
+{
+    "dataset_name": "gcys-vvnq",
+    "columns": [
+        {
+            "column_name": "TRA_CODE",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 557152,
+            "frequent_values": [
+                "585188",
+                "406105",
+                "600192",
+                "52258",
+                "52259"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 557152,
+                    "max_value": 788017,
+                    "min_value": 10000,
+                    "mean": 463735.819079892,
+                    "stddev": 214679.85972817693
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_DESC",
+            "number_non_empty_cells": 557114,
+            "number_empty_cells": 38,
+            "number_distinct_values": 97097,
+            "frequent_values": [
+                "I",
+                "CORRECTION",
+                "(DEFAULT TRANSACTION DESCRIPTION)",
+                "Stock initialization",
+                "StockTake"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1097,
+                    "max_value": 85720180007920,
+                    "min_value": -1,
+                    "mean": 157166763203.49316,
+                    "stddev": 3656812828221.0273
+                },
+                {
+                    "type": "REAL",
+                    "count": 6,
+                    "max_value": 20181821911.001,
+                    "min_value": 43.49,
+                    "mean": 6727274197.075333,
+                    "stddev": 9513801926.314802
+                },
+                {
+                    "type": "TEXT",
+                    "count": 556011,
+                    "shortest_values": [
+                        "m",
+                        "C",
+                        "b",
+                        "M",
+                        "a"
+                    ],
+                    "longest_values": [
+                        "41560 ISSUE B-SPARK FRIEND FIELD ORIENTATION \u2013 COVERALL / RAINCOATS no l /m cove",
+                        "50115 ISSUE B-SPARK FRIEND FIELD ORIENTATION \u2013  RAINCOAT / HAT / GLOVES   6/03/2",
+                        "Let\u2019s swap out 30 each 50lb bags of M&O CC (Flakes) with 30 each 50lb bags of Re",
+                        "42111 ISSUE B-SPARK FRIEND FIELD ORIENTATION \u2013    coverall / raincoats / hats /",
+                        "Correction:Counted 17301(199 bags) also as 10221 3\u00bd skid (giving 199 extra bags)"
+                    ],
+                    "average_length": 8.988428286490734
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_TYPE",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "I",
+                "RECV",
+                "MISC",
+                "CORR",
+                "STTK"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 557152,
+                    "shortest_values": [
+                        "I",
+                        "RECV",
+                        "CORR",
+                        "STTK",
+                        "MISC"
+                    ],
+                    "longest_values": [
+                        "MPTC",
+                        "MISC",
+                        "STTK",
+                        "CORR",
+                        "RECV"
+                    ],
+                    "average_length": 1.587494974441445
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_DATE",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 383013,
+            "frequent_values": [
+                "Apr 15 2010 12:00AM",
+                "Nov 19 2010 12:00AM",
+                "May  4 2009 12:00AM",
+                "Jun 25 2009 12:00AM",
+                "Sep 28 2010 12:00AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 557152,
+                    "max_value": "2019-09-21 11:06:00",
+                    "min_value": "2009-05-04 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_REQ",
+            "number_non_empty_cells": 95944,
+            "number_empty_cells": 461208,
+            "number_distinct_values": 49245,
+            "frequent_values": [
+                "55464",
+                "10000",
+                "46109",
+                "10221",
+                "28325"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 95944,
+                    "max_value": 75202,
+                    "min_value": 10000,
+                    "mean": 40612.153454098225,
+                    "stddev": 18391.119720406616
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_STATUS",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "A",
+                "C",
+                "U"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 557152,
+                    "shortest_values": [
+                        "U",
+                        "A",
+                        "C"
+                    ],
+                    "longest_values": [
+                        "C",
+                        "A",
+                        "U"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_FROMENTITY",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "STOR",
+                "COMP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 557152,
+                    "shortest_values": [
+                        "STOR",
+                        "COMP"
+                    ],
+                    "longest_values": [
+                        "COMP",
+                        "STOR"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_FROMCODE",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 202,
+            "frequent_values": [
+                "B-01",
+                "B-MO",
+                "Q-07",
+                "B-06",
+                "B-TS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 557152,
+                    "shortest_values": [
+                        "*",
+                        "RR",
+                        "XR",
+                        "BR",
+                        "QR"
+                    ],
+                    "longest_values": [
+                        "CAPITAL-SPAREPARTS",
+                        "DCAS-STOREHOUSE",
+                        "DONATED-MATL",
+                        "GRANT-FUNDED",
+                        "FABRICATION"
+                    ],
+                    "average_length": 4.02457498133364
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_TOENTITY",
+            "number_non_empty_cells": 537701,
+            "number_empty_cells": 19451,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "EVNT",
+                "STOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 537701,
+                    "shortest_values": [
+                        "STOR",
+                        "EVNT"
+                    ],
+                    "longest_values": [
+                        "EVNT",
+                        "STOR"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_TOCODE",
+            "number_non_empty_cells": 537701,
+            "number_empty_cells": 19451,
+            "number_distinct_values": 368083,
+            "frequent_values": [
+                "X-TS",
+                "Q-MO",
+                "B-TS",
+                "Q-TS",
+                "B-MO"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 408672,
+                    "max_value": 1961446,
+                    "min_value": 17999,
+                    "mean": 925811.0480434187,
+                    "stddev": 395553.5711916443
+                },
+                {
+                    "type": "TEXT",
+                    "count": 129029,
+                    "shortest_values": [
+                        "XR",
+                        "RR",
+                        "MR",
+                        "QR",
+                        "BR"
+                    ],
+                    "longest_values": [
+                        "5BORO-CW-SVC",
+                        "5BORO-CREWS",
+                        "LABOR-REL",
+                        "M-INWOOD",
+                        "Q-AUTORP"
+                    ],
+                    "average_length": 4.278410279859567
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_UPDATECOUNT",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 557152,
+                    "max_value": 10,
+                    "min_value": 0,
+                    "mean": 0.21665721383033715,
+                    "stddev": 0.4530742565915492
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_CREATED",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 399705,
+            "frequent_values": [
+                "May  4 2009  1:27PM",
+                "May  4 2009  1:28PM",
+                "May  4 2009  1:29PM",
+                "Apr 16 2010  1:59PM",
+                "Apr 15 2010  5:15PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 557152,
+                    "max_value": "2019-09-21 23:08:00",
+                    "min_value": "2009-05-04 13:20:00"
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_UPDATED",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 397093,
+            "frequent_values": [
+                "May  4 2009  1:27PM",
+                "May  4 2009  1:28PM",
+                "May  4 2009  1:29PM",
+                "Apr 16 2010  1:59PM",
+                "Apr 15 2010  5:15PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 557152,
+                    "max_value": "2019-09-21 23:08:00",
+                    "min_value": "2009-05-04 13:20:00"
+                }
+            ]
+        },
+        {
+            "column_name": "TRA_SQLIDENTITY",
+            "number_non_empty_cells": 557152,
+            "number_empty_cells": 0,
+            "number_distinct_values": 557152,
+            "frequent_values": [
+                "585188",
+                "340192",
+                "117434",
+                "340194",
+                "746154"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 557152,
+                    "max_value": 766887,
+                    "min_value": 1,
+                    "mean": 447385.82567593764,
+                    "stddev": 211991.29481202515
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "TRA_SQLIDENTITY"
+    ]
+}

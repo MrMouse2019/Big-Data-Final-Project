@@ -1,0 +1,764 @@
+{
+    "dataset_name": "cspg-yi7g",
+    "columns": [
+        {
+            "column_name": "CREATED",
+            "number_non_empty_cells": 726880,
+            "number_empty_cells": 0,
+            "number_distinct_values": 633,
+            "frequent_values": [
+                "12/22/2017",
+                "01/31/2018",
+                "05/29/2017",
+                "06/02/2017",
+                "10/17/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 726880,
+                    "max_value": "2019-09-27 00:00:00",
+                    "min_value": "2017-04-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "BIC NUMBER",
+            "number_non_empty_cells": 726880,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1388,
+            "frequent_values": [
+                "BIC-490935",
+                "BIC-4350",
+                "BIC-4367",
+                "BIC-1796",
+                "BIC-3980"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 726880,
+                    "shortest_values": [
+                        "#B1'",
+                        "BIC-8",
+                        "BIC-26",
+                        "BIC-36",
+                        "BIC-35"
+                    ],
+                    "longest_values": [
+                        "PO BOX 664'",
+                        "BIC-502867",
+                        "BIC-483287",
+                        "BIC-488534",
+                        "BIC-490219"
+                    ],
+                    "average_length": 8.643110279550957
+                }
+            ]
+        },
+        {
+            "column_name": "ACCOUNT NAME",
+            "number_non_empty_cells": 726880,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1476,
+            "frequent_values": [
+                "METRO GENERAL CONTRACTING INC.",
+                "SIN SHENG INC",
+                "US ABC CONSTRUCTION, CORP.",
+                "MASPETH GENERAL CONTRACTING CORP.",
+                "ERIN CONSTRUCTION & DEVELOPMENT CO., INC."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 726880,
+                    "shortest_values": [
+                        "BRONX",
+                        "MBWC INC",
+                        "JVE, LLC",
+                        "NEW YORK",
+                        "XOLLE LLC"
+                    ],
+                    "longest_values": [
+                        "ROCCO AGOSTINO LANDSCAPE AND GENERAL CONTRACTOR CORP.",
+                        "PANTANO LANDSCAPING & CONSTRUCTION CONTRACTORS, INC.",
+                        "ROYCE THE CHOICE CONSTRUCTION & DEBRIS REMOVAL LLC",
+                        "ALL DIMENSION HOME IMPROVEMENT & RESTORATION, INC.",
+                        "DE PINO CONSTRUCTION MATERIAL TRANSPORTATION, INC."
+                    ],
+                    "average_length": 24.96664786484702
+                }
+            ]
+        },
+        {
+            "column_name": "TRADE NAME",
+            "number_non_empty_cells": 85558,
+            "number_empty_cells": 641322,
+            "number_distinct_values": 178,
+            "frequent_values": [
+                "J AND D TRUCKING OF NEW JERSEY",
+                "LELLA MASONRY",
+                "Z-BEST ROLL-OFF AND RUBBISH REMOVAL",
+                "MORONTA WASTE REMOVAL",
+                "ACON CONSTRUCTION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 85558,
+                    "shortest_values": [
+                        "NY",
+                        "ECS",
+                        "PCC",
+                        "ATC",
+                        "JULIANO"
+                    ],
+                    "longest_values": [
+                        "CONSTRUCTION AND DEMOLITION WASTE REMOVAL SPECIALIST",
+                        "ASHLEY & ERICA TRUCKING LIMITED LIABILITY COMPANY",
+                        "DAVID'S CONSTRUCTION & HOME IMPROVEMENT, CORP.",
+                        "ZERO BELOW CONSTRUCTION MANAGEMENT SERVICES",
+                        "KORONA DEMO & CARTING; KORONA CONSTRUCTION"
+                    ],
+                    "average_length": 20.96687627106758
+                }
+            ]
+        },
+        {
+            "column_name": "ADDRESS",
+            "number_non_empty_cells": 726880,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1523,
+            "frequent_values": [
+                "1818 FALMOUTH AVENUE",
+                "67 EAST AVENUE",
+                "95-11 147 PLACE",
+                "6238 138TH STREET",
+                "58-83 54TH STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 179,
+                    "max_value": 11803,
+                    "min_value": 10460,
+                    "mean": 11105.240223463687,
+                    "stddev": 670.9863442248752
+                },
+                {
+                    "type": "TEXT",
+                    "count": 726701,
+                    "shortest_values": [
+                        "10033-",
+                        "PO BOX 84",
+                        "1920 AVE W",
+                        "2302 AVE T",
+                        "PO BOX 788"
+                    ],
+                    "longest_values": [
+                        "94-43 LEFFERTS BLVD. SOUTH RICHMOND HILL",
+                        "208-10 CROSS ISLAND PARKWAY SUITE 250",
+                        "1170 BRIGHTON BEACH  AVENUE,  APT.6C",
+                        "120- 16 95TH AVENUE S RICHMOND HILL",
+                        "257 WARBURTON AVENUE APT. BASEMENT"
+                    ],
+                    "average_length": 17.78253229319899
+                }
+            ]
+        },
+        {
+            "column_name": "CITY",
+            "number_non_empty_cells": 726659,
+            "number_empty_cells": 221,
+            "number_distinct_values": 348,
+            "frequent_values": [
+                "BROOKLYN",
+                "STATEN ISLAND",
+                "BRONX",
+                "FLUSHING",
+                "MASPETH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 726659,
+                    "shortest_values": [
+                        "NY",
+                        "LIC",
+                        "LODI",
+                        "Bronx",
+                        "CORAM"
+                    ],
+                    "longest_values": [
+                        "PT. JEFFERSON STATION",
+                        "SPRINGFIELD GARDENS",
+                        "Springfield Gardens",
+                        "SOUTH RICHMOND HILL",
+                        "South Richmond Hill"
+                    ],
+                    "average_length": 9.473663712965779
+                }
+            ]
+        },
+        {
+            "column_name": "STATE",
+            "number_non_empty_cells": 726659,
+            "number_empty_cells": 221,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "PA",
+                "CT",
+                "IL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 726659,
+                    "shortest_values": [
+                        "NY",
+                        "NJ",
+                        "MA",
+                        "IL",
+                        "PA"
+                    ],
+                    "longest_values": [
+                        "jsmall@hallen.com",
+                        "jgs32@live.com",
+                        "js",
+                        "jg",
+                        "NC"
+                    ],
+                    "average_length": 2.001077534304261
+                }
+            ]
+        },
+        {
+            "column_name": "POSTCODE",
+            "number_non_empty_cells": 726659,
+            "number_empty_cells": 221,
+            "number_distinct_values": 487,
+            "frequent_values": [
+                "11378",
+                "11357",
+                "10314",
+                "11101",
+                "10309"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 675926,
+                    "max_value": 60608,
+                    "min_value": 2149,
+                    "mean": 10788.808826705883,
+                    "stddev": 2070.3626951327997
+                },
+                {
+                    "type": "TEXT",
+                    "count": 50733,
+                    "shortest_values": [
+                        "11572``",
+                        "07950-2229",
+                        "11222-5516",
+                        "11581-1311",
+                        "11417-1640"
+                    ],
+                    "longest_values": [
+                        "CL2 - Exempt",
+                        "07801-2036",
+                        "11215-4101",
+                        "11357-2311",
+                        "11220-2615"
+                    ],
+                    "average_length": 10.008653144895828
+                }
+            ]
+        },
+        {
+            "column_name": "PHONE",
+            "number_non_empty_cells": 721984,
+            "number_empty_cells": 4896,
+            "number_distinct_values": 1405,
+            "frequent_values": [
+                "(718) 378-2600",
+                "(516) 352-7868",
+                "(718) 478-5613",
+                "(718) 746-0714",
+                "(718) 224-6137"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 158,
+                    "max_value": 914210100,
+                    "min_value": 914210100,
+                    "mean": 914210100.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 721826,
+                    "shortest_values": [
+                        "2019-04-16",
+                        "2018-03-28",
+                        "516-233-7973",
+                        "646-391-3773",
+                        "718-525-0434"
+                    ],
+                    "longest_values": [
+                        "(631) 254-0024 ext. 23",
+                        "(914) 737-4403 X225",
+                        "(718) 313-9000",
+                        "(908) 850-0296",
+                        "(973) 668-2027"
+                    ],
+                    "average_length": 13.99330725133204
+                }
+            ]
+        },
+        {
+            "column_name": "EMAIL",
+            "number_non_empty_cells": 370351,
+            "number_empty_cells": 356529,
+            "number_distinct_values": 1313,
+            "frequent_values": [
+                "CL2 - Exempt",
+                "zalman54@gmail.com",
+                "acostanza226@gmail.com",
+                "mcgillicks@aol.com",
+                "frullo@allstatedemo.com"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 370351,
+                    "shortest_values": [
+                        "kd@epik.cc",
+                        "2018-07-01",
+                        "2017-12-01",
+                        "CL2 - Exempt",
+                        "jllaw@me.com"
+                    ],
+                    "longest_values": [
+                        "blackridge@blackridgeconstructionllc.com",
+                        "info.hardrockconstructioncorp@gmail.com",
+                        "siconconstructionservicecorp@gmail.com",
+                        "framirez@firstclasscontractingcorp.com",
+                        "lbarroca@barrocatoolsandequipment.com"
+                    ],
+                    "average_length": 22.567323971043685
+                }
+            ]
+        },
+        {
+            "column_name": "APPLICATION TYPE",
+            "number_non_empty_cells": 726659,
+            "number_empty_cells": 221,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "CL2 - Exempt",
+                "2018-06-22",
+                "2018-06-26",
+                "2018-06-21",
+                "2020-06-30"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 726659,
+                    "shortest_values": [
+                        "2018-06-21",
+                        "2018-06-22",
+                        "2018-06-26",
+                        "2020-06-30",
+                        "2019-11-30"
+                    ],
+                    "longest_values": [
+                        "CL2 - Exempt",
+                        "2019-11-30",
+                        "2020-06-30",
+                        "2018-06-26",
+                        "2018-06-22"
+                    ],
+                    "average_length": 11.989981545676859
+                }
+            ]
+        },
+        {
+            "column_name": "DISPOSITION DATE",
+            "number_non_empty_cells": 270098,
+            "number_empty_cells": 456782,
+            "number_distinct_values": 615,
+            "frequent_values": [
+                "2018-06-27",
+                "2018-02-27",
+                "2018-05-31",
+                "2018-06-08",
+                "2018-07-18"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 270098,
+                    "max_value": "2019-09-27 00:00:00",
+                    "min_value": "2016-05-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "EFFECTIVE DATE",
+            "number_non_empty_cells": 366724,
+            "number_empty_cells": 360156,
+            "number_distinct_values": 72,
+            "frequent_values": [
+                "2018-04-01",
+                "2018-07-01",
+                "2018-06-01",
+                "2018-02-01",
+                "2018-05-01"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 366724,
+                    "max_value": "2019-11-01 00:00:00",
+                    "min_value": "2016-06-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "EXPIRATION DATE",
+            "number_non_empty_cells": 366663,
+            "number_empty_cells": 360217,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "2020-03-31",
+                "2020-06-30",
+                "2020-05-31",
+                "2020-01-31",
+                "2020-04-30"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 366663,
+                    "max_value": "2021-10-31 00:00:00",
+                    "min_value": "2018-05-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "RENEWAL",
+            "number_non_empty_cells": 31875,
+            "number_empty_cells": 695005,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "true",
+                "false"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 31875,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.173050980392157
+                }
+            ]
+        },
+        {
+            "column_name": "EXPORT DATE",
+            "number_non_empty_cells": 723019,
+            "number_empty_cells": 3861,
+            "number_distinct_values": 636,
+            "frequent_values": [
+                "01/31/2018",
+                "04/05/2018",
+                "04/03/2018",
+                "04/04/2018",
+                "04/06/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 723019,
+                    "max_value": "2019-09-27 00:00:00",
+                    "min_value": "2017-04-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 442396,
+            "number_empty_cells": 284484,
+            "number_distinct_values": 863,
+            "frequent_values": [
+                "40.718081",
+                "40.698520",
+                "40.649409",
+                "40.740458",
+                "40.809229"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 442396,
+                    "max_value": 40.898195,
+                    "min_value": 40.501761,
+                    "mean": 40.693620158096216,
+                    "stddev": 0.08396460279482884
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 442396,
+            "number_empty_cells": 284484,
+            "number_distinct_values": 861,
+            "frequent_values": [
+                "-73.894126",
+                "-73.799903",
+                "-73.914897",
+                "-73.805573",
+                "-73.902170"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 442396,
+                    "max_value": -73.709613,
+                    "min_value": -74.250164,
+                    "mean": -73.93835914228009,
+                    "stddev": 0.1230614185530599
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITY BOARD",
+            "number_non_empty_cells": 442396,
+            "number_empty_cells": 284484,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "1",
+                "7",
+                "2",
+                "3",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 442396,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 6.721758334162153,
+                    "stddev": 4.793230349715578
+                }
+            ]
+        },
+        {
+            "column_name": "COUNCIL DISTRICT",
+            "number_non_empty_cells": 442396,
+            "number_empty_cells": 284484,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "19",
+                "50",
+                "30",
+                "51",
+                "28"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 442396,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 32.42402056076456,
+                    "stddev": 12.853749776432046
+                }
+            ]
+        },
+        {
+            "column_name": "CENSUS TRACT",
+            "number_non_empty_cells": 443087,
+            "number_empty_cells": 283793,
+            "number_distinct_values": 1523,
+            "frequent_values": [
+                "93",
+                "226",
+                "29102",
+                "449",
+                "907"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 442396,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 7466.851388800984,
+                    "stddev": 21260.43834051374
+                },
+                {
+                    "type": "REAL",
+                    "count": 691,
+                    "max_value": 40.898195,
+                    "min_value": 40.501761,
+                    "mean": 40.69371093632413,
+                    "stddev": 0.0837799634636463
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 437797,
+            "number_empty_cells": 289083,
+            "number_distinct_values": 1512,
+            "frequent_values": [
+                "4000000",
+                "5000000",
+                "3000000",
+                "4214530",
+                "4437489"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 437106,
+                    "max_value": 5167552,
+                    "min_value": 1001871,
+                    "mean": 3813618.745642933,
+                    "stddev": 965916.3104031796
+                },
+                {
+                    "type": "REAL",
+                    "count": 691,
+                    "max_value": -73.709613,
+                    "min_value": -74.250164,
+                    "mean": -73.93862117366139,
+                    "stddev": 0.12196050688468993
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 437797,
+            "number_empty_cells": 289083,
+            "number_distinct_values": 866,
+            "frequent_values": [
+                "4043460041",
+                "4026290221",
+                "2027680023",
+                "3084460031",
+                "4063930027"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 437797,
+                    "max_value": 5080480067,
+                    "min_value": 1,
+                    "mean": 3710503686.44011,
+                    "stddev": 963391064.6130385
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 443087,
+            "number_empty_cells": 283793,
+            "number_distinct_values": 188,
+            "frequent_values": [
+                "Whitestone",
+                "Maspeth",
+                "College Point",
+                "Hunters Point-Sunnyside-West Maspeth",
+                "South Ozone Park"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 691,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 32.434153400868304,
+                    "stddev": 12.82802614099331
+                },
+                {
+                    "type": "TEXT",
+                    "count": 442396,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Midwood",
+                        "Madison",
+                        "Astoria"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park",
+                        "Georgetown-Marine Park-Bergen Beach-Mill Basin"
+                    ],
+                    "average_length": 19.00590873335202
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 354258,
+            "number_empty_cells": 372622,
+            "number_distinct_values": 394,
+            "frequent_values": [
+                "QUEENS",
+                "BROOKLYN",
+                "STATEN IS",
+                "BRONX",
+                "MANHATTAN"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 691,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 7179.953690303907,
+                    "stddev": 20833.445382748043
+                },
+                {
+                    "type": "TEXT",
+                    "count": 353567,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "STATEN IS",
+                        "MANHATTAN"
+                    ],
+                    "longest_values": [
+                        "MANHATTAN",
+                        "STATEN IS",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.061317939739851
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CREATED",
+        "BIC NUMBER"
+    ]
+}

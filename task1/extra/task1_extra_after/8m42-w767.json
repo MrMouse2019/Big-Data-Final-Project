@@ -1,0 +1,755 @@
+{
+    "dataset_name": "8m42-w767",
+    "columns": [
+        {
+            "column_name": "STARFIRE_INCIDENT_ID",
+            "number_non_empty_cells": 3375178,
+            "number_empty_cells": 20,
+            "number_distinct_values": 3372107,
+            "frequent_values": [
+                1708406890140910.0,
+                1703817360111150.0,
+                1632025850140100.0,
+                1718226750120740.0,
+                1727978640150310.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3375178,
+                    "max_value": 1836598910150470.0,
+                    "min_value": 132610043063.0,
+                    "mean": 1581275859526567.2,
+                    "stddev": 172091668134428.22
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_DATETIME",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3336076,
+            "frequent_values": [
+                "05/21/2015 09:21:20 PM",
+                "05/15/2018 07:47:17 PM",
+                "01/08/2018 12:02:29 AM",
+                "09/16/2017 08:46:18 PM",
+                "09/11/2017 12:33:37 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3375198,
+                    "max_value": "2018-12-31 23:59:59",
+                    "min_value": "2013-01-01 00:00:20"
+                }
+            ]
+        },
+        {
+            "column_name": "ALARM_BOX_BOROUGH",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX",
+                "QUEENS",
+                "RICHMOND / STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "RICHMOND / STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "RICHMOND / STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 8.067442561888221
+                }
+            ]
+        },
+        {
+            "column_name": "ALARM_BOX_NUMBER",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9670,
+            "frequent_values": [
+                1670,
+                2185,
+                781,
+                1349,
+                786
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 9999,
+                    "min_value": 10,
+                    "mean": 2868.0603783837273,
+                    "stddev": 2431.495112218438
+                }
+            ]
+        },
+        {
+            "column_name": "ALARM_BOX_LOCATION",
+            "number_non_empty_cells": 3375189,
+            "number_empty_cells": 9,
+            "number_distinct_values": 19860,
+            "frequent_values": [
+                "8 AVE & 155 ST",
+                "3 AVE & 143 ST",
+                "8 AVE & W 41 ST",
+                "5 AVE & 112 ST",
+                "7 AVE & W 42 ST"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375189,
+                    "shortest_values": [
+                        "CITY HALL",
+                        "7 AVE & 6 ST",
+                        "6 AVE & 7 ST",
+                        "6 AVE & 1 ST",
+                        "8 AVE & 9 ST"
+                    ],
+                    "longest_values": [
+                        "UNITED AIRLINE TERMINAL BLDG #56, FRONT,",
+                        "HARLEM CHILDR ZONE CHARTR SCH-281 W129ST",
+                        "BRUCKNER BLVD-NB-BET BOYNTON-MORRISON AV",
+                        "NEW ENGLAND THWY SB/SVC RD-300' N-TILLOT",
+                        "GARVEY BLVD/SUMNER AV 300' N OF MYRTLE A"
+                    ],
+                    "average_length": 22.253220782599136
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_BOROUGH",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX",
+                "QUEENS",
+                "RICHMOND / STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "RICHMOND / STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "RICHMOND / STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 8.067442561888221
+                }
+            ]
+        },
+        {
+            "column_name": "ZIPCODE",
+            "number_non_empty_cells": 3182150,
+            "number_empty_cells": 193048,
+            "number_distinct_values": 234,
+            "frequent_values": [
+                10456.0,
+                10029.0,
+                11212.0,
+                11207.0,
+                10002.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3182150,
+                    "max_value": 11697.0,
+                    "min_value": 10000.0,
+                    "mean": 10726.099918608488,
+                    "stddev": 557.8930254945354
+                }
+            ]
+        },
+        {
+            "column_name": "POLICEPRECINCT",
+            "number_non_empty_cells": 3182308,
+            "number_empty_cells": 192890,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                75.0,
+                40.0,
+                14.0,
+                44.0,
+                19.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3182308,
+                    "max_value": 123.0,
+                    "min_value": 1.0,
+                    "mean": 61.685985140344684,
+                    "stddev": 35.300117183474455
+                }
+            ]
+        },
+        {
+            "column_name": "CITYCOUNCILDISTRICT",
+            "number_non_empty_cells": 3180763,
+            "number_empty_cells": 194435,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                3.0,
+                8.0,
+                4.0,
+                9.0,
+                1.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3180763,
+                    "max_value": 51.0,
+                    "min_value": 1.0,
+                    "mean": 22.994200133741494,
+                    "stddev": 15.375849365811742
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITYDISTRICT",
+            "number_non_empty_cells": 3182301,
+            "number_empty_cells": 192897,
+            "number_distinct_values": 71,
+            "frequent_values": [
+                105.0,
+                103.0,
+                111.0,
+                412.0,
+                305.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3182301,
+                    "max_value": 595.0,
+                    "min_value": 101.0,
+                    "mean": 261.18503529364443,
+                    "stddev": 121.40977751623817
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITYSCHOOLDISTRICT",
+            "number_non_empty_cells": 3181448,
+            "number_empty_cells": 193750,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                2.0,
+                31.0,
+                10.0,
+                11.0,
+                9.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3181448,
+                    "max_value": 32.0,
+                    "min_value": 1.0,
+                    "mean": 14.70216832084007,
+                    "stddev": 9.849837176234857
+                }
+            ]
+        },
+        {
+            "column_name": "CONGRESSIONALDISTRICT",
+            "number_non_empty_cells": 3180763,
+            "number_empty_cells": 194435,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                12.0,
+                15.0,
+                13.0,
+                8.0,
+                10.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3180763,
+                    "max_value": 16.0,
+                    "min_value": 3.0,
+                    "mean": 10.522616114435436,
+                    "stddev": 3.2520609051338987
+                }
+            ]
+        },
+        {
+            "column_name": "ALARM_SOURCE_DESCRIPTION_TX",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "UCT/911",
+                "EMS Link/Medical",
+                "PD Link/Medical",
+                "Phone",
+                "Private Fire Alarm"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "ERS",
+                        "911",
+                        "BARS",
+                        "Phone",
+                        "Verbal"
+                    ],
+                    "longest_values": [
+                        "Private Fire Alarm",
+                        "EMS Link/Medical",
+                        "PD Link/Medical",
+                        "DEFAULT RECORD",
+                        "ERS No Contact"
+                    ],
+                    "average_length": 11.87057500034072
+                }
+            ]
+        },
+        {
+            "column_name": "ALARM_LEVEL_INDEX_DESCRIPTION",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Initial Alarm",
+                "DEFAULT RECORD",
+                "7-5 (All Hands Alarm)",
+                "10-75 Signal (Request for all hands alarm)",
+                "Second Alarm"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "Third Alarm",
+                        "Fifth Alarm",
+                        "Sixth Alarm",
+                        "Second Alarm",
+                        "Fourth Alarm"
+                    ],
+                    "longest_values": [
+                        "10-76 & 10-77 Signal (Notification Hi-Rise Fire)",
+                        "10-75 Signal (Request for all hands alarm)",
+                        "10-76 Signal (Notification Hi-Rise Fire)",
+                        "Fifth Alarm or Higher",
+                        "7-5 (All Hands Alarm)"
+                    ],
+                    "average_length": 13.089715329293274
+                }
+            ]
+        },
+        {
+            "column_name": "HIGHEST_ALARM_LEVEL",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "First Alarm",
+                "All Hands Working",
+                "Seventh Alarm ",
+                "Second Alarm",
+                "Third Alarm"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "First Alarm",
+                        "Third Alarm",
+                        "Fifth Alarm",
+                        "Sixth Alarm",
+                        "Second Alarm"
+                    ],
+                    "longest_values": [
+                        "Fifth Alarm or Higher",
+                        "Simultaneous Call",
+                        "All Hands Working",
+                        "Complaint/Still",
+                        "Seventh Alarm "
+                    ],
+                    "average_length": 11.025830780890484
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_CLASSIFICATION",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 69,
+            "frequent_values": [
+                "Medical - Assist Civilian",
+                "Assist Civilian - Non-Medical",
+                "Medical - EMS Link 10-91",
+                "Medical - PD Link 10-91",
+                "Odor - Other Than Smoke"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "Brush Fire",
+                        "Store Fire",
+                        "Church Fire",
+                        "School Fire",
+                        "Factory Fire"
+                    ],
+                    "longest_values": [
+                        "Carbon Monoxide - Code 3 - Emergency (over 9 ppm)",
+                        "Carbon Monoxide - Code 4 - No Detector Activation",
+                        "Multiple Dwelling 'A' - Food on the stove fire",
+                        "Carbon Monoxide - Code 2 - Incident (1-9 ppm)",
+                        "Non-Medical MFA - ERS No Console Available"
+                    ],
+                    "average_length": 25.976672479658973
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_CLASSIFICATION_GROUP",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Medical Emergencies",
+                "NonMedical Emergencies",
+                "Structural Fires",
+                "NonMedical MFAs",
+                "NonStructural Fires"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "Medical MFAs",
+                        "NonMedical MFAs",
+                        "Structural Fires",
+                        "Medical Emergencies",
+                        "NonStructural Fires"
+                    ],
+                    "longest_values": [
+                        "NonMedical Emergencies",
+                        "NonStructural Fires",
+                        "Medical Emergencies",
+                        "Structural Fires",
+                        "NonMedical MFAs"
+                    ],
+                    "average_length": 19.92826465291814
+                }
+            ]
+        },
+        {
+            "column_name": "DISPATCH_RESPONSE_SECONDS_QY",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3157,
+            "frequent_values": [
+                6,
+                5,
+                7,
+                8,
+                9
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 405447,
+                    "min_value": 0,
+                    "mean": 34.384230495514636,
+                    "stddev": 463.20109558907615
+                }
+            ]
+        },
+        {
+            "column_name": "FIRST_ASSIGNMENT_DATETIME",
+            "number_non_empty_cells": 3357475,
+            "number_empty_cells": 17723,
+            "number_distinct_values": 3328879,
+            "frequent_values": [
+                "12/07/2018 10:29:03 PM",
+                "02/21/2018 02:24:53 AM",
+                "12/11/2017 05:54:30 PM",
+                "02/15/2016 04:41:11 PM",
+                "08/07/2013 08:33:40 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3357475,
+                    "max_value": "2019-01-01 00:00:04",
+                    "min_value": "2013-01-01 00:01:25"
+                }
+            ]
+        },
+        {
+            "column_name": "FIRST_ACTIVATION_DATETIME",
+            "number_non_empty_cells": 3347310,
+            "number_empty_cells": 27888,
+            "number_distinct_values": 3311556,
+            "frequent_values": [
+                "10/30/2016 10:55:21 PM",
+                "12/10/2018 08:40:12 PM",
+                "10/02/2017 05:38:20 PM",
+                "01/15/2018 08:34:58 AM",
+                "07/27/2018 12:40:02 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3347310,
+                    "max_value": "2019-01-01 00:02:23",
+                    "min_value": "2013-01-01 00:01:43"
+                }
+            ]
+        },
+        {
+            "column_name": "FIRST_ON_SCENE_DATETIME",
+            "number_non_empty_cells": 2869041,
+            "number_empty_cells": 506157,
+            "number_distinct_values": 2830011,
+            "frequent_values": [
+                "03/07/2018 05:48:31 PM",
+                "10/30/2014 04:01:11 PM",
+                "10/21/2017 07:21:25 PM",
+                "10/22/2017 07:51:42 PM",
+                "08/01/2017 12:45:50 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2869041,
+                    "max_value": "2019-01-01 00:02:55",
+                    "min_value": "2013-01-01 00:04:55"
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_CLOSE_DATETIME",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3334779,
+            "frequent_values": [
+                "12/14/2017 01:43:19 PM",
+                "06/26/2018 01:33:36 AM",
+                "04/10/2017 10:45:34 AM",
+                "05/01/2017 02:53:26 PM",
+                "09/22/2016 09:56:03 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3375198,
+                    "max_value": "2019-01-01 01:03:33",
+                    "min_value": "2013-01-01 00:10:29"
+                }
+            ]
+        },
+        {
+            "column_name": "VALID_DISPATCH_RSPNS_TIME_INDC",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "N"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "N"
+                    ],
+                    "longest_values": [
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "VALID_INCIDENT_RSPNS_TIME_INDC",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Y",
+                "N"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3375198,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_RESPONSE_SECONDS_QY",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3709,
+            "frequent_values": [
+                0,
+                249,
+                241,
+                257,
+                265
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 309686,
+                    "min_value": 0,
+                    "mean": 263.33165165421406,
+                    "stddev": 385.5902366665398
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_TRAVEL_TM_SECONDS_QY",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3169,
+            "frequent_values": [
+                0,
+                228,
+                229,
+                234,
+                233
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 31964,
+                    "min_value": 0,
+                    "mean": 236.17294066896224,
+                    "stddev": 181.48905274812324
+                }
+            ]
+        },
+        {
+            "column_name": "ENGINES_ASSIGNED_QUANTITY",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 67,
+            "frequent_values": [
+                1,
+                0,
+                3,
+                2,
+                4
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 164,
+                    "min_value": 0,
+                    "mean": 1.289553975796383,
+                    "stddev": 1.04403299217061
+                }
+            ]
+        },
+        {
+            "column_name": "LADDERS_ASSIGNED_QUANTITY",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 134,
+                    "min_value": 0,
+                    "mean": 0.7175119800379118,
+                    "stddev": 0.9119362043120139
+                }
+            ]
+        },
+        {
+            "column_name": "OTHER_UNITS_ASSIGNED_QUANTITY",
+            "number_non_empty_cells": 3375198,
+            "number_empty_cells": 0,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                0,
+                1,
+                2,
+                3,
+                6
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3375198,
+                    "max_value": 151,
+                    "min_value": 0,
+                    "mean": 0.374207676112631,
+                    "stddev": 0.9054967950454922
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "STARFIRE_INCIDENT_ID",
+        "INCIDENT_DATETIME"
+    ]
+}

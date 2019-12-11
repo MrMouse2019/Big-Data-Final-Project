@@ -1,0 +1,117 @@
+{
+    "dataset_name": "tgqn-na2n",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Bronx",
+                "Brooklyn",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 195,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Calendar Year",
+            "number_non_empty_cells": 195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2010",
+                "2011",
+                "2009"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 195,
+                    "max_value": 2018,
+                    "min_value": 2006,
+                    "mean": 2012.0,
+                    "stddev": 3.7416573867739413
+                }
+            ]
+        },
+        {
+            "column_name": "Case Type",
+            "number_non_empty_cells": 195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "JD",
+                "ESP",
+                "ACD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 195,
+                    "shortest_values": [
+                        "JD",
+                        "ACD",
+                        "ESP"
+                    ],
+                    "longest_values": [
+                        "ESP",
+                        "ACD",
+                        "JD"
+                    ],
+                    "average_length": 2.6666666666666665
+                }
+            ]
+        },
+        {
+            "column_name": "Client Total",
+            "number_non_empty_cells": 195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 142,
+            "frequent_values": [
+                "23",
+                "25",
+                "56",
+                "113",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 195,
+                    "max_value": 615,
+                    "min_value": 6,
+                    "mean": 140.53333333333333,
+                    "stddev": 132.97662284109276
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "Calendar Year"
+    ]
+}

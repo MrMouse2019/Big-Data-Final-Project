@@ -1,0 +1,804 @@
+{
+    "dataset_name": "ebkm-iyma",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "06/01/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 6029,
+                    "max_value": "2019-06-01 00:00:00",
+                    "min_value": "2019-06-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Service Category",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Educational Services",
+                "Community Services",
+                "Afterschool Programs",
+                "Family Support",
+                "Immigrant Services"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "Family Support",
+                        "Housing Support",
+                        "Community Services",
+                        "Immigrant Services",
+                        "Afterschool Programs"
+                    ],
+                    "longest_values": [
+                        "Jobs and Internships",
+                        "Educational Services",
+                        "Afterschool Programs",
+                        "Immigrant Services",
+                        "Community Services"
+                    ],
+                    "average_length": 18.606070658483993
+                }
+            ]
+        },
+        {
+            "column_name": "Program Area",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Compass",
+                "CSBG",
+                "SYEP",
+                "Cornerstone",
+                "Literacy and Immigrant Services"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "RHY",
+                        "SYEP",
+                        "CSBG",
+                        "WIOA",
+                        "YAIP"
+                    ],
+                    "longest_values": [
+                        "Literacy and Immigrant Services",
+                        "Discretionary",
+                        "Cornerstone",
+                        "Compass",
+                        "Beacon"
+                    ],
+                    "average_length": 8.187095704096865
+                }
+            ]
+        },
+        {
+            "column_name": "Program Type",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "COMPASS Middle School",
+                "COMPASS Elementary",
+                "Cornerstone",
+                "Beacon",
+                "High School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "YAIP",
+                        "Beacon",
+                        "Housing",
+                        "Seniors",
+                        "YAIP Plus"
+                    ],
+                    "longest_values": [
+                        "Adult Literacy - BENL/ESOL (Discretionary)",
+                        "Adult Literacy - NDA (ABE/HSE/Spanish HSE)",
+                        "Adult Literacy - ABE/HSE (Discretionary)",
+                        "Fatherhood Prior Involvement",
+                        "Discretionary Under $25,000"
+                    ],
+                    "average_length": 17.091557472217616
+                }
+            ]
+        },
+        {
+            "column_name": "Provider",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 452,
+            "frequent_values": [
+                "Sports and Arts In Schools Foundation, Inc.",
+                "Research Foundation of CUNY",
+                "The Children's Aid Society",
+                "BronxWorks, Inc.",
+                "Coalition for Hispanic Family Services"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "HANAC INC",
+                        "Sapna NYC",
+                        "Leap Inc.",
+                        "Bameso USA",
+                        "PENCIL INC"
+                    ],
+                    "longest_values": [
+                        "Metropolitan New York Coordinating Council on Jewish Poverty",
+                        "Zimmer Club Youth Conservation Program of Staten Island, Inc",
+                        "Federation of Italian-American Organizations of Brooklyn LTD",
+                        "Federation of Italian-American Organizations of Queens, Inc.",
+                        "Edith & Carl Marks Jewish Community House of Bensonhurst Inc"
+                    ],
+                    "average_length": 34.58948415989385
+                }
+            ]
+        },
+        {
+            "column_name": "Program Site Name",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1849,
+            "frequent_values": [
+                "Chinese American Planning Council",
+                "Jacob A. Riis Neighborhood Settlement, Inc.",
+                "Mosholu Montefiore Community Center",
+                "BronxWorks, Inc.",
+                "El Barrio's Operation Fightback, Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "IC",
+                        "CMP",
+                        "PAL",
+                        "HES",
+                        "WAW"
+                    ],
+                    "longest_values": [
+                        "THE MARIE CURIE HIGH SCHOOL FOR NURSING, MEDICINE, AND ALLIED HEALTH PROFESSIONS (X237)",
+                        "Mission of the Immaculate Virgin for the Protection of Homeles and Destitte Children",
+                        "Academy for College Preparation and Career Exploration: A College Board School",
+                        "H.E.R.O. High (Health, Education, and Research Occupations High School)",
+                        "I.S. 126 - ALBERT SHANKER SCHOOL FOR VISUAL AND PERFORMING ARTS (Q126)"
+                    ],
+                    "average_length": 27.447503731962183
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 5793,
+            "number_empty_cells": 236,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5793,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.119627136198861
+                }
+            ]
+        },
+        {
+            "column_name": "Street Address",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1580,
+            "frequent_values": [
+                "999 Jamaica Avenue",
+                "10-25 41st Avenue",
+                "1130 Grand Concourse",
+                "1980 LAFAYETTE AVENUE",
+                "1474 Gates Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "443 39 St",
+                        "273 BOWERY",
+                        "1257 Ogden",
+                        "42 Broadway",
+                        "50 Broadway"
+                    ],
+                    "longest_values": [
+                        "4101 8th Ave, Sunset Park, Brooklyn 11232",
+                        "2090 Adam Clayton Powell, Jr. Boulevard",
+                        "696 Amsterdam Ave, New York, NY 10025",
+                        "5521 Mosholu Ave, Riverdale, NY 10471",
+                        "St. Demetrios School 3003 30th Drive"
+                    ],
+                    "average_length": 18.366561618842262
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 5920,
+            "number_empty_cells": 109,
+            "number_distinct_values": 73,
+            "frequent_values": [
+                "Brooklyn",
+                "BROOKLYN",
+                "Bronx",
+                "BRONX",
+                "QUEENS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5920,
+                    "shortest_values": [
+                        "Bx",
+                        "NY",
+                        "LIC",
+                        "NYC",
+                        "Broox"
+                    ],
+                    "longest_values": [
+                        "South Richmond Hill",
+                        "SPRINGFIELD GARDENS",
+                        "Long Island City",
+                        "Ridgewood Queens",
+                        "South Ozone Park"
+                    ],
+                    "average_length": 7.573310810810811
+                }
+            ]
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 6029,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "NY",
+                "AZ"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6029,
+                    "shortest_values": [
+                        "NY",
+                        "AZ"
+                    ],
+                    "longest_values": [
+                        "AZ",
+                        "NY"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 24,
+            "number_distinct_values": 174,
+            "frequent_values": [
+                "11212",
+                "10456",
+                "10002",
+                "10029",
+                "10027"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 11694,
+                    "min_value": 10001,
+                    "mean": 10796.744213155704,
+                    "stddev": 531.5015678133782
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 1447,
+            "frequent_values": [
+                "40.69115",
+                "40.83233",
+                "40.82229",
+                "40.75549",
+                "40.64607"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 6013,
+                    "max_value": 40.90304,
+                    "min_value": 40.5084,
+                    "mean": 40.73638701979053,
+                    "stddev": 0.08482235863946054
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 1436,
+            "frequent_values": [
+                "-73.86833",
+                "-73.91959",
+                "-73.85617",
+                "-73.94533",
+                "-73.91768"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 6013,
+                    "max_value": -73.70927,
+                    "min_value": -74.24296,
+                    "mean": -73.92354998503254,
+                    "stddev": 0.07170741578789916
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 2794,
+            "number_empty_cells": 3235,
+            "number_distinct_values": 117,
+            "frequent_values": [
+                "Richmond CD 001",
+                "Brooklyn CD 003",
+                "Brooklyn CD 005",
+                "Bronx CD 001",
+                "Manhattan CD 003"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 338,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 265.13313609467457,
+                    "stddev": 130.21785352006074
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2456,
+                    "shortest_values": [
+                        "Bronx CD 007",
+                        "Bronx CD 011",
+                        "Bronx CD 009",
+                        "Bronx CD 006",
+                        "Bronx CD 001"
+                    ],
+                    "longest_values": [
+                        "Manhattan Community Districts",
+                        "Richmond Community Districts",
+                        "Manhattan CD 012",
+                        "Manhattan CD 004",
+                        "Manhattan CD 003"
+                    ],
+                    "average_length": 14.578583061889251
+                }
+            ]
+        },
+        {
+            "column_name": "Community Name",
+            "number_non_empty_cells": 2378,
+            "number_empty_cells": 3651,
+            "number_distinct_values": 152,
+            "frequent_values": [
+                "Crown Heights North",
+                "Forest Hills",
+                "Melrose South-Mott Haven North",
+                "Bushwick North",
+                "Brownsville"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2378,
+                    "shortest_values": [
+                        "Corona",
+                        "Madison",
+                        "Midwood",
+                        "Norwood",
+                        "Clinton"
+                    ],
+                    "longest_values": [
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Chan",
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthous",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park",
+                        "Georgetown-Marine Park-Bergen Beach-Mill Basin"
+                    ],
+                    "average_length": 19.0677039529016
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 5496,
+            "number_empty_cells": 533,
+            "number_distinct_values": 152,
+            "frequent_values": [
+                "Council District 17 Bronx",
+                "Council District 037 Brooklyn",
+                "Council District 017 Bronx",
+                "Council District 08 Manhattan",
+                "Council District 41 Brooklyn"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 338,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 23.420118343195266,
+                    "stddev": 15.670265740834193
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5158,
+                    "shortest_values": [
+                        "Council District 11 Bronx",
+                        "Council District 13 Bronx",
+                        "Council District 14 Bronx",
+                        "Council District 12 Bronx",
+                        "Council District 16 Bronx"
+                    ],
+                    "longest_values": [
+                        "Council District 010 Manhattan",
+                        "Council District 004 Manhattan",
+                        "Council District 001 Manhattan",
+                        "Council District 008 Manhattan",
+                        "Council District 005 Manhattan"
+                    ],
+                    "average_length": 27.535672741372625
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract 2010",
+            "number_non_empty_cells": 5277,
+            "number_empty_cells": 752,
+            "number_distinct_values": 632,
+            "frequent_values": [
+                "16",
+                "273",
+                "291",
+                "25",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5277,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 6783.8260375213185,
+                    "stddev": 20889.01174259797
+                }
+            ]
+        },
+        {
+            "column_name": "NDA",
+            "number_non_empty_cells": 2531,
+            "number_empty_cells": 3498,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "NDA Not-defined",
+                "0",
+                "Brooklyn Neighborhood Development Area 004",
+                "Bronx Neighborhood Development Area 001",
+                "Bronx Neighborhood Development Area 004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 338,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 3.9585798816568047,
+                    "stddev": 4.764085350397015
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2193,
+                    "shortest_values": [
+                        "NDA Not-defined",
+                        "Bronx Neighborhood Development Area 007",
+                        "Bronx Neighborhood Development Area 002",
+                        "Bronx Neighborhood Development Area 005",
+                        "Bronx Neighborhood Development Area 006"
+                    ],
+                    "longest_values": [
+                        "Manhattan Neighborhood Development Area 011",
+                        "Manhattan Neighborhood Development Area 012",
+                        "Manhattan Neighborhood Development Area 003",
+                        "Manhattan Neighborhood Development Area 010",
+                        "Manhattan Neighborhood Development Area 009"
+                    ],
+                    "average_length": 36.381668946648425
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 5277,
+            "number_empty_cells": 752,
+            "number_distinct_values": 179,
+            "frequent_values": [
+                "BK81",
+                "MN33",
+                "MN28",
+                "BX34",
+                "BK77"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5277,
+                    "shortest_values": [
+                        "QN28",
+                        "BK19",
+                        "BK58",
+                        "BK21",
+                        "BK83"
+                    ],
+                    "longest_values": [
+                        "SI24",
+                        "QN31",
+                        "BK37",
+                        "BX40",
+                        "BX75"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 5745,
+            "number_empty_cells": 284,
+            "number_distinct_values": 1349,
+            "frequent_values": [
+                "3090738",
+                "4433386",
+                "2022205",
+                "2002833",
+                "3387654"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5745,
+                    "max_value": 5141913,
+                    "min_value": 1000000,
+                    "mean": 2672982.7331592687,
+                    "stddev": 1115120.9691543742
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 5745,
+            "number_empty_cells": 284,
+            "number_distinct_values": 1339,
+            "frequent_values": [
+                "3040940001",
+                "4004700100",
+                "2036040039",
+                "2024620042",
+                "4021590002"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5745,
+                    "max_value": 5075900041,
+                    "min_value": 1000100016,
+                    "mean": 2581522564.829591,
+                    "stddev": 1057149278.9369382
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 1489,
+            "frequent_values": [
+                "POINT (-73.86833 40.69115)",
+                "POINT (-73.94533 40.75549)",
+                "POINT (-73.85617 40.82229)",
+                "POINT (-73.91959 40.83233)",
+                "POINT (-73.91391 40.69779)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6013,
+                    "shortest_values": [
+                        "POINT (-73.94 40.70872)",
+                        "POINT (-73.9658 40.803)",
+                        "POINT (-73.87887 40.87)",
+                        "POINT (-73.92433 40.672)",
+                        "POINT (-73.9132 40.8547)"
+                    ],
+                    "longest_values": [
+                        "POINT (-73.83776000000002 40.696450000000006)",
+                        "POINT (-73.78230000000002 40.700610000000005)",
+                        "POINT (-73.85726000000001 40.75394000000001)",
+                        "POINT (-73.90725000000002 40.65607000000001)",
+                        "POINT (-74.02960000000002 40.62102000000001)"
+                    ],
+                    "average_length": 26.868950607018128
+                }
+            ]
+        },
+        {
+            "column_name": "Zip Codes",
+            "number_non_empty_cells": 6003,
+            "number_empty_cells": 26,
+            "number_distinct_values": 174,
+            "frequent_values": [
+                "17614",
+                "11723",
+                "12426",
+                "10934",
+                "10930"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6003,
+                    "max_value": 24671,
+                    "min_value": 10090,
+                    "mean": 14369.489921705814,
+                    "stddev": 3374.9065779394487
+                }
+            ]
+        },
+        {
+            "column_name": "Community Districts",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "70",
+                "45",
+                "69",
+                "47",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6013,
+                    "max_value": 71,
+                    "min_value": 1,
+                    "mean": 37.71994012971894,
+                    "stddev": 20.84668950997827
+                }
+            ]
+        },
+        {
+            "column_name": "Borough Boundaries",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2",
+                "5",
+                "4",
+                "3",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6013,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 3.240977881257276,
+                    "stddev": 1.2532228899324487
+                }
+            ]
+        },
+        {
+            "column_name": "City Council Districts",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "43",
+                "35",
+                "42",
+                "37",
+                "17"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6013,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 29.267586895060703,
+                    "stddev": 13.768225015259596
+                }
+            ]
+        },
+        {
+            "column_name": "Police Precincts",
+            "number_non_empty_cells": 6013,
+            "number_empty_cells": 16,
+            "number_distinct_values": 76,
+            "frequent_values": [
+                "47",
+                "23",
+                "27",
+                "46",
+                "26"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6013,
+                    "max_value": 77,
+                    "min_value": 1,
+                    "mean": 40.41892566106769,
+                    "stddev": 20.002094212075452
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Date",
+        "Service Category"
+    ]
+}

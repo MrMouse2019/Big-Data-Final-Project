@@ -1,0 +1,1620 @@
+{
+    "dataset_name": "3rfa-3xsf",
+    "columns": [
+        {
+            "column_name": "Unique Key",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1783133,
+            "frequent_values": [
+                12826505,
+                14059647,
+                14024814,
+                14086256,
+                14082162
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1783133,
+                    "max_value": 21277941,
+                    "min_value": 12817784,
+                    "mean": 14264763.10546437,
+                    "stddev": 869125.9076120085
+                }
+            ]
+        },
+        {
+            "column_name": "Created Date",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 365,
+            "frequent_values": [
+                "01/16/2009 12:00:00 AM",
+                "03/03/2009 12:00:00 AM",
+                "12/29/2009 12:00:00 AM",
+                "10/16/2009 12:00:00 AM",
+                "10/15/2009 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1783133,
+                    "max_value": "2009-12-31 00:00:00",
+                    "min_value": "2009-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Closed Date",
+            "number_non_empty_cells": 1723802,
+            "number_empty_cells": 59331,
+            "number_distinct_values": 997,
+            "frequent_values": [
+                "06/11/2009 12:00:00 AM",
+                "12/28/2009 12:00:00 AM",
+                "12/10/2009 12:00:00 AM",
+                "01/21/2009 12:00:00 AM",
+                "02/19/2009 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1723802,
+                    "max_value": "3009-02-01 00:00:00",
+                    "min_value": "1939-01-09 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "HPD",
+                "DOT",
+                "DEP",
+                "NYPD",
+                "DSNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "DPR",
+                        "DOT",
+                        "HPD",
+                        "DCA",
+                        "TLC"
+                    ],
+                    "longest_values": [
+                        "3-1-1",
+                        "DOITT",
+                        "DOHMH",
+                        "NYPD",
+                        "DFTA"
+                    ],
+                    "average_length": 3.2263028052310174
+                }
+            ]
+        },
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 542,
+            "frequent_values": [
+                "Department of Housing Preservation and Development",
+                "Department of Transportation",
+                "Department of Environmental Protection",
+                "New York City Police Department",
+                "Department of Buildings"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "DPR",
+                        "NYPD",
+                        "DOHMH",
+                        "Bronx 08",
+                        "Bronx 10"
+                    ],
+                    "longest_values": [
+                        "School - NYC Charter High School for Architecture, Engineering, and Construction Industries",
+                        "School - Fiorello H Laguardia High School of Music and Art and Performing Arts",
+                        "School - George Westinghouse Career and Technical Education High School",
+                        "School - Queens High School of Teaching, Liberal Arts, and the Sciences",
+                        "School - Wadleigh Secondary School for the Performing and Visual Arts"
+                    ],
+                    "average_length": 37.0688271710523
+                }
+            ]
+        },
+        {
+            "column_name": "Complaint Type",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 153,
+            "frequent_values": [
+                "HEATING",
+                "Street Light Condition",
+                "GENERAL CONSTRUCTION",
+                "PLUMBING",
+                "Street Condition"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "Mold",
+                        "Lead",
+                        "Snow",
+                        "Noise",
+                        "Plant"
+                    ],
+                    "longest_values": [
+                        "DCA / DOH New License Application Request",
+                        "Special Projects Inspection Team (SPIT)",
+                        "Special Natural Area District (SNAD)",
+                        "Investigations and Discipline (IAD)",
+                        "Legal Services Provider Complaint"
+                    ],
+                    "average_length": 14.816452838907697
+                }
+            ]
+        },
+        {
+            "column_name": "Descriptor",
+            "number_non_empty_cells": 1777593,
+            "number_empty_cells": 5540,
+            "number_distinct_values": 924,
+            "frequent_values": [
+                "HEAT",
+                "Street Light Out",
+                "Pothole",
+                "VERMIN",
+                "No Access"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1777593,
+                    "shortest_values": [
+                        "GAS",
+                        "Stop",
+                        "HEAT",
+                        "MOLD",
+                        "Door"
+                    ],
+                    "longest_values": [
+                        "Safety Netting/Guard Rails - Damaged/Inadequate/None (6 Stories/75 Feet Or Less)",
+                        "Safety Netting/Guard Rails - Damaged/Inadequate/None (Over 6 Stories/75 Feet)",
+                        "Wasting Faucets,Sinks,Flushometer,Urinal,Etc. - Private Residence (CWR)",
+                        "Smoking Signs - \"No Smoking\" Signs Not Observed on Construction Site",
+                        "Crane/Suspension Scaffold - No Permit/License/Cert./Unsafe/Illegal"
+                    ],
+                    "average_length": 16.23923192766848
+                }
+            ]
+        },
+        {
+            "column_name": "Location Type",
+            "number_non_empty_cells": 1208722,
+            "number_empty_cells": 574411,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "RESIDENTIAL BUILDING",
+                "Street",
+                "Street/Sidewalk",
+                "Sidewalk",
+                "Club/Bar/Restaurant"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1208722,
+                    "shortest_values": [
+                        "Lot",
+                        "Taxi",
+                        "Pool",
+                        "Park",
+                        "Pier"
+                    ],
+                    "longest_values": [
+                        "Cafeteria - College/University",
+                        "Correctional Facility - State",
+                        "1-2 Family Mixed Use Building",
+                        "1-3 Family Mixed Use Building",
+                        "Government Building - Foreign"
+                    ],
+                    "average_length": 15.88394850097872
+                }
+            ]
+        },
+        {
+            "column_name": "Incident Zip",
+            "number_non_empty_cells": 1660108,
+            "number_empty_cells": 123025,
+            "number_distinct_values": 1136,
+            "frequent_values": [
+                11226.0,
+                10458.0,
+                10467.0,
+                10457.0,
+                11207.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1634807,
+                    "max_value": 98036.0,
+                    "min_value": 0.0,
+                    "mean": 10817.400583677461,
+                    "stddev": 543.0919369755688
+                },
+                {
+                    "type": "TEXT",
+                    "count": 25301,
+                    "shortest_values": [
+                        "?",
+                        "X",
+                        "-",
+                        "NY",
+                        "00"
+                    ],
+                    "longest_values": [
+                        "55164-0887",
+                        "07446-0585",
+                        "61702-3427",
+                        "89117-5873",
+                        "92815-1390"
+                    ],
+                    "average_length": 5.049207541203905
+                }
+            ]
+        },
+        {
+            "column_name": "Incident Address",
+            "number_non_empty_cells": 1400797,
+            "number_empty_cells": 382336,
+            "number_distinct_values": 340066,
+            "frequent_values": [
+                " GRAND CENTRAL PKWY",
+                " BELT PKWY",
+                "2706 BAINBRIDGE AVENUE",
+                "2312 65 STREET",
+                "2421 WEBSTER AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1400797,
+                    "shortest_values": [
+                        " X",
+                        " 0",
+                        "1 ",
+                        "- -",
+                        "1 1"
+                    ],
+                    "longest_values": [
+                        "6918 OWENSMOUTH AVE P.O. BOX 8012 DEP 1516933-NTCI",
+                        "1 NEWARK LIBERTY INTERNATIONAL AIRPORT, HOTEL ROAD",
+                        "HOLLAND TU ENTERING TOLL PLAZA TO HOLLAND TUNNEL",
+                        "TERMINAL C NEWARK LIBERTY INTERNARIONAL AIRPORT",
+                        "AIRPORT NEWARK LIBERTY INTERNATIONAL AIRPORT"
+                    ],
+                    "average_length": 17.761243063770124
+                }
+            ]
+        },
+        {
+            "column_name": "Street Name",
+            "number_non_empty_cells": 1400580,
+            "number_empty_cells": 382553,
+            "number_distinct_values": 14999,
+            "frequent_values": [
+                "BROADWAY",
+                "GRAND CONCOURSE",
+                "OCEAN AVENUE",
+                "ST NICHOLAS AVENUE",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1400580,
+                    "shortest_values": [
+                        "?",
+                        "C",
+                        ".",
+                        "0",
+                        "7"
+                    ],
+                    "longest_values": [
+                        "NEWARK LIBERTY INTERNATIONAL AIRPORT, HOTEL ROAD",
+                        "OWENSMOUTH AVE P.O. BOX 8012 DEP 1516933-NTCI",
+                        "ENTERING TOLL PLAZA TO HOLLAND TUNNEL",
+                        "WHITESTONE EXPRESSWAY SERVICE ROAD E",
+                        "NEWARK LIBERTY INTERNARIONAL AIRPORT"
+                    ],
+                    "average_length": 13.239565751331591
+                }
+            ]
+        },
+        {
+            "column_name": "Cross Street 1",
+            "number_non_empty_cells": 1397587,
+            "number_empty_cells": 385546,
+            "number_distinct_values": 12188,
+            "frequent_values": [
+                "BEND",
+                "BROADWAY",
+                "3 AVENUE",
+                "5 AVENUE",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1397587,
+                    "shortest_values": [
+                        "R",
+                        "3",
+                        "E",
+                        "4",
+                        "50"
+                    ],
+                    "longest_values": [
+                        "GCP WB ENTRANCE LITTLE NECK PKWY",
+                        "BELT PKWY EB EN SPRINGFIELD BLVD",
+                        "BELT PARKWAY WESTBOUND EXIT   15",
+                        "RICHMOND PARKWAY NB EN ARDEN AVE",
+                        "BROOKLYN BATTERY TUNNEL ENTRANCE"
+                    ],
+                    "average_length": 12.805730877576853
+                }
+            ]
+        },
+        {
+            "column_name": "Cross Street 2",
+            "number_non_empty_cells": 1389088,
+            "number_empty_cells": 394045,
+            "number_distinct_values": 11668,
+            "frequent_values": [
+                "BEND",
+                "BROADWAY",
+                "7 AVENUE",
+                "8 AVENUE",
+                "2 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1389088,
+                    "shortest_values": [
+                        "T",
+                        "M",
+                        "D",
+                        "E",
+                        "/"
+                    ],
+                    "longest_values": [
+                        "BQE WB ENTRANCE METROPOLITAN AVE",
+                        "VAN WYCK EXPWY SB EN LIBERTY AVE",
+                        "DR MLK EP NB EN MORNINGSTAR ROAD",
+                        "BROOKLYN QUEENS EXPRESSWAY EN SB",
+                        "GOWANUS EXPWY WB EN HAMILTON AVE"
+                    ],
+                    "average_length": 12.85220158838029
+                }
+            ]
+        },
+        {
+            "column_name": "Intersection Street 1",
+            "number_non_empty_cells": 352267,
+            "number_empty_cells": 1430866,
+            "number_distinct_values": 13450,
+            "frequent_values": [
+                "BROADWAY",
+                "ATLANTIC AVENUE",
+                "5 AVENUE",
+                "3 AVE",
+                "QUEENS BOULEVARD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 352267,
+                    "shortest_values": [
+                        "7",
+                        "3",
+                        "X",
+                        "2",
+                        "27"
+                    ],
+                    "longest_values": [
+                        "CLEARVIEW EXPRESSWAY SERVICE ROAD NORTHBOUND",
+                        "NORTH HENRY HUNDSON PARKWAY SERVICE ROAD",
+                        "HENRY HUDSON PARKWAY SERVICE ROAD",
+                        "VAN WYCK EXPRESSWAY EAST SR EXP E",
+                        "NORTH CROSS ISLAND EXPRESSWAY SR"
+                    ],
+                    "average_length": 12.482333003091405
+                }
+            ]
+        },
+        {
+            "column_name": "Intersection Street 2",
+            "number_non_empty_cells": 352291,
+            "number_empty_cells": 1430842,
+            "number_distinct_values": 13994,
+            "frequent_values": [
+                "BROADWAY",
+                "2 AVENUE",
+                "5 AVENUE",
+                "3 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 352291,
+                    "shortest_values": [
+                        "6",
+                        "V",
+                        "X",
+                        "5",
+                        "8"
+                    ],
+                    "longest_values": [
+                        "CROSS BRONX WEST EXPRESSWAY EXP W",
+                        "RICHMOND HILL ROAD / RICHMOND AVE",
+                        "LONG ISLAND EAST EXPRESSWAY EXP E",
+                        "VAN WYCK EXPRESSWAY NB EXIT   11",
+                        "PROSPECT EXPRESSWAY ET    2 B NB"
+                    ],
+                    "average_length": 12.0114905007508
+                }
+            ]
+        },
+        {
+            "column_name": "Address Type",
+            "number_non_empty_cells": 1730915,
+            "number_empty_cells": 52218,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "ADDRESS",
+                "INTERSECTION",
+                "BLOCKFACE",
+                "PLACENAME"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1730915,
+                    "shortest_values": [
+                        "ADDRESS",
+                        "BLOCKFACE",
+                        "PLACENAME",
+                        "INTERSECTION"
+                    ],
+                    "longest_values": [
+                        "INTERSECTION",
+                        "PLACENAME",
+                        "BLOCKFACE",
+                        "ADDRESS"
+                    ],
+                    "average_length": 8.077746163156482
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 1661318,
+            "number_empty_cells": 121815,
+            "number_distinct_values": 720,
+            "frequent_values": [
+                "BROOKLYN",
+                "BRONX",
+                "NEW YORK",
+                "STATEN ISLAND",
+                "JAMAICA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1661318,
+                    "shortest_values": [
+                        "X",
+                        "-",
+                        "?",
+                        "BX",
+                        "LA"
+                    ],
+                    "longest_values": [
+                        "P.O. BOX 3427 BLOOMINGTON",
+                        "NORTH EAST CEDAR RAPIDS",
+                        "PORT JEFFERSON STATION",
+                        "FORT JEFFERSON STATION",
+                        "PORTCHESTER NEW YORK"
+                    ],
+                    "average_length": 8.175042947828171
+                }
+            ]
+        },
+        {
+            "column_name": "Landmark",
+            "number_non_empty_cells": 2061,
+            "number_empty_cells": 1781072,
+            "number_distinct_values": 118,
+            "frequent_values": [
+                "J F K AIRPORT",
+                "LA GUARDIA AIRPORT",
+                "CENTRAL PARK",
+                "PENNSYLVANIA STATION",
+                "GRAND CENTRAL TERM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2061,
+                    "shortest_values": [
+                        "BRIDGE",
+                        "COSTCO",
+                        "CITY HALL",
+                        "BRONX ZOO",
+                        "FT TOTTEN"
+                    ],
+                    "longest_values": [
+                        "REQUESTED IN CONFIRMATION LETTER",
+                        "REQUESTED ON CONFIRMATION LETTER",
+                        "STATEN ISLAND FERRY TERMINAL",
+                        "NORTH CENTRAL BRONX HOSPITAL",
+                        "THEATRE ON WEST 52ND STREET"
+                    ],
+                    "average_length": 15.69383794274624
+                }
+            ]
+        },
+        {
+            "column_name": "Facility Type",
+            "number_non_empty_cells": 228059,
+            "number_empty_cells": 1555074,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Precinct",
+                "DSNY Garage",
+                "School District",
+                "School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 228059,
+                    "shortest_values": [
+                        "School",
+                        "Precinct",
+                        "DSNY Garage",
+                        "School District"
+                    ],
+                    "longest_values": [
+                        "School District",
+                        "DSNY Garage",
+                        "Precinct",
+                        "School"
+                    ],
+                    "average_length": 8.964421487422115
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Closed",
+                "Pending",
+                "Assigned",
+                "Open",
+                "Draft"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "Open",
+                        "Draft",
+                        "Closed",
+                        "Pending",
+                        "Started"
+                    ],
+                    "longest_values": [
+                        "Unspecified",
+                        "Assigned",
+                        "Started",
+                        "Pending",
+                        "Closed"
+                    ],
+                    "average_length": 6.0434617047634696
+                }
+            ]
+        },
+        {
+            "column_name": "Due Date",
+            "number_non_empty_cells": 518738,
+            "number_empty_cells": 1264395,
+            "number_distinct_values": 693,
+            "frequent_values": [
+                "01/02/1900 12:00:00 AM",
+                "06/07/2009 12:00:00 AM",
+                "07/25/2009 12:00:00 AM",
+                "05/16/2009 12:00:00 AM",
+                "05/23/2009 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 518738,
+                    "max_value": "2011-12-04 00:00:00",
+                    "min_value": "1900-01-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Resolution Action Updated Date",
+            "number_non_empty_cells": 1768946,
+            "number_empty_cells": 14187,
+            "number_distinct_values": 1075,
+            "frequent_values": [
+                "06/11/2009 12:00:00 AM",
+                "12/28/2009 12:00:00 AM",
+                "12/10/2009 12:00:00 AM",
+                "01/21/2009 12:00:00 AM",
+                "02/19/2009 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1768946,
+                    "max_value": "3009-06-08 00:00:00",
+                    "min_value": "2000-02-22 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "0 Unspecified",
+                "12 QUEENS",
+                "07 QUEENS",
+                "13 QUEENS",
+                "Unspecified MANHATTAN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "27 BRONX",
+                        "07 BRONX",
+                        "03 BRONX",
+                        "26 BRONX",
+                        "12 BRONX"
+                    ],
+                    "longest_values": [
+                        "Unspecified STATEN ISLAND",
+                        "Unspecified MANHATTAN",
+                        "Unspecified BROOKLYN",
+                        "Unspecified QUEENS",
+                        "Unspecified BRONX"
+                    ],
+                    "average_length": 12.022210906309288
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Unspecified",
+                "QUEENS",
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Unspecified",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS"
+                    ],
+                    "average_length": 8.898712546960883
+                }
+            ]
+        },
+        {
+            "column_name": "X Coordinate (State Plane)",
+            "number_non_empty_cells": 1651563,
+            "number_empty_cells": 131570,
+            "number_distinct_values": 106101,
+            "frequent_values": [
+                1014384.0,
+                990088.0,
+                1013705.0,
+                1007453.0,
+                1011394.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1651563,
+                    "max_value": 1067279.0,
+                    "min_value": 913357.0,
+                    "mean": 1005578.269296418,
+                    "stddev": 22697.15147742751
+                }
+            ]
+        },
+        {
+            "column_name": "Y Coordinate (State Plane)",
+            "number_non_empty_cells": 1651563,
+            "number_empty_cells": 131570,
+            "number_distinct_values": 116608,
+            "frequent_values": [
+                254766.0,
+                162370.0,
+                252414.0,
+                243377.0,
+                236770.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1651563,
+                    "max_value": 271876.0,
+                    "min_value": 121032.0,
+                    "mean": 205862.5492814988,
+                    "stddev": 31841.735302092282
+                }
+            ]
+        },
+        {
+            "column_name": "Park Facility Name",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2578,
+            "frequent_values": [
+                "Unspecified",
+                "Central Park",
+                "Riverside Park",
+                "Prospect Park",
+                "Beach - Brighton and Coney Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "Poe Park",
+                        "Ewen Park",
+                        "Duke Park",
+                        "Devoe Park",
+                        "Grant Park"
+                    ],
+                    "longest_values": [
+                        "School - NYC Charter High School for Architecture, Engineering, and Construction Industries",
+                        "School - Science Skills Center High School for Science, Technology, and the Creative Arts",
+                        "Catholic Charities Neighborhood Services (CCNS) Saint Charles Jubilee Senior Center",
+                        "School - Knowledge and Power Preparatory Academy International High School (Kappa)",
+                        "Jewish Association for Services for The Aged (JASA) Manhattan Beach Senior Center"
+                    ],
+                    "average_length": 11.113342639051602
+                }
+            ]
+        },
+        {
+            "column_name": "Park Borough",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Unspecified",
+                "QUEENS",
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Unspecified",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS"
+                    ],
+                    "average_length": 8.898712546960883
+                }
+            ]
+        },
+        {
+            "column_name": "School Name",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2578,
+            "frequent_values": [
+                "Unspecified",
+                "Central Park",
+                "Riverside Park",
+                "Prospect Park",
+                "Beach - Brighton and Coney Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "Poe Park",
+                        "Ewen Park",
+                        "Duke Park",
+                        "Devoe Park",
+                        "Grant Park"
+                    ],
+                    "longest_values": [
+                        "School - NYC Charter High School for Architecture, Engineering, and Construction Industries",
+                        "School - Science Skills Center High School for Science, Technology, and the Creative Arts",
+                        "Catholic Charities Neighborhood Services (CCNS) Saint Charles Jubilee Senior Center",
+                        "School - Knowledge and Power Preparatory Academy International High School (Kappa)",
+                        "Jewish Association for Services for The Aged (JASA) Manhattan Beach Senior Center"
+                    ],
+                    "average_length": 11.113342639051602
+                }
+            ]
+        },
+        {
+            "column_name": "School Number",
+            "number_non_empty_cells": 1782811,
+            "number_empty_cells": 322,
+            "number_distinct_values": 1507,
+            "frequent_values": [
+                "Unspecified",
+                "M010",
+                "M071",
+                "B073",
+                "B169"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1782811,
+                    "shortest_values": [
+                        "80",
+                        "475",
+                        "500",
+                        "120",
+                        "121"
+                    ],
+                    "longest_values": [
+                        "Unspecified",
+                        "B082-01B",
+                        "X002-05A",
+                        "M010-145",
+                        "B073-02D"
+                    ],
+                    "average_length": 10.948599711354708
+                }
+            ]
+        },
+        {
+            "column_name": "School Region",
+            "number_non_empty_cells": 1774919,
+            "number_empty_cells": 8214,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Unspecified",
+                "Region 3",
+                "Region 7",
+                "Region 2",
+                "Region 9"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1774919,
+                    "shortest_values": [
+                        "Region 6",
+                        "Region 4",
+                        "Region 7",
+                        "Region 2",
+                        "Region 8"
+                    ],
+                    "longest_values": [
+                        "Alternative Superintendency",
+                        "District 75",
+                        "Unspecified",
+                        "Region 10",
+                        "Region 3"
+                    ],
+                    "average_length": 10.992133162133033
+                }
+            ]
+        },
+        {
+            "column_name": "School Code",
+            "number_non_empty_cells": 1774926,
+            "number_empty_cells": 8207,
+            "number_distinct_values": 1265,
+            "frequent_values": [
+                "Unspecified",
+                "30Q076",
+                "03M415",
+                "08X071",
+                "05M499"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1774926,
+                    "shortest_values": [
+                        "X319",
+                        "22K381",
+                        "84X703",
+                        "27Q066",
+                        "26Q172"
+                    ],
+                    "longest_values": [
+                        "Unspecified",
+                        "09X218",
+                        "11X418",
+                        "29Q295",
+                        "24Q091"
+                    ],
+                    "average_length": 10.986239989723515
+                }
+            ]
+        },
+        {
+            "column_name": "School Phone Number",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1453,
+            "frequent_values": [
+                "Unspecified",
+                "2124080100",
+                "7189658900",
+                "7185205900",
+                "7184301800"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "NA 0/0",
+                        "2124080100",
+                        "7187563164",
+                        "7187969200",
+                        "7187215404"
+                    ],
+                    "longest_values": [
+                        "Unspecified",
+                        "7188851093",
+                        "7182305748",
+                        "7183877820",
+                        "2124272244"
+                    ],
+                    "average_length": 10.991519421153667
+                }
+            ]
+        },
+        {
+            "column_name": "School Address",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2304,
+            "frequent_values": [
+                "Unspecified",
+                "5th Avenue to Central Park West, 59th to 110th Streets",
+                "Riverside Drive to Hudson River, West 59th Street to Clair Place",
+                "Prospect Park West, Flatbush, Parkside, Ocean Avenues",
+                "Corbin Place to West 37th Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "1 Pier 6",
+                        "64 Avenue X",
+                        "Unspecified",
+                        "50 Avenue X",
+                        "50 Avenue P"
+                    ],
+                    "longest_values": [
+                        "Van Cortlandt South to where Putnam Trail crosses VC Lake between Major Deegan, Mosholu Parkway and Putnam Trail",
+                        "Plaza Street, Prospect Park West until Carroll Street, Meadowport Arch, Flatbush Avenue until Endale Arch",
+                        "East side of Fountain of the Fairs to West North of Unisphere Fountain to North U.S. Tennis Association",
+                        "Flushing Meadows Corona Park, Tennis Center and Shea Stadium, behind the USTA National Tennis Center",
+                        "South of Middletown Road to West Bruckner Expressway to Northeast of Aileeen Recreational Complex"
+                    ],
+                    "average_length": 11.170045083569201
+                }
+            ]
+        },
+        {
+            "column_name": "School City",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44,
+            "frequent_values": [
+                "Unspecified",
+                "NEW YORK",
+                "BROOKLYN",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "HOLLIS",
+                        "CORONA",
+                        "ASTORIA"
+                    ],
+                    "longest_values": [
+                        "SPRINGFIELD GARDENS",
+                        "SOUTH RICHMOND HILL",
+                        "LONG ISLAND CITY",
+                        "SOUTH OZONE PARK",
+                        "CAMBRIA HEIGHTS"
+                    ],
+                    "average_length": 10.978983059592302
+                }
+            ]
+        },
+        {
+            "column_name": "School State",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Unspecified",
+                "NY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "NY",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "Unspecified",
+                        "NY"
+                    ],
+                    "average_length": 10.93393089578848
+                }
+            ]
+        },
+        {
+            "column_name": "School Zip",
+            "number_non_empty_cells": 1783133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 174,
+            "frequent_values": [
+                "Unspecified",
+                "10021",
+                "10023",
+                "11215",
+                "10002"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1783133,
+                    "shortest_values": [
+                        "10033",
+                        "11365",
+                        "11106",
+                        "11213",
+                        "11370"
+                    ],
+                    "longest_values": [
+                        "Unspecified",
+                        "10470",
+                        "11355",
+                        "11238",
+                        "10306"
+                    ],
+                    "average_length": 10.955953930525654
+                }
+            ]
+        },
+        {
+            "column_name": "School Not Found",
+            "number_non_empty_cells": 5110,
+            "number_empty_cells": 1778023,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5110,
+                    "shortest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "longest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "School or Citywide Complaint",
+            "number_non_empty_cells": 4489,
+            "number_empty_cells": 1778644,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "School",
+                "Citywide Complaint"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4489,
+                    "shortest_values": [
+                        "School",
+                        "Citywide Complaint"
+                    ],
+                    "longest_values": [
+                        "Citywide Complaint",
+                        "School"
+                    ],
+                    "average_length": 7.055914457562932
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Type",
+            "number_non_empty_cells": 1691,
+            "number_empty_cells": 1781442,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Car Service",
+                "Ambulette / Paratransit",
+                "Commuter Van"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1691,
+                    "shortest_values": [
+                        "Car Service",
+                        "Commuter Van",
+                        "Ambulette / Paratransit"
+                    ],
+                    "longest_values": [
+                        "Ambulette / Paratransit",
+                        "Commuter Van",
+                        "Car Service"
+                    ],
+                    "average_length": 11.888231815493791
+                }
+            ]
+        },
+        {
+            "column_name": "Taxi Company Borough",
+            "number_non_empty_cells": 1389,
+            "number_empty_cells": 1781744,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "MANHATTAN",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1389,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.112311015118791
+                }
+            ]
+        },
+        {
+            "column_name": "Taxi Pick Up Location",
+            "number_non_empty_cells": 18482,
+            "number_empty_cells": 1764651,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Other",
+                "Intersection",
+                "JFK Airport",
+                "La Guardia Airport",
+                "New York-Penn Station"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18482,
+                    "shortest_values": [
+                        "Other",
+                        "JFK Airport",
+                        "Intersection",
+                        "La Guardia Airport",
+                        "New York-Penn Station"
+                    ],
+                    "longest_values": [
+                        "Port Authority Bus Terminal",
+                        "Grand Central Station",
+                        "New York-Penn Station",
+                        "La Guardia Airport",
+                        "Intersection"
+                    ],
+                    "average_length": 8.398874580673088
+                }
+            ]
+        },
+        {
+            "column_name": "Bridge Highway Name",
+            "number_non_empty_cells": 4002,
+            "number_empty_cells": 1779131,
+            "number_distinct_values": 81,
+            "frequent_values": [
+                "BQE/Gowanus Expwy",
+                "Belt Pkwy",
+                "FDR Dr",
+                "Long Island Expwy",
+                "Grand Central Pkwy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4002,
+                    "shortest_values": [
+                        "FDR Dr",
+                        "Pelham Br",
+                        "Belt Pkwy",
+                        "Pulaski Br",
+                        "Grand St Br"
+                    ],
+                    "longest_values": [
+                        "Park Ave Tunnel - E 34th St./Grand Central",
+                        "Alexander Hamilton/I-95 Cross Bronx Br",
+                        "Dr. Martin Luther King, Jr. Expwy",
+                        "Westchester Ave Br - Bronx River",
+                        "Willis Ave Br - 125th St/1st Ave"
+                    ],
+                    "average_length": 15.493503248375813
+                }
+            ]
+        },
+        {
+            "column_name": "Bridge Highway Direction",
+            "number_non_empty_cells": 3983,
+            "number_empty_cells": 1779150,
+            "number_distinct_values": 49,
+            "frequent_values": [
+                "West/Staten Island Bound",
+                "East/Queens Bound",
+                "East/Long Island Bound",
+                "North/Bronx Bound",
+                "Manhattan Bound"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3983,
+                    "shortest_values": [
+                        "To Queens",
+                        "Eastbound",
+                        "Westbound",
+                        "East Bound",
+                        "West Bound"
+                    ],
+                    "longest_values": [
+                        "South/East (To Throgs Neck Br)",
+                        "North/Westchester County Bound",
+                        "Southbound/To Triborough Br",
+                        "North/Westbound (To GW Br)",
+                        "South/Toward Triborough Br"
+                    ],
+                    "average_length": 18.793622897313583
+                }
+            ]
+        },
+        {
+            "column_name": "Road Ramp",
+            "number_non_empty_cells": 3957,
+            "number_empty_cells": 1779176,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Roadway",
+                "Ramp"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3957,
+                    "shortest_values": [
+                        "Ramp",
+                        "Roadway"
+                    ],
+                    "longest_values": [
+                        "Roadway",
+                        "Ramp"
+                    ],
+                    "average_length": 6.359363153904473
+                }
+            ]
+        },
+        {
+            "column_name": "Bridge Highway Segment",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 1779200,
+            "number_distinct_values": 715,
+            "frequent_values": [
+                "Ramp",
+                "Roadway",
+                "Rockaway Pkwy (Exit 13) - Flatbush Ave (Exit 11N)",
+                "East 61st St / East 63rd St (Exit 12) - East 96th St (Exit 14)",
+                "Flatbush Ave (Exit 11N) - Gateway National Recreation Area (Exit 12)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3933,
+                    "shortest_values": [
+                        "Ramp",
+                        "Roadway",
+                        "W 57 St",
+                        "Bikepath",
+                        "Bronx Ramp"
+                    ],
+                    "longest_values": [
+                        "Hempstead Trnpke/Hempstead Ave (NY 24) (Exit 26C) - Hempstead Trnpke/Hempstead Ave (NY 24)(Exit 26B)",
+                        "Northern Blvd (NY25A)/Whitestone Expwy (I-678) (Exit 9E) - Long Island Expwy (I-495) (Exit 10 W-E)",
+                        "White Plains Rd/Westchester Ave (Exit 49) - JCT Cross Bronx Expwy/Hutchinson River Pkwy/Zerega Ave",
+                        "Whitestone Br (I-678)/Bruckner Expwy (I-278) (Exit 6A) - Westchester Ave/White Plains Rd (Exit 5A)",
+                        "Jericho Trnpke/Braddock Ave (NY 25) (Exit 27W) - Jericho Trnpke/Braddock Ave (NY 25) (Exit 27E)"
+                    ],
+                    "average_length": 46.089499110094074
+                }
+            ]
+        },
+        {
+            "column_name": "Garage Lot Name",
+            "number_non_empty_cells": 851,
+            "number_empty_cells": 1782282,
+            "number_distinct_values": 39,
+            "frequent_values": [
+                "Flushing #1 Field",
+                "Flushing #2 Field",
+                "SI Ferry Terminal",
+                "St. George Field",
+                "Flushing #3 Field"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 851,
+                    "shortest_values": [
+                        "Ave M Field",
+                        "Belmont Field",
+                        "Bayside Field",
+                        "Astoria Field",
+                        "Canarsie Field"
+                    ],
+                    "longest_values": [
+                        "Jerome-Gun Hill Road Garage",
+                        "Delancey and Essex Garage",
+                        "White Plains Road  Field",
+                        "Steinway #1 and #2 Field",
+                        "Sheepshead Bay #1 Field"
+                    ],
+                    "average_length": 17.667450058754408
+                }
+            ]
+        },
+        {
+            "column_name": "Ferry Direction",
+            "number_non_empty_cells": 510,
+            "number_empty_cells": 1782623,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Staten Island Bound",
+                "Manhattan Bound"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 510,
+                    "shortest_values": [
+                        "Manhattan Bound",
+                        "Staten Island Bound"
+                    ],
+                    "longest_values": [
+                        "Staten Island Bound",
+                        "Manhattan Bound"
+                    ],
+                    "average_length": 17.227450980392156
+                }
+            ]
+        },
+        {
+            "column_name": "Ferry Terminal Name",
+            "number_non_empty_cells": 1152,
+            "number_empty_cells": 1781981,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "Unknown",
+                "St. George Terminal (Staten Island)",
+                "Whitehall Terminal (Manhattan)",
+                "Kennedy",
+                "Spirit of America"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1152,
+                    "shortest_values": [
+                        "CMP",
+                        "CCM",
+                        "CASA",
+                        "JASA",
+                        "POMOC"
+                    ],
+                    "longest_values": [
+                        "CATHOLIC CHARITIES NEIGHBORHOOD SERVICES (CCNS) SAINT CHARLES JUBILEE SENIOR CENTER",
+                        "JEWISH ASSOCIATION FOR SERVICES FOR THE AGED (JASA) SENIOR ALLIANCE SENIOR CENTER",
+                        "JEWISH ASSOCIATION FOR SERVICES FOR THE AGED (JASA) MANHATTAN BEACH SENIOR CENTER",
+                        "CATHOLIC CHARITIES NEIGHBORHOOD SERVICES (CCNS) MCGUINESS NORTHSIDE SENIOR CENTER",
+                        "JAMAICA SERVICE PROGRAM FOR OLDER ADULTS (JSPOA) THEODORA JACKSON SENIOR CENTER"
+                    ],
+                    "average_length": 22.774305555555557
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 1651563,
+            "number_empty_cells": 131570,
+            "number_distinct_values": 375497,
+            "frequent_values": [
+                40.86589699426575,
+                40.612342614511206,
+                40.859443761094745,
+                40.83465851449689,
+                40.81651295693585
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1651563,
+                    "max_value": 40.912868792260795,
+                    "min_value": 40.49862773316935,
+                    "mean": 40.73166645324629,
+                    "stddev": 0.08739977968508177
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 1651563,
+            "number_empty_cells": 131570,
+            "number_distinct_values": 375495,
+            "frequent_values": [
+                -73.89105203598722,
+                -73.97897317971541,
+                -73.89351726080064,
+                -73.91615011574056,
+                -73.90193505991684
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1651563,
+                    "max_value": -73.7003835480253,
+                    "min_value": -74.25493722035228,
+                    "mean": -73.92300570325479,
+                    "stddev": 0.08185132994460301
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 1651563,
+            "number_empty_cells": 131570,
+            "number_distinct_values": 375500,
+            "frequent_values": [
+                "(40.865896994266, -73.891052035987)",
+                "(40.612342614511, -73.978973179715)",
+                "(40.859443761095, -73.893517260801)",
+                "(40.834658514497, -73.916150115741)",
+                "(40.816512956936, -73.901935059917)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1651563,
+                    "shortest_values": [
+                        "(40.61554771179, -74.0)",
+                        "(40.61209750626, -74.0)",
+                        "(40.637775020363, -74.0)",
+                        "(40.635238837169, -74.0)",
+                        "(40.743196117914, -74.0)"
+                    ],
+                    "longest_values": [
+                        "(40.692708557004, -73.794010980876)",
+                        "(40.869979773658, -73.898627413929)",
+                        "(40.590020689386, -73.955418453349)",
+                        "(40.703818970933, -73.942073451777)",
+                        "(40.850566363924, -73.786057921322)"
+                    ],
+                    "average_length": 34.77614417373119
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Unique Key"
+    ]
+}

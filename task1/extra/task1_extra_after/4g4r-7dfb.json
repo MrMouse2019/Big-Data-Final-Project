@@ -1,0 +1,181 @@
+{
+    "dataset_name": "4g4r-7dfb",
+    "columns": [
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 251,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN, NY\n(42.433188999772, -78.748646000413)",
+                "QUEENS, NY\n(40.749436300045, -73.797299799846)",
+                "MANHATTAN, NY\n(40.749883999647, -73.987976999939)",
+                "BRONX, NY\n(40.825576999979, -73.918448999722)",
+                "STATEN ISLAND, NY\n(40.606674000105, -74.162401000006)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 251,
+                    "shortest_values": [
+                        "BRONX, NY\n(40.825576999979, -73.918448999722)",
+                        "QUEENS, NY\n(40.749436300045, -73.797299799846)",
+                        "BROOKLYN, NY\n(42.433188999772, -78.748646000413)",
+                        "MANHATTAN, NY\n(40.749883999647, -73.987976999939)",
+                        "STATEN ISLAND, NY\n(40.606674000105, -74.162401000006)"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND, NY\n(40.606674000105, -74.162401000006)",
+                        "MANHATTAN, NY\n(40.749883999647, -73.987976999939)",
+                        "BROOKLYN, NY\n(42.433188999772, -78.748646000413)",
+                        "QUEENS, NY\n(40.749436300045, -73.797299799846)",
+                        "BRONX, NY\n(40.825576999979, -73.918448999722)"
+                    ],
+                    "average_length": 48.07569721115538
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRAM",
+            "number_non_empty_cells": 251,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "GENERAL EDUCATION",
+                "GENERAL EDUCATION ",
+                "COLLABORATIVE TEAM TEACHING    ",
+                "SPECIAL CLASS - High School",
+                "GIFTED & TALENTED    "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 251,
+                    "shortest_values": [
+                        "GENERAL EDUCATION",
+                        "GENERAL EDUCATION ",
+                        "GIFTED & TALENTED    ",
+                        "SPECIAL CLASS - Grades K-9#",
+                        "SPECIAL CLASS - High School"
+                    ],
+                    "longest_values": [
+                        "COLLABORATIVE TEAM TEACHING    ",
+                        "SPECIAL CLASS - High School",
+                        "SPECIAL CLASS - Grades K-9#",
+                        "GIFTED & TALENTED    ",
+                        "GENERAL EDUCATION "
+                    ],
+                    "average_length": 22.111553784860558
+                }
+            ]
+        },
+        {
+            "column_name": "GRADE OR SERVICE CATEGORY##",
+            "number_non_empty_cells": 251,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "11",
+                "9",
+                "10",
+                "12",
+                "Mainstream"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 186,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 7.102150537634409,
+                    "stddev": 3.4973562517324384
+                },
+                {
+                    "type": "TEXT",
+                    "count": 65,
+                    "shortest_values": [
+                        "Mainstream",
+                        "Self-Contained",
+                        "09#           ",
+                        "12:1           ",
+                        "12:1:1         "
+                    ],
+                    "longest_values": [
+                        "Kindergarten             ",
+                        "12:1:1         ",
+                        "12:1           ",
+                        "09#           ",
+                        "Self-Contained"
+                    ],
+                    "average_length": 15.123076923076923
+                }
+            ]
+        },
+        {
+            "column_name": "CORE COURSE(High Schools only)",
+            "number_non_empty_cells": 120,
+            "number_empty_cells": 131,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "SCIENCE",
+                "SOCIAL STUDIES",
+                "ENGLISH",
+                "MATH   "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 120,
+                    "shortest_values": [
+                        "SCIENCE",
+                        "ENGLISH",
+                        "MATH   ",
+                        "SOCIAL STUDIES"
+                    ],
+                    "longest_values": [
+                        "SOCIAL STUDIES",
+                        "MATH   ",
+                        "ENGLISH",
+                        "SCIENCE"
+                    ],
+                    "average_length": 8.75
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE CLASS SIZE",
+            "number_non_empty_cells": 251,
+            "number_empty_cells": 0,
+            "number_distinct_values": 122,
+            "frequent_values": [
+                "28.2",
+                "25.2",
+                "26.6",
+                "29.9",
+                "29.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 23,
+                    "max_value": 30,
+                    "min_value": 11,
+                    "mean": 23.91304347826087,
+                    "stddev": 5.003590393327236
+                },
+                {
+                    "type": "REAL",
+                    "count": 228,
+                    "max_value": 30.9,
+                    "min_value": 9.5,
+                    "mean": 24.0609649122807,
+                    "stddev": 5.332037639095751
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "BOROUGH",
+        "PROGRAM"
+    ]
+}

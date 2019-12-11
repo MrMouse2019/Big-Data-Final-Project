@@ -1,0 +1,416 @@
+{
+    "dataset_name": "ge3f-inui",
+    "columns": [
+        {
+            "column_name": "StipulationID",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "BRIDGE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4433,
+                    "shortest_values": [
+                        "BRIDGE"
+                    ],
+                    "longest_values": [
+                        "BRIDGE"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "BoroughName",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "QUEENS",
+                "BRONX",
+                "MANHATTAN",
+                "BROOKLYN",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4433,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.235732009925559
+                }
+            ]
+        },
+        {
+            "column_name": "OnStreetName",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 752,
+            "frequent_values": [
+                "BROOKLYN QNS EXPRESSWAY",
+                "BRUCKNER BOULEVARD",
+                "F D R DRIVE",
+                "SHORE PARKWAY",
+                "12 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4433,
+                    "shortest_values": [
+                        "BQE",
+                        "RAMP",
+                        "BEND",
+                        "B Q E",
+                        "62 ROAD"
+                    ],
+                    "longest_values": [
+                        "WHITESTONE EXPRESSWAY SB ET   16",
+                        "BRONX RVR PKWY SB EN WEBSTER AVE",
+                        "BELT PARKWAY EASTBOUND EXIT    4",
+                        "BRUCKNER EXPRESSWAY EB EXIT   46",
+                        "BKLYN QNS EXPRESSWAY ENTRANCE SB"
+                    ],
+                    "average_length": 15.23685991427927
+                }
+            ]
+        },
+        {
+            "column_name": "FromStreetName",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1006,
+            "frequent_values": [
+                "BEND",
+                "AMTRAK RR",
+                "BODY OF WATER",
+                "METRO NORTH RR",
+                "NYCTA SUBWAY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4433,
+                    "shortest_values": [
+                        "BEND",
+                        "65 PL",
+                        "NYCTA",
+                        "12 AVE",
+                        "62 ROAD"
+                    ],
+                    "longest_values": [
+                        "BRONX RVR PKWY SB EN WEBSTER AVE",
+                        "BRONX RIVER PARKWAY SB ET    7 W",
+                        "CLE NORTHBOUND ENTRANCE   73 AVE",
+                        "GRAND CENTRAL PKWY EB EN   33 ST",
+                        "CLEARVIEW EXPRESSWAY ENTRANCE NB"
+                    ],
+                    "average_length": 14.666591473043086
+                }
+            ]
+        },
+        {
+            "column_name": "ToStreetName",
+            "number_non_empty_cells": 2791,
+            "number_empty_cells": 1642,
+            "number_distinct_values": 755,
+            "frequent_values": [
+                "BODY OF WATER",
+                "AMTRAK RR",
+                "SI RAPID TRANSIT",
+                "METRO NORTH RR",
+                "NYCTA SUBWAY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2791,
+                    "shortest_values": [
+                        "RAMP",
+                        "BEND",
+                        "48 ST",
+                        "NYCTA",
+                        "77 ROAD"
+                    ],
+                    "longest_values": [
+                        "STHRN PARKWAY LRLTN PARKWAY RAMP",
+                        "BKLYN QNS EXPRESSWAY ENTRANCE SB",
+                        "SOUTH CONDUIT ENTRANCE EASTBOUND",
+                        "CROSS IS PKWY NB EN HEMPSTEAD WB",
+                        "BKLYN QNS EXPRESSWAY ENTRANCE NB"
+                    ],
+                    "average_length": 16.440702257255463
+                }
+            ]
+        },
+        {
+            "column_name": "SpecificLocationName",
+            "number_non_empty_cells": 1801,
+            "number_empty_cells": 2632,
+            "number_distinct_values": 640,
+            "frequent_values": [
+                "BEND",
+                "HARLEM RIVER DRIVE",
+                "47 STREET",
+                "SOUTH STREET",
+                "CPW  110 APPROACH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1801,
+                    "shortest_values": [
+                        "RAMP",
+                        "BEND",
+                        "24 ROAD",
+                        "79 LANE",
+                        "14 ROAD"
+                    ],
+                    "longest_values": [
+                        "BRUCK EXPRESSWAY HUTCH PKWY RAMP",
+                        "HUTCHINSON RVR PY SB WESTCHESTER",
+                        "BRUCKNER EXPRESSWAY WB ET    6 A",
+                        "HENRY HUDSON PKWY SB ET   10 E-W",
+                        "HUTCHINSON RIVER PKWY NB ET    5"
+                    ],
+                    "average_length": 14.967240421987784
+                }
+            ]
+        },
+        {
+            "column_name": "OnBoroughCode",
+            "number_non_empty_cells": 3898,
+            "number_empty_cells": 535,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Q",
+                "X",
+                "M",
+                "B",
+                "S"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3898,
+                    "shortest_values": [
+                        "M",
+                        "X",
+                        "S",
+                        "B",
+                        "Q"
+                    ],
+                    "longest_values": [
+                        "Q",
+                        "B",
+                        "S",
+                        "X",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "FromBoroughCode",
+            "number_non_empty_cells": 3898,
+            "number_empty_cells": 535,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Q",
+                "X",
+                "M",
+                "B",
+                "S"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3898,
+                    "shortest_values": [
+                        "M",
+                        "X",
+                        "S",
+                        "B",
+                        "Q"
+                    ],
+                    "longest_values": [
+                        "Q",
+                        "B",
+                        "S",
+                        "X",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityDistrictLeft",
+            "number_non_empty_cells": 3708,
+            "number_empty_cells": 725,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "402",
+                "104",
+                "401",
+                "201",
+                "101"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3708,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 277.6542610571737,
+                    "stddev": 122.67727938239152
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityDistrictRight",
+            "number_non_empty_cells": 3693,
+            "number_empty_cells": 740,
+            "number_distinct_values": 81,
+            "frequent_values": [
+                "402",
+                "104",
+                "201",
+                "101",
+                "401"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3693,
+                    "max_value": 503,
+                    "min_value": 1,
+                    "mean": 270.62740319523425,
+                    "stddev": 128.86367428163285
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionDistrict",
+            "number_non_empty_cells": 4152,
+            "number_empty_cells": 281,
+            "number_distinct_values": 96,
+            "frequent_values": [
+                "3",
+                "8",
+                "2",
+                "49",
+                "32"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4152,
+                    "max_value": 98,
+                    "min_value": 1,
+                    "mean": 36.38848747591522,
+                    "stddev": 23.96800798900118
+                }
+            ]
+        },
+        {
+            "column_name": "MaintenanceSector",
+            "number_non_empty_cells": 4071,
+            "number_empty_cells": 362,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                "3",
+                "8",
+                "9",
+                "49",
+                "43"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4071,
+                    "max_value": 999,
+                    "min_value": 1,
+                    "mean": 43.716040284942274,
+                    "stddev": 84.13821918093488
+                }
+            ]
+        },
+        {
+            "column_name": "StipulationFullText",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "THE SITE OF YOUR PROPOSED WORK MAY BE WITHIN 100FT OF A BRIDGE STRUCTURE. YOU MUST SURVEY THE SITE. IF WORK IS WITHIN 100FT OF A BRIDGE STRUCTURE, YOU MUST SUBMIT A SCALED DRAWING SHOWING THE WORK AND EXACT LOCATION. IF WORK IS MORE THAN 100FT AWAY, YOU MUST FORWARD CERTIFICATION. SEND RESPONSES TO NYCDOT DIV. OF BRIDGES: BRIDGESHOLD@DOT.NYC.GOV OR CALL 212-839-9222/9223 PRIOR TO WORK."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4433,
+                    "shortest_values": [
+                        "THE SITE OF YOUR PROPOSED WORK MAY BE WITHIN 100FT OF A BRIDGE STRUCTURE. YOU MUST SURVEY THE SITE. IF WORK IS WITHIN 100FT OF A BRIDGE STRUCTURE, YOU MUST SUBMIT A SCALED DRAWING SHOWING THE WORK AND EXACT LOCATION. IF WORK IS MORE THAN 100FT AWAY, YOU MUST FORWARD CERTIFICATION. SEND RESPONSES TO NYCDOT DIV. OF BRIDGES: BRIDGESHOLD@DOT.NYC.GOV OR CALL 212-839-9222/9223 PRIOR TO WORK."
+                    ],
+                    "longest_values": [
+                        "THE SITE OF YOUR PROPOSED WORK MAY BE WITHIN 100FT OF A BRIDGE STRUCTURE. YOU MUST SURVEY THE SITE. IF WORK IS WITHIN 100FT OF A BRIDGE STRUCTURE, YOU MUST SUBMIT A SCALED DRAWING SHOWING THE WORK AND EXACT LOCATION. IF WORK IS MORE THAN 100FT AWAY, YOU MUST FORWARD CERTIFICATION. SEND RESPONSES TO NYCDOT DIV. OF BRIDGES: BRIDGESHOLD@DOT.NYC.GOV OR CALL 212-839-9222/9223 PRIOR TO WORK."
+                    ],
+                    "average_length": 388.0
+                }
+            ]
+        },
+        {
+            "column_name": "CreatedOn",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "12/03/2015",
+                "03/18/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4433,
+                    "max_value": "2016-03-18 00:00:00",
+                    "min_value": "2015-12-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "ModifiedOn",
+            "number_non_empty_cells": 4433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "12/03/2015",
+                "03/18/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4433,
+                    "max_value": "2016-03-18 00:00:00",
+                    "min_value": "2015-12-03 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

@@ -1,0 +1,144 @@
+{
+    "dataset_name": "wffy-3iyg",
+    "columns": [
+        {
+            "column_name": "Birth Year",
+            "number_non_empty_cells": 80,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2010",
+                "2011",
+                "2009"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 80,
+                    "max_value": 2014,
+                    "min_value": 2007,
+                    "mean": 2010.5,
+                    "stddev": 2.29128784747792
+                }
+            ]
+        },
+        {
+            "column_name": "Sex Of Infant",
+            "number_non_empty_cells": 80,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Female",
+                "Male"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 80,
+                    "shortest_values": [
+                        "Male",
+                        "Female"
+                    ],
+                    "longest_values": [
+                        "Female",
+                        "Male"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Race or Ethnicity of Mother",
+            "number_non_empty_cells": 80,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Asian/ Pacific Islander",
+                "Non-Hispanic White",
+                "Non-Hispanic Black",
+                "Other",
+                "Hispanic"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 80,
+                    "shortest_values": [
+                        "Other",
+                        "Hispanic",
+                        "Non-Hispanic White",
+                        "Non-Hispanic Black",
+                        "Asian/ Pacific Islander"
+                    ],
+                    "longest_values": [
+                        "Asian/ Pacific Islander",
+                        "Non-Hispanic Black",
+                        "Non-Hispanic White",
+                        "Hispanic",
+                        "Other"
+                    ],
+                    "average_length": 14.4
+                }
+            ]
+        },
+        {
+            "column_name": "Births",
+            "number_non_empty_cells": 80,
+            "number_empty_cells": 0,
+            "number_distinct_values": 80,
+            "frequent_values": [
+                "18924",
+                "18750",
+                "18707",
+                "19478",
+                "14881"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 80,
+                    "max_value": 20844,
+                    "min_value": 108,
+                    "mean": 12446.3,
+                    "stddev": 6924.878685579986
+                }
+            ]
+        },
+        {
+            "column_name": "Percentage",
+            "number_non_empty_cells": 80,
+            "number_empty_cells": 0,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "1.2",
+                "31.8",
+                "30.2",
+                "31.9",
+                "19.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 32,
+                    "min_value": 2,
+                    "mean": 12.0,
+                    "stddev": 14.142135623730951
+                },
+                {
+                    "type": "REAL",
+                    "count": 77,
+                    "max_value": 33.5,
+                    "min_value": 0.2,
+                    "mean": 20.31428571428572,
+                    "stddev": 10.841942537953678
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Births"
+    ]
+}

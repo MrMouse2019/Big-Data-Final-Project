@@ -1,0 +1,471 @@
+{
+    "dataset_name": "mv4k-y93f",
+    "columns": [
+        {
+            "column_name": "SUMMONS_KEY",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44352,
+            "frequent_values": [
+                "163839842",
+                "85674056",
+                "194495144",
+                "199056608",
+                "198873963"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44354,
+                    "max_value": 199598307,
+                    "min_value": 85674056,
+                    "mean": 195491621.24748614,
+                    "stddev": 2246229.418293771
+                }
+            ]
+        },
+        {
+            "column_name": "SUMMONS_DATE",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 181,
+            "frequent_values": [
+                "04/03/2019",
+                "02/07/2019",
+                "03/20/2019",
+                "06/19/2019",
+                "03/12/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44354,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "2019-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OFFENSE_DESCRIPTION",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 477,
+            "frequent_values": [
+                "FEDERAL MOTOR VEH. SAFETY REG",
+                "MARIJUANA, POSSESSION OF",
+                "OPERATION WHILE REGISTRATION OR PRIVILEGE IS SUSPENDED OR REVOKED",
+                "NON PAYMENT OF FARE (OTHER)",
+                "TRESPASS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44354,
+                    "shortest_values": [
+                        "RULES",
+                        "RECORDS",
+                        "DUMPING",
+                        "SPITTING",
+                        "TRESPASS"
+                    ],
+                    "longest_values": [
+                        "HANDCUFFS; UNLAWFUL POSSESSION OF (INCLUDES DISP. CINCH & THUMB CUFFS/LEG IRONS)",
+                        "TICKET SPECULATION (RESELL TICKET TO A VENUE WITH A CAPACITY OF >5000 WITHIN 100",
+                        "CONGREGATES WITH OTHER PERSONS IN PUBLIC AND REFUSES TO DISPERSE BY LAWFUL POLIC",
+                        "FAILURE TO NOTIFY A PRECINCT WITHIN 2 HOURS OF TOWING A VEHICLE WHEN OWNER IS UN",
+                        "SIGNED AUTHORIZATION BY OWNER/POLICE, TOW WITHOUT (REPORT OF VIOLATION PREPARED)"
+                    ],
+                    "average_length": 29.378094422149072
+                }
+            ]
+        },
+        {
+            "column_name": "LAW_SECTION_NUMBER",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 420,
+            "frequent_values": [
+                "CFR 49",
+                "221.05",
+                "512",
+                "9999",
+                "1050.4(A)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7516,
+                    "max_value": 9999,
+                    "min_value": 20,
+                    "mean": 3154.9656732304416,
+                    "stddev": 4078.886324619421
+                },
+                {
+                    "type": "REAL",
+                    "count": 10360,
+                    "max_value": 1050.9,
+                    "min_value": 20.453,
+                    "mean": 253.17330801157357,
+                    "stddev": 181.71911454758992
+                },
+                {
+                    "type": "TEXT",
+                    "count": 26478,
+                    "shortest_values": [
+                        "65D",
+                        "65-1",
+                        "306E",
+                        "2-55",
+                        "54-5"
+                    ],
+                    "longest_values": [
+                        "4-16 ( E ) (4) I",
+                        "4-16(e)(4)(iii)",
+                        "20-254 (A) 13",
+                        "4-16(e)(4)(i)",
+                        "20-254 (A) 14"
+                    ],
+                    "average_length": 6.959324722411059
+                }
+            ]
+        },
+        {
+            "column_name": "LAW_DESCRIPTION",
+            "number_non_empty_cells": 32737,
+            "number_empty_cells": 11617,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "NYS Transportation",
+                "Penal Law",
+                "Administrative Code",
+                "VTL",
+                "ABC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32737,
+                    "shortest_values": [
+                        "VTL",
+                        "ABC",
+                        "Tax Law",
+                        "Penal Law",
+                        "Park Regs"
+                    ],
+                    "longest_values": [
+                        "General Business Law",
+                        "Sanitary Code (NYS)",
+                        "Administrative Code",
+                        "NYS Transportation",
+                        "NYS Workers Comp"
+                    ],
+                    "average_length": 13.118337049821303
+                }
+            ]
+        },
+        {
+            "column_name": "SUMMONS_CATEGORY_TYPE",
+            "number_non_empty_cells": 32737,
+            "number_empty_cells": 11617,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "NYS TRANS",
+                "MARIJUANA",
+                "VTL",
+                "TLC",
+                "OTHER ABC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32737,
+                    "shortest_values": [
+                        "TLC",
+                        "DOG",
+                        "VTL",
+                        "KEY",
+                        "ABC"
+                    ],
+                    "longest_values": [
+                        "POSTING ADVERTISEMENTS",
+                        "IN PUBLIC UNDER DRUGS",
+                        "DISORDERLY CONDUCT",
+                        "OTHER ADMIN CODE",
+                        "OTHER PENAL LAW"
+                    ],
+                    "average_length": 8.11558786693955
+                }
+            ]
+        },
+        {
+            "column_name": "AGE_GROUP",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "UNKNOWN",
+                "25-44",
+                "18-24",
+                "45-64",
+                "<18"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44354,
+                    "shortest_values": [
+                        "<18",
+                        "65+",
+                        "25-44",
+                        "18-24",
+                        "45-64"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "45-64",
+                        "18-24",
+                        "25-44",
+                        "65+"
+                    ],
+                    "average_length": 5.671190873427425
+                }
+            ]
+        },
+        {
+            "column_name": "SEX",
+            "number_non_empty_cells": 27864,
+            "number_empty_cells": 16490,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "M",
+                "F",
+                "U"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27864,
+                    "shortest_values": [
+                        "M",
+                        "F",
+                        "U"
+                    ],
+                    "longest_values": [
+                        "U",
+                        "F",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "RACE",
+            "number_non_empty_cells": 27864,
+            "number_empty_cells": 16490,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "BLACK",
+                "WHITE HISPANIC",
+                "WHITE",
+                "BLACK HISPANIC",
+                "ASIAN / PACIFIC ISLANDER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27864,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "OTHER",
+                        "UNKNOWN",
+                        "WHITE HISPANIC"
+                    ],
+                    "longest_values": [
+                        "AMERICAN INDIAN/ALASKAN NATIVE",
+                        "ASIAN / PACIFIC ISLANDER",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC",
+                        "UNKNOWN"
+                    ],
+                    "average_length": 9.209158771174275
+                }
+            ]
+        },
+        {
+            "column_name": "JURISDICTION_CODE",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0",
+                "1",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44354,
+                    "max_value": 2,
+                    "min_value": 0,
+                    "mean": 0.14909591017721063,
+                    "stddev": 0.46810689404833355
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "NEW YORK",
+                "BROOKLYN",
+                "BRONX",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44354,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "NEW YORK",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "NEW YORK",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.163344906885512
+                }
+            ]
+        },
+        {
+            "column_name": "PRECINCT_OF_OCCUR",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "7",
+                "44",
+                "14",
+                "45",
+                "75"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44354,
+                    "max_value": 123,
+                    "min_value": 1,
+                    "mean": 57.32894440185778,
+                    "stddev": 35.62092265498706
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORDINATE_CD",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10048,
+            "frequent_values": [
+                "988082",
+                "1032091",
+                "994869",
+                "997257",
+                "954827"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44354,
+                    "max_value": 1066841,
+                    "min_value": 914803,
+                    "mean": 1003692.7162375434,
+                    "stddev": 20914.26702287076
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORDINATE_CD",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10417,
+            "frequent_values": [
+                "200814",
+                "241976",
+                "194280",
+                "186776",
+                "148519"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44354,
+                    "max_value": 270906,
+                    "min_value": 121474,
+                    "mean": 207858.3071876268,
+                    "stddev": 29132.83614847586
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11002,
+            "frequent_values": [
+                "40.71787216100006",
+                "40.83072232800004",
+                "40.69993233400004",
+                "40.67933239200005",
+                "40.57428568800003"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 44354,
+                    "max_value": 40.910209614000046,
+                    "min_value": 40.499850235000046,
+                    "mean": 40.737161355599646,
+                    "stddev": 0.0799590832224162
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 44354,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11002,
+            "frequent_values": [
+                "-73.98617781499998",
+                "-73.82712605899997",
+                "-73.96170456199997",
+                "-73.95310684999998",
+                "-74.10591440499996"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 44354,
+                    "max_value": -73.70190593599993,
+                    "min_value": -74.249754952,
+                    "mean": -73.92980917663218,
+                    "stddev": 0.07544914586417567
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "SUMMONS_KEY",
+        "SUMMONS_DATE"
+    ]
+}

@@ -1,0 +1,1980 @@
+{
+    "dataset_name": "nyis-y4yr",
+    "columns": [
+        {
+            "column_name": "Job #",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15205,
+            "frequent_values": [
+                "421235167",
+                "122624491",
+                "121785023",
+                "122186605",
+                "321270021"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 520316738,
+                    "min_value": 103649027,
+                    "mean": 268109022.5340136,
+                    "stddev": 135197766.16114128
+                }
+            ]
+        },
+        {
+            "column_name": "Doc #",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "01"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 1,
+                    "min_value": 1,
+                    "mean": 1.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.969714809000523
+                }
+            ]
+        },
+        {
+            "column_name": "House #",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3409,
+            "frequent_values": [
+                "1           ",
+                "200         ",
+                "100         ",
+                "250         ",
+                "815         "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12169,
+                    "max_value": 21835,
+                    "min_value": 1,
+                    "mean": 1236.9770728901306,
+                    "stddev": 1770.944046238331
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3119,
+                    "shortest_values": [
+                        "91-18       ",
+                        "249-38      ",
+                        "68-20       ",
+                        "125-21      ",
+                        "102-26      "
+                    ],
+                    "longest_values": [
+                        "90-55       ",
+                        "41-19       ",
+                        "173-29      ",
+                        "49-04       ",
+                        "13B         "
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Street Name",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1715,
+            "frequent_values": [
+                "BROADWAY                        ",
+                "NORTHERN BLVD                   ",
+                "3RD AVENUE                      ",
+                "RICHMOND AVENUE                 ",
+                "FULTON STREET                   "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "BROADWAY                        ",
+                        "EAST NEW YORK AVENUE            ",
+                        "99 ST                           ",
+                        "COLUMBIA STREET                 ",
+                        "FOSTER ROAD                     "
+                    ],
+                    "longest_values": [
+                        "DESARC ROAD                     ",
+                        "NORTH 15 STREET                 ",
+                        "215TH STREET                    ",
+                        "WEST 27TH STREET                ",
+                        "VARET STREET                    "
+                    ],
+                    "average_length": 32.0
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2909,
+            "frequent_values": [
+                "05141",
+                "04452",
+                "03266",
+                "05559",
+                "05066"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 16340,
+                    "min_value": 1,
+                    "mean": 3076.9813579277866,
+                    "stddev": 3053.431795467409
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 291,
+            "frequent_values": [
+                "00001",
+                "07501",
+                "07502",
+                "00006",
+                "00029"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 9062,
+                    "min_value": 0,
+                    "mean": 728.2981423338566,
+                    "stddev": 2149.215313024546
+                }
+            ]
+        },
+        {
+            "column_name": "Bin #",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5633,
+            "frequent_values": [
+                "2080263",
+                "2072353",
+                "2124371",
+                "4462612",
+                "1089325"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 5865198,
+                    "min_value": 1000005,
+                    "mean": 2597659.7969649397,
+                    "stddev": 1433110.586000795
+                }
+            ]
+        },
+        {
+            "column_name": "Job Type",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "SG"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "SG"
+                    ],
+                    "longest_values": [
+                        "SG"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Job Status",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "R",
+                "P",
+                "D",
+                "J",
+                "A"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "R",
+                        "X",
+                        "H",
+                        "D",
+                        "J"
+                    ],
+                    "longest_values": [
+                        "Q",
+                        "K",
+                        "C",
+                        "F",
+                        "B"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Job Status Descrp",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "PERMIT ISSUED - ENTIRE JOB/WORK         ",
+                "PLAN EXAM - APPROVED                    ",
+                "APPLICATION PROCESSED - ENTIRE          ",
+                "PLAN EXAM - DISAPPROVED                 ",
+                "PRE-FILING                              "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "PERMIT ISSUED - ENTIRE JOB/WORK         ",
+                        "SIGNED OFF                              ",
+                        "PLAN EXAM - IN PROCESS                  ",
+                        "APPLICATION PROCESSED - ENTIRE          ",
+                        "PLAN EXAM - DISAPPROVED                 "
+                    ],
+                    "longest_values": [
+                        "PERMIT ISSUED - PARTIAL JOB             ",
+                        "PLAN EXAM - PARTIAL APPROVAL            ",
+                        "APPLICATION PROCESSED - PAYMENT ONLY    ",
+                        "APPLICATION ASSIGNED TO PLAN EXAMINER   ",
+                        "APPLICATION PROCESSED-PART-NO PAYMENT   "
+                    ],
+                    "average_length": 40.0
+                }
+            ]
+        },
+        {
+            "column_name": "Latest Action Date",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1079,
+            "frequent_values": [
+                "07/26/2013 00:00:00",
+                "10/12/2017 00:00:00",
+                "10/11/2017 00:00:00",
+                "03/26/2015 00:00:00",
+                "10/13/2017 00:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "05/19/2014 00:00:00",
+                        "10/23/2014 00:00:00",
+                        "10/22/2014 00:00:00",
+                        "10/21/2014 00:00:00",
+                        "10/17/2014 00:00:00"
+                    ],
+                    "longest_values": [
+                        "01/29/2014 00:00:00",
+                        "05/04/2016 00:00:00",
+                        "04/12/2016 00:00:00",
+                        "04/13/2016 00:00:00",
+                        "04/14/2016 00:00:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "Building Type",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "OTHER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "OTHER"
+                    ],
+                    "longest_values": [
+                        "OTHER"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Community - Board",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "105",
+                "102",
+                "104",
+                "407",
+                "302"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15284,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 252.9326092645904,
+                    "stddev": 136.1775580218348
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4,
+                    "shortest_values": [
+                        "   "
+                    ],
+                    "longest_values": [
+                        "   "
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Landmarked",
+            "number_non_empty_cells": 983,
+            "number_empty_cells": 14305,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 983,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Adult Estab",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 15288,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Property City Owned",
+            "number_non_empty_cells": 847,
+            "number_empty_cells": 14441,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 847,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Little e",
+            "number_non_empty_cells": 265,
+            "number_empty_cells": 15023,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "H"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 265,
+                    "shortest_values": [
+                        "H"
+                    ],
+                    "longest_values": [
+                        "H"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "eFiling Filed",
+            "number_non_empty_cells": 15286,
+            "number_empty_cells": 2,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15286,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Equipment",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                " ",
+                "X"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        " ",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "X",
+                        " "
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Other",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "X",
+                " "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "X",
+                        " "
+                    ],
+                    "longest_values": [
+                        " ",
+                        "X"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Other Description",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 88,
+            "frequent_values": [
+                "SIGN           ",
+                "SIGNS          ",
+                "               ",
+                "SIGN HANGER    ",
+                "GEN. CONSTR.   "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "SIGN           ",
+                        "BILLBOARD SIGN ",
+                        "ALU. PANEL SIGN",
+                        "SIGN ATTACHMENT",
+                        "ADV. WALL SIGN "
+                    ],
+                    "longest_values": [
+                        "SIGN FACE      ",
+                        "ERECTING SIGN  ",
+                        "BUS. SIGN      ",
+                        "BUS. SIGNS     ",
+                        "FLAG POLE      "
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant's First Name",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 337,
+            "frequent_values": [
+                "LEON           ",
+                "MICHAEL        ",
+                "SALVATOR       ",
+                "ANGEL          ",
+                "RICHARD        "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "HACKJONG       ",
+                        "BRIAN          ",
+                        "ALLENDE        ",
+                        "AUGUSTINE      ",
+                        "DAVIDSON       "
+                    ],
+                    "longest_values": [
+                        "MALCOLM        ",
+                        "NYRON          ",
+                        "KYU HO         ",
+                        "BENNETT        ",
+                        "LOUIS          "
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant's Last Name",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 518,
+            "frequent_values": [
+                "SKVIRSKY                      ",
+                "FASNACHT                      ",
+                "ROJAS                         ",
+                "CARADONNA                     ",
+                "CHOI                          "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "MANDARA JR.                  ",
+                        "CHOI                          ",
+                        "ANZALONE                      ",
+                        "LAGUARDIA                     ",
+                        "GRIDER                        "
+                    ],
+                    "longest_values": [
+                        "SHERMAN                       ",
+                        "WEISS                         ",
+                        "DORDAI                        ",
+                        "GEORGOPOULOS                  ",
+                        "HULL                          "
+                    ],
+                    "average_length": 29.99980376766091
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant Professional Title",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "PE",
+                "RA",
+                "SI"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "RA",
+                        "PE",
+                        "SI"
+                    ],
+                    "longest_values": [
+                        "SI",
+                        "PE",
+                        "RA"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Applicant License #",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 548,
+            "frequent_values": [
+                "076707",
+                "057352",
+                "041124",
+                "016493",
+                "023225"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 809831,
+                    "min_value": 148,
+                    "mean": 55702.201661433806,
+                    "stddev": 70980.3831071141
+                }
+            ]
+        },
+        {
+            "column_name": "Professional Cert",
+            "number_non_empty_cells": 12918,
+            "number_empty_cells": 2370,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12918,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Pre- Filing Date",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1082,
+            "frequent_values": [
+                "07/26/2013 12:00:00 AM",
+                "10/12/2017 12:00:00 AM",
+                "10/11/2017 12:00:00 AM",
+                "03/26/2015 12:00:00 AM",
+                "10/13/2017 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 15288,
+                    "max_value": "2017-10-13 00:00:00",
+                    "min_value": "2013-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Paid",
+            "number_non_empty_cells": 14870,
+            "number_empty_cells": 418,
+            "number_distinct_values": 1080,
+            "frequent_values": [
+                "10/12/2017 12:00:00 AM",
+                "10/11/2017 12:00:00 AM",
+                "10/13/2017 12:00:00 AM",
+                "03/20/2015 12:00:00 AM",
+                "10/15/2015 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 14870,
+                    "max_value": "2017-10-13 00:00:00",
+                    "min_value": "2013-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Fully Paid",
+            "number_non_empty_cells": 14867,
+            "number_empty_cells": 421,
+            "number_distinct_values": 1080,
+            "frequent_values": [
+                "10/12/2017 12:00:00 AM",
+                "10/11/2017 12:00:00 AM",
+                "10/13/2017 12:00:00 AM",
+                "03/20/2015 12:00:00 AM",
+                "10/15/2015 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 14867,
+                    "max_value": "2017-10-13 00:00:00",
+                    "min_value": "2013-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Plan Assigned Date",
+            "number_non_empty_cells": 3113,
+            "number_empty_cells": 12175,
+            "number_distinct_values": 845,
+            "frequent_values": [
+                "03/04/2016 12:00:00 AM",
+                "07/19/2017 12:00:00 AM",
+                "06/20/2014 12:00:00 AM",
+                "07/10/2013 12:00:00 AM",
+                "04/14/2017 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3113,
+                    "max_value": "2017-10-13 00:00:00",
+                    "min_value": "2013-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Approved",
+            "number_non_empty_cells": 10068,
+            "number_empty_cells": 5220,
+            "number_distinct_values": 1072,
+            "frequent_values": [
+                "10/11/2017 12:00:00 AM",
+                "03/20/2015 12:00:00 AM",
+                "10/15/2015 12:00:00 AM",
+                "05/04/2015 12:00:00 AM",
+                "07/10/2013 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 10068,
+                    "max_value": "2017-10-13 00:00:00",
+                    "min_value": "2013-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Fully Permitted",
+            "number_non_empty_cells": 6228,
+            "number_empty_cells": 9060,
+            "number_distinct_values": 1005,
+            "frequent_values": [
+                "10/15/2015 12:00:00 AM",
+                "03/20/2015 12:00:00 AM",
+                "06/07/2017 12:00:00 AM",
+                "01/18/2017 12:00:00 AM",
+                "05/04/2015 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 6228,
+                    "max_value": "2017-10-13 00:00:00",
+                    "min_value": "2013-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Initial Cost",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1375,
+            "frequent_values": [
+                "1000",
+                "3000",
+                "5000",
+                "5850",
+                "2000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 14000000,
+                    "min_value": 41,
+                    "mean": 9473.846088435374,
+                    "stddev": 143188.5630009784
+                }
+            ]
+        },
+        {
+            "column_name": "Total Est. Fee",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 253,
+            "frequent_values": [
+                "100",
+                "150.3",
+                "140",
+                "120",
+                "170.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10556,
+                    "max_value": 6341,
+                    "min_value": 100,
+                    "mean": 116.96475937855249,
+                    "stddev": 109.9293672822027
+                },
+                {
+                    "type": "REAL",
+                    "count": 4732,
+                    "max_value": 144288.5,
+                    "min_value": 150.3,
+                    "mean": 347.42554945055684,
+                    "stddev": 2641.7206046952674
+                }
+            ]
+        },
+        {
+            "column_name": "Fee Status",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "STANDARD",
+                "EXEMPT",
+                "DEFERRED"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "EXEMPT",
+                        "STANDARD",
+                        "DEFERRED"
+                    ],
+                    "longest_values": [
+                        "DEFERRED",
+                        "STANDARD",
+                        "EXEMPT"
+                    ],
+                    "average_length": 7.980507587650445
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Illumination",
+            "number_non_empty_cells": 10508,
+            "number_empty_cells": 4780,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10508,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Illumination Type",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "D",
+                " ",
+                "I",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        " ",
+                        "D",
+                        "I",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "I",
+                        "D",
+                        " "
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Type",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "WALL",
+                "GROUND",
+                "ROOF"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "WALL",
+                        "ROOF",
+                        "GROUND"
+                    ],
+                    "longest_values": [
+                        "GROUND",
+                        "ROOF",
+                        "WALL"
+                    ],
+                    "average_length": 4.120617477760335
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Height Roof",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 53,
+            "frequent_values": [
+                "0",
+                "144",
+                "276",
+                "91",
+                "84"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 2280,
+                    "min_value": 0,
+                    "mean": 2.006606488749346,
+                    "stddev": 40.229345071907936
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Height Curb",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 652,
+            "frequent_values": [
+                "120",
+                "144",
+                "180",
+                "168",
+                "156"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 10653,
+                    "min_value": 0,
+                    "mean": 235.62820512820514,
+                    "stddev": 346.6880781661164
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Weight",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Projection",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 136,
+            "frequent_values": [
+                "0",
+                "12",
+                "18",
+                "5",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 960,
+                    "min_value": 0,
+                    "mean": 8.27838827838828,
+                    "stddev": 24.554794580903952
+                }
+            ]
+        },
+        {
+            "column_name": "Sign SQ Footage",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 561,
+            "frequent_values": [
+                "50",
+                "25",
+                "12",
+                "9",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 96458,
+                    "min_value": 1,
+                    "mean": 92.91673207744637,
+                    "stddev": 1124.541277109044
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Const Type",
+            "number_non_empty_cells": 77,
+            "number_empty_cells": 15211,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 77,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Inside Building Line",
+            "number_non_empty_cells": 6824,
+            "number_empty_cells": 8464,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6824,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Non-Conforming",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                " "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        " "
+                    ],
+                    "longest_values": [
+                        " "
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Advertising",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "BUSINESS",
+                "ADVERTISING"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "BUSINESS",
+                        "ADVERTISING"
+                    ],
+                    "longest_values": [
+                        "ADVERTISING",
+                        "BUSINESS"
+                    ],
+                    "average_length": 8.235478806907379
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Changeable Copy",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Near Park",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15288,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Near Highway",
+            "number_non_empty_cells": 395,
+            "number_empty_cells": 14893,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 395,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Dist from Highway",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 90,
+            "frequent_values": [
+                "0",
+                "200",
+                "50",
+                "100",
+                "300"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 900,
+                    "min_value": 0,
+                    "mean": 4.92929094714809,
+                    "stddev": 40.2691969908666
+                }
+            ]
+        },
+        {
+            "column_name": "Sign Dist from Park",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "0",
+                "30",
+                "60",
+                "100",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15288,
+                    "max_value": 200,
+                    "min_value": 0,
+                    "mean": 0.21899529042386184,
+                    "stddev": 4.848171010928883
+                }
+            ]
+        },
+        {
+            "column_name": "Sign OAC No",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "      ",
+                "1029  ",
+                "1117  ",
+                "N/A   ",
+                "1103  "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 81,
+                    "max_value": 1117,
+                    "min_value": 1,
+                    "mean": 970.9382716049382,
+                    "stddev": 248.65739957307684
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15207,
+                    "shortest_values": [
+                        "      ",
+                        "TBD   ",
+                        "N/A   "
+                    ],
+                    "longest_values": [
+                        "N/A   ",
+                        "TBD   ",
+                        "      "
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sign OAC Registration",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "      ",
+                "1018  ",
+                "1088  ",
+                "1114  ",
+                "1054  "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 813,
+                    "max_value": 1140,
+                    "min_value": 1000,
+                    "mean": 1070.0578105781058,
+                    "stddev": 41.71970965038217
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14475,
+                    "shortest_values": [
+                        "      "
+                    ],
+                    "longest_values": [
+                        "      "
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Text on Sign",
+            "number_non_empty_cells": 15288,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6139,
+            "frequent_values": [
+                "                                                                                ",
+                "(LOGO) SANTANDER                                                                ",
+                "DUNKIN DONUTS                                                                   ",
+                "MATTRESS FIRM                                                                   ",
+                "SPEEDWAY                                                                        "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 43,
+                    "max_value": 1500,
+                    "min_value": 1,
+                    "mean": 303.90697674418607,
+                    "stddev": 360.9556961768131
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15245,
+                    "shortest_values": [
+                        "M",
+                        "SG",
+                        "GNC",
+                        "DHL",
+                        "SEEN"
+                    ],
+                    "longest_values": [
+                        "MEN'S WEARHOUSE'                                                               |02||STEVE          |SONITIS                       |888         |SEVENTH AVE.                    |NEW YORK       |NY|10019    |2128947000|C5-3        |C6-1        |||ERECT A NON-ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS,  OR OCCUPANCY.                                                                   |01/15/2014 00:00:00\n320819361|01|BROOKLYN|9512        |3 AVENUE                        |06116|00035|3155559|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |01/14/2014 00:00:00|OTHER|310||||H|Y| |X|SIGN           |ERIK           |BJORNEBY                      |RA|032438|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||01/14/2014 00:00:00|01/14/2014 00:00:00|3750.00|120.00|STANDARD|Y|D|WALL|0|162|0|0|25||Y| |BUSINESS|N|N||0|0|      |      |(LOGO) SANTANDER                                                                |02||ELAINE         |JULIANO                       |237         |93 STREET                       |BROOKLYN       |NY|11209    |7189217481|R6A         |R4-1        ||BR    |INSTALL ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE TO USE, OCCUPANCY OR EGRESS.                                                                      |01/15/2014 00:00:00\n420923362|01|QUEENS|102-01      |66 ROAD                         |02131|00016|4051250|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|406|||||Y| |X|SIGN           |RICHARD        |WAINER                        |RA|023225|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||600.00|100.00|STANDARD|| |WALL|0|108|0|108|6||| |BUSINESS|N|N||0|0|      |      |NORTH SHORE LIJ FOREST HILLS HOSPITAL                                           |12|Y|JEROLD         |SCHERER                       |102-01      |66TH RD                         |FOREST HILLS   |NY|11375    |7188304001|R7-1        ||||ERECT NON ILLUMINATED SIGN ON EXISTING CANOPY BIS # 420846838 DOC#3. NO CHANGE   OF USE, EGRESS OR OCCUPANCY. COMPLIES W/ 22-231(C)ZR                            |01/15/2014 00:00:00\n121895636|01|MANHATTAN|780         |LEXINGTON AVENUE                |01395|00156|1041954|SG|P|PLAN EXAM - APPROVED                    |01/14/2014 00:00:00|OTHER|108|||||Y| | |               |RICHARD        |LEWIS                         |RA|014987|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||01/14/2014 00:00:00||3000.00|100.00|STANDARD|| |WALL|0|234|0|0|58||Y| |BUSINESS|N|N||0|0|      |      |SPRINKLES                                                                       |12||MAYER          |ASCHHEIM                      |600         |MADISON AVENUE                  |NEW YORK       |NY|10022    |2127761211|C5-2        ||||INSTALL NEW NON-ILLUMINATED SIGN AS PER PLAN. NO CHANGE TO USE, EGRESS OR        OCCUPANCY UNDER THIS APPLICATION.                                               |01/15/2014 00:00:00\n320824998|01|BROOKLYN|8801        |DITMAS AVENUE                   |07913|00008|3221877|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|317|||||Y| |X|SIGN           |ZEID           |TAREK                         |PE|066283||01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||9000.00|181.20|STANDARD|| |WALL|0|180|0|0|55||Y| |ADVERTISING|Y|N||0|0|      |1018  |                                                                                |01||PETER          |COSTANZA                      |437         |5 AVENUE                        |NEW YORK       |NY|10016    |2126446147|M1-1        ||||NON-ILLUMINATED WALL MOUNTED ADVERTISING SIGN AND STRUCTURE #2 (5' X 11')        DESIGNED FOR CHANGEABLE COPY. FIRST WORDING FOR CHANGEABLE COPY 'LAMAR OUTDOOR   ADVERTISING'. ALL AS PER PLANS FILED HEREWITH.                                  |01/15/2014 00:00:00\n121896145|01|MANHATTAN|1           |PARK AVE.                       |00888|00001|1018472|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |01/14/2014 00:00:00|OTHER|105|||||Y| |X|SIGN           |SOL            |NIEGO                         |RA|009114|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||01/14/2014 00:00:00|01/14/2014 00:00:00|1188.00|100.00|STANDARD|| |WALL|0|120|0|0|27||Y| |BUSINESS|N|N||0|0|      |      |MEN'S WEARHOUSE'                                                               ",
+                        "MEN'S WEARHOUSE|02||STEVE          |SONITIS                       |888         |SEVENTH AVE.                    |NEW YORK       |NY|10019    |2128947000|C5-3        |C6-1        |||ERECT ONE NON-ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS OR OCCUPANCY.                                                                   |01/15/2014 00:00:00\n121667455|01|MANHATTAN|1697        |BROADWAY                        |01025|00043|1024838|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|105|Y||||Y| |X|SIGN           |ERIK           |BJORNEBY                      |RA|032438|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||3150.00|120.00|STANDARD|| |WALL|0|108|0|0|42||Y| |BUSINESS|N|N||0|0|      |      |(CHANGEABLE COPY ACCESSORY TO THE LATE SHOW WITH DAVID LETTERMAN)               |02||TOM            |CRUTHERS                      |555         |WEST 57TH STREET                |NEW YORK       |NY|10019    |2129752943|C6-7        |||MID   |INSTALL NON-ILLUMINATED SIGN PANEL ON WALL WITH CHANGEABLE COPY ACCESSORY TO THE LATE SHOW WITH DAVID LETTERMAN. NO CHANGE IN OCCUPANCY, USE OR EGRESS.          |01/15/2014 00:00:00\n420938999|01|QUEENS|78-02       |NORTHERN BLVD                   |01251|00001|4028770|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |01/14/2014 00:00:00|OTHER|403|||||Y| |X|SIGN           |SALVATOR       |CARADONNA                     |PE|041124|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||01/14/2014 00:00:00|01/14/2014 00:00:00|2200.00|135.00|STANDARD|| |GROUND|0|300|0|0|50||Y| |BUSINESS|N|N||0|0|      |      |ADVANCE AUTO PARTS                                                              |03||GILBERT        |LOUZOUN                       |78-02       |NORTHERN BLVD                   |JACKSON HEIGHTS|NY|11372    |7183358600|R4          ||||ERECT NON-ILLUMINATED ACCESSORY BUSINESS SIGN ON EXISTING PYLON UNDER            APPLICATION #400144081. NOT WITHIN VIEW OF ARTERIAL HIGHWAY OR PUBLIC PARK 1/2   ACRE OR MORE. NO CHANGE IN USE, EGRESS OR OCCUPANCY.                            |01/15/2014 00:00:00\n121856376|01|MANHATTAN|194         |EAST 2 STREET                   |00398|00035|1004976|SG|P|PLAN EXAM - APPROVED                    |01/14/2014 00:00:00|OTHER|103|||||Y| |X|SIGN           |ANDREW         |KATZ                          |PE|051094|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||01/14/2014 00:00:00||960.00|100.00|STANDARD|| |WALL|0|120|0|12|12||| |BUSINESS|N|N||0|0|      |      |OPEN 24 HRS                                                                     |03||DAVID          |MALITZKY                      |13-15       |WEST 54 STREET                  |NEW YORK       |NY|10019    |2125867522|R7A         |R8B         |||INSTALLATION OF A NON-ILLUMINATED ACCESSORY BUSINESS WALL SIGN  READING : OPEN   24 HRS                                                                          |01/15/2014 00:00:00\n121667464|01|MANHATTAN|1697        |BROADWAY                        |01025|00043|1024838|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|105|Y||||Y| |X|SIGN           |ERIK           |BJORNEBY                      |RA|032438|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||3150.00|120.00|STANDARD|| |WALL|0|108|0|0|42||Y| |BUSINESS|N|N||0|0|      |      |(CHANGEABLE COPY ACCESSORY TO THE LATE SHOW WITH DAVID LETTERMAN)               |02||TOM            |CRUTHERS                      |555         |WEST 57TH STREET                |NEW YORK       |NY|10019    |2129752943|C6-7        |||MID   |INSTALL NON-ILLUMINATED SIGN PANEL ON WALL WITH CHANGEABLE COPY ACCESSORY TO THE LATE SHOW WITH DAVID LETTERMAN. NO CHANGE IN OCCUPANCY, USE OR EGRESS.          |01/15/2014 00:00:00\n121896127|01|MANHATTAN|1           |PARK AVE.                       |00888|00001|1018472|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|105|||||Y| |X|SIGN           |SOL            |NIEGO                         |RA|009114|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||1188.00|100.00|STANDARD|| |WALL|0|120|0|0|27||Y| |BUSINESS|N|N||0|0|      |      |MEN'S WEARHOUSE'                                                               ",
+                        "MEN'S WEARHOUSE|02||STEVE          |SONITIS                       |888         |SEVENTH AVE.                    |NEW YORK       |NY|10019    |2128947000|C5-3        |C6-1        |||ERECT ONE NON-ILLUMINATED BUSINESS ACCESSORY WALL SIGN. NO CHANGE IN USE, EGRESS OR OCCUPANCY.                                                                   |01/15/2014 00:00:00\n420938597|01|QUEENS|21-01       |44 DRIVE                        |00438|00021|4005183|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|402|||||Y| |X|SIGN           |TAREK          |ZEID                          |PE|066283||01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||10000.00|191.50|STANDARD|| |WALL|0|24|0|0|158||Y| |ADVERTISING|Y|N||0|0|      |1088  |                                                                                |01||BRENDAN        |HAINES                        |1357        |BROADWAY                        |NEW YORK       |NY|10018    |3474808820|M1-4/R7A    |||LIC   |PROPOSED NON-ILLUMINATED WALL ADVERTISING SIGN (10'4'' X 15'4') DESIGNED FOR      CHANGEABLE COPY.  ALL AS PER PLANS FILED HEREWITH.                              |01/15/2014 00:00:00\n320825005|01|BROOKLYN|8801        |DITMAS AVENUE                   |07913|00008|3221877|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|317|||||Y| |X|SIGN           |ZEID           |TAREK                         |PE|066283||01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||9000.00|181.20|STANDARD|| |WALL|0|180|0|0|55||Y| |ADVERTISING|Y|N||0|0|      |1018  |                                                                                |01||PETER          |COSTANZA                      |437         |5 AVENUE                        |NEW YORK       |NY|10016    |2126446147|M1-1        ||||NON-ILLUMINATED WALL MOUNTED ADVERTISING SIGN AND STRUCTURE #1 (5' X 11')        DESIGNED FOR CHANGEABLE COPY. FIRST WORDING FOR CHANGEABLE COPY 'LAMAR OUTDOOR   ADVERTISING'. ALL AS PER PLANS FILED HEREWITH.                                  |01/15/2014 00:00:00\n121896136|01|MANHATTAN|1           |PARK AVE                        |00888|00001|1018472|SG|D|APPLICATION PROCESSED - ENTIRE          |01/14/2014 00:00:00|OTHER|105|||||Y| |X|SIGN           |SOL            |NIEGO                         |RA|009114|Y|01/14/2014 00:00:00|01/14/2014 00:00:00|01/14/2014 00:00:00||||836.00|100.00|STANDARD|| |WALL|0|120|0|0|19||Y| |BUSINESS|N|N||0|0|      |      |MEN'S WEARHOUSE",
+                        "JIMMY \u00ef\u00bf\u00bd JAZZ                                                                    ",
+                        "SHACK SHACK UPPER WEST SIDE WE'RE OPEN\u00ef\u00bf\u00bd                                         "
+                    ],
+                    "average_length": 78.26021646441457
+                }
+            ]
+        },
+        {
+            "column_name": "Owner Type",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "02",
+                "03",
+                "01",
+                "04",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15284,
+                    "max_value": 14,
+                    "min_value": 1,
+                    "mean": 2.454723894268516,
+                    "stddev": 1.5280177758781015
+                }
+            ]
+        },
+        {
+            "column_name": "Non-Profit",
+            "number_non_empty_cells": 222,
+            "number_empty_cells": 15066,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222,
+                    "shortest_values": [
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's First Name",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 1688,
+            "frequent_values": [
+                "MICHAEL        ",
+                "ROBERT         ",
+                "JOSEPH         ",
+                "JOHN           ",
+                "DAVID          "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15284,
+                    "shortest_values": [
+                        "ABIE           ",
+                        "FOTINI         ",
+                        "ALEXANDRA      ",
+                        "EDDY           ",
+                        "DOMINICK       "
+                    ],
+                    "longest_values": [
+                        "JIASHU         ",
+                        "ALDO           ",
+                        "ANDY           ",
+                        "DIMITIOS       ",
+                        "STANLEY        "
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's Last Name",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 3556,
+            "frequent_values": [
+                "LAUTENBACHER                  ",
+                "ALTIERI                       ",
+                "WALSH                         ",
+                "COSTANZA                      ",
+                "MEDRANO                       "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15284,
+                    "shortest_values": [
+                        "SAFDIE                        ",
+                        "ZIVARI                        ",
+                        "OGAN                          ",
+                        "BISTRITZKY                    ",
+                        "BLACKBURN                     "
+                    ],
+                    "longest_values": [
+                        "LONDON                        ",
+                        "MALIZIA                       ",
+                        "RABIZADEH                     ",
+                        "AGAI                          ",
+                        "LOONA                         "
+                    ],
+                    "average_length": 30.0
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's  House #",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2181,
+            "frequent_values": [
+                "1           ",
+                "500         ",
+                "437         ",
+                "544         ",
+                "17000       "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12992,
+                    "max_value": 750311,
+                    "min_value": 1,
+                    "mean": 1660.2266009852217,
+                    "stddev": 16095.984436619456
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2292,
+                    "shortest_values": [
+                        "91-18       ",
+                        "PO.BOX      ",
+                        "42-35       ",
+                        "44-74       ",
+                        "154-10      "
+                    ],
+                    "longest_values": [
+                        "90-55       ",
+                        "125-09      ",
+                        "216-218     ",
+                        "41-60       ",
+                        "47-28       "
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's  House Street",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 2474,
+            "frequent_values": [
+                "BROADWAY                        ",
+                "FIFTH AVENUE                    ",
+                "PARK AVENUE                     ",
+                "HORIZON WAY                     ",
+                "MADISON AVENUE                  "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 96,
+                    "max_value": 750311,
+                    "min_value": 135,
+                    "mean": 69784.11458333333,
+                    "stddev": 193090.936575494
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15188,
+                    "shortest_values": [
+                        "BROADWAY                        ",
+                        "INDUSTRIAL WAY                  ",
+                        "CORONA AVENUE                   ",
+                        "LEONARD STREET                  ",
+                        "FARRINGTON STREET               "
+                    ],
+                    "longest_values": [
+                        "RTE 4 EAST                      ",
+                        "HOLLOW LANE                     ",
+                        "KESSEL ST                       ",
+                        "E 5 ST                          ",
+                        "VESSEY STREET                   "
+                    ],
+                    "average_length": 32.0
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 483,
+            "frequent_values": [
+                "NEW YORK       ",
+                "BROOKLYN       ",
+                "BRONX          ",
+                "STATEN ISLAND  ",
+                "QUEENS         "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 7185964500,
+                    "min_value": 30339,
+                    "mean": 2395341726.0,
+                    "stddev": 3387481849.6021094
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15281,
+                    "shortest_values": [
+                        "NEW YORK       ",
+                        "PITTSBURGH     ",
+                        "ALLENHURST     ",
+                        "MELVILLE       ",
+                        "ANGLEWOOD      "
+                    ],
+                    "longest_values": [
+                        "ISSAQUAH       ",
+                        "SADDLE BROOK   ",
+                        "OAK BROOK      ",
+                        "LITTLE NECK    ",
+                        "MALVERNE       "
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "PA",
+                "IL",
+                "CA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15284,
+                    "shortest_values": [
+                        "NY",
+                        "MO",
+                        "NV",
+                        "HI",
+                        "AZ"
+                    ],
+                    "longest_values": [
+                        "WI",
+                        "DC",
+                        "WA",
+                        "FL",
+                        "TX"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Zip Code",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 681,
+            "frequent_values": [
+                "10016    ",
+                "10036    ",
+                "10018    ",
+                "10019    ",
+                "10022    "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15284,
+                    "max_value": 981014407,
+                    "min_value": 1702,
+                    "mean": 431052.6014786705,
+                    "stddev": 12154637.22554742
+                }
+            ]
+        },
+        {
+            "column_name": "Owner's  Phone #",
+            "number_non_empty_cells": 15284,
+            "number_empty_cells": 4,
+            "number_distinct_values": 4566,
+            "frequent_values": [
+                "7327506192",
+                "2126446147",
+                "7187421760",
+                "6319622813",
+                "5163265353"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15284,
+                    "max_value": 9803451632,
+                    "min_value": 0,
+                    "mean": 5053555002.451583,
+                    "stddev": 2648620809.206749
+                }
+            ]
+        },
+        {
+            "column_name": "Zoning Distr 1",
+            "number_non_empty_cells": 15232,
+            "number_empty_cells": 56,
+            "number_distinct_values": 144,
+            "frequent_values": [
+                "M1-1        ",
+                "R6          ",
+                "C5-3        ",
+                "R3-2        ",
+                "C4-2        "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15232,
+                    "shortest_values": [
+                        "C5-5        ",
+                        "BPC         ",
+                        "M1-2/R6B    ",
+                        "C5-P        ",
+                        "C1-6        "
+                    ],
+                    "longest_values": [
+                        "R7-3        ",
+                        "C3          ",
+                        "C6-1        ",
+                        "R8          ",
+                        "C4-3A       "
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Zoning Distr 2",
+            "number_non_empty_cells": 2632,
+            "number_empty_cells": 12656,
+            "number_distinct_values": 94,
+            "frequent_values": [
+                "R8B         ",
+                "R5          ",
+                "C5-2.5      ",
+                "R6          ",
+                "M1-1        "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 80917,
+                    "min_value": 80917,
+                    "mean": 80917.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2631,
+                    "shortest_values": [
+                        "C5-2.5      ",
+                        "C6-2M       ",
+                        "M1-5/R7-3   ",
+                        "C6-5        ",
+                        "C1-9        "
+                    ],
+                    "longest_values": [
+                        "R7X         ",
+                        "C5-P        ",
+                        "R7-2        ",
+                        "C6-7T       ",
+                        "C6-3A       "
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Zoning Distr 3",
+            "number_non_empty_cells": 131,
+            "number_empty_cells": 15157,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "R8B         ",
+                "C2-8        ",
+                "C6-5        ",
+                "C5-25/C67   ",
+                "R6A         "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 131,
+                    "shortest_values": [
+                        "C2-8        ",
+                        "R9          ",
+                        "C6-3X       ",
+                        "     NOIS   ",
+                        "R4          "
+                    ],
+                    "longest_values": [
+                        "C6-1        ",
+                        "C6-6        ",
+                        "C5-2        ",
+                        "C5-25/C67   ",
+                        "C6-5        "
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Special Dist Name",
+            "number_non_empty_cells": 4165,
+            "number_empty_cells": 11123,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "MID   ",
+                "SRD   ",
+                "DB    ",
+                "LM    ",
+                "CL    "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 140,
+                    "max_value": 125,
+                    "min_value": 125,
+                    "mean": 125.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4025,
+                    "shortest_values": [
+                        "LM    ",
+                        "BPC   ",
+                        "C     ",
+                        "PC    ",
+                        "HRW   "
+                    ],
+                    "longest_values": [
+                        "E 1998",
+                        "MX-4  ",
+                        "MX-8  ",
+                        "LI    ",
+                        "SB    "
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Job Description",
+            "number_non_empty_cells": 15267,
+            "number_empty_cells": 21,
+            "number_distinct_values": 6380,
+            "frequent_values": [
+                "INSTALL ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE IN OCCUPANCY, USE OR EGRESS.",
+                "INSTALL ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE IN OCCUPANCY, USE OR EGRESS.                                                                      ",
+                "INSTALL NON-ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE IN OCCUPANCY, USE OR EGRESS.",
+                "ILLUMINATED NON ADVERTISING ACCESSORY SIGN                                      ",
+                "ERECT ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  NOT WITHIN VIEW OF ARTERIAL HIGHWAY OR PUBLIC PARK 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15267,
+                    "shortest_values": [
+                        "FLAT SIGN",
+                        "INSTALL SIGN.",
+                        "NEW BANNER SIGN",
+                        "SIGN \"NYU\" FLAG",
+                        "TO INSTALL SIGN."
+                    ],
+                    "longest_values": [
+                        "APPLICATION FILED FOR 18 INCH X 14'-6\" ILLUMINATED, ACCESSORY BUSINESS, NON-ADVERTIZING SIGN (WORDING \"PARKING\"), AS PER PLANS FILED HEREWITH. NO CHANGE IN USE EGRESS OR OCCUPANCY.|10/03/2017 00:00:00\n220600632|01|BRONX|2325        |HOLLERS AVENUE                  |05282|00026|2128778|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |10/02/2017 00:00:00|OTHER|212|||||Y| |X|SIGN           |SALVATOR       |CARADONNA                     |PE|041124|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00|10/02/2017 00:00:00|21472.00|315.10|STANDARD|| |WALL|0|696|0|1|488||| |BUSINESS|N|N|Y|306|0|      |      |TI TREASURE ISLAND STORAGE                                                      |02||JAMES          |COAKLEY                       |134         |WEST 29TH STREET                |NEW YORK       |NY|10001    |2128405588|M2-1        ||||ERECT INDIRECTLY ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  SIGN WITHIN 306FT FROM OF ARTERIAL HIGHWAY (NEW ENGLAND THRUWAY) NOT WITHIN PUBLIC PARK 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|10/03/2017 00:00:00\n220618954|01|BRONX|641         |EAST GUNHILL RD                 |04642|00001|2057273|SG|P|PLAN EXAM - APPROVED                    |10/02/2017 00:00:00|OTHER|212|||||Y| | |               |JAMES          |VASSALOTTI                    |RA|013629|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00||1000.00|135.00|STANDARD|Y|D|GROUND|0|245|0|0|25||Y| |BUSINESS|N|N||0|0|      |      |BP HELIOS, SHOP                                                                 |03||ADAM           |DIGIROLAMO                    |66          |POWERHOUSE RD                   |ROSLYN HEIGHTS |NY|11577    |5163265353|R6          ||||PROPOSE TO REPLACE SIGN FACE WITH NEW SIGN FACE ON EXISTING GROUND SIGN AND SIGN STRUCTURE. SIGN-BP LOGO,SHOP LOCATED ON N/E/C OF EAST GUNHILL RD AND OLINVILLE AVE. ALL AS PER PLANS FILED HEREWITH. NO CHANGE IN USE EGRESS OR OCCUPANCY IS PROPOSED UNDER THIS APPLICATION.|10/03/2017 00:00:00\n123186505|01|MANHATTAN|102         |MADISON AVENUE                  |00859|00015|1016928|SG|D|APPLICATION PROCESSED - ENTIRE          |10/02/2017 00:00:00|OTHER|105|||||Y| |X|SIGN           |MARIO          |ARBORE                        |RA|026140||10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||||2000.00|100.00|STANDARD|Y|D|WALL|0|132|0|0|6||Y| |BUSINESS|N|N||0|0|      |      |LIAIGRE                                                                         |03||PHILIP         |RUTH                          |412         |MAMARONECK AVENUE               |MAMARONECK     |NY|10543    |9147773800|C5-2        ||||INSTALLATION OF NEW ILLUMINATED NON-ADVERTISING ACCESSORY SIGN ON WEST 29TH STREET. NO CHANGE IN USE, OCCUPANCY OR EGRESS.|10/03/2017 00:00:00\n220600669|01|BRONX|2325        |HOLLERS AVENUE                  |05282|00026|2128778|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |10/02/2017 00:00:00|OTHER|212|||||Y| |X|SIGN           |SALVATOR       |CARADONNA                     |PE|041124|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00|10/02/2017 00:00:00|41652.00|521.10|STANDARD|Y|D|WALL|0|336|0|11|356||| |BUSINESS|N|N|Y|306|0|      |      |TISTORAGE.COM                                                                   |02||JAMES          |COAKLEY                       |134         |WEST 29TH STREET                |NEW YORK       |NY|10001    |2128405588|M2-1        ||||ERECT ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  SIGN WITHIN 306FT FROM OF ARTERIAL HIGHWAY (NEW ENGLAND THRUWAY) NOT WITHIN PUBLIC PARK 1/2 ACRE OR MORE. NO CHANGE IN USE, EGRESS OR OCCUPANCY.|10/03/2017 00:00:00\n123179014|01|MANHATTAN|349         |5TH AVENUE                      |00863|00081|1017096|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |10/02/2017 00:00:00|OTHER|105|||||Y| |X|SIGN           |NORMAN         |LOK                           |PE|089525|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00|10/02/2017 00:00:00|1892.00|100.00|STANDARD|| |WALL|0|240|0|1|43||| |BUSINESS|N|N||0|0|      |      |WEWORK                                                                          |02||AYDA           |MELO-TAVERAS                  |349         |5TH AVENUE                      |NEW YORK       |NY|10016    |9173593586|C5-2        ||||NON ILLUMINATED NON ADVERTISING ACCESSORY SIGN. NO CHANGE TO USE, EGRESS OR OCCUPANCY.|10/03/2017 00:00:00\n220600650|01|BRONX|2325        |HOLLERS AVENUE                  |05282|00026|2128778|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |10/02/2017 00:00:00|OTHER|212|||||Y| |X|SIGN           |SALVATOR       |CARADONNA                     |PE|041124|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00|10/02/2017 00:00:00|10560.00|201.80|STANDARD|| |WALL|0|660|0|1|240||| |BUSINESS|N|N|Y|552|0|      |      |TI TREASURE ISLAND STORAGE                                                      |02||JAMES          |COAKLEY                       |134         |WEST 29TH STREET                |NEW YORK       |NY|10001    |2128405588|M2-1        ||||ERECT INDIRECTLY ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  SIGN WITHIN 552FT FROM OF ARTERIAL HIGHWAY (NEW ENGLAND THRUWAY) NOT WITHIN PUBLIC PARK 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|10/03/2017 00:00:00\n123186765|01|MANHATTAN|311         |GREENWICH STREET                |00140|07502|1075706|SG|P|PLAN EXAM - APPROVED                    |10/02/2017 00:00:00|OTHER|101|||||Y| |X|SIGN           |KURT           |SCHMITZ                       |RA|038923|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00||5000.00|140.00|STANDARD|Y|D|WALL|0|108|0|4|22||| |BUSINESS|N|N||0|0|      |      |KINDERCARE LEARNING CENTERS                                                     |02||DAVID          |SLAVIN                        |650         |NE HOLLADAY STREET              |PORTLAND       |OR|97232    |5038721733|C6-3A       |C6-3        ||TMU   |FILING HEREWITH APPLICATION FOR ILLUMINATED OUTDOOR SIGN INSTALLATION ON 001 FLOOR.|10/03/2017 00:00:00\n220558313|01|BRONX|2325        |HOLLERS AVENUE                  |05282|00026|2128778|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |10/02/2017 00:00:00|OTHER|212|||||Y| |X|SIGN           |SALVATOR       |CARADONNA                     |PE|041124|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00|10/02/2017 00:00:00|1936.00|100.00|STANDARD|| |WALL|0|180|0|6|44||| |BUSINESS|N|N|Y|568|0|      |      |OFFICE                                                                          |02||JAMES          |COAKLEY                       |134         |WEST 29TH STREET                |NEW YORK       |NY|10001    |2128405588|M2-1        ||||ERECT NON-ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  SIGN WITHIN 568FT FROM OF ARTERIAL HIGHWAY (NEW ENGLAND THRUWAY) NOT WITHIN PUBLIC PARK 1/2 ACRE OR MORE. NO CHANGE IN USE, EGRESS OR OCCUPANCY.|10/03/2017 00:00:00\n421560091|01|QUEENS|138-35      | 39 AVENUE                      |04978|07502|4607310|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |10/02/2017 00:00:00|OTHER|407|||||Y| |X|SIGN           |RONALD         |VILLANO                       |RA|031882|Y|10/02/2017 00:00:00|10/02/2017 00:00:00|10/02/2017 00:00:00||10/02/2017 00:00:00|10/02/2017 00:00:00|6000.00|150.30|STANDARD|Y|I|WALL|0|138|0|0|38||Y| |BUSINESS|N|N||0|0|      |      |PARKING                                                                         |02||HECTOR         |CHEVALIER                     |360         |WEST 31 STREET                  |NEW YORK       |NY|10001    |2123217511|C4-4        ||||APPLICATION FILED FOR 18 INCH X 25'-0\" ILLUMINATED, ACCESSORY BUSINESS, NON-ADVERTIZING SIGN (WORDING \"PARKING\"), AS PER PLANS FILED HEREWITH. NO CHANGE IN USE EGRESS OR OCCUPANCY.",
+                        "ERECT NON-ADVERTISING ILLUMINATED BUSINESS SIGN ON WALL.  COPY \"STRIPE 7-ELEVEN STRIPE.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|11/14/2015 00:00:00\n220488265|01|BRONX|2050        |EASTCHESTER ROAD                |04220|00001|2047038|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |11/13/2015 00:00:00|OTHER|211|||||Y| |X|SIGN           |NORMAN         |LOK                           |PE|089525|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||11/13/2015 00:00:00|11/13/2015 00:00:00|1408.00|100.00|STANDARD|| |WALL|0|327|0|2|32||| |BUSINESS|N|N||0|0|      |      |(LOCKLOGO)SNL SAFE N LOCK SNL DEVELOPMENT GROUP LLC SAFE N LOCK SELF STORAGE LLC|02||MICHAEL        |HUMPHREY                      |2050        |EASTCHESTER ROAD                |BRONX          |NY|10461    |3472818989|M1-1        |R4          |||NON-ILLUMINATED NON-ADVERTISING ACCESSORY SIGN. NO CHANGE TO USE, EGRESS OR OCCUPANCY.|11/14/2015 00:00:00\n321209937|01|BROOKLYN|1021        |MANHATTAN AVENUE                |02512|00049|3064037|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |11/13/2015 00:00:00|OTHER|301|||||Y| |X|SIGNS          |UNG-JIB        |PARK                          |RA|032975|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00|2000.00|100.00|STANDARD|| |WALL|0|160|0|12|31||| |BUSINESS|N|N||0|0|      |      |LOGO GREENPOINT NATURAL MARKET                                                  |01||KRYSTYNA       |MALIK                         |1021        |MANHATTAN AVENUE                |BROOKLYN       |NY|11222    |7183025203|R7A         ||||NON ILLUMINATED BUSINESS ACCESSORY SIGN, NO CHANGE TO USE, EGRESS OR OCCUPANCY|11/14/2015 00:00:00\n321271119|01|BROOKLYN|3170        |ATLANTIC AVE                    |04153|00034|3093131|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |11/13/2015 00:00:00|OTHER|305|||||Y| |X|SIGN           |LAWRENCE       |O'BRIEN                       |PE|082537|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||11/13/2015 00:00:00|11/13/2015 00:00:00|3000.00|100.00|STANDARD|Y|D|WALL|0|182|0|0|6||Y| |BUSINESS|N|N||0|0|      |      |76|02||CARY           |WOLF                          |125         |JERICHO TURNPIKE                |JERICHO        |NY|11753    |5169979300|M1-1        |R5          |||INSTALLATION OF A 6 SF ILLUMINATED \"76\" WALL SIGN ON THE NORTH ELEVATION OF CANOPY. NO CHANGE TO USE, EGRESS OR OCCUPANCY.|11/14/2015 00:00:00\n122541428|01|MANHATTAN|966         |3RD AVENUE                      |01312|00039|1036913|SG|D|APPLICATION PROCESSED - ENTIRE          |11/13/2015 00:00:00|OTHER|106|||||Y| |X|SIGN           |RICHARD        |WAINER                        |RA|023225|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||||300.00|100.00|STANDARD|| |WALL|0|128|0|18|3||| |BUSINESS|N|N||0|0|      |      |M                                                                               |03||TESSA          |BERNSTEIN                     |111         |WOOD AVENUE SOUTH               |ISELIN         |NJ|08830    |2019689878|C5-2        ||||ERECT NON-ILLUMINATED DOUBLE FACED BLADE SIGN ON WALL.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|11/14/2015 00:00:00\n122541437|01|MANHATTAN|966         |3RD AVENUE                      |01312|00039|1036913|SG|D|APPLICATION PROCESSED - ENTIRE          |11/13/2015 00:00:00|OTHER|106|||||Y| |X|SIGN           |RICHARD        |WAINER                        |RA|023225|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||||300.00|100.00|STANDARD|| |WALL|0|128|0|18|3||| |BUSINESS|N|N||0|0|      |      |M                                                                               |03||TESSA          |BERNSTEIN                     |111         |WOOD AVENUE SOUTH               |ISELIN         |NJ|08830    |2019689878|C5-2        ||||ERECT NON-ILLUMINATED DOUBLE FACED BLADE SIGN ON WALL.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|11/14/2015 00:00:00\n122548047|01|MANHATTAN|220         |EAST 125TH STREET               |01789|00039|1054675|SG|D|APPLICATION PROCESSED - ENTIRE          |11/13/2015 00:00:00|OTHER|111|||||Y| |X|SIGN           |RICHARD        |WAINER                        |RA|023225|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||||1950.00|100.00|STANDARD|| |WALL|0|456|0|0|30||Y| |BUSINESS|N|N||0|0|      |      |SCIENTOLOGY                                                                     |03||BRYAN          |JASPER                        |225         |EAST 125TH STREET               |NEW YORK       |NY|10035    |2128281825|C4-4D       |||125   |ERECT NON-ILLUMINATED DOUBLE FACED BANNER ON WALL.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|11/14/2015 00:00:00\n122606251|01|MANHATTAN|2085        |BROADWAY                        |01164|07501|1077846|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |11/13/2015 00:00:00|OTHER|107|||||Y| |X|SIGNS          |SALVATOR       |CARADONNA                     |PE|041124|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||11/13/2015 00:00:00|11/13/2015 00:00:00|4329.00|140.00|STANDARD|Y|D|WALL|0|363|0|0|37||Y| |BUSINESS|N|N||0|0|      |      |BLOOMINGDALE'S THE OUTLET STORE                                                 |02||RICHARD        |CZAJA                         |277         |PARK AVENUE                     |NEW YORK       |NY|10172    |2128265503|C4-6A       ||||ERECT ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL AS INDICATED ON PLANS (BLOOMINGDALE'S THE OUTLET STORE) (72ND STREET ELEVATION).  NOT WITHIN VIEW OF ARTERIAL HIGHWAY OR PUBLIC PARK 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS, OR OCCUPANCY.|11/14/2015 00:00:00\n122607385|01|MANHATTAN|1400        |5TH AVENUE                      |01599|07501|1086518|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |11/13/2015 00:00:00|OTHER|110|||||Y| |X|SIGN           |LEON           |SKVIRSKY                      |PE|076707|Y|11/13/2015 00:00:00|11/13/2015 00:00:00|11/13/2015 00:00:00||11/13/2015 00:00:00|11/13/2015 00:00:00|3276.00|120.00|STANDARD|Y|D|WALL|0|120|0|8|28||| |BUSINESS|N|N||0|0|      |      |STRIPE 7-ELEVEN STRIPE                                                          |03||DONNY          |FURER                         |150         | EAST 58TH STREET               |NEW YORK       |NY|10155    |2122134444|C4-5X       ||||ERECT NON-ADVERTISING ILLUMINATED BUSINESS SIGN ON WALL.  COPY \"STRIPE 7-ELEVEN STRIPE.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.",
+                        "TO LEGALIZE VERTICAL NON-ADVERTIZING, ACCESSORY ILLUMINATED BUSINESS SIGN APPROX 1'-6\" X 6' WITH WORDING \"PARK ICON\" TO CURE THE ECB VIOLATION #35127865P, AS PER PLANS FILED HEREWITH.  NO WORK TO BE PERFORMED UNDER THIS APPLICATION. NO CHANGE IN USE EGRESS OR OCCUPANCY.                                                     |05/09/2015 00:00:00\n122369579|01|MANHATTAN|445         |5TH AVENUE                      |00869|07501|1017603|SG|P|PLAN EXAM - APPROVED                    |05/08/2015 00:00:00|OTHER|105|||||Y| |X|SIGN           |LEON           |SKVIRSKY                      |PE|076707|Y|05/08/2015 00:00:00|05/08/2015 00:00:00|05/08/2015 00:00:00||05/08/2015 00:00:00||5192.00|150.30|STANDARD|| |WALL|0|257|0|6|118||| |BUSINESS|N|N||0|0|      |      |CHARMING CHARLIE                                                                |02||MELISSA        |GLIATTA                       |25          |WEST 39TH STREET                |NEW YORK       |NY|10018    |2125295055|C5-3        |C5-2.5      ||MID   |NON ILLUMINATED NON ADVERTISING ACCESSORY SIGN. NO CHANGE TO USE, EGRESS, OR     OCCUPANCY.                                                                      |05/09/2015 00:00:00\n321123333|01|BROOKLYN|196         |NORTH 14 STREET                 |02279|00015|3335587|SG|D|APPLICATION PROCESSED - ENTIRE          |05/08/2015 00:00:00|OTHER|301|||Y||Y| |X|SIGN           |ANGEL          |ROJAS                         |RA|016493||05/08/2015 00:00:00|05/08/2015 00:00:00|05/08/2015 00:00:00||||7695.00|170.90|STANDARD|| |WALL|0|144|0|0|171||Y| |ADVERTISING|Y|N||0|0|      |1114  |                                                                                |01||JASON          |MEDRANO                       |67          |WEST STREET                     |BROOKLYN       |NY|11222    |3472234663|M1-1        |M1-2        |||NON ILLUMINATED ADVERTISING WALL SIGN                                           |05/09/2015 00:00:00\n122396512|01|MANHATTAN|2144        |THIRD AVENUE                    |01645|00033|1052347|SG|P|PLAN EXAM - APPROVED                    |05/08/2015 00:00:00|OTHER|111|||||Y| |X|SIGN           |JOSEPH         |DEAL                          |PE|087122|Y|05/08/2015 00:00:00|05/08/2015 00:00:00|05/08/2015 00:00:00||05/08/2015 00:00:00||3276.00|120.00|STANDARD|Y|D|WALL|0|260|0|0|28||Y| |BUSINESS|N|N||0|0|      |      |TD                                                                              |01||ROBERT         |WALSH                         |17000       |HORIZON WAY                     |MT. LAUREL     |NJ|08054    |6319622813|C4-4D       ||||FILING HEREWITH SIGN APPLICATION FOR THE INSTALLATION OF A 27.86 SF SHIELD SIGN. NO CHANGE IN USE, EGRESS OR OCCUPANCY.                                          |05/09/2015 00:00:00\n122396852|01|MANHATTAN|2144        |THIRD AVENUE                    |01645|00033|1052347|SG|P|PLAN EXAM - APPROVED                    |05/08/2015 00:00:00|OTHER|111|||||Y| |X|SIGN           |JOSEPH         |DEAL                          |PE|087122|Y|05/08/2015 00:00:00|05/08/2015 00:00:00|05/08/2015 00:00:00||05/08/2015 00:00:00||1760.00|100.00|STANDARD|| |WALL|0|174|0|0|40||Y| |BUSINESS|Y|N||0|0|      |      |                                                                                |01||ROBERT         |WALSH                         |17000       |HORIZON WAY                     |MT. LAUREL     |NJ|08054    |6319622813|C4-4D       ||||FILING HEREWITH SIGN APPLICATION FOR THE INSTALLATION OF A 40.10 SF PANEL WALL   SIGN. NO CHANGE IN USE, EGRESS OR OCCUPANCY.                                    |05/09/2015 00:00:00\n122396111|01|MANHATTAN|100         | WEST 93 STREET                 |01223|07503|1032526|SG|P|PLAN EXAM - APPROVED                    |05/08/2015 00:00:00|OTHER|107|||||Y| |X|NO WORK        |RONALD         |VILLANO                       |RA|031882|Y|05/08/2015 00:00:00|05/08/2015 00:00:00|05/08/2015 00:00:00||05/08/2015 00:00:00||2500.00|100.00|STANDARD|Y|D|WALL|0|154|0|6|9||| |BUSINESS|N|N||0|0|      |      |PARK - ICON                                                                     |03||CAMILO         |DIAZ                          |211         |EAST 38 STREET                  |NEW YORK       |NY|10016    |2126869800|C1-9        |R7-2        |||TO LEGALIZE VERTICAL NON-ADVERTIZING, ACCESSORY ILLUMINATED BUSINESS SIGN APPROX 1'-6\" X 6' WITH WORDING \"PARK ICON\" TO CURE THE ECB VIOLATION #35127865P, AS PER PLANS FILED HEREWITH.  NO WORK TO BE PERFORMED UNDER THIS APPLICATION. NO CHANGE IN USE EGRESS OR OCCUPANCY.                                                     ",
+                        "ERECT NON-ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  COPY READING \" LOGO      MOUNT SINAI.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2     ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.                           |07/07/2015 00:00:00\n122454922|01|MANHATTAN|208         |EAST 14TH STREET                |00469|07506|1089710|SG|D|APPLICATION PROCESSED - ENTIRE          |07/06/2015 00:00:00|OTHER|103|||||Y| | |               |GARY           |KLIESCH                       |RA|025618|Y|07/06/2015 00:00:00|07/06/2015 00:00:00|07/06/2015 00:00:00||||3000.00|100.00|STANDARD|Y|D|WALL|0|138|0|0|27||Y| |BUSINESS|N|N||0|0|      |      |DUNKIN DONUTS                                                                   |01||CHARLES        |BLAICHMAN                     |161         |CHRYSTIE STREET                 |NEW YORK       |NY|10002    |2125055270|R2          ||||INSTALLATION OF AN ILLUMINATED SIGN ON WALL READING DUNKIN DONUTS, NO CHANGE IN  USE, EGRESS OR OCCUPANCY GROUP                                                  |07/07/2015 00:00:00\n421185434|01|QUEENS|133-35      |79 STREET                       |11359|00001|4541244|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |07/06/2015 00:00:00|OTHER|410|||||Y| |X|SIGN SUPPORT   |ARTHUR         |HARRIS                        |RA|021157|Y|07/06/2015 00:00:00|07/06/2015 00:00:00|07/06/2015 00:00:00||07/06/2015 00:00:00|07/06/2015 00:00:00|8000.00|170.90|STANDARD|Y|I|WALL|0|210|0|0|50||Y| |BUSINESS|N|N||0|0|      |      |THE OZONE DINER                                                                 |03||SOLY           |BAWABEH                       |15          |OCEAN AVENUE                    |BROOKLYN       |NY|11225    |7187038441|R4          ||||INSTALLATION OF A 50SF ILLUMINATED WALL MOUNTED SIGN ON WESTERLY FRONT WALL OF   MERCANTILE BUILDING AS DESIGNATED AS SIGN \"C\" ON PLANS.                         |07/07/2015 00:00:00\n321157868|01|BROOKLYN|2857        |WEST 8TH STREET                 |07279|00162|3345783|SG|P|PLAN EXAM - APPROVED                    |07/06/2015 00:00:00|OTHER|313|||||Y| | |               |SALVATOR       |CARADONNA                     |PE|041124|Y|07/06/2015 00:00:00|07/06/2015 00:00:00|07/06/2015 00:00:00||07/06/2015 00:00:00||4914.00|140.00|STANDARD|Y|D|WALL|0|360|0|5|42||| |BUSINESS|N|N||0|0|      |      |BLINK FITNESS                                                                   |03||STEVEN         |SAMUELS                       |P.O.        |BOX 8                           |LAWRENCE       |NY|11559    |5169937200|C8-2        |||OP    |ERECT ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NOT WITHIN VIEW OF ARTERIAL   HIGHWAY OR PUBLIC PARK 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|07/07/2015 00:00:00\n421182963|01|QUEENS|214-50      |JAMAICA AVENUE                  |10759|00079|4230635|SG|P|PLAN EXAM - APPROVED                    |07/06/2015 00:00:00|OTHER|413|||||Y| |X|SIGN           |MICHAEL        |FASNACHT                      |PE|057352|Y|07/06/2015 00:00:00|07/06/2015 00:00:00|07/06/2015 00:00:00||07/06/2015 00:00:00||1872.00|100.00|STANDARD|Y|D|WALL|0|198|0|0|16||Y| |BUSINESS|N|N||0|0|      |      |CLEAN RITE CENTER                                                               |02||OREN           |SAUBERMAN                     |95-25       |QUEENS BOULEVARD                |REGO PARK      |NY|11374    |7189970524|C8-1        ||||ILLUMINATED NON-ADVERTISING ACCESSORY SIGN. INSIDE PROPERTY LINE. NO CHANGE TO   USE, EGRESS OR OCCUPANCY.                                                       |07/07/2015 00:00:00\n122412095|01|MANHATTAN|150         |EAST 42ND STREET                |01296|07502|1036153|SG|D|APPLICATION PROCESSED - ENTIRE          |07/06/2015 00:00:00|OTHER|106|Y||||Y| |X|SIGN           |MICHAEL        |FASNACHT                      |PE|057352|Y|07/06/2015 00:00:00|07/06/2015 00:00:00|07/06/2015 00:00:00||||455.00|100.00|STANDARD|| |WALL|0|113|0|0|7||Y| |BUSINESS|N|N||0|0|      |      |LOGO MOUNT SINAI                                                                |04||WALTER         |MAHER                         |150         |EAST 42ND STREET                |NEW YORK       |NY|10017    |2123700928|C5-3        |C5-2.5      |||ERECT NON-ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  COPY READING \" LOGO      MOUNT SINAI.  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2     ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.                           ",
+                        "INSTALL ILLUMINATED BUSINESS SIGN ON WALL 48'-0\" HIGH ON THE QUEENS BLVD. FACADE AS PER PLANS SUBMITTED.|04/07/2016 00:00:00\n122706955|01|MANHATTAN|197         |AMSTERDAM AVENUE                |01140|07501|1028950|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |04/06/2016 00:00:00|OTHER|107|||||Y| |X|SIGN           |MICHAEL        |FASNACHT                      |PE|057352|Y|04/06/2016 00:00:00|04/06/2016 00:00:00|04/06/2016 00:00:00||04/06/2016 00:00:00|04/06/2016 00:00:00|5000.00|140.00|STANDARD|Y|D|WALL|0|108|0|7|45||| |BUSINESS|N|N||0|0|      |      |(LOGO) NORTHWELL HEALTH (LOGO) GOHEALTH URGENT CARE                             |04||RACHEL         |MAHLER                        |155         |WEST 68TH STREET                |NEW YORK       |NY|10023    |2128734020|C4-6A       ||||ERECT NON-ADVERTISING ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE IN USE, OCCUPANCY OR EGRESS.|04/07/2016 00:00:00\n220513120|01|BRONX|3351        |CONNER STREET                   |05252|00005|2124710|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |04/06/2016 00:00:00|OTHER|210|||||Y| |X|SIGNS          |AHMED          |SHAABAN                       |PE|627341|Y|04/06/2016 00:00:00|04/06/2016 00:00:00|04/06/2016 00:00:00||04/06/2016 00:00:00|04/06/2016 00:00:00|2574.00|100.00|STANDARD|Y|D|WALL|0|195|0|0|22||Y| |BUSINESS|N|N||0|0|      |      |BELL LOGO                                                                       |03||ADAM           |GOOD                          |275         |MADISON AVE                     |NEW YORK       |NY|11211    |6466127350|M1-1        ||||ERECT ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL.  COPY: \"BELL LOGO\".  NOT WITHIN VIEW/200' OF ARTERIAL HIGHWAY OR PUBLIC PARK OF 1/2 ACRE OR MORE.  NO CHANGE IN USE, EGRESS OR OCCUPANCY.|04/07/2016 00:00:00\n421189813|01|QUEENS|75-25       |METROPOLITAN AVENUE             |03066|00018|4071774|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |04/06/2016 00:00:00|OTHER|405|||||Y| |X|SIGN           |LEON           |SKVIRSKY                      |PE|076707|Y|04/06/2016 00:00:00|04/06/2016 00:00:00|04/06/2016 00:00:00||04/06/2016 00:00:00|04/06/2016 00:00:00|5700.00|150.30|STANDARD|Y|D|WALL|0|186|0|8|38||| |BUSINESS|N|N||0|0|      |      |ASTORIA BANK (LOGO)                                                             |03||SEAN           |GRANHOLM                      |1           |ASTORIA BANK PLAZA              |LAKE SUCCESS   |NY|11042    |5163277572|R5          ||||INSTALL ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE IN OCCUPANCY, USE OR EGRESS.|04/07/2016 00:00:00\n421202282|01|QUEENS|31-24       |DITMARS BLVD                    |00833|00039|4017061|SG|R|PERMIT ISSUED - ENTIRE JOB/WORK         |04/06/2016 00:00:00|OTHER|401|||||Y| |X|SIGN           |LEON           |SKVIRSKY                      |PE|076707|Y|04/06/2016 00:00:00|04/06/2016 00:00:00|04/06/2016 00:00:00||04/06/2016 00:00:00|04/06/2016 00:00:00|7350.00|170.90|STANDARD|Y|D|WALL|0|153|0|8|49||| |BUSINESS|N|N||0|0|      |      |ASTORIA BANK (LOGO)                                                             |03||SEAN           |GRANHOLM                      |1           |ASTORIA BANK PLAZA              |LAKE SUCCESS   |NY|11042    |5163277572|C4-2A       ||||INSTALL ILLUMINATED ACCESSORY BUSINESS SIGN ON WALL. NO CHANGE IN OCCUPANCY, USE OR EGRESS.|04/07/2016 00:00:00\n420937231|01|QUEENS|92-77       |QUEENS BLVD.                    |02075|00039|4437359|SG|D|APPLICATION PROCESSED - ENTIRE          |04/06/2016 00:00:00|OTHER|406|||||Y| |X|SIGN           |SAVERIO        |TARANTINO                     |PE|063991||04/06/2016 00:00:00|04/06/2016 00:00:00|04/06/2016 00:00:00||||10000.00|191.50|STANDARD|Y|D|WALL|0|636|0|11|27||| |BUSINESS|N|N|Y|300|0|      |      |WYNDHAM GARDEN                                                                  |03||MICHAEL        |DESOUSA                       |222         |SHORE ROAD                      |SEAFORD        |NY|11783    |5165572131|R7-1        ||||INSTALL ILLUMINATED BUSINESS SIGN ON WALL 53'-0\" HIGH ON THE 93RD STREET FACADE AS PER PLANS SUBMITTED."
+                    ],
+                    "average_length": 145.36916224536583
+                }
+            ]
+        },
+        {
+            "column_name": "DOBRunDate",
+            "number_non_empty_cells": 15283,
+            "number_empty_cells": 5,
+            "number_distinct_values": 1075,
+            "frequent_values": [
+                "07/27/2013 12:00:00 AM",
+                "10/13/2017 12:00:00 AM",
+                "10/12/2017 12:00:00 AM",
+                "03/27/2015 12:00:00 AM",
+                "10/14/2017 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 15283,
+                    "max_value": "2018-01-29 00:00:00",
+                    "min_value": "2013-04-26 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Job #",
+        "Doc #"
+    ]
+}

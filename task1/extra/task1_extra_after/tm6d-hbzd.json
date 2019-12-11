@@ -1,0 +1,710 @@
+{
+    "dataset_name": "tm6d-hbzd",
+    "columns": [
+        {
+            "column_name": "IM_INCIDENT_KEY",
+            "number_non_empty_cells": 2518758,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2518758,
+            "frequent_values": [
+                "56087998",
+                "58166605",
+                "56508216",
+                "60390592",
+                "59911936"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2518758,
+                    "max_value": 63476768,
+                    "min_value": 55672688,
+                    "mean": 59264158.03168665,
+                    "stddev": 2242051.1142912987
+                }
+            ]
+        },
+        {
+            "column_name": "FIRE_BOX",
+            "number_non_empty_cells": 2518748,
+            "number_empty_cells": 10,
+            "number_distinct_values": 10641,
+            "frequent_values": [
+                "1670",
+                "2185",
+                "1349",
+                "2309",
+                "2660"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2518747,
+                    "max_value": 9949,
+                    "min_value": 10,
+                    "mean": 2914.8337089830775,
+                    "stddev": 2443.865213312139
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "NYCHA1373"
+                    ],
+                    "longest_values": [
+                        "NYCHA1373"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_TYPE_DESC",
+            "number_non_empty_cells": 2518758,
+            "number_empty_cells": 0,
+            "number_distinct_values": 182,
+            "frequent_values": [
+                "300 - Rescue, EMS incident, other",
+                "651 - Smoke scare, odor of smoke",
+                "353 - Removal of victim(s) from stalled elevator",
+                "710 - Malicious, mischievous false call, other",
+                "522 - Water or steam leak"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2518758,
+                    "shortest_values": [
+                        "511 - Lock-out",
+                        "143 - Grass fire",
+                        "362 - Ice rescue",
+                        "364 - Surf rescue",
+                        "571A - Relocation"
+                    ],
+                    "longest_values": [
+                        "4003 - No Detector Activation Carbon Monoxide Incident or Emergency",
+                        "735A - Unwarranted alarm/defective condition of alarm system",
+                        "735B - Unnecessary alarm/alarm system testing or servicing",
+                        "743 - Smoke detector activation, no fire - unintentional",
+                        "115 - Incinerator overload or malfunction, fire confined"
+                    ],
+                    "average_length": 37.61218187694094
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_DATE_TIME",
+            "number_non_empty_cells": 2518758,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2497201,
+            "frequent_values": [
+                "05/15/2018 07:47:17 PM",
+                "03/18/2015 08:11:43 PM",
+                "09/09/2013 08:29:54 PM",
+                "03/09/2014 05:38:53 PM",
+                "03/28/2017 10:26:39 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2518758,
+                    "max_value": "2018-06-30 23:55:29",
+                    "min_value": "2013-01-01 00:00:20"
+                }
+            ]
+        },
+        {
+            "column_name": "ARRIVAL_DATE_TIME",
+            "number_non_empty_cells": 2456446,
+            "number_empty_cells": 62312,
+            "number_distinct_values": 2427108,
+            "frequent_values": [
+                "03/18/2015 08:14:10 PM",
+                "09/09/2013 08:31:58 PM",
+                "03/09/2014 05:43:14 PM",
+                "06/05/2014 01:13:48 AM",
+                "08/06/2016 07:15:23 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2456446,
+                    "max_value": "2018-07-01 00:00:32",
+                    "min_value": "2013-01-01 00:04:55"
+                }
+            ]
+        },
+        {
+            "column_name": "UNITS_ONSCENE",
+            "number_non_empty_cells": 2456235,
+            "number_empty_cells": 62523,
+            "number_distinct_values": 87,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "5",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2456235,
+                    "max_value": 207,
+                    "min_value": 1,
+                    "mean": 2.118338432601115,
+                    "stddev": 1.88860479220753
+                }
+            ]
+        },
+        {
+            "column_name": "LAST_UNIT_CLEARED_DATE_TIME",
+            "number_non_empty_cells": 2518756,
+            "number_empty_cells": 2,
+            "number_distinct_values": 2495129,
+            "frequent_values": [
+                "03/12/2018 10:51:13 AM",
+                "04/19/2016 11:13:12 AM",
+                "02/12/2017 02:47:55 PM",
+                "12/12/2013 07:24:06 PM",
+                "06/17/2015 12:09:19 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2518756,
+                    "max_value": "2018-07-01 05:20:01",
+                    "min_value": "2013-01-01 00:10:29"
+                }
+            ]
+        },
+        {
+            "column_name": "HIGHEST_LEVEL_DESC",
+            "number_non_empty_cells": 2518606,
+            "number_empty_cells": 152,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "1 - More than initial alarm, less than Signal 7-5",
+                "11 - First Alarm",
+                "7 - Signal 7-5",
+                "0 - Initial alarm",
+                "75 - All Hands Working"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2518606,
+                    "shortest_values": [
+                        "2 - 2nd alarm",
+                        "3 - 3rd alarm",
+                        "5 - 5th alarm",
+                        "4 - 4th alarm",
+                        "7 - Signal 7-5"
+                    ],
+                    "longest_values": [
+                        "1 - More than initial alarm, less than Signal 7-5",
+                        "75 - All Hands Working",
+                        "0 - Initial alarm",
+                        "44 - Fourth Alarm",
+                        "22 - Second Alarm"
+                    ],
+                    "average_length": 45.82583182919441
+                }
+            ]
+        },
+        {
+            "column_name": "TOTAL_INCIDENT_DURATION",
+            "number_non_empty_cells": 2518609,
+            "number_empty_cells": 149,
+            "number_distinct_values": 15430,
+            "frequent_values": [
+                "896",
+                "857",
+                "837",
+                "872",
+                "862"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2518609,
+                    "max_value": 71011364,
+                    "min_value": 0,
+                    "mean": 1442.1709701664688,
+                    "stddev": 45194.692331937105
+                }
+            ]
+        },
+        {
+            "column_name": "ACTION_TAKEN1_DESC",
+            "number_non_empty_cells": 2518758,
+            "number_empty_cells": 0,
+            "number_distinct_values": 88,
+            "frequent_values": [
+                "00 - Action taken, other",
+                "86 - Investigate",
+                "64 - Shut down system",
+                "11 - Extinguishment by fire service personnel",
+                "44 - Hazardous materials leak control & containment"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2518758,
+                    "shortest_values": [
+                        "21 - Search",
+                        "51 - Ventilate",
+                        "86 - Investigate",
+                        "66 - Remove water",
+                        "24 - Recover body"
+                    ],
+                    "longest_values": [
+                        "42 - HazMat detection, monitoring, sampling, & analysis",
+                        "114 - Assisted engine company with stretching handline",
+                        "43 - Hazardous materials spill control and confinement",
+                        "79 - Assess severe weather or natural disaster damage",
+                        "80 - Information, investigation & enforcement, other"
+                    ],
+                    "average_length": 25.772114669213956
+                }
+            ]
+        },
+        {
+            "column_name": "ACTION_TAKEN2_DESC",
+            "number_non_empty_cells": 535572,
+            "number_empty_cells": 1983186,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "64 - Shut down system",
+                "51 - Ventilate",
+                "78 - Control traffic",
+                "55 - Establish safe area",
+                "31 - Provide first aid & check for injuries"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 535572,
+                    "shortest_values": [
+                        "21 - Search",
+                        "51 - Ventilate",
+                        "86 - Investigate",
+                        "66 - Remove water",
+                        "24 - Recover body"
+                    ],
+                    "longest_values": [
+                        "42 - HazMat detection, monitoring, sampling, & analysis",
+                        "43 - Hazardous materials spill control and confinement",
+                        "114 - Assisted engine company with stretching handline",
+                        "79 - Assess severe weather or natural disaster damage",
+                        "80 - Information, investigation & enforcement, other"
+                    ],
+                    "average_length": 21.63593130335417
+                }
+            ]
+        },
+        {
+            "column_name": "ACTION_TAKEN3_DESC",
+            "number_non_empty_cells": 245255,
+            "number_empty_cells": 2273503,
+            "number_distinct_values": 90,
+            "frequent_values": [
+                "82 - Notify other agencies.",
+                "86 - Investigate",
+                "64 - Shut down system",
+                "11 - Extinguishment by fire service personnel",
+                "51 - Ventilate"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 245255,
+                    "shortest_values": [
+                        "21 - Search",
+                        "51 - Ventilate",
+                        "86 - Investigate",
+                        "24 - Recover body",
+                        "66 - Remove water"
+                    ],
+                    "longest_values": [
+                        "42 - HazMat detection, monitoring, sampling, & analysis",
+                        "114 - Assisted engine company with stretching handline",
+                        "43 - Hazardous materials spill control and confinement",
+                        "79 - Assess severe weather or natural disaster damage",
+                        "80 - Information, investigation & enforcement, other"
+                    ],
+                    "average_length": 24.35310595094901
+                }
+            ]
+        },
+        {
+            "column_name": "PROPERTY_USE_DESC",
+            "number_non_empty_cells": 2518752,
+            "number_empty_cells": 6,
+            "number_distinct_values": 155,
+            "frequent_values": [
+                "UUU - Undetermined",
+                "429 - Multifamily dwelling",
+                "419 - 1 or 2 family dwelling",
+                "962 - Residential street, road or residential driveway",
+                "960 - Street, other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2518752,
+                    "shortest_values": [
+                        "592 - Bank",
+                        "NNN - None",
+                        "937 - Beach",
+                        "152 - Museum",
+                        "922 - Tunnel"
+                    ],
+                    "longest_values": [
+                        "600 - Ind., utility, defense, agriculture, mining, other",
+                        "983 - Pipeline, power line or other utility right-of-way",
+                        "321 - Mental retardation/development disability facility",
+                        "340 - Clinics, doctors offices, hemodialysis cntr, other",
+                        "557 - Personal service, including barber & beauty shops"
+                    ],
+                    "average_length": 22.92229683589333
+                }
+            ]
+        },
+        {
+            "column_name": "STREET_HIGHWAY",
+            "number_non_empty_cells": 2480707,
+            "number_empty_cells": 38051,
+            "number_distinct_values": 28187,
+            "frequent_values": [
+                "BROADWAY",
+                "DEFAULT RECORD FOR SF",
+                "3 AVE",
+                "5 AVE",
+                "PARK AVE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 178,
+                    "max_value": 9999999,
+                    "min_value": 0,
+                    "mean": 57575.893258426964,
+                    "stddev": 747393.6543001698
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2480529,
+                    "shortest_values": [
+                        "f",
+                        "x",
+                        "'",
+                        "X",
+                        ","
+                    ],
+                    "longest_values": [
+                        "LINDEN BLVD service road west bound side -100 feet east of Rockaway Parkway",
+                        "Gateway Bird Sanctuary-MTA Service Area-South of North Channel Bridge, East",
+                        "East bound BELT PKWY Between Flatbush  and Rockaway Park on the Draw Bridge",
+                        " South side of DELANCEY ST at Suffolk St. Bklyn Bound land to Wmsbur Bridge",
+                        "New England Thruway northbound at Hutchinson River Pkwy north of Connors St"
+                    ],
+                    "average_length": 9.499383800794105
+                }
+            ]
+        },
+        {
+            "column_name": "ZIP_CODE",
+            "number_non_empty_cells": 2518746,
+            "number_empty_cells": 12,
+            "number_distinct_values": 181,
+            "frequent_values": [
+                "99999",
+                "10456",
+                "10029",
+                "11212",
+                "11207"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2518745,
+                    "max_value": 99999,
+                    "min_value": 10001,
+                    "mean": 12675.504787106278,
+                    "stddev": 12966.04804517337
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "11209-0000"
+                    ],
+                    "longest_values": [
+                        "11209-0000"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH_DESC",
+            "number_non_empty_cells": 2518758,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "4 - Brooklyn",
+                "1 - Manhattan",
+                "5 - Queens",
+                "2 - Bronx",
+                "3 - Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2518758,
+                    "shortest_values": [
+                        "2 - Bronx",
+                        "5 - Queens",
+                        "4 - Brooklyn",
+                        "1 - Manhattan",
+                        "3 - Staten Island"
+                    ],
+                    "longest_values": [
+                        "3 - Staten Island",
+                        "1 - Manhattan",
+                        "4 - Brooklyn",
+                        "5 - Queens",
+                        "2 - Bronx"
+                    ],
+                    "average_length": 11.507325038769107
+                }
+            ]
+        },
+        {
+            "column_name": "FLOOR",
+            "number_non_empty_cells": 544875,
+            "number_empty_cells": 1973883,
+            "number_distinct_values": 9171,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413721,
+                    "max_value": 12345,
+                    "min_value": -21,
+                    "mean": 3.6650955595679213,
+                    "stddev": 24.61184359541881
+                },
+                {
+                    "type": "REAL",
+                    "count": 17,
+                    "max_value": 53.0,
+                    "min_value": 0.1,
+                    "mean": 3.987647058823529,
+                    "stddev": 12.271125615665115
+                },
+                {
+                    "type": "TEXT",
+                    "count": 131137,
+                    "shortest_values": [
+                        "z",
+                        "v",
+                        "j",
+                        "/",
+                        ","
+                    ],
+                    "longest_values": [
+                        "D' Line of Apartments|||||||",
+                        "basement, first and secon",
+                        "alley on exposure 4 side ",
+                        "Basement (compactor room)",
+                        "emergency room parkinglot"
+                    ],
+                    "average_length": 5.404500636738678
+                }
+            ]
+        },
+        {
+            "column_name": "CO_DETECTOR_PRESENT_DESC",
+            "number_non_empty_cells": 33002,
+            "number_empty_cells": 2485756,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 33002,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8099206108720685
+                }
+            ]
+        },
+        {
+            "column_name": "FIRE_ORIGIN_BELOW_GRADE_FLAG",
+            "number_non_empty_cells": 2058,
+            "number_empty_cells": 2516700,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "1",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2058,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.9776482021379981,
+                    "stddev": 0.14782487948358855
+                }
+            ]
+        },
+        {
+            "column_name": "STORY_FIRE_ORIGIN_COUNT",
+            "number_non_empty_cells": 14232,
+            "number_empty_cells": 2504526,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "0",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14232,
+                    "max_value": 240,
+                    "min_value": 0,
+                    "mean": 2.82862563237774,
+                    "stddev": 5.3209459804487445
+                }
+            ]
+        },
+        {
+            "column_name": "FIRE_SPREAD_DESC",
+            "number_non_empty_cells": 14231,
+            "number_empty_cells": 2504527,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2 - Confined to room of origin",
+                "1 - Confined to object of origin",
+                "4 - Confined to building of origin",
+                "3 - Confined to floor of origin",
+                "5 - Beyond building of origin"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14231,
+                    "shortest_values": [
+                        "5 - Beyond building of origin",
+                        "2 - Confined to room of origin",
+                        "3 - Confined to floor of origin",
+                        "1 - Confined to object of origin",
+                        "4 - Confined to building of origin"
+                    ],
+                    "longest_values": [
+                        "4 - Confined to building of origin",
+                        "1 - Confined to object of origin",
+                        "3 - Confined to floor of origin",
+                        "2 - Confined to room of origin",
+                        "5 - Beyond building of origin"
+                    ],
+                    "average_length": 31.29007097182208
+                }
+            ]
+        },
+        {
+            "column_name": "DETECTOR_PRESENCE_DESC",
+            "number_non_empty_cells": 14230,
+            "number_empty_cells": 2504528,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N - None present",
+                "1 - Present"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14230,
+                    "shortest_values": [
+                        "1 - Present",
+                        "N - None present"
+                    ],
+                    "longest_values": [
+                        "N - None present",
+                        "1 - Present"
+                    ],
+                    "average_length": 14.553408292340126
+                }
+            ]
+        },
+        {
+            "column_name": "AES_PRESENCE_DESC",
+            "number_non_empty_cells": 14230,
+            "number_empty_cells": 2504528,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N - None Present",
+                "1 - Present"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14230,
+                    "shortest_values": [
+                        "1 - Present",
+                        "N - None Present"
+                    ],
+                    "longest_values": [
+                        "N - None Present",
+                        "1 - Present"
+                    ],
+                    "average_length": 15.412508784258609
+                }
+            ]
+        },
+        {
+            "column_name": "STANDPIPE_SYS_PRESENT_FLAG",
+            "number_non_empty_cells": 14234,
+            "number_empty_cells": 2504524,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14234,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.16017985106084023,
+                    "stddev": 0.3667727721286694
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "IM_INCIDENT_KEY"
+    ]
+}

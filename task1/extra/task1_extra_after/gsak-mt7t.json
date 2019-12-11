@@ -1,0 +1,965 @@
+{
+    "dataset_name": "gsak-mt7t",
+    "columns": [
+        {
+            "column_name": "DBN",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1743,
+            "frequent_values": [
+                "30Q151",
+                "32K377",
+                "02M400",
+                "10X086",
+                "10X081"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "01M015",
+                        "23K137",
+                        "23K073",
+                        "23K041",
+                        "22K853"
+                    ],
+                    "longest_values": [
+                        "CITYWIDE",
+                        "10X504",
+                        "10X437",
+                        "10X438",
+                        "10X439"
+                    ],
+                    "average_length": 6.001147446930579
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION NAME",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1706,
+            "frequent_values": [
+                "Home Schooling",
+                "P.S. 360",
+                "P.S. 212",
+                "P.S. 253",
+                "Mathematics, Science Research and Technology Magne"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "LYFE",
+                        "Kappa",
+                        "P.S. 66",
+                        "Muscota",
+                        "P.S. 78"
+                    ],
+                    "longest_values": [
+                        "The Kathleen Grimm School for Leadership and Susta",
+                        "William E. Grady Career and Technical Education Hi",
+                        "Academy of Medical Technology: A College Board Sch",
+                        "Validus Preparatory Academy: An Expeditionary Lear",
+                        "The New American Academy at Roberto Clemente State"
+                    ],
+                    "average_length": 27.672977624784853
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION CATEGORY",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Elementary",
+                "High school",
+                "Junior High-Intermediate-Middle",
+                "K-8",
+                "Secondary School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "K-8",
+                        "Ungraded",
+                        "Elementary",
+                        "High school",
+                        "K-12 all grades"
+                    ],
+                    "longest_values": [
+                        "This cell intentionally left blank",
+                        "Junior High-Intermediate-Middle",
+                        "District Pre-K Center",
+                        "Central-HQ-Citywide",
+                        "Secondary School"
+                    ],
+                    "average_length": 13.70109007458405
+                }
+            ]
+        },
+        {
+            "column_name": "ADMINISTRATIVE DISTRICT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "02",
+                "10",
+                "09",
+                "31",
+                "75"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1742,
+                    "max_value": 97,
+                    "min_value": 1,
+                    "mean": 18.69862227324914,
+                    "stddev": 15.63520668598115
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "This cell intentionally left blank"
+                    ],
+                    "longest_values": [
+                        "This cell intentionally left blank"
+                    ],
+                    "average_length": 34.0
+                }
+            ]
+        },
+        {
+            "column_name": "0 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "*",
+                "74"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 74,
+                    "min_value": 74,
+                    "mean": 74.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1742,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "1 REMOVAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "*",
+                "6",
+                "7",
+                "9",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 236,
+                    "max_value": 5465,
+                    "min_value": 6,
+                    "mean": 42.41949152542373,
+                    "stddev": 354.1725943226451
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1507,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "1 PRINCIPAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "*",
+                "8",
+                "7",
+                "9",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 171,
+                    "max_value": 3374,
+                    "min_value": 6,
+                    "mean": 34.21637426900585,
+                    "stddev": 256.4639321694439
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1572,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "1 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "*"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2 REMOVAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "*",
+                "7",
+                "6",
+                "9",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 159,
+                    "max_value": 3235,
+                    "min_value": 6,
+                    "mean": 35.0251572327044,
+                    "stddev": 254.8865563340249
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1584,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2 PRINCIPAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "*",
+                "8",
+                "7",
+                "6",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 282,
+                    "max_value": 5749,
+                    "min_value": 6,
+                    "mean": 36.319148936170215,
+                    "stddev": 341.02085623183126
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1461,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "*"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "3 REMOVAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "*",
+                "6",
+                "7",
+                "11",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 93,
+                    "max_value": 1931,
+                    "min_value": 6,
+                    "mean": 32.806451612903224,
+                    "stddev": 198.04280291475803
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1650,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "3 PRINCIPAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "*",
+                "7",
+                "8",
+                "6",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 371,
+                    "max_value": 7314,
+                    "min_value": 6,
+                    "mean": 35.94878706199461,
+                    "stddev": 378.70347704079444
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1372,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "3 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "*"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "4 REMOVAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "*",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 1312,
+                    "min_value": 6,
+                    "mean": 30.333333333333332,
+                    "stddev": 159.05605390185022
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1677,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "4 PRINCIPAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "*",
+                "7",
+                "6",
+                "8",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 81,
+                    "max_value": 1632,
+                    "min_value": 6,
+                    "mean": 29.28395061728395,
+                    "stddev": 179.22241059216532
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1662,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "4 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "*"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1743,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "5 PRINCIPAL",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 69,
+            "frequent_values": [
+                "*",
+                "6",
+                "7",
+                "8",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 389,
+                    "max_value": 9053,
+                    "min_value": 6,
+                    "mean": 43.76606683804627,
+                    "stddev": 457.7946849330065
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1354,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "5 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "*",
+                "6",
+                "7",
+                "9",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 38,
+                    "max_value": 1300,
+                    "min_value": 6,
+                    "mean": 42.55263157894737,
+                    "stddev": 206.76400192749895
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1705,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "6-10 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "*",
+                "6",
+                "8",
+                "9",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 309,
+                    "max_value": 4876,
+                    "min_value": 6,
+                    "mean": 25.948220064724918,
+                    "stddev": 276.40216918674145
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1434,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "11-29 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "*",
+                "294"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 294,
+                    "min_value": 294,
+                    "mean": 294.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1742,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "30 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "*",
+                "6",
+                "9",
+                "7",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 98,
+                    "max_value": 1888,
+                    "min_value": 6,
+                    "mean": 27.76530612244898,
+                    "stddev": 188.90321466460168
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1645,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "31-44 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "*",
+                "7",
+                "8",
+                "6",
+                "13"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 16,
+                    "max_value": 653,
+                    "min_value": 6,
+                    "mean": 48.6875,
+                    "stddev": 156.04835738882355
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1727,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "45 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "*",
+                "9",
+                "7",
+                "261"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 261,
+                    "min_value": 7,
+                    "mean": 92.33333333333333,
+                    "stddev": 119.26813861584698
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1740,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "46-59 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "*",
+                "7",
+                "6",
+                "378"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 378,
+                    "min_value": 6,
+                    "mean": 59.57142857142857,
+                    "stddev": 129.99874410696341
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1736,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "60 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "*",
+                "232",
+                "17",
+                "8",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 232,
+                    "min_value": 6,
+                    "mean": 65.75,
+                    "stddev": 96.07386481244522
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1739,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "61-89 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "*",
+                "6",
+                "8",
+                "10",
+                "265"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 265,
+                    "min_value": 6,
+                    "mean": 44.142857142857146,
+                    "stddev": 90.17511308785902
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1736,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "90 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "*",
+                "91",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 91,
+                    "min_value": 6,
+                    "mean": 48.5,
+                    "stddev": 42.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1741,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "180 SUPERINTENDENT",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "*",
+                "118"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 118,
+                    "min_value": 118,
+                    "mean": 118.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1742,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "AWAITING HEARING OR MDR S",
+            "number_non_empty_cells": 1743,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "*",
+                "88",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 88,
+                    "min_value": 8,
+                    "mean": 48.0,
+                    "stddev": 40.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1741,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "DBN"
+    ]
+}

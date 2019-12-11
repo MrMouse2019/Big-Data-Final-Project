@@ -1,0 +1,1613 @@
+{
+    "dataset_name": "ud2m-5tb4",
+    "columns": [
+        {
+            "column_name": "OBJECTID",
+            "number_non_empty_cells": 10876,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10876,
+            "frequent_values": [
+                "7464",
+                "3434",
+                "4638",
+                "5832",
+                "2918"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10876,
+                    "max_value": 11288,
+                    "min_value": 1,
+                    "mean": 5471.656215520412,
+                    "stddev": 3166.9104522801226
+                }
+            ]
+        },
+        {
+            "column_name": "UEID",
+            "number_non_empty_cells": 10876,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10858,
+            "frequent_values": [
+                "RareOakWoods",
+                "X004_2005_61",
+                "X004_2005_63",
+                "X004_2005_93",
+                "X004_2005_60"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10876,
+                    "shortest_values": [
+                        "X142_2012_3",
+                        "X142_1988_2",
+                        "MZ31_1989_2",
+                        "R132_1989_8",
+                        "X126_2011_4"
+                    ],
+                    "longest_values": [
+                        "X092_1988_w_trails_605a",
+                        "X092_1988_w_trails_194b",
+                        "X092_1988_w_trails_530a",
+                        "X092_1988_w_trails_140b",
+                        "X092_1988_w_trails_157d"
+                    ],
+                    "average_length": 14.15272158881942
+                }
+            ]
+        },
+        {
+            "column_name": "UEID_BASE",
+            "number_non_empty_cells": 10870,
+            "number_empty_cells": 6,
+            "number_distinct_values": 8551,
+            "frequent_values": [
+                "X092_1988_w_trails_1",
+                "X092_2010_713",
+                "X092_1988_1",
+                "B057_1986_135",
+                "X039_1986_735"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10870,
+                    "shortest_values": [
+                        "X142_1988_4",
+                        "X126_2011_4",
+                        "X033_2011_1",
+                        "X010_2011_3",
+                        "X118_1990_6"
+                    ],
+                    "longest_values": [
+                        "X092_1988_w_trails_575",
+                        "X092_1988_w_trails_572",
+                        "X092_1988_w_trails_138",
+                        "X092_1988_w_trails_254",
+                        "X092_1988_w_trails_319"
+                    ],
+                    "average_length": 13.838270469181232
+                }
+            ]
+        },
+        {
+            "column_name": "DateOfVisit",
+            "number_non_empty_cells": 2081,
+            "number_empty_cells": 8795,
+            "number_distinct_values": 341,
+            "frequent_values": [
+                "2005-07-05",
+                "2008-03-06",
+                "2012-01-23",
+                "2012-06-18",
+                "2012-07-16"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2081,
+                    "max_value": "2014-07-30 00:00:00",
+                    "min_value": "0209-10-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "EcologicalClassification",
+            "number_non_empty_cells": 8771,
+            "number_empty_cells": 2105,
+            "number_distinct_values": 484,
+            "frequent_values": [
+                "IB2a(1)",
+                "IIB2a(3)",
+                "IB2a1",
+                "IB2a(3)",
+                "IB2a(2)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8766,
+                    "shortest_values": [
+                        "V",
+                        "VI",
+                        "??",
+                        "VB",
+                        "IV"
+                    ],
+                    "longest_values": [
+                        "IVA2f & IIB2a1",
+                        "IA9Bb(2)(C)",
+                        "IA9b(2) (a)",
+                        "VC1e(2) (b)",
+                        "IA9B(2)(C)"
+                    ],
+                    "average_length": 6.25792835957107
+                }
+            ]
+        },
+        {
+            "column_name": "ManagementConcern",
+            "number_non_empty_cells": 10876,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "FALSE",
+                "TRUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10876,
+                    "shortest_values": [
+                        "TRUE",
+                        "FALSE"
+                    ],
+                    "longest_values": [
+                        "FALSE",
+                        "TRUE"
+                    ],
+                    "average_length": 4.644538433247518
+                }
+            ]
+        },
+        {
+            "column_name": "PlantFormation",
+            "number_non_empty_cells": 10290,
+            "number_empty_cells": 586,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "Closed Forest",
+                "Woodland",
+                "Herbaceous",
+                "Vineland",
+                "Scrub"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10290,
+                    "shortest_values": [
+                        "Turf",
+                        "Scrub",
+                        "Beach",
+                        "Dunes",
+                        "Desert"
+                    ],
+                    "longest_values": [
+                        "Aquatic Plant (Fresh",
+                        "Scarcely Vegetated",
+                        "Aquatic (fresh)",
+                        "Riparian Buffer",
+                        "Closed forest"
+                    ],
+                    "average_length": 10.359183673469389
+                }
+            ]
+        },
+        {
+            "column_name": "DominantWoodyPlants",
+            "number_non_empty_cells": 8532,
+            "number_empty_cells": 2344,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Deciduous",
+                "Mixed",
+                "Evergreen"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8532,
+                    "shortest_values": [
+                        "Mixed",
+                        "Deciduous",
+                        "Evergreen"
+                    ],
+                    "longest_values": [
+                        "Evergreen",
+                        "Deciduous",
+                        "Mixed"
+                    ],
+                    "average_length": 8.852789498359119
+                }
+            ]
+        },
+        {
+            "column_name": "VegetationUnder15Ft",
+            "number_non_empty_cells": 9841,
+            "number_empty_cells": 1035,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Hemicryptophytes",
+                "Phanerophytes",
+                "Lianas",
+                "Chamaephytes",
+                "Geophytes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9841,
+                    "shortest_values": [
+                        "Lianas",
+                        "Geophytes",
+                        "Therophytes",
+                        "Hydrophytes",
+                        "Chamaephytes"
+                    ],
+                    "longest_values": [
+                        "Therophytes/Hemicryptophytes",
+                        "hemicryptophytes",
+                        "Hemicryptophytes",
+                        "Phanerophytes",
+                        "Thallophytes"
+                    ],
+                    "average_length": 12.430342444873489
+                }
+            ]
+        },
+        {
+            "column_name": "Topography",
+            "number_non_empty_cells": 10269,
+            "number_empty_cells": 607,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Level",
+                "Slope",
+                "Undulating",
+                "Depression",
+                "Knoll"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10269,
+                    "shortest_values": [
+                        "Slope",
+                        "Level",
+                        "Knoll",
+                        "KNoll",
+                        "Undulating"
+                    ],
+                    "longest_values": [
+                        "Depression",
+                        "Undulating",
+                        "KNoll",
+                        "Knoll",
+                        "Level"
+                    ],
+                    "average_length": 6.059986366734833
+                }
+            ]
+        },
+        {
+            "column_name": "SoilCondition",
+            "number_non_empty_cells": 10245,
+            "number_empty_cells": 631,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Dry/Moist",
+                "Dry",
+                "Moist",
+                "Wet",
+                "Well drained"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10245,
+                    "shortest_values": [
+                        "Wet",
+                        "Dry",
+                        "Moist",
+                        "Dry/Moist",
+                        "Dry/moist"
+                    ],
+                    "longest_values": [
+                        "Surface Water",
+                        "Surface water",
+                        "well drained",
+                        "Well drained",
+                        "Dry/moist"
+                    ],
+                    "average_length": 6.30688140556369
+                }
+            ]
+        },
+        {
+            "column_name": "RecordedName1",
+            "number_non_empty_cells": 9722,
+            "number_empty_cells": 1154,
+            "number_distinct_values": 581,
+            "frequent_values": [
+                "Cool season grass",
+                "Mugwort",
+                "Cherry, black",
+                "Locust, black",
+                "Oak, pin"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9722,
+                    "shortest_values": [
+                        "CSG",
+                        "Fern",
+                        "Vine",
+                        "Rose",
+                        "Oaks"
+                    ],
+                    "longest_values": [
+                        "Hickory complex, multiple spp.",
+                        "eastern cottonwood (PODE3)",
+                        "Eupatorium hyssopifolium",
+                        "cool season grass (CSG)",
+                        "Toxicodendron radicans"
+                    ],
+                    "average_length": 11.313515737502572
+                }
+            ]
+        },
+        {
+            "column_name": "LatinName1",
+            "number_non_empty_cells": 9070,
+            "number_empty_cells": 1806,
+            "number_distinct_values": 276,
+            "frequent_values": [
+                "Quercus rubra",
+                "Prunus serotina",
+                "Robinia pseudoacacia",
+                "Quercus palustris",
+                "Artemisia vulgaris"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9070,
+                    "shortest_values": [
+                        "Rhus sp.",
+                        "Rosa sp.",
+                        "Malus sp.",
+                        "Rubus sp.",
+                        "Carex sp."
+                    ],
+                    "longest_values": [
+                        "Carpinus caroliniana ssp. virginiana",
+                        "Juniperus virginiana var. virginiana",
+                        "Toxicodendron radicans ssp. radicans",
+                        "Phytolacca americana var. americana",
+                        "Ageratina altissima var. altissima"
+                    ],
+                    "average_length": 17.0651598676957
+                }
+            ]
+        },
+        {
+            "column_name": "Height1",
+            "number_non_empty_cells": 9822,
+            "number_empty_cells": 1054,
+            "number_distinct_values": 42,
+            "frequent_values": [
+                "<5' & 5-30'",
+                "<5'",
+                ">30'",
+                "All",
+                ">30' & 5-30'"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 48,
+                    "max_value": 30,
+                    "min_value": 30,
+                    "mean": 30.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9774,
+                    "shortest_values": [
+                        "ALL",
+                        ">5m",
+                        "All",
+                        "<5'",
+                        "all"
+                    ],
+                    "longest_values": [
+                        ">30' & 5-30'",
+                        "M (5 - 30 fe",
+                        "S (< 5 feet)",
+                        "<5' & 5'-30'",
+                        ">30' & 5'-30"
+                    ],
+                    "average_length": 6.301309596889707
+                }
+            ]
+        },
+        {
+            "column_name": "NativeStatus1",
+            "number_non_empty_cells": 4718,
+            "number_empty_cells": 6158,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Exotic",
+                "Native"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4718,
+                    "shortest_values": [
+                        "Native",
+                        "Exotic"
+                    ],
+                    "longest_values": [
+                        "Exotic",
+                        "Native"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "RecordedName2",
+            "number_non_empty_cells": 8098,
+            "number_empty_cells": 2778,
+            "number_distinct_values": 707,
+            "frequent_values": [
+                "Cherry, black",
+                "Norway maple",
+                "Mugwort",
+                "Black cherry",
+                "Oak, pin"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8098,
+                    "shortest_values": [
+                        "Elm",
+                        "Ash",
+                        "Oak",
+                        "Mint",
+                        "Hops"
+                    ],
+                    "longest_values": [
+                        "Hickory complex, multiple spp.",
+                        "sweet pepperbush (CLAL3)",
+                        "Eupatorium hyssopifolium",
+                        "weeping willow (SASE10)",
+                        "Liquidambar styraciflua"
+                    ],
+                    "average_length": 11.30847122746357
+                }
+            ]
+        },
+        {
+            "column_name": "LatinName2",
+            "number_non_empty_cells": 7841,
+            "number_empty_cells": 3035,
+            "number_distinct_values": 336,
+            "frequent_values": [
+                "Prunus serotina",
+                "Acer platanoides",
+                "Quercus palustris",
+                "Quercus rubra",
+                "Artemisia vulgaris"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7841,
+                    "shortest_values": [
+                        "Ilex sp.",
+                        "Rosa sp.",
+                        "Rhus sp.",
+                        "Acer sp.",
+                        "Geum sp."
+                    ],
+                    "longest_values": [
+                        "Osmundastrum cinnamomeum var. cinnamomeum",
+                        "Symphyotrichum subulatum var. subulatum",
+                        "Amelanchier canadensis var. canadensis",
+                        "Toxicodendron radicans ssp. radicans",
+                        "Carpinus caroliniana ssp. virginiana"
+                    ],
+                    "average_length": 16.852442290524166
+                }
+            ]
+        },
+        {
+            "column_name": "Height2",
+            "number_non_empty_cells": 8185,
+            "number_empty_cells": 2691,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "<5' & 5-30'",
+                "<5'",
+                ">30'",
+                "5'-30'",
+                ">30' & 5-30'"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 35,
+                    "max_value": 30,
+                    "min_value": 30,
+                    "mean": 30.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8150,
+                    "shortest_values": [
+                        ">5",
+                        "<5m",
+                        "all",
+                        "<5'",
+                        "All"
+                    ],
+                    "longest_values": [
+                        "M (5 - 30 fe",
+                        ">30' & 5'-30",
+                        ">30' & 5-30'",
+                        "<5' & 5'-30'",
+                        "<5' & 5-30'"
+                    ],
+                    "average_length": 6.422208588957055
+                }
+            ]
+        },
+        {
+            "column_name": "NativeStatus2",
+            "number_non_empty_cells": 3863,
+            "number_empty_cells": 7013,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Exotic",
+                "Native",
+                "Some"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3863,
+                    "shortest_values": [
+                        "Some",
+                        "Native",
+                        "Exotic"
+                    ],
+                    "longest_values": [
+                        "Exotic",
+                        "Native",
+                        "Some"
+                    ],
+                    "average_length": 5.98757442402278
+                }
+            ]
+        },
+        {
+            "column_name": "RecordedName3",
+            "number_non_empty_cells": 6162,
+            "number_empty_cells": 4714,
+            "number_distinct_values": 661,
+            "frequent_values": [
+                "Cherry, black",
+                "Mugwort",
+                "Black cherry",
+                "Sassafras",
+                "Sweetgum"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6162,
+                    "shortest_values": [
+                        "Ash",
+                        "Oak",
+                        "Elm",
+                        "Rose",
+                        "Moss"
+                    ],
+                    "longest_values": [
+                        "Hickory complex, multiple spp.",
+                        "OtherSp. #1 - not on list",
+                        "Eupatorium hyssopifolium",
+                        "Nightshade, Bittersweet",
+                        "Toxicodendron radicans"
+                    ],
+                    "average_length": 11.327166504381694
+                }
+            ]
+        },
+        {
+            "column_name": "LatinName3",
+            "number_non_empty_cells": 5986,
+            "number_empty_cells": 4890,
+            "number_distinct_values": 331,
+            "frequent_values": [
+                "Prunus serotina",
+                "Artemisia vulgaris",
+                "Sassafras albidum",
+                "Quercus palustris",
+                "Quercus rubra"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5986,
+                    "shortest_values": [
+                        "Rhus sp.",
+                        "Rosa sp.",
+                        "Salix sp.",
+                        "Vitis sp.",
+                        "Acer spp."
+                    ],
+                    "longest_values": [
+                        "Osmundastrum cinnamomeum var. cinnamomeum",
+                        "Hydrophyllum virginianum var. virginianum",
+                        "Amelanchier canadensis var. canadensis",
+                        "Quercus marilandica var. marilandica",
+                        "Carpinus caroliniana ssp. virginiana"
+                    ],
+                    "average_length": 17.15302372201804
+                }
+            ]
+        },
+        {
+            "column_name": "Height3",
+            "number_non_empty_cells": 6252,
+            "number_empty_cells": 4624,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "<5' & 5-30'",
+                "<5'",
+                "5'-30'",
+                "<5m",
+                ">30'"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 30,
+                    "min_value": 30,
+                    "mean": 30.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6226,
+                    "shortest_values": [
+                        ">5m",
+                        "<5'",
+                        "<5m",
+                        "all",
+                        "30'"
+                    ],
+                    "longest_values": [
+                        ">30' & 5-30'",
+                        ">30' & 5'-30",
+                        "<5' & 5'-30'",
+                        "S (< 5 feet)",
+                        "> 30' & 5-30"
+                    ],
+                    "average_length": 6.2060713138451655
+                }
+            ]
+        },
+        {
+            "column_name": "NativeStatus3",
+            "number_non_empty_cells": 2703,
+            "number_empty_cells": 8173,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Exotic",
+                "Native"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2703,
+                    "shortest_values": [
+                        "Exotic",
+                        "Native"
+                    ],
+                    "longest_values": [
+                        "Native",
+                        "Exotic"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "RecordedName4",
+            "number_non_empty_cells": 4284,
+            "number_empty_cells": 6592,
+            "number_distinct_values": 603,
+            "frequent_values": [
+                "Cherry, black",
+                "Sassafras",
+                "Black cherry",
+                "Mugwort",
+                "Ailanthus"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4284,
+                    "shortest_values": [
+                        "Elm",
+                        "CSG",
+                        "Oak",
+                        "Ash",
+                        "Moss"
+                    ],
+                    "longest_values": [
+                        "Hickory complex, multiple spp.",
+                        "eastern cottonwood (PODE3)",
+                        "Eupatorium hyssopifolium",
+                        "Nightshade, enchanter's",
+                        "Toxicodendron radicans"
+                    ],
+                    "average_length": 11.660597572362278
+                }
+            ]
+        },
+        {
+            "column_name": "LatinName4",
+            "number_non_empty_cells": 4153,
+            "number_empty_cells": 6723,
+            "number_distinct_values": 300,
+            "frequent_values": [
+                "Prunus serotina",
+                "Quercus palustris",
+                "Sassafras albidum",
+                "Toxicodendron radicans ssp. radicans",
+                "Artemisia vulgaris"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4153,
+                    "shortest_values": [
+                        "Rosa sp.",
+                        "Rhus sp.",
+                        "Carex sp.",
+                        "Rubus sp.",
+                        "Ulmus sp."
+                    ],
+                    "longest_values": [
+                        "Hydrophyllum virginianum var. virginianum",
+                        "Osmundastrum cinnamomeum var. cinnamomeum",
+                        "Toxicodendron radicans ssp. radicans",
+                        "Quercus marilandica var. marilandica",
+                        "Maianthemum racemosum ssp. Racemosum"
+                    ],
+                    "average_length": 17.439682157476522
+                }
+            ]
+        },
+        {
+            "column_name": "Height4",
+            "number_non_empty_cells": 4358,
+            "number_empty_cells": 6518,
+            "number_distinct_values": 37,
+            "frequent_values": [
+                "<5'",
+                "<5' & 5-30'",
+                "5'-30'",
+                "<5m",
+                ">5m"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9,
+                    "max_value": 30,
+                    "min_value": 30,
+                    "mean": 30.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4349,
+                    "shortest_values": [
+                        "All",
+                        "<5'",
+                        ">5m",
+                        "<5m",
+                        "30'"
+                    ],
+                    "longest_values": [
+                        "S (< 5 feet)",
+                        ">30' & 5-30'",
+                        ">30' & 5'-30",
+                        "<5' & 5'-30'",
+                        "L (> 30 feet"
+                    ],
+                    "average_length": 6.029661991262359
+                }
+            ]
+        },
+        {
+            "column_name": "NativeStatus4",
+            "number_non_empty_cells": 1928,
+            "number_empty_cells": 8948,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Exotic",
+                "Native"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1928,
+                    "shortest_values": [
+                        "Exotic",
+                        "Native"
+                    ],
+                    "longest_values": [
+                        "Native",
+                        "Exotic"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "RecordedName5",
+            "number_non_empty_cells": 2858,
+            "number_empty_cells": 8018,
+            "number_distinct_values": 476,
+            "frequent_values": [
+                "Black cherry",
+                "Mugwort",
+                "Cherry, black",
+                "Sassafras",
+                "Goldenrod"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2858,
+                    "shortest_values": [
+                        "Ash",
+                        "Oak",
+                        "Elm",
+                        "Moss",
+                        "Pine"
+                    ],
+                    "longest_values": [
+                        "Hickory complex, multiple spp.",
+                        "Eupatorium hyssopifolium",
+                        "halbred leaved tearthum",
+                        "Nightshade, bittersweet",
+                        "Nightshade, enchanter's"
+                    ],
+                    "average_length": 11.709937018894331
+                }
+            ]
+        },
+        {
+            "column_name": "LatinName5",
+            "number_non_empty_cells": 2756,
+            "number_empty_cells": 8120,
+            "number_distinct_values": 256,
+            "frequent_values": [
+                "Prunus serotina",
+                "Artemisia vulgaris",
+                "Toxicodendron radicans ssp. radicans",
+                "Quercus palustris",
+                "Sassafras albidum"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2756,
+                    "shortest_values": [
+                        "Acer sp.",
+                        "Rhus sp.",
+                        "Rosa sp.",
+                        "Carex sp.",
+                        "Malus sp."
+                    ],
+                    "longest_values": [
+                        "Osmundastrum cinnamomeum var. cinnamomeum",
+                        "Tripsacum dactyloides var. dactyloides",
+                        "Toxicodendron radicans ssp. radicans",
+                        "Carpinus caroliniana ssp. virginiana",
+                        "Juniperus virginiana var. virginiana"
+                    ],
+                    "average_length": 17.7666908563135
+                }
+            ]
+        },
+        {
+            "column_name": "Height5",
+            "number_non_empty_cells": 2922,
+            "number_empty_cells": 7954,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "<5'",
+                "<5' & 5-30'",
+                "<5m",
+                "5'-30'",
+                ">5m"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 30,
+                    "min_value": 30,
+                    "mean": 30.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2920,
+                    "shortest_values": [
+                        "<5'",
+                        ">5'",
+                        "<5m",
+                        "All",
+                        ">5m"
+                    ],
+                    "longest_values": [
+                        "S (< 5 feet)",
+                        "M (5 - 30 fe",
+                        ">30' & 5-30'",
+                        "<5', 5-30',",
+                        "<5' & 5-30'"
+                    ],
+                    "average_length": 5.571917808219178
+                }
+            ]
+        },
+        {
+            "column_name": "NativeStatus5",
+            "number_non_empty_cells": 1235,
+            "number_empty_cells": 9641,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Exotic",
+                "Native"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1235,
+                    "shortest_values": [
+                        "Native",
+                        "Exotic"
+                    ],
+                    "longest_values": [
+                        "Exotic",
+                        "Native"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "RecordedName6",
+            "number_non_empty_cells": 1873,
+            "number_empty_cells": 9003,
+            "number_distinct_values": 399,
+            "frequent_values": [
+                "American sycamore",
+                "Cool season grass",
+                "Mugwort",
+                "Black cherry",
+                "Elm, American"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1873,
+                    "shortest_values": [
+                        "Ash",
+                        "Elm",
+                        "Yew",
+                        "Oak",
+                        "Rose"
+                    ],
+                    "longest_values": [
+                        "Hickory complex, multiple spp.",
+                        "weeping willow (SASE10)",
+                        "Toxicodendron radicans",
+                        "Baccharis halimifolia",
+                        "Celastris orbiculatis"
+                    ],
+                    "average_length": 11.8825413774693
+                }
+            ]
+        },
+        {
+            "column_name": "LatinName6",
+            "number_non_empty_cells": 1769,
+            "number_empty_cells": 9107,
+            "number_distinct_values": 228,
+            "frequent_values": [
+                "Toxicodendron radicans ssp. radicans",
+                "Prunus serotina",
+                "Celastrus orbiculatus",
+                "Platanus occidentalis",
+                "Ulmus americana"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1769,
+                    "shortest_values": [
+                        "Poa sp.",
+                        "Rosa sp.",
+                        "Rhus sp.",
+                        "Vinca sp.",
+                        "Typha sp."
+                    ],
+                    "longest_values": [
+                        "Hydrophyllum virginianum var. virginianum",
+                        "Maianthemum racemosum ssp. racemosum",
+                        "Toxicodendron radicans ssp. radicans",
+                        "Carpinus caroliniana ssp. virginiana",
+                        "Maianthemum racemosum ssp. Racemosum"
+                    ],
+                    "average_length": 18.37704918032787
+                }
+            ]
+        },
+        {
+            "column_name": "Height6",
+            "number_non_empty_cells": 1885,
+            "number_empty_cells": 8991,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "<5'",
+                "<5m",
+                ">5m",
+                "<5' & 5-30'",
+                "5'-30'"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 30,
+                    "min_value": 0,
+                    "mean": 20.0,
+                    "stddev": 14.142135623730951
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1882,
+                    "shortest_values": [
+                        "<5",
+                        ">30",
+                        "30'",
+                        "<5'",
+                        ">5m"
+                    ],
+                    "longest_values": [
+                        "<5' &  5-30'",
+                        ">30' & 5'-30",
+                        ">30' & 5-30'",
+                        "<5' & 5'- 30",
+                        "<5' & 5'-30'"
+                    ],
+                    "average_length": 5.125929861849096
+                }
+            ]
+        },
+        {
+            "column_name": "NativeStatus6",
+            "number_non_empty_cells": 617,
+            "number_empty_cells": 10259,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Exotic",
+                "Native"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 617,
+                    "shortest_values": [
+                        "Exotic",
+                        "Native"
+                    ],
+                    "longest_values": [
+                        "Native",
+                        "Exotic"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "RegeneratingSpp",
+            "number_non_empty_cells": 169,
+            "number_empty_cells": 10707,
+            "number_distinct_values": 72,
+            "frequent_values": [
+                "No",
+                "Yes",
+                "List",
+                "List, acru",
+                "Arvu, rhco"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 169,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "Litu",
+                        "Poal",
+                        "Sani"
+                    ],
+                    "longest_values": [
+                        "Qual, quru, saal",
+                        "Qupa, acru, smro",
+                        "Faam, quru, bele",
+                        "Qual, quru, list",
+                        "Qupa, acru, saal"
+                    ],
+                    "average_length": 7.65680473372781
+                }
+            ]
+        },
+        {
+            "column_name": "HistoricalIndicators1",
+            "number_non_empty_cells": 5150,
+            "number_empty_cells": 5726,
+            "number_distinct_values": 252,
+            "frequent_values": [
+                "Landfill",
+                "Road",
+                "Fence",
+                "Full-crown tree",
+                "Exotics"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5150,
+                    "shortest_values": [
+                        ".",
+                        "RR",
+                        "Vmp",
+                        "Pit",
+                        "Dump"
+                    ],
+                    "longest_values": [
+                        "Full-crown tree",
+                        "Full-Crown Tree",
+                        "Old water tower",
+                        "Service station",
+                        "Exotic Planting"
+                    ],
+                    "average_length": 8.244660194174758
+                }
+            ]
+        },
+        {
+            "column_name": "HistoricalIndicators2",
+            "number_non_empty_cells": 1755,
+            "number_empty_cells": 9121,
+            "number_distinct_values": 164,
+            "frequent_values": [
+                "Exotics",
+                "Fence",
+                "Landfill",
+                "Full-crown tree",
+                "Road"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1755,
+                    "shortest_values": [
+                        "Berm",
+                        "Pipe",
+                        "Home",
+                        "Pier",
+                        "Path"
+                    ],
+                    "longest_values": [
+                        "exotic planting",
+                        "Exotic planting",
+                        "abandoned trail",
+                        "Exotic Planting",
+                        "Full-crown tree"
+                    ],
+                    "average_length": 8.115099715099715
+                }
+            ]
+        },
+        {
+            "column_name": "HistoricalIndicators3",
+            "number_non_empty_cells": 671,
+            "number_empty_cells": 10205,
+            "number_distinct_values": 80,
+            "frequent_values": [
+                "Foot traffic",
+                "Sports",
+                "Exotics",
+                "Fence",
+                "Restoration"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 671,
+                    "shortest_values": [
+                        ".",
+                        "Berm",
+                        "Road",
+                        "Gate",
+                        "Party"
+                    ],
+                    "longest_values": [
+                        "Viewing Platform",
+                        "Campfire/ party",
+                        "Exotic Planting",
+                        "Full-crown tree",
+                        "Exotic planting"
+                    ],
+                    "average_length": 9.007451564828614
+                }
+            ]
+        },
+        {
+            "column_name": "CurrentUse1",
+            "number_non_empty_cells": 6163,
+            "number_empty_cells": 4713,
+            "number_distinct_values": 145,
+            "frequent_values": [
+                "Foot traffic",
+                "Sports",
+                "Vehicle access",
+                "Picnic",
+                "Campfire/ party"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6163,
+                    "shortest_values": [
+                        "Hut",
+                        "Dot",
+                        "Golf",
+                        "Dock",
+                        "Sewer"
+                    ],
+                    "longest_values": [
+                        "Bird Sancturary",
+                        "experiment plot",
+                        "Campfire/ party",
+                        "Composting area",
+                        "Maint. Building"
+                    ],
+                    "average_length": 11.128508843095895
+                }
+            ]
+        },
+        {
+            "column_name": "CurrentUse2",
+            "number_non_empty_cells": 2878,
+            "number_empty_cells": 7998,
+            "number_distinct_values": 112,
+            "frequent_values": [
+                "Foot traffic",
+                "Vehicle access",
+                "Picnic",
+                "Horses",
+                "Campfire/ party"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2878,
+                    "shortest_values": [
+                        "Dogs",
+                        "Golf",
+                        "drugs",
+                        "Bikes",
+                        "Drugs"
+                    ],
+                    "longest_values": [
+                        "Social Gatherin",
+                        "Campfire/ party",
+                        "Unmarked trails",
+                        "Golf cart build",
+                        "Seating arrange"
+                    ],
+                    "average_length": 10.164697706740792
+                }
+            ]
+        },
+        {
+            "column_name": "CurrentUse3",
+            "number_non_empty_cells": 1427,
+            "number_empty_cells": 9449,
+            "number_distinct_values": 79,
+            "frequent_values": [
+                "Campfire/ party",
+                "Foot traffic",
+                "Golf Carts",
+                "Vehicle access",
+                "Horses"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1427,
+                    "shortest_values": [
+                        ".",
+                        "Sex",
+                        "Fire",
+                        "Dogs",
+                        "Auto"
+                    ],
+                    "longest_values": [
+                        "Social Gatherin",
+                        "Soil compaction",
+                        "Campfire/ party",
+                        "Vehicle access",
+                        "3 Trail heads"
+                    ],
+                    "average_length": 10.311843027330063
+                }
+            ]
+        },
+        {
+            "column_name": "EnvironmentalDisturbance1",
+            "number_non_empty_cells": 6404,
+            "number_empty_cells": 4472,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "Trash",
+                "Dumping",
+                "Compaction",
+                "Fire",
+                "Erosion"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6404,
+                    "shortest_values": [
+                        "Hole",
+                        "Road",
+                        "Auto",
+                        "Fire",
+                        "Pits"
+                    ],
+                    "longest_values": [
+                        "Invasive control",
+                        "Other:hedge trim",
+                        "Soil compaction",
+                        "Standing water",
+                        "Clearing 2005"
+                    ],
+                    "average_length": 6.648032479700188
+                }
+            ]
+        },
+        {
+            "column_name": "EnvironmentalDisturbance2",
+            "number_non_empty_cells": 3808,
+            "number_empty_cells": 7068,
+            "number_distinct_values": 82,
+            "frequent_values": [
+                "Trash",
+                "Dumping",
+                "Erosion",
+                "Compaction",
+                "Vandalism"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3808,
+                    "shortest_values": [
+                        "Oil",
+                        "Rats",
+                        "Berm",
+                        "Auto",
+                        "Cars"
+                    ],
+                    "longest_values": [
+                        "Exotic treatment",
+                        "Illegal activity",
+                        "Illegal Activity",
+                        "Soil compaction",
+                        "Uprooted Trees"
+                    ],
+                    "average_length": 6.536764705882353
+                }
+            ]
+        },
+        {
+            "column_name": "EnvironmentalDisturbance3",
+            "number_non_empty_cells": 1544,
+            "number_empty_cells": 9332,
+            "number_distinct_values": 57,
+            "frequent_values": [
+                "Trash",
+                "Dumping",
+                "Vandalism",
+                "Compaction",
+                "Erosion"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1544,
+                    "shortest_values": [
+                        "Cars",
+                        "Fire",
+                        "Auto",
+                        "Drugs",
+                        "Trash"
+                    ],
+                    "longest_values": [
+                        "Soil Compaction",
+                        "Soil compaction",
+                        "Leaf dumping",
+                        "Oil in water",
+                        "Construction"
+                    ],
+                    "average_length": 6.841321243523316
+                }
+            ]
+        },
+        {
+            "column_name": "VegetationMaintenance",
+            "number_non_empty_cells": 2315,
+            "number_empty_cells": 8561,
+            "number_distinct_values": 53,
+            "frequent_values": [
+                "No",
+                "Not mowed/not pruned/not removed",
+                "Not mowed not pruned not removed",
+                "Yes",
+                "W/in last yr./pruned/removed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2315,
+                    "shortest_values": [
+                        "No",
+                        "no",
+                        "Yes",
+                        "Not pruned/removed",
+                        "Not mowed/not pruned"
+                    ],
+                    "longest_values": [
+                        "Not mowed not pruned not removed not mowed not pruned not removed",
+                        "W/in last 1yrs not pruned not removed",
+                        "W/in last yr. /not pruned/not removed",
+                        "W/in last yr. not pruned not removed",
+                        "Not mowed/not pruned/and not removed"
+                    ],
+                    "average_length": 17.867386609071275
+                }
+            ]
+        },
+        {
+            "column_name": "SpeciesChange",
+            "number_non_empty_cells": 1904,
+            "number_empty_cells": 8972,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "No",
+                "Yes",
+                "2",
+                "no",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 2,
+                    "min_value": 2,
+                    "mean": 2.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1878,
+                    "shortest_values": [
+                        "Y",
+                        "No",
+                        "no",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "no",
+                        "No",
+                        "Y"
+                    ],
+                    "average_length": 2.1123535676251333
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityChange",
+            "number_non_empty_cells": 826,
+            "number_empty_cells": 10050,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "No",
+                "Yes",
+                "2",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 2,
+                    "min_value": 1,
+                    "mean": 1.9615384615384615,
+                    "stddev": 0.1923076923076922
+                },
+                {
+                    "type": "TEXT",
+                    "count": 800,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.25
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "OBJECTID"
+    ]
+}

@@ -1,0 +1,629 @@
+{
+    "dataset_name": "ruce-cnp6",
+    "columns": [
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "NYPD",
+                "DSNY",
+                "FDNY",
+                "DOE",
+                "DOHMH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 23392,
+                    "shortest_values": [
+                        "DOP",
+                        "TLC",
+                        "DOT",
+                        "DPR",
+                        "EDC"
+                    ],
+                    "longest_values": [
+                        "3-1-1",
+                        "DOITT",
+                        "DORIS",
+                        "NYCHA",
+                        "DOHMH"
+                    ],
+                    "average_length": 3.636627906976744
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator ID",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4581,
+            "frequent_values": [
+                "1-1-03KKXTU",
+                "1-1-03KKXU4",
+                "2099",
+                "3124",
+                "8825"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22069,
+                    "max_value": 10707,
+                    "min_value": 96,
+                    "mean": 5572.4034618695905,
+                    "stddev": 3178.1431224979915
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1323,
+                    "shortest_values": [
+                        "1-4E6H",
+                        "1-BWJT",
+                        "1-BPDH",
+                        "1-BP7X",
+                        "1-E6YH"
+                    ],
+                    "longest_values": [
+                        "1-1-0CFRQSX",
+                        "1-1-00AKNPC",
+                        "1-1-0165K94",
+                        "1-1-00GY97O",
+                        "1-1-0AAF6EV"
+                    ],
+                    "average_length": 9.174603174603174
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator Name",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2127,
+            "frequent_values": [
+                "Letters responded to in 14 days (%)",
+                "Grand larceny auto",
+                "Murder and non-negligent manslaughter *",
+                "Forcible rape *",
+                "Crime related to domestic violence - Murder *"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 23392,
+                    "shortest_values": [
+                        " Rodent",
+                        "Escapes",
+                        "LifeNet",
+                        " Heating",
+                        " Smoking"
+                    ],
+                    "longest_values": [
+                        "Youth who are out-of-school, attend a DYCD-funded training or employment program, and are placed in post-secondary education, employment, or advanced training in the 1st quarter after exiting the program (%)",
+                        "Time to notify agencies of prospective childcare, home care and family care workers with criminal records after receipt from State Division of Criminal Justice Services and FBI (days)",
+                        "Youth who attend a training program while in school and are placed in post-secondary education, employment, or advanced training during the 1st quarter after exiting the program (%)",
+                        "Youth who are out-of-school, attend a DYCD-funded training or employment program, and attain a degree or certificate by the end of the 3rd quarter after exiting the program (%)",
+                        "Unsheltered individuals who are estimated to be living on the streets, in parks, under highways, on subways, and in the public transportation stations in New York City (HOPE) *"
+                    ],
+                    "average_length": 45.96195280437757
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator Sequence",
+            "number_non_empty_cells": 17149,
+            "number_empty_cells": 6243,
+            "number_distinct_values": 109,
+            "frequent_values": [
+                "0",
+                "2",
+                "4",
+                "1",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 17149,
+                    "max_value": 108,
+                    "min_value": 0,
+                    "mean": 22.049099072832234,
+                    "stddev": 21.139312346397254
+                }
+            ]
+        },
+        {
+            "column_name": "Sub-Indicator",
+            "number_non_empty_cells": 22069,
+            "number_empty_cells": 1323,
+            "number_distinct_values": 4079,
+            "frequent_values": [
+                "Letters responded to in 14 days (%)",
+                "E-mails responded to in 14 days (%)",
+                "CORE facility rating",
+                "Number of letters sent to an agency",
+                "Number of emails sent to an agency (through NYC.gov or a publicized agency email address)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22069,
+                    "shortest_values": [
+                        "Escapes",
+                        "Suicides",
+                        "Burglary",
+                        "Caseload",
+                        "Searches"
+                    ],
+                    "longest_values": [
+                        "Youth who are out-of-school, attend a DYCD-funded training or employment program, and are placed in post-secondary education, employment, or advanced training in the 1st quarter after exiting the prog",
+                        "Time to notify agencies of prospective childcare, home care and family care workers with criminal records after receipt from State Division of Criminal Justice Services and FBI (days)",
+                        "Youth who attend a training program while in school and are placed in post-secondary education, employment, or advanced training during the 1st quarter after exiting the program (%)",
+                        "Youth who are out-of-school, attend a DYCD-funded training or employment program, and attain a degree or certificate by the end of the 3rd quarter after exiting the program (%)",
+                        "Unsheltered individuals who are estimated to be living on the streets, in parks, under highways, on subways, and in the public transportation stations in New York City (HOPE) *"
+                    ],
+                    "average_length": 51.7767909737641
+                }
+            ]
+        },
+        {
+            "column_name": "Subindicator Sequence",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 137,
+            "frequent_values": [
+                "0",
+                "4",
+                "1",
+                "3",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 23392,
+                    "max_value": 503,
+                    "min_value": 0,
+                    "mean": 20.613372093023255,
+                    "stddev": 64.40682306056371
+                }
+            ]
+        },
+        {
+            "column_name": "Record Type",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "IND",
+                "CSv",
+                "INQ",
+                "SR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 23392,
+                    "shortest_values": [
+                        "SR",
+                        "INQ",
+                        "CSv",
+                        "IND"
+                    ],
+                    "longest_values": [
+                        "IND",
+                        "CSv",
+                        "INQ",
+                        "SR"
+                    ],
+                    "average_length": 2.9599435704514363
+                }
+            ]
+        },
+        {
+            "column_name": "Desired Direction",
+            "number_non_empty_cells": 22069,
+            "number_empty_cells": 1323,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Down",
+                "Neutral",
+                "Up"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22069,
+                    "shortest_values": [
+                        "Up",
+                        "Down",
+                        "Neutral"
+                    ],
+                    "longest_values": [
+                        "Neutral",
+                        "Down",
+                        "Up"
+                    ],
+                    "average_length": 4.358149440391499
+                }
+            ]
+        },
+        {
+            "column_name": "Critical Flag",
+            "number_non_empty_cells": 22069,
+            "number_empty_cells": 1323,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "N",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22069,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Geography",
+            "number_non_empty_cells": 22069,
+            "number_empty_cells": 1323,
+            "number_distinct_values": 173,
+            "frequent_values": [
+                "Citywide",
+                "Police Precinct 123",
+                "Police Precinct 114",
+                "Police Precinct 102",
+                "Police Precinct 113"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22069,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Citywide",
+                        "Brooklyn",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Community Board Staten Island 03",
+                        "Community Board Staten Island 01",
+                        "Community Board Staten Island 02",
+                        "Community Board Manhattan 09",
+                        "Community Board Manhattan 01"
+                    ],
+                    "average_length": 11.642983370338484
+                }
+            ]
+        },
+        {
+            "column_name": "Measure Type",
+            "number_non_empty_cells": 10760,
+            "number_empty_cells": 12632,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "PMMR",
+                "Target",
+                "Total",
+                "% of Inquiries",
+                "Rank"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10760,
+                    "shortest_values": [
+                        "Rank",
+                        "PMMR",
+                        "Total",
+                        "Target",
+                        "% of Inquiries"
+                    ],
+                    "longest_values": [
+                        "Actual Days to Action",
+                        "Target Days to Action",
+                        "% Meeting Target",
+                        "% of Inquiries",
+                        "Target"
+                    ],
+                    "average_length": 5.702416356877324
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2014",
+                "2015",
+                "2013",
+                "2012",
+                "2016"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 23392,
+                    "max_value": 2016,
+                    "min_value": 2012,
+                    "mean": 2013.844690492476,
+                    "stddev": 1.2261186675719804
+                }
+            ]
+        },
+        {
+            "column_name": "Conditional Format",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 23392,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Raw Value",
+            "number_non_empty_cells": 18411,
+            "number_empty_cells": 4981,
+            "number_distinct_values": 7765,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "100",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13488,
+                    "max_value": 424059400,
+                    "min_value": 0,
+                    "mean": 149094.30753262158,
+                    "stddev": 5484643.0118346065
+                },
+                {
+                    "type": "REAL",
+                    "count": 4923,
+                    "max_value": 1550455.97,
+                    "min_value": 0.0023,
+                    "mean": 1337.6125843096993,
+                    "stddev": 28694.47608693711
+                }
+            ]
+        },
+        {
+            "column_name": "Format Type",
+            "number_non_empty_cells": 23392,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "N",
+                "P",
+                "C",
+                "T",
+                "R"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 23392,
+                    "shortest_values": [
+                        "N",
+                        "C",
+                        "P",
+                        "T",
+                        "R"
+                    ],
+                    "longest_values": [
+                        "R",
+                        "T",
+                        "P",
+                        "C",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Value Percent",
+            "number_non_empty_cells": 4452,
+            "number_empty_cells": 18940,
+            "number_distinct_values": 764,
+            "frequent_values": [
+                "100",
+                "2014",
+                "90",
+                "95",
+                "98"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2638,
+                    "max_value": 2014,
+                    "min_value": 0,
+                    "mean": 141.42608036391206,
+                    "stddev": 365.5373266601253
+                },
+                {
+                    "type": "REAL",
+                    "count": 1814,
+                    "max_value": 133.5,
+                    "min_value": 0.1,
+                    "mean": 57.402458654906354,
+                    "stddev": 37.225840392968074
+                }
+            ]
+        },
+        {
+            "column_name": "Value Number",
+            "number_non_empty_cells": 13509,
+            "number_empty_cells": 9883,
+            "number_distinct_values": 5127,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "4",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11660,
+                    "max_value": 11631699,
+                    "min_value": 0,
+                    "mean": 36842.84425385935,
+                    "stddev": 333968.0325729211
+                },
+                {
+                    "type": "REAL",
+                    "count": 1849,
+                    "max_value": 66394.3,
+                    "min_value": 0.01,
+                    "mean": 174.29198485667925,
+                    "stddev": 2668.6882501900704
+                }
+            ]
+        },
+        {
+            "column_name": "Value Currency",
+            "number_non_empty_cells": 437,
+            "number_empty_cells": 22955,
+            "number_distinct_values": 406,
+            "frequent_values": [
+                "0.00",
+                "11.00",
+                "4500.00",
+                "514.00",
+                "580.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 437,
+                    "max_value": 424059400.0,
+                    "min_value": 0.0,
+                    "mean": 3613337.136933638,
+                    "stddev": 30217061.379203413
+                }
+            ]
+        },
+        {
+            "column_name": "Value Time",
+            "number_non_empty_cells": 244,
+            "number_empty_cells": 23148,
+            "number_distinct_values": 168,
+            "frequent_values": [
+                "1:00",
+                "10:00",
+                "7",
+                "12",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 244,
+                    "max_value": "1900-01-01 19:00:00",
+                    "min_value": "1900-01-01 00:12:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Value Ratio",
+            "number_non_empty_cells": 9,
+            "number_empty_cells": 23383,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "3:1",
+                "17:1",
+                "17:0"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 9,
+                    "max_value": "1900-01-01 17:01:00",
+                    "min_value": "1900-01-01 03:01:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Service Sequence",
+            "number_non_empty_cells": 20888,
+            "number_empty_cells": 2504,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20888,
+                    "max_value": 8,
+                    "min_value": 1,
+                    "mean": 2.158224818077365,
+                    "stddev": 1.6196098621948192
+                }
+            ]
+        },
+        {
+            "column_name": "Goal Sequence",
+            "number_non_empty_cells": 20888,
+            "number_empty_cells": 2504,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "1a",
+                "2a",
+                "1b",
+                "3a",
+                "4a"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20888,
+                    "shortest_values": [
+                        "2c",
+                        "6b",
+                        "3c",
+                        "7c",
+                        "8a"
+                    ],
+                    "longest_values": [
+                        "7d",
+                        "5b",
+                        "4a",
+                        "2b",
+                        "1a"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Agency",
+        "Indicator ID"
+    ]
+}

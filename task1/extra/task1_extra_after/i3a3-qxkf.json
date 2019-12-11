@@ -1,0 +1,120 @@
+{
+    "dataset_name": "i3a3-qxkf",
+    "columns": [
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 5901,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "4",
+                "1",
+                "2",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5901,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.744619556007456,
+                    "stddev": 1.2035746953404134
+                }
+            ]
+        },
+        {
+            "column_name": "SITE_NUMBER",
+            "number_non_empty_cells": 5901,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1231,
+            "frequent_values": [
+                "M0082",
+                "X0203",
+                "10176",
+                "M0018",
+                "10569"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2151,
+                    "max_value": 11780,
+                    "min_value": 1,
+                    "mean": 10216.454207345421,
+                    "stddev": 2817.234588519398
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3750,
+                    "shortest_values": [
+                        "S0055",
+                        "M0173",
+                        "Q0233",
+                        "Q0266",
+                        "B0057"
+                    ],
+                    "longest_values": [
+                        "M0178",
+                        "B0071",
+                        "Q0050",
+                        "B0216",
+                        "X0020"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "AD",
+            "number_non_empty_cells": 5901,
+            "number_empty_cells": 0,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "52",
+                "82",
+                "68",
+                "75",
+                "69"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5901,
+                    "max_value": 87,
+                    "min_value": 23,
+                    "mean": 56.29367903745128,
+                    "stddev": 18.564342618292866
+                }
+            ]
+        },
+        {
+            "column_name": "ED",
+            "number_non_empty_cells": 5901,
+            "number_empty_cells": 0,
+            "number_distinct_values": 126,
+            "frequent_values": [
+                "22",
+                "52",
+                "50",
+                "51",
+                "56"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5901,
+                    "max_value": 126,
+                    "min_value": 1,
+                    "mean": 47.09506863243518,
+                    "stddev": 28.215471034707537
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "BOROUGH",
+        "SITE_NUMBER"
+    ]
+}

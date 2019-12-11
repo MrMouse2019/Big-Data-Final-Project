@@ -1,0 +1,88 @@
+{
+    "dataset_name": "3fes-huds",
+    "columns": [
+        {
+            "column_name": "Request Type",
+            "number_non_empty_cells": 38,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "Other",
+                "Unsanitary Conditions",
+                "Pest Control",
+                "Staten Island Ferry Complaints",
+                "Storm Water Drainage"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 38,
+                    "shortest_values": [
+                        "Mold",
+                        "Other",
+                        "Weeds",
+                        "Litter",
+                        "Pothole"
+                    ],
+                    "longest_values": [
+                        "Staten Island Ferry Complaints",
+                        "Private Bus Company Complaint",
+                        "Unsafe Building Conditions",
+                        "Unauthorized Construction",
+                        "Garbage/Recycling Pickup"
+                    ],
+                    "average_length": 15.105263157894736
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Complaints FY 18 (7/1/2017-6/30/2018)",
+            "number_non_empty_cells": 38,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "5",
+                "1",
+                "9",
+                "2",
+                "24"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 38,
+                    "max_value": 116,
+                    "min_value": 0,
+                    "mean": 16.289473684210527,
+                    "stddev": 24.44425225168576
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Complaints FY 19 (7/1/2018-6/30/2019)",
+            "number_non_empty_cells": 38,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "11",
+                "7",
+                "3",
+                "9",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 38,
+                    "max_value": 185,
+                    "min_value": 0,
+                    "mean": 22.86842105263158,
+                    "stddev": 31.92109602114463
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Request Type"
+    ]
+}

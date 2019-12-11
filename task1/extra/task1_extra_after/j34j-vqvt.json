@@ -1,0 +1,155 @@
+{
+    "dataset_name": "j34j-vqvt",
+    "columns": [
+        {
+            "column_name": "YEARMONTH",
+            "number_non_empty_cells": 4368,
+            "number_empty_cells": 0,
+            "number_distinct_values": 104,
+            "frequent_values": [
+                "2013/11",
+                "2012/02",
+                "2014/09",
+                "2014/08",
+                "2014/07"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4368,
+                    "shortest_values": [
+                        "2009/07",
+                        "2015/10",
+                        "2015/09",
+                        "2015/08",
+                        "2015/07"
+                    ],
+                    "longest_values": [
+                        "FY 2017",
+                        "FY 2016",
+                        "2011/10",
+                        "2011/11",
+                        "2011/12"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENTCLASSIFICATION",
+            "number_non_empty_cells": 4368,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "NonStructural Fires",
+                "All Fire/Emergency Incidents",
+                "False Alarm",
+                "Medical Emergencies",
+                "Structural Fires"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4368,
+                    "shortest_values": [
+                        "False Alarm",
+                        "Structural Fires",
+                        "Medical Emergencies",
+                        "Medical False Alarm",
+                        "NonStructural Fires"
+                    ],
+                    "longest_values": [
+                        "All Fire/Emergency Incidents",
+                        "NonMedical Emergencies",
+                        "NonStructural Fires",
+                        "Medical False Alarm",
+                        "Medical Emergencies"
+                    ],
+                    "average_length": 19.142857142857142
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENTBOROUGH",
+            "number_non_empty_cells": 4368,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Staten Island",
+                "Bronx",
+                "Citywide"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4368,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Citywide",
+                        "Brooklyn",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Citywide",
+                        "Queens"
+                    ],
+                    "average_length": 8.166666666666666
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENTCOUNT",
+            "number_non_empty_cells": 4368,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2755,
+            "frequent_values": [
+                "58",
+                "103",
+                "66",
+                "67",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4368,
+                    "max_value": 585368,
+                    "min_value": 2,
+                    "mean": 7659.10989010989,
+                    "stddev": 29558.044576713877
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGERESPONSETIME",
+            "number_non_empty_cells": 4368,
+            "number_empty_cells": 0,
+            "number_distinct_values": 162,
+            "frequent_values": [
+                "04:38",
+                "04:31",
+                "04:37",
+                "04:20",
+                "04:32"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4368,
+                    "max_value": "1900-01-01 07:06:00",
+                    "min_value": "1900-01-01 03:16:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "YEARMONTH",
+        "INCIDENTCLASSIFICATION"
+    ]
+}

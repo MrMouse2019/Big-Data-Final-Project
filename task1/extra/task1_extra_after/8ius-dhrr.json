@@ -1,0 +1,203 @@
+{
+    "dataset_name": "8ius-dhrr",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Manhattan",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2168,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.302583025830258
+                }
+            ]
+        },
+        {
+            "column_name": "2010 Census Bureau FIPS County Code",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "47",
+                "81",
+                "5",
+                "61",
+                "85"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2168,
+                    "max_value": 85,
+                    "min_value": 5,
+                    "mean": 54.72970479704797,
+                    "stddev": 25.93774130293701
+                }
+            ]
+        },
+        {
+            "column_name": "2010 NYC Borough Code",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "4",
+                "2",
+                "1",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2168,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.988929889298893,
+                    "stddev": 1.0958943670441794
+                }
+            ]
+        },
+        {
+            "column_name": "2010 Census Tract",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1335,
+            "frequent_values": [
+                "3300",
+                "15100",
+                "25100",
+                "13800",
+                "3900"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2168,
+                    "max_value": 990100,
+                    "min_value": 100,
+                    "mean": 42625.6914206642,
+                    "stddev": 49137.586963882335
+                }
+            ]
+        },
+        {
+            "column_name": "PUMA",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "4009",
+                "4112",
+                "4105",
+                "4110",
+                "4103"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2168,
+                    "max_value": 4114,
+                    "min_value": 3701,
+                    "mean": 3959.696033210332,
+                    "stddev": 145.0757860954122
+                }
+            ]
+        },
+        {
+            "column_name": "Neighborhood Tabulation Area (NTA)Code",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "BK50",
+                "BK31",
+                "BK88",
+                "BK82",
+                "BK61"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2168,
+                    "shortest_values": [
+                        "BX31",
+                        "QN10",
+                        "QN35",
+                        "QN33",
+                        "QN23"
+                    ],
+                    "longest_values": [
+                        "SI07",
+                        "BK78",
+                        "BK44",
+                        "BK41",
+                        "BK25"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Neighborhood Tabulation Area (NTA) Name",
+            "number_non_empty_cells": 2168,
+            "number_empty_cells": 0,
+            "number_distinct_values": 195,
+            "frequent_values": [
+                "Canarsie",
+                "Borough Park",
+                "Bay Ridge",
+                "Flatlands",
+                "East New York"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2168,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Jamaica",
+                        "Astoria",
+                        "Norwood"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 18.512915129151292
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "2010 Census Bureau FIPS County Code"
+    ]
+}

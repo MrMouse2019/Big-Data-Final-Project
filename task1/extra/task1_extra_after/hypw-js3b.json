@@ -1,0 +1,1985 @@
+{
+    "dataset_name": "hypw-js3b",
+    "columns": [
+        {
+            "column_name": "Record Number",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 11531,
+            "frequent_values": [
+                "2791452",
+                "3584061",
+                "2809523",
+                "4038908",
+                "2977466"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11531,
+                    "max_value": 5053345,
+                    "min_value": 7365,
+                    "mean": 3440970.1724915444,
+                    "stddev": 850055.187577632
+                }
+            ]
+        },
+        {
+            "column_name": "Order",
+            "number_non_empty_cells": 13223,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13223,
+            "frequent_values": [
+                "7443",
+                "12911",
+                "9004",
+                "12438",
+                "7022"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13223,
+                    "max_value": 13223,
+                    "min_value": 1,
+                    "mean": 6612.0,
+                    "stddev": 3817.1512938315664
+                }
+            ]
+        },
+        {
+            "column_name": "NYC Borough, Block and Lot (BBL)",
+            "number_non_empty_cells": 13222,
+            "number_empty_cells": 1,
+            "number_distinct_values": 13222,
+            "frequent_values": [
+                "1004840024",
+                "2026030001",
+                "1002320001",
+                "1008380048",
+                "1012460049"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13222,
+                    "max_value": 5080080134,
+                    "min_value": 1000047501,
+                    "mean": 2198121493.996748,
+                    "stddev": 1218293964.89215
+                }
+            ]
+        },
+        {
+            "column_name": "Co-reported BBL Status",
+            "number_non_empty_cells": 615,
+            "number_empty_cells": 12608,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Secondary ",
+                "Primary",
+                "Secondary"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 615,
+                    "shortest_values": [
+                        "Primary",
+                        "Secondary",
+                        "Secondary "
+                    ],
+                    "longest_values": [
+                        "Secondary ",
+                        "Secondary",
+                        "Primary"
+                    ],
+                    "average_length": 9.120325203252033
+                }
+            ]
+        },
+        {
+            "column_name": "BBLs Co-reported",
+            "number_non_empty_cells": 615,
+            "number_empty_cells": 12608,
+            "number_distinct_values": 169,
+            "frequent_values": [
+                "3017940054;3017940119;3017940121;3017940139;3018020044;3018020051;3018030011;3018030027;3018030042;3018080161;3018080174;3017940011;3017940112;3017940113;3017940114;3017940115;3017940116;3017940117;3017940118;3017940120;3018020043;3018030112;3018030113;30",
+                "1020070043;1020070045;1020090044;1020090063;1020090064;1020110001;1020110011;1020110013;1020110014;1020110015;1020110022;1020110031;1020110033;1020110061;1020110063;1020120001;1020120003;1020120006;1020120008;1020120011;1020120014;1020120015;1020120018;10",
+                "3030800010;3030800020;3030800040;3030800050;3030800070;3030890134;3030960001;3030960030;3031050001;3031050109;3030960014",
+                "3043550001;3043760001;3043770001;3043710001;3043750001;3043930001;3043970001;3043750050;3043760050",
+                "2024270003;2024270007;2024270010;2024270012;2024280003;2024280012;2024340053;2024340057;2024340088"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 615,
+                    "shortest_values": [
+                        "3070470014;3070480015",
+                        "3015280033;3015290001",
+                        "3003920001;3004040001",
+                        "1012840026;1012840033",
+                        "3002320001;3002380035"
+                    ],
+                    "longest_values": [
+                        "1020070043;1020070045;1020090044;1020090063;1020090064;1020110001;1020110011;1020110013;1020110014;1020110015;1020110022;1020110031;1020110033;1020110061;1020110063;1020120001;1020120003;1020120006;1020120008;1020120011;1020120014;1020120015;1020120018;10",
+                        "3017940054;3017940119;3017940121;3017940139;3018020044;3018020051;3018030011;3018030027;3018030042;3018080161;3018080174;3017940011;3017940112;3017940113;3017940114;3017940115;3017940116;3017940117;3017940118;3017940120;3018020043;3018030112;3018030113;30",
+                        "3030800010;3030800020;3030800040;3030800050;3030800070;3030890134;3030960001;3030960030;3031050001;3031050109;3030960014",
+                        "3043550001;3043760001;3043770001;3043710001;3043750001;3043930001;3043970001;3043750050;3043760050",
+                        "2024270003;2024270007;2024270010;2024270012;2024280003;2024280012;2024340053;2024340057;2024340088"
+                    ],
+                    "average_length": 74.55772357723578
+                }
+            ]
+        },
+        {
+            "column_name": "Reported NYC Building Identification Numbers (BINs)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 11385,
+            "frequent_values": [
+                "See Primary BBL",
+                "Not Available",
+                "4464148",
+                "2007237",
+                "1032045"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10142,
+                    "max_value": 44373694053098,
+                    "min_value": 101170,
+                    "mean": 4377412342.644745,
+                    "stddev": 440597824632.9803
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1836,
+                    "shortest_values": [
+                        "4098466:",
+                        "3014856\u00a0",
+                        "1089376\u00a0",
+                        "3322526\u00a0",
+                        "3154979\u00a0"
+                    ],
+                    "longest_values": [
+                        "4447037;4461281;4461282;4461283;4461284;4461285;4461286;4461287;4461288;4461289;4461290;4461291;4461292;4461293;4461294;4461295;4461296;4461297;4461298;4461299;4461300;4461301;4461302;4461303;4461304;4461305;4461306;4461307;4461308;4461309;4461310;4461311",
+                        "2096599; 2096667; 2096670; 2096673; 2096675; 2096677; 2096679; 2096681; 2096683; 2096684; 2096687; 2096689; 2096691; 2096692; 2096694; 2096697; 2096699; 2096700; 2096701; 2096702; 2096703; 2096704; 2096705; 2096706; 2096707; 2096710; 2096712; 2096715; 209",
+                        "4460587;4460579;4460567;4460563;4460580;4460543;4434591;4460520;4434587;4442898;4460562;4460564;4460551;4460586;4460576;4460561;4460534;4460540;4434588;4460525;4434590;4460583;4460537;4460527;4460558;4460566;4460572;4460577;4460524;4442897;4460522;4460555",
+                        "4447676;4447677;4447678;4451198;4451199;4451200;4451201;4451202;4451203;4451204;4451205;4451206;4451207;4451208;4451209;4451210;4451211;4451212;4451213;4451214;4451215;4451216;4451217;4447666;4447668;4447669;4447670;4447671;4447672;4447673;4447674;4447675",
+                        "4530506;4530585;4530581;4530569;4530566;4530567;4530563;4530584;4530596;4530591;4530508;4530509;4530524;4530617;4530558;4530541;4530542;4530548;4530543;4530544;4530530;4530616;4530588;4530602;4530601;4530531;4530540;4530590;4530589;4530532;4530546;4530545"
+                    ],
+                    "average_length": 36.87690631808279
+                }
+            ]
+        },
+        {
+            "column_name": "Property Name",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 11522,
+            "frequent_values": [
+                "Club Quarters",
+                "Hamilton Heights",
+                "Holliswood",
+                "Bruckner",
+                "Clinton West Condominium"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 32,
+                    "max_value": 18501860,
+                    "min_value": 114,
+                    "mean": 580173.90625,
+                    "stddev": 3218830.6527016466
+                },
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 3.45e+66,
+                    "min_value": 3.83e+19,
+                    "mean": 1.1499999999999998e+66,
+                    "stddev": 1.6263455967290593e+66
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11496,
+                    "shortest_values": [
+                        "KJ",
+                        "LCT",
+                        "KBI",
+                        "E61",
+                        "BRP"
+                    ],
+                    "longest_values": [
+                        "Parish - New York Province of the Society of Jesus - 39 and 53 East 83rd Street",
+                        "Parish - The Basillica Of Our Lady Of Perpetual Help - 526 59th Street",
+                        "144-45 87th Avenue (Silvercrest Center for Nursing and Rehabilitation)",
+                        "417 + 423 + 431 Hicks Street / 140 Warren Street / 129 Baltic Street",
+                        "SW - 46-01 \u2013 46-31 Skillman Avenue; 39-77 \u2013 39-94 47th\u00a0Street"
+                    ],
+                    "average_length": 22.728688239387612
+                }
+            ]
+        },
+        {
+            "column_name": "Parent Property Id",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 107,
+            "frequent_values": [
+                "Not Applicable: Standalone Property",
+                "3616399",
+                "3612678",
+                "3614737",
+                "3616164"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 201,
+                    "max_value": 5049377,
+                    "min_value": 28400,
+                    "mean": 3879923.2935323385,
+                    "stddev": 892036.2130531125
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11330,
+                    "shortest_values": [
+                        "Not Applicable: Standalone Property"
+                    ],
+                    "longest_values": [
+                        "Not Applicable: Standalone Property"
+                    ],
+                    "average_length": 35.0
+                }
+            ]
+        },
+        {
+            "column_name": "Parent Property Name",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 107,
+            "frequent_values": [
+                "Not Applicable: Standalone Property",
+                "New York University: Washington Square",
+                "Columbia University (morningside)",
+                "Columbia University Medical Center",
+                "Penn South"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11531,
+                    "shortest_values": [
+                        "MHMH6",
+                        "MHIR1",
+                        "Isabella",
+                        "MCKINLEY",
+                        "1 hoyt st"
+                    ],
+                    "longest_values": [
+                        "UNITY PLAZA (ALL SITES)/LONG ISLAND BAPTIST HOUSES CAMPUS",
+                        "RIIS/RIIS II/WALD/BARUCH/BARUCH HOUSES ADDITION CAMPUS",
+                        "Community Management: 3465/3461 Amboy Road (Parent)",
+                        "BROWNSVILLE/VAN DYKE I/VAN DYKE II/WOODSON CAMPUS",
+                        "QUEENSBRIDGE NORTH/QUEENSBRIDGE SOUTH CAMPUS"
+                    ],
+                    "average_length": 34.90035556326424
+                }
+            ]
+        },
+        {
+            "column_name": "Street Number",
+            "number_non_empty_cells": 10380,
+            "number_empty_cells": 2843,
+            "number_distinct_values": 2633,
+            "frequent_values": [
+                "1",
+                "100",
+                "200",
+                "2",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10380,
+                    "max_value": 76179,
+                    "min_value": 0,
+                    "mean": 996.288246628131,
+                    "stddev": 1550.6877454748605
+                }
+            ]
+        },
+        {
+            "column_name": "Street Name",
+            "number_non_empty_cells": 13223,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2274,
+            "frequent_values": [
+                "Not Available",
+                "BROADWAY            ",
+                "   5 AVENUE         ",
+                "PARK AVENUE         ",
+                "   3 AVENUE         "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13223,
+                    "shortest_values": [
+                        "AVENUE M",
+                        "3 AVENUE",
+                        "7 AVENUE",
+                        "BROADWAY",
+                        "39 AVENUE"
+                    ],
+                    "longest_values": [
+                        "HUTCHINSON RIVER PKWY SR",
+                        "FRANCIS LEWIS BOULEVARD",
+                        "AVENUE OF THE AMERICAS",
+                        "EAST  152 STREET    ",
+                        "TELLER AVENUE       "
+                    ],
+                    "average_length": 19.60863646676246
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 12627,
+            "number_empty_cells": 596,
+            "number_distinct_values": 192,
+            "frequent_values": [
+                "10022",
+                "10025",
+                "10016",
+                "10001",
+                "10019"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12627,
+                    "max_value": 11694,
+                    "min_value": 0,
+                    "mean": 10569.869010849767,
+                    "stddev": 645.801167515351
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 13223,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Not Available"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13223,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Brooklyn "
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Not Available",
+                        "Manhattan ",
+                        "Brooklyn ",
+                        "Manhattan"
+                    ],
+                    "average_length": 7.852454057324359
+                }
+            ]
+        },
+        {
+            "column_name": "DOF Benchmarking Submission Status",
+            "number_non_empty_cells": 13223,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "In Compliance",
+                "In Violation",
+                "Not on CBL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13223,
+                    "shortest_values": [
+                        "Not on CBL",
+                        "In Violation",
+                        "In Compliance"
+                    ],
+                    "longest_values": [
+                        "In Compliance",
+                        "In Violation",
+                        "Not on CBL"
+                    ],
+                    "average_length": 12.85684035392876
+                }
+            ]
+        },
+        {
+            "column_name": "Primary Property Type - Self Selected",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 53,
+            "frequent_values": [
+                "Multifamily Housing",
+                "Office",
+                "See Primary BBL",
+                "Hotel",
+                "Non-Refrigerated Warehouse"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Hotel",
+                        "Other",
+                        "Office",
+                        "Museum",
+                        "Library"
+                    ],
+                    "longest_values": [
+                        "Personal Services (Health/Beauty, Dry Cleaning, etc.)",
+                        "Repair Services (Vehicle, Shoe, Locksmith, etc.)",
+                        "Outpatient Rehabilitation/Physical Therapy",
+                        "Other - Entertainment/Public Assembly",
+                        "Hospital (General Medical & Surgical)"
+                    ],
+                    "average_length": 17.23701786608783
+                }
+            ]
+        },
+        {
+            "column_name": "List of All Property Use Types at Property",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 791,
+            "frequent_values": [
+                "Multifamily Housing",
+                "Office",
+                "See Primary BBL",
+                "Multifamily Housing, Parking",
+                "Multifamily Housing, Retail Store"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Hotel",
+                        "Other",
+                        "Museum",
+                        "Office",
+                        "Parking"
+                    ],
+                    "longest_values": [
+                        "Financial Office, Medical Office, Multifamily Housing, Non-Refrigerated Warehouse, Office, Other, Other - Entertainment/Public Assembly, Other - Public Services, Other - Recreation, Other - Services, Parking, Restaurant, Retail Store, Social/Meeting Hall,",
+                        "Bank Branch, Fast Food Restaurant, Office, Other, Other - Entertainment/Public Assembly, Other - Mall, Other - Recreation, Restaurant, Retail Store, Supermarket/Grocery Store",
+                        "Bank Branch, Fast Food Restaurant, Food Sales, Other - Education, Personal Services (Health/Beauty, Dry Cleaning, etc.), Restaurant, Retail Store, Supermarket/Grocery Store",
+                        "Bank Branch, Food Service, Office, Other, Other - Public Services, Other - Recreation, Other - Services, Parking, Restaurant, Retail Store, Supermarket/Grocery Store",
+                        "Bank Branch, Office, Other, Other - Entertainment/Public Assembly, Other - Mall, Outpatient Rehabilitation/Physical Therapy, Parking, Restaurant, Retail Store"
+                    ],
+                    "average_length": 24.155869093337785
+                }
+            ]
+        },
+        {
+            "column_name": "Largest Property Use Type",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "Multifamily Housing",
+                "Office",
+                "See Primary BBL",
+                "Hotel",
+                "Non-Refrigerated Warehouse"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Hotel",
+                        "Other",
+                        "Museum",
+                        "Office",
+                        "Parking"
+                    ],
+                    "longest_values": [
+                        "Personal Services (Health/Beauty, Dry Cleaning, etc.)",
+                        "Repair Services (Vehicle, Shoe, Locksmith, etc.)",
+                        "Outpatient Rehabilitation/Physical Therapy",
+                        "Hospital (General Medical & Surgical)",
+                        "Other - Entertainment/Public Assembly"
+                    ],
+                    "average_length": 17.19811320754717
+                }
+            ]
+        },
+        {
+            "column_name": "Largest Property Use Type - Gross Floor Area (ft\u00b2)",
+            "number_non_empty_cells": 11527,
+            "number_empty_cells": 1696,
+            "number_distinct_values": 9355,
+            "frequent_values": [
+                "60000",
+                "70000",
+                "72000",
+                "75000",
+                "63000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11491,
+                    "max_value": 6940450,
+                    "min_value": 58,
+                    "mean": 162955.5655730572,
+                    "stddev": 254560.4400488569
+                },
+                {
+                    "type": "REAL",
+                    "count": 36,
+                    "max_value": 2935266.8,
+                    "min_value": 41431.5,
+                    "mean": 532734.0916666667,
+                    "stddev": 567857.8295890604
+                }
+            ]
+        },
+        {
+            "column_name": "2nd Largest Property Use Type",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 56,
+            "frequent_values": [
+                "Not Available",
+                "Retail Store",
+                "Parking",
+                "See Primary BBL",
+                "Other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Other",
+                        "Hotel",
+                        "Museum",
+                        "Office",
+                        "Parking"
+                    ],
+                    "longest_values": [
+                        "Outpatient Rehabilitation/Physical Therapy",
+                        "Convenience Store without Gas Station",
+                        "Hospital (General Medical & Surgical)",
+                        "Other - Entertainment/Public Assembly",
+                        "Urgent Care/Clinic/Other Outpatient"
+                    ],
+                    "average_length": 12.482050425780598
+                }
+            ]
+        },
+        {
+            "column_name": "2nd Largest Property Use - Gross Floor Area (ft\u00b2)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 2231,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "0",
+                "5000",
+                "10000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3736,
+                    "max_value": 962428,
+                    "min_value": 0,
+                    "mean": 21934.536402569593,
+                    "stddev": 52645.765164880686
+                },
+                {
+                    "type": "REAL",
+                    "count": 14,
+                    "max_value": 523386.1,
+                    "min_value": 3953.7,
+                    "mean": 138472.65714285715,
+                    "stddev": 172140.26772366985
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8228,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.108653378706855
+                }
+            ]
+        },
+        {
+            "column_name": "3rd Largest Property Use Type",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "Retail Store",
+                "Other",
+                "Parking"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Other",
+                        "Hotel",
+                        "Office",
+                        "Parking",
+                        "Library"
+                    ],
+                    "longest_values": [
+                        "Personal Services (Health/Beauty, Dry Cleaning, etc.)",
+                        "Outpatient Rehabilitation/Physical Therapy",
+                        "Convenience Store without Gas Station",
+                        "Hospital (General Medical & Surgical)",
+                        "Other - Entertainment/Public Assembly"
+                    ],
+                    "average_length": 12.917098013023876
+                }
+            ]
+        },
+        {
+            "column_name": "3rd Largest Property Use Type - Gross Floor Area (ft\u00b2)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 977,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "0",
+                "1000",
+                "2000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1494,
+                    "max_value": 591640,
+                    "min_value": 0,
+                    "mean": 11631.550200803213,
+                    "stddev": 26511.482418023472
+                },
+                {
+                    "type": "REAL",
+                    "count": 6,
+                    "max_value": 29625.6,
+                    "min_value": 3293.4,
+                    "mean": 13184.383333333333,
+                    "stddev": 8325.282949829527
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10478,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.085321626264554
+                }
+            ]
+        },
+        {
+            "column_name": "Year Built",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 154,
+            "frequent_values": [
+                "1928",
+                "1927",
+                "1929",
+                "1930",
+                "1931"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11531,
+                    "max_value": 2019,
+                    "min_value": 1600,
+                    "mean": 1949.1428323649293,
+                    "stddev": 30.262325117040362
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Buildings - Self-reported",
+            "number_non_empty_cells": 11526,
+            "number_empty_cells": 1697,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11526,
+                    "max_value": 161,
+                    "min_value": 0,
+                    "mean": 1.3878188443519,
+                    "stddev": 3.631571150357215
+                }
+            ]
+        },
+        {
+            "column_name": "Occupancy",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "100",
+                "95",
+                "90",
+                "80",
+                "85"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11531,
+                    "max_value": 100,
+                    "min_value": 0,
+                    "mean": 98.98751192437777,
+                    "stddev": 6.941435213766548
+                }
+            ]
+        },
+        {
+            "column_name": "Metered Areas (Energy)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Whole Building",
+                "See Primary BBL",
+                "Common areas only",
+                "Not Available",
+                "Another configuration"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Not Available",
+                        "Whole Building",
+                        "See Primary BBL",
+                        "Common areas only",
+                        "Tenant areas only"
+                    ],
+                    "longest_values": [
+                        "Tenant Plug Load/Electricity, Tenant Heating, Common Area Heating, Common Area Hot Water, Common Area Plug Load/Electricity, Tenant Hot Water",
+                        "Tenant Plug Load/Electricity, Common Area Hot Water, Common Area Plug Load/Electricity, Common Area Heating",
+                        "Common Area Cooling, Common Area Plug Load/Electricity, Tenant Plug Load/Electricity, Tenant Cooling",
+                        "Tenant Hot Water, Common Area Heating, Common Area Hot Water, Tenant Heating",
+                        "Another configuration"
+                    ],
+                    "average_length": 14.09208549006512
+                }
+            ]
+        },
+        {
+            "column_name": "Metered Areas  (Water)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Whole Building",
+                "Not Available",
+                "See Primary BBL",
+                "Combination of common and tenant areas",
+                "Common areas only"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Not Available",
+                        "Whole Building",
+                        "See Primary BBL",
+                        "Common areas only",
+                        "Tenant areas only"
+                    ],
+                    "longest_values": [
+                        "Combination of common and tenant areas",
+                        "Another configuration",
+                        "Tenant areas only",
+                        "Common areas only",
+                        "See Primary BBL"
+                    ],
+                    "average_length": 13.682668225079311
+                }
+            ]
+        },
+        {
+            "column_name": "ENERGY STAR Score",
+            "number_non_empty_cells": 9535,
+            "number_empty_cells": 3688,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "100",
+                "1",
+                "79",
+                "84",
+                "85"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9535,
+                    "max_value": 100,
+                    "min_value": 1,
+                    "mean": 57.73571054011536,
+                    "stddev": 30.142235776651017
+                }
+            ]
+        },
+        {
+            "column_name": "Site EUI (kBtu/ft\u00b2)",
+            "number_non_empty_cells": 11439,
+            "number_empty_cells": 1784,
+            "number_distinct_values": 1985,
+            "frequent_values": [
+                "85.5",
+                "79.5",
+                "70.8",
+                "78.1",
+                "76.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1145,
+                    "max_value": 105668,
+                    "min_value": 0,
+                    "mean": 558.964192139738,
+                    "stddev": 5853.227251310712
+                },
+                {
+                    "type": "REAL",
+                    "count": 10294,
+                    "max_value": 801504.7,
+                    "min_value": 0.1,
+                    "mean": 522.0371187099286,
+                    "stddev": 10487.49029369572
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Normalized Site EUI (kBtu/ft\u00b2)",
+            "number_non_empty_cells": 9848,
+            "number_empty_cells": 3375,
+            "number_distinct_values": 1881,
+            "frequent_values": [
+                "78.5",
+                "77.5",
+                "90.9",
+                "86.2",
+                "72.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 977,
+                    "max_value": 105668,
+                    "min_value": 0,
+                    "mean": 644.6479017400204,
+                    "stddev": 6350.843247621777
+                },
+                {
+                    "type": "REAL",
+                    "count": 8871,
+                    "max_value": 798135.7,
+                    "min_value": 0.1,
+                    "mean": 514.7154210348341,
+                    "stddev": 10066.646617637069
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Normalized Site Electricity Intensity (kWh/ft\u00b2)",
+            "number_non_empty_cells": 11095,
+            "number_empty_cells": 2128,
+            "number_distinct_values": 432,
+            "frequent_values": [
+                "3.9",
+                "4",
+                "4.1",
+                "4.4",
+                "3.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1092,
+                    "max_value": 4922,
+                    "min_value": 0,
+                    "mean": 13.156593406593407,
+                    "stddev": 151.07755880741738
+                },
+                {
+                    "type": "REAL",
+                    "count": 10003,
+                    "max_value": 24369.5,
+                    "min_value": 0.1,
+                    "mean": 19.875337398780356,
+                    "stddev": 401.9381728501717
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Normalized Site Natural Gas Intensity (therms/ft\u00b2)",
+            "number_non_empty_cells": 9463,
+            "number_empty_cells": 3760,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "0",
+                "0.6",
+                "0.7",
+                "0.5",
+                "0.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2172,
+                    "max_value": 7981,
+                    "min_value": 0,
+                    "mean": 4.359116022099448,
+                    "stddev": 172.23346490049752
+                },
+                {
+                    "type": "REAL",
+                    "count": 7291,
+                    "max_value": 1449.6,
+                    "min_value": 0.1,
+                    "mean": 1.1014127005897802,
+                    "stddev": 23.60954018030886
+                }
+            ]
+        },
+        {
+            "column_name": "Source EUI (kBtu/ft\u00b2)",
+            "number_non_empty_cells": 11439,
+            "number_empty_cells": 1784,
+            "number_distinct_values": 2892,
+            "frequent_values": [
+                "128.4",
+                "118.5",
+                "118.7",
+                "123.3",
+                "127.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1107,
+                    "max_value": 158829,
+                    "min_value": 0,
+                    "mean": 558.3577235772358,
+                    "stddev": 7125.365795161137
+                },
+                {
+                    "type": "REAL",
+                    "count": 10332,
+                    "max_value": 841652.4,
+                    "min_value": 0.1,
+                    "mean": 751.883807588076,
+                    "stddev": 12398.414214252329
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Normalized Source EUI (kBtu/ft\u00b2)",
+            "number_non_empty_cells": 9848,
+            "number_empty_cells": 3375,
+            "number_distinct_values": 2750,
+            "frequent_values": [
+                "128.5",
+                "118",
+                "116.5",
+                "103.4",
+                "118.6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 964,
+                    "max_value": 158829,
+                    "min_value": 0,
+                    "mean": 751.6369294605809,
+                    "stddev": 8259.268285191436
+                },
+                {
+                    "type": "REAL",
+                    "count": 8884,
+                    "max_value": 838112.3,
+                    "min_value": 0.1,
+                    "mean": 733.5121454299849,
+                    "stddev": 11761.24934550929
+                }
+            ]
+        },
+        {
+            "column_name": "Fuel Oil #1 Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "9058768.5",
+                "4977078.1",
+                "1154561.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 3446088,
+                    "min_value": 3446088,
+                    "mean": 3446088.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 5,
+                    "max_value": 9058768.5,
+                    "min_value": 1154561.8,
+                    "mean": 5835396.88,
+                    "stddev": 2672859.2693832465
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11972,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.074674239893083
+                }
+            ]
+        },
+        {
+            "column_name": "Fuel Oil #2 Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 2291,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "0",
+                "276000",
+                "138000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 794,
+                    "max_value": 372484308,
+                    "min_value": 0,
+                    "mean": 2308141.1007556673,
+                    "stddev": 13849497.837494584
+                },
+                {
+                    "type": "REAL",
+                    "count": 1892,
+                    "max_value": 452847137.9,
+                    "min_value": 6927.6,
+                    "mean": 5680758.961205052,
+                    "stddev": 14126565.619043065
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9292,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.096211795092552
+                }
+            ]
+        },
+        {
+            "column_name": "Fuel Oil #4 Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 1319,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "0",
+                "6463814.3",
+                "6351000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 331,
+                    "max_value": 36562530,
+                    "min_value": 0,
+                    "mean": 3946132.006042296,
+                    "stddev": 5113305.982433787
+                },
+                {
+                    "type": "REAL",
+                    "count": 1092,
+                    "max_value": 54247045.2,
+                    "min_value": 546925.7,
+                    "mean": 6582237.049358972,
+                    "stddev": 5310356.681965404
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10555,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.084699194694458
+                }
+            ]
+        },
+        {
+            "column_name": "Fuel Oil #5 & 6 Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 464,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "0",
+                "749998.4",
+                "4459275.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 402,
+                    "max_value": 38761350,
+                    "min_value": 0,
+                    "mean": 1047932.211442786,
+                    "stddev": 3573144.2064648084
+                },
+                {
+                    "type": "REAL",
+                    "count": 397,
+                    "max_value": 83696306.5,
+                    "min_value": 180001.5,
+                    "mean": 6793086.533501261,
+                    "stddev": 7329771.4627016075
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11179,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.079971374899365
+                }
+            ]
+        },
+        {
+            "column_name": "Diesel #2 Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "0",
+                "77970",
+                "383933.4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12,
+                    "max_value": 5016576,
+                    "min_value": 0,
+                    "mean": 452036.25,
+                    "stddev": 1377248.3199382338
+                },
+                {
+                    "type": "REAL",
+                    "count": 9,
+                    "max_value": 7114604.5,
+                    "min_value": 68917.2,
+                    "mean": 1192331.4777777777,
+                    "stddev": 2141136.0213016495
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11957,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.074767918374175
+                }
+            ]
+        },
+        {
+            "column_name": "District Steam Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 927,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "9926820.1",
+                "0",
+                "1.50829664E7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 145,
+                    "max_value": 47765681400,
+                    "min_value": -381733912,
+                    "mean": 4115620168.4068966,
+                    "stddev": 8873061817.571688
+                },
+                {
+                    "type": "REAL",
+                    "count": 787,
+                    "max_value": 226000000000.0,
+                    "min_value": -457020883.5,
+                    "mean": 326521866.7932656,
+                    "stddev": 8054935952.835744
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11046,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.080934274850625
+                }
+            ]
+        },
+        {
+            "column_name": "District Hot Water Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11978,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.074636834196026
+                }
+            ]
+        },
+        {
+            "column_name": "District Chilled Water Use (kBtu)",
+            "number_non_empty_cells": 11978,
+            "number_empty_cells": 1245,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Not Available",
+                "See Primary BBL",
+                "7.43141392E7",
+                "6426000.3",
+                "8396059.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 738000,
+                    "min_value": -202877735,
+                    "mean": -67379911.66666667,
+                    "stddev": 95811903.42559531
+                },
+                {
+                    "type": "REAL",
+                    "count": 7,
+                    "max_value": 74314139.2,
+                    "min_value": 2216028.6,
+                    "mean": 19554714.314285718,
+                    "stddev": 23594212.00818928
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11968,
+                    "shortest_values": [
+                        "Not Available",
+                        "See Primary BBL"
+                    ],
+                    "longest_values": [
+                        "See Primary BBL",
+                        "Not Available"
+                    ],
+                    "average_length": 13.074699197860962
+                }
+            ]
+        },
+        {
+            "column_name": "Natural Gas Use (kBtu)",
+            "number_non_empty_cells": 10087,
+            "number_empty_cells": 3136,
+            "number_distinct_values": 9951,
+            "frequent_values": [
+                "0",
+                "100",
+                "5358345.8",
+                "2000",
+                "220100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2442,
+                    "max_value": 45603646740,
+                    "min_value": 0,
+                    "mean": 24393038.183456182,
+                    "stddev": 923508058.5361713
+                },
+                {
+                    "type": "REAL",
+                    "count": 7645,
+                    "max_value": 110167645738.7,
+                    "min_value": 83.9,
+                    "mean": 25463847.08780905,
+                    "stddev": 1268313364.342129
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Normalized Site Natural Gas Use (therms)",
+            "number_non_empty_cells": 9465,
+            "number_empty_cells": 3758,
+            "number_distinct_values": 9322,
+            "frequent_values": [
+                "0",
+                "54347.5",
+                "1",
+                "45",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1651,
+                    "max_value": 125059704,
+                    "min_value": 0,
+                    "mean": 141561.52755905513,
+                    "stddev": 3089345.7231670558
+                },
+                {
+                    "type": "REAL",
+                    "count": 7814,
+                    "max_value": 1101676457.4,
+                    "min_value": 0.8,
+                    "mean": 285176.81318146974,
+                    "stddev": 13481669.45313664
+                }
+            ]
+        },
+        {
+            "column_name": "Electricity Use - Grid Purchase (kBtu)",
+            "number_non_empty_cells": 11425,
+            "number_empty_cells": 1798,
+            "number_distinct_values": 11352,
+            "frequent_values": [
+                "0",
+                "276034.2",
+                "2082713.2",
+                "2590771",
+                "308375.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1230,
+                    "max_value": 10476204690,
+                    "min_value": 0,
+                    "mean": 19951410.394308943,
+                    "stddev": 318335102.01207507
+                },
+                {
+                    "type": "REAL",
+                    "count": 10195,
+                    "max_value": 4751239149.4,
+                    "min_value": 549.3,
+                    "mean": 6783899.413536008,
+                    "stddev": 65478040.95272651
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Normalized Site Electricity (kWh)",
+            "number_non_empty_cells": 11097,
+            "number_empty_cells": 2126,
+            "number_distinct_values": 11042,
+            "frequent_values": [
+                "0",
+                "744387.7",
+                "589274.1",
+                "403853.3",
+                "90379.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1538,
+                    "max_value": 38387774,
+                    "min_value": 0,
+                    "mean": 1093187.4544863459,
+                    "stddev": 2548057.731665059
+                },
+                {
+                    "type": "REAL",
+                    "count": 9559,
+                    "max_value": 3046183035.5,
+                    "min_value": 1991.3,
+                    "mean": 2587651.4995188005,
+                    "stddev": 38516136.60015904
+                }
+            ]
+        },
+        {
+            "column_name": "Total GHG Emissions (Metric Tons CO2e)",
+            "number_non_empty_cells": 11478,
+            "number_empty_cells": 1745,
+            "number_distinct_values": 7882,
+            "frequent_values": [
+                "0",
+                "349.3",
+                "349.6",
+                "538.4",
+                "296.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1113,
+                    "max_value": 1873590,
+                    "min_value": 0,
+                    "mean": 6687.390835579515,
+                    "stddev": 86567.26614665086
+                },
+                {
+                    "type": "REAL",
+                    "count": 10365,
+                    "max_value": 15014684.7,
+                    "min_value": 0.2,
+                    "mean": 6981.05339122046,
+                    "stddev": 175795.30720673464
+                }
+            ]
+        },
+        {
+            "column_name": "Direct GHG Emissions (Metric Tons CO2e)",
+            "number_non_empty_cells": 11471,
+            "number_empty_cells": 1752,
+            "number_distinct_values": 6261,
+            "frequent_values": [
+                "0",
+                "0.1",
+                "322.8",
+                "2",
+                "230.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1851,
+                    "max_value": 5852949,
+                    "min_value": 0,
+                    "mean": 4752.569962182604,
+                    "stddev": 147156.83052422688
+                },
+                {
+                    "type": "REAL",
+                    "count": 9620,
+                    "max_value": 664252.1,
+                    "min_value": 0.1,
+                    "mean": 683.9923596673592,
+                    "stddev": 7098.106852568727
+                }
+            ]
+        },
+        {
+            "column_name": "Indirect GHG Emissions (Metric Tons CO2e)",
+            "number_non_empty_cells": 11495,
+            "number_empty_cells": 1728,
+            "number_distinct_values": 5645,
+            "frequent_values": [
+                "0",
+                "81.4",
+                "68.7",
+                "95.3",
+                "79.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1197,
+                    "max_value": 15014550,
+                    "min_value": 0,
+                    "mean": 34450.14786967418,
+                    "stddev": 480666.781766743
+                },
+                {
+                    "type": "REAL",
+                    "count": 10298,
+                    "max_value": 901441.6,
+                    "min_value": -23358.6,
+                    "mean": 2252.356525538936,
+                    "stddev": 31854.055239393536
+                }
+            ]
+        },
+        {
+            "column_name": "DOF Property Floor Area (ft\u00b2)",
+            "number_non_empty_cells": 12627,
+            "number_empty_cells": 596,
+            "number_distinct_values": 10103,
+            "frequent_values": [
+                "60000",
+                "54000",
+                "50400",
+                "72000",
+                "51000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12627,
+                    "max_value": 13435076,
+                    "min_value": 50008,
+                    "mean": 163677.2953987487,
+                    "stddev": 299340.02561158314
+                }
+            ]
+        },
+        {
+            "column_name": "Property GFA - Self-reported (ft\u00b2)",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 9333,
+            "frequent_values": [
+                "60000",
+                "70000",
+                "63000",
+                "75000",
+                "65000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11531,
+                    "max_value": 6940450,
+                    "min_value": 0,
+                    "mean": 170943.875726303,
+                    "stddev": 268070.3775118987
+                }
+            ]
+        },
+        {
+            "column_name": "Water Use (All Water Sources) (kgal)",
+            "number_non_empty_cells": 7265,
+            "number_empty_cells": 5958,
+            "number_distinct_values": 6810,
+            "frequent_values": [
+                "0",
+                "3227.8",
+                "2207.4",
+                "3373.7",
+                "4121"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 907,
+                    "max_value": 5971699,
+                    "min_value": 0,
+                    "mean": 17423.463065049615,
+                    "stddev": 224397.44897876176
+                },
+                {
+                    "type": "REAL",
+                    "count": 6358,
+                    "max_value": 43857395.7,
+                    "min_value": 0.1,
+                    "mean": 26992.104435357072,
+                    "stddev": 620617.7343070181
+                }
+            ]
+        },
+        {
+            "column_name": "Municipally Supplied Potable Water - Indoor Intensity (gal/ft\u00b2)",
+            "number_non_empty_cells": 6391,
+            "number_empty_cells": 6832,
+            "number_distinct_values": 4788,
+            "frequent_values": [
+                "0",
+                "37.45",
+                "37.73",
+                "50.52",
+                "0.05"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 137,
+                    "max_value": 175,
+                    "min_value": 0,
+                    "mean": 26.525547445255473,
+                    "stddev": 42.70114791735027
+                },
+                {
+                    "type": "REAL",
+                    "count": 6254,
+                    "max_value": 73011.09,
+                    "min_value": 0.01,
+                    "mean": 128.48915414134981,
+                    "stddev": 1499.7083392992695
+                }
+            ]
+        },
+        {
+            "column_name": "Release Date",
+            "number_non_empty_cells": 11531,
+            "number_empty_cells": 1692,
+            "number_distinct_values": 3294,
+            "frequent_values": [
+                "07/31/2016 05:10:33 PM",
+                "05/31/2016 06:25:20 PM",
+                "05/26/2016 12:15:18 PM",
+                "07/31/2016 05:42:50 PM",
+                "05/23/2016 11:25:08 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 11531,
+                    "max_value": "2016-08-01 23:04:11",
+                    "min_value": "2016-02-19 12:08:50"
+                }
+            ]
+        },
+        {
+            "column_name": "DEP Provided Water Use (kgal)",
+            "number_non_empty_cells": 5247,
+            "number_empty_cells": 7976,
+            "number_distinct_values": 5009,
+            "frequent_values": [
+                "4405.3",
+                "3626.6",
+                "2690",
+                "4082.9",
+                "3097.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 557,
+                    "max_value": 72873,
+                    "min_value": 1,
+                    "mean": 6357.145421903052,
+                    "stddev": 6696.9882878697845
+                },
+                {
+                    "type": "REAL",
+                    "count": 4690,
+                    "max_value": 129781.6,
+                    "min_value": 2.2,
+                    "mean": 6493.021407249473,
+                    "stddev": 7135.42175320275
+                }
+            ]
+        },
+        {
+            "column_name": "Automatic Water Benchmarking Eligible",
+            "number_non_empty_cells": 7265,
+            "number_empty_cells": 5958,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Eligible",
+                "Not Eligible"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7265,
+                    "shortest_values": [
+                        "Eligible",
+                        "Not Eligible"
+                    ],
+                    "longest_values": [
+                        "Not Eligible",
+                        "Eligible"
+                    ],
+                    "average_length": 8.521954576737784
+                }
+            ]
+        },
+        {
+            "column_name": "Reported Water Method",
+            "number_non_empty_cells": 5247,
+            "number_empty_cells": 7976,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "ABS",
+                "Manual"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5247,
+                    "shortest_values": [
+                        "ABS",
+                        "Manual"
+                    ],
+                    "longest_values": [
+                        "Manual",
+                        "ABS"
+                    ],
+                    "average_length": 3.109205260148656
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 10336,
+            "number_empty_cells": 2887,
+            "number_distinct_values": 10070,
+            "frequent_values": [
+                "40.84009",
+                "40.886429",
+                "40.742233",
+                "40.765949",
+                "40.766624"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 10336,
+                    "max_value": 40.912869,
+                    "min_value": 40.51585,
+                    "mean": 40.75365787296796,
+                    "stddev": 0.08026335791786665
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 10336,
+            "number_empty_cells": 2887,
+            "number_distinct_values": 9882,
+            "frequent_values": [
+                "-73.96194",
+                "-73.978719",
+                "-73.905268",
+                "-73.96346",
+                "-73.95482"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 10336,
+                    "max_value": -73.715543,
+                    "min_value": -74.243582,
+                    "mean": -73.95739815334704,
+                    "stddev": 0.047407408384819785
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 10336,
+            "number_empty_cells": 2887,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "5",
+                "8",
+                "7",
+                "4",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10336,
+                    "max_value": 56,
+                    "min_value": 1,
+                    "mean": 7.0472136222910216,
+                    "stddev": 3.957066412007799
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 10336,
+            "number_empty_cells": 2887,
+            "number_distinct_values": 44,
+            "frequent_values": [
+                "4",
+                "3",
+                "6",
+                "1",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10336,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 15.945820433436532,
+                    "stddev": 15.717328328179057
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 10336,
+            "number_empty_cells": 2887,
+            "number_distinct_values": 826,
+            "frequent_values": [
+                "21",
+                "137",
+                "84",
+                "109",
+                "74"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10336,
+                    "max_value": 155101,
+                    "min_value": 1,
+                    "mean": 4812.17879256966,
+                    "stddev": 13182.060868251489
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 10336,
+            "number_empty_cells": 2887,
+            "number_distinct_values": 143,
+            "frequent_values": [
+                "Midtown-Midtown South                                                      ",
+                "Upper East Side-Carnegie Hill                                              ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 ",
+                "Upper West Side                                                            ",
+                "Turtle Bay-East Midtown                                                    "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10336,
+                    "shortest_values": [
+                        "Lower East Side                                                            ",
+                        "Stuyvesant Heights                                                         ",
+                        "Bedford                                                                    ",
+                        "park-cemetery-etc-Brooklyn                                                 ",
+                        "Fort Greene                                                                "
+                    ],
+                    "longest_values": [
+                        "Annadale-Huguenot-Prince's Bay-Eltingville                                 ",
+                        "Soundview-Castle Hill-Clason Point-Harding Park                            ",
+                        "Belmont                                                                    ",
+                        "West Concourse                                                             ",
+                        "park-cemetery-etc-Manhattan                                                "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Order"
+    ]
+}

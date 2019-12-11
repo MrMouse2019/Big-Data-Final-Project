@@ -1,0 +1,156 @@
+{
+    "dataset_name": "uedp-fegm",
+    "columns": [
+        {
+            "column_name": "Zip Code",
+            "number_non_empty_cells": 1015,
+            "number_empty_cells": 0,
+            "number_distinct_values": 231,
+            "frequent_values": [
+                "11427(40.729310574324, -73.750676021281)",
+                "11432(40.71311535449, -73.792820999789)",
+                "11377(40.745193764481, -73.90484714408)",
+                "11423(40.717222295672, -73.76714149998)",
+                "11435(40.701192649122, -73.809796655791)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 51,
+                    "max_value": 11696,
+                    "min_value": 10300,
+                    "mean": 11323.43137254902,
+                    "stddev": 264.69044108920605
+                },
+                {
+                    "type": "TEXT",
+                    "count": 964,
+                    "shortest_values": [
+                        "11370(40.75935377086, -73.8918440004)",
+                        "11361(40.764188848137, -73.7723255286)",
+                        "10460(40.843090348041, -73.87860282506)",
+                        "11432(40.71311535449, -73.792820999789)",
+                        "11105(40.780092072491, -73.90960650024)"
+                    ],
+                    "longest_values": [
+                        "10285(40.711871000346, -74.014402999998)",
+                        "10302(40.630833311108, -74.137734298699)",
+                        "10469(40.868181802748, -73.846568687795)",
+                        "11216(40.680758670876, -73.949267750906)",
+                        "11416(40.684578097002, -73.849601668482)"
+                    ],
+                    "average_length": 39.79979253112033
+                }
+            ]
+        },
+        {
+            "column_name": "Building type (service class",
+            "number_non_empty_cells": 1015,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Commercial",
+                "Residential",
+                "Small residential",
+                "Institutional",
+                "Large residential"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1015,
+                    "shortest_values": [
+                        "Commercial",
+                        "Industrial",
+                        "Residential",
+                        "Institutional",
+                        "Large residential"
+                    ],
+                    "longest_values": [
+                        "Large Residential",
+                        "Small residential",
+                        "Large residential",
+                        "Institutional",
+                        "Residential"
+                    ],
+                    "average_length": 12.432512315270936
+                }
+            ]
+        },
+        {
+            "column_name": " Consumption (therms) ",
+            "number_non_empty_cells": 1005,
+            "number_empty_cells": 10,
+            "number_distinct_values": 1005,
+            "frequent_values": [
+                "57283",
+                "233178",
+                "5344734",
+                "7506142",
+                "331029"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1005,
+                    "max_value": 42747652,
+                    "min_value": 1,
+                    "mean": 2750243.6577114426,
+                    "stddev": 4295123.682071194
+                }
+            ]
+        },
+        {
+            "column_name": " Consumption (GJ) ",
+            "number_non_empty_cells": 1005,
+            "number_empty_cells": 10,
+            "number_distinct_values": 999,
+            "frequent_values": [
+                "219",
+                "119",
+                "14882",
+                "2307",
+                "187"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1005,
+                    "max_value": 4510117,
+                    "min_value": 0,
+                    "mean": 290166.10447761195,
+                    "stddev": 453159.60935834626
+                }
+            ]
+        },
+        {
+            "column_name": "Utility/Data Source",
+            "number_non_empty_cells": 1015,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "ConEd",
+                "National Grid"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1015,
+                    "shortest_values": [
+                        "ConEd",
+                        "National Grid"
+                    ],
+                    "longest_values": [
+                        "National Grid",
+                        "ConEd"
+                    ],
+                    "average_length": 8.917241379310346
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Zip Code",
+        "Building type (service class"
+    ]
+}

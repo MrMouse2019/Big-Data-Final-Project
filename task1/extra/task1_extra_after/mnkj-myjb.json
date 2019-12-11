@@ -1,0 +1,66 @@
+{
+    "dataset_name": "mnkj-myjb",
+    "columns": [
+        {
+            "column_name": "event_id",
+            "number_non_empty_cells": 587,
+            "number_empty_cells": 0,
+            "number_distinct_values": 552,
+            "frequent_values": [
+                "133293",
+                "73392",
+                "73343",
+                "73342",
+                "73374"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 587,
+                    "max_value": 179419,
+                    "min_value": 62281,
+                    "mean": 122070.98807495741,
+                    "stddev": 30542.899128609868
+                }
+            ]
+        },
+        {
+            "column_name": "video_id",
+            "number_non_empty_cells": 587,
+            "number_empty_cells": 0,
+            "number_distinct_values": 176,
+            "frequent_values": [
+                "https://youtu.be/LJtLnO0_s0Y",
+                "https://www.youtube.com/watch?v=rdNLPuFsHOo",
+                "https://www.youtube.com/watch?v=AHAX2tR8zy8&t=42s",
+                "http://youtu.be/o1MWX3yQBCg",
+                "https://www.youtube.com/watch?v=o1MWX3yQBCg"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 587,
+                    "shortest_values": [
+                        "http://vimeo.com/97172333",
+                        "https://vimeo.com/18035597",
+                        "https://vimeo.com/154773233",
+                        "http://youtu.be/fZ_JOBCLF-I",
+                        "http://youtu.be/o1MWX3yQBCg"
+                    ],
+                    "longest_values": [
+                        "http://www.youtube.com/watch?v=https://drive.google.com/folderview?id=0B7sW-yV-sOd_TEpUU2J0Q0pfSzA&usp=sharing",
+                        "http://www.youtube.com/watch?v=https://www.facebook.com/172974569440010/videos/1520742921329828/",
+                        "http://www.youtube.com/watch?v=3UjjxD3NhV8&list=PLii3Faarfs8WCOtLesA4QQ5nM4JaA8krb&index=20",
+                        "https://www.youtube.com/watch?v=X3bNs6Xs3AM&list=PLD3Anc1A7mcbb-amV6FtMRw7so2AtOBTy&index=1",
+                        "http://www.youtube.com/watch?v=Xh6sRJHaEM8&index=8&list=PLii3Faarfs8WCOtLesA4QQ5nM4JaA8krb"
+                    ],
+                    "average_length": 39.79897785349233
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "event_id",
+        "video_id"
+    ]
+}

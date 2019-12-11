@@ -1,0 +1,86 @@
+{
+    "dataset_name": "qcru-xhuq",
+    "columns": [
+        {
+            "column_name": "Generating Project ID",
+            "number_non_empty_cells": 293,
+            "number_empty_cells": 0,
+            "number_distinct_values": 280,
+            "frequent_values": [
+                "67723",
+                "44254",
+                "29083",
+                "53392",
+                "63732"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 293,
+                    "max_value": 68211,
+                    "min_value": 7215,
+                    "mean": 48375.976109215015,
+                    "stddev": 14773.213855739574
+                }
+            ]
+        },
+        {
+            "column_name": "Floor Area Generated",
+            "number_non_empty_cells": 293,
+            "number_empty_cells": 0,
+            "number_distinct_values": 291,
+            "frequent_values": [
+                "11976",
+                "39000",
+                "64729",
+                "31778",
+                "19700"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 201,
+                    "max_value": 197290,
+                    "min_value": 1,
+                    "mean": 41920.0447761194,
+                    "stddev": 41192.20066269591
+                },
+                {
+                    "type": "REAL",
+                    "count": 92,
+                    "max_value": 201304.83,
+                    "min_value": 1494.13,
+                    "mean": 31925.67869565217,
+                    "stddev": 37010.97533180868
+                }
+            ]
+        },
+        {
+            "column_name": "Generating Building ID",
+            "number_non_empty_cells": 293,
+            "number_empty_cells": 0,
+            "number_distinct_values": 289,
+            "frequent_values": [
+                "933500",
+                "927213",
+                "944796",
+                "953668",
+                "951712"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 293,
+                    "max_value": 990653,
+                    "min_value": 578,
+                    "mean": 807246.5665529011,
+                    "stddev": 316225.3842358306
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Generating Project ID",
+        "Floor Area Generated"
+    ]
+}

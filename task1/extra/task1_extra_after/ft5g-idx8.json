@@ -1,0 +1,99 @@
+{
+    "dataset_name": "ft5g-idx8",
+    "columns": [
+        {
+            "column_name": "School_Year",
+            "number_non_empty_cells": 2704,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "2018-2019"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2704,
+                    "shortest_values": [
+                        "2018-2019"
+                    ],
+                    "longest_values": [
+                        "2018-2019"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "OPT Code",
+            "number_non_empty_cells": 2704,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2704,
+            "frequent_values": [
+                "20310",
+                "01616",
+                "29326",
+                "20185",
+                "29469"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2704,
+                    "max_value": 75982,
+                    "min_value": 1004,
+                    "mean": 18375.10576923077,
+                    "stddev": 14036.178511774679
+                }
+            ]
+        },
+        {
+            "column_name": "Eligible stop to school students",
+            "number_non_empty_cells": 2704,
+            "number_empty_cells": 0,
+            "number_distinct_values": 267,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2704,
+                    "max_value": 1394,
+                    "min_value": 0,
+                    "mean": 34.35576923076923,
+                    "stddev": 79.19787813841508
+                }
+            ]
+        },
+        {
+            "column_name": "Eligible door to door students",
+            "number_non_empty_cells": 2704,
+            "number_empty_cells": 0,
+            "number_distinct_values": 160,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2704,
+                    "max_value": 545,
+                    "min_value": 0,
+                    "mean": 19.167899408284022,
+                    "stddev": 35.92202566854904
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "OPT Code"
+    ]
+}

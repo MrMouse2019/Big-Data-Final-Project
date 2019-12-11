@@ -1,0 +1,324 @@
+{
+    "dataset_name": "f34v-uffx",
+    "columns": [
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "DOHMH",
+                "ORR",
+                "EDC",
+                "DCP",
+                "DEP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 132,
+                    "shortest_values": [
+                        "EM",
+                        "DCP",
+                        "EDC",
+                        "HPD",
+                        "DOE"
+                    ],
+                    "longest_values": [
+                        "Food Policy, DOHMH",
+                        "Mayor's Counsel",
+                        "NYC Service",
+                        "MOCJ, DOC",
+                        "HRO, Ops"
+                    ],
+                    "average_length": 4.424242424242424
+                }
+            ]
+        },
+        {
+            "column_name": "Vision",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Growth",
+                "Equity",
+                "Resiliency",
+                "Sustainability"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 132,
+                    "shortest_values": [
+                        "Growth",
+                        "Equity",
+                        "Resiliency",
+                        "Sustainability"
+                    ],
+                    "longest_values": [
+                        "Sustainability",
+                        "Resiliency",
+                        "Equity",
+                        "Growth"
+                    ],
+                    "average_length": 8.424242424242424
+                }
+            ]
+        },
+        {
+            "column_name": "Goal",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "Vision-level",
+                "Transportation",
+                "Healthy neighborhoods, active living",
+                "Vision-level, Industry Expansion & Cultivation",
+                "Early childhood"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 132,
+                    "shortest_values": [
+                        "Culture",
+                        "Buildings",
+                        "Broadband",
+                        "Zero Waste",
+                        "Brownfields"
+                    ],
+                    "longest_values": [
+                        "Vision-level, Industry Expansion & Cultivation",
+                        "Vision-level, Housing Supply & Affordability",
+                        "Healthy neighborhoods, active living",
+                        "Housing Supply & Affordability",
+                        "Parks & Natural Resources"
+                    ],
+                    "average_length": 18.40909090909091
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 67,
+            "frequent_values": [
+                "Number of tax lots remediated since January 1, 2014",
+                "Number of serious injuries due to traffic collisions",
+                "Gross City Product (GCP)",
+                "Air-quality ranking among major U.S. cities ",
+                "Total number of jobs "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 132,
+                    "shortest_values": [
+                        "Population",
+                        "Major felony crimes",
+                        "Infant mortality rate",
+                        "Total number of jobs ",
+                        "Median household income"
+                    ],
+                    "longest_values": [
+                        "Number of New Yorkers lifted out of poverty or near poverty based on simulating wage changes to 2013 data and tracking certain anti-poverty initiatives",
+                        "Volume of DSNY-collected refuse (excluding material collected for reuse/recycling) relative to 2005 baseline of ~3.6M tons",
+                        "Citywide diversion rate (including all streams of waste: residential, commercial, construction and demolition, and fill)",
+                        "Percentage of New Yorkers with a serious psychological distress that received mental health treatment in the past year",
+                        "Percentage of New Yorkers that felt that they received the medical care that they have needed in the past 12 months"
+                    ],
+                    "average_length": 61.32575757575758
+                }
+            ]
+        },
+        {
+            "column_name": "Report Year",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "2017",
+                "2018"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 132,
+                    "max_value": 2018,
+                    "min_value": 2017,
+                    "mean": 2017.5,
+                    "stddev": 0.5
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator Value",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 99,
+            "frequent_values": [
+                "Data Not Available",
+                "84%",
+                "3.0x",
+                "2.3",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 957,
+                    "min_value": 0,
+                    "mean": 390.57142857142856,
+                    "stddev": 348.7093989240313
+                },
+                {
+                    "type": "REAL",
+                    "count": 13,
+                    "max_value": 85.9,
+                    "min_value": 0.21,
+                    "mean": 18.92923076923077,
+                    "stddev": 30.20685237123383
+                },
+                {
+                    "type": "TEXT",
+                    "count": 112,
+                    "shortest_values": [
+                        "28%",
+                        "69%",
+                        "48%",
+                        "5th",
+                        "89%"
+                    ],
+                    "longest_values": [
+                        "$678.3 billion 0.6% GCP growth in NYC compared to 1.8% GNP growth",
+                        "$674.5 billion 1.4% GCP growth in NYC compared to 2.5% GNP growth",
+                        "1.6 ppb range in winter average across communtiy districts",
+                        "0.5 ppb range in winter average across communtiy districts",
+                        "5.4 \u03bcg/m3 range, annual average across CDs"
+                    ],
+                    "average_length": 15.294642857142858
+                }
+            ]
+        },
+        {
+            "column_name": "Measurement Type",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Number",
+                "Percentage",
+                "US Dollars"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 132,
+                    "shortest_values": [
+                        "Number",
+                        "US Dollars",
+                        "Percentage"
+                    ],
+                    "longest_values": [
+                        "Percentage",
+                        "US Dollars",
+                        "Number"
+                    ],
+                    "average_length": 7.393939393939394
+                }
+            ]
+        },
+        {
+            "column_name": "Target Value",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "Increase",
+                "Decrease",
+                "100%",
+                "120,000",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 750,
+                    "min_value": 0,
+                    "mean": 250.0,
+                    "stddev": 353.5533905932738
+                },
+                {
+                    "type": "TEXT",
+                    "count": 126,
+                    "shortest_values": [
+                        "25%",
+                        "85%",
+                        "1st",
+                        "30%",
+                        "80%"
+                    ],
+                    "longest_values": [
+                        "3.7 infant deaths per 1,000 live births (20% decrease) and dramatically reducing racial and ethnic disparities by 2040 (text says to close disparities)",
+                        "800,000 people lifted out of poverty or near poverty by 2025",
+                        "90% reduction from 2005 baseline\n\n(i.e., 358,860 tons)",
+                        "Cover all streets, sidewalks, parks and transportation",
+                        "143.32 deaths per 100,000 (25% decrease)"
+                    ],
+                    "average_length": 15.53968253968254
+                }
+            ]
+        },
+        {
+            "column_name": "Target Year",
+            "number_non_empty_cells": 132,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "None stated",
+                "2040",
+                "2030",
+                "2035",
+                "CY 2040"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 56,
+                    "max_value": 2050,
+                    "min_value": 2018,
+                    "mean": 2032.9285714285713,
+                    "stddev": 8.86376480569133
+                },
+                {
+                    "type": "TEXT",
+                    "count": 76,
+                    "shortest_values": [
+                        "CY 2040",
+                        "CY 2024",
+                        "CY 2026",
+                        "CY 2025",
+                        "Increase"
+                    ],
+                    "longest_values": [
+                        "None stated",
+                        "Increase",
+                        "CY 2025",
+                        "CY 2026",
+                        "CY 2024"
+                    ],
+                    "average_length": 10.078947368421053
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Agency",
+        "Vision"
+    ]
+}

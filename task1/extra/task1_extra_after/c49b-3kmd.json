@@ -1,0 +1,144 @@
+{
+    "dataset_name": "c49b-3kmd",
+    "columns": [
+        {
+            "column_name": "Region",
+            "number_non_empty_cells": 245,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Citywide"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 245,
+                    "shortest_values": [
+                        "Citywide"
+                    ],
+                    "longest_values": [
+                        "Citywide"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Supervision Caseload Type",
+            "number_non_empty_cells": 245,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "General Supervision",
+                "Pathways to Excellence Achievement and Knowledge",
+                "Advocate Intervene Mentor",
+                "Every Child Has An Opportunity To Excel And Succeed",
+                "Juvenile Justice Initiative"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 245,
+                    "shortest_values": [
+                        "IMPACT",
+                        "General Supervision",
+                        "Advocate Intervene Mentor",
+                        "Juvenile Justice Initiative",
+                        "Enhanced Supervision Program"
+                    ],
+                    "longest_values": [
+                        "Every Child Has An Opportunity To Excel And Succeed",
+                        "Pathways to Excellence Achievement and Knowledge",
+                        "Enhanced Supervision Program",
+                        "Juvenile Justice Initiative",
+                        "Advocate Intervene Mentor"
+                    ],
+                    "average_length": 29.142857142857142
+                }
+            ]
+        },
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 245,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "May",
+                "November",
+                "April",
+                "June",
+                "January"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 245,
+                    "shortest_values": [
+                        "May",
+                        "June",
+                        "July",
+                        "March",
+                        "April"
+                    ],
+                    "longest_values": [
+                        "September",
+                        "February",
+                        "December",
+                        "November",
+                        "January"
+                    ],
+                    "average_length": 6.171428571428572
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 245,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2017",
+                "2018",
+                "2019",
+                "2016"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 245,
+                    "max_value": 2019,
+                    "min_value": 2016,
+                    "mean": 2017.6285714285714,
+                    "stddev": 0.9284615319583924
+                }
+            ]
+        },
+        {
+            "column_name": "Supervision Caseload Count",
+            "number_non_empty_cells": 245,
+            "number_empty_cells": 0,
+            "number_distinct_values": 141,
+            "frequent_values": [
+                "0",
+                "20",
+                "67",
+                "49",
+                "38"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 245,
+                    "max_value": 648,
+                    "min_value": 0,
+                    "mean": 138.31836734693877,
+                    "stddev": 178.95908969675028
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Region",
+        "Supervision Caseload Type"
+    ]
+}

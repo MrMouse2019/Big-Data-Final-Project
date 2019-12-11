@@ -1,0 +1,87 @@
+{
+    "dataset_name": "fxgv-ba35",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 1720,
+            "number_empty_cells": 0,
+            "number_distinct_values": 215,
+            "frequent_values": [
+                "06/05/2017",
+                "06/29/2017",
+                "07/20/2018",
+                "07/06/2017",
+                "08/31/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1720,
+                    "max_value": "2018-09-09 00:00:00",
+                    "min_value": "2017-05-26 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Beach",
+            "number_non_empty_cells": 1720,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Orchard",
+                "Cedar Grove",
+                "Manhattan",
+                "South Beach",
+                "Rockaway"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1720,
+                    "shortest_values": [
+                        "Orchard",
+                        "Midland",
+                        "Rockaway",
+                        "Manhattan",
+                        "South Beach"
+                    ],
+                    "longest_values": [
+                        "Wolfe's Pond",
+                        "Coney Island",
+                        "Cedar Grove",
+                        "South Beach",
+                        "Manhattan"
+                    ],
+                    "average_length": 9.625
+                }
+            ]
+        },
+        {
+            "column_name": "Attendance",
+            "number_non_empty_cells": 1720,
+            "number_empty_cells": 0,
+            "number_distinct_values": 553,
+            "frequent_values": [
+                "0",
+                "350",
+                "450",
+                "700",
+                "500"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1720,
+                    "max_value": 1520000,
+                    "min_value": 0,
+                    "mean": 18010.96046511628,
+                    "stddev": 60770.773468215615
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Date",
+        "Beach"
+    ]
+}

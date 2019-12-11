@@ -1,0 +1,96 @@
+{
+    "dataset_name": "nwet-nc6h",
+    "columns": [
+        {
+            "column_name": "Income Group",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "5th Decile ",
+                "8th-10th Decile",
+                "7th Decile ",
+                "1st Decile ",
+                "2nd Decile"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "2nd Decile",
+                        "3rd Decile",
+                        "1st Decile ",
+                        "4th Decile ",
+                        "5th Decile "
+                    ],
+                    "longest_values": [
+                        "8th-10th Decile",
+                        "7th Decile ",
+                        "6th Decile ",
+                        "5th Decile ",
+                        "4th Decile "
+                    ],
+                    "average_length": 11.25
+                }
+            ]
+        },
+        {
+            "column_name": "Total EITC (dollars in millions)",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "18.899999999999999",
+                "11.7",
+                "0.8",
+                "27.4",
+                "7.6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 27,
+                    "min_value": 0,
+                    "mean": 13.5,
+                    "stddev": 13.5
+                },
+                {
+                    "type": "REAL",
+                    "count": 6,
+                    "max_value": 27.4,
+                    "min_value": 0.8,
+                    "mean": 11.316666666666665,
+                    "stddev": 9.461398181852172
+                }
+            ]
+        },
+        {
+            "column_name": "Number of EITC Recipients",
+            "number_non_empty_cells": 8,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "147528",
+                "105057",
+                "216446",
+                "22975",
+                "58511"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8,
+                    "max_value": 216446,
+                    "min_value": 0,
+                    "mean": 110607.75,
+                    "stddev": 73801.57132431192
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Number of EITC Recipients"
+    ]
+}

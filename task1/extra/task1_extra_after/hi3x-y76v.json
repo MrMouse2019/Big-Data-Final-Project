@@ -1,0 +1,134 @@
+{
+    "dataset_name": "hi3x-y76v",
+    "columns": [
+        {
+            "column_name": "Hospital Name",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "KINGS COUNTY HOSPITAL CENTER",
+                "HARLEM HOSPITAL CENTER",
+                "NORTH CENTRAL BRONX HOSPITAL",
+                "CONEY ISLAND HOSPITAL",
+                "WOODHULL MEDICAL AND MENTAL HEALTH CENTER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 110,
+                    "shortest_values": [
+                        "CONEY ISLAND HOSPITAL",
+                        "JACOBI MEDICAL CENTER",
+                        "HARLEM HOSPITAL CENTER",
+                        "QUEENS HOSPITAL CENTER",
+                        "BELLEVUE HOSPITAL CENTER"
+                    ],
+                    "longest_values": [
+                        "WOODHULL MEDICAL AND MENTAL HEALTH CENTER",
+                        "LINCOLN MEDICAL & MENTAL HEALTH CENTER",
+                        "NORTH CENTRAL BRONX HOSPITAL",
+                        "METROPOLITAN HOSPITAL CENTER",
+                        "KINGS COUNTY HOSPITAL CENTER"
+                    ],
+                    "average_length": 27.0
+                }
+            ]
+        },
+        {
+            "column_name": "HCAHPS Question",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "How often were the patients rooms and bathrooms kept clean?",
+                "How often did staff explain about medicines before giving them to patients?",
+                "How often did doctors communicate well with patients?",
+                "Would patients recommend the hospital to friends and family?",
+                "How often was the area around patients rooms kept quiet at night?"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 110,
+                    "shortest_values": [
+                        "How do patients rate the hospital overall?",
+                        "How often was patients pain well controlled?",
+                        "How often did nurses communicate well with patients?",
+                        "How often did doctors communicate well with patients?",
+                        "How often were the patients rooms and bathrooms kept clean?"
+                    ],
+                    "longest_values": [
+                        "Were patients given information about what to do during their recovery at home?",
+                        "How often did staff explain about medicines before giving them to patients?",
+                        "How often was the area around patients rooms kept quiet at night?",
+                        "How often did patients receive help quickly from hospital staff?",
+                        "Would patients recommend the hospital to friends and family?"
+                    ],
+                    "average_length": 59.3
+                }
+            ]
+        },
+        {
+            "column_name": "HCAHPS Answer Description",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Patients who gave a rating of \"9\" or \"10\" (high)",
+                "Nurses \"always\" communicated well",
+                "Doctors \"always\" communicated well",
+                "Yes, staff \"did\" give patients this information",
+                "Staff \"always\" explained"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 110,
+                    "shortest_values": [
+                        "Always quiet at night",
+                        "Room was \"always\" clean",
+                        "Staff \"always\" explained",
+                        "Nurses \"always\" communicated well",
+                        "Pain was \"always\" well controlled"
+                    ],
+                    "longest_values": [
+                        "\"YES\", patients would definitely recommend the hospital",
+                        "Patients \"always\" received help as soon as they wanted",
+                        "Patients who gave a rating of \"9\" or \"10\" (high)",
+                        "Yes, staff \"did\" give patients this information",
+                        "Doctors \"always\" communicated well"
+                    ],
+                    "average_length": 37.2
+                }
+            ]
+        },
+        {
+            "column_name": "HCAHPS Answer Percent",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "56",
+                "57",
+                "63",
+                "58",
+                "79"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 110,
+                    "max_value": 82,
+                    "min_value": 35,
+                    "mean": 60.663636363636364,
+                    "stddev": 10.570350706082877
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Hospital Name",
+        "HCAHPS Question"
+    ]
+}

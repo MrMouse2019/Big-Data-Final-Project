@@ -1,0 +1,92 @@
+{
+    "dataset_name": "985h-mtct",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "06/30/2019",
+                "06/30/2018",
+                "08/31/2017",
+                "04/30/2019",
+                "02/28/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 26,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "2017-05-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PATH Monthly Eligibility Rate",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "0.408",
+                "0.411",
+                "38.9%",
+                "0.391",
+                "0.409"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 21,
+                    "max_value": 0.425,
+                    "min_value": 0.378,
+                    "mean": 0.4057619047619048,
+                    "stddev": 0.012250965994583987
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "38.9%",
+                        "39.10%",
+                        "41.30%",
+                        "39.90%"
+                    ],
+                    "longest_values": [
+                        "39.90%",
+                        "41.30%",
+                        "39.10%",
+                        "38.9%"
+                    ],
+                    "average_length": 5.6
+                }
+            ]
+        },
+        {
+            "column_name": "AFIC Monthly Eligibility Rate",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "0.315",
+                "0.344",
+                "0.307",
+                "0.31",
+                "0.338"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 26,
+                    "max_value": 0.393,
+                    "min_value": 0.257,
+                    "mean": 0.3164615384615385,
+                    "stddev": 0.026119887455922534
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Date"
+    ]
+}

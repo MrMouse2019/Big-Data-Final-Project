@@ -1,0 +1,143 @@
+{
+    "dataset_name": "2pmt-skyq",
+    "columns": [
+        {
+            "column_name": "ZIP",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "10017(40.752456527447, -73.97297648088)",
+                "10019(40.76761164716, -73.991805500224)",
+                "10022(40.758630224006, -73.96809182218)",
+                "10001(40.750259021437, -73.99688630376)",
+                "10009(40.726649358981, -73.979111485007)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 10048,
+                    "min_value": 10048,
+                    "mean": 10048.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 101,
+                    "shortest_values": [
+                        "10001(40.750259021437, -73.99688630376)",
+                        "10003(40.731943947555, -73.98887214913)",
+                        "10022(40.758630224006, -73.96809182218)",
+                        "10017(40.752456527447, -73.97297648088)",
+                        "10011(40.744715266696, -74.00460000029)"
+                    ],
+                    "longest_values": [
+                        "10026(40.803058121635, -73.953342776048)",
+                        "10025(40.796850127631, -73.963725810598)",
+                        "10013(40.721242188776, -74.008889000227)",
+                        "10007(40.713630519433, -74.009131383706)",
+                        "10021(40.769205327664, -73.959183941086)"
+                    ],
+                    "average_length": 39.722772277227726
+                }
+            ]
+        },
+        {
+            "column_name": "Building type (service class)",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Commercial",
+                "Large Residential"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 102,
+                    "shortest_values": [
+                        "Commercial",
+                        "Large Residential"
+                    ],
+                    "longest_values": [
+                        "Large Residential",
+                        "Commercial"
+                    ],
+                    "average_length": 12.058823529411764
+                }
+            ]
+        },
+        {
+            "column_name": " Consumption (mlbs) ",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "34476",
+                "737916",
+                "26038",
+                "739",
+                "2111"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 102,
+                    "max_value": 6839913,
+                    "min_value": 227,
+                    "mean": 228457.33333333334,
+                    "stddev": 731475.5364742024
+                }
+            ]
+        },
+        {
+            "column_name": " Consumption (Mg) ",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "1369",
+                "6659",
+                "191825",
+                "36898",
+                "3646"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 102,
+                    "max_value": 3102533,
+                    "min_value": 103,
+                    "mean": 103626.48039215687,
+                    "stddev": 331791.77299601305
+                }
+            ]
+        },
+        {
+            "column_name": "Utility/Data Source",
+            "number_non_empty_cells": 102,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "ConEd"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 102,
+                    "shortest_values": [
+                        "ConEd"
+                    ],
+                    "longest_values": [
+                        "ConEd"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        " Consumption (Mg) "
+    ]
+}

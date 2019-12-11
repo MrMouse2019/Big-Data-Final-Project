@@ -1,0 +1,317 @@
+{
+    "dataset_name": "k5us-nav4",
+    "columns": [
+        {
+            "column_name": "Kit ID",
+            "number_non_empty_cells": 14815,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14814,
+            "frequent_values": [
+                "14222352",
+                "16226840",
+                "16225285",
+                "16227814",
+                "16227815"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14815,
+                    "max_value": 18356280,
+                    "min_value": 1410052,
+                    "mean": 16722152.62308471,
+                    "stddev": 1245206.8206215892
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 14815,
+            "number_empty_cells": 0,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "BROOKLYN",
+                "NEW YORK",
+                "BRONX",
+                "STATEN ISLAND",
+                "ASTORIA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14815,
+                    "shortest_values": [
+                        "Bronx",
+                        "BRONX",
+                        "CORONA",
+                        "HOLLIS",
+                        "Queens"
+                    ],
+                    "longest_values": [
+                        "SOUTH RICHMOND HILL",
+                        "SPRINGFIELD GARDENS",
+                        "SOUTH OZONE PARK",
+                        "LONG ISLAND CITY",
+                        "JACKSON HEIGHTS"
+                    ],
+                    "average_length": 8.423152210597367
+                }
+            ]
+        },
+        {
+            "column_name": "Zipcode",
+            "number_non_empty_cells": 14815,
+            "number_empty_cells": 0,
+            "number_distinct_values": 190,
+            "frequent_values": [
+                "11215",
+                "10025",
+                "11238",
+                "11201",
+                "10024"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14815,
+                    "max_value": 11697,
+                    "min_value": 10000,
+                    "mean": 10775.805197435033,
+                    "stddev": 578.1128528156116
+                }
+            ]
+        },
+        {
+            "column_name": "Date Collected",
+            "number_non_empty_cells": 14815,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1751,
+            "frequent_values": [
+                "03/18/2016",
+                "04/05/2016",
+                "03/22/2016",
+                "04/09/2016",
+                "04/03/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 14815,
+                    "max_value": "2018-12-31 00:00:00",
+                    "min_value": "2014-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Date Received",
+            "number_non_empty_cells": 14815,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1019,
+            "frequent_values": [
+                "03/19/2016",
+                "03/28/2016",
+                "04/15/2016",
+                "04/08/2016",
+                "10/02/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 14815,
+                    "max_value": "2019-01-11 00:00:00",
+                    "min_value": "2014-01-07 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Lead First_Draw (mg/L)",
+            "number_non_empty_cells": 14794,
+            "number_empty_cells": 21,
+            "number_distinct_values": 160,
+            "frequent_values": [
+                "0",
+                "0.001",
+                "0.002",
+                "0.003",
+                "0.004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9973,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 4821,
+                    "max_value": 15.483,
+                    "min_value": 0.001,
+                    "mean": 0.02495084007467348,
+                    "stddev": 0.39041520597066676
+                }
+            ]
+        },
+        {
+            "column_name": "Lead 1-2 Minute Flush (mg/L)",
+            "number_non_empty_cells": 14795,
+            "number_empty_cells": 20,
+            "number_distinct_values": 85,
+            "frequent_values": [
+                "0",
+                "0.002",
+                "0.001",
+                "0.003",
+                "0.004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12483,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 2312,
+                    "max_value": 1.519,
+                    "min_value": 0.001,
+                    "mean": 0.010464532871972352,
+                    "stddev": 0.048094275082550826
+                }
+            ]
+        },
+        {
+            "column_name": "Lead 5 Minute Flush (mg/L)",
+            "number_non_empty_cells": 294,
+            "number_empty_cells": 14521,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "0",
+                "0.002",
+                "0.001",
+                "0.003",
+                "0.004"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 103,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 191,
+                    "max_value": 0.052,
+                    "min_value": 0.001,
+                    "mean": 0.004947643979057595,
+                    "stddev": 0.007297520356236697
+                }
+            ]
+        },
+        {
+            "column_name": "Copper First Draw (mg/L)",
+            "number_non_empty_cells": 14794,
+            "number_empty_cells": 21,
+            "number_distinct_values": 657,
+            "frequent_values": [
+                "0.12",
+                "0.147",
+                "0.128",
+                "0.115",
+                "0.138"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 14780,
+                    "max_value": 7.734,
+                    "min_value": 0.001,
+                    "mean": 0.1552184709066305,
+                    "stddev": 0.20282566281524453
+                }
+            ]
+        },
+        {
+            "column_name": "Copper 1-2 Minute Flush (mg/L)",
+            "number_non_empty_cells": 14795,
+            "number_empty_cells": 20,
+            "number_distinct_values": 393,
+            "frequent_values": [
+                "0.018",
+                "0.011",
+                "0.01",
+                "0.017",
+                "0.02"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 14775,
+                    "max_value": 9.147,
+                    "min_value": 0.001,
+                    "mean": 0.06088331641285874,
+                    "stddev": 0.13709604198055447
+                }
+            ]
+        },
+        {
+            "column_name": "Copper 5 minute Flush (mg/L)",
+            "number_non_empty_cells": 294,
+            "number_empty_cells": 14521,
+            "number_distinct_values": 73,
+            "frequent_values": [
+                "0.014",
+                "0.012",
+                "0.011",
+                "0.013",
+                "0.021"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 292,
+                    "max_value": 1.582,
+                    "min_value": 0.001,
+                    "mean": 0.036852739726027345,
+                    "stddev": 0.105666972779244
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Kit ID",
+        "Borough"
+    ]
+}

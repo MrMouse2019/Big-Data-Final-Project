@@ -1,0 +1,86 @@
+{
+    "dataset_name": "6eti-k994",
+    "columns": [
+        {
+            "column_name": "event_id",
+            "number_non_empty_cells": 56641,
+            "number_empty_cells": 0,
+            "number_distinct_values": 54653,
+            "frequent_values": [
+                "147402",
+                "147407",
+                "147414",
+                "147409",
+                "147408"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 56641,
+                    "max_value": 179422,
+                    "min_value": 62249,
+                    "mean": 132129.6841687117,
+                    "stddev": 31517.337993460133
+                }
+            ]
+        },
+        {
+            "column_name": "path",
+            "number_non_empty_cells": 56641,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13050,
+            "frequent_values": [
+                "https://www.nycgovparks.org/common_images/events/full/575f1abebf753.jpg",
+                "https://www.nycgovparks.org/common_images/events/full/5395c8d750ccf.jpg",
+                "https://www.nycgovparks.org/common_images/events/full/5b6b1dd78b7c9.jpg",
+                "https://www.nycgovparks.org/common_images/events/full/573c8b564a761.jpg",
+                "https://www.nycgovparks.org/common_images/events/full/573238818609b.jpg"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 56641,
+                    "shortest_values": [
+                        "https://www.nycgovparks.org/common_images/events/full/5b5b2bf6274cb.",
+                        "https://www.nycgovparks.org/common_images/events/full/594add9a98084.jpg",
+                        "https://www.nycgovparks.org/common_images/events/full/591b16d247ad7.jpg",
+                        "https://www.nycgovparks.org/common_images/events/full/5b0ebe5fd8a1f.JPG",
+                        "https://www.nycgovparks.org/common_images/events/full/57e5542a632b9.jpg"
+                    ],
+                    "longest_values": [
+                        "https://www.nycgovparks.org/common_images/events/full/515483a61d3fb.webarchive",
+                        "https://www.nycgovparks.org/common_images/events/full/5154734879a5f.webarchive",
+                        "https://www.nycgovparks.org/common_images/events/full/51547332f0a23.webarchive",
+                        "https://www.nycgovparks.org/common_images/events/full/55d4d82331449.00_jpg_srb",
+                        "https://www.nycgovparks.org/common_images/events/full/5154731bbab9b.webarchive"
+                    ],
+                    "average_length": 71.01355908264331
+                }
+            ]
+        },
+        {
+            "column_name": "main",
+            "number_non_empty_cells": 56641,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "1",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 56641,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.955509260076623,
+                    "stddev": 0.20618271989778142
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "event_id",
+        "path"
+    ]
+}

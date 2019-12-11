@@ -1,0 +1,218 @@
+{
+    "dataset_name": "cwqt-nvfg",
+    "columns": [
+        {
+            "column_name": "District",
+            "number_non_empty_cells": 119,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "27",
+                "21",
+                "9",
+                "75Q",
+                "78Q"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 86,
+                    "max_value": 32,
+                    "min_value": 1,
+                    "mean": 19.569767441860463,
+                    "stddev": 8.510650916098259
+                },
+                {
+                    "type": "TEXT",
+                    "count": 33,
+                    "shortest_values": [
+                        "33K",
+                        "78Q",
+                        "78X",
+                        "75M",
+                        "78K"
+                    ],
+                    "longest_values": [
+                        "84Q",
+                        "75Q",
+                        "78M",
+                        "78K",
+                        "75M"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bld ID",
+            "number_non_empty_cells": 119,
+            "number_empty_cells": 0,
+            "number_distinct_values": 92,
+            "frequent_values": [
+                "Q816",
+                "Q920",
+                "Q071",
+                "K056",
+                "M445"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 119,
+                    "shortest_values": [
+                        "X075",
+                        "Q168",
+                        "K281",
+                        "X083",
+                        "X109"
+                    ],
+                    "longest_values": [
+                        "X430",
+                        "Q160",
+                        "K254",
+                        "Q042",
+                        "Q043"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "School",
+            "number_non_empty_cells": 119,
+            "number_empty_cells": 0,
+            "number_distinct_values": 90,
+            "frequent_values": [
+                "P.S. 256 ANNEX",
+                "I.S. 98",
+                "P.S. 71",
+                "P.S. 43 TRANSPORTABLE",
+                "CENT HEADQTRS (65 COURT)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 119,
+                    "shortest_values": [
+                        "P.S. 4",
+                        "I.S. 2",
+                        "P.S. 75",
+                        "P.S. 56",
+                        "P.S. 44"
+                    ],
+                    "longest_values": [
+                        "P.S. 118 MAURICE SENDAK COMMUNITY SCHOOL",
+                        "P.S./I.S. 189 (@STEENWICK AVE)",
+                        "P.S. 811 (OLD P148/LIVINGS HS)",
+                        "SCL COOP TECH ED (MNH VOC HS)",
+                        "NORTH QUEENS COMMUNITY HS"
+                    ],
+                    "average_length": 11.655462184873949
+                }
+            ]
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 119,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Q",
+                "K",
+                "X",
+                "M",
+                "R"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 119,
+                    "shortest_values": [
+                        "X",
+                        "Q",
+                        "K",
+                        "M",
+                        "R"
+                    ],
+                    "longest_values": [
+                        "R",
+                        "M",
+                        "K",
+                        "Q",
+                        "X"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Program Category",
+            "number_non_empty_cells": 119,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "Lighting Fixtures",
+                "Electrical Systems",
+                "Heating Plant Upgrade",
+                "Climate Control",
+                "Boiler Conversion"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 119,
+                    "shortest_values": [
+                        "Parapets",
+                        "Playgrounds",
+                        "School Safety",
+                        "Staff Toilets",
+                        "Athletic Fields"
+                    ],
+                    "longest_values": [
+                        "Cafeteria / Multipurpose Room Upgrade",
+                        "Reinforcing Cinder Concrete Slabs",
+                        "Low-Voltage Electrical Systems",
+                        "Room Conversions/Partitioning",
+                        "Reinforcing Support Elements"
+                    ],
+                    "average_length": 18.647058823529413
+                }
+            ]
+        },
+        {
+            "column_name": "Reason",
+            "number_non_empty_cells": 119,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "No Capital Work Required",
+                "Reclassified",
+                "Alternate Project Prioritized",
+                "Work Previously Completed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 119,
+                    "shortest_values": [
+                        "Reclassified",
+                        "No Capital Work Required",
+                        "Work Previously Completed",
+                        "Alternate Project Prioritized"
+                    ],
+                    "longest_values": [
+                        "Alternate Project Prioritized",
+                        "Work Previously Completed",
+                        "No Capital Work Required",
+                        "Reclassified"
+                    ],
+                    "average_length": 21.394957983193276
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "District",
+        "Bld ID"
+    ]
+}

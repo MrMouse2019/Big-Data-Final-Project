@@ -1,0 +1,700 @@
+{
+    "dataset_name": "4pt5-3vv4",
+    "columns": [
+        {
+            "column_name": "OBJECTID",
+            "number_non_empty_cells": 767156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 767156,
+            "frequent_values": [
+                "585188",
+                "8973426",
+                "6527357",
+                "6527354",
+                "6527355"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 767156,
+                    "max_value": 9070438,
+                    "min_value": 66837,
+                    "mean": 6111943.388434686,
+                    "stddev": 2247581.166374638
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionType",
+            "number_non_empty_cells": 766983,
+            "number_empty_cells": 173,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Level 1",
+                "Level 2",
+                "General - Planting Space",
+                "Sidewalk Rating",
+                "Level 3"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 766983,
+                    "shortest_values": [
+                        "Level 1",
+                        "Level 2",
+                        "Level 3",
+                        "Sidewalk Rating",
+                        "General - Planting Space"
+                    ],
+                    "longest_values": [
+                        "General - Planting Space",
+                        "Sidewalk Rating",
+                        "Level 3",
+                        "Level 2",
+                        "Level 1"
+                    ],
+                    "average_length": 9.48572393390727
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionStatus",
+            "number_non_empty_cells": 767146,
+            "number_empty_cells": 10,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Closed",
+                "Reinspection",
+                "Open"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 767146,
+                    "shortest_values": [
+                        "Open",
+                        "Closed",
+                        "Reinspection"
+                    ],
+                    "longest_values": [
+                        "Reinspection",
+                        "Closed",
+                        "Open"
+                    ],
+                    "average_length": 6.012378347798203
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionTPCondition",
+            "number_non_empty_cells": 708638,
+            "number_empty_cells": 58518,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Good",
+                "Fair",
+                "Dead",
+                "Poor",
+                "Excellent"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 708638,
+                    "shortest_values": [
+                        "Good",
+                        "Poor",
+                        "Fair",
+                        "Dead",
+                        "Unknown"
+                    ],
+                    "longest_values": [
+                        "Excellent",
+                        "Critical",
+                        "Unknown",
+                        "Dead",
+                        "Fair"
+                    ],
+                    "average_length": 4.313357454723004
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionTPStructure",
+            "number_non_empty_cells": 708612,
+            "number_empty_cells": 58544,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Full",
+                "Shaft",
+                "Liability Release",
+                "Shaft- Uprooted",
+                "Stump"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 708612,
+                    "shortest_values": [
+                        "Full",
+                        "Shaft",
+                        "Stump",
+                        "Shaft- Uprooted",
+                        "Liability Release"
+                    ],
+                    "longest_values": [
+                        "Liability Release",
+                        "Shaft- Uprooted",
+                        "Stump",
+                        "Shaft",
+                        "Full"
+                    ],
+                    "average_length": 4.1493694715867075
+                }
+            ]
+        },
+        {
+            "column_name": "TreePointDBH",
+            "number_non_empty_cells": 675400,
+            "number_empty_cells": 91756,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "3",
+                "4",
+                "5",
+                "6",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 675400,
+                    "max_value": 1000,
+                    "min_value": 0,
+                    "mean": 13.634025762511104,
+                    "stddev": 9.852221809515305
+                }
+            ]
+        },
+        {
+            "column_name": "SWTreeConditionRating",
+            "number_non_empty_cells": 26555,
+            "number_empty_cells": 740601,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "4",
+                "10",
+                "15",
+                "12",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26555,
+                    "max_value": 15,
+                    "min_value": 1,
+                    "mean": 7.012427038222557,
+                    "stddev": 4.437400735796233
+                }
+            ]
+        },
+        {
+            "column_name": "SWLocationRating",
+            "number_non_empty_cells": 26510,
+            "number_empty_cells": 740646,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "1",
+                "2",
+                "10",
+                "8",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26510,
+                    "max_value": 20,
+                    "min_value": 1,
+                    "mean": 6.035986420218785,
+                    "stddev": 5.523775534062253
+                }
+            ]
+        },
+        {
+            "column_name": "SWClearanceRating",
+            "number_non_empty_cells": 26507,
+            "number_empty_cells": 740649,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "4",
+                "20",
+                "3",
+                "15",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26507,
+                    "max_value": 20,
+                    "min_value": 0,
+                    "mean": 9.627381446410382,
+                    "stddev": 7.305890655811644
+                }
+            ]
+        },
+        {
+            "column_name": "SWDamageRating",
+            "number_non_empty_cells": 26507,
+            "number_empty_cells": 740649,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "3",
+                "2",
+                "4",
+                "5",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26507,
+                    "max_value": 30,
+                    "min_value": 0,
+                    "mean": 8.864413173878598,
+                    "stddev": 8.269420863790792
+                }
+            ]
+        },
+        {
+            "column_name": "SWDamagedFlagstonesRating",
+            "number_non_empty_cells": 26526,
+            "number_empty_cells": 740630,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "5",
+                "15",
+                "4",
+                "3",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26526,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 7.362097564653547,
+                    "stddev": 4.660974920384542
+                }
+            ]
+        },
+        {
+            "column_name": "SWRatingTotal",
+            "number_non_empty_cells": 26122,
+            "number_empty_cells": 741034,
+            "number_distinct_values": 96,
+            "frequent_values": [
+                "71",
+                "74",
+                "75",
+                "76",
+                "66"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26122,
+                    "max_value": 100,
+                    "min_value": 2,
+                    "mean": 68.46014853380292,
+                    "stddev": 13.723804685498415
+                }
+            ]
+        },
+        {
+            "column_name": "TreePointGlobalID",
+            "number_non_empty_cells": 683990,
+            "number_empty_cells": 83166,
+            "number_distinct_values": 498862,
+            "frequent_values": [
+                "61BA2037-7323-4FDC-8FF5-5340FB5C94A0",
+                "EE8B4ED7-BBFA-4647-98C7-096347C3B0DF",
+                "374CBE69-0CAB-49EE-99BA-E290103A9926",
+                "5D1122DE-3BC2-4E63-A98F-4A8C8C6E58CC",
+                "2F554C1B-B5F6-444E-8D3A-4C794EEEFB15"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683990,
+                    "shortest_values": [
+                        "37195E1A-A7EE-4AA4-8389-19A0ED5C46F7",
+                        "DF96E772-274E-4A16-9538-00FD9E8D0450",
+                        "D72CFDAA-1E64-40C7-B095-C2935BF93433",
+                        "17FAEE25-0D67-469F-9F99-9A1FDF241290",
+                        "97C00055-5FA5-42A2-9B64-C014E66C1688"
+                    ],
+                    "longest_values": [
+                        "BBFC31C5-B028-4B9D-B120-035E73099134",
+                        "2D55D083-4D39-4D76-9866-9B9E5CC4B69E",
+                        "FF8BD1CA-966F-4456-877E-38E3D54F24E5",
+                        "B99EA136-9AFB-4C36-A639-0685E088A15F",
+                        "120E9B4B-C6CB-4A3B-9CA0-01952FB42FD3"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "PlantingSpaceGlobalID",
+            "number_non_empty_cells": 765642,
+            "number_empty_cells": 1514,
+            "number_distinct_values": 557030,
+            "frequent_values": [
+                "E253FB9E-0965-4FEB-B26F-197AF66B42B3",
+                "6E7BCB93-DF1E-4D90-9324-FEFE484F7E5E",
+                "EA3F09EF-D18E-4355-9674-2E105AAD66C2",
+                "A8615865-F3F2-4277-B0AC-7DF4EC6A1BBF",
+                "A514BE59-EC5E-418C-A8F1-76F6F7B2811D"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 765642,
+                    "shortest_values": [
+                        "21431016-EDB8-4A0B-B122-673125800C87",
+                        "139829D8-CA31-40DD-8D4E-1BDB95F78EC0",
+                        "1E5FCA1A-9096-4FB0-8E91-C213CF19AB14",
+                        "57A500F9-EABF-458D-9134-BAF68C5D55AF",
+                        "9E078537-90DA-4FB5-95C9-BC64B87F7DE8"
+                    ],
+                    "longest_values": [
+                        "2B31A8DA-61AF-4888-A26E-92EAE53B59F7",
+                        "34FF9F8E-BD1E-4DDE-B3EA-9735EEED24CD",
+                        "E2531CD8-9A25-4D45-9F42-39C6D1461675",
+                        "87020260-3C04-41BD-A0A6-58F5A2B2BCE4",
+                        "35EAEBBB-DE63-41CB-8349-1BF836E5D9B0"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "ServiceRequestGlobalID",
+            "number_non_empty_cells": 183592,
+            "number_empty_cells": 583564,
+            "number_distinct_values": 165859,
+            "frequent_values": [
+                "327CFF55-8B8D-4BF9-88F9-0871AEF9FD88",
+                "384303E0-D806-4B7D-816A-DE57AFC0CABC",
+                "560A28D0-45CF-4535-93BB-F6066AD4400B",
+                "E162A96B-0D85-4FF1-9996-430A1FF9BD1E",
+                "87EF18B1-BF03-4354-8122-9EECCF046158"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 183592,
+                    "shortest_values": [
+                        "3E4FEC6D-8178-4B69-B27D-5ED8DA5924E5",
+                        "1178BC7E-3769-434B-BC69-D74FD5E79624",
+                        "52F75411-AC28-4F0D-AE26-0E4999CFCB3A",
+                        "C7D92ED0-8E6F-479A-ABBF-CDDF727AD80F",
+                        "2AE0EB67-A6B1-4DA3-84AA-73256F54A85B"
+                    ],
+                    "longest_values": [
+                        "DEB12851-4638-4158-8D58-A6F11B6E817A",
+                        "F6935B2F-A59F-4D26-8AFC-6D4974BC8D83",
+                        "8DC28284-25E6-4925-97E6-1D8E029A394A",
+                        "951D3D1E-A6E6-4202-8A58-538B9A93AB91",
+                        "C5E5C043-C9FA-4670-B0A4-843D99BA1AB4"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "Geometry",
+            "number_non_empty_cells": 767156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 558171,
+            "frequent_values": [
+                "POINT (1026328.0139585584 188102.62125018239)",
+                "POINT (998075.624166891 160884.68395851552)",
+                "POINT (1024458.075833559 235144.08708351851)",
+                "POINT (1011550.2627085596 251820.88937518)",
+                "POINT (1037331.8485419005 222318.9764585197)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 767156,
+                    "shortest_values": [
+                        "POINT (1051552.0210419 199927.70187518)",
+                        "POINT (1057632.5366669 192373.78000018)",
+                        "POINT (1048631.8960419 198210.06125018)",
+                        "POINT (1053118.1147919 199818.29562518)",
+                        "POINT (1050264.5522919 215437.92062518)"
+                    ],
+                    "longest_values": [
+                        "POINT (934937.66437523067 132858.81958352029)",
+                        "POINT (1008146.9939585626 221596.48895852268)",
+                        "POINT (1020390.9408335686 214529.41416685283)",
+                        "POINT (1020320.6260418892 214519.57208351791)",
+                        "POINT (1020446.9800002277 214508.29833351076)"
+                    ],
+                    "average_length": 44.63393234231369
+                }
+            ]
+        },
+        {
+            "column_name": "GlobalID",
+            "number_non_empty_cells": 767156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 767156,
+            "frequent_values": [
+                "E67AF8F0-D388-439E-8E2D-B23640EF26AF",
+                "F1929595-769E-429F-8C0A-631ADF09DF2B",
+                "147D4CE1-4620-4186-B06C-5B0FAA211591",
+                "2E779B53-A432-4C03-998D-193D3872CC8C",
+                "BE721437-BE85-49AC-9179-D78E31693CD7"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 767156,
+                    "shortest_values": [
+                        "CBBCEF59-4149-4AA6-98C5-7E27E1E1D170",
+                        "EE809741-D03E-4314-A47A-4008DE5CF1D8",
+                        "23DD857C-8321-4B14-BA37-D1C74538F297",
+                        "140205A1-0DA6-453C-A293-887912B2FD1D",
+                        "A8D0F608-2A50-4C32-8F5E-FACEC43848AF"
+                    ],
+                    "longest_values": [
+                        "BB61815B-9AE8-44E5-B8A7-9510DBD268C2",
+                        "B5203570-9ECD-484F-899E-48A2B60A1850",
+                        "1C0A7CDD-A2F9-48B9-BE3C-BB5FC702594D",
+                        "2D8ED867-7F35-4408-9CB9-B17DA0C99669",
+                        "BA753F11-57BC-4CD7-9E5F-BBCDD67636E5"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionDate",
+            "number_non_empty_cells": 763669,
+            "number_empty_cells": 3487,
+            "number_distinct_values": 642148,
+            "frequent_values": [
+                "07/24/2015 04:00:00 AM",
+                "07/28/2015 04:00:00 AM",
+                "07/23/2015 04:00:00 AM",
+                "07/29/2015 04:00:00 AM",
+                "08/11/2015 04:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 763669,
+                    "max_value": "2019-12-04 05:00:00",
+                    "min_value": "0201-10-02 20:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "ClosedDate",
+            "number_non_empty_cells": 762204,
+            "number_empty_cells": 4952,
+            "number_distinct_values": 733628,
+            "frequent_values": [
+                "04/02/2015 04:00:00 AM",
+                "03/30/2015 04:00:00 AM",
+                "04/03/2015 04:00:00 AM",
+                "03/24/2015 04:00:00 AM",
+                "04/01/2015 04:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 762204,
+                    "max_value": "2019-08-31 15:45:49",
+                    "min_value": "2015-03-03 05:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CreatedDate",
+            "number_non_empty_cells": 767150,
+            "number_empty_cells": 6,
+            "number_distinct_values": 735944,
+            "frequent_values": [
+                "07/14/2016 04:14:51 PM",
+                "03/30/2015 04:00:00 AM",
+                "04/02/2015 04:00:00 AM",
+                "04/01/2015 04:00:00 AM",
+                "03/26/2015 04:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 767150,
+                    "max_value": "2019-08-31 15:45:48",
+                    "min_value": "2011-03-20 04:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "UpdatedDate",
+            "number_non_empty_cells": 758180,
+            "number_empty_cells": 8976,
+            "number_distinct_values": 740560,
+            "frequent_values": [
+                "08/14/2019 06:42:00 PM",
+                "04/25/2019 03:27:00 PM",
+                "03/23/2015 04:00:00 AM",
+                "03/20/2015 04:00:00 AM",
+                "06/14/2019 03:55:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 758180,
+                    "max_value": "2019-08-31 19:49:41",
+                    "min_value": "2015-03-04 05:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "ParentInspectionGlobalID",
+            "number_non_empty_cells": 15207,
+            "number_empty_cells": 751949,
+            "number_distinct_values": 15204,
+            "frequent_values": [
+                "B7C482C6-3A2F-41C2-9539-48BF5432279B",
+                "F562AD2A-4805-464D-B66C-5796F87BCAF1",
+                "FF8D425B-247B-4D97-BDAC-3E0DC67EB643",
+                "B42E3E2A-3EE0-4351-A879-7A4A5E0CCCF8",
+                "68115CCA-6E90-482A-8E4B-895040C46CDB"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15207,
+                    "shortest_values": [
+                        "ADFF21EA-DBB2-414F-8FD2-0FE19DB0A6F1",
+                        "B22F54C2-7D98-4547-B3C4-93E2512FAA75",
+                        "790D8857-04A8-4654-A056-FE9E2550A3C0",
+                        "B6A8B9B3-5D7D-46B9-AEEA-CE1D6DCDCE36",
+                        "23864363-8A55-45B4-8D83-1C00A7E16F54"
+                    ],
+                    "longest_values": [
+                        "4348E7C7-819F-420E-B21F-20C9B31CF91C",
+                        "81CE8D8F-3A0B-43C5-BD92-EF9E113FC905",
+                        "60DB54E8-B7C2-4411-9EB1-0FA9DF759BE0",
+                        "6107EE90-14ED-4FD8-A5F7-4FE72FEEA485",
+                        "4F0AEADF-B43F-44BA-BE51-52E4C404ADE6"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "ReinspectionDate",
+            "number_non_empty_cells": 15195,
+            "number_empty_cells": 751961,
+            "number_distinct_values": 5387,
+            "frequent_values": [
+                "05/22/2018 09:21:06",
+                "06/11/2017 08:33:59",
+                "07/13/2018 04:00:00",
+                "05/16/2018 15:47:39",
+                "01/12/2018 10:50:34"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15195,
+                    "shortest_values": [
+                        "06/20/2016 04:00:00",
+                        "09/04/2019 14:24:46",
+                        "05/28/2019 07:24:14",
+                        "09/18/2018 14:29:50",
+                        "09/04/2019 07:37:48"
+                    ],
+                    "longest_values": [
+                        "09/12/2019 09:32:23",
+                        "09/13/2017 15:46:38",
+                        "09/08/2017 12:17:04",
+                        "09/08/2017 12:10:16",
+                        "09/08/2017 07:20:14"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "SWTotalTrees",
+            "number_non_empty_cells": 14588,
+            "number_empty_cells": 752568,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "1",
+                "2",
+                "4",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14588,
+                    "max_value": 4,
+                    "min_value": 1,
+                    "mean": 1.3600904853304085,
+                    "stddev": 0.7595225236827452
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 767156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 558171,
+            "frequent_values": [
+                "(40.68287499546685, -73.84828655679857)",
+                "(40.60825686478839, -73.95020706816855)",
+                "(40.812000484273824, -73.85474741412442)",
+                "(40.7767311391357, -73.80834211823186)",
+                "(40.857822777612554, -73.90130925813423)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 767156,
+                    "shortest_values": [
+                        "(40.81809097490951, -73.81921726)",
+                        "(40.5048573565894, -74.2473078841)",
+                        "(40.72018736166, -73.953996219697)",
+                        "(40.853728021283, -73.88976897334)",
+                        "(40.62468118380974, -74.093717177)"
+                    ],
+                    "longest_values": [
+                        "(40.724082785942045, -73.90064398085137)",
+                        "(40.908491200475424, -73.90274682253815)",
+                        "(40.712892059034786, -73.87823794099141)",
+                        "(40.909310070747495, -73.90355067649283)",
+                        "(40.682167389847244, -73.99307897960914)"
+                    ],
+                    "average_length": 39.052649004896004
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "GlobalID"
+    ]
+}

@@ -1,0 +1,201 @@
+{
+    "dataset_name": "tavr-zknk",
+    "columns": [
+        {
+            "column_name": "DSNY Storm # ",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "Storm 2",
+                "Storm 4",
+                "Storm 7",
+                "Storm 3",
+                "Storm 5"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 106,
+                    "shortest_values": [
+                        "Storm 1",
+                        "Storm 2",
+                        "Storm 3",
+                        "Storm 4",
+                        "Storm 5"
+                    ],
+                    "longest_values": [
+                        "Condition 4",
+                        "Condition 3",
+                        "Condition 2",
+                        "Storm 12",
+                        "Storm 11"
+                    ],
+                    "average_length": 7.160377358490566
+                }
+            ]
+        },
+        {
+            "column_name": "Date of Report ",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 106,
+            "frequent_values": [
+                "01/07/2017 12:00:00 AM",
+                "04/04/2018 12:00:00 AM",
+                "02/06/2016 12:00:00 AM",
+                "02/15/2017 12:00:00 AM",
+                "12/21/2018 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 106,
+                    "max_value": "2019-03-08 00:00:00",
+                    "min_value": "2016-01-19 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Manhattan",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                "0",
+                "44",
+                "3704",
+                "1878",
+                "2367"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 106,
+                    "max_value": 7091,
+                    "min_value": 0,
+                    "mean": 1531.9056603773586,
+                    "stddev": 1743.1762731869435
+                }
+            ]
+        },
+        {
+            "column_name": "Bronx",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 104,
+            "frequent_values": [
+                "4",
+                "2400",
+                "5939",
+                "6884",
+                "287"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 106,
+                    "max_value": 9432,
+                    "min_value": 1,
+                    "mean": 2496.7735849056603,
+                    "stddev": 2470.458472013596
+                }
+            ]
+        },
+        {
+            "column_name": "Brooklyn",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 97,
+            "frequent_values": [
+                "0",
+                "32",
+                "120",
+                "2690",
+                "6645"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 106,
+                    "max_value": 15702,
+                    "min_value": 0,
+                    "mean": 3428.6792452830186,
+                    "stddev": 3725.3640813517595
+                }
+            ]
+        },
+        {
+            "column_name": "Queens",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 101,
+            "frequent_values": [
+                "0",
+                "4",
+                "3098",
+                "12948",
+                "8223"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 106,
+                    "max_value": 17736,
+                    "min_value": 0,
+                    "mean": 4456.509433962264,
+                    "stddev": 4540.43595746854
+                }
+            ]
+        },
+        {
+            "column_name": "Staten Island ",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 86,
+            "frequent_values": [
+                "0",
+                "440",
+                "300",
+                "2054",
+                "2450"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 106,
+                    "max_value": 7231,
+                    "min_value": 0,
+                    "mean": 1585.3396226415093,
+                    "stddev": 1759.7348261148231
+                }
+            ]
+        },
+        {
+            "column_name": "Total Tons ",
+            "number_non_empty_cells": 106,
+            "number_empty_cells": 0,
+            "number_distinct_values": 105,
+            "frequent_values": [
+                "690",
+                "8150",
+                "29081",
+                "8372",
+                "1092"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 106,
+                    "max_value": 53561,
+                    "min_value": 40,
+                    "mean": 13499.207547169812,
+                    "stddev": 13697.822377350803
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Date of Report "
+    ]
+}

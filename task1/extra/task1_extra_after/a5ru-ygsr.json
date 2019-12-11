@@ -1,0 +1,108 @@
+{
+    "dataset_name": "a5ru-ygsr",
+    "columns": [
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 40,
+            "number_empty_cells": 0,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "Office of Chief Medical Examiner (OCME)",
+                "Manhattan Borough President (MBP)",
+                "Department of Youth and Community Development (DYCD)",
+                "Department of Environmental Protection (DEP)",
+                "Department of Design and Construction (DDC)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 40,
+                    "shortest_values": [
+                        "Law Department (LAW)",
+                        "Office of the Mayor (OTM)",
+                        "Department of Finance (DOF)",
+                        "New York City Council (NYCC)",
+                        "Department of Probation (DOP)"
+                    ],
+                    "longest_values": [
+                        "Department of Information Technology and Telecommunications (DOITT)",
+                        "Department of Records and Information Services (DORIS)",
+                        "Department of Citywide Administrative Services (DCAS)",
+                        "Department of Youth and Community Development (DYCD)",
+                        "Office of Administrative Trials and Hearings (OATH)"
+                    ],
+                    "average_length": 37.475
+                }
+            ]
+        },
+        {
+            "column_name": "The total number of FOIL responses that included the release of data",
+            "number_non_empty_cells": 40,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "0",
+                "1",
+                "5",
+                "2",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 40,
+                    "max_value": 1725,
+                    "min_value": 0,
+                    "mean": 155.525,
+                    "stddev": 359.9085291779009
+                }
+            ]
+        },
+        {
+            "column_name": "The total number of FOIL responses that included a public data set that had not yet been included on the open data portal",
+            "number_non_empty_cells": 40,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "0",
+                "93",
+                "4",
+                "521",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 40,
+                    "max_value": 521,
+                    "min_value": 0,
+                    "mean": 32.75,
+                    "stddev": 94.44436192806852
+                }
+            ]
+        },
+        {
+            "column_name": "The total number of FOIL responses that resulted in data being posted voluntarily on the open data portal",
+            "number_non_empty_cells": 40,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "0",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 40,
+                    "max_value": 3,
+                    "min_value": 0,
+                    "mean": 0.075,
+                    "stddev": 0.46837484987988
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Agency Name"
+    ]
+}

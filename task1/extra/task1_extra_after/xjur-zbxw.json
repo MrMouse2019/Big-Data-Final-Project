@@ -1,0 +1,140 @@
+{
+    "dataset_name": "xjur-zbxw",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 291,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "1995",
+                "1997",
+                "1996"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 291,
+                    "max_value": 2019,
+                    "min_value": 1995,
+                    "mean": 2006.6288659793815,
+                    "stddev": 7.001206946948316
+                }
+            ]
+        },
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 291,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "2",
+                "3",
+                "1",
+                "8",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 291,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 6.453608247422681,
+                    "stddev": 3.4651548272933095
+                }
+            ]
+        },
+        {
+            "column_name": "Cases",
+            "number_non_empty_cells": 288,
+            "number_empty_cells": 3,
+            "number_distinct_values": 285,
+            "frequent_values": [
+                "64948",
+                "63500",
+                "62356",
+                "99716",
+                "95125"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 288,
+                    "max_value": 191875,
+                    "min_value": 61432,
+                    "mean": 88591.75347222222,
+                    "stddev": 32573.233211738556
+                }
+            ]
+        },
+        {
+            "column_name": "Monthly Percent Change",
+            "number_non_empty_cells": 287,
+            "number_empty_cells": 4,
+            "number_distinct_values": 172,
+            "frequent_values": [
+                "0.02",
+                "-0.07",
+                "-0.04",
+                "0.17",
+                "-0.08"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 0,
+                    "min_value": -3,
+                    "mean": -0.8333333333333334,
+                    "stddev": 1.0671873729054748
+                },
+                {
+                    "type": "REAL",
+                    "count": 281,
+                    "max_value": 19.72,
+                    "min_value": -4.02,
+                    "mean": 0.3837722419928825,
+                    "stddev": 1.4696737496236014
+                }
+            ]
+        },
+        {
+            "column_name": "Yearly Percent Change",
+            "number_non_empty_cells": 287,
+            "number_empty_cells": 4,
+            "number_distinct_values": 256,
+            "frequent_values": [
+                "2.03",
+                "-0.4",
+                "2.14",
+                "-1.45",
+                "1.36"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 3,
+                    "min_value": 3,
+                    "mean": 3.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 286,
+                    "max_value": 21.78,
+                    "min_value": -3.12,
+                    "mean": 4.06874125874126,
+                    "stddev": 5.7484231790066636
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Year",
+        "Month"
+    ]
+}

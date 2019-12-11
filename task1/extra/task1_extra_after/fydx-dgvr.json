@@ -1,0 +1,150 @@
+{
+    "dataset_name": "fydx-dgvr",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "2018"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 240,
+                    "max_value": 2018,
+                    "min_value": 2018,
+                    "mean": 2018.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "September",
+                "December",
+                "July",
+                "November",
+                "April"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 240,
+                    "shortest_values": [
+                        "May",
+                        "June",
+                        "July",
+                        "March",
+                        "April"
+                    ],
+                    "longest_values": [
+                        "September",
+                        "December",
+                        "November",
+                        "February",
+                        "October"
+                    ],
+                    "average_length": 6.166666666666667
+                }
+            ]
+        },
+        {
+            "column_name": "Language",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "MANDARIN",
+                "HAITIAN CREOLE",
+                "UZBEK",
+                "FRENCH",
+                "SPANISH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 240,
+                    "shortest_values": [
+                        "AKAN",
+                        "IGBO",
+                        "THAI",
+                        "URDU",
+                        "HINDI"
+                    ],
+                    "longest_values": [
+                        "HAITIAN CREOLE",
+                        "VIETNAMESE",
+                        "INDONESIAN",
+                        "PORTUGUESE",
+                        "TOISHANESE"
+                    ],
+                    "average_length": 7.120833333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Calls",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 90,
+            "frequent_values": [
+                "6",
+                "5",
+                "8",
+                "12",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 240,
+                    "max_value": 1732,
+                    "min_value": 3,
+                    "mean": 105.99583333333334,
+                    "stddev": 298.3142009402818
+                }
+            ]
+        },
+        {
+            "column_name": "Minutes",
+            "number_non_empty_cells": 240,
+            "number_empty_cells": 0,
+            "number_distinct_values": 235,
+            "frequent_values": [
+                "67.1",
+                "70.2",
+                "140.2",
+                "140.6",
+                "119.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19,
+                    "max_value": 2566,
+                    "min_value": 39,
+                    "mean": 621.8947368421053,
+                    "stddev": 686.1252681956187
+                },
+                {
+                    "type": "REAL",
+                    "count": 221,
+                    "max_value": 21184.6,
+                    "min_value": 12.6,
+                    "mean": 1430.4004524886877,
+                    "stddev": 3799.4086304014504
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Year",
+        "Month"
+    ]
+}

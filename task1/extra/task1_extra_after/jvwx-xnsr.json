@@ -1,0 +1,121 @@
+{
+    "dataset_name": "jvwx-xnsr",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 8195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 149,
+            "frequent_values": [
+                "06/30/2018",
+                "09/03/2017",
+                "08/24/2018",
+                "09/03/2018",
+                "09/07/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 8195,
+                    "max_value": "2018-09-09 00:00:00",
+                    "min_value": "2017-06-29 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 8195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Bronx",
+                "Staten Island",
+                "Queens"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8195,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.236363636363636
+                }
+            ]
+        },
+        {
+            "column_name": "Pool",
+            "number_non_empty_cells": 8195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "Glenwood",
+                "Douglas Degraw",
+                "Jackie Robinson",
+                "P.S. 46",
+                "Edenwald Houses"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8195,
+                    "shortest_values": [
+                        "Lyons",
+                        "Mapes",
+                        "Faber",
+                        "Haffen",
+                        "Lasker"
+                    ],
+                    "longest_values": [
+                        "Lindower Mill Basin",
+                        "Jesse Owens JHS 57",
+                        "Castlewood PS 186",
+                        "Astoria Hts PS 10",
+                        "Mariner's Harbor"
+                    ],
+                    "average_length": 10.272727272727273
+                }
+            ]
+        },
+        {
+            "column_name": "Attendance",
+            "number_non_empty_cells": 8195,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1596,
+            "frequent_values": [
+                "0",
+                "20",
+                "25",
+                "3",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8195,
+                    "max_value": 5623,
+                    "min_value": 0,
+                    "mean": 389.78340451494813,
+                    "stddev": 631.6296016626508
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Date",
+        "Borough"
+    ]
+}

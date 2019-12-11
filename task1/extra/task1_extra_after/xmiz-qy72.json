@@ -1,0 +1,150 @@
+{
+    "dataset_name": "xmiz-qy72",
+    "columns": [
+        {
+            "column_name": "Feature",
+            "number_non_empty_cells": 150047,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Litter",
+                "Amenities",
+                "Structural",
+                "Graffiti"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 150047,
+                    "shortest_values": [
+                        "Litter",
+                        "Graffiti",
+                        "Amenities",
+                        "Structural"
+                    ],
+                    "longest_values": [
+                        "Structural",
+                        "Amenities",
+                        "Graffiti",
+                        "Litter"
+                    ],
+                    "average_length": 8.24997500783088
+                }
+            ]
+        },
+        {
+            "column_name": "FeatureMW",
+            "number_non_empty_cells": 150047,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "M1",
+                "W1",
+                "M2",
+                "W2"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 150047,
+                    "shortest_values": [
+                        "M1",
+                        "W1",
+                        "M2",
+                        "W2"
+                    ],
+                    "longest_values": [
+                        "W2",
+                        "M2",
+                        "W1",
+                        "M1"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Rating",
+            "number_non_empty_cells": 150020,
+            "number_empty_cells": 27,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "A",
+                "N",
+                "U",
+                "U/S",
+                "a"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 150020,
+                    "shortest_values": [
+                        "U",
+                        "A",
+                        "N",
+                        "a",
+                        "n"
+                    ],
+                    "longest_values": [
+                        "U/S",
+                        "nn",
+                        "`",
+                        "n",
+                        "a"
+                    ],
+                    "average_length": 1.0249366751099853
+                }
+            ]
+        },
+        {
+            "column_name": "Inspection ID",
+            "number_non_empty_cells": 150047,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18530,
+            "frequent_values": [
+                "119049",
+                "93952",
+                "92828",
+                "97877",
+                "97845"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 150047,
+                    "max_value": 123512,
+                    "min_value": 32483,
+                    "mean": 82866.58974854546,
+                    "stddev": 25774.78525110551
+                }
+            ]
+        },
+        {
+            "column_name": "Feature #",
+            "number_non_empty_cells": 150047,
+            "number_empty_cells": 0,
+            "number_distinct_values": 150047,
+            "frequent_values": [
+                "44924",
+                "55578",
+                "98256",
+                "69922",
+                "98254"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 150047,
+                    "max_value": 155089,
+                    "min_value": 240,
+                    "mean": 78203.76540017461,
+                    "stddev": 44472.96471788214
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Feature #"
+    ]
+}

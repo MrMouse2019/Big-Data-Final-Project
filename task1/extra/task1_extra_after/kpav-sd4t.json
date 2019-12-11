@@ -1,0 +1,844 @@
+{
+    "dataset_name": "kpav-sd4t",
+    "columns": [
+        {
+            "column_name": "Job ID",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1839,
+            "frequent_values": [
+                "395337",
+                "399483",
+                "395999",
+                "409678",
+                "411029"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3311,
+                    "max_value": 413984,
+                    "min_value": 87990,
+                    "mean": 378314.20960434916,
+                    "stddev": 47793.63283629827
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "DEPT OF ENVIRONMENT PROTECTION",
+                "NYC HOUSING AUTHORITY",
+                "DEPT OF HEALTH/MENTAL HYGIENE",
+                "DEPARTMENT OF TRANSPORTATION",
+                "DEPT OF DESIGN & CONSTRUCTION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "TAX COMMISSION",
+                        "LAW DEPARTMENT",
+                        "FIRE DEPARTMENT",
+                        "CONSUMER AFFAIRS",
+                        "POLICE DEPARTMENT"
+                    ],
+                    "longest_values": [
+                        "HOUSING PRESERVATION & DVLPMNT",
+                        "DEPT OF RECORDS & INFO SERVICE",
+                        "OFFICE OF EMERGENCY MANAGEMENT",
+                        "PRESIDENT BOROUGH OF MANHATTAN",
+                        "OFFICE OF COLLECTIVE BARGAININ"
+                    ],
+                    "average_length": 26.69676834793114
+                }
+            ]
+        },
+        {
+            "column_name": "Posting Type",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Internal",
+                "External"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "Internal",
+                        "External"
+                    ],
+                    "longest_values": [
+                        "External",
+                        "Internal"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Business Title",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1364,
+            "frequent_values": [
+                "Project Manager",
+                "Assistant General Counsel",
+                "ACCOUNTABLE MANAGER",
+                "Assistant Civil Engineer",
+                "Agency Attorney"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "Cook",
+                        "Mate",
+                        "Buyer",
+                        "BUYER",
+                        "Painter"
+                    ],
+                    "longest_values": [
+                        "Senior Supervising Attorney \u00e2\u20ac\u201c Consumer Intake, Field Intake, and Appeals, Recruitment, Training and Seizures (ARTS)",
+                        "Strengthening U.S. Response to Resistant Gonorrhea (SURRG) Laboratory Coordinator, Public Health Laboratory",
+                        "Instructor, Division of Environmental Health, Bureau of Environmental Administration (Health Academy)",
+                        "Unit Head  Department for the Aging (DFTA) / Department for Youth and Community Development (DYCD)",
+                        "Peer Specialist / NYC Supported Transition and Recovery Team (NYCSTART), Bureau of Mental Health"
+                    ],
+                    "average_length": 28.25007550588946
+                }
+            ]
+        },
+        {
+            "column_name": "Civil Service Title",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 319,
+            "frequent_values": [
+                "COMMUNITY COORDINATOR",
+                "AGENCY ATTORNEY",
+                "CIVIL ENGINEER",
+                "COMMUNITY ASSOCIATE",
+                "CITY RESEARCH SCIENTIST"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "COOK",
+                        "PAINTER",
+                        "PLUMBER",
+                        "MARINER",
+                        "GARDENER"
+                    ],
+                    "longest_values": [
+                        "SUPERVISOR I (SOCIAL SERVICES)",
+                        "SUPERVISOR OF HOUSING CARETAKE",
+                        "CHILD WELFARE SPECIALIST SUPER",
+                        "TELECOMMUNICATIONS ASSOCIATE (",
+                        "MEDICOLEGAL ANALYST (LAW DEPT)"
+                    ],
+                    "average_length": 23.207188160676534
+                }
+            ]
+        },
+        {
+            "column_name": "Title Code No",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 331,
+            "frequent_values": [
+                "56058",
+                "30087",
+                "20215",
+                "56057",
+                "21744"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3102,
+                    "max_value": 95725,
+                    "min_value": 5058,
+                    "mean": 35254.93262411348,
+                    "stddev": 27462.65437798204
+                },
+                {
+                    "type": "TEXT",
+                    "count": 209,
+                    "shortest_values": [
+                        "1002D",
+                        "1000A",
+                        "5245A",
+                        "1000C",
+                        "1009A"
+                    ],
+                    "longest_values": [
+                        "1007C",
+                        "1001B",
+                        "1002C",
+                        "1002A",
+                        "1001A"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Level",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "M1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2783,
+                    "max_value": 4,
+                    "min_value": 0,
+                    "mean": 1.0262306863097377,
+                    "stddev": 1.1164798190980634
+                },
+                {
+                    "type": "TEXT",
+                    "count": 528,
+                    "shortest_values": [
+                        "M3",
+                        "M1",
+                        "M7",
+                        "M2",
+                        "M4"
+                    ],
+                    "longest_values": [
+                        "1B",
+                        "4A",
+                        "M8",
+                        "M6",
+                        "4B"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Job Category",
+            "number_non_empty_cells": 3309,
+            "number_empty_cells": 2,
+            "number_distinct_values": 130,
+            "frequent_values": [
+                "Engineering, Architecture, & Planning",
+                "Technology, Data & Innovation",
+                "Legal Affairs",
+                "Building Operations & Maintenance",
+                "Public Safety, Inspections, & Enforcement"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3309,
+                    "shortest_values": [
+                        "Legal",
+                        "Health",
+                        "Legal Affairs",
+                        "Social Services",
+                        "Health Legal Affairs"
+                    ],
+                    "longest_values": [
+                        "Administration & Human Resources Constituent Services & Community Programs Communications & Intergovernmental Affairs Finance, Accounting, & Procurement Legal Affairs Policy, Research & Analysis Public Safety, Inspections, & Enforcement",
+                        "Administration & Human Resources Finance, Accounting, & Procurement Technology, Data & Innovation Building Operations & Maintenance Policy, Research & Analysis Public Safety, Inspections, & Enforcement",
+                        "Administration & Human Resources Constituent Services & Community Programs Finance, Accounting, & Procurement Public Safety, Inspections, & Enforcement Social Services",
+                        "Administration & Human Resources Constituent Services & Community Programs Communications & Intergovernmental Affairs Public Safety, Inspections, & Enforcement",
+                        "Constituent Services & Community Programs Communications & Intergovernmental Affairs Engineering, Architecture, & Planning Technology, Data & Innovation"
+                    ],
+                    "average_length": 39.68902991840435
+                }
+            ]
+        },
+        {
+            "column_name": "Full-Time/Part-Time indicator",
+            "number_non_empty_cells": 3059,
+            "number_empty_cells": 252,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "F",
+                "P"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3059,
+                    "shortest_values": [
+                        "F",
+                        "P"
+                    ],
+                    "longest_values": [
+                        "P",
+                        "F"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Salary Range From",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 526,
+            "frequent_values": [
+                "52524",
+                "55416",
+                "56990",
+                "75000",
+                "63031"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3060,
+                    "max_value": 218587,
+                    "min_value": 0,
+                    "mean": 63055.93660130719,
+                    "stddev": 21117.499439710577
+                },
+                {
+                    "type": "REAL",
+                    "count": 251,
+                    "max_value": 127033.92,
+                    "min_value": 8.75,
+                    "mean": 5383.058197609554,
+                    "stddev": 21403.105008865998
+                }
+            ]
+        },
+        {
+            "column_name": "Salary Range To",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 650,
+            "frequent_values": [
+                "81535",
+                "83151",
+                "100000",
+                "75000",
+                "110000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3051,
+                    "max_value": 234402,
+                    "min_value": 17,
+                    "mean": 90891.01638806949,
+                    "stddev": 36962.96712166939
+                },
+                {
+                    "type": "REAL",
+                    "count": 260,
+                    "max_value": 127033.92,
+                    "min_value": 10.36,
+                    "mean": 11795.40578653845,
+                    "stddev": 29025.71101799708
+                }
+            ]
+        },
+        {
+            "column_name": "Salary Frequency",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Annual",
+                "Hourly",
+                "Daily"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "Daily",
+                        "Annual",
+                        "Hourly"
+                    ],
+                    "longest_values": [
+                        "Hourly",
+                        "Annual",
+                        "Daily"
+                    ],
+                    "average_length": 5.987617034128662
+                }
+            ]
+        },
+        {
+            "column_name": "Work Location",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 239,
+            "frequent_values": [
+                "96-05 Horace Harding Expway",
+                "59-17 Junction Blvd Corona Ny",
+                "30-30 Thomson Ave L I City Qns",
+                "1 Centre St., N.Y.",
+                "100 Gold Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "Carver",
+                        "Default",
+                        "Law-EVP",
+                        "Brevoort",
+                        "City Hall"
+                    ],
+                    "longest_values": [
+                        "CP QA Comp & Training \u00e2\u20ac\u201c\u00c2\u00a0EAO",
+                        "275-285 Bergen St, Brooklyn Ny",
+                        "Jay St P.O. Box D, Katonah, Ny",
+                        "20 Nyc Highway 30A Downsville,",
+                        "Boro Hall Richmond, Staten Isl"
+                    ],
+                    "average_length": 23.044397463002113
+                }
+            ]
+        },
+        {
+            "column_name": "Division/Work Unit",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 731,
+            "frequent_values": [
+                "Executive Management",
+                "CP DC For Capital Projects",
+                "Information Technology",
+                "Blue Belt Unit",
+                "Central Brookly City Operation"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "ITS",
+                        "Law",
+                        "Wib",
+                        "AEP",
+                        "IFA"
+                    ],
+                    "longest_values": [
+                        "Environmental Sciences\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2\u00a0\u00c2",
+                        "General Counsel\u00e2\u20ac\u2122s Office",
+                        "Universal Metering Inspection\u00c2",
+                        "Budget Directors Office (MGRL)",
+                        "Prop Clerk Div Bklyn/Civ and C"
+                    ],
+                    "average_length": 21.04771972213833
+                }
+            ]
+        },
+        {
+            "column_name": "Job Description",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1764,
+            "frequent_values": [
+                "The New York City Taxi and Limousine Commission (TLC) is the agency responsible for regulating New York City's taxicab and for-hire vehicle industry.  TLC licenses and regulates over 130,000 vehicles and more than  175,000 drivers, making it the most active taxi and limousine regulatory agency in the United States.  Aside from vehicles and drivers, TLC also regulates taxicab agents and for-hire vehicle bases, including popular app-based transportation services. The TLC plays a pivotal role in furthering public safety within New York City and is a lead agency in a citywide effort to reduce traffic-related injuries.  One of the largest components of TLC\u00e2\u20ac\u2122s operations is the enforcement of agency and administrative code regulations.    The Prosecution Division investigates and prosecutes all summonses issued by TLC which consist of administrative, field and consumer-initiated complaints. Our division prosecutes a wide range of violations including reckless driving, unlicensed operation, illegal street pickups, harassment and leaving the scene of an accident.  Prosecuting Attorneys represent TLC on cases heard before the Hearings Division of the Office of Administrative Trials and Hearings and will gain robust hands-on litigation experience as they rotate through various prosecutorial assignments, including Consumer Intake, Settlements, Hearings and Appeals.    Duties and responsibilities will include, but are not limited to:  \u00e2\u20ac\u00a2             Managing a daily caseload and independently representing the Taxi and Limousine Commission at administrative hearings, including preparing and presenting witnesses and evidence at trial.  \u00e2\u20ac\u00a2             Evaluating case strengths and weaknesses to effectively negotiate plea and settlement agreements with respondents and/or their attorneys or representatives.  \u00e2\u20ac\u00a2             Interviewing consumer complainants to obtain complaint details and determine appropriate charging violations and settlement offers.  \u00e2\u20ac\u00a2             Reviewing hearing dispositions for summonses dismissed at OATH; drafting appeals and Chair petitions when appropriate.",
+                "DOT seeks a highly organized attorney with demonstrable Personal Injury or Municipal law litigation experience, to work in our fast-paced Litigation Support unit. The selected candidate will be expected to effectively liaise between a wide cross-section of the Agency\u00e2\u20ac\u2122s staff and the non-Agency attorneys who represent us, to facilitate the effective defense of our broad-ranging operations and innovative policies. The position requires an attorney with excellent communication skills who can easily synthesize legal concepts and court ordered requirements into plain, concise, language and communicate their intent and meaning to our non-attorney staff in order to obtain rapid compliance.  The attorney will also be required to closely collaborate with our information technology staff on several e-discovery and other projects.",
+                "Under general supervision of the senior and staff counsel, draft and review contracts and/or work on regulatory and FOIL matters.   Work on special assignments and other legal assignments arising out of the Agency\u00e2\u20ac\u2122s operating divisions.  Attorney should have significant contract experience and working knowledge of the Procurement Policy Board Rules. Familiarity with construction contracts, NYS Freedom of Information Law (FOIL) and the Federal Freedom of Information Act (FOIA) preferred.",
+                "Job Description  Under supervision, instruct and supervise the Housing Caretakers responsible for cleaning and maintaining the grounds, public spaces and stair halls of public housing projects in proper condition; perform related work.   1. Make assignments, trains, and checks performance of Housing Caretakers.  2. Report move-ins and move-outs.  3. Handle tenant lockouts.  4. Fill out work orders as a result of apartment inspections.  5. Report any hazardous conditions observed in any part of the project.   Please read this posting carefully to make certain you meet the minimum qualification requirements before applying to this position.",
+                "Building Services performs maintenance services in 15,000,000 square feet of space in 55 court and non-court buildings. The Office of Court Administration reimburses DCAS for the 19 Maintenance Workers that are assigned to the Court facilities to ensure that minor repairs are handled in a timely manner. Without sufficient staffing these repairs will take longer to complete and would increase the amount of overtime needed to adequately maintain the court sites. OCA also conducts quarterly surveys and a failing grade can lead to a withholding of reimbursement for all the work and staffing, for that facility, for that quarter.    The duties and responsibilities for a Maintenance Worker include, but are not limited to: Under direct supervision, assists in the routine maintenance, operation and repair of public buildings and structures, and equipment. Conducts visual inspections of building equipment and conditions; performs related work.    Examples of typical tasks:     \u00e2\u20ac\u00a2\tMaintains, adjusts and makes minor repairs of building hardware, furniture, shelving and equipment;  \u00e2\u20ac\u00a2\tReplaces broken window and door glass \u00e2\u20ac\u00a2\tRepairs windows and sashes \u00e2\u20ac\u00a2\tMakes minor repairs to masonry, woodwork, flooring and walls; \u00e2\u20ac\u00a2\tMakes minor repairs to building electrical, plumbing and heating systems; \u00e2\u20ac\u00a2\tAssists in relocating building equipment as directed; \u00e2\u20ac\u00a2\tVisually inspects public buildings, structures and equipment to assess and check for defects, malfunctions and hazardous conditions; \u00e2\u20ac\u00a2\tVisually checks for and records the observable conditions of the premises; files reports; \u00e2\u20ac\u00a2\tKeeps records; \u00e2\u20ac\u00a2\tOperates a motor vehicle to travel to and from work sites."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "ERROR: #NAME?",
+                        "1.\tDrive development vehicles and assist in debris pick up. 2.\tPick up materials and supplies. Assist in emergency snow removal. 3.\tPrepare apartments for move outs.",
+                        "1.\tDrive development vehicles and assist in debris pick up.  2.\tPick up materials and supplies. Assist in emergency snow removal.  3.\tPrepare apartments for move outs.",
+                        "Reporting to the Deputy Commissioner for Programs.   Oversee Bureau of Social Services and Bureau of Direct Services.  Focus on: Systems Contract Management Staff Development Messaging",
+                        "The candidate will be responsible for the direction and management of all the functions performed by the Borough President\u00e2\u20ac\u2122s Topographical Bureau.  These functions include a variety of activities conducted by the bureau to assist both governmental agencies and private citizens."
+                    ],
+                    "longest_values": [
+                        "The New York City (NYC) Department of Environmental Protection (DEP) is seeking to fill an executive level position, at the Assistant Commissioner level, in the Bureau of Wastewater Treatment (BWT). Candidate is being sought who wants to seize the opportunity to lead a critical public health and environmentally urgent function in the most amazing city in the country. This is a game-changing career opportunity for the right candidate to make a positive impact on the lives of over 8.5 million New Yorkers and the millions of others who work, visit and recreate in the city and in the region on a daily basis.   Wastewater utilities are moving from handlers of wastewater to managers of sustainable resources and watershed-scale environmental leaders seeking the optimal-cost/highest return environmental and social solutions. We are embracing best utility business practices to ensure a sustainable future that provides for resilient infrastructure while minimizing waste, maximizing resources, protecting our ratepayers, improving the community, and embracing innovation. We are therefore improving and maintaining our integrity for our core business to protect public health through treating wastewater while growing our role as the manager of valuable resources and an essential partner for economic development, watershed community health, and an environmental benefit.  DEP is the largest municipal water and wastewater utility in North America with nearly 6,000 employees system-wide. DEP\u00e2\u20ac\u2122s vision is to be the safest, most efficient, cost-effective, resilient, and transparent water utility in the nation.  DEP protects public health and the environment by supplying clean drinking water, collecting and treating wastewater, and reducing air, noise, and hazardous material pollution. The values DEP embraces in doing day-to-day work are safety, service, support, transparency, innovation, and sustainability. Every day DEP delivers 1 billion gallons of water to nine million New Yorkers and implements one of the largest construction programs in the region \u00e2\u20ac\u201c our capital program will spend $1.5 billion per year for the next ten years.   In DEP, BWT is the largest of DEP\u00e2\u20ac\u2122s bureaus, which accounts for about half of the Department\u00e2\u20ac\u2122s annual capital expenditures of $1.5 billion, manages an annual operating budget of $400 million, and includes 1,800 employees. BWT treats 1.3 billion gallons of wastewater daily and continues to improve its wastewater treatment processes and facilities through billions of dollars of investment, showing results as the New York Harbor is healthier than it\u00e2\u20ac\u2122s been in more than a century.  BWT is responsible for the operation and maintenance of all facilities related to the treatment of wastewater within the five boroughs. This includes operating and maintaining 14 wastewater treatment plants, eight sludge dewatering facilities, collections facilities (96 pumping stations, 140 miles of interceptors, combined sewer overflow facilities, regulators, tide gates), five wastewater and three microbiology laboratories, related facilities, and marine vessels for transporting sludge and monitoring water quality.   Reporting to the BWT Deputy Commissioner, the Assistant Commissioner (AC) for Capital Planning Delivery is responsible for leading and managing a comprehensive array of services and programs, including capital planning, engineering, in-house design, contracting, project management, construction management, procurement, maintenance support, and budgeting.  The AC is a central member of the BWT executive leadership team and is expected to provide leadership and effective management across the Bureau.  The AC will exercise an extremely wide latitude of independent judgment and initiative to improve existing programs and implement new programs, policies and activities for high-level bureau priorities.  The AC provides the leadership, vision and management for over 150 individuals directly and integrates work over the entire Bureau of 1800 employees to ensure the utility maintains sustainable infrastructure through capital investments, engineering, and operations and maintenance support. The AC leads and directs capital systems, contracting, budgets, reporting procedures, and people in all areas of capital projects from initiation, planning, and delivery, to support sustainable wastewater treatment and collection systems infrastructure. The position is responsible for the development of BWT\u00e2\u20ac\u2122s budget based on project prioritization, planning investments in infrastructure \u00e2\u20ac\u0153state of good repair\u00e2\u20ac\u009d, energy production and conservation, environmental requirements, resource recovery and enterprise operations support. The position leads contracts and engineering sections responsible for requirements/maintenance services, job order, and engineering contracts throughout BWT in order to be responsive to operational needs and priorities near and long term. The position must coordinate with other Bureau\u00e2\u20ac\u2122s to ensure that capital projects are delivered based on BWT\u00e2\u20ac\u2122s requirements.   The AC will partner with the AC for Sustainable Operations to implement best practices, to develop a culture of continuous improvement and best-in-class business systems across BWT.  The AC needs to be a strong leader in this complex business environment and will need to use rigorous methods to solve difficult problems and find effective solutions. The Bureau is looking for enhancement and management of the division\u00e2\u20ac\u2122s continuous improvement program for project planning and delivery, contracting, engineering and budgeting. The AC is expected to bring programmatic improvements to all levels of responsibility through analysis, develop Key Performance Indicators (KPIs), and adoption of industry best practices, such as Project Management Institute (PMI), Lean, Six Sigma, and other applicable programs. This includes driving consistency in project delivery through development and implementation of design standards to drive consistency across BWT\u00e2\u20ac\u2122s assets.   \u00e2\u20ac\u00a2 Leadership: Provide executive leadership and high level program management for organization-wide projects/initiatives as required, facilitating team efforts and helping to define project goals, timelines, resource requirements and planning. Work with senior leaders to establish mission, vision, values, business strategies, goals, objectives, key performance indicators (KPIs), and policies. Utilize \u00e2\u20ac\u0153Lean\u00e2\u20ac\u009d and other management tools such as process mapping and visual management to analyze processes, track improvements, communicate, and facilitate decision-making.  \u00e2\u20ac\u00a2 Safety: Prioritize and foster a Culture of Safety; Lead the integration of safety awareness, compliance, accountability, and performance in all areas of responsibility.  \u00e2\u20ac\u00a2 Business: Direct contracting business activities across all BWT to meet state-of-good-repair capital needs and operations and maintenance support. Prepare annual budgets and use advanced tools for budget tracking and analysis. Lead integrated planning efforts for operating plants and collection facilities to support sustainable wastewater operations. Provide advanced tools for estimating and tracking budgets and performance. Lead responsibility for representing BWT on the design of major capital improvement projects lead by the Bureau of Engineering, Design and Construction (BEDC). Coordinate with BWT Operations to ensure that BEDC project design. Performance, function, and staff training meet BWT needs.  Act as the client (end user) for major capital projects delivered by the Bureau of Engineering, Design and Construction (BEDC) in order to meet the design and operational needs of BWT treatment plants and collections systems. Work with the Agency Chief Contracting Office (ACCO) to drive project delivery based on Bureau priorities using appropriate contracting mechanisms.   \u00e2\u20ac\u00a2 Continuous improvement: Lead enhancement of the division\u00e2\u20ac\u2122s continuous improvement program for contracting and procurement systems. Provide analyses, business case evaluations, and recommendations for systems improvements. Develop and implement BWT\u00e2\u20ac\u2122s Asset Management Program by defining data needs and integrating between the Capital Asset Planning and Operations Sections of the Bureau to head toward a robust enterprise asset management program. Develop and train BWT staff on Asset Management tools and techniques to enhance the program from the ground up, leading to the development of data-driven and optimized decisions in maintenance planning, capital refurbish/replace, and capital investment prioritization. Lead the Bureau-wide programmatic improvements in support of advanced tools and techniques for CMMS utilization and control system architecture (SCADA).   \u00e2\u20ac\u00a2 Sustainability: Provide vision, leadership and contract support to BWT\u00e2\u20ac\u2122s programs and operations personnel to make strides towards New York City\u00e2\u20ac\u2122s sustainability goals. Focus on resource recovery opportunities through creative contracting incentives, alternative financing, and public-private partnership to advance GHG emission reduction, green energy production, energy conservation, and zero landfill waste. Direct contracting of biosolids program to expand beneficial use.   \u00e2\u20ac\u00a2 Management: Oversee staff in the procurement and administration of all the BWT contracts related to maintenance, capital Job Order Contracts (JOCs), on-call Task Order Contracts (TOCs) for planning, design, and construction management. Identify utility business needs and financial resources to achieve strategic goals and objectives, recommend annual budgets. Manage performance of direct reports through effective and timely coaching, setting of annual objectives, mid-term and annual performance discussions, with counseling as required. Participate in work load analyses and succession planning efforts to ensure skill development and sustainable staffing.  \u00e2\u20ac\u00a2 Communication: Promote employee engagement, diversity and inclusion, and organizational support for continuous improvement efforts and must coordinate closely with staff and managers across the bureau. The AC will manage all work using quality principles and teamwork to assure high level of customer service, employee engagement, and environmental stewardship. Coordinate business across all DEP including BEDC, the Bureau of Environment Planning and Assessment, ACCO, Bureau of Public Affairs and Communications, Regulatory Compliance, and Environmental Health and Safety. Participate in public outreach and meeting with elected officials, standing committees, and local communities on various issues related to the City\u00e2\u20ac\u2122s wastewater utility business and operation systems.",
+                        "THE AGENCY The Department of City Planning (DCP) plans for the strategic growth and development of the City through ground-up planning with communities, the development of land use policies and zoning regulations applicable citywide and by sharing its perspectives on growth and community needs with sister agencies in collaboration with the Office of Management and Budget (OMB).   DCP\u00e2\u20ac\u2122s mission is to plan for the future of New York City. DCP\u00e2\u20ac\u2122s six strategic objectives include: (a) to catalyze long-term neighborhood improvement through integrated planning and targeted accompanying public investments; (b) encourage housing production, affordability, and quality; (c) promote economic development and job growth; (d) enhance resiliency and sustainability of neighborhoods; (e) ensure integrity, timeliness and responsiveness in land use reviews; and, (f) supply objective data and expertise to a broad range of planning functions and stakeholders.   Central to its mission, DCP supports the City Planning Commission in its annual review of approximately 450 land use applications. The Department also works closely with OMB in developing the Ten-Year Capital Strategy, and helping manage the $1.0 billion Neighborhood Development Fund, geared toward ensuring growing neighborhoods undergoing rezoning have accompanying infrastructure investments.   THE CAPITAL PLANNING DIVISION We\u00e2\u20ac\u2122re working to foster better, more collaborative capital planning through robust data analytics, pro-active interagency coordination, and forward-looking planning for integrated needs of our neighborhoods across all five boroughs.  We are responsible for providing integrated city planning perspectives into the City\u00e2\u20ac\u2122s capital budget planning and decision-making processes.  City agencies are planning to invest over $100 billion in New York City\u00e2\u20ac\u2122s infrastructure and buildings over the next decade. The Capital Planning team, established in 2014, is working to support strategic capital investment planning across City agencies by boosting the integrated collaboration and coordination across major capital agencies.  Working in partnership with our borough offices, we ensure there is a common, informed set of planning inputs, and a neighborhood-focused lens applied consistently to crucial planning decisions.   Our work spans the lifecycle of capital investment in New York City: \u00e2\u20ac\u00a2\tWe inform capital budget priorities and guiding principles, jointly developing the City\u00e2\u20ac\u2122s Ten-Year Capital Strategy with the Mayor\u00e2\u20ac\u2122s Office of Management and Budget (OMB) and evaluating the impact that capital investments can have on neighborhoods and citywide planning priorities with close attention paid to growth and equity. \u00e2\u20ac\u00a2\tWe work alongside planners in DCP\u00e2\u20ac\u2122s borough offices, strategic planning divisions, and the City\u00e2\u20ac\u2122s capital agencies to shape specific projects in dynamic NYC neighborhoods, managing a $1+ billion Neighborhood Development Fund that is dedicated to projects that complement neighborhood rezonings. \u00e2\u20ac\u00a2\tWe partner with major capital agencies to ensure they have the robust set of forward-looking planning inputs they need to build capital programs that meet all neighborhood needs of tomorrow. \u00e2\u20ac\u00a2\tWe help assess and plan the City\u00e2\u20ac\u2122s needs for service and operational facilities in the medium-term, seeking opportunities to take advantage of the broader City portfolio and supportive private investment.  \u00e2\u20ac\u00a2\tWe foster the use of modern technology tools to inform integrated capital planning decisions, evolving intuitive web applications like the NYC Facilities Explorer and Capital Planning Platform and their underlying data products to promote transparency and widespread collaboration in the capital planning process.  THE ROLE The Director of Capital Planning is responsible for helping integrate relevant planning perspectives into the City\u00e2\u20ac\u2122s capital budget planning and related decision-making processes. The person in this role should be a visionary planning ambassador who fosters interagency collaboration, excels at change management, and has a strong interest in advancing data-driven planning analyses to better inform decision-making. This candidate should have exposure to capital planning and budget-making, infrastructure and facility planning, and ideally has had prior experience working with multiple government agencies in the City of New York.  The Director of Capital Planning will be passionate about city planning, improving the quality of life in all New York City neighborhoods, and advancing the adoption of new processes and technologies in city planning and government. The candidate will have a proven track record of influencing interdisciplinary teams and will demonstrate extensive experience in building lasting partnerships inside and outside the Agency to extend the team\u00e2\u20ac\u2122s reach.  The outcomes that the Director of Capital Planning will influence include: \u00e2\u20ac\u00a2\tThe allocation of the $1+ billion Neighborhood Development Fund to new and improved parks, streets, community facilities, utilities, and other public investments in neighborhoods that are the subject of comprehensive community planning efforts and rezonings, including Gowanus and Bushwick in Brooklyn, Southern Boulevard in the Bronx, and several others in the years to come; \u00e2\u20ac\u00a2\tSustained collaboration with planners at our largest partner capital agencies where substantial components of capital need are linked to growth in population, housing and/or jobs, along with ongoing support with DCP borough offices to ensure these inputs are provided at the right level of granularity and frequency; \u00e2\u20ac\u00a2\tThe creation and siting of new community facilities across the City in which public facilities and program sites - found in the NYC Facilities Explorer - are co-located with schools and affordable housing developments, where appropriate; \u00e2\u20ac\u00a2\tThe alignment of the City\u00e2\u20ac\u2122s capital budget and Ten-Year Capital Strategy to planning imperatives related to population and employment growth across NYC neighborhoods, increased risks from sea level rise and climate change, and the distinctive needs of diverse neighborhoods and communities across the five boroughs; \u00e2\u20ac\u00a2\tContinued success and leadership of the Capital Planning Forum to bring together leadership in the largest capital agencies to discuss shared opportunities and nurture integrated, collaborative planning across varied infrastructure types and processes; \u00e2\u20ac\u00a2\tThe widespread adoption, regular use and enhancement of the data, maps, analytics, and tools of the Capital Planning Platform within DCP and across government agencies, significantly improving the quality of data inputs in the capital planning process, increasing government efficiency in capital planning and project development, and maximizing opportunities for interagency collaboration and neighborhood-based planning; and \u00e2\u20ac\u00a2\tThe development of a broader and deeper understanding of the dynamics and complexities of capital investment planning in NYC among New Yorkers, Community Boards, and the planning community more broadly through greater transparency and open analytics.   MAIN RESPONSIBILITIES \u00e2\u20ac\u00a2\tManage the Capital Planning team, a diverse group of six driven individuals, including former planners, policy experts, analysts, and consultants at varying levels of seniority. \u00e2\u20ac\u00a2\tGuide the integration of capital planning and public investments into comprehensive community plans and rezonings, including the use of the Neighborhood Development Fund, partnering with the Deputy Mayor\u00e2\u20ac\u2122s Office for Housing and Economic Development, OMB, NYCEDC and the borough offices of DCP. \u00e2\u20ac\u00a2\tCollaborate and jointly develop the City\u00e2\u20ac\u2122s Ten-Year Capital Strategy with the Mayor\u00e2\u20ac\u2122s Office of Management and Budget (OMB), partnering with OMB Task Forces and City agencies in the planning process and co-authoring the Strategy with OMB. \u00e2\u20ac\u00a2\tServe as a resource to DCP\u00e2\u20ac\u2122s five borough offices and central planning divisions, providing data analyses and information to inform neighborhood planning and infrastructure, along with the review of land use applications, and helping to coordinate with the City\u00e2\u20ac\u2122s capital agencies. \u00e2\u20ac\u00a2\tLead interagency adoption and ongoing improvement of the Capital Planning Platform, including its components focused on City facilities, new residential developments, and capital projects. \u00e2\u20ac\u00a2\tEnsure the Capital Planning division maintains strong working relationships with more than two dozen Mayoral agencies and City Hall, advancing the integration of DCP planning perspectives into interagency capital planning and decision-making processes. \u00e2\u20ac\u00a2\tOversee the management of complex, priority projects that require multiple team members, DCP divisions, and partner agencies, and identify new opportunities to support the broader DCP work program and planning priorities across City agencies. \u00e2\u20ac\u00a2\tFoster a culture of collaboration and openness within DCP and across the City\u00e2\u20ac\u2122s capital planning agencies. \u00e2\u20ac\u00a2\tAdvance the division\u00e2\u20ac\u2122s talent development program, including skills training resources for division staff, attention to team members\u00e2\u20ac\u2122 professional development and career paths, and recruiting new Capital Planning interns and full-time staff. \u00e2\u20ac\u00a2\tRefine the work program of the Capital Planning division (priorities have been established for 2019; the division undertakes bi-annual and monthly priority-setting reviews). \u00e2\u20ac\u00a2\tOther responsibilities to be defined on the job.",
+                        "The NYC Department of Environmental Protection (DEP) protects public health and the environment by supplying clean drinking water, collecting and treating wastewater, and reducing air, noise and hazardous materials pollution. DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees. DEP delivers more than 1.1 billion gallons per day of the highest quality drinking water to 8.3 million New York City (the City) residents and more than 1 million people in Upstate New York and has a wastewater conveyance and treatment system capable of processing over 1.3 billion gallons of wastewater per day to protect the environment and the City\u00e2\u20ac\u2122s surrounding waterways.  The Bureau of Wastewater Treatment (BWT) is responsible for the operation and maintenance of all facilities related to the treatment of sewage within the five boroughs of the City. This includes 14 wastewater treatment plants, sludge dewatering facilities, collections facilities (pumping stations, combined sewer overflow retention facilities, regulators, tide gates, etc.), wastewater laboratories and harbor vessels.  Wastewater utilities are moving from handlers of wastewater to managers of sustainable resources and watershed-scale environmental leaders seeking the least-cost/highest return environmental and social solutions. We are embracing best practices and collaboration to ensure a sustainable future that minimizes waste, maximizes resources, protects our ratepayers, improves the community and embraces innovation. We have therefore been transforming from an agency that conveys and treats wastewater to a manager of valuable resources that is recognized as an essential partner in local economic development and an important member of the watershed community seeking to deliver maximum environmental benefits at the least cost to society.  The BWT Director of Business Enterprise Systems (BES) will lead a team and strategically implement best industry practices, lead the development and implementation of Culture of Continuous Improvement Programs, and build best-in-class business systems across BWT. This senior position requires a self-motivated individual with advanced communication skills, a solid working knowledge of O&M activities (including the use of computer systems), project management procedures, budgeting,  engineering practices and construction activities (including startup and commissioning) so as to facilitate successful planning, design, construction and commissioning of both capital and expense infrastructure projects.    The BES Director reports directly to the BWT Assistant Commissioner for Capital Planning and Delivery and needs to be a strong leader in this complex business environment. The BES Director will be tasked with developing and utilizing consistent and reliable means and methods for the Bureau and Agency in the examination and tabulation of data, analysis and reports. The BES Director is expected to bring programmatic improvements to all levels of responsibility through analysis, development of Key Performance Indicators (KPIs), and adoption of industry best practices (such as Project Management Institute (PMI), Lean, Six Sigma, and other applicable programs).     As Directed by the BWT Assistant Commissioner for Capital Planning and Delivery, the Director of Business Enterprise Systems will be engaged in the following programs:  Leadership: Provide leadership and management for projects/initiatives as required, facilitating team efforts and helping to define project goals, timelines, resource requirements and planning. Utilize \u00e2\u20ac\u0153Lean\u00e2\u20ac\u009d and other management tools such as process mapping and visual management to analyze processes, track improvements, communicate, and facilitate decision-making. Lead the Capital Planning and Delivery organization in improving efficiencies and effectiveness at all levels.  Continuous Improvement: Lead the BWT continuous improvement committee to drive improved business practices, operations and work environment across the Bureau. Lead the development of performance metrics and Key Performance Indicators. Develop systems to capture and document improvement investments, savings and efficiencies gained to share within and outside our agency.  Project Management Professional Development: Align BWT with PMI principles through organizational changes and process improvement  Data and Analytics: Lead BWT\u00e2\u20ac\u2122s Data and Analytics program to aggregate and analyze data from across the Bureau effectively analyze and report out on ongoing programs, new initiatives and programs. Develop and implement analytics tools to better identify, quantify and prioritize risk, deliver services more efficiently, and increase transparency. Research trends in municipal data analytics, technology, and innovation to develop programs and institute best utility business practices at BWT.  Asset Management: Assist in the development and training of BWT staff on Asset Management tools and techniques to enhance the program from the ground up, leading to the development of data-driven and optimized decisions in maintenance planning, capital refurbish/replace, and capital investment prioritization.   Infrastructure Coordination: Facilitate project coordination between Operations and Maintenance and the Capital Project Planning and Delivery work for BWT in the Bureau of Engineering Design and Construction (BEDC) on all BWT projects. This position interfaces with all operations and maintenance teams in BWT and the Project Management, Project Control, Design, Engineering and Construction Management from BEDC; Facilitate planning efforts between Operations and Maintenance and BWSO\u00e2\u20ac\u2122s Drainage Planning Unit so that an integrated drainage plan is developed considering future needs due to system performance, City growth and resiliency; Participate as O&M advocate on project teams.  Be available to participate or lead all other capital and work order projects to quickly coordinate the resolution of issues/concerns; Direct the BWT Technical Standards Committee. Provide input regarding O&M impact of proposed new or changed standards to the TSC committee.  Actively lobby opinions from O&M field staff knowledgeable in the specifics of the agenda item proposed. Ensure project requests for deviation from the guide specification are vetted and acceptable to O&M.  Startup and Commissioning: Improve the effectiveness and efficiency of the BWT capital program administered by BEDC through development of tools and tracking mechanisms that enhance the working relationships, processes, role definitions, organizational structure and performance goal alignment. Advocate for and track BEDC\u00e2\u20ac\u2122s delivery on robust start up planning, Constructability review and Value Engineering (VE). Develops a robust program for developing and implementing: Lessons learned, recommendations for staffing allocations for effective operations of delivered capital projects, providing meaningful input in design and project development, steam line BWT input and feedback communications, and improving process O&M Manuals, Spare Parts, As-builts, and CMMS and other computer needs in the project handoff process.   Budgeting and Procurement: Provide for tools for capital and expense financial planning so that spend plans and commitment plans are successfully tracked and met.  Supports Engineering in programmatic development and tracking of bid packages, change orders, payments and contract closeouts. Interfaces with ACCO, BLA, CBMO, OMB and other financial and contracting staff within the Agency.  IMPORTANT NOTE: Interested candidates are required to file for the upcoming DCAS Civil Service exam for Administrative Project Manager.",
+                        "The NYC Department of Environmental Protection (DEP) enriches the environment and protects public health for all New Yorkers by providing high quality drinking water, managing wastewater and stormwater, and reducing air, noise, and hazardous materials pollution. DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees. DEP delivers more than 1.1 billion gallons per day of the highest quality drinking water to 8.5 million NYC residents and more than 1 million people in Upstate New York, and has a wastewater conveyance and treatment system capable of processing over 1.3 billion gallons of wastewater per day to protect the environment and the city\u00e2\u20ac\u2122s surrounding waterways. The Bureau of Engineering Design & Construction (BEDC) currently has $10B of active construction contracts and another $15B of planning and design contracts under the responsibility and management of the bureau. The projects BEDC implement allow DEP as a whole to continue to operate and maintain an exemplary water supply system.  The Program Management Office (PMO) within BEDC provides technical support to the project delivery teams.  Project Controls, Schedule Controls, Permitting Support, Sustainability Review, Cost Estimating, Specifications Oversight, and management of the enterprise Program Management Information System all fall under the purview of the PMO.   The Bureau of Engineering Design & Construction seeks to hire an Administrative Project Manager (NM) for the PMO division, located in the Lefrak City office in Elmhurst, NY to support the optimization of the PMIS system.  Continuous improvement to project delivery is key to BEDC\u00e2\u20ac\u2122s success and forms the foundation of their core values of Safety, Client Service, Quality, Budget and Schedule.  In support of these core values, BEDC has developed comprehensive Standard Operating Procedures (SOPs) that define consistent processes that each project must adhere to. Organizationally, BEDC drives ownership and oversight through a hierarchy of project focused Accountable Managers, Portfolio Managers and Capital Program Directors that are responsible for ensuring the successful planning, design, construction and closeout of their projects. Given the large number of projects requiring consistent processes and information, BEDC determined that a program-wide project and construction management information system was necessary. The objectives of the system are to improve capital project delivery by creating efficiencies in critical business processes, making information more readily available to stakeholders, streamlining efforts to setup and manage new projects and allowing for consistency in project performance management under one sustainable information technology support model.    This is an exciting opportunity to manage the development efforts and oversee the architecture of this system.  This position oversees & directs a group of business systems analysts responsible for managing current process footprint and, where applicable, partnering with BEDC staff to simplify and transform the processes in coordination with the implementation manager.  The selected candidate will be responsible for overseeing the development of dashboards and the strategic roadmap for system expansion and improvement considering e-Builder, Microsoft Power BI and Microsoft Azure product development roadmaps.  The selected candidate will be required to work with the Office of Information Technology to ensure the system is being supported and enhanced as necessary.    Qualifications will include the following:  \u00e2\u20ac\u00a2\tStrategic thinking, forward looking and ability to manage and understand tactical issues in order to lead and implement continuous process improvement. \u00e2\u20ac\u00a2\tSound business judgment, compulsive attention to detail, exceptional customer service skills and the drive to meet customer needs in a manner consistent with and in support of BEDC\u00e2\u20ac\u2122s overall strategies. \u00e2\u20ac\u00a2\tPossess strong business systems analysis and business integration background. \u00e2\u20ac\u00a2\tStrong background with enterprise systems platforms. \u00e2\u20ac\u00a2\tGood understanding of application development, quality assurance and testing technologies and processes. \u00e2\u20ac\u00a2\tExperience in developing close working relationships with business partners.  \u00e2\u20ac\u00a2\tAbility to apply conceptual knowledge of SOP processes and technology to solve complex process and procedural problems. \u00e2\u20ac\u00a2\tAbility to quickly establish credibility & foster collaborative relationships. \u00e2\u20ac\u00a2\tStrong Project Management skills and leadership abilities are required. \u00e2\u20ac\u00a2\tExcellent written and oral communication, inter-personal skills, presentation skills and team skills. \u00e2\u20ac\u00a2\tProven ability to excel in a dynamic environment with concurrent priorities. \u00e2\u20ac\u00a2\tAbility to communicate at different levels: motivate and lead staff, collaborate and problem solve with peers, inform and guide management. \u00e2\u20ac\u00a2\tWorking knowledge of business requirements across Engineering, Design, Construction, and Finance.  Specific responsibilities include:  \u00e2\u20ac\u00a2\tGain a firm understanding of the ePMIS architecture including several cloud-based solutions. \u00e2\u20ac\u00a2\tIdentify resources needed and determine individual responsibilities for development and enhancement of the PMIS system. \u00e2\u20ac\u00a2\tCreate and execute project work plans and revise as needed. \u00e2\u20ac\u00a2\tLead strategic and methodological execution of deliverables. \u00e2\u20ac\u00a2\tReview deliverables, engagement reviews and maintain quality assurance procedures. \u00e2\u20ac\u00a2\tWork in conjunction with the implementation manager and vendors, and validate the translation of business requirements into technical solutions. \u00e2\u20ac\u00a2\tDrive and coordinate vendor proposals, and recommend subsequent scope and implementation adjustments where necessary. \u00e2\u20ac\u00a2\tProvide executive-level updates on all activities. \u00e2\u20ac\u00a2\tFacilitate team and client meetings effectively, including regular status meetings with the project team (portfolio companies, implementation vendors and management team). \u00e2\u20ac\u00a2\tDevelop and continuously refine best practices and development methodology. \u00e2\u20ac\u00a2\tWork with leaders to understand and outline project timelines and expectations. \u00e2\u20ac\u00a2\tMigrate data as requested to new system. \u00e2\u20ac\u00a2\tQuality check data migration. \u00e2\u20ac\u00a2\tSet up testing end users for new software application. \u00e2\u20ac\u00a2\tCommunicate with all levels of organization and vendors. \u00e2\u20ac\u00a2\tProvide feedback to leadership on all phases of development and recommend next steps throughout. \u00e2\u20ac\u00a2\tAssists users to maximize the benefit from use of PMIS functionality. \u00e2\u20ac\u00a2\tAssists the BEDC PMO Director and ePMIS Chief with project coordination, tracking, implementation, development, training and support. \u00e2\u20ac\u00a2\tConducts continuous research and analysis into the nature, effect and results of current and potential system problems. \u00e2\u20ac\u00a2\tConducts continuous research and analysis into possible business solutions through web and enterprise technologies.  ****Only applicants who are permanent Civil Service Administrative Project Manager (NM) will be considered for this position. ****",
+                        "The NYC Department of Environmental Protection (DEP) protects public health and the environment by supplying clean drinking water, collecting and treating wastewater, and reducing air, noise, and hazardous materials pollution. DEP is the largest combined municipal water and wastewater utility in the country, with nearly 6,000 employees. DEP delivers more than 1.1 billion gallons per day of the highest quality drinking water to 8.5 million NYC residents and more than 1 million people in Upstate New York, and has a wastewater conveyance and treatment system capable of processing over 1.3 billion gallons of wastewater per day to protect the environment and the city\u00e2\u20ac\u2122s surrounding waterways. The Bureau of Engineering Design & Construction (BEDC) currently has $10B of active construction contracts and another $15B of planning and design contracts under the responsibility and management of the bureau. The projects BEDC implement allow DEP as a whole to continue to operate and maintain an exemplary water supply system.  The Program Management Office (PMO) within BEDC provides technical support to the project delivery teams.  Project Controls, Schedule Controls, Permitting Support, Sustainability Review, Cost Estimating, Specifications Oversight, and management of the enterprise Program Management Information System all fall under the purview of the PMO.   The Bureau of Engineering Design & Construction seeks to hire a Computer Associate (Operations) Level III\t  for the PMO division, located in the Lefrak City office in Elmhurst, NY to support the optimization of the PMIS system.  Continuous improvement to project delivery is key to BEDC\u00e2\u20ac\u2122s success and forms the foundation of their core values of Safety, Client Service, Quality, Budget and Schedule.  In support of these core values, BEDC has developed comprehensive Standard Operating Procedures (SOPs) that define consistent processes that each project must adhere to. Organizationally, BEDC drives ownership and oversight through a hierarchy of project focused Accountable Managers, Portfolio Managers and Capital Program Directors that are responsible for ensuring the successful planning, design, construction and closeout of their projects. Given the large number of projects requiring consistent processes and information, BEDC determined that a program-wide project and construction management information system was necessary. The objectives of the system are to improve capital project delivery by creating efficiencies in critical business processes, making information more readily available to stakeholders, streamlining efforts to setup and manage new projects and allowing for consistency in project performance management under one sustainable information technology support model.    This is an exciting opportunity to manage the development efforts and oversee the architecture of this system.  This position oversees & directs a group of business systems analysts responsible for managing current process footprint and, where applicable, partnering with BEDC staff to simplify and transform the processes in coordination with the implementation manager.  The selected candidate will be responsible for overseeing the development of dashboards and the strategic roadmap for system expansion and improvement considering e-Builder, Microsoft Power BI and Microsoft Azure product development roadmaps.  The selected candidate will be required to work with the Office of Information Technology to ensure the system is being supported and enhanced as necessary.    Qualifications will include the following:  \u00e2\u20ac\u00a2\tStrategic thinking, forward looking and ability to manage and understand tactical issues in order to lead and implement continuous process improvement. \u00e2\u20ac\u00a2\tSound business judgment, compulsive attention to detail, exceptional customer service skills and the drive to meet customer needs in a manner consistent with and in support of BEDC\u00e2\u20ac\u2122s overall strategies. \u00e2\u20ac\u00a2\tPossess strong business systems analysis and business integration background. \u00e2\u20ac\u00a2\tStrong background with enterprise systems platforms. \u00e2\u20ac\u00a2\tGood understanding of application development, quality assurance and testing technologies and processes. \u00e2\u20ac\u00a2\tExperience in developing close working relationships with business partners.  \u00e2\u20ac\u00a2\tAbility to apply conceptual knowledge of SOP processes and technology to solve complex process and procedural problems. \u00e2\u20ac\u00a2\tAbility to quickly establish credibility & foster collaborative relationships. \u00e2\u20ac\u00a2\tStrong Project Management skills and leadership abilities are required. \u00e2\u20ac\u00a2\tExcellent written and oral communication, inter-personal skills, presentation skills and team skills. \u00e2\u20ac\u00a2\tProven ability to excel in a dynamic environment with concurrent priorities. \u00e2\u20ac\u00a2\tAbility to communicate at different levels: motivate and lead staff, collaborate and problem solve with peers, inform and guide management. \u00e2\u20ac\u00a2\tWorking knowledge of business requirements across Engineering, Design, Construction, and Finance.  Specific responsibilities include:  \u00e2\u20ac\u00a2\tGain a firm understanding of the ePMIS architecture including several cloud-based solutions. \u00e2\u20ac\u00a2\tIdentify resources needed and determine individual responsibilities for development and enhancement of the PMIS system. \u00e2\u20ac\u00a2\tCreate and execute project work plans and revise as needed. \u00e2\u20ac\u00a2\tLead strategic and methodological execution of deliverables. \u00e2\u20ac\u00a2\tReview deliverables, engagement reviews and maintain quality assurance procedures. \u00e2\u20ac\u00a2\tWork in conjunction with the implementation manager and vendors, and validate the translation of business requirements into technical solutions. \u00e2\u20ac\u00a2\tDrive and coordinate vendor proposals, and recommend subsequent scope and implementation adjustments where necessary. \u00e2\u20ac\u00a2\tProvide executive-level updates on all activities. \u00e2\u20ac\u00a2\tFacilitate team and client meetings effectively, including regular status meetings with the project team (portfolio companies, implementation vendors and management team). \u00e2\u20ac\u00a2\tDevelop and continuously refine best practices and development methodology. \u00e2\u20ac\u00a2\tWork with leaders to understand and outline project timelines and expectations. \u00e2\u20ac\u00a2\tMigrate data as requested to new system. \u00e2\u20ac\u00a2\tQuality check data migration. \u00e2\u20ac\u00a2\tSet up testing end users for new software application. \u00e2\u20ac\u00a2\tCommunicate with all levels of organization and vendors. \u00e2\u20ac\u00a2\tProvide feedback to leadership on all phases of development and recommend next steps throughout. \u00e2\u20ac\u00a2\tAssists users to maximize the benefit from use of PMIS functionality. \u00e2\u20ac\u00a2\tAssists the BEDC PMO Director and ePMIS Chief with project coordination, tracking, implementation, development, training and support. \u00e2\u20ac\u00a2\tConducts continuous research and analysis into the nature, effect and results of current and potential system problems. \u00e2\u20ac\u00a2\tConducts continuous research and analysis into possible business solutions through web and enterprise technologies.  ****Only applicants who are permanent Civil Service Computer Associate (Operations) will be considered for this position. ****"
+                    ],
+                    "average_length": 2448.280579885231
+                }
+            ]
+        },
+        {
+            "column_name": "Minimum Qual Requirements",
+            "number_non_empty_cells": 3287,
+            "number_empty_cells": 24,
+            "number_distinct_values": 343,
+            "frequent_values": [
+                "1. A baccalaureate degree from an accredited college and two years of experience in community work or community centered activities in an area related to the duties described above; or  2. High school graduation or equivalent and six years of experience in community work or community centered activities in an area related to the duties as described above; or  3. Education and/or experience which is equivalent to \"1\" or \"2\" above. However, all candidates must have at least one year of experience as described in \"1\" above.",
+                "1. Admission to the New York State Bar; and either \"2\" or \"3\" below.  2. One year of satisfactory United States legal experience subsequent to admission to any state bar; or   3. Six months of satisfactory service as an Agency Attorney Interne (30086).    Incumbents must remain Members of the New York State Bar in good standing for the duration of this employment.  In addition to meeting the minimum Qualification Requirements:  To be assigned to Assignment Level (AL) II, candidates must have one year of experience at Assignment Level I or two years of comparable legal experience subsequent to admission to the bar, in the areas of law related to the assignment. To be assigned to AL III candidates must have two years of experience in Assignment Levels I and/or II or three years of comparable legal experience subsequent to admission to the bar, in the areas of law related to the assignment.",
+                "(1) Four (4) years of full-time, satisfactory experience in civil engineering work; and   (2) A valid New York State Professional Engineer\u00e2\u20ac\u2122s License. Current New York State registration as a Professional Engineer must be maintained for the duration of your employment.    A masters degree in civil engineering from an accredited college or university, accredited by regional, national, professional or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) may be substituted for one year of the civil engineering experience required in \u00e2\u20ac\u01531\" above.  Special Note:  In addition to above qualification requirements, to be eligible for placement in Assignment Levels II and III, individuals must have at least one year within the last three years of experience as a major contributor or a project leader on a complex project requiring additional and specific expertise in the disciplines needed to design or construct the project.",
+                "Qualification Requirements  1. High school graduation or equivalent and three years of experience in community work or community centered activities in an area related to duties described above; or  2. Education and/or experience which is equivalent to \"1\" above.",
+                "1.  For Assignment Level I (only physical, biological and environmental sciences and public health) A master's degree from an accredited college or university with a specialization in an appropriate field of physical, biological or environmental science or in public health.  To be appointed to Assignment Level II and above, candidates must have:  1. A doctorate degree from an accredited college or university with specialization in an appropriate field of physical, biological, environmental or social science and one year of full-time experience in a responsible supervisory, administrative or research capacity in the appropriate field of specialization; or  2. A master's degree from an accredited college or university with specialization in an appropriate field of physical, biological, environmental or social science and three years of responsible full-time research experience in the appropriate field of specialization; or  3. Education and/or experience which is equivalent to \"1\" or \"2\" above. However, all candidates must have at least a master's degree in an appropriate field of specialization and at least two years of experience described in \"2\" above. Two years as a City Research Scientist Level I can be substituted for the experience required in \"1\" and \"2\" above.    NOTE:  Probationary Period  Appointments to this position are subject to a minimum probationary period of one year."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3287,
+                    "shortest_values": [
+                        "Must have a college degree",
+                        "A baccalaureate degree from an accredited college.",
+                        "1. A valid New York State Registered Nurse License.",
+                        "1. A baccalaureate degree from an accredited college.",
+                        "One year of permanent service in the title of Housing Caretaker."
+                    ],
+                    "longest_values": [
+                        "1. A doctorate in clinical psychology, counseling psychology, school psychology, forensic psychology, clinical health psychology or neuro-psychology from an accredited college or university, accredited by regional, national, professional or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA); or  2. Completion of two years of graduate work from an accredited college or university, accredited by regional, national, professional or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA), consisting of at least 60 graduate semester credits in psychology, in an accredited graduate program leading to a doctoral degree in clinical psychology, counseling psychology, school psychology, forensic psychology, clinical health psychology or neuro-psychology, plus two years of satisfactory full-time experience, gained after admission to the accredited graduate program, in one of these areas under the supervision of a licensed psychologist or psychiatrist in a hospital, penal institution, social services agency, clinic, court, school or other agency or institution; or  3. Completion of a respecialization in clinical psychology from an accredited program, accredited by regional, national, professional or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA) plus one year of satisfactory full-time experience as described in (2) above.  To qualify, all candidates must have completed the equivalent of three semester credits from an accredited graduate school, accredited by regional, national, professional or specialized agencies recognized as accrediting bodies by the U.S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA), in each of the following: personality testing, individual intelligence testing, psychopathology or abnormal psychology, and psychological and/or behavioral intervention; and all candidates must have 240 hours of experience, under the supervision of a licensed psychologist, in each of the following: personality testing, individual intelligence testing, and psychological and/or behavioral intervention. However, experience in psychological and/or behavioral intervention may be under the supervision of a licensed psychiatrist.  Completion of an American Psychological Association (APA) approved doctoral program in professional psychology is evidence of meeting the course requirements listed above. Completion of an APA approved internship in professional psychology is evidence of meeting one year of supervised full-time experience.  Externships are part of a doctoral program and will not be accepted for meeting minimum experience requirements.  Experience gained prior to admission into the required graduate program will also not be accepted for meeting minimum experience requirements.  For assignment to Assignment Level II, individuals must have the following in addition to meeting the minimum Qualification Requirements for Assignment Level I described above:  A. A doctoral degree in clinical psychology, counseling psychology, school psychology, forensic psychology, clinical health psychology or neuro-psychology, awarded upon completion of a doctoral program in psychology registered by the New York State Department of Education and designated as licensure qualifying, or determined by the Department to be the substantial equivalent to a New York State registered program that is licensure qualifying; and   B. One additional year of satisfactory full-time experience, either working as a Psychologist for the City of New York, or in a supervisory capacity in clinical psychology, counseling psychology, school psychology, forensic psychology, clinical health psychology or neuro-psychology in an approved agency or institution. Employees who complete their doctoral degree requirements on or after October 1, 1992, must have at least one year of qualifying experience gained after the completion of all doctoral degree requirements; and  For assignment to Assignment Level III, individuals must have the following in addition to meeting the minimum Qualification Requirements for Assignment Level I described above:  A. The doctoral degree in psychology as described under the Special Note for Assignment Level II; and  B. A valid license as a Psychologist issued by the New York State Department of Education; and  C. Four years of satisfactory full-time experience in clinical psychology, counseling psychology, school psychology, forensic psychology, clinical health psychology or neuro-psychology, of which at least one year must have been under the direct supervision of a qualified psychologist or psychiatrist, and at least three years must have been in a supervisory capacity as a licensed Psychologist.  D. License Requirement for Assignment Level III  For assignment to Assignment Level III, a valid license as a Psychologist issued by the New York State Department of Education. This license must be maintained for the duration of the assignment.",
+                        "A. A baccalaureate degree from an accredited college with a major in geology, engineering, earth sciences, environmental sciences, or a closely related field, including or supplemented by 24 semester credits in any of the following areas: rock and soil mechanics; structural geology; soils; sedimentation; petrology; hydrology; hydrogeology; geomorphology; subsurface explorations; mining; engineering; mapping; surveying; site investigations; geologic field work; or closely related areas; and   B. At least one course involving geologic field work or three months of satisfactory, full-time professional geologic field experience obtained during the course of, or after completing, the baccalaureate education.  A Motor Vehicle Driver License valid in the State of New York is required. This license must be maintained throughout the duration of employment.                                                                                                 Special Note:   1. Employees hired as Geologist - Assignment Level  I  must satisfactorily complete a probationary period of at least 24 months.  This probationary period may be extended in accordance with the Personnel Rules and Regulations of the City of New York.  Employment may be terminated at any time during the probationary period.  Upon satisfactory completion of one year of training in beginning level professional work in geology, employees will be assigned to perform the full range of work in geology of moderate difficulty and responsibility appropriate to Assignment Level  I  and will receive the  \"after one year in title\" salary rate.    2. Employees with one year of satisfactory, post-baccalaureate, full-time professional experience in geology, engineering, earth sciences, environmental sciences, or a closely related field may be hired directly at the  \"after one year in title\"  salary rate, at the discretion of the hiring agency.  Assignment Level II  A. To be eligible for placement in Assignment Level II, individuals must have, after meeting the minimum requirements described in Assignment Level I, at least two years of satisfactory service as a Geologist AL I with the City of New York; or  B. At least three years of satisfactory, full-time professional experience in geology, engineering, earth sciences, environmental sciences, or a closely related field. One year of this experience must include the provision of geologic consultation or the supervision or performance monitoring of persons involved in geologic activity; or  C. A satisfactory equivalent combination of education and experience. A masters degree from an accredited college with a major in one of the fields listed in \"Assignment Level I - Qualification Requirement A\" above may be substituted for two years of the AL II professional experience. A masters degree from an accredited college in management, public administration, business administration, or a closely related field may be substituted for the one year of consultative or supervisory experience described above.  Qualifications Requirements for  Tunnel and Shaft Construction Positions:   In addition to meeting the above requirements for Assignment Level  I,  candidates for Assignment Level  I  tunnel and shaft construction positions must have six months of full-time professional experience in each of two of the following areas:  rock and soil classification;  mapping of underground joint sets and faults;  or analysis of vibration monitoring to protect existing structures.  This experience may be substituted for the experience described in the  \"Special Note 2\"  above.  In addition to meeting the requirements for tunnel and shaft construction positions in AL I,  candidates for tunnel and shaft construction positions in AL  II  must have six months of experience in each of three of the following areas:  interpretation of geologic data for recommendations of shaft and tunnel support systems;  analysis of the engineering behavior of jointed rock in response to tunneling and shaft sinking;  writing of specifications for geologic exploration contracts;  or preparation of payment estimates for exploratory contract work.  This experience may be substituted for up to two years of the non-consultative experience described in  \"Qualification Requirements for AL  II\"  above.",
+                        "1. An associate degree or completion of 60 semester credits from an accredited college or university, including or supplemented by 6 semester credits in mathematics, statistics, accounting, and/or actuarial science; or    2. A four-year high school diploma or its educational equivalent and one year of satisfactory full-time experience implementing the provisions of a workers\u00e2\u20ac\u2122 compensation or retirement or medical benefits plan, involving the use of mathematical, statistical, actuarial, or accounting computations; or    3. A combination of education and/or experience equivalent to \u00e2\u20ac\u01531\" or \u00e2\u20ac\u01532\" above. Satisfactory completion of 30 semester credits from an accredited college, including 3 semester credits in mathematics, statistics, accounting and/or actuarial science may be substituted for 6 months of the full-time experience as described in \u00e2\u20ac\u01532\" above. However, all candidates must possess at least a four-year high school diploma or its educational equivalent.    SPECIAL NOTE:  A. Upon completion of one year of satisfactory continuous service in Assignment Level Ia, employees shall be assigned to Assignment Level Ib.  B. To be eligible for placement in Assignment Level Ib or II, individuals must have, in addition to meeting the minimum requirements, either:  1. One additional year of satisfactory full-time experience implementing the provisions of a workers' compensation or retirement or medical benefits plan involving the use of mathematical, statistical, actuarial, or accounting computations; or  2. A baccalaureate degree from an accredited college including or supplemented by 6 semester credits in mathematics, statistics, accounting and/or actuarial science.    SPECIAL NOTE:  A. Upon completion of one year of satisfactory continuous service in Assignment Level Ia, employees shall be assigned to Assignment Level Ib.  B. To be eligible for placement in Assignment Level Ib or II, individuals must have, in addition to meeting the minimum requirements, either:  1. One additional year of satisfactory full-time experience implementing the provisions of a workers' compensation or retirement or medical benefits plan involving the use of mathematical, statistical, actuarial, or accounting computations; or  2. A baccalaureate degree from an accredited college including or supplemented by 6 semester credits in mathematics, statistics, accounting and/or actuarial science.    SPECIAL NOTE:    C. To be eligible for placement in Assignment Level III, individuals must have, in addition to meeting the minimum requirements, either:  1. Two additional years of full-time experience as described in \"Note B. 1\" above; or  2. A baccalaureate degree from an accredited college including or supplemented by 6 semester credits in mathematics, statistics, accounting and/or actuarial science and one additional year of satisfactory full-time experience as described in \"Note B. 1\" above.    SPECIAL NOTE:    C. To be eligible for placement in Assignment Level III, individuals must have, in addition to meeting the minimum requirements, either:  1. Two additional years of full-time experience as described in \"Note B. 1\" above; or  2. A baccalaureate degree from an accredited college including or supplemented by 6 semester credits in mathematics, statistics, accounting and/or actuarial science and one additional year of satisfactory full-time experience as described in \"Note B. 1\" above.",
+                        "1. A four-year high school diploma or its educational equivalent approved by a State\u00e2\u20ac\u2122s Department of Education or a recognized accrediting organization, and five years of full-time satisfactory experience managing and/or inspecting one or more construction projects which must have a total cost of at least $300,000 for each of the five years of the required experience; or  2. One year of the experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above and a baccalaureate degree from an accredited college or university, accredited by regional, national, professional or specialized agencies recognized as accrediting bodies by the U. S. Secretary of Education and by the Council for Higher Education Accreditation (CHEA), in engineering, engineering technology, architecture, architectural technology, landscape architecture, construction, construction technology, or construction management; or  3. One year of the experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above and a valid license as a professional engineer, registered architect, or registered landscape architect, issued by a board of examining engineers, architects, or landscape architects duly established and qualified pursuant to the laws of any state or territory of the United States; or  4. A four-year high school diploma or its educational equivalent approved by a State's Department of Education or a recognized accrediting organization, and a combination of at least two years of experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above and the education as described in \u00e2\u20ac\u01532\u00e2\u20ac\u009d above to equal a total of five years of education and experience. Matriculation in an undergraduate college degree program as described in \u00e2\u20ac\u01532\u00e2\u20ac\u009d above may be substituted for experience on the basis of 30 semester credits for one year of satisfactory full-time experience up to a maximum of three years of experience.     Note: Candidates must specify for each construction project they worked on: a description of the construction project, the time period they worked on the construction project, and the type of work they performed. Candidates must also specify the money allotted for the project.    Driver License Requirement: At the time of appointment to this position, you must have a motor vehicle driver license valid in the State of New York. If you have moving violations, license suspension or an accident record, you may be disqualified. This license must be maintained for the duration of your employment.    5. For Assignment to Level II, In addition to meeting the \"Qualification Requirements\" above, candidates must have one additional year of satisfactory full-time experience working in Assignment Level I; or one additional year of satisfactory full-time experience as described in \"1\" above.  6.  For Assignment to Level III, in addition to meeting the Qualification Requirements for Construction Project Manager, candidates must have two additional years of satisfactory full-time experience working in Construction Project Manager Assignment Level I and II; or two additional years of satisfactory full-time experience as described in question \"1\" above and possess a motor vehicle driver license valid in the State of New York which must be maintained for the duration of employment noting that if you have moving violations, license suspension or an accident record, you may be disqualified.",
+                        "1. 1. A four year high school diploma or its educational equivalent approved by a State\u00e2\u20ac\u2122s department of education or a recognized accrediting organization, and two years of full-time satisfactory experience working directly with juveniles or young adults (ages 10-24) in a group, community, educational, or institutional setting or program performing recreational, juvenile detention, vocational, mentoring, or anti-violence work; or youth leadership development, young adult leadership development, youth and family health promotion, community organizing with youth and families, and/or closely related activities, which can include internships, volunteer work, athletic programs, or closely related experience; or   2. An associate degree from an accredited college or completion of 60 semester credits of study at an accredited college, including or supplemented by one year and three months of full-time satisfactory experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above; or  3. An associate degree from an accredited college or completion of 60 semester credits of study at an accredited college, including or supplemented by 12 semester credits in social work, counseling, education, recreation, criminal justice, psychology, biology, sociology, human services or a closely related field; and nine months of full-time satisfactory experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above; or  4. A baccalaureate degree from an accredited college including or supplemented by at least six months experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above; or  5. A baccalaureate degree from an accredited college including or supplemented by 12 semester credits in social work, counseling, education, recreation, criminal justice, psychology, biology, sociology, human services or a closely related field; or  6. A satisfactory combination of education and/or experience equivalent to \u00e2\u20ac\u01531\u00e2\u20ac\u009d, \u00e2\u20ac\u01532\u00e2\u20ac\u009d, or \u00e2\u20ac\u01533\u00e2\u20ac\u009d above: a. Honorable full-time United States military service commanding young adults (up to age 24) may be substituted for experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above, on a year-for-year basis, up to a maximum of two years of military service for two years of experience; b. Academic coursework in social work, counseling, education, recreation, criminal justice, psychology, biology, sociology, human services or a closely related field may be substituted for experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above, at the rate of 12 semester credits from an accredited college for 6 months of experience; c. General undergraduate education may be substituted for experience as described in \u00e2\u20ac\u01531\u00e2\u20ac\u009d above, at the rate of 60 semester credits from an accredited college for 9 months of experience;  However, all candidates must possess a four year high school diploma or its educational equivalent."
+                    ],
+                    "average_length": 1073.7550958320658
+                }
+            ]
+        },
+        {
+            "column_name": "Preferred Skills",
+            "number_non_empty_cells": 2840,
+            "number_empty_cells": 471,
+            "number_distinct_values": 1406,
+            "frequent_values": [
+                "ERROR: #NAME?",
+                "Interested candidates should have excellent written and verbal communication skills, effective problem-solving skills, and the ability to prioritize, manage time, and engage in multiple tasks in a fast-paced environment. Although not required, the successful applicant will likely have one or more of the following academic or professional experiences: litigation, and/or customer relations.  Bilingual proficiency preferred.",
+                "Ability to communicate effectively in verbal and written form.",
+                "1. A valid New York State license as a Professional Engineer. 2. Demonstrated three or more years of experience with redevelopment of landfill or environmentally compromised properties. Substantial work experience in the area of construction, including scheduling and coordination of several projects simultaneously.  3. Excellent supervisory, communication, administrative and interpersonal skills. 4. Three or more years\u00e2\u20ac\u2122 experience with the New York State Department of Environmental Conservation regulations and procedures for waste management, environmental cleanups and work permits. 5. Proficiency in Microsoft Word and Excel.  6. A driver license valid in New York State.",
+                "1.\tExperience with public housing.  2.\tExperience performing lead-based paint correction and remediation work for public or private large landlord or contractor. 3.\tExperience using wireless handheld computer devices to record data. 4.\tBasic computer skills; experience using Microsoft Outlook."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2840,
+                    "shortest_values": [
+                        "Reporting",
+                        "ERROR: #NAME?",
+                        "NYS Driver License",
+                        "1.\tKnowledge of IMP",
+                        "\u00e2\u20ac\u00a2\tBi-lingual."
+                    ],
+                    "longest_values": [
+                        "The ideal candidate will be an excellent leader and have experience in managing staff of different disciplines, working with DoITT ARMs (Agency Relationship Managers), BRM (Business Relations Managers), SQM (Service & Quality Management, EASA (Enterprise & Solution Architect), BSD (Business Solutions Delivery), Citywide Service Desk, and the various technical teams from IM (Infrastructure Management), to produce results in a timely manner. Must also be able to develop competent product strategies, processes, and policies.   The preferred candidate should possess the following:  \u00e2\u20ac\u00a2\tBachelor\u00e2\u20ac\u2122s degree in a related IT field or Business Management;  \u00e2\u20ac\u00a2\t10+ years\u00e2\u20ac\u2122 experience in a specialized role that includes technical implementation, support, and maintenance of large scale n-tier applications;  \u00e2\u20ac\u00a2\tExperience implementing a SaaS Service Management solution and migrating from an on premise solution; \u00e2\u20ac\u00a2\tProven ability to build, manage and foster a team-oriented environment; \u00e2\u20ac\u00a2\tProven ability to work creatively and analytically in a problem-solving environment; \u00e2\u20ac\u00a2\tDesire to work in an information systems environment; \u00e2\u20ac\u00a2\tExcellent communication (written and oral) and interpersonal skills; \u00e2\u20ac\u00a2\tExcellent leadership and management skills; \u00e2\u20ac\u00a2\tWork with the Service Management team, manages relationships, operating procedures, and service level agreements with clients and coworkers necessary to facilitate a cross technical, cross agency, enterprise model application; \u00e2\u20ac\u00a2\tExperienced in the System Development Life Cycle (SDLC) processes including and understanding of client requirement analysis and system design; \u00e2\u20ac\u00a2\tProject/Program Management experience of cross-functional teams in the SDLC is important, doing so for SaaS implementations is a plus; \u00e2\u20ac\u00a2\tExperienced in overseeing the design and implementation of IT and Non-IT related process workflows, procedures and technical standards; \u00e2\u20ac\u00a2\tExperience creating governance and support models; \u00e2\u20ac\u00a2\tPersonnel management experience; \u00e2\u20ac\u00a2\tExperience creating and maintaining product roadmaps and/or product strategy is a plus; \u00e2\u20ac\u00a2\tDemand management and Project Portfolio Management processes and tools; \u00e2\u20ac\u00a2\tProject Management Professional certification is not required, but nice to have; \u00e2\u20ac\u00a2\tInformation Technology Infrastructure Library (ITIL) certification is a big plus; Abilities: \u00e2\u20ac\u00a2\tMake decisions and push back/move forward when needed; \u00e2\u20ac\u00a2\tLearn and train up on new Software Applications; \u00e2\u20ac\u00a2\tGather, interpret, and communicate complex ideas; \u00e2\u20ac\u00a2\tUnderstand business concepts and issues as well as technical systems processes; \u00e2\u20ac\u00a2\tCommunicate professionally, concisely and effectively, both verbally and in writing; \u00e2\u20ac\u00a2\tGenerate technical but user-friendly documents; \u00e2\u20ac\u00a2\tInteract with internal/external customers; \u00e2\u20ac\u00a2\tWork in cross functional teams to provide the best solution; \u00e2\u20ac\u00a2\tManage multiple tasks under tight deadlines; \u00e2\u20ac\u00a2\tInterface with executive level management and give senior level presentations.",
+                        "\u00e2\u20ac\u00a2\tA master's degree from an accredited college in economics, business or public administration, management science, operations research, organizational behavior, industrial psychology, statistics, sociology, political science, mathematics, public policy, computer science or a closely related field; with at least one (1) years of related work experience,  or \u00e2\u20ac\u00a2\tA baccalaureate degree from an accredited college and demonstrated equivalent expertise in a responsible supervisory, administrative or research capacity in the appropriate field of specialization, with at least three (3) years of related work experience. \u00e2\u20ac\u00a2\tStrong quantitative and problem-solving skills; experience with empirical methods and data analytics including working with large, complex micro - data sets, building applied statistics or econometrics models, and/or conducting research. \u00e2\u20ac\u00a2\tStrong technical expertise regarding data models, database design development, data mining and segmentation techniques desired.  Strong knowledge of and experience with reporting packages (Business objects etc.), database (SQL etc), programming (XML, javascript, or El frameworks) preferred.   \u00e2\u20ac\u00a2\tDemonstrated ability to produce System documentation, End-user documentation, ERDs, and workflows.  \u00e2\u20ac\u00a2\tStrong analytical skills with the ability to collect, organize, analyze, and disseminate significant amount of information with attention to detail and accuracy. \u00e2\u20ac\u00a2\tAbility to take initiative, prioritize duties, problem solve, work independently and within a team environment, pay close attention to detail, meet deadlines, do appropriate follow-up, work well under pressure and maintain an enthusiastic work ethic. This includes maintaining a positive and helpful attitude and a proven capacity in project management skills, including organizing and strategic planning.  \u00e2\u20ac\u00a2\tAbility to think outside of the box and develop novel strategies for analysis.   This includes the ability to distill complex material into actionable recommendations.   \u00e2\u20ac\u00a2\tExcellent written and oral communication skills.  Adept at queries, report writing, and presenting findings. \u00e2\u20ac\u00a2\tAbility to interface with all supervisory and frontline staff, including senior management and other respective stakeholders both in and outside government.  Communicates effectively to non-technical teams and thrives in a dynamic environment. \u00e2\u20ac\u00a2\tProficiency in SAS, STATA, SQL, R, SPSS (and/or other statistical software), Python or other programming languages with associated documentation.  \u00e2\u20ac\u00a2\tProficiency in MS Excel (Pivot, Advanced functions: INDEX/MATCH, VLOOKUP, HLOOKUP, etc.), MS Access, MS Project, Visio and other products in MS Suite \u00e2\u20ac\u00a2\tCritical and proactive thinker with capacity to learn programming languages will be strongly considered. \u00e2\u20ac\u00a2\tInterest in New York City policy and operations, a plus.",
+                        "The preferred candidate should possess the following: \u00e2\u20ac\u00a2\tA bachelor's or master's degree in computer science or business administration is preferred, but not required; \u00e2\u20ac\u00a2\t5 to 7 years of experience in IT and business or government technology product, service delivery, or program experience with a strong history of delivering customer requirements in a range of specialties and multidisciplinary teams; \u00e2\u20ac\u00a2\tFamiliarity with CRM, mobile, API, and portal technologies; \u00e2\u20ac\u00a2\tDemonstrated product management principles and approaches, i.e., translating user needs into deliverables, defines MVPs, writes stories, and acceptance criteria; \u00e2\u20ac\u00a2\t3+ years in diverse roles and increasing responsibilities across business and IT; \u00e2\u20ac\u00a2\t4+ years of Agile project or team management experience; \u00e2\u20ac\u00a2\tKnowledge of the different phases of product delivery and can contribute to planning or running these products, including leading a team and working closely with other operational delivery teams throughout the product lifecycle; \u00e2\u20ac\u00a2\tAbility to maintain and iterate a product or process through the delivery phases (through to go-live and into retirement) and iterate it over time to continuously meet user needs; \u00e2\u20ac\u00a2\tUnderstand and is aware of incident management and service support so that products are built effectively; \u00e2\u20ac\u00a2\tProblem solver with the ability to identify, analyze, classify and prioritize problems and their solutions; \u00e2\u20ac\u00a2\tStrong verbal & written communication skills; \u00e2\u20ac\u00a2\tExperience with strategic ownership and engaging executives and other stakeholders to support ambitious visions and strategies focused on outcomes, not solutions; \u00e2\u20ac\u00a2\tDemonstrate a user focus, understands who they are and what their needs are based on evidence. Able to translate user stories and propose design approaches or services to meet these needs; \u00e2\u20ac\u00a2\tExperience with MS Dynamics CRM, strong relationship management, team management, planning, and project management skills, demonstrated experience working with technical and non-technical people, outstanding collaboration and team building skills, excellent organization, presentation, and facilitation skills; \u00e2\u20ac\u00a2\tUser-Centered design skills within the technology and data realms are a definite plus; \u00e2\u20ac\u00a2\tDevelop and pitch business cases to secure and manage funding for agile delivery; \u00e2\u20ac\u00a2\tCapable of prioritizing spending based on return on investment (ROI) and strategy; \u00e2\u20ac\u00a2\tThis position emphasizes an entrepreneurial spirit, independent and creative thinking, and leadership through collaboration, not authority; \u00e2\u20ac\u00a2\tAbility to understand and work within the given constraints and to challenge those that can be changed; \u00e2\u20ac\u00a2\tMust ensure compliance of the products and services.",
+                        "The preferred candidate should possess the following:  \u00e2\u20ac\u00a2\tBS/BA degree in business, management information systems, computer science, or related field;  \u00e2\u20ac\u00a2\tAssociates degree with equivalent experience may be acceptable in some cases;  \u00e2\u20ac\u00a2\t4 years of relevant forensic or cyber security related experience;  \u00e2\u20ac\u00a2\tMinimum 4+ years\u00e2\u20ac\u2122 experience in operational IT and audit/consulting, specifically performing penetration testing and vulnerability assessment engagements required;  \u00e2\u20ac\u00a2\tMinimum 3+ years\u00e2\u20ac\u2122 of progressively responsible full-time paid experience administering computer operations involving a large-scale third generation computer at least 12 months of which shall have been in a managerial capacity;  \u00e2\u20ac\u00a2\tMaster of Business Administration, Master of Public Administration or any other master\u00e2\u20ac\u2122s degree in Management of Administration may be substituted for an additional year of general work experience; \u00e2\u20ac\u00a2\tHowever, all candidates must possess the 12 months of administrative or managerial experience described above; \u00e2\u20ac\u00a2\tExperience in an IT security role, analyzing multiple aspects of information security for organizations; \u00e2\u20ac\u00a2\tPreferred certifications include GSEC, GCIH, GPEN, OSCP, OSCE, OSWP, CISA, CISM, and CISSP.  \u00e2\u20ac\u00a2\tExcellent verbal and written communication skills; \u00e2\u20ac\u00a2\tKnowledge of current and evolving cyber threat landscape;  \u00e2\u20ac\u00a2\tKeen attention to detail; Experience in data analysis and technology reporting;  \u00e2\u20ac\u00a2\tKnowledge of laws, regulations, policies, and ethics as they relate to cybersecurity and privacy;  \u00e2\u20ac\u00a2\tKnowledge of cybersecurity and privacy principles;  \u00e2\u20ac\u00a2\tKnowledge of cyber threats and vulnerabilities;  \u00e2\u20ac\u00a2\tKnowledge of specific operational impacts of cybersecurity lapses;  \u00e2\u20ac\u00a2\tKnowledge of industry-standard and organizationally accepted analysis principles and methods;  \u00e2\u20ac\u00a2\tKnowledge of information technology (IT) architectural concepts and frameworks; \u00e2\u20ac\u00a2\tKnowledge of Risk Management Framework (RMF) requirements;  \u00e2\u20ac\u00a2\tKnowledge of Supply Chain Risk Management Practices (NIST SP 800-161);  \u00e2\u20ac\u00a2\tKnowledge of risk/threat assessment;  \u00e2\u20ac\u00a2\tKnowledge of service management concepts for networks and related standards (e.g., Information Technology  \u00e2\u20ac\u00a2\tInfrastructure Library, current version [ITIL]);  \u00e2\u20ac\u00a2\tKnowledge of identifying measures or indicators of system performance and the actions needed to improve or correct performance, relative to the goals of the system;  \u00e2\u20ac\u00a2\tCFE license;  \u00e2\u20ac\u00a2\tAbility to conduct audits or review of technical systems;  \u00e2\u20ac\u00a2\tAbility to ensure cybersecurity policies and standards are implemented and compliance is tracked;  \u00e2\u20ac\u00a2\tStrong investigative and analytical skills.",
+                        "\u00e2\u20ac\u00a2 Experienced as a Developer/ Architect on at least (2) full life cycle project iteration: \u00e2\u20ac\u00a2 Designing and developing large scale architectures consisting of distributed services and applications executing in UNIX based Java/Web applications and using Java EE with Oracle as the primary DB. \u00e2\u20ac\u00a2 Good understanding of Oracle structures for processing and performance based applications \u00e2\u20ac\u00a2 Thorough understanding of advanced SQL programming and performance techniques. (e.g., ability to write and troubleshoot anonymous SOL blocks and stored procedures and author complex SQL for troubleshooting and production purposes). Candidate should be proficient in authoring quality SQL which takes advantage of Oracle performance features and facilities. \u00e2\u20ac\u00a2 Strong HTML and Javascript development skills not only from the ability to code but the ability to understand the best design approaches. \u00e2\u20ac\u00a2 Proficiency in using and navigating in UNIX. This should include intermediate to advanced Unix commands, understanding directory structures, permissions schemes and the ability to piece together useful tools from basic Unix commands. Advanced in developing new and modifying existing shell scripts. Proficiency in Korn Shell. \u00e2\u20ac\u00a2 Strong Java programming skills including the development and analysis of Java classes, EJB's, MDB's. Should also understand how to create a complete Java or J2EE application including all supporting configuration components for deployment (.EAR ,WAR., CLASSPATH, Deployment Descriptors etc.) a MUST. \u00e2\u20ac\u00a2 Good understanding of standard SDLC methodologies \u00e2\u20ac\u00a2 Background in accounting and budgeting packages is a plus. \u00e2\u20ac\u00a2 Strong analytical and problem solving skills. \u00e2\u20ac\u00a2 Excellent written and verbal communication skills a must. \u00e2\u20ac\u00a2 Experience in Mainframe development (JCL, CICS, TSO, COBOL, DB2) is a plus.   Experience (yrs) \t\t\t\tLanguages 3 \t\t\t\tJava, HTML, JavaScript, SQL, Kom Shell, XMLfXSLT plus++ \t\t\tPL/SQL                                           Technologies and Frameworks 3 \t\t\t\tJava EE plus++\t\t\t\t Financial ERP (any)                                                     Development Platforms plus++\t\t        IBM Rational Application Developer                                                           Messaging 2 \t\t\t\tJMS, Messaging Driven Beans (MDB-EJB) plus++ \t\t\tMQ Series                                                  Application Servers 2 \t\t\t\tIBM WebSphere 8.5 + (proficient in WAS interaction with apps)                                                         Database 3\t\t\t\t Oracle plus++ \t\t\tDB2                                               Software and Task Management plus++\t\t        Rational Clearquest, Rational Clearcase, BMC Remedy"
+                    ],
+                    "average_length": 652.9901408450704
+                }
+            ]
+        },
+        {
+            "column_name": "Additional Information",
+            "number_non_empty_cells": 2049,
+            "number_empty_cells": 1262,
+            "number_distinct_values": 718,
+            "frequent_values": [
+                "Appointments are subject to OMB approval. For additional information about DEP, visit www.nyc.gov/dep  DEP is an equal opportunity employer with a strong commitment to the diversity of our organization and workforce. Your voluntary response to the NYCAPS on-line application section for referral information will assist us tremendously in our ability to track the success of our outreach and recruitment efforts. Please be sure to indicate your source of referral to this job.  NOTE: This position is open to qualified persons with a disability who are eligible for the 55-a Program and also meet the education and experience requirements as listed in the job posting notice. Please indicate on your resume or cover letter that you would like to be considered for the position under the 55-a Program. This position is also open to non 55-a Program candidates who meet the education and experience requirements as listed in the job posting notice.",
+                "NYCHA employees applying for promotional, title or level change opportunities must have served a period of one year in their current title and level (if applicable).",
+                "**IMPORTANT NOTES TO ALL CANDIDATES:  Please note:  If you are called for an interview you will be required to bring to your interview copies of original documentation, such as: \u00e2\u20ac\u00a2 A document that establishes identity for employment eligibility, such as: A Valid U.S. Passport, Permanent Resident Card/Green Card, or Driver\u00e2\u20ac\u2122s license.    \u00e2\u20ac\u00a2 Proof of Education according to the education requirements of the civil service title.    \u00e2\u20ac\u00a2 Current Resume     \u00e2\u20ac\u00a2 Proof of Address/NYC Residency dated within the last 60 days, such as: Recent Utility Bill (i.e. Telephone, Cable, Mobile Phone)   Additional documentation may be required to evaluate your qualification as outlined in this posting\u00e2\u20ac\u2122s \u00e2\u20ac\u0153Minimum Qualification Requirements\u00e2\u20ac\u009d section. Examples of additional documentation may be, but not limited to: college transcript, experience verification or professional trade licenses.  If after your interview you are the selected candidate you will be contacted to schedule an on-boarding appointment.   By the time of this appointment you will be asked to produce the originals of the above documents along with your original Social Security card.   **LOAN FORGIVENESS  The federal government provides student loan forgiveness through its Public Service Loan Forgiveness Program (PSLF) to all qualifying public service employees. Working with the DOHMH qualifies you as a public service employee and you may be able to take advantage of this program while working full-time and meeting the program\u00e2\u20ac\u2122s other requirements.    Please visit the Public Service Loan Forgiveness Program site to view the eligibility requirements:   https://studentaid.ed.gov/sa/repay-loans/forgiveness-cancellation/public-service",
+                "Note: This position is open to qualified persons with a disability who are eligible for the 55-a program.  Please indicate in your resume or cover letter that you would like to be considered for the position under the 55-a program.",
+                "Appointments are subject to OMB approval.  For additional information about DEP, visit www.nyc.gov/dep  DEP is an equal opportunity employer with a strong commitment to the diversity of our organization and workforce. Your voluntary response to the NYCAPS on-line application section for referral information will assist us tremendously in our ability to track the success of our outreach and recruitment efforts. Please be sure to indicate your source of referral to this job. NOTE: This position is open to qualified persons with a disability who are eligible for the 55-a Program and also meet the education and experience requirements as listed in the job posting notice. Please indicate on your resume or cover letter that you would like to be considered for the position under the 55-a Program. This position is also open to non 55-a Program candidates who meet the education and experience requirements as listed in the job posting notice."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2049,
+                    "shortest_values": [
+                        "***",
+                        "P66",
+                        "P499",
+                        "P559",
+                        "P346"
+                    ],
+                    "longest_values": [
+                        "Appointments are subject to Office of Management and Budget approval.  The City of New York and the Board of Correction is an equal opportunity employer and committed to diversity.  Submission of an application does not guarantee an interview. Only candidates under consideration will be contacted.  About the New York City Board of Correction The New York City Board of Correction (BOC) is a nine-person, non-judicial oversight board, which regulates, monitors, and inspects the correctional facilities of the City. Established in 1957, BOC is one of the earliest independent oversight boards of custodial and detention settings in the United States. The Mayor, City Council and presiding justices of the Appellate Division of the Supreme Court for the First and Second Judicial Departments (in joint nomination with the Mayor) appoint its members. The City Charter mandates the Board\u00e2\u20ac\u2122s five functions: \u00e2\u20ac\u00a2\tEstablish and ensure compliance with minimum standards for the care, custody, correction, treatment, supervision, and discipline of all persons held or confined under the jurisdiction of the Department of Correction; \u00e2\u20ac\u00a2\tInvestigate serious incidents; \u00e2\u20ac\u00a2\tReview grievances from inmates and staff; \u00e2\u20ac\u00a2\tEvaluate the performance of the Department of Correction; and, \u00e2\u20ac\u00a2\tMake recommendations on areas of key correctional planning.  The Board established the Minimum Standards on jail conditions in 1979, on mental health care in 1985, and on health care in 1991. In 2007, BOC finished a comprehensive review of the Minimum Standards and adopted a series of amendments. In 2015-2016, the Board promulgated rules codifying ground-breaking criminal justice reforms. This included the City\u00e2\u20ac\u2122s ending of punitive segregation for 16-21 year olds and individuals with serious physical/mental health disabilities. In late 2016, the Board enacted a new chapter of its Minimum Standards that are based on national standards underlying the federal Prison Rape Elimination Act (PREA). These new rules require action which is specifically tailored to detecting, preventing and responding to sexual abuse and sexual harassment in the City\u00e2\u20ac\u2122s jails. Recently, BOC commenced rulemaking on restrictive housing and going forward, will update its Mental Health Minimum Standards.  Over the past two years, to expand its research, monitoring and rule-making efforts, the Board has nearly doubled its annual budget to $ 3 million and its staff to 28 (with planned expansion to 36). With offices in lower Manhattan and Rikers Island, BOC works regularly with the Department of Correction and Health + Hospitals, and often with other government and   external partners, on a wide variety of criminal justice issues germane to its oversight responsibilities. The Board brings to this work a strong emphasis on data-sharing, data-driven decision making and public reporting. In keeping with major reforms occurring at the national, state and local level, the Board recently re-envisioned its mission: to carry out independent oversight and enact regulation in support of safer, fairer, smaller and more humane jails.",
+                        "The New York City Board of Correction (BOC) is a nine-person, non-judicial oversight board, which regulates, monitors, and inspects the correctional facilities of the City. Established in 1957, BOC is one of the earliest independent oversight boards of custodial and detention settings in the United States. The Mayor, City Council and presiding justices of the Appellate Division of the Supreme Court for the First and Second Judicial Departments (in joint nomination with the Mayor) appoint its members. The City Charter mandates the Board\u00e2\u20ac\u2122s five functions:  \u00e2\u20ac\u00a2\tEstablish and ensure compliance with minimum standards \u00e2\u20ac\u0153for the care, custody, correction, treatment, supervision, and discipline of all persons held or confined under the jurisdiction of the Department of Correction\u00e2\u20ac\u009d \u00e2\u20ac\u00a2\tInvestigate serious incidents \u00e2\u20ac\u00a2\tReview grievances from people in custody and staff \u00e2\u20ac\u00a2\tEvaluate the performance of the Department of Correction \u00e2\u20ac\u00a2\tMake recommendations on areas of key correctional planning  The Board established the Minimum Standards on jail conditions in 1979, on mental health care in 1985, and on health care in 1991. In 2007, BOC finished a comprehensive review of the Minimum Standards and adopted a series of amendments. In 2015-2016, the Board promulgated rules codifying ground-breaking criminal justice reforms. This included the City\u00e2\u20ac\u2122s ending of punitive segregation for 16-21 year olds and individuals with serious physical/mental health disabilities. The Board also recently enacted a new chapter of its Minimum Standards that are based on national standards underlying the federal Prison Rape Elimination Act (PREA). These new rules require action which is specifically tailored to detecting, preventing and responding to sexual abuse and sexual harassment in the City\u00e2\u20ac\u2122s jails. Going forward, BOC will conduct rulemaking on restrictive housing and update its Mental Health Minimum Standards.  Over the past two years, in an effort to expand its research, monitoring and rule-making efforts, the Board has nearly doubled its annual budget (currently $3 million) and its staff (currently 29, with planned expansion to 35). With offices in lower Manhattan and Rikers Island, BOC works regularly with the Department of Correction (\u00e2\u20ac\u0153DOC\u00e2\u20ac\u009d) and NYC Health + Hospitals (\u00e2\u20ac\u0153H+H\u00e2\u20ac\u009d), and often with other government and external partners, on a wide variety of criminal justice issues germane to its oversight responsibilities. The Board brings to this work a strong emphasis on data-sharing, data-driven decision making and public reporting. In keeping with major reforms occurring at the national, state and local level, the Board recently re-envisioned its mission: to carry out independent oversight and enact regulation in support of safer, fairer, smaller and more humane jails.",
+                        "The New York City Board of Correction (BOC) is a nine-person, non-judicial oversight board, which regulates, monitors, and inspects the correctional facilities of the City. Established in 1957, BOC is one of the earliest independent oversight boards of custodial and detention settings in the United States. The Mayor, City Council and presiding justices of the Appellate Division of the Supreme Court for the First and Second Judicial Departments (in joint nomination with the Mayor) appoint its members. The City Charter mandates the Board\u00e2\u20ac\u2122s five functions: \u00e2\u20ac\u00a2\tEstablish and ensure compliance with minimum standards for the care, custody, correction, treatment, supervision, and discipline of all persons held or confined under the jurisdiction of the Department of Correction; \u00e2\u20ac\u00a2\tInvestigate serious incidents; \u00e2\u20ac\u00a2\tReview grievances from people in custody and staff; \u00e2\u20ac\u00a2\tEvaluate the performance of the Department of Correction; and, \u00e2\u20ac\u00a2\tMake recommendations on areas of key correctional planning. The Board established the Minimum Standards on jail conditions in 1979, on mental health care in 1985, and on health care in 1991. In 2007, BOC finished a comprehensive review of the Minimum Standards and adopted a series of amendments. In 2015-2016, the Board promulgated rules codifying ground-breaking criminal justice reforms. This included the City\u00e2\u20ac\u2122s ending of punitive segregation for 16-21year olds and individuals with serious physical/mental health disabilities. The Board also recently enacted a new chapter of its Minimum Standards that are based on national standards underlying the federal Prison Rape Elimination Act (PREA). These new rules require action which is specifically tailored to detecting, preventing and responding to sexual abuse and sexual harassment in the City\u00e2\u20ac\u2122s jails. Going forward, BOC will conduct rulemaking on restrictive housing and update its Mental Health Minimum Standards. Over the past two years, in an effort to expand its research, monitoring and rule-making efforts, the Board has nearly doubled its annual budget (currently $3 million) and its staff (currently 28, with planned expansion to 37). With offices in lower Manhattan and Rikers Island, BOC works regularly with the Department of Correction and Health + Hospitals, and often with other government and external partners, on a wide variety of criminal justice issues germane to its oversight responsibilities. The Board brings to this work a strong emphasis on data-sharing, data-driven decision making and public reporting. In keeping with major reforms occurring at the national, state and local level, the Board recently re-envisioned its mission: to carry out independent oversight and enact regulation in support of safer, fairer, smaller and more humane jails.",
+                        "The New York City Board of Correction (BOC) is a nine-person, non-judicial oversight board, which regulates, monitors, and inspects the correctional facilities of the City. Established in 1957, BOC is one of the earliest independent oversight boards of custodial and detention settings in the United States. The Mayor, City Council and presiding justices of the Appellate Division of the Supreme Court for the First and Second Judicial Departments (in joint nomination with the Mayor) appoint its members. The City Charter mandates the Board\u00e2\u20ac\u2122s five functions: \u00e2\u20ac\u00a2\tEstablish and ensure compliance with minimum standards for the care, custody, correction, treatment, supervision, and discipline of all persons held or confined under the jurisdiction of the Department of Correction; \u00e2\u20ac\u00a2\tInvestigate serious incidents; \u00e2\u20ac\u00a2\tReview grievances from inmates and staff; \u00e2\u20ac\u00a2\tEvaluate the performance of the Department of Correction; and, \u00e2\u20ac\u00a2\tMake recommendations on areas of key correctional planning.  The Board established the Minimum Standards on jail conditions in 1979, on mental health care in 1985, and on health care in 1991. In 2007, BOC finished a comprehensive review of the Minimum Standards and adopted a series of amendments. In 2015-2016, the Board promulgated rules codifying ground-breaking criminal justice reforms. This included the City\u00e2\u20ac\u2122s ending of punitive segregation for 16-21year olds and individuals with serious physical/mental health disabilities. In late 2016, the Board enacted a new chapter of its Minimum Standards that are based on national standards underlying the federal Prison Rape Elimination Act (PREA). These new rules require action which is specifically tailored to detecting, preventing and responding to sexual abuse and sexual harassment in the City\u00e2\u20ac\u2122s jails. Recently, BOC commenced rulemaking on restrictive housing and going forward, will update its Mental Health Minimum Standards.  Over the past two years, to expand its research, monitoring and rule-making efforts, the Board has nearly doubled its annual budget (currently $3 million) and its staff (currently 28, with planned expansion to 38). With offices in lower Manhattan and Rikers Island, BOC works regularly with the Department of Correction and Health + Hospitals, and often with other government and external partners, on a wide variety of criminal justice issues germane to its oversight responsibilities. The Board brings to this work a strong emphasis on data-sharing, data-driven decision making and public reporting. In keeping with major reforms occurring at the national, state and local level, the Board recently re-envisioned its mission: to carry out independent oversight and enact regulation in support of safer, fairer, smaller and more humane jails.",
+                        "Under general supervision, performs responsible supervisory work, or difficult and responsible work, in civil engineering, such as the following:   Is section engineer in charge of a major design section, major field engineering section, or the equivalent.   Plans, assigns and reviews the work of subordinates, prepares progress reports, and may represent an agency in relations with City agencies, contractors and their representatives, damage claimants and their representatives, consultants, and the general public.   Engages in, or supervises the conduct of complex and important research, investigations, studies or examinations related to the engineering functions or activities of a department or agency.   Prepares, or supervises the preparation of, the basic design plan, or significant or complex portions of the basic design plan, for major projects for the construction, remodeling, operation, maintenance or repair of public works, structures or installations  Makes interpretative detail sketches or layouts of intricate or fundamental portions or aspects of the basic design plan as proposed or adopted, and prepares maps, designs, plans, contract and working drawings, contract specifications, and other technical specifications.   Supervises the conduct of field survey and construction inspection operations to secure compliance with contract and other specifications, or the inspection of the construction, demolition or alteration of structures, to secure compliance with building codes, zoning resolutions and other pertinent statutes, rules and regulations.   Prepares reports on contracts and contact estimates, contract modifications and recommendations of award.   Participates in the development of proposals of major engineering projects with regard to the acquisition, disposition, or the public or private use of City property, or the conduct of surveys, or the construction, operation or maintenance of public works, plants or structures.  Participates in engineering investigations of claims for direct or indirect damages.   Supervises the inspection or testing in a laboratory, manufacturer's plant, or on a job site, of equipment and materials to be incorporated in public works, plants or structures.   Supervises the operation and maintenance of public works and the preparation of recommendations for alterations or repairs.  When assigned in writing, may sign and seal engineering and other official documents."
+                    ],
+                    "average_length": 662.5256222547584
+                }
+            ]
+        },
+        {
+            "column_name": "To Apply",
+            "number_non_empty_cells": 3310,
+            "number_empty_cells": 1,
+            "number_distinct_values": 1013,
+            "frequent_values": [
+                "Click the \"Apply Now\" button.",
+                "To apply click \"Apply Now\"",
+                "Click the \"Apply Now\" button",
+                "Click, \"APPLY NOW\" Current city employees must apply via Employee Self-Service (ESS)",
+                "Apply Online"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3310,
+                    "shortest_values": [
+                        "Apply",
+                        "Apply online",
+                        "Apply Online",
+                        "Apply Online.",
+                        "Apply online."
+                    ],
+                    "longest_values": [
+                        "**IMPORTANT NOTES TO ALL CANDIDATES:  Please note:  If you are called for an interview you will be required to bring to your interview copies of original documentation, such as: \u00e2\u20ac\u00a2 A document that establishes identity for employment eligibility, such as: A Valid U.S. Passport, Permanent Resident Card/Green Card, or Driver\u00e2\u20ac\u2122s license.    \u00e2\u20ac\u00a2 Proof of Education according to the education requirements of the civil service title.    \u00e2\u20ac\u00a2 Current Resume     \u00e2\u20ac\u00a2 Proof of Address/NYC Residency dated within the last 60 days, such as: Recent Utility Bill (i.e. Telephone, Cable, Mobile Phone)   Additional documentation may be required to evaluate your qualification as outlined in this posting\u00e2\u20ac\u2122s \u00e2\u20ac\u0153Minimum Qualification Requirements\u00e2\u20ac\u009d section. Examples of additional documentation may be, but not limited to: college transcript, experience verification or professional trade licenses.  If after your interview you are the selected candidate you will be contacted to schedule an on-boarding appointment.   By the time of this appointment you will be asked to produce the originals of the above documents along with your original Social Security card.   **LOAN FORGIVENESS  The federal government provides student loan forgiveness through its Public Service Loan Forgiveness Program (PSLF) to all qualifying public service employees. Working with the DOHMH qualifies you as a public service employee and you may be able to take advantage of this program while working full-time and meeting the program\u00e2\u20ac\u2122s other requirements.    Please visit the Public Service Loan Forgiveness Program site to view the eligibility requirements:   https://studentaid.ed.gov/sa/repay-loans/forgiveness-cancellation/public-service    \"FINAL APPOINTMENTS ARE SUBJECT TO OFFICE OF MANAGEMENT & BUDGET APPROVAL\u00e2\u20ac\u009d",
+                        "TO APPLY  We are excited to learn more about you and your interest in the CCRB.  Our applicant portal allows (2) options for uploading all required files.  Please scan and upload your cover letter and resume as one document and your unofficial college transcript and writing sample as another document.   1.\tResume 2.\tCover letter (explaining your interest in our Investigation Level I role and the CCRB) 3.\tUnofficial college transcript 4.\tAnalytical writing sample of less than 10 pages.  You may submit professional or academic writing samples.    CITY EMPLOYEES:  1) Apply through Employee Self Service (ESS) under Recruiting Activities  2) Search for Job ID# 399217  FOR ALL OTHER APPLICANTS: 1) Go to www.nyc.gov/careers/search  2) Search for Job ID# 399217  NO PHONE CALLS PLEASE.  ONLY THOSE CANDIDATES CONSIDERED FOR AN INTERVIEW WILL BE CONTACTED  In compliance with Federal Law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification document form upon hire.  THE CITY OF NEW YORK IS AN EQUAL EMPLOYMENT OPPORTUNITY EMPLOYER The NYC Civilian Complaint Review Board (CCRB) is committed to recruiting and retaining a diverse and culturally responsive workforce. We strongly encourage people of color, people with disabilities, veterans, women, and lesbian, gay, bisexual, and transgender and gender non-conforming persons to apply.  All applicants will be considered without regard to actual or perceived race, color, national origin, religion, sexual orientation, marital or parental status, disability, sex, gender identity or expression, age, prior record of arrest; or any other basis prohibited by law.",
+                        "TO APPLY  We are excited to learn more about you and your interest in the CCRB.  Our applicant portal allows (2) options for uploading all required files.  Please scan and upload your cover letter and resume as one document and your unofficial college transcript and writing sample as another document.   1.\tResume 2.\tCover letter (explaining your interest in our Investigation Level I role and the CCRB) 3.\tUnofficial college transcript 4.\tAnalytical writing sample of less than 10 pages.  You may submit professional or academic writing samples.    CITY EMPLOYEES:  1) Apply through Employee Self Service (ESS) under Recruiting Activities  2) Search for Job ID# 412667  FOR ALL OTHER APPLICANTS: 1) Go to www.nyc.gov/careers/search  2) Search for Job ID# 412667  NO PHONE CALLS PLEASE.  ONLY THOSE CANDIDATES CONSIDERED FOR AN INTERVIEW WILL BE CONTACTED  In compliance with Federal Law, all persons hired will be required to verify identity and eligibility to work in the United States and to complete the required employment eligibility verification document form upon hire.  THE CITY OF NEW YORK IS AN EQUAL EMPLOYMENT OPPORTUNITY EMPLOYER The NYC Civilian Complaint Review Board (CCRB) is committed to recruiting and retaining a diverse and culturally responsive workforce. We strongly encourage people of color, people with disabilities, veterans, women, and lesbian, gay, bisexual, and transgender and gender non-conforming persons to apply.  All applicants will be considered without regard to actual or perceived race, color, national origin, religion, sexual orientation, marital or parental status, disability, sex, gender identity or expression, age, prior record of arrest; or any other basis prohibited by law.",
+                        "For Non-City/External Candidates: Visit the External Applicant NYC Careers site and search by the Job ID number.   For Current City Employees: Visit Employee Self Service (ESS) to view and click on Recruiting Activities, Careers, and search by Job ID number.  A RESUME AND COVER LETTER ARE REQUIRED.  PLEASE INDICATE IN YOUR COVER LETTER HOW YOU HEARD ABOUT THIS POSITION. INCOMPLETE APPLICATIONS WILL NOT BE CONSIDERED.  NO PHONE CALLS, FAXES, E-MAILS OR PERSONAL INQUIRIES PERMITTED.  NOTE: ONLY THOSE CANDIDATES UNDER CONSIDERATION WILL BE CONTACTED.  *Appointments are subject to Office of Management and Budget (OMB) approval.  *55-a Candidates: NYC Department of Consumer Affairs is committed to recruiting and retaining a diverse and culturally responsive workforce. We strongly encourage 55-A candidates to apply to our positions in order to be given the opportunity.   **LOAN FORGIVENESS: The federal government provides student loan forgiveness through its Public Service Loan Forgiveness Program (PSLF) to all qualifying public service employees. Working with DCA qualifies you as a public service employee and you may be able to take advantage of this program while working full-time and meeting the program\u00e2\u20ac\u2122s other requirements. Please visit the Public Service Loan Forgiveness Program site to view the eligibility requirements: https://studentaid.ed.gov/sa/repay-loans/forgiveness-cancellation/public-service   *OPEN TO CURRENT CLERICAL ASSOCIATES ONLY. YOU MUST CLEARLY STATE YOUR CIVIL SERVICE STATUS ON YOUR RESUME AND COVER LETTER. FAILURE TO DO SO WILL RESULT IN YOUR DISQUALIFICATION.",
+                        "For Non-City/External Candidates: Visit the External Applicant NYC Careers site and type \u00e2\u20ac\u0153Consumer     Affairs\u00e2\u20ac\u009d on the search line. Then locate the Job ID number.  For Current City Employees: Visit Employee Self Service (ESS) to view and click on Recruiting Activities, Careers, and search by Job ID number.  A RESUME AND COVER LETTER ARE REQUIRED. PLEASE INDICATE IN YOUR COVER LETTER HOW YOU HEARD ABOUT THIS POSITION. INCOMPLETE APPLICATIONS WILL NOT BE CONSIDERED. NO PHONE CALLS, FAXES, E-MAILS OR PERSONAL INQUIRIES PERMITTED.  NOTE: ONLY THOSE CANDIDATES UNDER CONSIDERATION WILL BE CONTACTED.  *Appointments are subject to Office of Management and Budget (OMB) approval.  *55-a Candidates: NYC Department of Consumer Affairs is committed to recruiting and retaining a diverse and culturally responsive workforce. We strongly encourage 55-A candidates to apply to our positions in order to be given the opportunity.   **LOAN FORGIVENESS: The federal government provides student loan forgiveness through its Public Service Loan Forgiveness Program (PSLF) to all qualifying public service employees. Working with DCA qualifies you as a public service employee and you may be able to take advantage of this program while working full-time and meeting the program\u00e2\u20ac\u2122s other requirements. Please visit the Public Service Loan Forgiveness Program site to view the eligibility requirements: https://studentaid.ed.gov/sa/repay-loans/forgiveness-cancellation/public-service"
+                    ],
+                    "average_length": 305.83504531722053
+                }
+            ]
+        },
+        {
+            "column_name": "Hours/Shift",
+            "number_non_empty_cells": 991,
+            "number_empty_cells": 2320,
+            "number_distinct_values": 193,
+            "frequent_values": [
+                "35 Hours",
+                "35 hours per week",
+                "Day - Due to the necessary technical support duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings.",
+                "35 hours per week / day",
+                "35hrs"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 991,
+                    "shortest_values": [
+                        "TBD",
+                        "Day",
+                        ":Day",
+                        "35hrs",
+                        "40hrs"
+                    ],
+                    "longest_values": [
+                        "Day - Due to the necessary technical support duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings.          Day - Due to the necessary technical support duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings.",
+                        "To be determined / 35 Hour per week (minimum); overtime and shift-related work may be required during peak work periods.  Due to the necessary technical management duties of this position in a 24/7 operation, candidate may be required to be on call and/or work various shifts such as weekends and/or nights/evenings.",
+                        "40 hours per week / Depending upon the needs of the services, candidate may be required to work rotating tours or shifts, including nights, Saturdays, Sundays and holidays and overtime and may be assigned in any of the five boroughs based on the needs of the Department.",
+                        "2nd Shift/ 4pm \u00e2\u20ac\u201c Midnight Monday through Friday   Due to the necessary technical management duties of this position in a 24/7 operation, candidate may be required to be on call and work various shifts such as weekends and/or nights/evenings",
+                        "Due to the necessary duties of this position in a 24/7 operation, candidate may be required to work various shifts such as weekends and/or nights/evenings. It is anticipated that this position will start as an evening Call Center Manager position."
+                    ],
+                    "average_length": 50.64783047426842
+                }
+            ]
+        },
+        {
+            "column_name": "Work Location 1",
+            "number_non_empty_cells": 1545,
+            "number_empty_cells": 1766,
+            "number_distinct_values": 261,
+            "frequent_values": [
+                "30-30 Thomson Avenue, LIC, NY",
+                "100 Gold Street",
+                "55 Water St Ny Ny",
+                "Brooklyn, NY",
+                "255 Greenwich Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1545,
+                    "shortest_values": [
+                        "TBD",
+                        "Bronx",
+                        "NY, NY",
+                        "Queens",
+                        "Various"
+                    ],
+                    "longest_values": [
+                        "Bronx: North 1200 Waters Place I Bronx South 2501 Grand Concourse  974 Morris Park Avenue   Brooklyn: East 1274 Bedford Ave  2554 Linden Blvd  19 Grant Square I West 185 Marcy Ave  404 Pine St  345 Adams St  1274 Bedford Ave   Manhattan: 55 W 125th St.  150 William St I OSI 110 William St  Queens 165-15 Archer Ave  161st St  Union Hall   Staten Island: 350 Saint Marks Pl",
+                        "Manhattan: 34 Precinct (2 positions) 4295 Broadway, New York, NY 10033 23 Precinct (2 positions) 162 East 102 St., New York, NY 10029 10 Precinct (1 position) 230 West Street 20 St., New York, NY 10011  Brooklyn: 70 Precinct (2 positions) 154 Lawrence Ave., Brooklyn, NY 11230  Queens: 100 (1 position) 92-24 Rockaway Beach Blvd., Queens, NY 11693",
+                        "The BEDC In House CM office address is 2389 Route 28A, Shokan, NY.  Projects can be located anywhere in the West of Hudson watershed (In the counties of Ulster, Delaware, Schoharie, Greene and Orange). These locations are a minimum of 2 hours north of NYC with no public transportation available.",
+                        "Positions available as follows:  Manhattan:   Department Advocate's Office (1 position) One Police Plaza, NY, NY;  1 Precinct (1 position) 16 Ericsson Pl. NY, NY, 10013  Bronx: 43 Precinct (1 position) 900 Fteley Ave., Bronx, NY 10473",
+                        "Positions available as follows:   Manhattan: Housing Bureau (1 position)  130 Ave. C  NY, NY 10009; 1 Precinct (1 position)  16 Ericsson Pl. NY, NY 10013  and    Bronx: 43 Precinct (2 positions) 900 Fleley Ave. Bronx, NY 10013"
+                    ],
+                    "average_length": 29.858899676375405
+                }
+            ]
+        },
+        {
+            "column_name": "Recruitment Contact",
+            "number_non_empty_cells": 2,
+            "number_empty_cells": 3309,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "2019-09-14T00:00:00.000"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "2019-09-14T00:00:00.000"
+                    ],
+                    "longest_values": [
+                        "2019-09-14T00:00:00.000"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "Residency Requirement",
+            "number_non_empty_cells": 3311,
+            "number_empty_cells": 0,
+            "number_distinct_values": 57,
+            "frequent_values": [
+                "New York City residency is generally required within 90 days of appointment. However, City Employees in certain titles who have worked for the City for 2 continuous years may also be eligible to reside in Nassau, Suffolk, Putnam, Westchester, Rockland, or Orange County. To determine if the residency requirement applies to you, please discuss with the agency representative at the time of interview.",
+                "New York City Residency is not required for this position",
+                "NYCHA has no residency requirements.",
+                "New York City Residency is not required for this position.",
+                "This position is exempt from NYC residency requirements."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3311,
+                    "shortest_values": [
+                        "2019-09-24T00:00:00.000",
+                        "NYC residency is not required.",
+                        "NYCHA has residency requirements.",
+                        "There is no residency requirement.",
+                        "NYCHA has no residency requirement."
+                    ],
+                    "longest_values": [
+                        "New York City residency is generally required within 90 days of appointment. However, City Employees in certain titles who have worked for the City for 2 continuous years may also be eligible to reside in Nassau, Suffolk, Putnam, Westchester, Rockland, or Orange County. To determine if the residency requirement applies to you, please discuss with the agency representative at the time of interview.   EEPC is an equal opportunity employer with a strong commitment to the diversity of our organization and workforce. Your voluntary response to the NYCAPS on-line application section for demographic and referral information will assist us tremendously in our ability to track the success of our outreach and recruitment efforts. Please be sure to indicate your source of referral to this job.",
+                        "New York City residency is generally required within 90 days of appointment. However, City Employees in certain titles who have worked for the City for 2 continuous years may also be eligible to reside in Nassau, Suffolk, Putnam, Westchester, Rockland, or Orange County. To determine if the residency requirement applies to you, please discuss with the agency representative at the time of interview.  PLEASE NOTE;  ******IN ORDER TO BE CONSIDERED FOR AN INTERVIEW YOU MUST HAVE FILED FOR THE WATERSHED MAINTAINER EXAM 8032***** FILING PERIOD ENDED MARCH 27TH, 2018********************",
+                        "**A person serving in a mayoral agency in any of the following civil service titles shall be a resident of the city on the date that he or she assumes such title or shall establish City Residence within ninety days after such date and shall thereafter maintain City residency for as long as he or she serves in such title: agency heads,  including but not limited to Commissioner, First Deputy Commissioner, Executive Deputy Commissioner, Deputy Commissioner, General Counsel, Assistant Deputy Commissioner, Associate Commissioner, Assistant Commissioner.",
+                        "A person serving in a mayoral agency in any of the following civil service titles shall be a resident of the city on the date that he or she assumes such title or shall establish City Residence within ninety days after such date and shall thereafter maintain City residency for as long as he or she serves in such title: agency heads,  including but not limited to Commissioner, First Deputy Commissioner, Executive Deputy Commissioner, Deputy Commissioner, General Counsel, Assistant Deputy Commissioner, Associate Commissioner, Assistant Commissioner.",
+                        "New York City Residency is not required for this position.            DEP is an equal opportunity employer with a strong commitment to the diversity of our organization and workforce. Your voluntary response to the NYCAPS on-line application section for referral information will assist us tremendously in our ability to track the success of our outreach and recruitment efforts. Please be sure to indicate your source of referral to this job."
+                    ],
+                    "average_length": 258.0622168529145
+                }
+            ]
+        },
+        {
+            "column_name": "Posting Date",
+            "number_non_empty_cells": 3309,
+            "number_empty_cells": 2,
+            "number_distinct_values": 489,
+            "frequent_values": [
+                "08/30/2019",
+                "08/29/2019",
+                "09/20/2019",
+                "09/13/2019",
+                "09/18/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3309,
+                    "max_value": "2019-09-24 00:00:00",
+                    "min_value": "2011-06-24 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Post Until",
+            "number_non_empty_cells": 1102,
+            "number_empty_cells": 2209,
+            "number_distinct_values": 112,
+            "frequent_values": [
+                "2019-09-28T00:00:00.000",
+                "2019-09-27T00:00:00.000",
+                "2019-09-25T00:00:00.000",
+                "2019-09-30T00:00:00.000",
+                "2019-09-29T00:00:00.000"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1102,
+                    "shortest_values": [
+                        "2019-10-03T00:00:00.000",
+                        "2020-02-04T00:00:00.000",
+                        "2020-01-27T00:00:00.000",
+                        "2019-10-17T00:00:00.000",
+                        "2020-01-21T00:00:00.000"
+                    ],
+                    "longest_values": [
+                        "2020-05-20T00:00:00.000",
+                        "2020-03-18T00:00:00.000",
+                        "2020-03-13T00:00:00.000",
+                        "2019-12-21T00:00:00.000",
+                        "2019-11-28T00:00:00.000"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "Posting Updated",
+            "number_non_empty_cells": 3309,
+            "number_empty_cells": 2,
+            "number_distinct_values": 465,
+            "frequent_values": [
+                "08/30/2019",
+                "09/20/2019",
+                "09/18/2019",
+                "09/19/2019",
+                "08/29/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3309,
+                    "max_value": "2019-09-23 00:00:00",
+                    "min_value": "2011-06-24 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Process Date",
+            "number_non_empty_cells": 3309,
+            "number_empty_cells": 2,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "09/24/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3309,
+                    "max_value": "2019-09-24 00:00:00",
+                    "min_value": "2019-09-24 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

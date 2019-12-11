@@ -1,0 +1,385 @@
+{
+    "dataset_name": "bkfu-528j",
+    "columns": [
+        {
+            "column_name": "Event ID",
+            "number_non_empty_cells": 3489659,
+            "number_empty_cells": 16,
+            "number_distinct_values": 182282,
+            "frequent_values": [
+                "392450",
+                "364912",
+                "396661",
+                "392460",
+                "374769"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3489659,
+                    "max_value": 510458,
+                    "min_value": 84,
+                    "mean": 424626.2591138561,
+                    "stddev": 82018.38184455354
+                }
+            ]
+        },
+        {
+            "column_name": "Event Name",
+            "number_non_empty_cells": 3489659,
+            "number_empty_cells": 16,
+            "number_distinct_values": 73976,
+            "frequent_values": [
+                "Miscellaneous",
+                " Soccer - Non Regulation",
+                " Soccer -Regulation",
+                "Lawn Maintenance",
+                " Baseball - 12 and Under (Little League)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 70,
+                    "max_value": 8272011,
+                    "min_value": 21,
+                    "mean": 320230.1857142857,
+                    "stddev": 982322.1169808722
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3489589,
+                    "shortest_values": [
+                        "C",
+                        "RC",
+                        "bb",
+                        "HP",
+                        "KH"
+                    ],
+                    "longest_values": [
+                        "Ganando Almas Para Cristo'|08/28/10 01:00 PM|08/28/10 06:00 PM|Street Activity Permit Office|Religious Event|Bronx| MORRIS AVENUE between EAST  196 STREET and EAST KINGSBRIDGE ROAD|Full|Full Street Closure |7, |52, |",
+                        "EAST 55TH ST. SYNAGOGUE &  Friends of Dag Hammarskjold - LEXINGTON AVENUE SUMMER FEST. Co-Sponsored festival",
+                        "Bed-Stuy Gateway BID presents \"Bed-Stuy is Community featuring the Age-friendly NYC Intergenerational Fair\"",
+                        "BIG APPLE PERFORMINGS ARTS - THE BIG APPLE PERFORMING ARTS FESTIVAL(CO-SPONSORED INN. COMM. ENTERPRISES)",
+                        "Super Bowl Special Event Embargo - DirecTV Event (Pier 40) & Brooklyn Cruise Terminal (Pier 12 Event)"
+                    ],
+                    "average_length": 23.009948449516546
+                }
+            ]
+        },
+        {
+            "column_name": "Start Date/Time",
+            "number_non_empty_cells": 3489658,
+            "number_empty_cells": 17,
+            "number_distinct_values": 66218,
+            "frequent_values": [
+                "09/28/2019 08:00:00 AM",
+                "09/29/2019 08:00:00 AM",
+                "09/21/2019 08:00:00 AM",
+                "09/28/2019 09:00:00 AM",
+                "09/14/2019 08:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3489658,
+                    "max_value": "2019-12-31 19:30:00",
+                    "min_value": "2008-01-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "End Date/Time",
+            "number_non_empty_cells": 3489658,
+            "number_empty_cells": 17,
+            "number_distinct_values": 70800,
+            "frequent_values": [
+                "08/24/2019 08:00:00 PM",
+                "08/22/2019 08:00:00 PM",
+                "09/25/2019 06:00:00 PM",
+                "08/17/2019 08:00:00 PM",
+                "08/25/2019 08:00:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 3489658,
+                    "max_value": "2020-12-31 00:00:00",
+                    "min_value": "2007-03-18 23:59:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Event Agency",
+            "number_non_empty_cells": 3489670,
+            "number_empty_cells": 5,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "Parks Department",
+                "Street Activity Permit Office",
+                "Police Department",
+                "Mayor's Office of Film, Theatre & Broadcasting",
+                "Hudson River Park Trust"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3489670,
+                    "shortest_values": [
+                        "43, ",
+                        "67, ",
+                        "66, ",
+                        "13, ",
+                        "05, "
+                    ],
+                    "longest_values": [
+                        "Mayor's Office of Film, Theatre & Broadcasting",
+                        "Brooklyn Bridge Park Corporation",
+                        "Economic Development Corporation",
+                        "Street Activity Permit Office",
+                        "Trust for Governor's Island"
+                    ],
+                    "average_length": 17.38311473577731
+                }
+            ]
+        },
+        {
+            "column_name": "Event Type",
+            "number_non_empty_cells": 3489658,
+            "number_empty_cells": 17,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "Special Event",
+                "Sport - Youth",
+                "Construction",
+                "Sport - Adult",
+                "Farmers Market"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3489658,
+                    "shortest_values": [
+                        "Rally",
+                        "Parade",
+                        "Concert",
+                        "Embargo",
+                        "Clean-Up"
+                    ],
+                    "longest_values": [
+                        "Theater Load in and Load Outs ",
+                        "Public Program / Exhibitions",
+                        "Commercial Promotional Event",
+                        "DCAS Prep/Shoot/Wrap Permit",
+                        "Stationary Demonstration"
+                    ],
+                    "average_length": 12.964724623444475
+                }
+            ]
+        },
+        {
+            "column_name": "Event Borough",
+            "number_non_empty_cells": 3489640,
+            "number_empty_cells": 35,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3489640,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.033020311550763
+                }
+            ]
+        },
+        {
+            "column_name": "Event Location",
+            "number_non_empty_cells": 3489646,
+            "number_empty_cells": 29,
+            "number_distinct_values": 46516,
+            "frequent_values": [
+                "Madison Square Park: Madison Square Park ",
+                "Central Park: Ladies' Pavilion ",
+                "LaTourette Park & Golf Course: Model Airplane Field ",
+                "Calvert Vaux Park: Hobby Field ",
+                "Central Park: West Dalehead Arch "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3489646,
+                    "shortest_values": [
+                        " ",
+                        "   ",
+                        ":    ",
+                        "-: - ",
+                        "#NAME?"
+                    ],
+                    "longest_values": [
+                        "Central Park: Adam Clayton Powell Jr Boulevard Entrance ,Central Park: W 110th St-Adam Clayton Powell Jr-Lenox Ave , RIVERSIDE DRIVE between WEST  110 STREET and WEST   72 STREET,  WEST   72 STREET between RIVERSIDE DRIVE and WEST END AVENUE,  WEST   30 STREET between 11 AVENUE and 9 AVENUE,  9 AVENUE between WEST   30 STREET and WEST   15 STREET,  BLEEKER STREET between HUDSON STREET and BROADWAY,  BROADWAY between BLEEKER STREET and WORTH STREET,  LAFAYETTE STREET between WORTH STREET and DUANE STREET,  CENTRE STREET between DUANE STREET and PARK ROW, Brooklyn Bridge: Brooklyn Bridge Pedestrian: 1  between PARK ROW (S) and TILLARY STREET,  ADAMS STREET between TILLARY STREET and SAND STREET,  SANDS STREET between ADAMS STREET and NAVY STREET,  FLUSHING AVENUE between NAVY STREET and VANDERBILT AVENUE,  PLAZA ST WEST between ST JOHNS PLACE and UNION STREET,  PROSPECT PARK WEST between PLAZA STREET WEST and 3 STREET, Prospect Park: West Park Drive ,Prospect Park: East Park Drive ,Grand Army Plaza: Grand Army PlazaGrand Army Plaza GRAND ARMY PLAZA, ST JOHNS PLACE between PLAZA ST EAST and BEDFORD AVENUE,  BEDFORD AVENUE between ST JOHNS PLACE and DIVISION AVENUE,  DIVISION AVENUE between BEDFORD AVENUE and KENT AVENUE,  KENT AVENUE between DIVISION AVENUE and FRANKLIN STREET,  FRANKLIN STREET between KENT AVENUE and EAGLE STREET,  EAGLE STREET between FRANKLIN STREET and PULASKI BR BIKE PATH, Pulaski Bridge (South Bound): Freeman to 49th Avenue PULASKI BRIDGE between FREEMAN STREET and 49TH AVENUE,  11 STREET between 49 AVENUE and 51 AVENUE,  51 AVENUE between 11 STREET and VERNON BOULEVARD,  VERNON BOULEVARD between 51 AVENUE and MAIN AVENUE,  8 STREET between MAIN AVENUE and 27 AVENUE,  27 AVENUE between 8 STREET and 12 STREET,  12 STREET between 27 AVENUE and SHORE BOULEVARD, Astoria Park: Astoria Park , 19 STREET between 23 TERRACE and 24 AVENUE,  24 AVENUE between 26 STREET and 27 STREET,  27 STREET between 24 AVENUE and HOYT AVENUE, Robert F. Kennedy Bridge: Robert F. Kennedy Bridge ,Randall's Island Park: Park Paths and Roadways RANDALLS ISLAND between PARL PATHS AND ROADWAYS and ,  EAST  105 STREET between 1 AVENUE and FDR,  1 AVENUE between EAST  105 STREET and EAST  111 STREET,  EAST  111 STREET between 1 AVENUE and 5 AVENUE,  WEST  111 STREET between 5 AVENUE and LENOX AVENUE,  LENOX AVENUE between WEST  111 STREET and CENTRAL PARK NORTH, Central Park: 110th and Lenox CENTRAL PARK between 110 AND LENOX and , Prospect Park: Park Circle / Machete Circle , CONEY ISLAND AVENUE between MACHATE CIRCLE and CATON AVENUE,  CATON AVENUE between CONEY ISLAND AVENUE and DAHILL ROAD,  DAHILL ROAD between CATON AVENUE and 12 AVENUE,  12 AVENUE between DAHILL ROAD and 41 STREET,  41 STREET between 12 AVENUE and 7 AVENUE,  7 AVENUE between 41 STREET and 65 STREET,  67 STREET between 6 AVENUE and 5 AVENUE,  5 AVENUE between 67 STREET and 68 STREET,  68 STREET between 5 AVENUE and NARROWS AVENUE,  NARROWS AVENUE between 68 STREET and BAY RIDGE AVENUE,  BAY RIDGE AVENUE between NARROWS AVENUE and SHORE ROAD, Shore Parkway: Shore Parkway Bike Path Bay Ridge ,Shore Parkway: Shore Parkway Bike Path Sheepshead Bay , CROPSEY AVENUE between BAY   52 STREET and WEST   17 STREET,  WEST   17 STREET between CROPSEY AVENUE and SURF AVENUE,  SURF AVENUE between WEST   17 STREET and WEST    5 STREET,  WEST    5 STREET between SURF AVENUE and NEPTUNE AVENUE,  NEPTUNE AVENUE between WEST    5 STREET and EMMONS AVENUE,  EMMONS AVENUE between NEPTUNE AVENUE and KNAPP STREET,  KNAPP STREET between EMMONS AVENUE and GERRITSEN AVENUE,  GERRITSEN AVENUE between KNAPP STREET and AVENUE U, Marine Park: Lawn Area (Burnett St) MARINE PARK between LAWN AREA/AVE U BURNETT ST and X,  AVENUE U between GERRITSEN AVENUE and EAST   36 STREET,  EAST   36 STREET between AVENUE U and AVENUE T,  AVENUE T between EAST   36 STREET and EAST   56 STREET,  EAST   56 STREET between AVENUE T and AVENUE I,  AVENUE I between EAST   56 STREET and OCEAN AVENUE,  OCEAN AVENUE between AVENUE I and FOSTER AVENUE,  FOSTER AVENUE between OCEAN AVENUE and BEDFORD AVENUE,  BEDFORD AVENUE between FOSTER AVENUE and ST JOHN PLACE,  AVENUE U between EAST   36 STREET and RYDER STREET,  RYDER STREET between AVENUE U and AVENUE V,  AVENUE V between RYDER STREET and HENDRICKSON STREET,  HENDRICKSON STREET between AVENUE V and HENDRICKSON PLACE,  FLATBUSH AVENUE between HENDRICKSN PLACE and AVIATION ROAD,  STATE ROAD between BEACH  169 STREET and HEINZELMAN ROAD,  STATE ROAD between HEINZELMAN ROAD and BEACH  169 STREET,  BEACH  169 STREET between STATE ROAD and MURRAY ROAD,  ROCKAWAY BEACH BOULEVARD between BEACH  149 STREET and BEACH  108 STREET,  BEACH  108 STREET between ROCKAWAY BEACH BOULEVARD and SHORE FRONT PARKWAY,  SHORE FRONT PARKWAY between BEACH  108 STREET and BEACH   94 STREET,  BEACH   94 STREET between SHORE FRONT PARKWAY and ROCKAWAY FREEWAY,  ROCKAWAY FREEWAY between BEACH   94 STREET and BEACH   92 STREET,  BEACH   92 STREET between ROCKAWAY FREEWAY and BEACH CHANNEL DRIVE,  CROSSBAY BOULEVARD between EAST   21 ROAD and 165 AVENUE,  165 AVENUE between CROSSBAY BOULEVARD and 92 STREET,  92 STREET between 165 AVENUE and 157 AVENUE,  157 AVENUE between 92 STREET and 84 STREET,  SHORE PARKWAY between 84 STREET and 156 AVENUE,  84 STREET between SHORE PARKWAY and 151 AVENUE,  151 AVENUE between 84 STREET and SAPPHIRE STREET,  STANLEY AVENUE between SAPPHIRE STREET and AMBER STREET,  AMBER STREET between STANLEY AVENUE and LORING AVENUE,  LORING AVENUE between AMBER STREET and LINDEN BOULEVARD,  LINDEN BOULEVARD between LORING AVENUE and LOGAN STREET,  LOGAN STREET between LINDEN BOULEVARD and ETNA STREET,  ETNA STREET between LOGAN STREET and FORCE TUBE AVENUE,  FORCE TUBE AVENUE between ETNA STREET and HIGHLAND BOULEVARD,  CYPRESS HILLS STREET between CYPRESS AVENUE and COOPER AVENUE,  COOPER AVENUE between CYPRESS HILLS STREET and MYRTLE AVENUE,  MYRTLE AVENUE between COOPER AVENUE and 79 LANE, Forest Park: Forest Park Drive (Race) FOREST PARK between FOREST PARK DRIVE EAST and E,  ONSLOW PLACE between PARK LANE and GRENFELL STREET,  GRENFELL STREET between ONSLOW PLACE and 82 AVENUE,  82 AVENUE between GRENFELL STREET and KEW GARDENS ROAD,  KEW GARDENS ROAD between 82 AVENUE and 83 AVENUE,  83 AVENUE between KEW GARDENS ROAD and HOOVER AVENUE,  73 AVENUE between MAIN STREET and 164 STREET,  164 STREET between 73 AVENUE and 59 AVENUE,  59 AVENUE between 164 STREET and PARSONS BOULEVARD,  PARSONS BOULEVARD between 59 AVENUE and BOOTH MEMORIAL AVENUE,  BOOTH MEMORIAL AVENUE between PARSONS BOULEVARD and 164 STREET,  164 STREET between BOOTH MEMORIAL AVENUE and UNDERHILL AVENUE,  19 STREET between 23 TERRACE and 24 AVENUE,  24 AVENUE between 19 STREET and 27 STREET,  27 STREET between 24 AVENUE and HOYT AVENUE NORTH,  CYPRESS AVENUE between EAST  135 STREET and EAST  132 STREET,  EAST  132 STREET between CYPRESS AVENUE and ST ANN'S AVENUE,  ST ANN'S AVENUE between EAST  132 STREET and EAST  141 STREET,  EAST  141 STREET between ST ANN'S AVENUE and JACKSON AVENUE,  JACKSON AVENUE between EAST  141 STREET and EAST  142 STREET,  EAST  142 STREET between JACKSON AVENUE and CONCORD AVENUE,  CONCORD AVENUE between EAST  142 STREET and EAST  150 STREET,  EAST  150 STREET between CONCORD AVENUE and PROSPECT AVENUE,  PROSPECT AVENUE between EAST  150 STREET and CROTONA AVENUE,  CROTONA AVENUE between PROSPECT AVENUE and EAST  187 STREET,  EAST  187 STREET between CROTONA AVENUE and SOUTHERN BOULEVARD,  SOUTHERN BOULEVARD between EAST  187 STREET and MOSHOLU PARKWAY, Van Cortlandt Park: Golf Course Building and Lawn ,Van Cortlandt Park: Lawn Area B - 242nd St , WALDO AVENUE between MANHATTAN COLLEGE PARKWAY and WEST  238 STREET,  WEST  238 STREET between WALDO AVENUE and TIBBETT AVENUE,  TIBBETT AVENUE between WEST  240 STREET and WEST  230 STREET,  WEST  230 STREET between TIBBETT AVENUE and KINGSBRIDGE AVENUE,  MARBLE HILL AVENUE between WEST  230 STREET and WEST  228 STREET,  TERRACE VIEW AVENUE between WEST 228 STREET and BROADWAY,  BROADWAY between WEST  225 STREET and WEST  218 STREET,  WEST  218 STREET between BROADWAY and SEAMAN AVENUE,  SEAMAN AVENUE between WEST  218 STREET and RIVERSIDE DRIVE,  DYCKMAN STREET between BROADWAY and 10 AVENUE, Harlem River Park: Harlem River Park , FREDRICK DOUGLAS BOULEVARD between WEST  155 STREET and WEST  154 STREET,  WEST  154 STREET between FREDRICK DOUGLAS BOULEVARD and BRADHURST AVENUE,  BRADHURST AVENUE between WEST  154 STREET and WEST  145 STREET,  WEST  145 STREET between BRADHURST AVENUE and EDGECOMBE AVENUE,  EDGECOMBE AVENUE between WEST  141 STREET and WEST  139 STREET,  WEST  139 STREET between EDGECOMBE AVENUE and ST NICHOLAS AVENUE,  ST NICHOLAS AVENUE between WEST  139 STREET and WEST  116 STREET,  ADAM CLAYTON POWELL BOULEVARD between WEST  116 STREET and WEST  110 STREET,  UNDERHILL AVENUE between 168 STREET and 164 STREET,  164 STREET between UNDERHILL AVENUE and OAK AVENUE,  OAK AVENUE between 164 STREET and PARSONS BOULEVARD,  PARSONS BOULEVARD between OAK AVENUE and 35 AVENUE,  UNDERHILL AVENUE between 164 STREET and 170 STREET,  170 STREET between UNDERHILL AVENUE and LITHONIA AVENUE,  LITHONIA AVENUE between 170 STREET and UNDERHILL AVENUE,  UNDERHILL AVENUE between LITHONIA AVENUE and LONG ISLAND EXPRESSWAY N SVC RD, Cunningham Park: Cunningham Park , CLOVERDALE BOULEVARD between 73 AVENUE and 69 AVENUE,  69 AVENUE between CLOVERDALE BOULEVARD and 230 STREET,  230 STREET between 69 AVENUE and 67 AVENUE,  67 AVENUE between 230 STREET and 233 STREET,  233 STREET between 67 AVENUE and EAST HAMPTON BOULEVARD,  EAST HAMPTON BOULEVARD between 233 STREET and 232 STREET,  232 STREET between EAST HAMPTON BOULEVARD and 50 AVENUE,  50 AVENUE between 232 STREET and HORATIO PARKWAY,  CLOVERDALE BOULEVARD between HORATIO PARKWAY and 223 STREET,  223 STREET between CLOVERDALE BOULEVARD and NORTHERN BOULEVARD,  NORTHERN BOULEVARD between 223 STREET and CROSS ISLAND PARKWAY,  CROSS ISLAND PARKWAY between NORTHERN BOULEVARD and TOTTEN AVENUE, Little Bay Park: Little Bay Park , UTOPIA PARKWAY between 14 ROAD and 26 AVENUE,  154 STREET between 26 AVENUE and 32 AVENUE,  32 AVENUE between 154 STREET and PARSONS BOULEVARD,  PARSONS BOULEVARD between 32 AVENUE and 35 AVENUE,  35 AVENUE between PARSONS BOULEVARD and PRINCE STREET,  11 AVENUE between WEST   59 STREET and WEST   30 STREET,  HUDSON ST 9 AV TO BLEEKER ST, HUDSON STREET between JANE STREET and WEST   12 STREET,  WORTH STREET between BROADWAY and LAFAYETTE STREET,  CENTRAL PARK N TO RIVERSIDE DR, CENTRAL PARK N TO RIVERSIDE DR 2, CATHEDRAL PARKWAY between AMSTERDAM AVENUE and BROADWAY,  WEST END AVENUE between WEST   72 STREET and WEST   59 STREET,  NAVY STREET between SANDS STREET and FLUSHING AVENUE,  VANDERBILT AVENUE between FLUSHING AVENUE and PLAZA ST EAST,  CENTRAL PARK N TO RIVERSIDE DR,grand army plz east dr to st johns pl , EAGLE ST MANHATTAN AV TO PULASKI BIKE PATH, SHORE BOULEVARD between 12 STREET and ASTORIA PARK SOUTH,  65 ST TO ELAVATED HWY TO 67 ST, 65 ST TO ELAVATED HWY TO 67 ST2,Shore Parkway: Shore Parkway Bike Path Bensonhurst , SHORE PKWY SVC TO BAY 52 ST, HENDRICKSON PLACE between HENDRICKSON STREET and FLATBUSH AVENUE,  SANDS ST ADAMS ST TO GOLD ST, CROSS BAY BR BIKE/PED PATH, VAN BRUNT RD BIKE PATH TO E 21 RD, 84 ST 157 AV TO BIKE PATH, HIGHLAND BLV FORCE TUBE TO VERMONT PL, VERMONT PL HIGHLAND TO CYPRASS, CYPRESS AVENUE VERMONT TO CYPRESS HILL ST,Forest Park: Forest Park Drive (Race) FOREST PARK between FOREST PARK DRIVE EAST and E, Forest Park: Forest Park Drive West FOREST PARK between FOREST PARK DRIVE WEST and W,  FORSET PK W GREENWAY MYRTLE FOREST PK GRE SO, CONT. FOREST PARK DR TO PARK LA, PARK LANE between FOREST PARK DRIVE and ONSLOW PLACE,  HOOVER AVENUE between QUEENS BOULEVARD and MAIN STREET,  MAIN STREET between HOOVER AVENUE and UNION TURNPIKE,  MAIN STREET between UNION TURNPIKE and 76 ROAD,  MAIN STREET between 76 ROAD and 73 AVENUE, horatio pkwy 50 av to cloverdale blvd , 26 AVENUE between UTOPIA PARKWAY and 154 STREET,  27 AVENUE between DITMARS BOULEVARD and GILLMORE STREET,  GILLMORE STREET between 27 AVENUE and 24 AVENUE,  24 AVENUE between GILLMORE STREET and 92 STREET,  92 STREET between 24 AVENUE and 23 AVENUE,  23 AVENUE between 92 STREET and 82 STREET,  81 STREET between DITMARS BOULEVARD and 19 AVENUE,  DITMARS BOULEVARD between 23 AVENUE and 81 STREET,  19 AVENUE between 81 STREET and 49 STREET,  49 STREET between 19 AVENUE and 20 AVENUE,  20 AVENUE between 49 STREET and SHORE BOULEVARD,  LEFT TO SHORE BLVD STOP JAMES LANGERGAARD ASTORIA PK REST STOP,Mosholu Parkway: Mosholu Parkway , MOSHOLU PKWY ONTO THE BIKE PATH,Van Cortlandt Park: Van Cortlandt Park , EXIT VAN COURTLANDT PK BIKE PATH TO W242 ST, RIVERSIDE DRIVE between SEAMAN AVENUE and BROADWAY,  FREDRICK DOUGLAS BLVD FROM BRIDGE OVER FDR, EDGECOMBE AVENUE between WEST  145 STREET and WEST  141 STREET,  ST NICHOLAS AV TO A.C POWELL BLVD, ROCKAWAY BEACH BLVD FROM PED PATH TO 108 ST, ROCKAWAY BEACH BLVD TO 108 ST, PRINCE STREET between 35 AVENUE and NORTHERN BOULEVARD, Robert F. Kennedy Bridge: Robert F. Kennedy Bridge ",
+                        "97 PIER   97, WEST   59 STREET between 12 AVENUE and 11 AVENUE,  11 AVENUE between WEST   59 STREET and WEST   54 STREET,  WEST   54 STREET between 11 AVENUE and 9 AVENUE,  9 AVENUE between WEST   54 STREET and WEST   15 STREET,  HUDSON STREET between 8 AVENUE and WEST   14 STREET,  BLEECKER STREET between 8 AVENUE and LAGUARDIA PLACE,  WEST BROADWAY between BLEECKER STREET and GRAND STREET,  GRAND STREET between WEST BROADWAY and LAFAYETTE STREET,  LAFAYETTE STREET between GRAND STREET and READE STREET,  CENTRE STREET between READE STREET and BROOKLYN BRIDGE BIKE PATH,  ADAMS STREET between TILLARY STREET and SAND STREET,  PROSPECT PARK WEST between PLAZA STREET and PROSPECT PARK SOUTHWEST,  PROSPECT PARK SOUTHWEST between PROSPECT PARK WEST and 16 STREET, Prospect Park: Park Drive - WHOLE DRIVE ,Prospect Park: Park Circle Entrance , OCEAN PARKWAY between PARK CIRCLE and AVENUE R,  AVENUE R between OCEAN PARKWAY and GERRITSEN AVENUE,  GERRITSEN AVENUE between AVENUE R and BROWN STREET, Marine Park: Lawn Area (Burnett St) , AVENUE U between BROWN STREET and RYDER STREET,  RYDER STREET between AVENUE U and AVENUE V,  AVENUE V between RYDER STREET and HENDRICKSON STREET,  HENDRICKSON STREET between AVENUE V and HENDRICKSON PLACE,  FLATBUSH AVENUE between HENDRICKSON PLACE and AVIATION ROAD,  BEACH  169 STREET between STATE ROAD and MURRAY ROAD,  ROCKAWAY BEACH BOULEVARD between BEACH  149 STREET and BEACH  108 STREET,  BEACH  108 STREET between ROCKAWAY BEACH BOULEVARD and SHORE FRONT PARKWAY,  SHORE FRONT PARKWAY between BEACH  108 STREET and BEACH   94 STREET,  BEACH   94 STREET between SHORE FRONT PARKWAY and ROCKAWAY FREEWAY,  BEACH   92 STREET between ROCKAWAY FREEWAY and BEACH CHANNEL DRIVE,  CROSSBAY BOULEVARD between EAST   21 ROAD and 165 AVENUE,  165 AVENUE between CROSSBAY BOULEVARD and 92 STREET,  92 STREET between 165 AVENUE and 157 AVENUE,  157 AVENUE between 92 STREET and 84 STREET,  84 STREET between SHORE PARKWAY and 151 AVENUE,  AMBER STREET between STANLEY AVENUE and LORING AVENUE,  LORING AVENUE between AMBER STREET and LINDEN BOULEVARD,  FOUNTAIN AVENUE between LINDEN BOULEVARD and DUMONT AVENUE,  DUMONT AVENUE between FOUNTAIN AVENUE and LOGAN STREET,  LOGAN STREET between DUMONT AVENUE and ETNA STREET,  ETNA STREET between LOGAN STREET and FORCE TUBE AVENUE,  FORCE TUBE AVENUE between ETNA STREET and HIGHLAND BOULEVARD, Highland Park  (BOOKED BY QUEENS): Highland Park , COOPER AVENUE between CYPRESS HILLS STREET and MYRTLE AVENUE,  CYPRESS HILLS STREET between CYPRESS AVENUE and COOPER AVENUE,  MYRTLE AVENUE between COOPER AVENUE and 79 LANE,  PARK LANE between FOREST PARK DRIVE and ONSLOW PLACE,  ONSLOW PLACE between PARK LANE and GRENFELL STREET,  82 AVENUE between GRENFELL STREET and KEW GARDENS ROAD,  KEW GARDENS ROAD between 82 AVENUE and 83 AVENUE,  83 AVENUE between KEW GARDENS ROAD and HOOVER AVENUE,  MAIN STREET between HOOVER AVENUE and 72 AVENUE,  164 STREET between 73 AVENUE and 59 AVENUE, Kissena Corridor West: Kissena Corridor Park ,Cunningham Park: Cunningham Park , 69 AVENUE between CLOVERDALE BOULEVARD and 230 STREET,  230 STREET between 69 AVENUE and 67 AVENUE,  67 AVENUE between 230 STREET and 233 STREET,  233 STREET between 67 AVENUE and EAST HAMPTON BOULEVARD,  223 STREET between CLOVERDALE BOULEVARD and NORTHERN BOULEVARD,  UTOPIA PARKWAY between CRYDERS LANE and 26 AVENUE,  26 AVENUE between UTOPIA PARKWAY and 154 STREET,  154 STREET between 26 AVENUE and 32 AVENUE,  32 AVENUE between 154 STREET and PARSONS BOULEVARD,  PARSONS BOULEVARD between 32 AVENUE and 35 AVENUE,  35 AVENUE between PARSONS BOULEVARD and PRINCE STREET,  PRINCE STREET between 35 AVENUE and NORTHERN BOULEVARD,  27 AVENUE between DITMARS BOULEVARD and GILMORE STREET,  GILMORE STREET between 27 AVENUE and 24 AVENUE,  24 AVENUE between GILMORE STREET and 92 STREET,  92 STREET between 24 AVENUE and 23 AVENUE,  23 AVENUE between 92 STREET and 82 STREET,  82 STREET between 23 AVENUE and DITMARS BOULEVARD,  DITMARS BOULEVARD between 82 STREET and 81 STREET,  81 STREET between DITMARS BOULEVARD and 19 AVENUE,  49 STREET between 19 AVENUE and 20 AVENUE,  20 AVENUE between 49 STREET and SHORE BOULEVARD,  24 AVENUE between 19 STREET and 27 STREET,  27 STREET between 24 AVENUE and HOYT AVENUE NORTH, Robert F. Kennedy Bridge: Robert F. Kennedy Bridge , EAST  132 STREET between CYPRESS AVENUE and WALNUT AVENUE,  EAST  132 STREET between WILLOW AVENUE and WALNUT AVENUE,  WALNUT AVENUE between EAST  132 STREET and EAST  138 STREET,  EAST  138 STREET between WALNUT AVENUE and JACKSON AVENUE,  JACKSON AVENUE between EAST  138 STREET and EAST  145 STREET,  EAST  145 STREET between JACKSON AVENUE and CONCORD AVENUE,  CONCORD AVENUE between EAST  145 STREET and EAST  150 STREET,  EAST  150 STREET between CONCORD AVENUE and PROSPECT AVENUE,  PROSPECT AVENUE between EAST  150 STREET and EAST  167 STREET,  EAST  167 STREET between PROSPECT AVENUE and WESTCHESTER AVENUE,  WESTCHESTER AVENUE between EAST  167 STREET and SHERIDAN EXPRESSWAY SERVICE ROAD,  DEVOE AVENUE between EAST  177 STREET and EAST  180 STREET,  EAST  180 STREET between DEVOE AVENUE and BRONX RIVER PARKWAY, Bronx Park: Bronx Park , BRONX PARK E between LYDIG AVENUE and BRONX AND PELHAM PARKWAY,  FORDHAM STREET between CITY ISLAND AVENUE and KING AVENUE,  KING AVENUE between FORDHAM STREET and DITMARS STREET,  DITMARS STREET between KING AVENUE and MINNIEFORD AVENUE,  MINNIEFORD AVENUE between DITMARS STREET and KILROE STREET,  KILROE STREET between MINNIEFORD AVENUE and KING AVENUE,  KING AVENUE between KILROE STREET and TERRACE STREET,  TERRACE STREET between KING AVENUE and MINNIEFORD AVENUE,  MINNIEFORD AVENUE between TERRACE STREET and BRIDGE STREET,  BRIDGE STREET between MINNIEFORD AVENUE and CITY ISLAND AVENUE,  CITY ISLAND BRIDGE between CITY ISLAND AVENUE and CITY ISLAND ROAD,  SOUTHERN BOULEVARD between ALLERTON AVENUE and MOSHOLU PARKWAY, Van Cortlandt Park: Van Cortlandt Park , WEST  230 STREET between TIBBETT AVENUE and MARBLE HILL AVENUE,  MARBLE HILL AVENUE between WEST  230 STREET and WEST  228 STREET,  WEST  228 STREET between MARBLE HILL AVENUE and TERRACE VIEW AVENUE,  BROADWAY between WEST  225 STREET and 10 AVENUE,  10TH AVENUE between WEST  218 STREET and DYCKMAN STREET, Harlem River Park: Harlem River Park ST NICHOLAS AVENUE between WEST  155 STREET and FREDERICK DOUGLASS BOULEVARD,  FREDERICK DOUGLASS BOULEVARD between ST NICHOLAS AVENUE and FREDERICK DOUGLASS CIRCLE,  RIVERSIDE DRIVE between WEST  110 STREET and WEST   72 STREET,  WEST   72 STREET between RIVERSIDE DRIVE and WEST END AVENUE,  WEST END AVENUE between WEST   72 STREET and WEST   59 STREET,  WEST   59 STREET between WEST END AVENUE and WEST SIDE HIGHWAY, 97 PIER   97, MAIN STREET between HOOVER AVENUE and 73 AVENUE,  72 AVENUE between MAIN STREET and PARK DRIVE EAST,  PARK DRIVE EAST between 72 AVENUE and JEWEL AVENUE,  MARINA ROAD between BOAT BASIN PLACE and FLUSHING BAY PROMENADE, Wards Island Park: Wards Island Park , EAST  105 STREET between FDR DRIVE and 1 AVENUE,  1 AVENUE between EAST  105 STREET and EAST  111 STREET,  EAST  111 STREET between 1 AVENUE and 5 AVENUE,  LENOX AVENUE between WEST  111 STREET and CENTRAL PARK NORTH,  WEST  110 STREET between FREDERICK DOUGLASS CIRCLE and BROADWAY,  DIVISION AVENUE between BEDFORD AVENUE and KENT AVENUE,  FRANKLIN STREET between KENT AVENUE and EAGLE STREET,  EAGLE STREET between FRANKLIN STREET and PULASKI BRIDGE BIKE PATH, Pulaski Bridge (South Bound): Freeman to 49th Avenue PULASKI BRIDGE between FREEMAN STREET and 49TH AVENUE,  11 STREET between 50 AVENUE and 51 AVENUE,  51 AVENUE between 11 STREET and VERNON BOULEVARD,  VERNON BOULEVARD between 51 AVENUE and MAIN AVENUE,  8 STREET between MAIN AVENUE and 27 AVENUE,  27 AVENUE between 8 STREET and 12 STREET,  12 STREET between 27 AVENUE and SHORE BOULEVARD, Forest Park: Forest Park Drive (Race) FOREST PARK between FOREST PARK DRIVE EAST and E, Forest Park: Forest Park Drive West FOREST PARK between FOREST PARK DRIVE WEST and W,  NORTHERN BVLD between PRINCE ST and FLUSHING BAY PROM,  RFK BRIDGE, WEST  111 STREET between 5 AVENUE and LENOX AVENUE,  CYPRESS AVE between E133 STREET and E132 STREET, Pelham Parkway: Pelham Parkway , E 103 STREET FOOTBRIDGE, E 103 STREET FOOTBRIDGE between HARLEM RIVER PATHWAY and E 102 STREET, Brooklyn Bridge: Brooklyn Bridge Pedestrian: 1  between PARK ROW (S) and TILLARY STREET,  9 AVE between 15 ST and 14 ST,  CENTRE ST between READE ST and BROOKLYN BRIDGE BIKE PATH, Harlem River Park: Harlem River Park , W, 110TH STREET between BROADWAY and RIVERSIDE DRIVE,  WEST  110 STREET between LENOX AVENUE and ADAM CLAYTON POWELL BOULEVARD,  WEST 110TH STREET between ADAM CLAYTON POWELL BOULEVARD and FREDRICK DOUGLASS CIRCLE, Machate Circle: Machate Circle , FLATBUSH AV OVER MARINE PKWY TO STATE RD, ROCKAWAY BEACH BLVD BEACH CHNL DR TO BEACH 149 ST,Cross-Bay Bridge: Cross Bay Blvd CROSS BAY VETERANS BRIDGE, STAY ON 156 AV/84 ST, 151 AVENUE between 84 STREET and 79 STREET,  151 AVENUE between 79 STREET and SAPPHIRE STREET,  STANLEY AVENUE between SAPPHIRE STREET and AMBER STREET,  HIGHLAND BLVD JAMAICA AV TO VERMONT PL, CONT FOREST PARK DR TO PARK LA, FOREST PARK DRIVE between METROPOLITAN AVENUE and PARK LANE,  HOOVER AVENUE between 83 AVENUE and MAIN STREET, Flushing Meadows Corona Park: Flushing Meadows Corona Park , BOAT BASIN PLACE between SHEA ROAD and MARINA ROAD,  FLUSHING BAY PROMENADE TO 27 AV, 19 AVENUE between 81 STREET and 49 STREET, Astoria Park: Astoria Park , BROWN STREET between GERRITSEN AVENUE and AVENUE U,  HENDRICKSON PLACE between HENDRICKSON STREET and FLATBUSH AVENUE,  FLATBUSH AV FROM AVIATION RD OVER BRIDGE TO ROCKAWAYS, HOOVER AVENUE between MAIN STREET and SMEDLEY STREET,  SMEDLEY STREET between HOOVER AVENUE and 84 ROAD,  84 ROAD between SMEDLEY STREET and 164 STREET,  164 STREET between 84 ROAD and UNDERHILL AVENUE,  UNDERHILL AVENUE between 164 STREET and 170 STREET,  CONT. ONTO GREENWAY UNDERHILL AV TO CLOVERDALE BLVD, CLOVERDALE BOULEVARD between 77 AVENUE and 76 AVENUE,  CLOVERDALE BOULEVARD between 73 AVENUE and 69 AVENUE,  E HAMPTON BOULEVARD 233 ST ONTO GREENWAY, CLOVERDALE BOULEVARD between BIRMINGTON PARKWAY and 223 STREET,  RT ON NORTHER BLVD TO GREENWAY PATH TO TOTTEN AVE,Little Bay Park: Little Bay Park , SHORE BOULEVARD between 20 AVENUE and DITMARS BOULEVARD,  SHERIDAN EXPRESSWAY between WESTCHESTER AVENUE and EAST  177 STREET,  CITY ISLAND AVENUE between CITY ISLAND BRIDGE and FORDHAM STREET,  SANDS ST ADAMS ST TO JAY ST, JAY ST SANDS TO FULTON ST, SMITH STREET between FULTON STREET and SCHERMERHORN STREET,  SCHERMERHORN STREET between SMITH STREET and 3 AVENUE,  LAFAYETTE AVENUE between FLATBUSH AVENUE and VANDERBILT AVENUE,  3 AV between SCHERMERHORN ST TO LAFAYETTE AV and ,  VANDERBILT AVENUE between LAFAYETTE AVENUE and PLAZA ST EAST,  LINCOLN ROAD between OCEAN AVENUE and FLATBUSH AVENUE,  WASHINGTON AVENUE between LINCOLN ROAD and STERLING STREET,  STERLING STREET between WASHINGTON AVENUE and BEDFORD AVENUE,  BEDFORD AVENUE between STERLING STREET and DEAN STREET,  BEDFORD AVENUE between DEAN STREET and DIVISION AVENUE,  KENT AVENUE between DIVISION AVENUE and NORTH   14 STREET,  PLAZA ST E VANDERBILT AV TO PROSPECT PK W,Prospect Park: West Drive - Center Drive to Park Circle , CITY ISLAND AVENUE between BRIDGE STREET and CITY ISLAND BRIDGE,  MOSHOLU PKWY GRWAY SOUTHERN BLVDTO VAN  CORTLANDT AV, CONT MOSHOLU PKWY GRWAY TO KIERAN NATURE TRAIL TOWARDS BWAY, W 242 ST BROADWAY TO MANHATTAN COLLEGE PKWY, MANHATAN COLLEGE W 24 2ST TO WALDO AV, WALDO AVENUE between MANHATTAN COLLEGE PARKWAY and WEST  238 STREET,  WEST  238 STREET between WALDO AVENUE and IRWIN AVENUE,  IRWIN AVENUE between WEST  238 STREET and WEST  240 STREET,  WEST  240 STREET between IRWIN AVENUE and TIBBETT AVENUE,  TIBBETT AVENUE between WEST  240 STREET and WEST  230 STREET,  TERRANCE VIEW AV MARBLE HILL TO W 225 ST, CONT BIKE PATH CITY ISLAND RD TO PELHAM PKWY, SEYMOUR AVENUE between PELHAM PARKWAY NORTH and WARING AVENUE,  WARING AVENUE between SEYMOUR AVENUE and BRONX PARK EAST,  12 AVE SERVICE RD between 57 ST and 59 ST",
+                        " EAST  161 STREET between WALTON AVENUE and CONCOURSE VILLAGE EAST,  CONCOURSE VILLAGE EAST between EAST  161 STREET and EAST  156 STREET,  EAST  156 STREET between CONCOURSE VILLAGE EAST and PROSPECT AVENUE,  PROSPECT AVENUE between EAST  156 STREET and BOSTON ROAD,  BOSTON ROAD between PROSPECT AVENUE and CHARLOTTE STREET,  JENNINGS STREET between MINFORD PLACE and LONGFELLOW AVENUE,  LONGFELLOW AVENUE between JENNINGS STREET and EAST  172 STREET,  EAST  172 STREET between LONGFELLOW AVENUE and WEST FARMS ROAD,  WEST FARMS ROAD between EAST  172 STREET and EAST TREMONT AVENUE,  EAST TREMONT AVENUE between WEST FARMS ROAD and DEVOE AVENUE,  DEVOE AVENUE between EAST TREMONT AVENUE and EAST  177 STREET,  EAST  177 STREET between DEVOE AVENUE and SHERIDAN EXPRESSWAY,  SHERIDAN EXPRESSWAY between EAST  177 STREET and WESTCHESTER AVENUE,  WESTCHESTER AVENUE between SHERIDAN EXPRESSWAY and BRONX RIVER AVENUE,  BRONX RIVER AVENUE between WESTCHESTER AVENUE and STORY AVENUE,  STORY AVENUE between BRONX RIVER AVENUE and COLGATE AVENUE,  COLGATE AVENUE between STORY AVENUE and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between COLGATE AVENUE,  LELAND AVENUE between GILDERSLEEVE AVENUE,  GILDERSLEEVE AVENUE between LELAND AVENUE and WHITE PLAINS ROAD,  WHITE PLAINS ROAD between GILDERSLEEVE AVENUE and LACOMBE AVENUE,  LACOMBE AVENUE between WHITE PLAINS ROAD and SCREVIN AVENUE,  SCREVIN AVENUE between LACOMBE AVENUE,  NORTON AVENUE between OLMSTEAD AVENUE,  OLMSTEAD AVENUE between NORTON AVENUE and LACOMBE AVENUE,  HOWE AVENUE between NORTON AVENUE and LACOMBE AVENUE,  LACOMBE AVENUE between OLMSTEAD AVENUE and CASTLE HILL AVENUE,  CASTLE HILL AVENUE between LACOMBE AVENUE and ZEREGA AVENUE,  ZEREGA AVENUE between CASTLE HILL AVENUE and TURNEUR AVENUE,  Po between ZEREGA AVENUE and LACOMBE AVENUE,  LACOMBE AVENUE between TURNEUR AVENUE and HAVEMEYER AVENUE,  HAVEMEYER AVENUE between LACOMBE AVENUE and STORY AVENUE,  STORY AVENUE between HAVEMEYER AVENUE and ZEREGA AVENUE,  ZEREGA AVENUE between STORY AVENUE and BRUCKNER BOULEVARD,  BRUCKNER BOULEVARD between ZEREGA AVENUE and BRUSH AVENUE,  BRUSH AVENUE between BRUCKNER BOULEVARD and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between BRUSH AVENUE,  RANDALL AVENUE between BALCOM AVENUE,  BALCOM AVENUE between RANDALL AVENUE and SAMPSON AVENUE,  SAMPSON AVENUE between BALCOM AVENUE and BRINSMADE AVENUE,  BRINSMADE AVENUE between SAMPSON AVENUE and SCHURZ AVENUE,  SCHURZ AVENUE between BRINSMADE AVENUE and PENNYFIELD AVENUE,  PENNYFIELD AVENUE between SCHURZ AVENUE and ERBEN AVENUE,  PENNYFIELD AVENUE between ERBEN AVENUE and LAWTON AVENUE,  LAWTON AVENUE between PENNYFIELD AVENUE and THRG NCK EXPRESSWAY SR,  THRG NCK EXPRESSWAY SR between LAWTON AVENUE and SCHLEY AVENUE,  SCHLEY AVENUE between THRG NCK EXPRESSWAY SR and CLARENCE AVENUE,  CLARENCE AVENUE between SCHLEY AVENUE and PHILIP AVENUE,  PHILIP AVENUE between CLARENCE AVENUE and DEAN AVENUE,  DEAN AVENUE between PHILIP AVENUE and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between DEAN AVENUE and SHORE DRIVE,  SHORE DRIVE between LAFAYETTE AVENUE and STADIUM AVENUE,  STADIUM AVENUE between SHORE DRIVE and WATT AVENUE,  SHORE ROAD between BRONX AND PELHAM PARKWAY,  CITY ISLAND BRIDGE between CITY ISLAND AVENUE,  CITY ISLAND AVENUE between CITY ISLAND BRIDGE and FORDHAM STREET,  FORDHAM STREET between CITY ISLAND AVENUE and KING AVENUE,  KING AVENUE between FORDHAM STREET and DITMARS STREET,  DITMARS STREET between KING AVENUE and KING AVENUE,  KING AVENUE between DITMARS STREET and BEACH STREET,  BEACH STREET between KING AVENUE and MINNIEFORD AVENUE,  MINNIEFORD AVENUE between BEACH STREET and KILROE STREET,  KILROE STREET between MINNIEFORD AVENUE and KING AVENUE,  KING AVENUE between KILROE STREET and TERRACE STREET,  TERRACE STREET between KING AVENUE and MINNIEFORD AVENUE,  MINNIEFORD AVENUE between TERRACE STREET and BRIDGE STREET,  BRIDGE STREET between MINNIEFORD AVENUE and CITY ISLAND AVENUE,  CITY ISLAND AVENUE between BRIDGE STREET and CITY ISLAND BRIDGE,  SHORE ROAD SR EAST between ORCHARD BEACH ROAD and PELHAM PARKWAY,  PELHAM PARKWAY between SHORE ROAD,  LODOVICK AVENUE between PELHAM PARKWAY NORTH and ASTOR AVENUE,  ASTOR AVENUE between LODOVICK AVENUE and EASTCHESTER ROAD,  EASTCHESTER ROAD between ASTOR AVENUE and EAST  222 STREET,  EAST  222 STREET between EASTCHESTER ROAD and BRONXWOOD AVENUE,  BRONXWOOD AVENUE between EAST  222 STREET and BARNES AVENUE,  BARNES AVENUE between BRONXWOOD AVENUE and EAST  237 STREET,  EAST  237 STREET between BARNES AVENUE and MATILDA AVENUE,  MATILDA AVENUE between EAST  237 STREET and NEREID AVENUE,  NEREID AVENUE between MATILDA AVENUE and WEBSTER AVENUE,  WEBSTER AVENUE between NEREID AVENUE and EAST  233 STREET,  JEROME AVENUE between EAST  233 STREET and WEST GUN HILL ROAD,  WEST GUN HILL ROAD between JEROME AVENUE,  BROADWAY between WEST  242 STREET,  WEST  242 STREET between BROADWAY and MANHATTAN COLLEGE PARKWAY,  MANHATTAN COLLEGE PARKWAY between WEST  242 STREET,  WEST  246 STREET between ARLINGTON AVENUE,  ARLINGTON AVENUE between WEST  246 STREET and DODGEWOOD ROAD,  DODGEWOOD ROAD between ARLINGTON AVENUE and INDEPENDENCE AVENUE,  INDEPENDENCE AVENUE between DODGEWOOD ROAD and WEST  247 STREET,  WEST  247 STREET between INDEPENDENCE AVENUE and PALISADE AVENUE,  PALISADE AVENUE between WEST  247 STREET and JOHNSON AVENUE,  JOHNSON AVENUE between PALISADE AVENUE and RIVERDALE AVENUE,  RIVERDALE AVENUE between JOHNSON AVENUE and IRWIN AVENUE,  IRWIN AVENUE between RIVERDALE AVENUE and WEST  238 STREET,  WEST  238 STREET between IRWIN AVENUE and FORT INDEPENDENCE STREET,  FORT INDEPENDENCE STREET between WEST  238 STREET,  RESERVOIR AVENUE between WEST  197 STREET,  WEST  197 STREET between RESERVOIR AVENUE and GOULDEN AVENUE,  GOULDEN AVENUE between WEST  197 STREET,  BEDFORD PARK BL EAST between KAZIMIROFF BOULEVARD,  KAZIMIROFF BOULEVARD between BEDFORD PARK BL EAST,  KAZIMIROFF BOULEVARD between MOSHOLU PARKWAY,  EAST  233 STREET between BRONX BOULEVARD and WEBSTER AVENUE,  WEBSTER AVENUE between EAST  233 STREET,  KAZIMIROFF BOULEVARD between BEDFORD PARK BOULEVARD,  BEDFORD PARK BOULEVARD between KAZIMIROFF BOULEVARD and MARION AVENUE,  MARION AVENUE between BEDFORD PARK BOULEVARD and EAST  196 STREET,  EAST  196 STREET between MARION AVENUE and GRAND CONCOURSE,  GRAND CONCOURSE between EAST  196 STREET and EAST  161 STREET,  KAZIMIROFF BOULEVARD between BEDFORD PARK BOULEVARD,  BEDFORD PARK BOULEVARD between KAZIMIROFF BOULEVARD,  GOULDEN AVENUE between WEST  197 STREET,  WEST  197 STREET between GOULDEN AVENUE and RESERVOIR AVENUE,  RESERVOIR AVENUE between WEST  197 STREET,  FT INDEPENDENCE STREET between WEST  238 STREET,  WEST  238 STREET between FT INDEPENDENCE STREET and TIBBETT AVENUE,  TIBBETT AVENUE between WEST  238 STREET and WEST  231 STREET,  WEST  231 STREET between TIBBETT AVENUE and RIVERDALE AVENUE,  RIVERDALE AVENUE between WEST  231 STREET and JOHNSON AVENUE,  JOHNSON AVENUE between RIVERDALE AVENUE and PALISADE AVENUE,  PALISADE AVENUE between JOHNSON AVENUE and INDEPENDENCE AVENUE,  INDEPENDENCE AVENUE between PALISADE AVENUE and KAPPOCK STREET,  KAPPOCK STREET between INDEPENDENCE AVENUE,  EAST  144 STREET between WALTON AVENUE and EAST  143 STREET,  EAST  143 STREET between EAST  144 STREET and ALEXANDER AVENUE,  ALEXANDER AVENUE between EAST  143 STREET and EAST  138 STREET,  EAST  138 STREET between ALEXANDER AVENUE,  JACKSON AVENUE between EAST  144 STREET,  EAST  144 STREET between JACKSON AVENUE and CONCORD AVENUE,  CONCORD AVENUE between EAST  144 STREET and EAST  150 STREET,  EAST  150 STREET between CONCORD AVENUE and FOX STREET,  FOX STREET between EAST  150 STREET and EAST  156 STREET,  EAST  156 STREET between FOX STREET and HEWITT PLACE,  HEWITT PLACE between EAST  156 STREET and LONGWOOD AVENUE,  LONGWOOD AVENUE between HEWITT PLACE and PROSPECT AVENUE,  PROSPECT AVENUE between LONGWOOD AVENUE and CROTONA AVENUE,  CROTONA AVENUE between PROSPECT AVENUE,  CHARLOTTE STREET between CROTONA PARK EAST and JENNINGS STREET,  JENNINGS STREET between CHARLOTTE STREET and LONGFELLOW AVENUE,  LONGFELLOW AVENUE between JENNINGS STREET and EAST  172 STREET,  EAST  172 STREET between LONGFELLOW AVENUE and WEST FARMS ROAD,  WEST FARMS ROAD between EAST  172 STREET,  EAST TREMONT AVENUE between WEST FARMS ROAD and DEVOE AVENUE,  DEVOE AVENUE between EAST TREMONT AVENUE and EAST  177 STREET,  EAST  177 STREET between DEVOE AVENUE,  SHERIDAN EXPRESSWAY between WESTCHESTER AVENUE,  WESTCHESTER AVENUE between SHERIDAN EXPRESSWAY and BRONX RIVER AVENUE,  BRONX RIVER AVENUE between WESTCHESTER AVENUE and STORY AVENUE,  STORY AVENUE between BRONX RIVER AVENUE and COLGATE AVENUE,  COLGATE AVENUE between STORY AVENUE and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between COLGATE AVENUE,  LELAND AVENUE between GILDERSLEEVE AVENUE,  GILDERSLEEVE AVENUE between LELAND AVENUE and WHITE PLAINS ROAD,  WHITE PLAINS ROAD between GILDERSLEEVE AVENUE and LACOMBE AVENUE,  LACOMBE AVENUE between WHITE PLAINS ROAD and SCREVIN AVENUE,  SCREVIN AVENUE between LACOMBE AVENUE,  OLMSTEAD AVENUE between LACOMBE AVENUE and BARRETT AVENUE,  BARRETT AVENUE between OLMSTEAD AVENUE and CASTLE HILL AVENUE,  CASTLE HILL AVENUE between BARRETT AVENUE,  ZEREGA AVENUE between CASTLE HILL AVENUE and TURNEUR AVENUE,  TURNEUR AVENUE between ZEREGA AVENUE and LACOMBE AVENUE,  LACOMBE AVENUE between TURNEUR AVENUE and HAVEMEYER AVENUE,  HAVEMEYER AVENUE between LACOMBE AVENUE and STORY AVENUE,  STORY AVENUE between HAVEMEYER AVENUE and ZEREGA AVENUE,  ZEREGA AVENUE between STORY AVENUE and BRUCKNER BOULEVARD,  BRUCKNER BOULEVARD between ZEREGA AVENUE and BRUSH AVENUE,  BRUSH AVENUE between BRUCKNER BOULEVARD and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between BRUSH AVENUE,  RANDALL AVENUE between BALCOM AVENUE,  BALCOM AVENUE between RANDALL AVENUE and SAMPSON AVENUE,  SAMPSON AVENUE between BALCOM AVENUE and BRINSMADE AVENUE,  BRINSMADE AVENUE between SAMPSON AVENUE and SCHURZ AVENUE,  SCHURZ AVENUE between BRINSMADE AVENUE and PENNYFIELD AVENUE,  PENNYFIELD AVENUE between SCHURZ AVENUE,  SCHLEY AVENUE between CLARENCE AVENUE,  CLARENCE AVENUE between SCHLEY AVENUE and PHILIP AVENUE,  PHILIP AVENUE between CLARENCE AVENUE and DEAN AVENUE,  DEAN AVENUE between PHILIP AVENUE and LAFAYETTE AVENUE,  LAFAYETTE AVENUE between DEAN AVENUE and SHORE DRIVE,  SHORE DRIVE between LAFAYETTE AVENUE and STADIUM AVENUE,  STADIUM AVENUE between SHORE DRIVE,  PELHAM PARKWAY NORTH between LODOVICK AVENUE,  LODOVICK AVENUE between PELHAM PARKWAY NORTH and ASTOR AVENUE,  ASTOR AVENUE between LODOVICK AVENUE and WILLIAMSBRIDGE ROAD,  WILLIAMSBRIDGE ROAD between ASTOR AVENUE and WALLACE AVENUE,  WALLACE AVENUE between WILLIAMSBRIDGE ROAD and SOUTH OAK DRIVE,  SOUTH OAK DRIVE between WALLACE AVENUE and NORTH OAK DRIVE,  NORTH OAK DRIVE between SOUTH OAK DRIVE and CRUGER AVENUE,  CRUGER AVENUE between NORTH OAK DRIVE and ROSEWOOD STREET,  ROSEWOOD STREET between CRUGER AVENUE,  KAZIMIROFF BOULEVARD between BEDFORD PARK BOULEVARD,  KAZIMIROFF BOULEVARD between MOSHOLU PARKWAY,  EAST  233 STREET between BRONX BOULEVARD and WEBSTER AVENUE",
+                        " W110 STREET between LENOX AVENUE and RIVERSIDE DRIVE,  RIVERSIDE DRIVE between WEST  110 STREET and WEST   72 STREET,  WEST   72 STREET between RIVERSIDE DRIVE and WEST END AVENUE,  WEST END AVENUE between WEST   72 STREET and WEST   59 STREET,  ELEVENTH AVE between WEST   59 STREET and WEST   30 STREET,  W30 ST between 11 AVENUE and 9 AVENUE,  9 AVENUE between WEST   30 STREET and WEST   14 STREET,  HUDSON STREET between WEST   14 STREET and BETHUNE STREET,  BETHUNE STREET between HUDSON STREET and 8 AVENUE,  BLEECKER ST between 8 AVENUE and BROADWAY,  BROADWAY between BLEECKER STREET and WORTH STREET,  WORTH STREET between BROADWAY and LAFAYETTE STREET,  LAFAYETTE STREET between WORTH STREET and READE STREET,  CENTRE STREET between READE STREET and PARK ROW,  TILLARY STREET between ADAMS STREET and CADMAN PLAZA WEST,  CADMAN PLAZA WEST between TILLARY STREET and CLARK STREET,  CLARK STREET between CADMAN PLAZA WEST and HENRY STREET,  HENRY STREET between CLARK STREET and UNION STREET,  UNION STREET between HENRY STREET and HOYT STREET,  HOYT STREET between UNION STREET and CARROLL STREET,  CARROLL STREET between HOYT STREET and PROSPECT PARK WEST,  PROSPECT PARK WEST between CARROLL STREET and 3 STREET,  PLAZA ST EAST between EASTERN PARKWAY and VANDERBILT AVENUE,  VANDERBILT AVE between PLAZA ST EAST and FLUSHING AVENUE,  FLUSHING AVENUE between VANDERBILT AVENUE and CLASSON AVENUE,  CLASSON AVENUE between FLUSHING AVENUE and KENT AVENUE,  KENT AVE between CLASSON AVENUE and DIVISION AVENUE,  DIVISION AVENUE between KENT AVENUE and BEDFORD AVENUE,  BEDFORD AVE between DIVISION AVENUE and NORTH   12 STREET,  NORTH   12 STREET between BEDFORD AVENUE and KENT AVENUE,  KENT AVENUE between NORTH   12 STREET and FRANKLIN STREET,  FRANKLIN STREET between KENT AVENUE and EAGLE STREET,  EAGLE STREET between FRANKLIN STREET and MANHATTAN AVENUE,  JACKSON AVENUE between 49 AVENUE and VERNON BOULEVARD,  VERNON BLVD between JACKSON AVENUE and MAIN AVENUE,  MAIN AVENUE between VERNON BOULEVARD and ASTORIA BOULEVARD,  MAIN AVENUE between VERNON BOULEVARD and ASTORIA BOULEVARD,  ASTORIA BOULEVARD between MAIN AVENUE and 12 STREET,  ASTORIA BOULEVARD between MAIN AVENUE and 12 STREET,  12 STREET between ASTORIA BOULEVARD and SHORE BOULEVARD,  SHORE BOULEVARD between 12 STREET and DITMARS BOULEVARD,  19 STREET between 23 TERRACE and 24 AVENUE,  24 AVENUE between 19 STREET and 27 STREET,  27 STREET between 24 AVENUE and HOYT AVENUE NORTH,  EAST  105 STREET between EAST RIVER DRIVE and 1 AVENUE,  1 AVENUE between EAST  105 STREET and EAST  111 STREET,  EAST  111 STREET between 1 AVENUE and FIFTH AVENUE,  WEST  111 STREET between FIFTH AVENUE and LENOX AVENUE,  LENOX AVENUE between WEST  111 STREET and WEST  110 STREET,  OCEAN AVENUE between FLATBUSH AVENUE and CATON AVENUE,  CATON AVENUE between OCEAN AVENUE and FORT HAMILTON PARKWAY,  FORT HAMILTON PARKWAY between CATON AVENUE and 41 STREET,  41 STREET between FORT HAMILTON PARKWAY and SEVENTH AVENUE,  SEVENTH AVE between 41 STREET and 66 STREET,  67 ST between 6 AVENUE and 5 AVENUE,  5 AVENUE between 67 STREET and 68 STREET,  68 ST between 5 AVENUE and 3 AVENUE,  68 ST between 3 AVENUE and SHORE ROAD,  CROPSEY AVE between BAY   52 STREET and NEPTUNE AVENUE,  WEST   17 STREET between NEPTUNE AVENUE and SURF AVENUE,  WEST   17 STREET between NEPTUNE AVENUE and SURF AVENUE,  SURF AVENUE between WEST   17 STREET and WEST    5 STREET,  W 5 ST between SURF AVENUE and NEPTUNE AVENUE,  NEPTUNE AVE between WEST    5 STREET and EMMONS AVENUE,  EMMONS AVE between NEPTUNE AVENUE and KNAPP STREET,  KNAPP ST between EMMONS AVENUE and GERRITSEN AVENUE,  GERRITSEN AVENUE between KNAPP STREET and AVENUE U,  AVENUE U between GERRITSEN AVENUE and HENDRICKSON STREET,  HENDRICKSON STREET between AVENUE U and AVENUE T,  AVENUE T between HENDRICKSON STREET and EAST   56 STREET,  EAST   56 STREET between AVENUE T and FARRAGUT ROAD,  FARRAGUT ROAD between EAST   56 STREET and REMSEN AVENUE,  REMSEN AVE between FARRAGUT ROAD and EAST NEW YORK AVENUE,  EAST NEW YORK AVENUE between REMSEN AVENUE and ROCKAWAY PARKWAY,  EAST NEW YORK AVENUE between ROCKAWAY PARKWAY and EAST   96 STREET,  EASTERN PARKWAY between BUFFALO AVENUE and PLAZA STREET EAST,  RYDER STREET between AVENUE U and AVENUE V,  AVENUE V between RYDER STREET and FLATBUSH AVENUE,  FLATBUSH AVENUE between AVENUE V and MARINE PARKWAY BRIDGE, Military Island:: Military Island: BROADWAY between WEST   43 STREET and WEST   44 STREET,  STATE ROAD between BEACH  169 STREET and HEINZELMAN ROAD,  MURRAY RD between HEINZELMAN ROAD and BEACH  169 STREET,  BEACH  169 STREET between MURRAY ROAD and BOARDWALK,  BOARDWALK between BEACH  169 STREET and OCEAN PROMENADE,  BEACH 149 ST between OCEAN PROMENADE and ROCKAWAY BEACH BOULEVARD,  ROCKAWAY BEACH BLVD between BEACH  149 STREET and BEACH  108 STREET,  BEACH  108 STREET between ROCKAWAY BEACH BOULEVARD and SHORE FRONT PARKWAY,  SHORE FRONT PARKWAY between BEACH  108 STREET and CROSS BAY PARKWAY,  BEACH   94 STREET between SHORE FRONT PARKWAY and ROCKAWAY BEACH BOULEVARD,  CROSS BAY BLVD between CROSS BAY BRIDGE and 157 AVENUE,  157 AVENUE between CROSS BAY BOULEVARD and COHANCY STREET,  COHANCY STREET between 157 AVENUE and NORTH CONDUIT AVENUE,  ALBERT ROAD between NORTH CONDUIT AVENUE and CENTERVILLE STREET,  CENTERVILLE STREET between ALBERT ROAD and PITKIN AVENUE,  HAWTREE STREET between PITKIN AVENUE and LINDEN BOULEVARD,  LINDEN BOULEVARD between HAWTREE STREET and CROSS BAY BOULEVARD,  CROSS BAY BOULEVARD between LINDEN BOULEVARD and WOODHAVEN BOULEVARD,  WOODHAVEN BOULEVARD between CROSS BAY BOULEVARD and PARK LA SOUTH,  PARK LANE SOUTH between WOODHAVEN BOULEVARD and 115 STREET,  ONSLOW PLACE between PARK LANE SOUTH and GRENFELL STREET,  82 AVENUE between GRENFELL STREET and KEW GARDENS ROAD,  KEW GARDENS ROAD between 82 AVENUE and 83 AVENUE,  PARK LANE SOUTH between 115 STREET and BEVERLY ROAD,  83 AVENUE between KEW GARDENS ROAD and QUEENS BOULEVARD,  HOOVER AVENUE between QUEENS BOULEVARD and MAIN STREET,  MAIN STREET between HOOVER AVENUE and 73 AVENUE,  73 AVENUE between MAIN STREET and 141 STREET,  141 STREET between 73 AVENUE and 72 AVENUE,  72 AVENUE between 141 STREET and PARK DRIVE EAST,  PARK DRIVE EAST between 72 AVENUE and JEWEL AVENUE,  69 RD between PARK DRIVE EAST and 112 STREET,  AMPHITHEATRE BRIDGE between MEADOW LAKE PROMENADE and PERIMETER ROAD,  PERIMETER ROAD between AMPHITHEATRE BRIDGE and MEADOW LAKE PROMENADE,  COLLEGE PT BLVD between 59 AVENUE and BOOTH MEMORIAL AVENUE,  BOOTH MEMORIAL AVENUE between COLLEGE POINT BOULEVARD and KISSENA BOULEVARD,  KISSENA BLVD between BOOTH MEMORIAL AVENUE and ROSE AVENUE,  UNDERHILL AVENUE between 164 STREET and 170 STREET,  170 STREET between UNDERHILL AVENUE and LITHONIA AVENUE,  LITHONIA AVENUE between 170 STREET and UNDERHILL AVENUE,  UNDERHILL AVENUE between LITHONIA AVENUE and 196 PLACE,  CLOVERDALE BOULEVARD between 77 AVENUE and 76 AVENUE,  CLOVERDALE BOULEVARD between 73 AVENUE and 69 AVENUE,  69 AVENUE between CLOVERDALE BOULEVARD and 230 STREET,  67 AVENUE between 230 STREET and 233 STREET,  233 STREET between 67 AVENUE and WEST ALLEY ROAD,  E HAMPTON BLVD between 58 ROAD and 232 STREET,  232 STREET between EAST HAMPTON BOULEVARD and 50 AVENUE,  50 AVENUE between 232 STREET and HORATIO PARKWAY,  HORATIO PKY between 50 AVENUE and CLOVERDALE BOULEVARD,  CLOVERDALE BOULEVARD between HORATIO PARKWAY and 223 STREET,  223 STREET between CLOVERDALE BOULEVARD and NORTHERN BOULEVARD,  NORTHERN BLVD between 223 STREET and 234 STREET,  UTOPIA PKY between CRYDERS LANE and 26 AVENUE,  26 AVENUE between UTOPIA PARKWAY and 154 STREET,  154 STREET between 26 AVENUE and 32 AVENUE,  32 AVENUE between 154 STREET and PARSONS BOULEVARD,  PARSONS BOULEVARD between 32 AVENUE and 35 AVENUE,  PRINCE STREET between 35 AVENUE and NORTHERN BOULEVARD,  27 AVENUE between DITMARS BOULEVARD and GILMORE STREET,  GILMORE STREET between 27 AVENUE and 24 AVENUE,  24 AVENUE between GILMORE STREET and 92 STREET,  92 STREET between 24 AVENUE and 23 AVENUE,  23 AVE between 92 STREET and 82 STREET,  82 STREET between 23 AVENUE and DITMARS BOULEVARD,  DITMARS BLVD between 23 AVENUE and 81 STREET,  81 STREET between DITMARS BOULEVARD and 19 AVENUE,  19 AVENUE between 81 STREET and 49 STREET,  49 STREET between 19 AVENUE and 20 AVENUE,  20 AVENUE between 49 STREET and SHORE BOULEVARD,  SHORE BOULEVARD between 20 AVENUE and DITMARS BOULEVARD,  EAST  132 STREET between CYPRESS AVENUE and ST ANNS AVENUE,  SAINT ANNS AV between EAST  132 STREET and EAST  141 STREET,  EAST  141 STREET between SAINT ANNS AVENUE and JACKSON AVENUE,  JACKSON AVENUE between EAST  141 STREET and EAST  142 STREET,  EAST  142 STREET between JACKSON AVENUE and CONCORD AVENUE,  CONCORD AVENUE between EAST  142 STREET and EAST  150 STREET,  EAST  150 STREET between CONCORD AVENUE and FOX STREET,  FOX STREET between EAST  150 STREET and TIFFANY STREET,  TIFFANY STREET between FOX STREET and GARRISON AVENUE,  GARRISON AVENUE between TIFFANY STREET and EDGEWATER ROAD,  EDGEWATER ROAD between GARRISON AVENUE and BRUCKNER BOULEVARD,  BRUCKNER BLVD between EDGEWATER ROAD and BRONX RIVER AVENUE,  BRONX RIVER AVENUE between BRUCKNER BOULEVARD and STORY AVENUE,  STORY AVENUE between BRONX RIVER AVENUE and COLGATE AVENUE,  STORY AVENUE between BRONX RIVER AVENUE and COLGATE AVENUE,  COLGATE AVENUE between STORY AVENUE and LAFAYETTE AVENUE,  O'BRIEN AVENUE between LELAND AVENUE and SOUND VIEW AVENUE,  SOUND VIEW AVE between O'BRIEN AVENUE and STORY AVENUE,  ROSEDALE AVE between STORY AVENUE and EAST TREMONT AVENUE,  E 180 ST between EAST TREMONT AVENUE and BOSTON ROAD,  BOSTON ROAD between EAST  180 STREET and BRONX PARK SOUTH,  BRONX PARK SOUTH between BOSTON ROAD and CROTONA PARKWAY,  CROTONA PARKWAY between BRONX PARK SOUTH and SOUTHERN BOULEVARD,  SOUTHERN BOULEVARD between CROTONA PARKWAY and EAST FORDHAM ROAD,  DR KAZIMIROFF BLVD between EAST FORDHAM ROAD and MOSHOLU PARKWAY,  MOSHOLU PKY between DR KAZIMIROFF BOULEVARD and WEST GUN HILL ROAD,  BROADWAY between WEST  242 STREET and WEST  240 STREET,  WEST  240 STREET between BROADWAY and TIBBETT AVENUE,  TIBBETT AVENUE between WEST  240 STREET and WEST  230 STREET,  WEST  230 STREET between TIBBETT AVENUE and BROADWAY,  BROADWAY between WEST  230 STREET and WEST  218 STREET,  WEST  218 STREET between BROADWAY and SEAMAN AVENUE,  SEAMAN AVENUE between WEST  218 STREET and RIVERSIDE DRIVE,  RIVERSIDE DRIVE between SEAMAN AVENUE and DYCKMAN STREET,  DYCKMAN STREET between RIVERSIDE DRIVE and 10 AVENUE,  FRED DOUGLASS BOULEVARD between WEST  155 STREET and WEST  154 STREET,  WEST  154 STREET between 8 AVENUE and BRADHURST AVENUE,  BRADHURST AVENUE between WEST  154 STREET and WEST  145 STREET,  WEST  145 STREET between BRADHURST AVENUE and EDGECOMBE AVENUE,  EDGECOMBE AV between WEST  145 STREET and WEST  139 STREET,  WEST  139 STREET between EDGECOMBE AVENUE and SAINT NICHOLAS AVENUE,  SAINT NICHOLAS AVENUE between WEST  139 STREET and WEST  116 STREET,  7 AVENUE between WEST  116 STREET and WEST  110 STREET,  BROADWAY between WORTH STREET and MORRIS STREET",
+                        " WEST  110 STREET between LENOX AVENUE and RIVERSIDE DRIVE,  RIVERSIDE DRIVE between WEST  110 STREET and WEST   72 STREET,  WEST   72 STREET between RIVERSIDE DRIVE and BROADWAY,  BROADWAY between WEST   72 STREET and WEST   48 STREET,  WEST   48 STREET between BROADWAY and 7 AVENUE,  7 AVENUE between WEST   48 STREET and BROADWAY,  BROADWAY between 7 AVENUE and WEST   34 STREET,  WEST   34 STREET between BROADWAY and 5 AVENUE,  5 AVENUE between EAST   34 STREET and BROADWAY,  BROADWAY between 5 AVENUE and EAST   17 STREET,  EAST   17 STREET between BROADWAY and UNION SQUARE EAST,  UNION SQUARE EAST between EAST   17 STREET and EAST   15 STREET,  UNION SQUARE SOUTH between EAST   15 STREET and BROADWAY,  BROADWAY between UNION SQUARE SOUTH and WORTH STREET,  WORTH STREET between BROADWAY and LAFAYETTE STREET,  LAFAYETTE STREET between WORTH STREET and CENTRE STREET,  CENTRE STREET between LAFAYETTE STREET and PARK ROW,  ADAMS STREET between SANDS STREET and TILLARY STREET,  TILLARY STREET between ADAMS STREET and CADMAN PLAZA WEST,  CADMAN PLAZA WEST between TILLARY STREET and FRONT STREET,  CLARK STREET between CADMAN PLAZA WEST and HENRY STREET,  HENRY STREET between OLD FULTON STREET and UNION STREET,  UNION STREET between HENRY STREET and HOYT STREET,  HOYT STREET between UNION STREET and CARROLL STREET,  CARROLL STREET between HOYT STREET and PROSPECT PARK WEST,  PROSPECT PARK WEST between CARROLL STREET and 3 STREET,  FRONT STREET between CADMAN PLAZA WEST and DOCK STREET,  DOCK STREET between FRONT STREET and WATER STREET,  WATER STREET between DOCK STREET and OLD FULTON STREET,  OLD FULTON STREET between WATER STREET and HENRY STREET,  PLAZA ST EAST between EASTERN PARKWAY and VANDERBILT AVENUE,  VANDERBILT AVENUE between PLAZA ST EAST and FLUSHING AVENUE,  FLUSHING AVENUE between VANDERBILT AVENUE and CLASSON AVENUE,  CLASSON AVENUE between FLUSHING AVENUE and KENT AVENUE,  KENT AVENUE between CLASSON AVENUE and DIVISION AVENUE,  DIVISION AVENUE between KENT AVENUE and BEDFORD AVENUE,  BEDFORD AVENUE between DIVISION AVENUE and NORTH   12 STREET,  NORTH   12 STREET between BEDFORD AVENUE and KENT AVENUE,  KENT AVENUE between NORTH   12 STREET and NORTH   14 STREET,  FRANKLIN STREET between NORTH   14 STREET and EAGLE STREET,  EAGLE STREET between FRANKLIN STREET and PROVOST STREET,  11 STREET between 48 AVENUE and 51 AVENUE,  51 AVENUE between 11 STREET and VERNON BOULEVARD,  VERNON BOULEVARD between 51 AVENUE and MAIN AVENUE,  MAIN AVENUE between VERNON BOULEVARD and ASTORIA BOULEVARD,  ASTORIA BOULEVARD between MAIN AVENUE and 12 STREET,  12 STREET between ASTORIA BOULEVARD and SHORE BOULEVARD,  19 STREET between 22 DRIVE and 24 AVENUE,  24 AVENUE between 19 STREET and 27 STREET,  27 STREET between 24 AVENUE and HOYT AVENUE NORTH,  EAST  105 STREET between FDR DRIVE and 1 AVENUE,  1 AVENUE between EAST  105 STREET and EAST  111 STREET,  EAST  111 STREET between 1 AVENUE and LENOX AVENUE,  FLATBUSH AVENUE between EAST LAKE DRIVE and OCEAN AVENUE,  OCEAN AVENUE between FLATBUSH AVENUE and CATON AVENUE,  CATON AVENUE between OCEAN AVENUE and FORT HAMILTON PARKWAY,  FT HAMILTON PARKWAY between CATON AVENUE and 41 STREET,  41 STREET between FORT HAMILTON PARKWAY and 7 AVENUE,  7 AVENUE between 41 STREET and ERIK PLACE,  67 STREET between ERIK PLACE and 5 AVENUE,  5 AVENUE between 67 STREET and 68 STREET,  68 STREET between 5 AVENUE and SHORE ROAD,  SHORE ROAD between 68 STREET and 69 STREET,  BAY   52 STREET between SHORE PARKWAY and CROPSEY AVENUE,  CROPSEY AVENUE between BAY   52 STREET and NEPTUNE AVENUE,  WEST   17 STREET between NEPTUNE AVENUE and SURF AVENUE,  SURF AVENUE between WEST   17 STREET and WEST    5 STREET,  WEST    5 STREET between SURF AVENUE and NEPTUNE AVENUE,  NEPTUNE AVENUE between WEST    5 STREET and SHORE BOULEVARD,  EMMONS AVENUE between SHORE BOULEVARD and BRIGHAM STREET,  ROCKAWAY PARKWAY between CANARSIE VETERANS CIRCLE and FARRAGUT ROAD,  FARRAGUT ROAD between ROCKAWAY PARKWAY and REMSEN AVENUE,  REMSEN AVENUE between FARRAGUT ROAD and EAST NEW YORK AVENUE,  EAST NEW YORK AVENUE between REMSEN AVENUE and BUFFALO AVENUE,  BUFFALO AVENUE between EAST NEW YORK AVENUE and EASTERN PARKWAY,  PENNSYLVANIA AVENUE between SHORE PARKWAY and COZINE AVENUE,  COZINE AVENUE between PENNSYLVANIA AVENUE and VERMONT STREET,  VERMONT STREET between COZINE AVENUE and JAMAICA AVENUE,  CYPRESS HILLS STREET between JACKIE ROBINSON PARKWAY and COOPER AVENUE,  COOPER AVENUE between CYPRESS HILLS STREET and CENTRAL AVENUE,  78 AVENUE between 73 PLACE and 79 STREET,  79 STREET between 78 AVENUE and MYRTLE AVENUE,  MYRTLE AVENUE between 79 STREET and 80 STREET,  METROPOLITAN AVENUE between FOREST PARK DRIVE and PARK LANE SOUTH,  PARK LANE SOUTH between METROPOLITAN AVENUE and BEVERLY ROAD,  ONSLOW PLACE between BEVERLY ROAD and KEW GARDENS ROAD,  KEW GARDENS ROAD between ONSLOW PLACE and 83 AVENUE,  83 AVENUE between KEW GARDENS ROAD and QUEENS BOULEVARD,  HOOVER AVENUE between QUEENS BOULEVARD and MAIN STREET,  MAIN STREET between HOOVER AVENUE and 73 AVENUE,  73 AVENUE between MAIN STREET and 141 STREET,  141 STREET between 73 AVENUE and 72 AVENUE,  72 AVENUE between 141 STREET and PARK DRIVE EAST,  PARK DRIVE EAST between 72 AVENUE and JEWEL AVENUE,  69 ROAD between PARK DRIVE EAST and VAN WYCK EXPRESSWAY,  COLLEGE POINT BOULEVARD between 58 ROAD and BOOTH MEMORIAL AVENUE,  BOOTH MEMORIAL AVENUE between COLLEGE POINT BOULEVARD and PARSONS BOULEVARD,  KISSENA BOULEVARD between BOOTH MEMORIAL AVENUE and ROSE AVENUE,  164 STREET between LITHONIA AVENUE and UNDERHILL AVENUE,  UNDERHILL AVENUE between 164 STREET and 170 STREET,  170 STREET between UNDERHILL AVENUE and LITHONIA AVENUE,  LITHONIA AVENUE between 170 STREET and 171 STREET,  UNDERHILL AVENUE between 171 STREET and HORACE HARDING EXPRESSWAY,  CLOVERDALE BOULEVARD between 73 AVENUE and 69 AVENUE,  69 AVENUE between CLOVERDALE BOULEVARD and 230 STREET,  230 STREET between 69 AVENUE and 67 AVENUE,  67 AVENUE between 230 STREET and 233 STREET,  233 STREET between 67 AVENUE and WEST ALLEY ROAD,  EAST HAMPTON BOULEVARD between WEST ALLEY ROAD and 232 STREET,  232 STREET between EAST HAMPTON BOULEVARD and 50 AVENUE,  50 AVENUE between 232 STREET and HORATIO PARKWAY,  HORATIO PARKWAY between 50 AVENUE and CLOVERDALE BOULEVARD,  CLOVERDALE BOULEVARD between HORATIO PARKWAY and 223 STREET,  223 STREET between CLOVERDALE BOULEVARD and NORTHERN BOULEVARD,  NORTHERN BOULEVARD between 223 STREET and CROSS ISLAND PARKWAY,  UTOPIA PARKWAY between 14 ROAD and 26 AVENUE,  26 AVENUE between UTOPIA PARKWAY and 154 STREET,  154 STREET between 26 AVENUE and 32 AVENUE,  32 AVENUE between 154 STREET and PARSONS BOULEVARD,  PARSONS BOULEVARD between 32 AVENUE and 35 AVENUE,  35 AVENUE between PARSONS BOULEVARD and PRINCE STREET,  PRINCE STREET between 35 AVENUE and 36 AVENUE,  27 AVENUE between DITMARS BOULEVARD and GILLMORE STREET,  GILLMORE STREET between 27 AVENUE and 24 AVENUE,  24 AVENUE between GILLMORE STREET and 92 STREET,  92 STREET between 24 AVENUE and 23 AVENUE,  23 AVENUE between 92 STREET and DITMARS BOULEVARD,  DITMARS BOULEVARD between 23 AVENUE and 81 STREET,  81 STREET between DITMARS BOULEVARD and 19 AVENUE,  19 AVENUE between 81 STREET and STEINWAY AVENUE,  STEINWAY AVENUE between 19 AVENUE and 20 AVENUE,  20 AVENUE between STEINWAY AVENUE and SHORE BOULEVARD,  CYPRESS AVENUE between EAST  135 STREET and EAST  132 STREET,  EAST  132 STREET between CYPRESS AVENUE and ST ANN'S AVENUE,  ST ANN'S AVENUE between EAST  132 STREET and EAST  141 STREET,  EAST  141 STREET between ST ANN'S AVENUE and JACKSON AVENUE,  JACKSON AVENUE between EAST  141 STREET and EAST  142 STREET,  EAST  142 STREET between JACKSON AVENUE and CONCORD AVENUE,  CONCORD AVENUE between EAST  142 STREET and EAST  150 STREET,  EAST  150 STREET between CONCORD AVENUE and PROSPECT AVENUE,  FOX STREET between PROSPECT AVENUE and TIFFANY STREET,  TIFFANY STREET between FOX STREET and GARRISON AVENUE,  GARRISON AVENUE between TIFFANY STREET and EDGEWATER ROAD,  EDGEWATER ROAD between GARRISON AVENUE and BRUCKNER BOULEVARD,  BRUCKNER BOULEVARD between EDGEWATER ROAD and BRONX RIVER AVENUE,  BRONX RIVER AVENUE between BRUCKNER BOULEVARD and STORY AVENUE,  STORY AVENUE between BRONX RIVER AVENUE and COLGATE AVENUE,  COLGATE AVENUE between STORY AVENUE and LAFAYETTE AVENUE,  O'BRIEN AVENUE between LELAND AVENUE and SOUND VIEW AVENUE,  SOUND VIEW AVENUE between OBRIEN AVENUE and STORY AVENUE,  ROSEDALE AVENUE between STORY AVENUE and BRONX RIVER AVENUE,  EAST  180 STREET between BRONX RIVER AVENUE and MORRIS PARK AVENUE,  MORRIS PARK AVENUE between EAST  180 STREET and WALLACE AVENUE,  WALLACE AVENUE between MORRIS PARK AVENUE and NEILL AVENUE,  NEILL AVENUE between WALLACE AVENUE and MATTHEWS AVENUE,  MATTHEWS AVENUE between NEILL AVENUE and PELHAM PARKWAY SOUTH,  PELHAM PARKWAY between MATTHEWS AVENUE and MULINER AVENUE,  BRONXWOOD AVENUE between PELHAM PARKWAY and MACE AVENUE,  MACE AVENUE between BRONXWOOD AVENUE and OLINVILLE AVENUE,  OLINVILLE AVENUE between MACE AVENUE and ALLERTON AVENUE,  ALLERTON AVENUE between OLINVILLE AVENUE and BRONX PARK EAST,  KAZIMIROFF BOULEVARD between BRONX PARK EAST and MOSHOLU PARKWAY,  MOSHOLU PARKWAY between KAZIMIROFF BOULEVARD and WEST GUN HILL ROAD,  BROADWAY between WEST  252 STREET and WEST  240 STREET,  WEST  240 STREET between BROADWAY and TIBBETT AVENUE,  TIBBETT AVENUE between WEST  240 STREET and WEST  230 STREET,  WEST  230 STREET between TIBBETT AVENUE and BROADWAY,  BROADWAY between WEST  230 STREET and WEST  218 STREET,  WEST  218 STREET between BROADWAY and SEAMAN AVENUE,  SEAMAN AVENUE between WEST  218 STREET and RIVERSIDE DRIVE,  RIVERSIDE DRIVE between SEAMAN AVENUE and DYCKMAN STREET,  DYCKMAN STREET between RIVERSIDE DRIVE and 10 AVENUE,  HARLEM RIVER DRIVE between 10 AVENUE and HARLEM RIVER DR EN F DOUGLASS BL,  WEST  154 STREET between FREDERICK DOUGLASS BOULEVARD and BRADHURST AVENUE,  BRADHURST AVENUE between WEST  154 STREET and WEST  145 STREET,  WEST  145 STREET between BRADHURST AVENUE and EDGECOMBE AVENUE,  EDGECOMBE AVENUE between WEST  145 STREET and WEST  139 STREET,  WEST  139 STREET between EDGECOMBE AVENUE and ST NICHOLAS AVENUE,  ST NICHOLAS AVENUE between WEST  139 STREET and ADAM CLAYTON POWELL BOULEVARD,  ADAM CLAYTON POWELL BOULEVARD between ST NICHOLAS AVENUE and WEST  110 STREET"
+                    ],
+                    "average_length": 68.79464851162554
+                }
+            ]
+        },
+        {
+            "column_name": "Event Street Side",
+            "number_non_empty_cells": 359790,
+            "number_empty_cells": 3129885,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Full",
+                "South",
+                "North",
+                "East",
+                "Both"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 359790,
+                    "shortest_values": [
+                        "Full",
+                        "Both",
+                        "West",
+                        "East",
+                        "South"
+                    ],
+                    "longest_values": [
+                        "North",
+                        "South",
+                        "East",
+                        "West",
+                        "Both"
+                    ],
+                    "average_length": 4.293826954612412
+                }
+            ]
+        },
+        {
+            "column_name": "Street Closure Type",
+            "number_non_empty_cells": 368810,
+            "number_empty_cells": 3120865,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Full Street Closure ",
+                "Sidewalk and Curb Lane Closure ",
+                "Partial Sidewalk Closure ",
+                "Curb Lane Only",
+                "Pedestrian Plaza "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 368810,
+                    "shortest_values": [
+                        "Curb Lane Only",
+                        "Pedestrian Plaza ",
+                        "Pedestrian Island ",
+                        "Full Street Closure ",
+                        "Full Sidewalk Closure "
+                    ],
+                    "longest_values": [
+                        "Sidewalk and Curb Lane Closure ",
+                        "Sidewalk and Street Closure ",
+                        "Partial Sidewalk Closure ",
+                        "Full Sidewalk Closure ",
+                        "Full Street Closure "
+                    ],
+                    "average_length": 22.57802662617608
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 3485124,
+            "number_empty_cells": 4551,
+            "number_distinct_values": 775,
+            "frequent_values": [
+                "64, ",
+                "5, ",
+                "11, ",
+                "12, ",
+                "1, "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3485124,
+                    "shortest_values": [
+                        "3, ",
+                        "1, ",
+                        "2, ",
+                        "9, ",
+                        "5, "
+                    ],
+                    "longest_values": [
+                        "1, 10, 11, 12, 13, 14, 15, 17, 18, 2, 26, 3, 4, 5, 55, 56, 6, 64, 7, 8, 80, 81, 82, 84, 9, ",
+                        "1, 10, 11, 12, 13, 14, 15, 17, 18, 2, 26, 27, 3, 4, 5, 55, 56, 6, 64, 7, 8, 80, 82, 84, 9, ",
+                        "1, 10, 11, 12, 14, 15, 18, 2, 26, 27, 28, 3, 4, 5, 55, 56, 6, 64, 7, 8, 80, 81, 82, 84, 9, ",
+                        "1, 10, 11, 12, 13, 14, 15, 17, 18, 2, 26, 27, 3, 4, 5, 55, 6, 64, 7, 8, 80, 81, 82, 9, ",
+                        "1, 10, 11, 12, 13, 14, 15, 18, 2, 27, 3, 4, 5, 55, 6, 64, 7, 8, 82, 9, "
+                    ],
+                    "average_length": 4.101945009704102
+                }
+            ]
+        },
+        {
+            "column_name": "Police Precinct",
+            "number_non_empty_cells": 3487602,
+            "number_empty_cells": 2073,
+            "number_distinct_values": 1013,
+            "frequent_values": [
+                "22, ",
+                "13, ",
+                "25, ",
+                "78, ",
+                "110, "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3487602,
+                    "shortest_values": [
+                        "9, ",
+                        "2, ",
+                        "7, ",
+                        "8, ",
+                        "1, "
+                    ],
+                    "longest_values": [
+                        "1, 10, 100, 102, 106, 107, 108, 109, 110, 111, 112, 114, 115, 14, 18, 20, 22, 23, 24, 26, 28, 30, 32, 34, 40, 41, 43, 48, 49, 5, 50, 52, 6, 60, 61, 63, 66, 67, 68, 69, 70, 71, 72, 76, 77, 78, 84, 88, 9, 90, 94, ",
+                        "1, 10, 102, 104, 107, 108, 109, 110, 111, 114, 115, 13, 14, 18, 20, 22, 23, 24, 25, 26, 28, 30, 32, 33, 34, 40, 41, 43, 48, 49, 5, 50, 52, 6, 60, 61, 66, 67, 68, 69, 70, 71, 72, 75, 76, 77, 78, 84, 88, 90, 94, ",
+                        "1, 10, 100, 102, 104, 106, 107, 108, 109, 111, 114, 115, 14, 18, 20, 22, 23, 24, 25, 26, 28, 30, 32, 34, 40, 41, 42, 48, 5, 50, 52, 6, 60, 61, 62, 63, 66, 67, 68, 70, 71, 72, 75, 77, 78, 79, 84, 88, 9, 90, 94, ",
+                        "1, 10, 100, 102, 104, 106, 107, 108, 109, 110, 111, 114, 115, 14, 18, 20, 22, 23, 24, 25, 26, 28, 30, 32, 34, 40, 41, 42, 43, 45, 48, 49, 5, 50, 52, 6, 61, 63, 66, 70, 71, 72, 75, 77, 78, 79, 84, 88, 90, 94, ",
+                        "1, 10, 102, 104, 107, 108, 109, 111, 114, 115, 14, 18, 20, 22, 23, 24, 26, 28, 30, 32, 34, 40, 41, 43, 49, 5, 50, 52, 6, 60, 61, 66, 68, 69, 70, 71, 72, 75, 76, 77, 78, 84, 88, 90, 94, "
+                    ],
+                    "average_length": 4.644018153447555
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

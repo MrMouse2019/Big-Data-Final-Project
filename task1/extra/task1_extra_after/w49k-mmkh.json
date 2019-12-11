@@ -1,0 +1,147 @@
+{
+    "dataset_name": "w49k-mmkh",
+    "columns": [
+        {
+            "column_name": "PROGRAM",
+            "number_non_empty_cells": 54,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "GENERAL EDUCATION",
+                "GENERAL EDUCATION ",
+                "GIFTED & TALENTED    ",
+                "COLLABORATIVE TEAM TEACHING    ",
+                "SPECIAL CLASS - High School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54,
+                    "shortest_values": [
+                        "GENERAL EDUCATION",
+                        "GENERAL EDUCATION ",
+                        "GIFTED & TALENTED    ",
+                        "SPECIAL CLASS - Grades K-9#",
+                        "SPECIAL CLASS - High School"
+                    ],
+                    "longest_values": [
+                        "COLLABORATIVE TEAM TEACHING    ",
+                        "SPECIAL CLASS - High School",
+                        "SPECIAL CLASS - Grades K-9#",
+                        "GIFTED & TALENTED    ",
+                        "GENERAL EDUCATION "
+                    ],
+                    "average_length": 22.037037037037038
+                }
+            ]
+        },
+        {
+            "column_name": "GRADE OR SERVICE CATEGORY##",
+            "number_non_empty_cells": 54,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "11",
+                "9",
+                "10",
+                "12",
+                "Mainstream"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 40,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 6.9,
+                    "stddev": 3.5057096285916205
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14,
+                    "shortest_values": [
+                        "Mainstream",
+                        "09#           ",
+                        "Self-Contained",
+                        "12:1           ",
+                        "12:1:1         "
+                    ],
+                    "longest_values": [
+                        "Kindergarten             ",
+                        "12:1:1         ",
+                        "12:1           ",
+                        "Self-Contained",
+                        "09#           "
+                    ],
+                    "average_length": 15.357142857142858
+                }
+            ]
+        },
+        {
+            "column_name": "CORE COURSE(High Schools only)",
+            "number_non_empty_cells": 24,
+            "number_empty_cells": 30,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "ENGLISH",
+                "SCIENCE",
+                "MATH   ",
+                "SOCIAL STUDIES"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24,
+                    "shortest_values": [
+                        "ENGLISH",
+                        "MATH   ",
+                        "SCIENCE",
+                        "SOCIAL STUDIES"
+                    ],
+                    "longest_values": [
+                        "SOCIAL STUDIES",
+                        "SCIENCE",
+                        "MATH   ",
+                        "ENGLISH"
+                    ],
+                    "average_length": 8.75
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE CLASS SIZE",
+            "number_non_empty_cells": 54,
+            "number_empty_cells": 0,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "28.6",
+                "28.5",
+                "21.3",
+                "22.7",
+                "24.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8,
+                    "max_value": 29,
+                    "min_value": 21,
+                    "mean": 25.625,
+                    "stddev": 2.6427968139832467
+                },
+                {
+                    "type": "REAL",
+                    "count": 46,
+                    "max_value": 28.9,
+                    "min_value": 10.2,
+                    "mean": 23.70652173913043,
+                    "stddev": 5.268833802733938
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "PROGRAM",
+        "GRADE OR SERVICE CATEGORY##"
+    ]
+}

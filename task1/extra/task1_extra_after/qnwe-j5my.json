@@ -1,0 +1,89 @@
+{
+    "dataset_name": "qnwe-j5my",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 50,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Staten Island",
+                "Brooklyn",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 50,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Calendar Year",
+            "number_non_empty_cells": 50,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2010",
+                "2011",
+                "2009"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 50,
+                    "max_value": 2018,
+                    "min_value": 2009,
+                    "mean": 2013.5,
+                    "stddev": 2.8722813232690143
+                }
+            ]
+        },
+        {
+            "column_name": "Diversion Rate Percentage",
+            "number_non_empty_cells": 50,
+            "number_empty_cells": 0,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "39",
+                "30",
+                "27",
+                "42",
+                "40"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 50,
+                    "max_value": 44,
+                    "min_value": 18,
+                    "mean": 32.78,
+                    "stddev": 7.443896828946516
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "Calendar Year"
+    ]
+}

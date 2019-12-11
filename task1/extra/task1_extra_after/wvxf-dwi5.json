@@ -1,0 +1,1107 @@
+{
+    "dataset_name": "wvxf-dwi5",
+    "columns": [
+        {
+            "column_name": "ViolationID",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5544985,
+            "frequent_values": [
+                "10995085",
+                "12187631",
+                "11321242",
+                "9979154",
+                "12187638"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 80421324,
+                    "min_value": 110971,
+                    "mean": 9368665.275443306,
+                    "stddev": 3447272.4032844985
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 196095,
+            "frequent_values": [
+                "111945",
+                "81982",
+                "806375",
+                "344337",
+                "116740"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 992268,
+                    "min_value": 1,
+                    "mean": 260616.232946347,
+                    "stddev": 249172.2267767071
+                }
+            ]
+        },
+        {
+            "column_name": "RegistrationID",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 151620,
+            "frequent_values": [
+                "0",
+                "205779",
+                "206852",
+                "203973",
+                "332011"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 999995,
+                    "min_value": 0,
+                    "mean": 257764.83142515263,
+                    "stddev": 159090.4022493029
+                }
+            ]
+        },
+        {
+            "column_name": "BoroID",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.447933222542532,
+                    "stddev": 0.9924950890520066
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "BRONX",
+                "MANHATTAN",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5544985,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.252639817781293
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20397,
+            "frequent_values": [
+                "20",
+                "125",
+                "15",
+                "1",
+                "100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4959949,
+                    "max_value": 12701,
+                    "min_value": 1,
+                    "mean": 1112.1539150906592,
+                    "stddev": 1285.887003116777
+                },
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 0.537,
+                    "min_value": 0.537,
+                    "mean": 0.537,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 585033,
+                    "shortest_values": [
+                        "5B",
+                        "1A",
+                        "6A",
+                        "3A",
+                        "2A"
+                    ],
+                    "longest_values": [
+                        "116-24 FRONT",
+                        "108-11 REAR",
+                        "111-10 REAR",
+                        "102-19 REAR",
+                        "109-38 REAR"
+                    ],
+                    "average_length": 5.322798884849231
+                }
+            ]
+        },
+        {
+            "column_name": "LowHouseNumber",
+            "number_non_empty_cells": 5543401,
+            "number_empty_cells": 1584,
+            "number_distinct_values": 20459,
+            "frequent_values": [
+                "1",
+                "2",
+                "250",
+                "20",
+                "101"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4957319,
+                    "max_value": 111111111,
+                    "min_value": 0,
+                    "mean": 1149.2806349561124,
+                    "stddev": 50058.38112530238
+                },
+                {
+                    "type": "REAL",
+                    "count": 34,
+                    "max_value": 0.319,
+                    "min_value": 0.126,
+                    "mean": 0.14814705882352938,
+                    "stddev": 0.049495176445280835
+                },
+                {
+                    "type": "TEXT",
+                    "count": 586048,
+                    "shortest_values": [
+                        "-",
+                        "S",
+                        "n",
+                        "+",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "116-24 FRONT",
+                        "90-41 GARAGE",
+                        "111-10 REAR",
+                        "109-38 REAR",
+                        "113-18 REAR"
+                    ],
+                    "average_length": 5.316654949765207
+                }
+            ]
+        },
+        {
+            "column_name": "HighHouseNumber",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20521,
+            "frequent_values": [
+                "20",
+                "15",
+                "131",
+                "130",
+                "125"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4957243,
+                    "max_value": 12701,
+                    "min_value": 0,
+                    "mean": 1114.511650931778,
+                    "stddev": 1287.983948329005
+                },
+                {
+                    "type": "TEXT",
+                    "count": 587742,
+                    "shortest_values": [
+                        "`",
+                        "3A",
+                        "9C",
+                        "5A",
+                        "1B"
+                    ],
+                    "longest_values": [
+                        "90-41 GARAGE",
+                        "116-24 FRONT",
+                        "108-11 REAR",
+                        "119-13 REAR",
+                        "109-38 REAR"
+                    ],
+                    "average_length": 5.31623059097359
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5625,
+            "frequent_values": [
+                "GRAND CONCOURSE",
+                "BROADWAY",
+                "OCEAN AVENUE",
+                "ST NICHOLAS AVENUE",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5544985,
+                    "shortest_values": [
+                        "81 ST",
+                        "10 ST",
+                        "97 ST",
+                        "25 RD",
+                        "58 ST"
+                    ],
+                    "longest_values": [
+                        "HOR HARDING EXPRESSWAY SR NORTH",
+                        "HOR HARDING EXPRESSWAY SR SOUTH",
+                        "GRAND CENTRAL PARKWAY  SR WEST",
+                        "HORACE HARDING EXPRESSWAY SR N",
+                        "CROSS BRONX SERVICE ROAD SOUTH"
+                    ],
+                    "average_length": 13.717540624546324
+                }
+            ]
+        },
+        {
+            "column_name": "StreetCode",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5179,
+            "frequent_values": [
+                "36420",
+                "13610",
+                "67530",
+                "11710",
+                "31190"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 99800,
+                    "min_value": 0,
+                    "mean": 39258.52415831603,
+                    "stddev": 22550.381945979218
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 5542933,
+            "number_empty_cells": 2052,
+            "number_distinct_values": 199,
+            "frequent_values": [
+                "11226",
+                "10453",
+                "10458",
+                "10457",
+                "11221"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5542933,
+                    "max_value": 112233,
+                    "min_value": 1901,
+                    "mean": 10765.045524273883,
+                    "stddev": 522.8351672732921
+                }
+            ]
+        },
+        {
+            "column_name": "Apartment",
+            "number_non_empty_cells": 3952267,
+            "number_empty_cells": 1592718,
+            "number_distinct_values": 10454,
+            "frequent_values": [
+                "2",
+                "1",
+                "3",
+                "2R",
+                "1A"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1162127,
+                    "max_value": 970123,
+                    "min_value": -19,
+                    "mean": 52.12539593349092,
+                    "stddev": 2088.9453032374427
+                },
+                {
+                    "type": "REAL",
+                    "count": 405,
+                    "max_value": 8e+103,
+                    "min_value": 4e-08,
+                    "mean": 1.9753086419753087e+101,
+                    "stddev": 3.970321233035413e+102
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2789735,
+                    "shortest_values": [
+                        ",",
+                        "O",
+                        "*",
+                        "N",
+                        "B"
+                    ],
+                    "longest_values": [
+                        "BSMENT",
+                        "1311B2",
+                        "1315D3",
+                        "A1202.",
+                        "B2001."
+                    ],
+                    "average_length": 2.205537801977607
+                }
+            ]
+        },
+        {
+            "column_name": "Story",
+            "number_non_empty_cells": 4680833,
+            "number_empty_cells": 864152,
+            "number_distinct_values": 190,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4079559,
+                    "max_value": 989,
+                    "min_value": -8,
+                    "mean": 3.0018254424068878,
+                    "stddev": 7.500845332287887
+                },
+                {
+                    "type": "TEXT",
+                    "count": 601274,
+                    "shortest_values": [
+                        "Roof",
+                        "Cellar",
+                        "Basement",
+                        "Penthouse",
+                        "Sub Cellar"
+                    ],
+                    "longest_values": [
+                        "Yards / Courts",
+                        "Fire Escape",
+                        "All Stories",
+                        "Sub Cellar",
+                        "Penthouse"
+                    ],
+                    "average_length": 9.567104182119966
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12107,
+            "frequent_values": [
+                "2136",
+                "1988",
+                "2174",
+                "2215",
+                "2137"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 16340,
+                    "min_value": 0,
+                    "mean": 3367.329492325047,
+                    "stddev": 2543.3739275896946
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 955,
+            "frequent_values": [
+                "1",
+                "6",
+                "40",
+                "29",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 9100,
+                    "min_value": 0,
+                    "mean": 194.8210330596025,
+                    "stddev": 1057.450662878389
+                }
+            ]
+        },
+        {
+            "column_name": "Class",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "B",
+                "A",
+                "C",
+                "I"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5544985,
+                    "shortest_values": [
+                        "B",
+                        "C",
+                        "A",
+                        "I"
+                    ],
+                    "longest_values": [
+                        "I",
+                        "A",
+                        "C",
+                        "B"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionDate",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16063,
+            "frequent_values": [
+                "10/14/2015",
+                "10/10/2018",
+                "10/07/2015",
+                "10/17/2018",
+                "10/09/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5544985,
+                    "max_value": "2019-09-27 00:00:00",
+                    "min_value": "0217-07-05 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "ApprovedDate",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18254,
+            "frequent_values": [
+                "01/20/1982",
+                "10/14/2015",
+                "10/02/2015",
+                "10/19/2015",
+                "10/07/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5544985,
+                    "max_value": "9181-12-11 00:00:00",
+                    "min_value": "1913-02-06 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OriginalCertifyByDate",
+            "number_non_empty_cells": 5230482,
+            "number_empty_cells": 314503,
+            "number_distinct_values": 10905,
+            "frequent_values": [
+                "07/24/2008",
+                "11/26/2006",
+                "07/23/2008",
+                "07/29/2008",
+                "12/08/2006"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5230482,
+                    "max_value": "2020-01-14 00:00:00",
+                    "min_value": "1960-04-10 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OriginalCorrectByDate",
+            "number_non_empty_cells": 5230444,
+            "number_empty_cells": 314541,
+            "number_distinct_values": 10187,
+            "frequent_values": [
+                "07/10/2008",
+                "11/12/2006",
+                "07/09/2008",
+                "07/15/2008",
+                "11/24/2006"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5230444,
+                    "max_value": "2019-12-31 00:00:00",
+                    "min_value": "1960-04-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "NewCertifyByDate",
+            "number_non_empty_cells": 57328,
+            "number_empty_cells": 5487657,
+            "number_distinct_values": 5215,
+            "frequent_values": [
+                "08/18/1982",
+                "08/09/1982",
+                "02/06/2017",
+                "09/13/2014",
+                "10/29/2013"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 57328,
+                    "max_value": "2020-02-17 00:00:00",
+                    "min_value": "1975-08-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "NewCorrectByDate",
+            "number_non_empty_cells": 57328,
+            "number_empty_cells": 5487657,
+            "number_distinct_values": 5206,
+            "frequent_values": [
+                "08/01/1982",
+                "02/01/2017",
+                "09/08/2014",
+                "11/20/2012",
+                "10/24/2013"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 57328,
+                    "max_value": "2020-02-12 00:00:00",
+                    "min_value": "1975-08-16 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CertifiedDate",
+            "number_non_empty_cells": 1754275,
+            "number_empty_cells": 3790710,
+            "number_distinct_values": 12476,
+            "frequent_values": [
+                "03/13/2019",
+                "02/25/2019",
+                "11/20/2017",
+                "06/18/2019",
+                "06/01/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1754275,
+                    "max_value": "7201-03-21 00:00:00",
+                    "min_value": "1702-06-09 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OrderNumber",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 381,
+            "frequent_values": [
+                "508",
+                "502",
+                "501",
+                "556",
+                "780"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544966,
+                    "max_value": 1506,
+                    "min_value": 4,
+                    "mean": 645.141054967695,
+                    "stddev": 231.23007700531608
+                },
+                {
+                    "type": "TEXT",
+                    "count": 19,
+                    "shortest_values": [
+                        "081B"
+                    ],
+                    "longest_values": [
+                        "081B"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "NOVID",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2278800,
+            "frequent_values": [
+                "0",
+                "2730676",
+                "2960717",
+                "2174995",
+                "3269853"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 6618449,
+                    "min_value": 0,
+                    "mean": 4432492.252240899,
+                    "stddev": 1718706.673153663
+                }
+            ]
+        },
+        {
+            "column_name": "NOVDescription",
+            "number_non_empty_cells": 5544974,
+            "number_empty_cells": 11,
+            "number_distinct_values": 3834433,
+            "frequent_values": [
+                "SECTION27-2107 ADM CODE   OWNER FAILED TO FILE A VALID REGISTRATION STATEMENT WITH THE DEPARTMENT AS REQUIRED BY ADM CODE \u00ef\u00bf\u00bd\u00ef\u00bf\u00bd27-2097 AND IS THEREFORE SUBJECT TO CIVIL PENALTIES, PROHIBITED FROM CERTIFYING VIOLATIONS, AND DENIED THE RIGHT TO RECOVER POSSESSION OF PREMISES FOR NONPAYMENT OF RENT UNTIL A VALID REGISTRATION STATEMENT IS FILED.",
+                "SECTION27-2107 ADM CODE   OWNER FAILED TO FILE A VALID REGISTRATION STATEMENT WITH THE DEPARTMENT AS REQUIRED BY ADM CODE ?27-2097 AND IS THEREFORE SUBJECT TO CIVIL PENALTIES, PROHIBITED FROM CERTIFYING VIOLATIONS, AND DENIED THE RIGHT TO RECOVER POSSESSION OF PREMISES FOR NONPAYMENT OF RENT UNTIL A VALID REGISTRATION STATEMENT IS FILED.",
+                "SECTION  27-2046.1 HMC: POST A PROPER NOTICE OF CARBON MONOXIDE DETECTING DEVICE REQUIREMENTS, IN A FORM APPROVED BY THE COMMISSIONER, IN A COMMON AREA OF A CLASS A MULTIPLE DWELLING NEAR INSPECTION CERTIFICATE OR PROVIDE NOTICE TO TENANTS IN A PRIVATE DWELLING.  AT PUBLIC HALL, 1st STORY",
+                "SECTION27-2107 ADM CODE   OWNER FAILED TO FILE A VALID REGISTRATION STATEMENT WITH THE DEPARTMENT AS REQUIRED BY ADM CODE \u00ef\u00bf\u00bd\u00ef\u00bf\u00bd\u00ef\u00bf\u00bd\u00ef\u00bf\u00bd27-2097 AND IS THEREFORE SUBJECT TO CIVIL PENALTIES, PROHIBITED FROM CERTIFYING VIOLATIONS, AND DENIED THE RIGHT TO RECOVER POSSESSION OF PREMISES FOR NONPAYMENT OF RENT UNTIL A VALID REGISTRATION STATEMENT IS FILED.",
+                "SECTION 27-2104 ADM CODE  POST AND MAINTAIN A PROPER SIGN ON WALL OF ENTRANCE STORY SHOWING THE REGISTRATION NUMBER ASSIGNED BY THE DEPARTMENT AND THE ADDRESS OF THE BUILDING. AT PUBLIC HALL, 1st STORY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5544974,
+                    "shortest_values": [
+                        "SECTION 27-2005 ADM CODE  REFIT DOOR",
+                        "D26-10.01 ADM CODE  REFIT CELLAR DOOR.",
+                        "SECTION 27-2005 ADM CODE  PROVIDE BELL",
+                        "D26-10.01 ADM CODE  REFIT BOILER ROOM.",
+                        "SECTION 27-2005 ADM CODE  REFIT  ROOF."
+                    ],
+                    "longest_values": [
+                        "SECTION 27-2056.6 ADM CODE - CORRECT THE LEAD-BASED PAINT HAZARD - PAINT THAT TESTED POSITIVE FOR LEAD CONTENT AND THAT IS PEELING OR ON A DETERIORATED SUBSURFACE - USING WORK PRACTICES SET FORTH IN 28 RCNY ?11-06(B)(2)           CEILING,         1st CLOSET  FROM NORTH AT EAST WALL CEILING,         1st CLOSET  FROM NORTH AT EAST WALL DOOR,         1st CLOSET  FROM NORTH AT EAST WALL DOOR FRAME,         1st CLOSET  FROM NORTH AT EAST WALL WALL,         1st CLOSET  FROM SOUTH AT WEST WALL CEILING,         1st CLOSET  FROM SOUTH AT WEST WALL DOOR,         1st CLOSET  FROM SOUTH AT WEST WALL DOOR FRAME,         1st CLOSET  FROM SOUTH AT WEST WALL WALL,         1st DOOR  FROM NORTH AT EAST WALL,         1st DOOR FRAME  FROM EAST AT SOUTH WALL,         2nd DOOR FRAME  FROM EAST AT SOUTH WALL,         1st DOOR FRAME  FROM NORTH AT EAST WALL,         2nd DOOR FRAME  FROM NORTH AT EAST WALL,         1st DOOR FRAME  FROM SOUTH AT WEST WALL,         2nd DOOR FRAME  FROM SOUTH AT WEST WALL,         SOUTH WALL,         EA",
+                        "SECTION 27-2056.6 ADM CODE - CORRECT THE LEAD-BASED PAINT HAZARD - PRESUMED LEAD PAINT THAT IS PEELING OR ON A DETERIORATED SUBSURFACE USING WORK PRACTICES SET FORTH IN 28 RCNY ?11-06(B)(2)          BASEBOARD AT NORTH WALL,         BASEBOARD AT SOUTH WALL,         CEILING,         2nd CLOSET  FROM EAST AT SOUTH WALL CEILING,         1st CLOSET  FROM EAST AT SOUTH WALL CEILING,         2nd CLOSET  FROM EAST AT SOUTH WALL DOOR,         1st CLOSET  FROM EAST AT SOUTH WALL DOOR,         1st CLOSET  FROM EAST AT SOUTH WALL DOOR FRAME,         2nd CLOSET  FROM EAST AT SOUTH WALL DOOR FRAME,         1st CLOSET  FROM EAST AT SOUTH WALL SHELF,         2nd CLOSET  FROM EAST AT SOUTH WALL WALL,         1st CLOSET  FROM EAST AT SOUTH WALL WALL,         1st DOOR  FROM SOUTH AT WEST WALL,         1st DOOR FRAME  FROM NORTH AT EAST WALL,         1st DOOR FRAME  FROM SOUTH AT WEST WALL,         NORTH WALL,         SOUTH WALL,         EAST WALL,         WEST WALL IN THE PRIVATE HALLWAY  LOCATED AT APT 5E, 4th STORY, 1st APART",
+                        "SECTION 27-2013 ADM CODE  PAINT WITH LIGHT COLORED PAINT TO THE SATISFACTION OF THIS DEPARTMENT THE           CEILING,         1st CLOSET  FROM EAST AT SOUTH WALL CEILING,         1st CLOSET  FROM EAST AT SOUTH WALL DOOR,         3rd CLOSET  FROM EAST AT SOUTH WALL DOOR,         2nd CLOSET  FROM EAST AT SOUTH WALL DOOR,         3rd CLOSET  FROM EAST AT SOUTH WALL DOOR FRAME,         1st CLOSET  FROM EAST AT SOUTH WALL DOOR FRAME,         2nd CLOSET  FROM EAST AT SOUTH WALL DOOR FRAME,         1st CLOSET  FROM EAST AT SOUTH WALL WALL,         2nd CLOSET  FROM EAST AT SOUTH WALL WALL,         2nd CLOSET  FROM NORTH AT EAST WALL CEILING,         1st CLOSET  FROM NORTH AT EAST WALL CEILING,         1st CLOSET  FROM NORTH AT EAST WALL DOOR,         2nd CLOSET  FROM NORTH AT EAST WALL DOOR,         1st CLOSET  FROM NORTH AT EAST WALL DOOR FRAME,         2nd CLOSET  FROM NORTH AT EAST WALL DOOR FRAME,         1st CLOSET  FROM NORTH AT EAST WALL WALL,         2nd CLOSET  FROM NORTH AT EAST WALL WALL,         NORTH WA",
+                        "SECTION 27-2056.6 ADM CODE - CORRECT THE LEAD-BASED PAINT HAZARD - PRESUMED LEAD PAINT THAT IS PEELING OR ON A DETERIORATED SUBSURFACE USING WORK PRACTICES SET FORTH IN 28 RCNY ?11-06(B)(2)          BASEBOARD AT NORTH WALL,         BASEBOARD AT SOUTH WALL,         BASEBOARD AT EAST WALL,         BASEBOARD AT WEST WALL,         CEILING,         1st CLOSET  FROM NORTH AT EAST WALL CEILING,         1st CLOSET  FROM NORTH AT EAST WALL DOOR,         1st CLOSET  FROM NORTH AT EAST WALL DOOR FRAME,         1st CLOSET  FROM NORTH AT EAST WALL SHELF,         1st DOOR  FROM NORTH AT EAST WALL,         1st DOOR FRAME  FROM NORTH AT EAST WALL,         PICTURE MOULDING AT NORTH WALL,         PICTURE MOULDING AT WEST WALL,         1st RADIATOR  FROM WEST AT NORTH WALL,         NORTH WALL,         SOUTH WALL,         EAST WALL,         WEST WALL,         2nd WINDOW FRAME  FROM SOUTH AT WEST WALL,         1st WINDOW FRAME  FROM SOUTH AT WEST WALL IN THE 4th ROOM  FROM EAST AT SOUTH LOCATED AT APT 1G, 3rd STORY, 2nd APARTMENT",
+                        "SECTION 27-2056.6 ADM CODE - CORRECT THE LEAD-BASED PAINT HAZARD - PRESUMED LEAD PAINT THAT IS PEELING OR ON A DETERIORATED SUBSURFACE USING WORK PRACTICES SET FORTH IN 28 RCNY ?11-06(B)(2)          CEILING,         1st CLOSET  FROM NORTH AT EAST WALL CEILING,         2nd CLOSET  FROM NORTH AT EAST WALL CEILING,         1st CLOSET  FROM NORTH AT EAST WALL DOOR,         2nd CLOSET  FROM NORTH AT EAST WALL DOOR,         1st CLOSET  FROM NORTH AT EAST WALL DOOR FRAME,         2nd CLOSET  FROM NORTH AT EAST WALL DOOR FRAME,         2nd CLOSET  FROM NORTH AT EAST WALL WALL,         1st CLOSET  FROM NORTH AT EAST WALL WALL,         1st DOOR  FROM WEST AT NORTH WALL,         1st DOOR FRAME  FROM WEST AT NORTH WALL,         1st RADIATOR  FROM SOUTH AT WEST WALL,         1st RISER  FROM SOUTH AT WEST WALL,         NORTH WALL,         SOUTH WALL,         EAST WALL,         WEST WALL,         1st WINDOW FRAME  FROM SOUTH AT WEST WALL IN THE 3rd ROOM  FROM NORTH AT WEST LOCATED AT APT 35, 4th STORY, 1st APARTMENT FROM SO"
+                    ],
+                    "average_length": 194.59384209916945
+                }
+            ]
+        },
+        {
+            "column_name": "NOVIssuedDate",
+            "number_non_empty_cells": 5227821,
+            "number_empty_cells": 317164,
+            "number_distinct_values": 6305,
+            "frequent_values": [
+                "07/28/2006",
+                "06/05/2008",
+                "07/03/2006",
+                "06/04/2008",
+                "06/06/2007"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5227821,
+                    "max_value": "2019-09-27 00:00:00",
+                    "min_value": "1959-04-26 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CurrentStatusID",
+            "number_non_empty_cells": 5544985,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "19",
+                "2",
+                "9",
+                "22",
+                "21"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5544985,
+                    "max_value": 47,
+                    "min_value": 0,
+                    "mean": 13.543570812184344,
+                    "stddev": 7.853870856560689
+                }
+            ]
+        },
+        {
+            "column_name": "CurrentStatus",
+            "number_non_empty_cells": 5542324,
+            "number_empty_cells": 2661,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "VIOLATION CLOSED",
+                "NOV SENT OUT",
+                "VIOLATION DISMISSED",
+                "FIRST NO ACCESS TO RE- INSPECT VIOLATION",
+                "NOT COMPLIED WITH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5542324,
+                    "shortest_values": [
+                        "NOV SENT OUT",
+                        "CIV14 MAILED",
+                        "VIOLATION OPEN",
+                        "VIOLATION REOPEN",
+                        "VIOLATION CLOSED"
+                    ],
+                    "longest_values": [
+                        "FIRST NO ACCESS TO RE- INSPECT VIOLATION",
+                        "SECOND NO ACCESS TO RE-INSPECT VIOLATION",
+                        "CERTIFICATION POSTPONMENT GRANTED",
+                        "NOTICE OF ISSUANCE SENT TO TENANT",
+                        "CERTIFICATION POSTPONMENT DENIED"
+                    ],
+                    "average_length": 17.037080834682346
+                }
+            ]
+        },
+        {
+            "column_name": "CurrentStatusDate",
+            "number_non_empty_cells": 5542324,
+            "number_empty_cells": 2661,
+            "number_distinct_values": 9394,
+            "frequent_values": [
+                "07/03/2006",
+                "06/05/2008",
+                "06/06/2007",
+                "07/28/2006",
+                "06/04/2008"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5542324,
+                    "max_value": "9999-12-11 00:00:00",
+                    "min_value": "1961-10-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "NovType",
+            "number_non_empty_cells": 5227821,
+            "number_empty_cells": 317164,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Original",
+                "Reissued"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5227821,
+                    "shortest_values": [
+                        "Original",
+                        "Reissued"
+                    ],
+                    "longest_values": [
+                        "Reissued",
+                        "Original"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "ViolationStatus",
+            "number_non_empty_cells": 5542324,
+            "number_empty_cells": 2661,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Close",
+                "Open"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5542324,
+                    "shortest_values": [
+                        "Open",
+                        "Close"
+                    ],
+                    "longest_values": [
+                        "Close",
+                        "Open"
+                    ],
+                    "average_length": 4.6445400882373535
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 5540662,
+            "number_empty_cells": 4323,
+            "number_distinct_values": 133532,
+            "frequent_values": [
+                "40.819887",
+                "40.827966",
+                "40.823104",
+                "40.833578",
+                "40.639709"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 5540662,
+                    "max_value": 40.912869,
+                    "min_value": 40.49944,
+                    "mean": 40.74771971810493,
+                    "stddev": 0.08822118104987871
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 5540662,
+            "number_empty_cells": 4323,
+            "number_distinct_values": 129334,
+            "frequent_values": [
+                "-73.955243",
+                "-73.875222",
+                "-73.924572",
+                "-73.909940",
+                "-73.943274"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 5540662,
+                    "max_value": -73.701025,
+                    "min_value": -74.252381,
+                    "mean": -73.9245117080679,
+                    "stddev": 0.054882967152481955
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard",
+            "number_non_empty_cells": 5540662,
+            "number_empty_cells": 4323,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "12",
+                "4",
+                "5",
+                "9",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5540662,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 7.845165433300209,
+                    "stddev": 4.445626741889879
+                }
+            ]
+        },
+        {
+            "column_name": "CouncilDistrict",
+            "number_non_empty_cells": 5540662,
+            "number_empty_cells": 4323,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "15",
+                "36",
+                "14",
+                "10",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5540662,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 24.446460188331287,
+                    "stddev": 14.191363556725094
+                }
+            ]
+        },
+        {
+            "column_name": "CensusTract",
+            "number_non_empty_cells": 5540662,
+            "number_empty_cells": 4323,
+            "number_distinct_values": 1306,
+            "frequent_values": [
+                "245",
+                "225",
+                "261",
+                "291",
+                "253"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5540662,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 6462.950091342876,
+                    "stddev": 17592.331373739282
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 5533202,
+            "number_empty_cells": 11783,
+            "number_distinct_values": 192643,
+            "frequent_values": [
+                "3000000",
+                "2023994",
+                "2002784",
+                "2002176",
+                "3120374"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5533202,
+                    "max_value": 5513449,
+                    "min_value": 1000000,
+                    "mean": 2530011.4669435527,
+                    "stddev": 1034806.0307396858
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 5533202,
+            "number_empty_cells": 11783,
+            "number_distinct_values": 185152,
+            "frequent_values": [
+                "2028820229",
+                "3042719001",
+                "2024310026",
+                "4159260001",
+                "5012720011"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5533202,
+                    "max_value": 5080500056,
+                    "min_value": 0,
+                    "mean": 2480515091.9770193,
+                    "stddev": 1002655695.9859934
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 5540662,
+            "number_empty_cells": 4323,
+            "number_distinct_values": 191,
+            "frequent_values": [
+                "Crown Heights North",
+                "Washington Heights South",
+                "Flatbush",
+                "Hamilton Heights",
+                "Central Harlem North-Polo Grounds"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5540662,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Jamaica",
+                        "Madison",
+                        "Norwood"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 18.08325322858532
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "ViolationID"
+    ]
+}

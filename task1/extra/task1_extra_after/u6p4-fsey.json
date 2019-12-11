@@ -1,0 +1,144 @@
+{
+    "dataset_name": "u6p4-fsey",
+    "columns": [
+        {
+            "column_name": "Region",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Citywide"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 170,
+                    "shortest_values": [
+                        "Citywide"
+                    ],
+                    "longest_values": [
+                        "Citywide"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Supervision Closing Reason",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Maximum Expiration Date",
+                "Other",
+                "Violation of Probation",
+                "Early Discharge",
+                "Death"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 170,
+                    "shortest_values": [
+                        "Death",
+                        "Other",
+                        "Early Discharge",
+                        "Violation of Probation",
+                        "Maximum Expiration Date"
+                    ],
+                    "longest_values": [
+                        "Maximum Expiration Date",
+                        "Violation of Probation",
+                        "Early Discharge",
+                        "Other",
+                        "Death"
+                    ],
+                    "average_length": 14.0
+                }
+            ]
+        },
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "May",
+                "November",
+                "April",
+                "June",
+                "January"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 170,
+                    "shortest_values": [
+                        "May",
+                        "June",
+                        "July",
+                        "March",
+                        "April"
+                    ],
+                    "longest_values": [
+                        "September",
+                        "February",
+                        "December",
+                        "November",
+                        "October"
+                    ],
+                    "average_length": 6.147058823529412
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2017",
+                "2018",
+                "2019",
+                "2016"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 170,
+                    "max_value": 2019,
+                    "min_value": 2016,
+                    "mean": 2017.6764705882354,
+                    "stddev": 0.8983837852530165
+                }
+            ]
+        },
+        {
+            "column_name": "Supervision Closing Count",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 98,
+            "frequent_values": [
+                "5",
+                "105",
+                "6",
+                "70",
+                "79"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 170,
+                    "max_value": 425,
+                    "min_value": 2,
+                    "mean": 120.62941176470588,
+                    "stddev": 118.54484514907715
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Region",
+        "Supervision Closing Reason"
+    ]
+}

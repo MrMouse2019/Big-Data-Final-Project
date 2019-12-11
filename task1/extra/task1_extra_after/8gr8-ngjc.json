@@ -1,0 +1,165 @@
+{
+    "dataset_name": "8gr8-ngjc",
+    "columns": [
+        {
+            "column_name": "service_at_location_id",
+            "number_non_empty_cells": 5065,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5065,
+            "frequent_values": [
+                "3198",
+                "1008",
+                "3017",
+                "3014",
+                "3015"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5065,
+                    "max_value": 5584,
+                    "min_value": 1,
+                    "mean": 2848.7765054294177,
+                    "stddev": 1586.3887821138337
+                }
+            ]
+        },
+        {
+            "column_name": "service_id",
+            "number_non_empty_cells": 5065,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1636,
+            "frequent_values": [
+                "99",
+                "1495",
+                "1498",
+                "356",
+                "516"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5065,
+                    "max_value": 1908,
+                    "min_value": 1,
+                    "mean": 862.5879565646594,
+                    "stddev": 536.0293374022028
+                }
+            ]
+        },
+        {
+            "column_name": "location_id",
+            "number_non_empty_cells": 5065,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4373,
+            "frequent_values": [
+                "3218",
+                "3006",
+                "74",
+                "3370",
+                "3522"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5065,
+                    "max_value": 4736,
+                    "min_value": 1,
+                    "mean": 2450.111352418559,
+                    "stddev": 1321.716010823421
+                }
+            ]
+        },
+        {
+            "column_name": "phone",
+            "number_non_empty_cells": 2089,
+            "number_empty_cells": 2976,
+            "number_distinct_values": 1297,
+            "frequent_values": [
+                "7185420006",
+                "7184495000",
+                "7189515015",
+                "7188824000",
+                "7182872600"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2089,
+                    "max_value": 9739915759,
+                    "min_value": 2023651456,
+                    "mean": 5887980218.358544,
+                    "stddev": 2344526179.226901
+                }
+            ]
+        },
+        {
+            "column_name": "url",
+            "number_non_empty_cells": 1640,
+            "number_empty_cells": 3425,
+            "number_distinct_values": 255,
+            "frequent_values": [
+                "http://www.nyjtl.org",
+                "http://www.mmcc.org",
+                "http://www.rfcuny.org",
+                "http://www.camba.org/",
+                "http://www.childrensaidsociety.org/"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1640,
+                    "shortest_values": [
+                        "http://www.bca.net",
+                        "http://www.hcz.org",
+                        "http://www.liu.edu",
+                        "http://www.sco.org",
+                        "http://www.sfy.org"
+                    ],
+                    "longest_values": [
+                        "http://www.makemaketheroad.orgthemaketheroad.orgroadmaketheroad.org.org",
+                        "http://www.greaterridgewoodyouthcouncil.org",
+                        "http://www.partnershipwithchildrennyc.org",
+                        "http://www.italianamericanleaguenyc.org",
+                        "http://www.hispanicfamilyservicesny.org"
+                    ],
+                    "average_length": 25.067073170731707
+                }
+            ]
+        },
+        {
+            "column_name": "budget",
+            "number_non_empty_cells": 345,
+            "number_empty_cells": 4720,
+            "number_distinct_values": 337,
+            "frequent_values": [
+                "1095880",
+                "231416",
+                "242036",
+                "800000",
+                "382500"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 337,
+                    "max_value": 2149953,
+                    "min_value": 13400,
+                    "mean": 455868.4836795252,
+                    "stddev": 393327.32920219994
+                },
+                {
+                    "type": "REAL",
+                    "count": 8,
+                    "max_value": 380413.62,
+                    "min_value": 193803.6666666667,
+                    "mean": 282443.47750000004,
+                    "stddev": 62169.62019532378
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "service_at_location_id"
+    ]
+}

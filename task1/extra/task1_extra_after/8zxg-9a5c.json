@@ -1,0 +1,110 @@
+{
+    "dataset_name": "8zxg-9a5c",
+    "columns": [
+        {
+            "column_name": "City Council District",
+            "number_non_empty_cells": 52,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "39",
+                "48",
+                "5",
+                "2",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 51,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 26.0,
+                    "stddev": 14.719601443879744
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "Unknown"
+                    ],
+                    "longest_values": [
+                        "Unknown"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 1,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Brooklyn",
+                "Queens",
+                "Manhattan",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Brooklyn/Queens",
+                        "Manhattan/Bronx",
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn"
+                    ],
+                    "average_length": 7.7254901960784315
+                }
+            ]
+        },
+        {
+            "column_name": "Number of public housing residents enrolled in courses or otherwise received guidance",
+            "number_non_empty_cells": 52,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "0",
+                "< 5",
+                "5",
+                "14",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 41,
+                    "max_value": 37,
+                    "min_value": 0,
+                    "mean": 5.365853658536586,
+                    "stddev": 7.662885203180377
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "< 5"
+                    ],
+                    "longest_values": [
+                        "< 5"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "City Council District"
+    ]
+}
