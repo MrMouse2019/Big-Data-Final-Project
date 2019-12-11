@@ -1,0 +1,100 @@
+{
+    "dataset_name": "ridc-7qqg",
+    "columns": [
+        {
+            "column_name": "event_id",
+            "number_non_empty_cells": 63860,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44294,
+            "frequent_values": [
+                "127129",
+                "127130",
+                "127131",
+                "153218",
+                "153216"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 63860,
+                    "max_value": 179422,
+                    "min_value": 62249,
+                    "mean": 124123.42461634826,
+                    "stddev": 34103.9973912868
+                }
+            ]
+        },
+        {
+            "column_name": "link_url",
+            "number_non_empty_cells": 63858,
+            "number_empty_cells": 2,
+            "number_distinct_values": 6349,
+            "frequent_values": [
+                "http://itsmypark.org",
+                "http://www.centralparknyc.org/visit/tours/custom-tours/",
+                "http://www.bryantpark.org",
+                "http://www.centralparknyc.org/visit/tours/",
+                "https://www.nycgovparks.org/about/framework-for-an-equitable-future/community-parks-initiative"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 63858,
+                    "shortest_values": [
+                        "http://mlb.com",
+                        "http://vcb.nyc",
+                        "http://6bc.org",
+                        "http://bike.nyc",
+                        "http://lmcc.net"
+                    ],
+                    "longest_values": [
+                        "http://https://apps.vendini.com/ticket-software.html?t=tix&e=5bf9ffadb436fd8511d15e796ab0853a&vqitq=bcd1e260-0ac4-4ea6-8950-6ee59659c306&vqitp=83e95299-9f97-4366-b9b0-75984898f4be&vqitts=1443026650&vqitc=vendini&vqite=itlwww&vqitrt=Safetynet&vqith=8e75b2e",
+                        "http://www.centralparknyc.org/events/individual-events/discovery-walks-for-families-towering-trees-2017-06-03.html?referrer=http://www.centralparknyc.org/events/?referrer=http://www.centralparknyc.org/events/individual-events/discovery-day-2017-05-13.html",
+                        "https://www.ticketfly.com/purchase/event/765027/tfly?__utma=1.1893819551.1421263141.1421871668.1421878333.5&__utmb=1.2.10.1421878333&__utmc=1&__utmx=-&__utmz=1.1421263141.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&_",
+                        "https://www.google.com/maps/place/Midland+Beach/@40.5622316,-74.1017585,16z/data=!4m13!1m7!3m6!1s0x89c24933453440ed:0x655fda4c56197022!2sMidland+Beach,+Staten+Island,+NY!3b1!8m2!3d40.57149!4d-74.0931627!3m4!1s0x89c24f27417e7075:0x2fa3b99ddd1b3d97!8m2!3d40",
+                        "http://openrun.nyrr.org/?utm_source=globalrunningday&utm_medium=email&utm_campaign=globalrunningday20160525&mkt_tok=eyJpIjoiTmpWbFpqUmtOVGN4WkRNMyIsInQiOiJWM3hvREtQQnJUR0tGS3JMeHVENEZrTVJicjIxZmtMdSs3ZTJ1bUwzTktKbk50OTFBY0hEZUdTd1ZFbkljU0lzUDlnNDRrclFMT2J"
+                    ],
+                    "average_length": 54.67008049108961
+                }
+            ]
+        },
+        {
+            "column_name": "link_name",
+            "number_non_empty_cells": 63860,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3414,
+            "frequent_values": [
+                "Partnerships for Parks",
+                "Central Park Conservancy Tours",
+                "Central Park Conservancy Events Calendar",
+                "Central Park Conservancy Custom Tours",
+                "NYRR Open Run"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 63860,
+                    "shortest_values": [
+                        "CPF",
+                        "HAI",
+                        "Kay",
+                        "AKT",
+                        "KDH"
+                    ],
+                    "longest_values": [
+                        "https://cityparksfoundation.org/events/the-movement-messiah-darell-young-flow-el-sosa-nelly-nelz/?date=20180802",
+                        "Are you a teacher? If so, click here to learn more about our outreach and class trip programs",
+                        "Are you a teacher? If so click here to learn more about our outreach and class trip programs.",
+                        "Are you a teacher? If so, click here to learn more about our class trip and outreach programs",
+                        "https://cityparksfoundation.org/events/bombazo-dance-co-the-sabrosura-effect/?date=20180727"
+                    ],
+                    "average_length": 25.958847478860005
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "event_id",
+        "link_url"
+    ]
+}

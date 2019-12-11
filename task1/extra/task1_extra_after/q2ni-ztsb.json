@@ -1,0 +1,723 @@
+{
+    "dataset_name": "q2ni-ztsb",
+    "columns": [
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "2013"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19236,
+                    "max_value": 2013,
+                    "min_value": 2013,
+                    "mean": 2013.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Source",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 19236,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Council Member",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "Quinn",
+                "Manhattan Delegation",
+                "Brooklyn Delegation",
+                "Queens Delegation",
+                "Comrie"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "CC",
+                        "Koo",
+                        "Oddo",
+                        "Chin",
+                        "Vann"
+                    ],
+                    "longest_values": [
+                        "Manhattan Delegation,",
+                        "Manhattan Delegation",
+                        "Brooklyn Delegation",
+                        "Queens Delegation",
+                        "Bronx Delegation"
+                    ],
+                    "average_length": 7.735288001663547
+                }
+            ]
+        },
+        {
+            "column_name": "Legal Name of Organization",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2967,
+            "frequent_values": [
+                "Renaissance-EMS",
+                "Brooklyn-Queens Conservatory of Music",
+                "Earth Day New York",
+                "Fund for the City of New York",
+                "City Harvest Inc"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "MASK",
+                        "PS 51",
+                        "Masbia",
+                        "PS 119",
+                        "mekimi"
+                    ],
+                    "longest_values": [
+                        "Myrtle Avenue Commercial Revitalization and Development Project Local Development Corporation, The",
+                        "St Lukes Roman Catholic Church at Whitestone at Queens County owning and operating St Luke Golden",
+                        "National Sorority Phi Delta Kappa Ruby S Couche Big Sister Educational Action  Service Center Inc",
+                        "National Sorority Phi Delta Kappa Ruby S Couche Big Sister Educational Action Service Center Inc",
+                        "Queens College Foundation inc for  the Generation to Generation A Tapestry of Nations Project"
+                    ],
+                    "average_length": 31.759357454772303
+                }
+            ]
+        },
+        {
+            "column_name": "EIN",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2592,
+            "frequent_values": [
+                "134122438-",
+                "800072605-",
+                "111532426-",
+                "136400434-",
+                "131988190-"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "134002491-",
+                        "135596751-",
+                        "237129564-",
+                        "134091158-",
+                        "111839362-"
+                    ],
+                    "longest_values": [
+                        "133805585-",
+                        "237439789-",
+                        "237078563-",
+                        "133311582-",
+                        "134147836-"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Applied"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "Applied"
+                    ],
+                    "longest_values": [
+                        "Applied"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Amount ($)",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 359,
+            "frequent_values": [
+                "10000.00",
+                "5000.00",
+                "50000.00",
+                "15000.00",
+                "20000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 19236,
+                    "max_value": 421000000.0,
+                    "min_value": 1.0,
+                    "mean": 265813.85729881475,
+                    "stddev": 7757649.656350567
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "Unknown",
+                "DYCD-Y",
+                "DCA",
+                "DYCD-CD",
+                "DFTA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "CJC",
+                        "DCA",
+                        "DOE",
+                        "HRA",
+                        "DSS"
+                    ],
+                    "longest_values": [
+                        "Unknown",
+                        "DYCD-CD",
+                        "DYCD-Y",
+                        "DOITT",
+                        "NYCHA"
+                    ],
+                    "average_length": 5.5882200041588685
+                }
+            ]
+        },
+        {
+            "column_name": "Program Name",
+            "number_non_empty_cells": 14364,
+            "number_empty_cells": 4872,
+            "number_distinct_values": 2025,
+            "frequent_values": [
+                "Renaissance Education Music  Sports",
+                "ITAC",
+                "Met Council",
+                "MBS",
+                "HMI"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 30417877,
+                    "min_value": 30417877,
+                    "mean": 30417877.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14363,
+                    "shortest_values": [
+                        "M",
+                        "h",
+                        "YU",
+                        "LE",
+                        "FP"
+                    ],
+                    "longest_values": [
+                        "Minister Elders and Deacons of the Dutch Reformed Protestant Church of the City of New York",
+                        "OLG Golden Age OLG Widows Support St Simon and Jude Seniors Most Precious Blood Seniors",
+                        "PYE PROGRESSIVE YOUTH EMPOWERMENT BEACON CENTER  THE OASIS AFTER SCHOOL TEAM TOAST",
+                        "Sea Gate Blossoming Buds Summer Program for Moderately Disabled Young Teenagers",
+                        "PFLAG NYC Parents Families and Friends of Lesbians and Gays of New York City"
+                    ],
+                    "average_length": 13.85539232750818
+                }
+            ]
+        },
+        {
+            "column_name": "Street Address 1",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2781,
+            "frequent_values": [
+                "3485 Third Avenue",
+                "80 Maiden Lane",
+                "121 Avenue of the Americas",
+                "201 E 42nd St",
+                "575 8th Ave"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 299,
+                    "min_value": 127,
+                    "mean": 213.0,
+                    "stddev": 86.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 19234,
+                    "shortest_values": [
+                        "1575-50",
+                        "1620 47",
+                        "PMB 248",
+                        "65-62 1A",
+                        "POB 1299"
+                    ],
+                    "longest_values": [
+                        "Fordham University Office of Government  Urban Affairs",
+                        "Department of Emergency Medicine Rosenthal SE Room 201",
+                        "Libertas Center for Human Rights at Elmhurst Hospital",
+                        "Center for New York City Affairs at The New School",
+                        "The Arthur Ross Center for Parks and Open Spaces"
+                    ],
+                    "average_length": 19.46615368618072
+                }
+            ]
+        },
+        {
+            "column_name": "Street Address 2",
+            "number_non_empty_cells": 5358,
+            "number_empty_cells": 13878,
+            "number_distinct_values": 525,
+            "frequent_values": [
+                "6th Floor",
+                "4th Floor",
+                "3rd Floor",
+                "Suite 301",
+                "2nd Floor"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 113,
+                    "max_value": 1704,
+                    "min_value": 1,
+                    "mean": 296.7787610619469,
+                    "stddev": 413.61150029614305
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5245,
+                    "shortest_values": [
+                        "1a",
+                        "7M",
+                        "1B",
+                        "5B",
+                        "3F"
+                    ],
+                    "longest_values": [
+                        "cp B Poudyal 42-42 80th st Apt 4-P Elmhurst NY 11373",
+                        "79-01 Broadway Avenue Annex G 5th floor Room 12",
+                        "441 East Fordham Road - Admin Bldg-- Rm 220",
+                        "413 W 145 St New York NY 10031 P O Box 352",
+                        "Roy Wilkins Park 177-01 Baisley Blvd"
+                    ],
+                    "average_length": 10.917826501429934
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 197,
+            "frequent_values": [
+                "New York",
+                "Brooklyn",
+                "Bronx",
+                "Staten Island",
+                "Flushing"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "Mi",
+                        "2R",
+                        "ny",
+                        "SI",
+                        "NY"
+                    ],
+                    "longest_values": [
+                        "springfeild Gardens Queen",
+                        "Staten Island New York 1",
+                        "2800 Victory Blvd 2A-204",
+                        "Staten Island NY 10301",
+                        "Springfield Gardens"
+                    ],
+                    "average_length": 8.440528176336036
+                }
+            ]
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "NC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "NY",
+                        "NJ",
+                        "NC"
+                    ],
+                    "longest_values": [
+                        "NC",
+                        "NJ",
+                        "NY"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Zip Code",
+            "number_non_empty_cells": 19113,
+            "number_empty_cells": 123,
+            "number_distinct_values": 858,
+            "frequent_values": [
+                "10001",
+                "10018",
+                "10013",
+                "11201",
+                "10038"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14711,
+                    "max_value": 13355,
+                    "min_value": 1458,
+                    "mean": 10569.079328393718,
+                    "stddev": 626.2072647849386
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4402,
+                    "shortest_values": [
+                        "11366-1026",
+                        "11211-6229",
+                        "10469-6017",
+                        "10025-0698",
+                        "10003-7033"
+                    ],
+                    "longest_values": [
+                        "11217-11217",
+                        "11370-11370",
+                        "11385-11385",
+                        "10009-4689",
+                        "10013-1590"
+                    ],
+                    "average_length": 10.003634711494776
+                }
+            ]
+        },
+        {
+            "column_name": "Purpose of Funds",
+            "number_non_empty_cells": 19236,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5831,
+            "frequent_values": [
+                "HMI is seeking 375,000 in Speakers Initiative funding and 10,000 in Member Item Support for our Supportive Services Department, specifically to cover the salaries of our Counselors and Case Managers as we rise to meet a surge in demand for our services (now serving 2,500 young people, over triple our number 4 years ago). The increase in funding from the previous year (100,000) will be to cover all costs associated with hiring an additional Counselor, which will assist us in providing 500 additional young people this year with comprehensive mental health services. Services to be provided include: psychosocial Intake evaluation, individual and group counseling, hot meals (over 10,000 each year), homelessness pantry (clothing, food bags, hot showers, laundry services), family counseling, linkages to onsite HIV/STI/pregnancy testing, and complete wrap!\n -around support in the nations largest after-school program for LGBTQ youth.",
+                "The grant  will be used to support the NAACP NYC ACT-SO Academic Enrichment Program.  The Program is a free, year-long extracurricular youth development program targeted to African American high-school youth, which provides personalized mentoring, leadership training, and artistic, cultural, technological, and scientific skill development across 26 categories in the arts, humanities, and sciences. Funding will specifically support 2012-13 program expansion, outreach, recruitment, and retention activity and programming throughout the Metro New York area.  Operational goals are a 100 increase in student enrollment and retention; enhanced program content; increased capacity to deliver these services throughout New York City; and to increase public awareness and availability of these resources to high school students. The funds will be used in order t!\n o increase program and resource material support for student enrichment activities, from 250 to 500 students, by the end of FY 2013.",
+                "The home sharing component of NYFSCs city-wide Home Sharing and Respite Care Program, the only one of its type in New York City, matches compatible persons free of charge in shared living arrangements in dwellings rented or owned by one or more of the participants. One or both matchmates must be aged 60 or over. The programs respite care component provides certified in-home attendants to help frail elderly persons who are attempting to manage at home alone or whose caregivers have become ill or are temporarily away, to assist them with personal care, meal preparation, shopping, escorting, light housekeeping and laundry at the low rates of 7.25 per hour on weekdays and 7.50 per hour on weekends plus carfare. Free emergency, temporary in-home attendant respite care is also provided for low income frail elderly whose caregivers experience a sudden in!\n ability to provide care on weekdays after 5 p.m., weekends, holidays and in emergencies.",
+                "Funds will be used to support the provision of home-delivered meals and MNT to seriously ill people, their children and senior caregivers citywide. Last year we experienced a 10 increase in the demand for our services and are on track to have the same increase this year. The funds will help us meet the increased demand as well as to defray the ever rising costs of food, fuel, and supplies.",
+                "The Amp Up Summit addresses the problems of apathy, powerlessness, and the unfair distribution of environmental and economic impacts in the city.  The Summit educates a diverse group of NYC\u2019s youth about important issues and trains them in grassroots organizing techniques, providing them both with the education and the tools to act.  Topics at past Summits included hydrofracking, environmental justice, and green infrastructure; while this year\u2019s focus will be green jobs.  We hope to deepen young peoples involvement by increasing the number of conferences to two per year and by providing staff and online support to young people throughout the year.  The funds would go toward devoting more of our staffs time and energy to broadening the reach of the conference and developing the online tools to keep young people engaged throughout the year."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19236,
+                    "shortest_values": [
+                        "Sport",
+                        "#NAME?",
+                        "Marketing",
+                        "Local Law 11",
+                        "See Attached"
+                    ],
+                    "longest_values": [
+                        "Describe the program or services to be funded.: Educational and Cultural School Programs for students k-12 grades. Currently we offer five cross-disciplinary programs:The Legend of the Spider, Carnevale in Venice, Life in Ancient Rome, Puppetry and Literature and Guided Historical Tours. All programs culminate in a hands-on project to take home (except the Guided Historical Tour).\n\nSpeakers Bureau Programs: the purpose of the Speakers Bureau Program is to make programs related to Italian heritage and culture available to schools, community groups, senior and civic associations at their preferred sites or here at the museum. Our experienced speakers can cover twenty topics. \n\nOn-Site Exhibitions: the museum presents s new temporary exhibition every three or four months, and maintains three permanent exhibits.All programs are based on the promotion of Italian-American culture.\n\nTerza Domenica Heritage Series: these are special educational lectures, films, displays or demonstrations usually offered on the third Sunday of the each month at the museum. Most of these programs have accompanied educational materials for guest, such as bookmarks, pamphlets and posters.\n\nItalian Language Classes for adults are offered two semesters a year, 15 weeks at a time. Courses offered: Introduction to Italian Language, History and Culture I and II, Journey through Italian Language, History and Culture, Italian for Beginners, Italian II, Italian III, Intermediate Conversation through Literature, Communicative Italian I and II, Italian Theater and Literature.",
+                        "The Lark is committed to providing access to all writers, regardless of age, ethnicity, experience, or agent representation. The OPEN ACCESS PROGRAM\u00e2\u20ac\u201dwhich receives applications from over 700 artists annually\u00e2\u20ac\u201densures that our programming reflects the diversity of NYC and the globe.  Lark is one of a handful of theaters nationally that reviews every script that is submitted.  Additionally, we reach out to university and organizational partners to identify voices that are underrepresented in American theater\u00e2\u20ac\u201dand American society at large\u00e2\u20ac\u201dincluding those from Middle Eastern, South Asian and African Diasporas as well as Latino, African American, Asian American and Native American communities.  Artists are considered\u00e2\u20ac\u201dthrough a \u00e2\u20ac\u0153blind\u00e2\u20ac\u009d process, in which information about the author is not known by evaluators\u00e2\u20ac\u201dfor inclusion in Playwrights\u00e2\u20ac!\n \u2122 Week (a festival of 8-10 plays where the general public attends for free) and other programs including fellowships, workshops, and residencies.",
+                        "Staffed by volunteers, and operating form a tiny 2,500 sq-ft. facility, we know how to do more with less. The funds we request will help us expand the four primary prongs of our operations:\u2014\n\n1) Hunger  Beyond\n   \u2022 Weekly Client Choice Food Pantry\n   \u2022 Two Mobile Hunger Relief Programs (Queens/Brooklyn)\n   \u2022 Teaching Families to Eat Well on a Budget\n   \u2022 Vitamin Distribution \n   \u2022 and much more\n2) Financial Empowerment\n   \u2022 Our HRA-linked Food Stamp Enrollment Operations\n   \u2022 Free Tax Filing Assistance\n   \u2022 Foreclosure Assistance Referrals\n   \u2022 Tax Lien Assistance Connection\n   \u2022 Homelessness Prevention\n   \u2022 and much more\n3) Childrens Initiatives\n   \u2022 Back-to-School Supplies\n   \u2022 Teaching Kids to Cook Healthy Meals for Themselves\n   \u2022 Monthly Childrens Organic Vitamin Distribution\n   \u2022 Summer Basketball Team for At-Risk Youth\n   \u2022 Summer Organic Gardening Program\n   \u2022 Kids Winterwear\n   \u2022 and much more\n4) Special Assistance Referrals\n   \u2022 Involves more than 40 linked services",
+                        "AUDITIONS  BEGINNERS: In 2012-13, Ballet Tech will audition 30,000 2nd-5th graders at 200 public schools across NYC. Ballet Tech will also hold 6 auditions at its studios. No experience is required to audition. Roughly 400 3rd-5th graders will enroll in Ballet Tech\u00e2\u20ac\u2122s Beginner Program and take weekly dance classes for up to 12 weeks. Beginners learn the fundamentals of ballet: basic steps, simple combinations and vocabulary. In the fall of 2013, 40 graduates of the Beginner Program will enroll full-time at the New York City Public School for Dance. NYCPSD: A joint venture with the NYC DOE, NYCPSD integrates a rigorous academic curriculum with pre-professional ballet training for 150 students in grades 4-8. Students study academics and dance at Ballet Tech\u00e2\u20ac\u2122s facilities. The DOE provides academic faculty and staff. Ballet Tech provides ballet tra!\n ining and dancewear. Students take up to 12 weekly classes including ballet technique, pointe, men\u00e2\u20ac\u2122s, repertory, character, modern, and stretch.",
+                        "As part of its public education mission the MHA of NYC is requesting a 20,000 NY City Council grant to significantly expand the distribution of Mental Health News \u2013 the authoritative source of information on mental health services and related topics.\n\nThe funds provided will support the distribution of 10,000 to 15,000 additional annual copies of Mental Health News to targeted community service providers, including: hospital based mental health clinics, primary health care centers, and community based mental health agencies. \n\nMental Health News is published on a quarterly basis.  In addition to providing information on available services, each issue includes theme-related articles that review current developments in the field.  Recent issues have addressed such topics as: \u201cUnderstanding and Treating Depression,\u201d \u201cLatino Mental Health Services,\u201d \u201cThe Integration of Health and Mental Health Services,\u201d \u201cHousing for Persons with Mental Illness,\u201d \u201cUnderstanding, Preventing and Coping with"
+                    ],
+                    "average_length": 669.0548970679976
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Conduit Name",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 19236,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "FC EIN",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 19236,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "BROOKLYN ",
+                "QUEENS   ",
+                "BRONX    ",
+                "STATEN IS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13544,
+                    "shortest_values": [
+                        "MANHATTAN",
+                        "BROOKLYN ",
+                        "QUEENS   ",
+                        "BRONX    ",
+                        "STATEN IS"
+                    ],
+                    "longest_values": [
+                        "STATEN IS",
+                        "BRONX    ",
+                        "QUEENS   ",
+                        "BROOKLYN ",
+                        "MANHATTAN"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 1724,
+            "frequent_values": [
+                "40.830224",
+                "40.707116",
+                "40.753612",
+                "40.683444",
+                "40.750714"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 13544,
+                    "max_value": 40.905009,
+                    "min_value": 40.502357,
+                    "mean": 40.72586545252453,
+                    "stddev": 0.061139864370050465
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 1723,
+            "frequent_values": [
+                "-73.906233",
+                "-74.007329",
+                "-73.992417",
+                "-73.814447",
+                "-73.974295"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 13544,
+                    "max_value": -73.708639,
+                    "min_value": -74.25144,
+                    "mean": -73.95245471071905,
+                    "stddev": 0.07453587414273188
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "5",
+                "1",
+                "2",
+                "6",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13544,
+                    "max_value": 95,
+                    "min_value": 1,
+                    "mean": 6.356320141760189,
+                    "stddev": 6.767543537014448
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "3",
+                "1",
+                "4",
+                "33",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13544,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 17.51277318369758,
+                    "stddev": 16.00970105675589
+                }
+            ]
+        },
+        {
+            "column_name": "Census Board",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 722,
+            "frequent_values": [
+                "7",
+                "109",
+                "9",
+                "95",
+                "37"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13544,
+                    "max_value": 157902,
+                    "min_value": 2,
+                    "mean": 4246.6498818665095,
+                    "stddev": 18009.445411283123
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 13476,
+            "number_empty_cells": 5760,
+            "number_distinct_values": 1695,
+            "frequent_values": [
+                "2001324",
+                "1001015",
+                "1083624",
+                "4458850",
+                "1037549"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13476,
+                    "max_value": 5168910,
+                    "min_value": 1000000,
+                    "mean": 2257893.980780647,
+                    "stddev": 1367067.9308236912
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 13476,
+            "number_empty_cells": 5760,
+            "number_distinct_values": 1690,
+            "frequent_values": [
+                "2023720032",
+                "1000420031",
+                "1007860001",
+                "4116080019",
+                "1013160001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13476,
+                    "max_value": 5080470080,
+                    "min_value": 1000047501,
+                    "mean": 2180013723.5503116,
+                    "stddev": 1306529968.994332
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 13544,
+            "number_empty_cells": 5692,
+            "number_distinct_values": 185,
+            "frequent_values": [
+                "Midtown-Midtown South                                                      ",
+                "Battery Park City-Lower Manhattan                                          ",
+                "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 ",
+                "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill                           "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13544,
+                    "shortest_values": [
+                        "Battery Park City-Lower Manhattan                                          ",
+                        "Williamsbridge-Olinville                                                   ",
+                        "East Concourse-Concourse Village                                           ",
+                        "Mount Hope                                                                 ",
+                        "Woodside                                                                   "
+                    ],
+                    "longest_values": [
+                        "Ozone Park                                                                 ",
+                        "Jamaica                                                                    ",
+                        "Hammels-Arverne-Edgemere                                                   ",
+                        "Kew Gardens Hills                                                          ",
+                        "Grasmere-Arrochar-Ft. Wadsworth                                            "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

@@ -1,0 +1,147 @@
+{
+    "dataset_name": "gmi7-62cd",
+    "columns": [
+        {
+            "column_name": "FundDWID",
+            "number_non_empty_cells": 770,
+            "number_empty_cells": 0,
+            "number_distinct_values": 770,
+            "frequent_values": [
+                "50937",
+                "51631",
+                "38844",
+                "36208",
+                "38724"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 770,
+                    "max_value": 58856,
+                    "min_value": 30501,
+                    "mean": 40711.34285714286,
+                    "stddev": 8669.099734973439
+                }
+            ]
+        },
+        {
+            "column_name": "ProjectID",
+            "number_non_empty_cells": 770,
+            "number_empty_cells": 0,
+            "number_distinct_values": 586,
+            "frequent_values": [
+                "44348",
+                "52467",
+                "49722",
+                "50088",
+                "44362"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 770,
+                    "max_value": 67577,
+                    "min_value": 44218,
+                    "mean": 53187.72077922078,
+                    "stddev": 5973.6792898848735
+                }
+            ]
+        },
+        {
+            "column_name": "FundName",
+            "number_non_empty_cells": 770,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "City Capital",
+                "Reso A",
+                "CDBG-DR",
+                "HOME",
+                "421-a Fund"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 770,
+                    "shortest_values": [
+                        "HOME",
+                        "NSP3",
+                        "Reso A",
+                        "CDBG-DR",
+                        "HTF NYC"
+                    ],
+                    "longest_values": [
+                        "City Capital Funds / HDC Grant",
+                        "Purchase Money Mortgage",
+                        "HODAG Program Income",
+                        "City Capital",
+                        "421-a Fund"
+                    ],
+                    "average_length": 9.709090909090909
+                }
+            ]
+        },
+        {
+            "column_name": "Type",
+            "number_non_empty_cells": 756,
+            "number_empty_cells": 14,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Loan",
+                "Grant",
+                "Not Applicable"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 756,
+                    "shortest_values": [
+                        "Loan",
+                        "Grant",
+                        "Not Applicable"
+                    ],
+                    "longest_values": [
+                        "Not Applicable",
+                        "Grant",
+                        "Loan"
+                    ],
+                    "average_length": 4.088624338624339
+                }
+            ]
+        },
+        {
+            "column_name": "Amount",
+            "number_non_empty_cells": 770,
+            "number_empty_cells": 0,
+            "number_distinct_values": 640,
+            "frequent_values": [
+                "500000",
+                "2000000",
+                "1000000",
+                "1500000",
+                "600000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 746,
+                    "max_value": 105835672,
+                    "min_value": 31377,
+                    "mean": 6201525.619302949,
+                    "stddev": 10948286.528507361
+                },
+                {
+                    "type": "REAL",
+                    "count": 24,
+                    "max_value": 107573017.9,
+                    "min_value": 64839.15,
+                    "mean": 6099734.621250003,
+                    "stddev": 21610979.818380803
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "FundDWID"
+    ]
+}

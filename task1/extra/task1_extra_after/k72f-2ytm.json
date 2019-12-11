@@ -1,0 +1,144 @@
+{
+    "dataset_name": "k72f-2ytm",
+    "columns": [
+        {
+            "column_name": "Region",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Citywide"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 264,
+                    "shortest_values": [
+                        "Citywide"
+                    ],
+                    "longest_values": [
+                        "Citywide"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Supervision Closing Type",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Community Progression",
+                "ACE Anyone Can Excel",
+                "Client Development",
+                "Other",
+                "Intensive Engagement"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 264,
+                    "shortest_values": [
+                        "Other",
+                        "Special Program",
+                        "Client Development",
+                        "Intensive Engagement",
+                        "ACE Anyone Can Excel"
+                    ],
+                    "longest_values": [
+                        "NeON Neighborhood Opportunity Network",
+                        "Central Interstate Unit",
+                        "Community Progression",
+                        "ACE Anyone Can Excel",
+                        "Intensive Engagement"
+                    ],
+                    "average_length": 19.875
+                }
+            ]
+        },
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "May",
+                "November",
+                "April",
+                "June",
+                "January"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 264,
+                    "shortest_values": [
+                        "May",
+                        "June",
+                        "July",
+                        "March",
+                        "April"
+                    ],
+                    "longest_values": [
+                        "September",
+                        "February",
+                        "December",
+                        "November",
+                        "October"
+                    ],
+                    "average_length": 6.212121212121212
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2017",
+                "2018",
+                "2019",
+                "2016"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 264,
+                    "max_value": 2019,
+                    "min_value": 2016,
+                    "mean": 2017.6666666666667,
+                    "stddev": 0.9101004495564351
+                }
+            ]
+        },
+        {
+            "column_name": "Supervision Closing Count",
+            "number_non_empty_cells": 264,
+            "number_empty_cells": 0,
+            "number_distinct_values": 118,
+            "frequent_values": [
+                "0",
+                "68",
+                "35",
+                "36",
+                "37"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 264,
+                    "max_value": 431,
+                    "min_value": 0,
+                    "mean": 75.66287878787878,
+                    "stddev": 102.41912915054006
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Region",
+        "Supervision Closing Type"
+    ]
+}

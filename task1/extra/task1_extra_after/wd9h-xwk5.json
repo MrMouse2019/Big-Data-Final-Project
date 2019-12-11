@@ -1,0 +1,106 @@
+{
+    "dataset_name": "wd9h-xwk5",
+    "columns": [
+        {
+            "column_name": "Report_Date",
+            "number_non_empty_cells": 78,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "12/04/2018",
+                "09/05/2018",
+                "02/05/2019",
+                "10/04/2018",
+                "08/03/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 78,
+                    "max_value": "2019-09-04 00:00:00",
+                    "min_value": "2018-08-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Age_Category",
+            "number_non_empty_cells": 78,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "18-20 Years",
+                "21-24 Years",
+                "16-17 Years"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 78,
+                    "shortest_values": [
+                        "18-20 Years",
+                        "21-24 Years",
+                        "16-17 Years"
+                    ],
+                    "longest_values": [
+                        "16-17 Years",
+                        "21-24 Years",
+                        "18-20 Years"
+                    ],
+                    "average_length": 11.0
+                }
+            ]
+        },
+        {
+            "column_name": "Education",
+            "number_non_empty_cells": 78,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "ALL_GR",
+                "AGE_UDH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 78,
+                    "shortest_values": [
+                        "ALL_GR",
+                        "AGE_UDH"
+                    ],
+                    "longest_values": [
+                        "AGE_UDH",
+                        "ALL_GR"
+                    ],
+                    "average_length": 6.5
+                }
+            ]
+        },
+        {
+            "column_name": "Recipients",
+            "number_non_empty_cells": 78,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "58",
+                "71",
+                "75",
+                "63",
+                "53"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 78,
+                    "max_value": 8252,
+                    "min_value": 52,
+                    "mean": 2845.1794871794873,
+                    "stddev": 2751.1188714243935
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Report_Date",
+        "Age_Category"
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "dataset_name": "ujdf-5byz",
+    "columns": [
+        {
+            "column_name": "District",
+            "number_non_empty_cells": 50,
+            "number_empty_cells": 2,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "10",
+                "24",
+                "30",
+                "21",
+                "31"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 50,
+                    "max_value": 31,
+                    "min_value": 2,
+                    "mean": 18.34,
+                    "stddev": 8.71001722156736
+                }
+            ]
+        },
+        {
+            "column_name": "Sub-District",
+            "number_non_empty_cells": 50,
+            "number_empty_cells": 2,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "Gravesend",
+                "Tribeca / Village *",
+                "University Heights",
+                "Dyker Heights *",
+                "West Harlem"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 50,
+                    "shortest_values": [
+                        "Melrose",
+                        "Soundview",
+                        "Gravesend",
+                        "New Dorp *",
+                        "Mill Basin"
+                    ],
+                    "longest_values": [
+                        "Ozone Park / South Ozone Park / Richmond Hill / Woodhaven *",
+                        "Spuyten Duyvil / Riverdale / Fieldston / North Riverdale *",
+                        "North Corona / South Corona / Lefrak City / Elmhurst *",
+                        "Rego Park / Forest Hills / Kew Gardens / Jamaica *",
+                        "Flushing / Murray Hill / Willets Point *"
+                    ],
+                    "average_length": 24.24
+                }
+            ]
+        },
+        {
+            "column_name": "November 2017 Identified Need",
+            "number_non_empty_cells": 52,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "456",
+                "476",
+                "572",
+                "640",
+                "1000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52,
+                    "max_value": 6880,
+                    "min_value": 245,
+                    "mean": 1597.2307692307693,
+                    "stddev": 1343.3475496137457
+                }
+            ]
+        },
+        {
+            "column_name": "February 2018 Funded Need",
+            "number_non_empty_cells": 52,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "0",
+                "456",
+                "912",
+                "1464",
+                "1920"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52,
+                    "max_value": 3595,
+                    "min_value": 0,
+                    "mean": 858.2307692307693,
+                    "stddev": 803.1041127875833
+                }
+            ]
+        },
+        {
+            "column_name": "Additional Need (Unfunded)",
+            "number_non_empty_cells": 52,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "572",
+                "0",
+                "476",
+                "456",
+                "1280"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 52,
+                    "max_value": 3285,
+                    "min_value": 0,
+                    "mean": 739.0,
+                    "stddev": 685.0560617148845
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Seats in Scope / Design",
+            "number_non_empty_cells": 36,
+            "number_empty_cells": 16,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "456",
+                "516",
+                "388",
+                "3595",
+                "124"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 36,
+                    "max_value": 3595,
+                    "min_value": 124,
+                    "mean": 883.5277777777778,
+                    "stddev": 680.322329084249
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "District",
+        "Sub-District"
+    ]
+}

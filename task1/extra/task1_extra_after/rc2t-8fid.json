@@ -1,0 +1,76 @@
+{
+    "dataset_name": "rc2t-8fid",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Staten Island",
+                "Brooklyn",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Number of public housing residents who passed the Test Assessing Secondary Completion (TASC)",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "35",
+                "12",
+                "<5",
+                "40",
+                "38"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 40,
+                    "min_value": 12,
+                    "mean": 31.25,
+                    "stddev": 11.255554184490428
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "<5"
+                    ],
+                    "longest_values": [
+                        "<5"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Number of public housing residents who passed the Test Assessing Secondary Completion (TASC)"
+    ]
+}

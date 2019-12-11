@@ -1,0 +1,565 @@
+{
+    "dataset_name": "bvug-v3mm",
+    "columns": [
+        {
+            "column_name": "HouseOfWorship",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 645,
+            "frequent_values": [
+                "Trinity Baptist Church",
+                "Grace United Methodist Church",
+                "Yeshivat Or Hatorah",
+                "Church of Grace to Fujianese",
+                "Bethel Assembly Of God"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "Beth Chana",
+                        "Mt. Zion AME",
+                        "Meor Hatorah",
+                        "Vishnu Mandir",
+                        "Church Of God"
+                    ],
+                    "longest_values": [
+                        "Faith Apostolic Tabernacle United Pentecostal Chur",
+                        "The Central Islamic Organization of New York, Inc.",
+                        "Iglesia Pentecostal De Jesucristo \"Cristo Viene\" I",
+                        "Chinese Missionary Baptist Church of New York Inc.",
+                        "Coptic Orthodox Church Of Archangel Michael & Sain"
+                    ],
+                    "average_length": 30.592649310872893
+                }
+            ]
+        },
+        {
+            "column_name": "StreetAddress",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 648,
+            "frequent_values": [
+                "1616 Ocean Parkway",
+                "1585 Coney Island Avenue",
+                "4221 Park Avenue",
+                "315 8th Street",
+                "2959 Avenue Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "2402 Ave P",
+                        "2913 Ave L",
+                        "1530 51st St",
+                        "5101 8th Ave",
+                        "730 Avenue S"
+                    ],
+                    "longest_values": [
+                        "141 Bishop Preston R. Washington Sr. Pla",
+                        "9854 Horace Harding Expy, 2nd Floor",
+                        "808 Rev Dr Nathaniel Tyler Lloyd Pl",
+                        "2081 Adam Clayton Powell Jr. Blvd.",
+                        "937 East 169th Street, PO Box 161"
+                    ],
+                    "average_length": 18.65543644716692
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "Brooklyn",
+                "New York",
+                "Bronx",
+                "Jamaica",
+                "Flushing"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "Bronx",
+                        "Elmont",
+                        "Corona",
+                        "Hollis",
+                        "Arverne"
+                    ],
+                    "longest_values": [
+                        "S. Richmond Hil",
+                        "Long Island Cit",
+                        "Jackson Heights",
+                        "South Ozone Par",
+                        "South Richmond"
+                    ],
+                    "average_length": 8.078101071975498
+                }
+            ]
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "NY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "NY"
+                    ],
+                    "longest_values": [
+                        "NY"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 146,
+            "frequent_values": [
+                "11230",
+                "10002",
+                "11223",
+                "11216",
+                "10027"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 653,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10865.863705972435,
+                    "stddev": 548.9186039820459
+                }
+            ]
+        },
+        {
+            "column_name": "EntryDate",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 386,
+            "frequent_values": [
+                "01/22/2010",
+                "05/23/2008",
+                "05/08/2008",
+                "05/02/2008",
+                "05/13/2008"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 653,
+                    "max_value": "2019-08-28 00:00:00",
+                    "min_value": "2008-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PermitNumber",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 653,
+            "frequent_values": [
+                "2018-5267",
+                "2019-5357",
+                "2018-5075",
+                "2019-5402",
+                "2018-5073"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "2019-5683",
+                        "2019-5556",
+                        "2019-5381",
+                        "2019-5434",
+                        "2018-5077"
+                    ],
+                    "longest_values": [
+                        "2018-5240",
+                        "2019-5579",
+                        "2019-5306",
+                        "2019-5632",
+                        "2019-5473"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "DateIssue",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 161,
+            "frequent_values": [
+                "07/09/2019",
+                "08/01/2019",
+                "01/03/2019",
+                "09/12/2018",
+                "03/05/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 653,
+                    "max_value": "2019-08-30 00:00:00",
+                    "min_value": "2018-08-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DateExpiry",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "01/31/2020",
+                "12/31/2019",
+                "05/31/2020",
+                "11/30/2019",
+                "07/31/2020"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 653,
+                    "max_value": "2020-09-30 00:00:00",
+                    "min_value": "2019-08-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PermitStatus",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Active"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "Active"
+                    ],
+                    "longest_values": [
+                        "Active"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "PermitType",
+            "number_non_empty_cells": 653,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Renew",
+                "New",
+                "Replace"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 653,
+                    "shortest_values": [
+                        "New",
+                        "Renew",
+                        "Replace"
+                    ],
+                    "longest_values": [
+                        "Replace",
+                        "Renew",
+                        "New"
+                    ],
+                    "average_length": 4.920367534456355
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "QUEENS",
+                "BRONX",
+                "STATEN IS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 638,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN IS"
+                    ],
+                    "longest_values": [
+                        "STATEN IS",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.420062695924765
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 633,
+            "frequent_values": [
+                "40.847984",
+                "40.669243",
+                "40.591847",
+                "40.609151",
+                "40.618888"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 638,
+                    "max_value": 40.904834,
+                    "min_value": 40.549354,
+                    "mean": 40.7200637507837,
+                    "stddev": 0.0776388258095775
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 631,
+            "frequent_values": [
+                "-73.984658",
+                "-74.010407",
+                "-73.938808",
+                "-73.899156",
+                "-73.969586"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 638,
+                    "max_value": -73.704422,
+                    "min_value": -74.152882,
+                    "mean": -73.92485832601882,
+                    "stddev": 0.06653250039086542
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "103",
+                "315",
+                "303",
+                "312",
+                "314"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 638,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 274.0721003134796,
+                    "stddev": 111.16594026453893
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "36",
+                "44",
+                "48",
+                "9",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 638,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 25.695924764890282,
+                    "stddev": 14.901400567676587
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 429,
+            "frequent_values": [
+                "185",
+                "41",
+                "18",
+                "173",
+                "379"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 638,
+                    "max_value": 157903,
+                    "min_value": 2,
+                    "mean": 6395.230407523511,
+                    "stddev": 21034.77887026373
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 633,
+            "number_empty_cells": 20,
+            "number_distinct_values": 627,
+            "frequent_values": [
+                "3000000",
+                "3203616",
+                "2011095",
+                "3180580",
+                "3021923"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 633,
+                    "max_value": 5106887,
+                    "min_value": 1001169,
+                    "mean": 2764037.759873618,
+                    "stddev": 1164585.2209384392
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 633,
+            "number_empty_cells": 20,
+            "number_distinct_values": 627,
+            "frequent_values": [
+                "2030270041",
+                "3067310076",
+                "3009990059",
+                "3076900051",
+                "3066370012"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 633,
+                    "max_value": 5054320001,
+                    "min_value": 1000757503,
+                    "mean": 2689853424.7962084,
+                    "stddev": 1122624465.1092994
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 153,
+            "frequent_values": [
+                "Homecrest",
+                "Lower East Side",
+                "Midwood",
+                "Crown Heights North",
+                "Upper West Side"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 638,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Midwood",
+                        "Erasmus",
+                        "Jamaica"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park",
+                        "Georgetown-Marine Park-Bergen Beach-Mill Basin"
+                    ],
+                    "average_length": 17.50626959247649
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 638,
+            "number_empty_cells": 15,
+            "number_distinct_values": 633,
+            "frequent_values": [
+                "(40.609151, -73.967647)",
+                "(40.669243, -73.984658)",
+                "(40.847984, -73.899156)",
+                "(40.618888, -73.964048)",
+                "(40.591847, -73.938808)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 638,
+                    "shortest_values": [
+                        "(40.68709, -73.9914)",
+                        "(40.6838, -73.96385)",
+                        "(40.727782, -73.7855)",
+                        "(40.84853, -73.88966)",
+                        "(40.7587, -73.873309)"
+                    ],
+                    "longest_values": [
+                        "(40.644751, -73.96103600000001)",
+                        "(40.848246, -73.93525700000001)",
+                        "(40.630756, -73.988082)",
+                        "(40.728991, -73.859284)",
+                        "(40.692539, -73.816921)"
+                    ],
+                    "average_length": 22.83542319749216
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "PermitNumber"
+    ]
+}

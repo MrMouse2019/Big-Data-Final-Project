@@ -1,0 +1,99 @@
+{
+    "dataset_name": "6wve-ubwx",
+    "columns": [
+        {
+            "column_name": "Metric",
+            "number_non_empty_cells": 3,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "\u00a0Pctg of Calls abandoned by VRU",
+                "Percntage of busy Calls by VRU",
+                "\u00a0Pctg of calls answered by voice response units (\"VRU\")"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3,
+                    "shortest_values": [
+                        "Percntage of busy Calls by VRU",
+                        "\u00a0Pctg of Calls abandoned by VRU",
+                        "\u00a0Pctg of calls answered by voice response units (\"VRU\")"
+                    ],
+                    "longest_values": [
+                        "\u00a0Pctg of calls answered by voice response units (\"VRU\")",
+                        "\u00a0Pctg of Calls abandoned by VRU",
+                        "Percntage of busy Calls by VRU"
+                    ],
+                    "average_length": 39.333333333333336
+                }
+            ]
+        },
+        {
+            "column_name": "Cablevision",
+            "number_non_empty_cells": 3,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0.2",
+                "4.5",
+                "99.8"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 99.8,
+                    "min_value": 0.2,
+                    "mean": 34.833333333333336,
+                    "stddev": 45.97189962961674
+                }
+            ]
+        },
+        {
+            "column_name": "Time Warner Cable",
+            "number_non_empty_cells": 3,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "1.1",
+                "12.6",
+                "98.9"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 98.9,
+                    "min_value": 1.1,
+                    "mean": 37.53333333333333,
+                    "stddev": 43.64602565590086
+                }
+            ]
+        },
+        {
+            "column_name": "Verizon FIOS",
+            "number_non_empty_cells": 3,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0.04",
+                "4.8",
+                "99.96"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 99.96,
+                    "min_value": 0.04,
+                    "mean": 34.93333333333333,
+                    "stddev": 46.02184215734476
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Verizon FIOS"
+    ]
+}

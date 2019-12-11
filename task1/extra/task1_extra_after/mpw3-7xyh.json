@@ -1,0 +1,110 @@
+{
+    "dataset_name": "mpw3-7xyh",
+    "columns": [
+        {
+            "column_name": "Report Date",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "18-Dec"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "18-Dec"
+                    ],
+                    "longest_values": [
+                        "18-Dec"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Referral Source Type",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Family Member/Friend/Neighbor",
+                "Anonymous",
+                "Marshal",
+                "Total",
+                "Self"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "Self",
+                        "Total",
+                        "Marshal",
+                        "Anonymous",
+                        "Organization"
+                    ],
+                    "longest_values": [
+                        "Family Member/Friend/Neighbor",
+                        "Organization",
+                        "Anonymous",
+                        "Marshal",
+                        "Total"
+                    ],
+                    "average_length": 11.0
+                }
+            ]
+        },
+        {
+            "column_name": "Total Referred",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "9282",
+                "1485",
+                "15256",
+                "992",
+                "2859"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 15256,
+                    "min_value": 638,
+                    "mean": 5085.333333333333,
+                    "stddev": 5408.443758502893
+                }
+            ]
+        },
+        {
+            "column_name": "Total Ineligible",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "8948",
+                "600",
+                "365",
+                "1885",
+                "882"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 8948,
+                    "min_value": 365,
+                    "mean": 2982.6666666666665,
+                    "stddev": 3128.363025964574
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Total Ineligible"
+    ]
+}

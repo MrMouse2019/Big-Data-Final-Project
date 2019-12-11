@@ -1,0 +1,663 @@
+{
+    "dataset_name": "59kj-x8nc",
+    "columns": [
+        {
+            "column_name": "LitigationID",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 165923,
+            "frequent_values": [
+                "229329",
+                "327121",
+                "69926",
+                "55576",
+                "165549"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165923,
+                    "max_value": 360392,
+                    "min_value": 42,
+                    "mean": 191282.22351331642,
+                    "stddev": 99666.10515037442
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 57046,
+            "frequent_values": [
+                "116740",
+                "806886",
+                "81719",
+                "81982",
+                "806888"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165923,
+                    "max_value": 991631,
+                    "min_value": 1,
+                    "mean": 274609.41708503343,
+                    "stddev": 260726.12597649393
+                }
+            ]
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165923,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.491559337765108,
+                    "stddev": 1.0202086735353644
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12168,
+            "frequent_values": [
+                "20",
+                "40",
+                "15",
+                "30",
+                "50"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 141940,
+                    "max_value": 12695,
+                    "min_value": 1,
+                    "mean": 1134.9006904325772,
+                    "stddev": 1245.4129831190141
+                },
+                {
+                    "type": "TEXT",
+                    "count": 23983,
+                    "shortest_values": [
+                        "5B",
+                        "3A",
+                        "5A",
+                        "58A",
+                        "57A"
+                    ],
+                    "longest_values": [
+                        "188-12 REAR",
+                        "1946 FRONT",
+                        "2187 FRONT",
+                        "1651 FRONT",
+                        "2828 FRONT"
+                    ],
+                    "average_length": 5.435350039611391
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4060,
+            "frequent_values": [
+                "GRAND CONCOURSE",
+                "BROADWAY",
+                "MORRIS AVENUE",
+                "ST NICHOLAS AVENUE",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 165923,
+                    "shortest_values": [
+                        "10 ST",
+                        "134 ST",
+                        "257 ST",
+                        "BOWERY",
+                        "167 ST"
+                    ],
+                    "longest_values": [
+                        "HOR HARDING EXPRESSWAY SR NORTH",
+                        "HOR HARDING EXPRESSWAY SR SOUTH",
+                        "GRAND CENTRAL PARKWAY  SR SOUTH",
+                        "ADAM CLAYTON POWEL JR BOULEVARD",
+                        "CROSS BRONX SERVICE ROAD SOUTH"
+                    ],
+                    "average_length": 13.753879811719894
+                }
+            ]
+        },
+        {
+            "column_name": "Zip",
+            "number_non_empty_cells": 165873,
+            "number_empty_cells": 50,
+            "number_distinct_values": 183,
+            "frequent_values": [
+                "11226",
+                "10453",
+                "10458",
+                "10456",
+                "10457"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165873,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10766.066104791014,
+                    "stddev": 517.0734125026015
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10004,
+            "frequent_values": [
+                "3304",
+                "2456",
+                "1918",
+                "1988",
+                "2136"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165923,
+                    "max_value": 16340,
+                    "min_value": 0,
+                    "mean": 3725.1908656424966,
+                    "stddev": 3002.574080530166
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 613,
+            "frequent_values": [
+                "1",
+                "29",
+                "6",
+                "5",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165923,
+                    "max_value": 9100,
+                    "min_value": 0,
+                    "mean": 163.89797074546627,
+                    "stddev": 938.3246976453272
+                }
+            ]
+        },
+        {
+            "column_name": "CaseType",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "Tenant Action",
+                "Heat and Hot Water",
+                "Access Warrant - Non-Lead",
+                "Tenant Action/Harrassment",
+                "False Certification Non-Lead"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 165923,
+                    "shortest_values": [
+                        "7A",
+                        "CONH",
+                        "Comprehensive",
+                        "Tenant Action",
+                        "Heat and Hot Water"
+                    ],
+                    "longest_values": [
+                        "False Certification Non-Lead",
+                        "Tenant Action/Harrassment",
+                        "Access Warrant - Non-Lead",
+                        "Failure to Register Only",
+                        "Lead False Certification"
+                    ],
+                    "average_length": 16.995262862894233
+                }
+            ]
+        },
+        {
+            "column_name": "CaseOpenDate",
+            "number_non_empty_cells": 165729,
+            "number_empty_cells": 194,
+            "number_distinct_values": 3821,
+            "frequent_values": [
+                "01/13/2010 00:00:00",
+                "11/28/2007 00:00:00",
+                "01/21/2009 00:00:00",
+                "02/09/2010 00:00:00",
+                "12/22/2010 00:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 165729,
+                    "shortest_values": [
+                        "05/18/2016 00:00:00",
+                        "02/07/2005 00:00:00",
+                        "02/27/2007 00:00:00",
+                        "03/31/2009 00:00:00",
+                        "02/11/2005 00:00:00"
+                    ],
+                    "longest_values": [
+                        "02/12/2019 00:00:00",
+                        "03/08/2017 00:00:00",
+                        "10/31/2006 00:00:00",
+                        "05/02/2017 00:00:00",
+                        "05/19/2014 00:00:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "CaseStatus",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1155,
+            "frequent_values": [
+                "CLOSED",
+                "PENDING",
+                "APPLICATION PENDING",
+                "GRANTED -",
+                "GRANTED - 10/20/2006"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 165923,
+                    "shortest_values": [
+                        "CLOSED",
+                        "PENDING",
+                        "Exempt-",
+                        "DENIED ,",
+                        "GRANTED -"
+                    ],
+                    "longest_values": [
+                        "Settlement With Cure- 10/24/2007",
+                        "WithDrawn/Abandoned- 05/16/2012",
+                        "WithDrawn/Abandoned- 06/08/2010",
+                        "WithDrawn/Abandoned- 06/26/2018",
+                        "WithDrawn/Abandoned- 10/21/2009"
+                    ],
+                    "average_length": 6.198441445730851
+                }
+            ]
+        },
+        {
+            "column_name": "OpenJudgement",
+            "number_non_empty_cells": 165923,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "NO",
+                "YES"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 165923,
+                    "shortest_values": [
+                        "NO",
+                        "YES"
+                    ],
+                    "longest_values": [
+                        "YES",
+                        "NO"
+                    ],
+                    "average_length": 2.020226249525382
+                }
+            ]
+        },
+        {
+            "column_name": "FindingOfHarassment",
+            "number_non_empty_cells": 1731,
+            "number_empty_cells": 164192,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "No Harassment",
+                "After Inquest",
+                "After Trial"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1731,
+                    "shortest_values": [
+                        "After Trial",
+                        "No Harassment",
+                        "After Inquest"
+                    ],
+                    "longest_values": [
+                        "After Inquest",
+                        "No Harassment",
+                        "After Trial"
+                    ],
+                    "average_length": 12.984979780473715
+                }
+            ]
+        },
+        {
+            "column_name": "FindingDate",
+            "number_non_empty_cells": 122,
+            "number_empty_cells": 165801,
+            "number_distinct_values": 109,
+            "frequent_values": [
+                "05/18/2018 00:00:00",
+                "02/21/2019 00:00:00",
+                "06/15/2018 00:00:00",
+                "09/28/2015 00:00:00",
+                "01/27/2017 00:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 122,
+                    "shortest_values": [
+                        "07/28/2017 00:00:00",
+                        "08/05/2019 00:00:00",
+                        "08/09/2019 00:00:00",
+                        "03/16/2018 00:00:00",
+                        "08/08/2019 00:00:00"
+                    ],
+                    "longest_values": [
+                        "09/07/2018 00:00:00",
+                        "12/06/2018 00:00:00",
+                        "09/07/2017 00:00:00",
+                        "05/21/2014 00:00:00",
+                        "08/19/2016 00:00:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "Penalty",
+            "number_non_empty_cells": 123,
+            "number_empty_cells": 165800,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "1000",
+                "2000",
+                "5000",
+                "0",
+                "2500"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 123,
+                    "max_value": 96060,
+                    "min_value": 0,
+                    "mean": 4239.756097560976,
+                    "stddev": 11382.563291938384
+                }
+            ]
+        },
+        {
+            "column_name": "Respondent",
+            "number_non_empty_cells": 163562,
+            "number_empty_cells": 2361,
+            "number_distinct_values": 115463,
+            "frequent_values": [
+                "VED PARKASH",
+                "RIVERBAY CORPORATION",
+                "SG2 MANAGEMENT LLC",
+                "STELLAR MANAGEMENT",
+                "WAVECREST MANAGEMENT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 163562,
+                    "shortest_values": [
+                        "NIC",
+                        "MBD",
+                        "PMG",
+                        "BRC",
+                        "ICL"
+                    ],
+                    "longest_values": [
+                        "ADI JOSEPH,BAY PARKWAY HOLDINGS LLC  C/O: GATEWAY PROPERTY MANAGEMENT,BENSONHURST AVENUE HOLDINGS II LLC  C/O GATEWAY PROPERTY MANAGEMENT,BENSONHURST HOLDINGS LLC,BRYANT AVE. HOLDINGS LLC  C/O GATEWAY PROPERTY MANAGEMENT,DAVID GLIEBERMAN,JOSEPH BENJAMIN,L",
+                        "JOHN L. LINSSEN,JP MORGAN CHASE and COMPANY d/b/a JP MORGAN CHASE BANK NATIONAL ASSOCIATION f/k/a CHASE HOME FIN ANCE, LLC,U.S. BANCORP d/b/a U.S.  BANK, NATIONAL ASSOCIATION AS TRUSTEE FOR THE RMAC TRUST, SERIES 2016-CTT",
+                        "2170 EIGHTH AVENUE REALTY MANAGEMENT LLC,ADHY ADVISORS, LLC AS ASSIGNEE OF JP MORGAN CHASE BANK, NATIONAL ASSOCIATION, AS PURCHASER OF THE NOTE AND MORTGAGE,FREDERICK DOUGLAS MANAGEMENT LLC,RON NAHUM",
+                        "CARLSBAD FUNDING MORTGAGE TRUST,KRISTEN MOORE, SVP, DIRECTOR OF CORPORATE TRUST SERVICES,RUSHMORE LOAN MANAGEMENT SERVICES, LLC,WILMINGTON SAVINGS FUND SOCIETY, FSB AS TRUSTEE D/B/A CHRISTIANA TRUST",
+                        "ACRMD RESIDENTIAL FACILITIES HOUSING DE AKA ASSOCIATION FOR CHILDREN WITH RETARDED MENTAL DEVELOPMENT RESIDENTIAL FACILITIES HDFC,PAUL ODDO,RAUL PEREZ DE TAGLE,SHAQUANE MCCANDIES,THOMAS MCALVANAH"
+                    ],
+                    "average_length": 31.11222655629058
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 165764,
+            "number_empty_cells": 159,
+            "number_distinct_values": 50298,
+            "frequent_values": [
+                "40.851755",
+                "40.834676",
+                "40.845930",
+                "40.823104",
+                "40.852084"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 165764,
+                    "max_value": 40.911588,
+                    "min_value": 40.50177,
+                    "mean": 40.75378747653914,
+                    "stddev": 0.088001328867012
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 165764,
+            "number_empty_cells": 159,
+            "number_distinct_values": 49387,
+            "frequent_values": [
+                "-73.930269",
+                "-73.922736",
+                "-73.924572",
+                "-73.910096",
+                "-73.922436"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 165764,
+                    "max_value": -73.701136,
+                    "min_value": -74.250624,
+                    "mean": -73.9139426625029,
+                    "stddev": 0.06076190842328389
+                }
+            ]
+        },
+        {
+            "column_name": "Community District",
+            "number_non_empty_cells": 165764,
+            "number_empty_cells": 159,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "12",
+                "4",
+                "5",
+                "9",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165764,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 7.923710817789146,
+                    "stddev": 4.413107167354116
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 165764,
+            "number_empty_cells": 159,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "15",
+                "14",
+                "16",
+                "9",
+                "17"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165764,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 23.669150117033855,
+                    "stddev": 13.599407977822151
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 165764,
+            "number_empty_cells": 159,
+            "number_distinct_values": 1289,
+            "frequent_values": [
+                "245",
+                "225",
+                "253",
+                "265",
+                "279"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165764,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 7151.075655751551,
+                    "stddev": 18704.858375373562
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 165464,
+            "number_empty_cells": 459,
+            "number_distinct_values": 56411,
+            "frequent_values": [
+                "2000000",
+                "2003497",
+                "2127134",
+                "2007857",
+                "2002784"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165464,
+                    "max_value": 5166141,
+                    "min_value": 1000000,
+                    "mean": 2579188.3652456123,
+                    "stddev": 1072472.9862351278
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 165464,
+            "number_empty_cells": 459,
+            "number_distinct_values": 55055,
+            "frequent_values": [
+                "2028820229",
+                "2024310026",
+                "3013020001",
+                "2051410120",
+                "4159260001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 165464,
+                    "max_value": 5080490011,
+                    "min_value": 0,
+                    "mean": 2527143441.513749,
+                    "stddev": 1033843087.4144937
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 165764,
+            "number_empty_cells": 159,
+            "number_distinct_values": 177,
+            "frequent_values": [
+                "Crown Heig",
+                "Washington",
+                "Central Ha",
+                "East New Y",
+                "East Conco"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 165764,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Erasmus",
+                        "Maspeth",
+                        "Midwood"
+                    ],
+                    "longest_values": [
+                        "park-cemet",
+                        "Bath Beach",
+                        "Bushwick S",
+                        "Claremont-",
+                        "Murray Hil"
+                    ],
+                    "average_length": 9.620375956178664
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "LitigationID"
+    ]
+}

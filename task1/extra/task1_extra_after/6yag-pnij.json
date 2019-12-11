@@ -1,0 +1,79 @@
+{
+    "dataset_name": "6yag-pnij",
+    "columns": [
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 15,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2016",
+                "2017",
+                "2014"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15,
+                    "max_value": 2019,
+                    "min_value": 2012,
+                    "mean": 2015.2666666666667,
+                    "stddev": 2.174600857373345
+                }
+            ]
+        },
+        {
+            "column_name": "Other Organics Collection Category",
+            "number_non_empty_cells": 15,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Food scrap and other organics drop off - not DSNY collected",
+                "Food scrap drop off  - DSNY collected"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15,
+                    "shortest_values": [
+                        "Food scrap drop off  - DSNY collected",
+                        "Food scrap and other organics drop off - not DSNY collected"
+                    ],
+                    "longest_values": [
+                        "Food scrap and other organics drop off - not DSNY collected",
+                        "Food scrap drop off  - DSNY collected"
+                    ],
+                    "average_length": 48.733333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Tons Collected",
+            "number_non_empty_cells": 15,
+            "number_empty_cells": 0,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "408",
+                "232",
+                "483",
+                "2064",
+                "1505"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15,
+                    "max_value": 2527,
+                    "min_value": 23,
+                    "mean": 977.8666666666667,
+                    "stddev": 788.160547660747
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Tons Collected"
+    ]
+}

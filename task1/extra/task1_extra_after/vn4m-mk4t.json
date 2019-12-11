@@ -1,0 +1,842 @@
+{
+    "dataset_name": "vn4m-mk4t",
+    "columns": [
+        {
+            "column_name": "Publication",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "20180426",
+                "20180614",
+                "20190619",
+                "20190207",
+                "20190425"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18116,
+                    "max_value": 20190619,
+                    "min_value": 20180426,
+                    "mean": 20186400.50938397,
+                    "stddev": 4862.039198569995
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2",
+                "4",
+                "3",
+                "1",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18116,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.6689666593066903,
+                    "stddev": 1.142665829755742
+                }
+            ]
+        },
+        {
+            "column_name": "Board",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "01",
+                "02",
+                "04",
+                "03",
+                "07"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18116,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 7.525447118569221,
+                    "stddev": 4.4774974582391955
+                }
+            ]
+        },
+        {
+            "column_name": "Priority",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "CS",
+                "01",
+                "04",
+                "03",
+                "02"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 16739,
+                    "max_value": 99,
+                    "min_value": 1,
+                    "mean": 16.98655833681821,
+                    "stddev": 13.19148106499318
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1377,
+                    "shortest_values": [
+                        "CS"
+                    ],
+                    "longest_values": [
+                        "CS"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Tracking  Code ",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7264,
+            "frequent_values": [
+                "305202011E",
+                "218202025C",
+                "309202036C",
+                "309202036E",
+                "201202024C"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18116,
+                    "shortest_values": [
+                        "101201901C",
+                        "210202028C",
+                        "210202027C",
+                        "210202026C",
+                        "210202025C"
+                    ],
+                    "longest_values": [
+                        "503202008E",
+                        "309201925C",
+                        "309201929C",
+                        "309201931C",
+                        "309201901C"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "Request ",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 583,
+            "frequent_values": [
+                "Reconstruct or upgrade a park or amenity (i.e. playground, outdoor athletic field)",
+                "Reconstruct streets",
+                "Reconstruct or upgrade a building in a park",
+                "Create a new, or renovate or upgrade an existing public library",
+                "Other transportation infrastructure requests"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18116,
+                    "shortest_values": [
+                        "CECM",
+                        "CUNY",
+                        "Cameras",
+                        "Funding",
+                        "Expense"
+                    ],
+                    "longest_values": [
+                        "Allocate funds to reduce speeding and directional impacts at the pedestrian crossing on the east side of W. 8th St. at 6th Ave. and at the intersection of W, 8th St., 6th and Greenwich Aves, considering solutions such as installation of a traffic diverter on the northern lane of Greenwich Ave. at 6th Ave. and/or continuing the 6th Ave. protected bike lane south with an extended median.",
+                        "Allocate funds to install traffic safety improvements, such as added crosswalks and striping, bollards, planters, a speed hump and street re-grading, on W. 4th St. approaching 6th Ave. (Ave. of the Americas), including Cornelia St., and change the traffic light signal phasing to a split phase cycle for a separate conflict-free pedestrian crossing on 6th Ave. at W. 4th St.",
+                        "Allocate funds to provide ADA accessibility to the landmark-quality Hudson Park Library from the 7th Avenue South entrance, including the creation of an interior ramp and vestibule, installation of a new elevator, modernization of toilet facilities, and modifications to mechanical and electrical system components required for the installation of the new elevator.",
+                        "Allocate funds for parking and intersection alignment improvements, including sidewalk extensions, high visibility crosswalks and signalization changes on Greenwich Ave. from Bank St. to W. 12th St. and on W. 12th St. from Greenwich Ave. to the midblock entrance of the new AIDS Memorial Park at St. Vincent's Triangle.",
+                        "Allocate funds for epoxy-gravel sidewalk widening on the northern side of Grove St. bet. W. 4th St and 7th Ave. S. and alongside Christopher Park, and install signage, to avoid dangerous pedestrian and vehicular conflicts at the pedestrian island on 7th Ave. S. at Grove St. and to add pedestrian space."
+                    ],
+                    "average_length": 54.98951203356149
+                }
+            ]
+        },
+        {
+            "column_name": "Explanation ",
+            "number_non_empty_cells": 17924,
+            "number_empty_cells": 192,
+            "number_distinct_values": 4832,
+            "frequent_values": [
+                "Request: Increase Significantly for Park Maintenance Funds and Increase Operations/Recreation Staffing at Specific CD #1 Parks and Playgrounds (Including Support Equipment).  Explanation: Expand park operations and tree pruning/planting programs to compliment street tree planting program, as well as improve CB #1 park conditions and provide recreational support for users.  Responsible Agency: Department of Parks and Recreation",
+                "After school programs provide a safe, social and educational experience for our children giving them the ability to learn and grow into successful adults.",
+                "Due to street tree canopies many residential blocks are poorly illuminated creating hazardous conditions for pedestrian & vehicular travel. No new lamp post are required, only modifications to existing post on a instance need basis. Adding one additional head onto the post below the tree canopy would illuminate the pedestrian path providing much safer evening travel. A successful application of this can be seen on Fulton Street between Nostrand & Marcy Ave.",
+                "Especially along the busy commercial corridors (125th Street, Lexington Avenue, 3rd Avenue, 116th Street and 106th Street).",
+                "Renovate the Hoover/Manton Playground. The  project should include renovation of the playground and handball courts."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 17924,
+                    "shortest_values": [
+                        "ADA curb cuts",
+                        "Public safety.",
+                        "Upgrade locker rooms",
+                        "Speeding near PS 138Q.",
+                        "Speeding near PS 195Q."
+                    ],
+                    "longest_values": [
+                        "Purchase pickup trucks with snow plow, salt spreader and Tommy lift gate, one each for Riverside Park and District 7; and Toolcat multi-purpose vehicles, including snow plow, snow brush, cleaning brush and front-end loader bucket, one each for Riverside Park and District 7; and a mini-packer for garbage collection ($110,000). These vehicles are necessary for the park operations.  They will permit far more efficient deployment of the limited number of staff personnel, reduce or eliminate waiting times for existing shared vehicles to become available and/or to be repaired, and reduce unnecessary use of fuel.  Council Member Helen Rosenthal allocated funds for several vehicles several years ago, but heavy use, additional wear and tear on existing vehicles being highly important to operations.",
+                        "The catchment area for the Rat Reservoir program should be expanded to include more areas in East Harlem, especially busy commercial corridors. Additionally, the program should target new construction sites (especially as the upcoming rezoning begins), as the construction often drives rat populations into the streets/surrounding buildings. Abatement should be increased on commercial corridors, in green spaces and near construction sites. Outreach about the Rat Academy should be increased to encourage superintendents, building staff, property managers, homeowners and businesses to participate, especially in the spring and summer. DoHMH should partner with local initiatives, such as East Harlem Neighborhood 360 and the East Harlem Community Alliance, to better connect with local business and",
+                        "Renovate the existing comfort station at Gouverneur Morris Playground to be ADA compliant(Third Avenue at E. 170 St.);Bronx CB 3 capital budget request #15;Tracking Code 103200502C;The capital reconstruction of Gov. Morris Playground totaled nearly $1.7 million and included new spray showers, swings, playground and park house improvements, basketball lighting, asphalt grading, sitting area and handball court improvements, in addition to $173k in requirements contract work for fencing, color seal coating, new backboards, rims, and related curb work associated with the basketball courts.  Presently, the Morris Houses TA requests the renovation of the existing comfort station, as it is the only capital item unaddressed. It also services numerous children in local day care/head start programs.",
+                        "$65 Million Option to Build Public School. The NYC School Construction Authority (SCA) has the option to build a 100,000 square foot school at 509 LaGuardia Place in Greenwich Village on New York University-owned land (the Bleecker School Option), under a July 24, 2012 Restrictive Declaration by New York University (NYU) and amended by a letter from NYU to Councilmember Chin on October 21, 2014.     Without action by our elected officials and NYU, the Bleecker School Option will expire on December 31, 2018 and will results in the transfer of $65+ million of value from NYC taxpayers to NYU, based on based on a real estate market where the price per buildable square foot in Manhattan averages more than $650, and arguably higher due to the lack of vacant land in Greenwich Village, either city",
+                        "Renovate the Performing Arts Library (Lincoln Center)          The Performing Arts Library serves both local and City-wide needs.  The Performing Arts Library boasts a vigorous circulation and is heavily used, and enhances the cultural identity and resources of our Upper West Side community.      The building is in need of extensive need of system-wide structural renovation, including foundation waterproofing; sidewalk replacement and drainage management; safety and security upgrades such as improved exterior lighting, replacement of exterior doors and security cameras; as well as replacement of the HVAC systems including steam pressure stations, air compressors and steam heaters.  The A/C component is critical is critical the preservation of fragile manuscripts, scores and original epheme"
+                    ],
+                    "average_length": 260.82682436956037
+                }
+            ]
+        },
+        {
+            "column_name": "Response",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 822,
+            "frequent_values": [
+                "Further study by the agency of this request is needed. Therefore, OMB does not take any position.",
+                "OMB supports the agency's position as follows: Department of Parks and Recreation funds are insufficient for this project. We recommend this project be brought to the attention of your elected officials, i.e. Borough President and/or City Council member.",
+                "The agency will try to accommodate this issue within existing resources. OMB supports the agency's position.",
+                "For information regarding the status of this Request, contact the Transit Authority directly at telephone number 646-252-2660.",
+                "Due to fiscal constraints, the availability of funds is uncertain."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18116,
+                    "shortest_values": [
+                        "Is this a nycha request?",
+                        "This NYPD request is funded.",
+                        "This is not a budget request.",
+                        "This request is under review.",
+                        "This location is not city owned"
+                    ],
+                    "longest_values": [
+                        "OMB supports the agency's position as follows: DOHMH has undertaken a new approach to rodent control. Our Bronx Rat Indexing Project led to an 83% decrease in the # of properties with evidence of rodents through rapid screening inspections of every lot in the borough. The program has expanded to Manhattan/Queens and continues to answer complaints, inspect, exterminate and issue violations. Staff will more effectively target properties contributing to rat infestation and clean those most severely infested. We will review and assess this request; however, implementation will be subject to the availability of the Department's limited funds.",
+                        "OMB supports the agency's position as follows: It is important to understand that the Street Homeless population are the most resistant to coming inside.  These clients for the most part refuse to go to transitional shelter for a  myriad of reasons.  the public may see the clients on the street and may feel like nothing is being done because they seem them at the same location. In working with the street population it often takes time (months and in some cases years )to build trust with the individuals on the street.  We need additional transitional opportunities to move those clients on the street who want to come in off the street.",
+                        "OMB supports the agency's position as follows: DOHMH has undertaken an innovative approach to rodent control. Our Bronx Rat Indexing Project has led to an 83% decrease in the number of properties with rodents through rapid inspections of every block and lot. We have expanded this pilot to Manhattan. We continue to answer complaints about rats, conduct inspections, exterminate and issue violations for rats/garbage. Going forward, lot-cleaning staff will more effectively target properties contributing to rat infestation and clean the most severely infested lots. DOHMH will review and assess the request regarding this important issue.",
+                        "OMB supports the agency's position as follows: DOHMH has conducted studies in CB1 to evaluate cancer rates and asthma. As part of a community environmental benefits program, DOHMH collaborated with DEP on inventorying potential sources of air emissions. We supported asthma assessment, intervention and evaluation efforts in CB1 through the Childhood Asthma Initiative.  DOHMH is also conducting the NYC Community Air Survey to study air quality. We do not currently have funding for a comprehensive study of environmental health hazards focused on CB1. We continue to increase neighborhood health and environmental data accessible online.",
+                        "OMB supports the agency's position as follows: In November 2016, HRA announced contract awards for 3 employment programs -- CareerCompass, YouthPathways, and CareerAdvance. The employment programs leave behind the one-size-fits-all approach of the past to offer services that take into account individual needs of HRA clients while providing specialized services for youth, individuals with Limited English Proficiency (LEP), and other groups with specific needs. The new service model will connect individuals on cash assistance with the jobs, training or education that help them build a career and become financially independent."
+                    ],
+                    "average_length": 148.74790240671229
+                }
+            ]
+        },
+        {
+            "column_name": "Responded By",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 39,
+            "frequent_values": [
+                "OMB",
+                "846",
+                "841",
+                "040",
+                "056"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3588,
+                    "max_value": 999,
+                    "min_value": 2,
+                    "mean": 606.7848383500558,
+                    "stddev": 361.0433505469098
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14528,
+                    "shortest_values": [
+                        "OMB"
+                    ],
+                    "longest_values": [
+                        "OMB"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Responsible Agency",
+            "number_non_empty_cells": 18116,
+            "number_empty_cells": 0,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "Department of Parks and Recreation",
+                "Department of Transportation",
+                "Police Department",
+                "Department of Education",
+                "Department of Sanitation"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18116,
+                    "shortest_values": [
+                        "Fire Department",
+                        "Transit Authority",
+                        "Police Department",
+                        "Housing Authority",
+                        "Department of Buildings"
+                    ],
+                    "longest_values": [
+                        "Dept of Information Technology & Telecommunication",
+                        "Department of Housing Preservation & Development",
+                        "Department of Citywide Administrative Services",
+                        "Department of Youth & Community Development",
+                        "Citywide Event Coordination and Management"
+                    ],
+                    "average_length": 29.482060057407818
+                }
+            ]
+        },
+        {
+            "column_name": "Support by 1",
+            "number_non_empty_cells": 3820,
+            "number_empty_cells": 14296,
+            "number_distinct_values": 492,
+            "frequent_values": [
+                "Councilman Mark Treyger",
+                "Community Board 12",
+                "Area residents",
+                "n/a",
+                "Councilman Robert Cornegy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3820,
+                    "shortest_values": [
+                        "Yes",
+                        "YES",
+                        "yes",
+                        "n/a",
+                        "CB 7"
+                    ],
+                    "longest_values": [
+                        "Community Board #12 and Its Civic and Neighborhood Associations",
+                        "Hollis/Farmers Neighborhood Watch and Woodhull Civic Associatio",
+                        "Future Star Productions, Inc.   Madison Sq. Boys and Girls Club",
+                        "BronxWorks Innovative, East Concourse, Heights Neighborhood &",
+                        "Senator Jose Peralta SD 13  Assembly Man Francisco Moya AD 39"
+                    ],
+                    "average_length": 28.64083769633508
+                }
+            ]
+        },
+        {
+            "column_name": "Support by 2",
+            "number_non_empty_cells": 1656,
+            "number_empty_cells": 16460,
+            "number_distinct_values": 213,
+            "frequent_values": [
+                "Councilman Chaim Deutsch",
+                "n/a",
+                "Hon. Laurie Cumbo",
+                "Hon. Darlene Mealy",
+                "Hon. Daneek Miller"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1656,
+                    "shortest_values": [
+                        "n/a",
+                        "GMHC",
+                        "PS 384",
+                        "CHEKPEDS",
+                        "Con Edison"
+                    ],
+                    "longest_values": [
+                        "Claremont Neighborhood Center  Southeast Bronx Neighborhood Ctr",
+                        "NYC Parks and Recreation- Bronx Borough Office/Maintenance Div.",
+                        "Assembly Member Jamie Williams  Marine Park Civic Association",
+                        "Mill Island Civic Association  Marine Park Civic Association",
+                        "Marine Park Civic Association  mill Island Civic Association"
+                    ],
+                    "average_length": 27.680555555555557
+                }
+            ]
+        },
+        {
+            "column_name": "Site Street",
+            "number_non_empty_cells": 2203,
+            "number_empty_cells": 15913,
+            "number_distinct_values": 402,
+            "frequent_values": [
+                "Broadway",
+                "East River Esplanade",
+                "Jerome Avenue",
+                "Foch Blvd",
+                "Flatbush Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2203,
+                    "shortest_values": [
+                        "GCP",
+                        "I-278",
+                        "223 St",
+                        "233 St",
+                        "42 Ave"
+                    ],
+                    "longest_values": [
+                        "Riverside Park & Riverside Drive",
+                        "rockaway beach blvd/edgemere ave",
+                        "Grand Central Pkwy Service Rd S",
+                        "Main Avenue between Vernon Blvd",
+                        "Van Wyck Expressway southbound"
+                    ],
+                    "average_length": 13.233318202451203
+                }
+            ]
+        },
+        {
+            "column_name": "Cross Street 1",
+            "number_non_empty_cells": 2195,
+            "number_empty_cells": 15921,
+            "number_distinct_values": 427,
+            "frequent_values": [
+                "Flushing Avenue",
+                "Bay Parkway",
+                "Nostrand Avenue",
+                "East 14th Street",
+                "Stillwell Ave"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 150,
+                    "min_value": 104,
+                    "mean": 141.63636363636363,
+                    "stddev": 17.741951964317007
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2184,
+                    "shortest_values": [
+                        "West",
+                        "10th",
+                        "38 Dr",
+                        "110th",
+                        "37 Ave"
+                    ],
+                    "longest_values": [
+                        "Cross Island Service Road West",
+                        "8th Street-27th Avenue North",
+                        "R Clemente State Park Bridge",
+                        "East Mosholu Parkway North",
+                        "R CLEMENTE STATE PARK BRDG"
+                    ],
+                    "average_length": 12.682234432234432
+                }
+            ]
+        },
+        {
+            "column_name": "Cross Street 2",
+            "number_non_empty_cells": 1987,
+            "number_empty_cells": 16129,
+            "number_distinct_values": 394,
+            "frequent_values": [
+                "Bay 8th Street",
+                "Mother Gaston Blvd",
+                "East 108 Street",
+                "Eastern Parkway",
+                "41 Ave"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 153,
+                    "min_value": 110,
+                    "mean": 145.1818181818182,
+                    "stddev": 16.58486814055721
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1976,
+                    "shortest_values": [
+                        "5th",
+                        "155th",
+                        "5th Av",
+                        "48 Ave",
+                        "213 St"
+                    ],
+                    "longest_values": [
+                        "Belt Parkway Westbound entrance",
+                        "Green Park on Main Avenue-North",
+                        "Shore Parkway Service Road",
+                        "LIE Eastbound Service Road",
+                        "Horace Harding Expressway"
+                    ],
+                    "average_length": 12.730263157894736
+                }
+            ]
+        },
+        {
+            "column_name": "Number",
+            "number_non_empty_cells": 1738,
+            "number_empty_cells": 16378,
+            "number_distinct_values": 318,
+            "frequent_values": [
+                "2001",
+                "1130",
+                "4101",
+                "320",
+                "2575"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1359,
+                    "max_value": 19503,
+                    "min_value": 1,
+                    "mean": 1527.055187637969,
+                    "stddev": 2102.686703998863
+                },
+                {
+                    "type": "TEXT",
+                    "count": 379,
+                    "shortest_values": [
+                        "B385",
+                        "58-26",
+                        "92-15",
+                        "34-56",
+                        "95-06"
+                    ],
+                    "longest_values": [
+                        "Lincoln Cent",
+                        "E 40/Farragu",
+                        "Radcliff Ave",
+                        "1931 Mott av",
+                        "Marion Avenu"
+                    ],
+                    "average_length": 7.063324538258575
+                }
+            ]
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 2121,
+            "number_empty_cells": 15995,
+            "number_distinct_values": 410,
+            "frequent_values": [
+                "Coney Island Avenue",
+                "Burke Avenue",
+                "White Plains Road",
+                "Northern Blvd",
+                "Oriental Boulevard"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2121,
+                    "shortest_values": [
+                        "Jessup",
+                        "104 St",
+                        "19th st",
+                        "21st St",
+                        "7th Ave"
+                    ],
+                    "longest_values": [
+                        "Oriental Blvd and Falmouth Stree",
+                        "33rd and 34th Sts bet 4 & 5 Aves",
+                        "Fulton St and Marcus Garvey Blvd",
+                        "Targee St, Stanwich St. Rome Ave",
+                        "E 40 bet. Avene D and Foster Ave"
+                    ],
+                    "average_length": 15.84912776991985
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 280,
+            "number_empty_cells": 17836,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "1339",
+                "4444",
+                "3803",
+                "2040",
+                "1890"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 280,
+                    "max_value": 9848,
+                    "min_value": 58,
+                    "mean": 3220.8142857142857,
+                    "stddev": 2414.9081706460515
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 277,
+            "number_empty_cells": 17839,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "1",
+                "100",
+                "27",
+                "50",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 277,
+                    "max_value": 531,
+                    "min_value": 1,
+                    "mean": 59.31768953068592,
+                    "stddev": 96.56654508326764
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "11220",
+                "10314",
+                "11372",
+                "10306",
+                "11368"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363,
+                    "max_value": 11691,
+                    "min_value": 10301,
+                    "mean": 11052.217630853995,
+                    "stddev": 440.4560115282303
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 106,
+            "frequent_values": [
+                "40.569393",
+                "40.755497",
+                "40.593798",
+                "40.660156",
+                "40.608853"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 363,
+                    "max_value": 40.856233,
+                    "min_value": 40.508909,
+                    "mean": 40.68098407438014,
+                    "stddev": 0.06800228979577308
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 106,
+            "frequent_values": [
+                "-74.107737",
+                "-73.886042",
+                "-74.135437",
+                "-73.989951",
+                "-74.115373"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 363,
+                    "max_value": -73.722764,
+                    "min_value": -74.221832,
+                    "mean": -73.94836731680441,
+                    "stddev": 0.12359616196041831
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "2",
+                "502",
+                "307",
+                "403",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363,
+                    "max_value": 503,
+                    "min_value": 1,
+                    "mean": 220.44903581267218,
+                    "stddev": 199.7745685933175
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "50",
+                "38",
+                "21",
+                "49",
+                "45"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363,
+                    "max_value": 51,
+                    "min_value": 13,
+                    "mean": 34.4435261707989,
+                    "stddev": 11.250416862371761
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 95,
+            "frequent_values": [
+                "11202",
+                "27301",
+                "327",
+                "181",
+                "147"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363,
+                    "max_value": 155102,
+                    "min_value": 1,
+                    "mean": 6894.146005509642,
+                    "stddev": 19592.475303579737
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 297,
+            "number_empty_cells": 17819,
+            "number_distinct_values": 78,
+            "frequent_values": [
+                "5000000",
+                "5055367",
+                "4026949",
+                "4000000",
+                "5141697"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 297,
+                    "max_value": 5141697,
+                    "min_value": 2011625,
+                    "mean": 4235773.686868687,
+                    "stddev": 691954.6886698642
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 297,
+            "number_empty_cells": 17819,
+            "number_distinct_values": 83,
+            "frequent_values": [
+                "5039300010",
+                "4011770036",
+                "5009550100",
+                "5020400001",
+                "5042440001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 297,
+                    "max_value": 5076640001,
+                    "min_value": 2030530041,
+                    "mean": 4129319125.680135,
+                    "stddev": 689693799.7164427
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 363,
+            "number_empty_cells": 17753,
+            "number_distinct_values": 96,
+            "frequent_values": [
+                "Sunset Park West",
+                "New Dorp-Midland Beach                                                     ",
+                "Jackson Heights",
+                "Sunset Park East",
+                "Jackson Heights                                                            "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 363,
+                    "shortest_values": [
+                        "Corona",
+                        "Astoria",
+                        "Bedford",
+                        "Erasmus",
+                        "Jamaica"
+                    ],
+                    "longest_values": [
+                        "Queens Village                                                             ",
+                        "Hunters Point-Sunnyside-West Maspeth                                       ",
+                        "Old Town-Dongan Hills-South Beach                                          ",
+                        "North Corona                                                               ",
+                        "Sunset Park West                                                           "
+                    ],
+                    "average_length": 44.52617079889807
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Publication",
+        "Borough"
+    ]
+}

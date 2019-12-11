@@ -1,0 +1,154 @@
+{
+    "dataset_name": "vsgi-eeb5",
+    "columns": [
+        {
+            "column_name": "Feeder School DBN",
+            "number_non_empty_cells": 594,
+            "number_empty_cells": 0,
+            "number_distinct_values": 594,
+            "frequent_values": [
+                "10X003",
+                "23K664",
+                "84K704",
+                "23K668",
+                "04M057"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 594,
+                    "shortest_values": [
+                        "01M034",
+                        "27Q043",
+                        "27Q047",
+                        "27Q053",
+                        "27Q105"
+                    ],
+                    "longest_values": [
+                        "84X717",
+                        "12X129",
+                        "11X566",
+                        "11X556",
+                        "11X532"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Feeder School Name",
+            "number_non_empty_cells": 594,
+            "number_empty_cells": 0,
+            "number_distinct_values": 594,
+            "frequent_values": [
+                "MIDDLE SCHOOL 322",
+                "P.S. 282 PARK SLOPE",
+                "GOLDIE MAPLE ACADEMY",
+                "I.S. 061 WILLIAM A MORRIS",
+                "EAST SIDE COMMUNITY SCHOOL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 594,
+                    "shortest_values": [
+                        "KAPPA",
+                        "P.S. 66",
+                        "P.S. 043",
+                        "P.S. 211",
+                        "P.S. 212"
+                    ],
+                    "longest_values": [
+                        "ACADEMY FOR COLLEGE PREPARATION AND CAREER EXPLORATION: A COLLEGE BOARD SCHOOL",
+                        "P.S./I.S. 210 - TWENTY-FIRST CENTURY ACADEMY FOR COMMUNITY LEADERSHIP",
+                        "SCIENCE, TECHNOLOGY AND RESEARCH EARLY COLLEGE HIGH SCHOOL AT ERASMUS",
+                        "RIVERDALE / KINGSBRIDGE ACADEMY (MIDDLE SCHOOL / HIGH SCHOOL 141)",
+                        "ARCHIMEDES ACADEMY FOR MATH, SCIENCE AND TECHNOLOGY APPLICATIONS"
+                    ],
+                    "average_length": 30.525252525252526
+                }
+            ]
+        },
+        {
+            "column_name": "Count of Students in HS Admissions",
+            "number_non_empty_cells": 593,
+            "number_empty_cells": 1,
+            "number_distinct_values": 220,
+            "frequent_values": [
+                "87",
+                "94",
+                "78",
+                "102",
+                "71"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 593,
+                    "max_value": 769,
+                    "min_value": 9,
+                    "mean": 127.00843170320405,
+                    "stddev": 117.84016784001271
+                }
+            ]
+        },
+        {
+            "column_name": "Count of Testers",
+            "number_non_empty_cells": 594,
+            "number_empty_cells": 0,
+            "number_distinct_values": 131,
+            "frequent_values": [
+                "0-5",
+                "6",
+                "7",
+                "9",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 537,
+                    "max_value": 394,
+                    "min_value": 6,
+                    "mean": 47.204841713221604,
+                    "stddev": 61.10158021728599
+                },
+                {
+                    "type": "TEXT",
+                    "count": 57,
+                    "shortest_values": [
+                        "0-5"
+                    ],
+                    "longest_values": [
+                        "0-5"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Count of Offers",
+            "number_non_empty_cells": 594,
+            "number_empty_cells": 0,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "0-5",
+                "7",
+                "9",
+                "8",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 594,
+                    "max_value": "1900-01-01 00:05:00",
+                    "min_value": "1900-01-01 00:05:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Feeder School Name"
+    ]
+}

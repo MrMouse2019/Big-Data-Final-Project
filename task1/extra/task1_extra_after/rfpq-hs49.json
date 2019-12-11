@@ -1,0 +1,88 @@
+{
+    "dataset_name": "rfpq-hs49",
+    "columns": [
+        {
+            "column_name": "District",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "DISTRICT 05",
+                "DISTRICT 19",
+                "DISTRICT 09",
+                "DISTRICT 11",
+                "DISTRICT 07"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35,
+                    "shortest_values": [
+                        "Citywide",
+                        "DISTRICT 32",
+                        "DISTRICT 31",
+                        "DISTRICT 30",
+                        "DISTRICT 29"
+                    ],
+                    "longest_values": [
+                        "ALTERNATIVE HIGH SCHOOLS",
+                        "SPECIAL ED DISTRICT 75",
+                        "DISTRICT 09",
+                        "DISTRICT 15",
+                        "DISTRICT 14"
+                    ],
+                    "average_length": 11.6
+                }
+            ]
+        },
+        {
+            "column_name": "YTD % Attendance (Avg)",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "89.28",
+                "90.5",
+                "89.56",
+                "91.7",
+                "86.98"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 35,
+                    "max_value": 93.34,
+                    "min_value": 63.81,
+                    "mean": 89.06942857142856,
+                    "stddev": 4.849141274704297
+                }
+            ]
+        },
+        {
+            "column_name": "YTD Enrollment (Avg)",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "60823",
+                "59373",
+                "31988",
+                "1002463",
+                "36352"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 35,
+                    "max_value": 1002463,
+                    "min_value": 7288,
+                    "mean": 57283.6,
+                    "stddev": 162691.01274540555
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "YTD Enrollment (Avg)"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "dataset_name": "xtsw-fqvh",
+    "columns": [
+        {
+            "column_name": "event_id",
+            "number_non_empty_cells": 270353,
+            "number_empty_cells": 0,
+            "number_distinct_values": 91715,
+            "frequent_values": [
+                "116318",
+                "166209",
+                "95196",
+                "117501",
+                "62693"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 270353,
+                    "max_value": 179422,
+                    "min_value": 62223,
+                    "mean": 123480.16234700558,
+                    "stddev": 35345.84704759341
+                }
+            ]
+        },
+        {
+            "column_name": "name",
+            "number_non_empty_cells": 270353,
+            "number_empty_cells": 0,
+            "number_distinct_values": 126,
+            "frequent_values": [
+                "Best for Kids",
+                "Nature",
+                "Fitness",
+                "Education",
+                "Art"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 270353,
+                    "shortest_values": [
+                        "Art",
+                        "Dogs",
+                        "Film",
+                        "Food",
+                        "Tours"
+                    ],
+                    "longest_values": [
+                        "MillionTreesNYC: Volunteer: Tree Stewardship and Care",
+                        "Partnerships for Parks Training and Grant Deadlines",
+                        "Art in the Parks: UNIQLO Park Expressions Grant",
+                        "Ocean Breeze Track & Field Athletic Complex",
+                        "MillionTreesNYC: Volunteer: Tree Planting"
+                    ],
+                    "average_length": 10.558062976922765
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "event_id",
+        "name"
+    ]
+}

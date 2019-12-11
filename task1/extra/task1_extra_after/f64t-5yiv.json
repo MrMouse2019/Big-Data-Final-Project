@@ -1,0 +1,96 @@
+{
+    "dataset_name": "f64t-5yiv",
+    "columns": [
+        {
+            "column_name": "INCIDENT_ID",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "90911",
+                "77355",
+                "64622",
+                "97125",
+                "68923"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 97125,
+                    "min_value": 64622,
+                    "mean": 79330.5,
+                    "stddev": 11434.780361540254
+                }
+            ]
+        },
+        {
+            "column_name": "REPORTED_DT",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "01/29/2016 02:20:00 PM",
+                "10/08/2017 07:10:00 PM",
+                "04/16/2017 02:06:00 PM",
+                "06/10/2015 12:28:00 PM",
+                "01/01/2015 05:20:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 6,
+                    "max_value": "2017-10-08 19:10:00",
+                    "min_value": "2015-01-01 17:20:00"
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_TYPE",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Suicide"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "Suicide"
+                    ],
+                    "longest_values": [
+                        "Suicide"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "FACILITY",
+            "number_non_empty_cells": 1,
+            "number_empty_cells": 5,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "RMSC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "RMSC"
+                    ],
+                    "longest_values": [
+                        "RMSC"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "REPORTED_DT"
+    ]
+}

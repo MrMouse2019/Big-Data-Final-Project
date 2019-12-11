@@ -1,0 +1,324 @@
+{
+    "dataset_name": "qmh3-uvgq",
+    "columns": [
+        {
+            "column_name": "Case Number",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 687929,
+            "frequent_values": [
+                "1512020305",
+                "1401140252",
+                "1308280268",
+                "1401090421",
+                "1512170311"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 688843,
+                    "max_value": 1907030308,
+                    "min_value": 1203060594,
+                    "mean": 1603436407.4941227,
+                    "stddev": 178094294.11504844
+                }
+            ]
+        },
+        {
+            "column_name": "Case Status",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "Redeemed",
+                "Other",
+                "Sold",
+                "Zero Released",
+                "Executed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 688843,
+                    "shortest_values": [
+                        "Sold",
+                        "Other",
+                        "Reduced",
+                        "Redeemed",
+                        "Executed"
+                    ],
+                    "longest_values": [
+                        "Salvage/Total Loss/Export",
+                        "Salvage and Total Loss",
+                        "C-VIN / P-VIN Mismatch",
+                        "Salvage and Export",
+                        "Paid in the Field"
+                    ],
+                    "average_length": 7.685205482236156
+                }
+            ]
+        },
+        {
+            "column_name": "License plate number",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 688843,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "License plate issuing state",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 688843,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "License plate type",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 688843,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Judgment Amount",
+            "number_non_empty_cells": 687913,
+            "number_empty_cells": 930,
+            "number_distinct_values": 99073,
+            "frequent_values": [
+                "350.36",
+                "350.96",
+                "350.44",
+                "351.04",
+                "350.66"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7336,
+                    "max_value": 40007,
+                    "min_value": 0,
+                    "mean": 587.6041439476554,
+                    "stddev": 915.0701031503881
+                },
+                {
+                    "type": "REAL",
+                    "count": 680577,
+                    "max_value": 312572.84,
+                    "min_value": 106.26,
+                    "mean": 594.2790795311014,
+                    "stddev": 1695.3761627523593
+                }
+            ]
+        },
+        {
+            "column_name": "Boot Date",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1582,
+            "frequent_values": [
+                "01/04/2016",
+                "01/05/2015",
+                "01/02/2019",
+                "01/03/2017",
+                "01/04/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 688843,
+                    "max_value": "2019-07-03 00:00:00",
+                    "min_value": "2012-03-06 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Tow (Y/N)",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 688843,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.816042262170044
+                }
+            ]
+        },
+        {
+            "column_name": "Tow Date",
+            "number_non_empty_cells": 126718,
+            "number_empty_cells": 562125,
+            "number_distinct_values": 2151,
+            "frequent_values": [
+                "01/07/2015",
+                "01/15/2015",
+                "01/06/2016",
+                "11/29/2017",
+                "01/08/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 126718,
+                    "max_value": "2019-07-06 00:00:00",
+                    "min_value": "2012-06-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Redeemed (Y/N)",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "true",
+                "false"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 688843,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.0991416041100806
+                }
+            ]
+        },
+        {
+            "column_name": "Redemption Date",
+            "number_non_empty_cells": 620550,
+            "number_empty_cells": 68293,
+            "number_distinct_values": 2503,
+            "frequent_values": [
+                "01/06/2015",
+                "01/05/2016",
+                "01/04/2017",
+                "01/07/2015",
+                "01/06/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 620550,
+                    "max_value": "2019-07-07 00:00:00",
+                    "min_value": "2012-04-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Total amount owed",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 688843,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Total amount collected",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 688843,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Auctioned (Y/N)",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 688843,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.945389588048365
+                }
+            ]
+        },
+        {
+            "column_name": "Auction Date",
+            "number_non_empty_cells": 37618,
+            "number_empty_cells": 651225,
+            "number_distinct_values": 1332,
+            "frequent_values": [
+                "2018-10-30",
+                "2016-04-11",
+                "2013-10-10",
+                "2017-10-12",
+                "2014-05-28"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 37618,
+                    "max_value": "2019-07-05 00:00:00",
+                    "min_value": "2012-08-24 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Auction Amount",
+            "number_non_empty_cells": 688843,
+            "number_empty_cells": 0,
+            "number_distinct_values": 770,
+            "frequent_values": [
+                "0",
+                "50",
+                "150",
+                "100",
+                "200"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 679169,
+                    "max_value": 30200,
+                    "min_value": 0,
+                    "mean": 32.80822446254172,
+                    "stddev": 305.79748319085235
+                },
+                {
+                    "type": "REAL",
+                    "count": 9674,
+                    "max_value": 12302.88,
+                    "min_value": 27.25,
+                    "mean": 702.8209468678905,
+                    "stddev": 790.7973206060606
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

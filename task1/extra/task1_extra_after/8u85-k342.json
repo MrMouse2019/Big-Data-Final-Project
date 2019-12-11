@@ -1,0 +1,140 @@
+{
+    "dataset_name": "8u85-k342",
+    "columns": [
+        {
+            "column_name": "PUBLICATION DATE",
+            "number_non_empty_cells": 612,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "20171130",
+                "20190109"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 612,
+                    "max_value": 20190109,
+                    "min_value": 20171130,
+                    "mean": 20172246.411764707,
+                    "stddev": 4465.64705882353
+                }
+            ]
+        },
+        {
+            "column_name": "FISCAL YEAR",
+            "number_non_empty_cells": 612,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "2012",
+                "2004",
+                "2009",
+                "2018",
+                "2002"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 612,
+                    "max_value": 2018,
+                    "min_value": 2002,
+                    "mean": 2010.0,
+                    "stddev": 4.898979485566356
+                }
+            ]
+        },
+        {
+            "column_name": "AGENCY",
+            "number_non_empty_cells": 612,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "Franchise Transportation",
+                "Juvenile Justice",
+                "Children's Services",
+                "MTA Bus Company",
+                "Health"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 612,
+                    "shortest_values": [
+                        "DEP",
+                        "Fire",
+                        "Aging",
+                        "DoITT",
+                        "TOTAL"
+                    ],
+                    "longest_values": [
+                        "Resiliency, Technology & Equip.",
+                        "Franchise Transportation",
+                        "Ferries and Aviation",
+                        "Economic Development",
+                        "Highways and Streets"
+                    ],
+                    "average_length": 12.916666666666666
+                }
+            ]
+        },
+        {
+            "column_name": "ALL FUNDS",
+            "number_non_empty_cells": 612,
+            "number_empty_cells": 0,
+            "number_distinct_values": 310,
+            "frequent_values": [
+                "0",
+                "1",
+                "4",
+                "10",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 612,
+                    "max_value": 11963,
+                    "min_value": -7,
+                    "mean": 472.1029411764706,
+                    "stddev": 1495.8923924736805
+                }
+            ]
+        },
+        {
+            "column_name": "CITY FUND",
+            "number_non_empty_cells": 612,
+            "number_empty_cells": 0,
+            "number_distinct_values": 295,
+            "frequent_values": [
+                "0",
+                "1",
+                "4",
+                "2",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 612,
+                    "max_value": 10827,
+                    "min_value": -39,
+                    "mean": 394.22549019607845,
+                    "stddev": 1246.3632186018592
+                }
+            ]
+        },
+        {
+            "column_name": "REMARK",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 612,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        }
+    ],
+    "key_column_candidates": [
+        "PUBLICATION DATE",
+        "FISCAL YEAR"
+    ]
+}

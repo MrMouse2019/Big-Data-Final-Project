@@ -1,0 +1,508 @@
+{
+    "dataset_name": "5ucz-vwe8",
+    "columns": [
+        {
+            "column_name": "INCIDENT_KEY",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 361,
+            "frequent_values": [
+                "193267668",
+                "193160952",
+                "198171739",
+                "193517125",
+                "192978312"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 433,
+                    "max_value": 199134406,
+                    "min_value": 191709964,
+                    "mean": 195854262.90069285,
+                    "stddev": 2222219.218988157
+                }
+            ]
+        },
+        {
+            "column_name": "OCCUR_DATE",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 148,
+            "frequent_values": [
+                "05/26/2019",
+                "06/07/2019",
+                "06/01/2019",
+                "05/27/2019",
+                "06/23/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 433,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "2019-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OCCUR_TIME",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 293,
+            "frequent_values": [
+                "00:15:00",
+                "22:26:00",
+                "22:30:00",
+                "19:45:00",
+                "00:50:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 433,
+                    "shortest_values": [
+                        "21:35:00",
+                        "03:20:00",
+                        "04:07:00",
+                        "15:01:00",
+                        "22:05:00"
+                    ],
+                    "longest_values": [
+                        "02:19:00",
+                        "20:29:00",
+                        "01:50:00",
+                        "23:32:00",
+                        "23:00:00"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "BRONX",
+                "MANHATTAN",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 433,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.15242494226328
+                }
+            ]
+        },
+        {
+            "column_name": "PRECINCT",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "75",
+                "79",
+                "42",
+                "40",
+                "73"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 433,
+                    "max_value": 122,
+                    "min_value": 1,
+                    "mean": 65.15242494226328,
+                    "stddev": 28.45059491350906
+                }
+            ]
+        },
+        {
+            "column_name": "JURISDICTION_CODE",
+            "number_non_empty_cells": 432,
+            "number_empty_cells": 1,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0",
+                "2",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 432,
+                    "max_value": 2,
+                    "min_value": 0,
+                    "mean": 0.4722222222222222,
+                    "stddev": 0.8439143072757425
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION_DESC",
+            "number_non_empty_cells": 156,
+            "number_empty_cells": 277,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "MULTI DWELL - PUBLIC HOUS",
+                "MULTI DWELL - APT BUILD",
+                "GROCERY/BODEGA",
+                "PVT HOUSE",
+                "BAR/NIGHT CLUB"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 156,
+                    "shortest_values": [
+                        "HOSPITAL",
+                        "PVT HOUSE",
+                        "FAST FOOD",
+                        "DRUG STORE",
+                        "GAS STATION"
+                    ],
+                    "longest_values": [
+                        "SOCIAL CLUB/POLICY LOCATI",
+                        "MULTI DWELL - PUBLIC HOUS",
+                        "MULTI DWELL - APT BUILD",
+                        "RESTAURANT/DINER",
+                        "BAR/NIGHT CLUB"
+                    ],
+                    "average_length": 21.576923076923077
+                }
+            ]
+        },
+        {
+            "column_name": "STATISTICAL_MURDER_FLAG",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 433,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.829099307159353
+                }
+            ]
+        },
+        {
+            "column_name": "PERP_AGE_GROUP",
+            "number_non_empty_cells": 228,
+            "number_empty_cells": 205,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "25-44",
+                "18-24",
+                "<18",
+                "45-64",
+                "65+"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 228,
+                    "shortest_values": [
+                        "<18",
+                        "65+",
+                        "25-44",
+                        "18-24",
+                        "45-64"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "45-64",
+                        "18-24",
+                        "25-44",
+                        "65+"
+                    ],
+                    "average_length": 4.728070175438597
+                }
+            ]
+        },
+        {
+            "column_name": "PERP_SEX",
+            "number_non_empty_cells": 228,
+            "number_empty_cells": 205,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "M",
+                "F",
+                "U"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 228,
+                    "shortest_values": [
+                        "M",
+                        "F",
+                        "U"
+                    ],
+                    "longest_values": [
+                        "U",
+                        "F",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "PERP_RACE",
+            "number_non_empty_cells": 228,
+            "number_empty_cells": 205,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "BLACK",
+                "WHITE HISPANIC",
+                "BLACK HISPANIC",
+                "UNKNOWN",
+                "WHITE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 228,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "UNKNOWN",
+                        "WHITE HISPANIC",
+                        "BLACK HISPANIC"
+                    ],
+                    "longest_values": [
+                        "ASIAN / PACIFIC ISLANDER",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC",
+                        "UNKNOWN",
+                        "WHITE"
+                    ],
+                    "average_length": 7.337719298245614
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_AGE_GROUP",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "25-44",
+                "18-24",
+                "45-64",
+                "<18",
+                "UNKNOWN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 433,
+                    "shortest_values": [
+                        "<18",
+                        "65+",
+                        "25-44",
+                        "18-24",
+                        "45-64"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "45-64",
+                        "18-24",
+                        "25-44",
+                        "65+"
+                    ],
+                    "average_length": 4.856812933025404
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_SEX",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "M",
+                "F",
+                "U"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 433,
+                    "shortest_values": [
+                        "M",
+                        "F",
+                        "U"
+                    ],
+                    "longest_values": [
+                        "U",
+                        "F",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_RACE",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "BLACK",
+                "WHITE HISPANIC",
+                "BLACK HISPANIC",
+                "WHITE",
+                "ASIAN / PACIFIC ISLANDER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 433,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "UNKNOWN",
+                        "WHITE HISPANIC",
+                        "BLACK HISPANIC"
+                    ],
+                    "longest_values": [
+                        "ASIAN / PACIFIC ISLANDER",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC",
+                        "UNKNOWN",
+                        "WHITE"
+                    ],
+                    "average_length": 7.565819861431871
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORD_CD",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 354,
+            "frequent_values": [
+                "1004228",
+                "1005202",
+                "1000038",
+                "1032234",
+                "1000552"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 433,
+                    "max_value": 1057564,
+                    "min_value": 936722,
+                    "mean": 1009771.7759815243,
+                    "stddev": 18010.76675228579
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORD_CD",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 353,
+            "frequent_values": [
+                "186742",
+                "243153",
+                "150278",
+                "253699",
+                "192287"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 433,
+                    "max_value": 263946,
+                    "min_value": 148311,
+                    "mean": 208967.18244803694,
+                    "stddev": 31118.791951095733
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 355,
+            "frequent_values": [
+                "40.67922608300007",
+                "40.57916262500004",
+                "40.863003221000035",
+                "40.869408631000056",
+                "40.78673189800003"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 433,
+                    "max_value": 40.89104019400003,
+                    "min_value": 40.573763375000055,
+                    "mean": 40.740195822928506,
+                    "stddev": 0.08542154141951594
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 433,
+            "number_empty_cells": 0,
+            "number_distinct_values": 355,
+            "frequent_values": [
+                "-73.92797416799993",
+                "-73.85042595199997",
+                "-73.94294803999998",
+                "-74.00037223199998",
+                "-73.94113246799998"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 433,
+                    "max_value": -73.73553543099996,
+                    "min_value": -74.17125230499995,
+                    "mean": -73.90789439804841,
+                    "stddev": 0.06494480649947157
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "INCIDENT_KEY",
+        "OCCUR_DATE"
+    ]
+}

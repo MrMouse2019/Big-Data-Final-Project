@@ -1,0 +1,177 @@
+{
+    "dataset_name": "3y5p-x48f",
+    "columns": [
+        {
+            "column_name": "School",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1649,
+            "frequent_values": [
+                "75Q233",
+                "75M094",
+                "09X505",
+                "75K811",
+                "31R080"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 843133,
+                    "shortest_values": [
+                        "01M015",
+                        "22K278",
+                        "22K277",
+                        "22K269",
+                        "22K255"
+                    ],
+                    "longest_values": [
+                        "79X695",
+                        "10X390",
+                        "10X342",
+                        "10X344",
+                        "10X351"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 544,
+            "frequent_values": [
+                "09/09/2015",
+                "09/10/2015",
+                "09/17/2015",
+                "11/30/2015",
+                "04/19/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 843133,
+                    "max_value": "2018-06-26 00:00:00",
+                    "min_value": "2015-09-08 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "SchoolYear",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "20152016",
+                "20172018",
+                "20162017"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 843133,
+                    "max_value": 20172018,
+                    "min_value": 20152016,
+                    "mean": 20161988.23535077,
+                    "stddev": 8188.974296646824
+                }
+            ]
+        },
+        {
+            "column_name": "Enrolled",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4137,
+            "frequent_values": [
+                "312",
+                "392",
+                "391",
+                "400",
+                "393"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 843133,
+                    "max_value": 5850,
+                    "min_value": 1,
+                    "mean": 600.0416434892242,
+                    "stddev": 485.3415783097753
+                }
+            ]
+        },
+        {
+            "column_name": "Present",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4439,
+            "frequent_values": [
+                "375",
+                "293",
+                "373",
+                "367",
+                "377"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 843133,
+                    "max_value": 5752,
+                    "min_value": 1,
+                    "mean": 546.9385435038125,
+                    "stddev": 456.23422654157577
+                }
+            ]
+        },
+        {
+            "column_name": "Absent",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1129,
+            "frequent_values": [
+                "24",
+                "20",
+                "22",
+                "19",
+                "21"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 843133,
+                    "max_value": 3332,
+                    "min_value": 0,
+                    "mean": 50.56186983548266,
+                    "stddev": 60.28485623892939
+                }
+            ]
+        },
+        {
+            "column_name": "Released",
+            "number_non_empty_cells": 843133,
+            "number_empty_cells": 0,
+            "number_distinct_values": 709,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 843133,
+                    "max_value": 3777,
+                    "min_value": 0,
+                    "mean": 2.541230149928896,
+                    "stddev": 29.717656750948926
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "School",
+        "Date"
+    ]
+}

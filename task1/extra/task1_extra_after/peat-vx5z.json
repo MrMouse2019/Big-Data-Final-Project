@@ -1,0 +1,210 @@
+{
+    "dataset_name": "peat-vx5z",
+    "columns": [
+        {
+            "column_name": "ProviderType",
+            "number_non_empty_cells": 12,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "CAREGIVER SERVICES CONTRACTS",
+                "\u001a"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12,
+                    "shortest_values": [
+                        "\u001a",
+                        "CAREGIVER SERVICES CONTRACTS"
+                    ],
+                    "longest_values": [
+                        "CAREGIVER SERVICES CONTRACTS",
+                        "\u001a"
+                    ],
+                    "average_length": 25.75
+                }
+            ]
+        },
+        {
+            "column_name": "DFTA ID",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "1K501"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "1K501"
+                    ],
+                    "longest_values": [
+                        "1K501"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "ContractYear",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "2020"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 2020,
+                    "min_value": 2020,
+                    "mean": 2020.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "SponsorName",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "THE NEIGHBORHOOD SELF-HELP BY OLDER PERSONS PROJECT INC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "THE NEIGHBORHOOD SELF-HELP BY OLDER PERSONS PROJECT INC"
+                    ],
+                    "longest_values": [
+                        "THE NEIGHBORHOOD SELF-HELP BY OLDER PERSONS PROJECT INC"
+                    ],
+                    "average_length": 55.0
+                }
+            ]
+        },
+        {
+            "column_name": "ProgramName",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "NSHOPP CAREGIVERS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "NSHOPP CAREGIVERS"
+                    ],
+                    "longest_values": [
+                        "NSHOPP CAREGIVERS"
+                    ],
+                    "average_length": 17.0
+                }
+            ]
+        },
+        {
+            "column_name": "ServiceID",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "CPUB",
+                "SUPS",
+                "CRTR",
+                "CINF",
+                "CORS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "CSUG",
+                        "INRS",
+                        "CAST",
+                        "CPUB",
+                        "SUPS"
+                    ],
+                    "longest_values": [
+                        "GPRS",
+                        "COTR",
+                        "CRTR",
+                        "CCNS",
+                        "CORS"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "ServiceName",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "CRGV OTHER RESPITE",
+                "CRGV COUNSELING",
+                "CRGV INDIVIDUAL RESPITE",
+                "CRGV ASSISTANCE",
+                "CRGV PUBLIC INFO"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        "CRGV TRAINING",
+                        "CRGV OUTREACH",
+                        "CRGV ASSISTANCE",
+                        "CRGV COUNSELING",
+                        "CRGV PUBLIC INFO"
+                    ],
+                    "longest_values": [
+                        "CRGV INDIVIDUAL RESPITE",
+                        "CRGV SUPPLEMENTAL SERV",
+                        "CRGV SUPPORT GROUPS",
+                        "CRGV GROUP RESPITE",
+                        "CRGV OTHER RESPITE"
+                    ],
+                    "average_length": 17.09090909090909
+                }
+            ]
+        },
+        {
+            "column_name": "BudgetedUnits",
+            "number_non_empty_cells": 11,
+            "number_empty_cells": 1,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "315",
+                "150",
+                "120",
+                "1000",
+                "1938"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 2868,
+                    "min_value": 120,
+                    "mean": 670.9090909090909,
+                    "stddev": 873.3709463437373
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "ProviderType",
+        "DFTA ID"
+    ]
+}

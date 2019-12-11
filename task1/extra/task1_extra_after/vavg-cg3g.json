@@ -1,0 +1,190 @@
+{
+    "dataset_name": "vavg-cg3g",
+    "columns": [
+        {
+            "column_name": "Time Period",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Winter 2017/2018 + Summer 2018"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        "Winter 2017/2018 + Summer 2018"
+                    ],
+                    "longest_values": [
+                        "Winter 2017/2018 + Summer 2018"
+                    ],
+                    "average_length": 30.0
+                }
+            ]
+        },
+        {
+            "column_name": "Agency/Organization",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "Department of Cultural Affairs - American Museum of Natural History",
+                "Total for Period",
+                "Department of Cultural Affairs - Queens Museum of Art",
+                "New York Public Library",
+                "Police Department"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 26,
+                    "shortest_values": [
+                        "Fire Department",
+                        "Total for Period",
+                        "Police Department",
+                        "New York Public Library",
+                        "Department of Education"
+                    ],
+                    "longest_values": [
+                        "Department of Cultural Affairs - American Museum of Natural History",
+                        "Department of Cultural Affairs - Museum of the City of New York",
+                        "State University of New York (facilities within New York City)",
+                        "Department of Cultural Affairs - New York Botanical Gardens",
+                        "Department of Cultural Affairs - New York Hall of Science"
+                    ],
+                    "average_length": 37.38461538461539
+                }
+            ]
+        },
+        {
+            "column_name": "Agency/Organization (Acronym)",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 1,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "DCLA - Brooklyn Museum",
+                "BPL",
+                "DCLA - American Museum of Natural History",
+                "SUNY",
+                "DSNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 25,
+                    "shortest_values": [
+                        "BPL",
+                        "HHC",
+                        "EDC",
+                        "DPR",
+                        "DOT"
+                    ],
+                    "longest_values": [
+                        "DCLA - American Museum of Natural History",
+                        "DCLA - Museum of the City of New York",
+                        "DCLA - New York Botanical Gardens",
+                        "DCLA - New York Hall of Science",
+                        "DCLA - Queens Museum of Art"
+                    ],
+                    "average_length": 11.52
+                }
+            ]
+        },
+        {
+            "column_name": "Total Commitment (kW)",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "200",
+                "100",
+                "350",
+                "37515",
+                "800"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 98059,
+                    "min_value": 100,
+                    "mean": 7543.0,
+                    "stddev": 19789.063109941075
+                }
+            ]
+        },
+        {
+            "column_name": "NYISO SCR Commitment (kW)",
+            "number_non_empty_cells": 26,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "200",
+                "100",
+                "350",
+                "150",
+                "570"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 96889,
+                    "min_value": 100,
+                    "mean": 7453.0,
+                    "stddev": 19551.831399562627
+                }
+            ]
+        },
+        {
+            "column_name": "Con Ed DRLP Commitment (kW)",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 4,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "50",
+                "200",
+                "100",
+                "2800",
+                "4455"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22,
+                    "max_value": 48080,
+                    "min_value": 50,
+                    "mean": 4370.909090909091,
+                    "stddev": 10512.14110146882
+                }
+            ]
+        },
+        {
+            "column_name": "Con Ed CSRP Commitment (kW)",
+            "number_non_empty_cells": 21,
+            "number_empty_cells": 5,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "100",
+                "50",
+                "200",
+                "4460",
+                "18900"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 46920,
+                    "min_value": 50,
+                    "mean": 4468.571428571428,
+                    "stddev": 10459.26351122673
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Agency/Organization"
+    ]
+}

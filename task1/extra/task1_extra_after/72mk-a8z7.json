@@ -1,0 +1,140 @@
+{
+    "dataset_name": "72mk-a8z7",
+    "columns": [
+        {
+            "column_name": "ORGANIZATION NAME",
+            "number_non_empty_cells": 9291,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9268,
+            "frequent_values": [
+                "BOSTON TRUST & INVESTMENT MANAGEMENT COMPANY",
+                "WELLINGTON MANAGEMENT COMPANY LLP",
+                "AMALGAMATED NURSERY SCHOOL",
+                "HUDSON MERIDIAN CONSTRUCTION GROUP LLC",
+                "KENMORE ASSOCIATES LP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9291,
+                    "shortest_values": [
+                        "UAP",
+                        "MCO",
+                        "AARP",
+                        "CALL",
+                        "WNET"
+                    ],
+                    "longest_values": [
+                        "PLEASE SELECT ONE OF THE FOLLOWING OPTIONS TO VERIFY THAT YOU WILL BE SENDING PROOF OF CORPORATE FIL",
+                        "HIGHWAY ROAD AND STREET CONSTRUCTION LABORERS LOCAL UNION 1010 PAVERS AND ROAD BUILDERS DISTRICT COU",
+                        "IBI GROUP- GRUZEN SAMTON ARCHITECTS  ENGINEERS & LANDSCAPE ARCHITECTS  A NY GENERAL PARTNERSHIP",
+                        "QUALITY EVALUATION & PSYCHOLOGY OCCUPATIONAL PHYSICAL & SPEECH THERAPY CONSULTING SERVICES PLLC",
+                        "HEIGHTS HILL MENTAL HEALTH SERVICE SOUTH BEACH PSYCHIATRIC CENTER COMMUNITY ADVISORY BOARD INC"
+                    ],
+                    "average_length": 27.151759767516953
+                }
+            ]
+        },
+        {
+            "column_name": "OWNERSHIP STRUCTURE CODE",
+            "number_non_empty_cells": 9288,
+            "number_empty_cells": 3,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "COR",
+                "LLC",
+                "PAR",
+                "OTH",
+                "IND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9288,
+                    "shortest_values": [
+                        "COR",
+                        "LLC",
+                        "OTH",
+                        "cor",
+                        "PAR"
+                    ],
+                    "longest_values": [
+                        "llc",
+                        "par",
+                        "GOV",
+                        "IND",
+                        "PRO"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "ORGANIZATION PHONE",
+            "number_non_empty_cells": 9017,
+            "number_empty_cells": 274,
+            "number_distinct_values": 7922,
+            "frequent_values": [
+                "9148333000",
+                "2122439090",
+                "5162779325",
+                "2124215333",
+                "7188758160"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8994,
+                    "max_value": 91476087763,
+                    "min_value": 705250,
+                    "mean": 5314987396.604959,
+                    "stddev": 2729008323.546952
+                },
+                {
+                    "type": "TEXT",
+                    "count": 23,
+                    "shortest_values": [
+                        "646.354.8962",
+                        "914.563.1979",
+                        "(845) 7354658",
+                        "7183459500X305",
+                        "2037722294 X26"
+                    ],
+                    "longest_values": [
+                        "718 392 6457 X 116",
+                        "800 336 3762 X2030",
+                        "949 268 1865 X301",
+                        "9739483000 X2576",
+                        "5169384100 X114"
+                    ],
+                    "average_length": 14.826086956521738
+                }
+            ]
+        },
+        {
+            "column_name": "DOING BUSINESS START DATE",
+            "number_non_empty_cells": 9272,
+            "number_empty_cells": 19,
+            "number_distinct_values": 1122,
+            "frequent_values": [
+                "02/02/2008",
+                "07/31/2008",
+                "12/03/2008",
+                "12/01/2018",
+                "12/01/2012"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 9272,
+                    "max_value": "2019-08-29 00:00:00",
+                    "min_value": "2008-02-02 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "ORGANIZATION NAME",
+        "OWNERSHIP STRUCTURE CODE"
+    ]
+}

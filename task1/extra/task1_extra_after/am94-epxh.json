@@ -1,0 +1,150 @@
+{
+    "dataset_name": "am94-epxh",
+    "columns": [
+        {
+            "column_name": "dispatching_base_number",
+            "number_non_empty_cells": 260766056,
+            "number_empty_cells": 0,
+            "number_distinct_values": 786,
+            "frequent_values": [
+                "B02510",
+                "B02764",
+                "B02914",
+                "B02800",
+                "B02869"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 260766056,
+                    "shortest_values": [
+                        "B02884",
+                        "B02797",
+                        "B00449",
+                        "B02871",
+                        "B01312"
+                    ],
+                    "longest_values": [
+                        "B00274",
+                        "B02996",
+                        "B02912",
+                        "B02913",
+                        "B02920"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Pickup_DateTime",
+            "number_non_empty_cells": 260766056,
+            "number_empty_cells": 0,
+            "number_distinct_values": 30927841,
+            "frequent_values": [
+                "03/14/2018 09:00:00 AM",
+                "03/09/2018 09:00:00 AM",
+                "03/14/2018 08:00:00 AM",
+                "03/15/2018 09:00:00 AM",
+                "01/18/2018 08:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 260766056,
+                    "max_value": "2018-12-31 23:59:59",
+                    "min_value": "2018-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DropOff_datetime",
+            "number_non_empty_cells": 260766056,
+            "number_empty_cells": 0,
+            "number_distinct_values": 30925540,
+            "frequent_values": [
+                "08/09/2018 01:00:00 PM",
+                "01/24/2018 11:59:00 PM",
+                "04/05/2018 12:00:00 PM",
+                "01/23/2018 11:59:00 PM",
+                "09/10/2018 10:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 260766056,
+                    "max_value": "3018-08-30 23:59:16",
+                    "min_value": "2018-01-01 00:00:16"
+                }
+            ]
+        },
+        {
+            "column_name": "PUlocationID",
+            "number_non_empty_cells": 223841705,
+            "number_empty_cells": 36924351,
+            "number_distinct_values": 264,
+            "frequent_values": [
+                "79",
+                "132",
+                "161",
+                "61",
+                "48"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 223841705,
+                    "max_value": 265,
+                    "min_value": 0,
+                    "mean": 138.91150307312034,
+                    "stddev": 75.29953688832109
+                }
+            ]
+        },
+        {
+            "column_name": "DOlocationID",
+            "number_non_empty_cells": 241066634,
+            "number_empty_cells": 19699422,
+            "number_distinct_values": 266,
+            "frequent_values": [
+                "265",
+                "132",
+                "138",
+                "61",
+                "161"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 241066634,
+                    "max_value": 265,
+                    "min_value": 0,
+                    "mean": 150.3743664956968,
+                    "stddev": 81.46115087469141
+                }
+            ]
+        },
+        {
+            "column_name": "SR_Flag",
+            "number_non_empty_cells": 62496274,
+            "number_empty_cells": 198269782,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 62496274,
+                    "max_value": 1,
+                    "min_value": 1,
+                    "mean": 1.0,
+                    "stddev": 0.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "dispatching_base_number",
+        "Pickup_DateTime"
+    ]
+}

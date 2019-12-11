@@ -1,0 +1,504 @@
+{
+    "dataset_name": "dhs7-q59e",
+    "columns": [
+        {
+            "column_name": "PROGRAM TYPE",
+            "number_non_empty_cells": 464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Family Support,NDA Programs",
+                "Immigration Services,Immigrant Support Services",
+                "NDA Programs,Senior Programs,Older Adult Program",
+                "After-School Programs,NDA Programs,Youth Educational Support",
+                "Reading & Writing,NDA Programs,English Language Program,ESOL,Family Literacy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 464,
+                    "shortest_values": [
+                        "Family Support,NDA Programs",
+                        "Reading & Writing,NDA Programs,Family Literacy",
+                        "Immigration Services,Immigrant Support Services",
+                        "NDA Programs,Senior Programs,Older Adult Program",
+                        "After-School Programs,NDA Programs,Youth Educational Support"
+                    ],
+                    "longest_values": [
+                        "Reading & Writing,NDA Programs,English Language Program,ESOL,Family Literacy,Adult Basic Education,ABE/GED",
+                        "Reading & Writing,NDA Programs,English Language Program,Family Literacy,Adult Basic Education,ABE/GED",
+                        "After-School Programs,NDA Programs,Adolescent Literacy,Youth Educational Support",
+                        "Reading & Writing,NDA Programs,English Language Program,ESOL,Family Literacy",
+                        "Immigration Services,Immigrant Support Services,NDA Programs"
+                    ],
+                    "average_length": 51.76724137931034
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRAM",
+            "number_non_empty_cells": 464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                " Adult Literacy",
+                "Seniors",
+                "Healthy Families",
+                " High-School Aged Youth",
+                " Middle School Youth"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 464,
+                    "shortest_values": [
+                        "Housing",
+                        "Seniors",
+                        " Housing",
+                        " Immigrant",
+                        "Health Stat"
+                    ],
+                    "longest_values": [
+                        "Legal Services - Immigrant Youth",
+                        "Services - Immigrant Families",
+                        "Immigrant/Refugee Assistance",
+                        "Domestic Violence Program",
+                        "Legal Assistance Program"
+                    ],
+                    "average_length": 16.747844827586206
+                }
+            ]
+        },
+        {
+            "column_name": "SITE NAME",
+            "number_non_empty_cells": 464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 383,
+            "frequent_values": [
+                "Make the Road New York",
+                "Jewish Community Council of Greater Coney Island, Inc.",
+                "Brooklyn Housing & Family Services, Inc.",
+                "Citizens Advice Bureau",
+                "Asian Americans for Equality"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 464,
+                    "shortest_values": [
+                        "WHIC",
+                        "SSAW",
+                        "YMPJ",
+                        "CAMBA",
+                        "RBSCC"
+                    ],
+                    "longest_values": [
+                        "Shorefront YM-YWHA                                                                                                                                                                                                                                                   ",
+                        "Shorefront Y                                                                                                                                                                                                                                                   ",
+                        "Goodwill Industries of Greater New York & Northern NJ, Refugee and Immigrant Services (Program Site 1)",
+                        "Jewish Board of Family and Children Services -  Domestic Violence Coordination and Training",
+                        "Goodwill Industries of NY & Northern NJ, Refugee and Immigrant Services (Program Site 2)"
+                    ],
+                    "average_length": 34.08620689655172
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH / COMMUNITY",
+            "number_non_empty_cells": 464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Brooklyn",
+                "Bronx",
+                "New York",
+                "Queens",
+                "Manhattan"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 10463,
+                    "min_value": 10463,
+                    "mean": 10463.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 463,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Corona",
+                        "Jamaica",
+                        "Astoria"
+                    ],
+                    "longest_values": [
+                        "Manhattan,Bronx,Queens,Staten Island, Brooklyn",
+                        "Long Island City",
+                        "Jackson Heights",
+                        "Staten Island",
+                        "Forest Hills"
+                    ],
+                    "average_length": 7.624190064794816
+                }
+            ]
+        },
+        {
+            "column_name": "AGENCY",
+            "number_non_empty_cells": 464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 312,
+            "frequent_values": [
+                "Make the Road New York",
+                "New York Legal Assistance Group (NYLAG)",
+                "Citizens Advice Bureau",
+                "Jewish Community Council of Greater Coney Island, Inc.",
+                "Northern Manhattan Improvement Corporation"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 464,
+                    "shortest_values": [
+                        "SSAW",
+                        "WHIC",
+                        "YMPJ",
+                        "CAMBA",
+                        "SoBRO"
+                    ],
+                    "longest_values": [
+                        "I.S. 126 - The Albert Shanker School for the Visual and Performing Arts",
+                        "THURGOOD MARSHALL ACADEMY FOR LEARNING AND SOCIAL CHANGE (M670)",
+                        "Jacobi Medical Center Nurses Residence/ NIDS Young Adult Center",
+                        "The New York Society for the Prevention of Cruelty to Children",
+                        "Highbridge Community Life Center Adult Education and Training"
+                    ],
+                    "average_length": 31.739224137931036
+                }
+            ]
+        },
+        {
+            "column_name": "Contact Number",
+            "number_non_empty_cells": 463,
+            "number_empty_cells": 1,
+            "number_distinct_values": 252,
+            "frequent_values": [
+                "(718) 542-0006",
+                "(718) 293-0727",
+                "(212) 652-2812",
+                "(718) 435-7585",
+                "(718) 438-0008"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 463,
+                    "shortest_values": [
+                        "718.282.5575",
+                        "718.653.5301",
+                        "347.879.3367",
+                        "718.628.1905",
+                        "646.264.1329"
+                    ],
+                    "longest_values": [
+                        "718-727-1222 718 418-7690 X 205 ",
+                        "212.349.6009           ext. 264",
+                        "718.782.8181 or 718.387.6052 ",
+                        "718.961.0888 or 212.979.8381",
+                        "718.592.5757 or 718.898.7461"
+                    ],
+                    "average_length": 14.390928725701944
+                }
+            ]
+        },
+        {
+            "column_name": "Grade Level / Age Group ",
+            "number_non_empty_cells": 410,
+            "number_empty_cells": 54,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "16+",
+                "Seniors",
+                "Adults",
+                "All Ages",
+                " High School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 410,
+                    "shortest_values": [
+                        "16+",
+                        "18+",
+                        "11+",
+                        "Adult",
+                        "Adults"
+                    ],
+                    "longest_values": [
+                        "A parent 16 Years Old or Older ",
+                        "Middle School",
+                        "grades 6 to 8",
+                        " High School",
+                        "ESOL/Civics"
+                    ],
+                    "average_length": 8.702439024390245
+                }
+            ]
+        },
+        {
+            "column_name": "Location 1",
+            "number_non_empty_cells": 458,
+            "number_empty_cells": 6,
+            "number_distinct_values": 399,
+            "frequent_values": [
+                "415 Albemarle Road\nBrooklyn, NEW YORK 11218\n(40.645480602026, -73.976688033036)",
+                "1550 Coney Island Avenue\nBrooklyn, NEW YORK 11230\n(40.619697574375, -73.964314154293)",
+                "52 Wilson Avenue\nBrooklyn, NEW YORK 11237\n(40.702590552559, -73.929089057738)",
+                "133 04 39th Ave\nQueens, NEW YORK 11354\n(40.768620220647, -73.827190280707)",
+                "2070 Grand\nBronx, NEW YORK 10457\n(40.845798371298, -73.898324186812)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 458,
+                    "shortest_values": [
+                        "166 Queens\nNEW YORK 11101\n(40.745702449808, -73.938669029252)",
+                        "210 230 Street\nNEW YORK 10463\n(40.87711465626, -73.907033209945)",
+                        "594 Manhattan\nNEW YORK 10018\n(40.756840774582, -73.996691499813)",
+                        "1114 02\nQueens, NEW YORK 11434\n(40.676945262114, -73.775306901692)",
+                        "629 Far\nQueens, NEW YORK 11691\n(40.600614338481, -73.762567774683)"
+                    ],
+                    "longest_values": [
+                        "33 47 91st Street (Jackson Heights\nQueens, NEW YORK 11372\n(40.751630739367, -73.883612545283)",
+                        "74 09 37th Avenue (Jackson Heights\nQueens, NEW YORK 11372\n(40.751630739367, -73.883612545283)",
+                        "2342 Andrews Av (near Fordham Rd\nBronx, NEW YORK 10468\n(40.869693003729, -73.898926992487)",
+                        "92 10 Roosevelt Avenue Jackson Heights\nNEW YORK 13372\n(40.751979000031, -73.882823999928)",
+                        "479 Port Richmond Avenue Staten Island\nNEW YORK 10302\n(40.630934529097, -74.139014649681)"
+                    ],
+                    "average_length": 77.35807860262008
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 278,
+            "frequent_values": [
+                "40.847012",
+                "40.630818",
+                "40.575607",
+                "40.75909",
+                "40.64551"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 354,
+                    "max_value": 40.893523,
+                    "min_value": 40.565262,
+                    "mean": 40.72011953107347,
+                    "stddev": 0.08377041282803253
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 279,
+            "frequent_values": [
+                "-73.93704",
+                "-74.139187",
+                "-73.964188",
+                "-73.959463",
+                "-73.976296"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 354,
+                    "max_value": -73.751962,
+                    "min_value": -74.183882,
+                    "mean": -73.93287912994349,
+                    "stddev": 0.06825574722967676
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "12",
+                "1",
+                "3",
+                "7",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 354,
+                    "max_value": 27,
+                    "min_value": 1,
+                    "mean": 7.022598870056497,
+                    "stddev": 4.648011302168215
+                }
+            ]
+        },
+        {
+            "column_name": "Council District ",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "38",
+                "17",
+                "44",
+                "48",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 354,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 27.593220338983052,
+                    "stddev": 14.154856199771032
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 210,
+            "frequent_values": [
+                "108",
+                "263",
+                "871",
+                "213",
+                "454"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 354,
+                    "max_value": 105804,
+                    "min_value": 2,
+                    "mean": 5507.745762711865,
+                    "stddev": 17510.861943144333
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 347,
+            "number_empty_cells": 117,
+            "number_distinct_values": 272,
+            "frequent_values": [
+                "5024824",
+                "1063574",
+                "3326880",
+                "4112274",
+                "3171988"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 347,
+                    "max_value": 5077603,
+                    "min_value": 1001162,
+                    "mean": 2927818.561959654,
+                    "stddev": 1085749.5788894142
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 347,
+            "number_empty_cells": 117,
+            "number_distinct_values": 270,
+            "frequent_values": [
+                "1021450051",
+                "5010490005",
+                "3065460011",
+                "4049730006",
+                "3053270041"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 347,
+                    "max_value": 5059000105,
+                    "min_value": 1000747501,
+                    "mean": 2836953233.870317,
+                    "stddev": 1042818958.9204191
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 111,
+            "frequent_values": [
+                "Sunset Park East                                                           ",
+                "Washington Heights South                                                   ",
+                "Jackson Heights                                                            ",
+                "Bushwick North                                                             ",
+                "Brighton Beach                                                             "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354,
+                    "shortest_values": [
+                        "Jackson Heights                                                            ",
+                        "Erasmus                                                                    ",
+                        "Eastchester-Edenwald-Baychester                                            ",
+                        "Queensbridge-Ravenswood-Long Island City                                   ",
+                        "Brooklyn Heights-Cobble Hill                                               "
+                    ],
+                    "longest_values": [
+                        "Springfield Gardens North                                                  ",
+                        "Kingsbridge Heights                                                        ",
+                        "Borough Park                                                               ",
+                        "East New York (Pennsylvania Ave)                                           ",
+                        "Windsor Terrace                                                            "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 354,
+            "number_empty_cells": 110,
+            "number_distinct_values": 96,
+            "frequent_values": [
+                "11220",
+                "11372",
+                "11230",
+                "11237",
+                "10002"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 354,
+                    "max_value": 11691,
+                    "min_value": 10002,
+                    "mean": 10903.118644067798,
+                    "stddev": 495.2503590377044
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

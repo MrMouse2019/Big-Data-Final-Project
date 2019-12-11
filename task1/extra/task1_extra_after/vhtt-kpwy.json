@@ -1,0 +1,182 @@
+{
+    "dataset_name": "vhtt-kpwy",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "FY2017",
+                "FY2016",
+                "FY2015",
+                "FY2014",
+                "2018"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 2018,
+                    "min_value": 2018,
+                    "mean": 2018.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 20,
+                    "shortest_values": [
+                        "FY2015",
+                        "FY2016",
+                        "FY2014",
+                        "FY2017"
+                    ],
+                    "longest_values": [
+                        "FY2017",
+                        "FY2014",
+                        "FY2016",
+                        "FY2015"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Category",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Government",
+                "Business",
+                "Individual",
+                "Total",
+                "Nonprofit"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 25,
+                    "shortest_values": [
+                        "Total",
+                        "Total ",
+                        "Business",
+                        "Nonprofit",
+                        "Individual"
+                    ],
+                    "longest_values": [
+                        "Nonprofit ",
+                        "Government",
+                        "Individual",
+                        "Nonprofit",
+                        "Business"
+                    ],
+                    "average_length": 8.48
+                }
+            ]
+        },
+        {
+            "column_name": "Distinct Donors",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "1878",
+                "40",
+                "38",
+                "559",
+                "21"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25,
+                    "max_value": 1922,
+                    "min_value": 21,
+                    "mean": 661.76,
+                    "stddev": 567.7145254439066
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Donations",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "377",
+                "467",
+                "2553",
+                "1223",
+                "1617"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25,
+                    "max_value": 3243,
+                    "min_value": 37,
+                    "mean": 1130.0,
+                    "stddev": 978.2535458663056
+                }
+            ]
+        },
+        {
+            "column_name": "Total Weight (Short Tons)",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "147.259",
+                "594.156",
+                "20.507",
+                "680.812",
+                "97.725"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 25,
+                    "max_value": 910.369,
+                    "min_value": 8.722,
+                    "mean": 307.66983999999997,
+                    "stddev": 305.47649094025945
+                }
+            ]
+        },
+        {
+            "column_name": "Total Declared Value ($)",
+            "number_non_empty_cells": 25,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "1122532",
+                "1025590.5",
+                "8855560",
+                "7454771",
+                "1011901"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13,
+                    "max_value": 9606181,
+                    "min_value": 28499,
+                    "mean": 2850621.6153846155,
+                    "stddev": 3707232.535284727
+                },
+                {
+                    "type": "REAL",
+                    "count": 12,
+                    "max_value": 10130477.74,
+                    "min_value": 948167.94,
+                    "mean": 4212633.696666666,
+                    "stddev": 3345557.204275408
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Total Declared Value ($)"
+    ]
+}

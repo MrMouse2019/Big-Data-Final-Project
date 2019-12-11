@@ -1,0 +1,192 @@
+{
+    "dataset_name": "3wxk-qa8q",
+    "columns": [
+        {
+            "column_name": "KIT ID Number",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5469,
+            "frequent_values": [
+                "151426",
+                "17141997",
+                "18247589",
+                "18246561",
+                "18254824"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5469,
+                    "max_value": 18356280,
+                    "min_value": 151365,
+                    "mean": 16894498.54763211,
+                    "stddev": 3683232.8277296084
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "BROOKLYN",
+                "NEW YORK",
+                "STATEN ISLAND",
+                "BRONX",
+                "RIDGEWOOD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5469,
+                    "shortest_values": [
+                        "Bronx",
+                        "BRONX",
+                        "QUEENS",
+                        "CORONA",
+                        "Queens"
+                    ],
+                    "longest_values": [
+                        "SOUTH RICHMOND HILL",
+                        "SPRINGFIELD GARDENS",
+                        "SOUTH OZONE PARK",
+                        "LONG ISLAND CITY",
+                        "CAMBRIA HEIGHTS"
+                    ],
+                    "average_length": 9.078442128359846
+                }
+            ]
+        },
+        {
+            "column_name": "Zipcode",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 178,
+            "frequent_values": [
+                "11215",
+                "11385",
+                "10309",
+                "10314",
+                "10306"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5469,
+                    "max_value": 11694,
+                    "min_value": 10001,
+                    "mean": 10835.349058328762,
+                    "stddev": 549.4961425921448
+                }
+            ]
+        },
+        {
+            "column_name": "Date Collected",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 635,
+            "frequent_values": [
+                "06/08/2017",
+                "06/07/2017",
+                "10/04/2018",
+                "06/07/2016",
+                "10/01/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5469,
+                    "max_value": "2018-12-31 00:00:00",
+                    "min_value": "2014-06-07 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Received Date",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 408,
+            "frequent_values": [
+                "06/09/2016",
+                "10/02/2018",
+                "06/09/2015",
+                "10/09/2018",
+                "10/04/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5469,
+                    "max_value": "2019-01-11 00:00:00",
+                    "min_value": "2014-06-11 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "First Draw at-the-tap Lead level (\u00b5g/l)",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 149,
+            "frequent_values": [
+                "0",
+                "0.001",
+                "0.002",
+                "2",
+                "0.003"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4274,
+                    "max_value": 4960,
+                    "min_value": 0,
+                    "mean": 4.270004679457183,
+                    "stddev": 105.22537971837671
+                },
+                {
+                    "type": "REAL",
+                    "count": 1195,
+                    "max_value": 15.483,
+                    "min_value": 0.001,
+                    "mean": 0.03981171548117156,
+                    "stddev": 0.6451533038506742
+                }
+            ]
+        },
+        {
+            "column_name": "First Draw at-the-tap copper level (mg/l)",
+            "number_non_empty_cells": 5469,
+            "number_empty_cells": 0,
+            "number_distinct_values": 474,
+            "frequent_values": [
+                "0.115",
+                "0.122",
+                "0.116",
+                "0.124",
+                "0.11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 5463,
+                    "max_value": 18.17,
+                    "min_value": 0.002,
+                    "mean": 0.15531008603331503,
+                    "stddev": 0.2872740238266612
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "KIT ID Number"
+    ]
+}

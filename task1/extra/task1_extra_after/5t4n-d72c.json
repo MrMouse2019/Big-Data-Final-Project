@@ -1,0 +1,87 @@
+{
+    "dataset_name": "5t4n-d72c",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 32,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2012",
+                "2010",
+                "2011",
+                "2009"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 32,
+                    "max_value": 2012,
+                    "min_value": 2009,
+                    "mean": 2010.5,
+                    "stddev": 1.118033988749895
+                }
+            ]
+        },
+        {
+            "column_name": "Area",
+            "number_non_empty_cells": 32,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Surface Total ",
+                "Total Unsheltered Individuals ",
+                "Subways ",
+                "Surface Area - Bronx ",
+                "Surface Area - Brooklyn "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32,
+                    "shortest_values": [
+                        "Subways ",
+                        "Surface Total ",
+                        "Surface Area - Bronx ",
+                        "Surface Area - Queens ",
+                        "Surface Area - Brooklyn "
+                    ],
+                    "longest_values": [
+                        "Total Unsheltered Individuals ",
+                        "Surface Area - Staten Island ",
+                        "Surface Area - Manhattan ",
+                        "Surface Area - Brooklyn ",
+                        "Surface Area - Queens "
+                    ],
+                    "average_length": 21.625
+                }
+            ]
+        },
+        {
+            "column_name": "Homeless Estimates",
+            "number_non_empty_cells": 32,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "99",
+                "368",
+                "200",
+                "777",
+                "1077"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 32,
+                    "max_value": 3262,
+                    "min_value": 86,
+                    "mean": 909.15625,
+                    "stddev": 921.8881476816683
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Homeless Estimates"
+    ]
+}

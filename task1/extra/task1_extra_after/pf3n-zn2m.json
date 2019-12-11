@@ -1,0 +1,546 @@
+{
+    "dataset_name": "pf3n-zn2m",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 8177,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "06/01/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 8177,
+                    "max_value": "2019-06-01 00:00:00",
+                    "min_value": "2019-06-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 8177,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5125,
+            "frequent_values": [
+                "40.67377",
+                "40.7239",
+                "40.74899",
+                "40.68881",
+                "40.64054"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 8177,
+                    "max_value": 45.5167,
+                    "min_value": 30.53933,
+                    "mean": 40.73275700623711,
+                    "stddev": 0.2535638671558965
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 8177,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4981,
+            "frequent_values": [
+                "-73.94427",
+                "-73.93502",
+                "-73.77595",
+                "-73.93741",
+                "-74.00469"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 8177,
+                    "max_value": -70.99144,
+                    "min_value": -118.18277,
+                    "mean": -73.95678951449162,
+                    "stddev": 0.874436664923121
+                }
+            ]
+        },
+        {
+            "column_name": "X-coordinate",
+            "number_non_empty_cells": 8041,
+            "number_empty_cells": 136,
+            "number_distinct_values": 5971,
+            "frequent_values": [
+                "1008171",
+                "1017709",
+                "1000271",
+                "999676",
+                "986351"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8041,
+                    "max_value": 1065480,
+                    "min_value": 0,
+                    "mean": 1004243.1430170377,
+                    "stddev": 26749.387639916196
+                }
+            ]
+        },
+        {
+            "column_name": "Y-coordinate",
+            "number_non_empty_cells": 8041,
+            "number_empty_cells": 136,
+            "number_distinct_values": 6067,
+            "frequent_values": [
+                "237604",
+                "183369",
+                "245363",
+                "191396",
+                "252026"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8041,
+                    "max_value": 270214,
+                    "min_value": 0,
+                    "mean": 205807.7213033205,
+                    "stddev": 29788.765889364156
+                }
+            ]
+        },
+        {
+            "column_name": "StreetAddress",
+            "number_non_empty_cells": 8177,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7267,
+            "frequent_values": [
+                "110-04 Atlantic Avenue",
+                "108-25 62nd Drive",
+                "10-25 41st Avenue",
+                "35-30 35th Street",
+                "2351 1ST AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8177,
+                    "shortest_values": [
+                        "Bronx",
+                        "54 Ave D",
+                        "99 Ave P",
+                        "153 35th",
+                        "80 Ave D"
+                    ],
+                    "longest_values": [
+                        "Lutheran Ave, Dry Harbor Rd bet Juniper Blvd N and Juniper Blvd S",
+                        "Arnold St to Prospect Ave bet Harvard Ave and Clyde Pl",
+                        "Columbia St, Hicks St bet Congress St and Atlantic Ave",
+                        "Financial District Office - Location Confidential",
+                        "Lafayette Ave bet Edgewater Rd & the Bronx River"
+                    ],
+                    "average_length": 18.143695731931025
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 8128,
+            "number_empty_cells": 49,
+            "number_distinct_values": 237,
+            "frequent_values": [
+                "10002",
+                "10027",
+                "10029",
+                "11201",
+                "11207"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8128,
+                    "max_value": 20007,
+                    "min_value": 0,
+                    "mean": 10789.682824803149,
+                    "stddev": 619.6522885466281
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 8108,
+            "number_empty_cells": 69,
+            "number_distinct_values": 258,
+            "frequent_values": [
+                "Brooklyn",
+                "New York",
+                "Bronx",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 708,
+                    "min_value": 0,
+                    "mean": 227.5,
+                    "stddev": 289.24081662172097
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8104,
+                    "shortest_values": [
+                        "BK",
+                        "QN",
+                        "MN",
+                        "BX",
+                        "NY"
+                    ],
+                    "longest_values": [
+                        "Manhattan, Roosevelt Isl.",
+                        "South richmond hill",
+                        "SPRINGFIELD GARDENS",
+                        "2900 Bedford Avenue",
+                        "South Richmond Hill"
+                    ],
+                    "average_length": 7.834155972359329
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 7907,
+            "number_empty_cells": 270,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "QUEENS",
+                "BRONX",
+                "STATEN IS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7907,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "STATEN IS",
+                        "MANHATTAN"
+                    ],
+                    "longest_values": [
+                        "MANHATTAN",
+                        "STATEN IS",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.290755027191096
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 7903,
+            "number_empty_cells": 274,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "412",
+                "103",
+                "111",
+                "201",
+                "112"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7903,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 271.04365430849043,
+                    "stddev": 119.83123542225742
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 7903,
+            "number_empty_cells": 274,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "1",
+                "8",
+                "17",
+                "9",
+                "33"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7903,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 23.98089333164621,
+                    "stddev": 14.776379931624666
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 7903,
+            "number_empty_cells": 274,
+            "number_distinct_values": 1080,
+            "frequent_values": [
+                "9",
+                "43",
+                "33",
+                "29",
+                "179"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7903,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 6718.926104011135,
+                    "stddev": 20712.684693865405
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 7786,
+            "number_empty_cells": 391,
+            "number_distinct_values": 4896,
+            "frequent_values": [
+                "3000000",
+                "4000000",
+                "1000000",
+                "2000000",
+                "2000506"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7786,
+                    "max_value": 5165197,
+                    "min_value": 1000000,
+                    "mean": 2750701.257513486,
+                    "stddev": 1259974.943257169
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 7786,
+            "number_empty_cells": 391,
+            "number_distinct_values": 4778,
+            "frequent_values": [
+                "1003560001",
+                "2051410150",
+                "2022910012",
+                "4124950270",
+                "4004700100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7786,
+                    "max_value": 5080280056,
+                    "min_value": 1000010010,
+                    "mean": 2663619622.704598,
+                    "stddev": 1213324588.6838326
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 7903,
+            "number_empty_cells": 274,
+            "number_distinct_values": 193,
+            "frequent_values": [
+                "East Harlem North",
+                "Lower East Side",
+                "Central Harlem North-Polo Grounds",
+                "Crown Heights North",
+                "Mott Haven-Port Morris"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7903,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Erasmus",
+                        "Maspeth",
+                        "Midwood"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 19.569277489560925
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 8177,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5652,
+            "frequent_values": [
+                "POINT (-73.77595 40.67377)",
+                "POINT (-74.00469 40.7239)",
+                "POINT (-73.78414 40.68621)",
+                "POINT (-74.00073 40.64054)",
+                "POINT (-73.89156 40.74899)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8177,
+                    "shortest_values": [
+                        "POINT (-73.81 40.76)",
+                        "POINT (-73.934 40.7954)",
+                        "POINT (-73.94 40.67082)",
+                        "POINT (-73.9038 40.669)",
+                        "POINT (-73.9535 40.731)"
+                    ],
+                    "longest_values": [
+                        "POINT (-118.18277 33.94018)",
+                        "POINT (-117.10692 32.67283)",
+                        "POINT (-73.91052 40.85557)",
+                        "POINT (-73.80355 40.68856)",
+                        "POINT (-73.87843 40.66171)"
+                    ],
+                    "average_length": 25.78512902042314
+                }
+            ]
+        },
+        {
+            "column_name": "Zip Codes",
+            "number_non_empty_cells": 8155,
+            "number_empty_cells": 22,
+            "number_distinct_values": 235,
+            "frequent_values": [
+                "11723",
+                "12426",
+                "12424",
+                "16865",
+                "17214"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8155,
+                    "max_value": 32838,
+                    "min_value": 2245,
+                    "mean": 14584.404659717964,
+                    "stddev": 3646.5305701914567
+                }
+            ]
+        },
+        {
+            "column_name": "Community Districts",
+            "number_non_empty_cells": 8104,
+            "number_empty_cells": 73,
+            "number_distinct_values": 69,
+            "frequent_values": [
+                "41",
+                "70",
+                "7",
+                "4",
+                "47"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8104,
+                    "max_value": 71,
+                    "min_value": 1,
+                    "mean": 37.24691510365252,
+                    "stddev": 21.100260483172985
+                }
+            ]
+        },
+        {
+            "column_name": "Borough Boundaries",
+            "number_non_empty_cells": 8104,
+            "number_empty_cells": 73,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2",
+                "4",
+                "3",
+                "5",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8104,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 3.215325765054294,
+                    "stddev": 1.1970913529478495
+                }
+            ]
+        },
+        {
+            "column_name": "City Council Districts",
+            "number_non_empty_cells": 8104,
+            "number_empty_cells": 73,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "32",
+                "35",
+                "43",
+                "36",
+                "38"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8104,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 28.224703849950643,
+                    "stddev": 14.272044025212693
+                }
+            ]
+        },
+        {
+            "column_name": "Police Precincts",
+            "number_non_empty_cells": 8104,
+            "number_empty_cells": 73,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "23",
+                "72",
+                "47",
+                "1",
+                "27"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8104,
+                    "max_value": 77,
+                    "min_value": 1,
+                    "mean": 40.15831688055281,
+                    "stddev": 21.752602162031852
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

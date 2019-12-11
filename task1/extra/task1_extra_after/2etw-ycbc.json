@@ -1,0 +1,151 @@
+{
+    "dataset_name": "2etw-ycbc",
+    "columns": [
+        {
+            "column_name": "Optin_year",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2017",
+                "2015",
+                "2016",
+                "2018",
+                "2014"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3933,
+                    "max_value": 2018,
+                    "min_value": 2014,
+                    "mean": 2016.3010424612255,
+                    "stddev": 1.0535576195654912
+                }
+            ]
+        },
+        {
+            "column_name": "Optin_month",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "1",
+                "6",
+                "12",
+                "9",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3933,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 5.7266717518433765,
+                    "stddev": 3.680100628924641
+                }
+            ]
+        },
+        {
+            "column_name": "ZipCode",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 0,
+            "number_distinct_values": 184,
+            "frequent_values": [
+                "11221",
+                "11368",
+                "11208",
+                "11373",
+                "11207"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3933,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10841.627765064835,
+                    "stddev": 545.868620166608
+                }
+            ]
+        },
+        {
+            "column_name": "Language",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "English",
+                "Spanish"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3933,
+                    "shortest_values": [
+                        "English",
+                        "Spanish"
+                    ],
+                    "longest_values": [
+                        "Spanish",
+                        "English"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Active Subscriber",
+                "Undeliverable"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3933,
+                    "shortest_values": [
+                        "Undeliverable",
+                        "Active Subscriber"
+                    ],
+                    "longest_values": [
+                        "Active Subscriber",
+                        "Undeliverable"
+                    ],
+                    "average_length": 16.441647597254004
+                }
+            ]
+        },
+        {
+            "column_name": "SubscriberCount",
+            "number_non_empty_cells": 3933,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3933,
+                    "max_value": 21,
+                    "min_value": 1,
+                    "mean": 1.9494024917365878,
+                    "stddev": 1.824413575911836
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Optin_year",
+        "Optin_month"
+    ]
+}

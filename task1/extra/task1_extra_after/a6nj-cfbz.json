@@ -1,0 +1,606 @@
+{
+    "dataset_name": "a6nj-cfbz",
+    "columns": [
+        {
+            "column_name": "Building_id",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 323,
+            "frequent_values": [
+                "building_54",
+                "building_132",
+                "building_306",
+                "building_98",
+                "building_304"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "building_1",
+                        "building_8",
+                        "building_7",
+                        "building_6",
+                        "building_9"
+                    ],
+                    "longest_values": [
+                        "building_323",
+                        "building_209",
+                        "building_177",
+                        "building_176",
+                        "building_175"
+                    ],
+                    "average_length": 11.6656346749226
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 322,
+            "number_empty_cells": 1,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Bronx",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 322,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.826086956521738
+                }
+            ]
+        },
+        {
+            "column_name": "Certification Class",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Not certified",
+                "Platinum",
+                "Gold",
+                "Connected",
+                "Silver"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "Gold",
+                        "Silver",
+                        "Platinum",
+                        "Connected",
+                        "Not certified"
+                    ],
+                    "longest_values": [
+                        "Not certified",
+                        "Connected",
+                        "Platinum",
+                        "Silver",
+                        "Gold"
+                    ],
+                    "average_length": 10.563467492260061
+                }
+            ]
+        },
+        {
+            "column_name": "# of Carriers",
+            "number_non_empty_cells": 304,
+            "number_empty_cells": 19,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "5 or more",
+                "3",
+                "2",
+                "4",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 192,
+                    "max_value": 4,
+                    "min_value": 0,
+                    "mean": 2.5677083333333335,
+                    "stddev": 1.0634059658775146
+                },
+                {
+                    "type": "TEXT",
+                    "count": 112,
+                    "shortest_values": [
+                        "5 or more"
+                    ],
+                    "longest_values": [
+                        "5 or more"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Coax/Cable Connections",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.888544891640867
+                }
+            ]
+        },
+        {
+            "column_name": "Fiber Connection",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8266253869969042
+                }
+            ]
+        },
+        {
+            "column_name": "Satellite/Fixed Wireless Connection",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.2693498452012384
+                }
+            ]
+        },
+        {
+            "column_name": "Fiber Distribution",
+            "number_non_empty_cells": 304,
+            "number_empty_cells": 19,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Full Distribution (all floors)",
+                "Partial Distribution (some floors)",
+                "No Distribution",
+                "none",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 5,
+                    "min_value": 2,
+                    "mean": 4.0,
+                    "stddev": 1.4142135623730951
+                },
+                {
+                    "type": "TEXT",
+                    "count": 301,
+                    "shortest_values": [
+                        "none",
+                        "No Distribution",
+                        "Full Distribution (all floors)",
+                        "Partial Distribution (some floors)"
+                    ],
+                    "longest_values": [
+                        "Partial Distribution (some floors)",
+                        "Full Distribution (all floors)",
+                        "No Distribution",
+                        "none"
+                    ],
+                    "average_length": 29.18936877076412
+                }
+            ]
+        },
+        {
+            "column_name": "# ISPs",
+            "number_non_empty_cells": 303,
+            "number_empty_cells": 20,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "5 or more",
+                "3",
+                "2",
+                "4",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 190,
+                    "max_value": 4,
+                    "min_value": 0,
+                    "mean": 2.6157894736842104,
+                    "stddev": 0.9650542160361749
+                },
+                {
+                    "type": "TEXT",
+                    "count": 113,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "none",
+                        "5 or more"
+                    ],
+                    "longest_values": [
+                        "5 or more",
+                        "none",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 8.743362831858407
+                }
+            ]
+        },
+        {
+            "column_name": "Multiple Points of Entry",
+            "number_non_empty_cells": 300,
+            "number_empty_cells": 23,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Yes",
+                "No",
+                "Dedicated room",
+                "Combination of open",
+                "Hallway/Open Space"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 300,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "none",
+                        "Dedicated room",
+                        "Hallway/Open Space"
+                    ],
+                    "longest_values": [
+                        "Combination of open",
+                        "Hallway/Open Space",
+                        "Dedicated room",
+                        "none",
+                        "Yes"
+                    ],
+                    "average_length": 2.9433333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Designated Telecom Utility Space",
+            "number_non_empty_cells": 299,
+            "number_empty_cells": 24,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Combination of open, shared, and dedicated  space",
+                "Dedicated room",
+                "Hallway/Open Space",
+                "Common (shared) room",
+                " shared"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 299,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        " shared",
+                        "Dedicated room",
+                        "Hallway/Open Space"
+                    ],
+                    "longest_values": [
+                        "Combination of open, shared, and dedicated  space",
+                        "Common (shared) room",
+                        "Hallway/Open Space",
+                        "Dedicated room",
+                        " shared"
+                    ],
+                    "average_length": 33.34782608695652
+                }
+            ]
+        },
+        {
+            "column_name": "Additional Telecom Space",
+            "number_non_empty_cells": 299,
+            "number_empty_cells": 24,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Yes",
+                "No",
+                " and dedicated  space",
+                "Does not have two or more diverse riser locations",
+                "none"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 299,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "none",
+                        " and dedicated  space",
+                        "Does not have two or more diverse riser locations"
+                    ],
+                    "longest_values": [
+                        "Does not have two or more diverse riser locations",
+                        " and dedicated  space",
+                        "none",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.9531772575250836
+                }
+            ]
+        },
+        {
+            "column_name": "Riser Space for Current Providers",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8359133126934983
+                }
+            ]
+        },
+        {
+            "column_name": "Riser Space for Additional Providers",
+            "number_non_empty_cells": 323,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Yes",
+                "No",
+                "Current Providers"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 323,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "Current Providers"
+                    ],
+                    "longest_values": [
+                        "Current Providers",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8328173374613
+                }
+            ]
+        },
+        {
+            "column_name": "Diverse Riser Locations",
+            "number_non_empty_cells": 299,
+            "number_empty_cells": 24,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Yes",
+                "Does not have two or more diverse riser locations",
+                "No",
+                "None available"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 299,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "None available",
+                        "Does not have two or more diverse riser locations"
+                    ],
+                    "longest_values": [
+                        "Does not have two or more diverse riser locations",
+                        "None available",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 24.872909698996654
+                }
+            ]
+        },
+        {
+            "column_name": "Signed POEs",
+            "number_non_empty_cells": 298,
+            "number_empty_cells": 25,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Yes - for installed connections",
+                "None available",
+                "Yes",
+                "Yes - signed but connection not installed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 298,
+                    "shortest_values": [
+                        "Yes",
+                        "None available",
+                        "Yes - for installed connections",
+                        "Yes - signed but connection not installed"
+                    ],
+                    "longest_values": [
+                        "Yes - signed but connection not installed",
+                        "Yes - for installed connections",
+                        "None available",
+                        "Yes"
+                    ],
+                    "average_length": 24.40268456375839
+                }
+            ]
+        },
+        {
+            "column_name": "Agreements",
+            "number_non_empty_cells": 296,
+            "number_empty_cells": 27,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Yes",
+                "No",
+                "Does not have two or more diverse riser locations"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 296,
+                    "shortest_values": [
+                        "No",
+                        "Yes",
+                        "Does not have two or more diverse riser locations"
+                    ],
+                    "longest_values": [
+                        "Does not have two or more diverse riser locations",
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.9222972972972974
+                }
+            ]
+        },
+        {
+            "column_name": "New Service Providers",
+            "number_non_empty_cells": 293,
+            "number_empty_cells": 30,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Yes",
+                "No capability available",
+                "None available"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 293,
+                    "shortest_values": [
+                        "Yes",
+                        "None available",
+                        "No capability available"
+                    ],
+                    "longest_values": [
+                        "No capability available",
+                        "None available",
+                        "Yes"
+                    ],
+                    "average_length": 4.030716723549488
+                }
+            ]
+        },
+        {
+            "column_name": "ISPs",
+            "number_non_empty_cells": 211,
+            "number_empty_cells": 112,
+            "number_distinct_values": 160,
+            "frequent_values": [
+                "Verizon",
+                "none",
+                "Time Warner Cable,Verizon",
+                "RGTS,Time Warner Cable,Verizon",
+                "none,none,none,none"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 211,
+                    "shortest_values": [
+                        "No",
+                        "none",
+                        "AT&T",
+                        "Other",
+                        "Verizon"
+                    ],
+                    "longest_values": [
+                        "Other,Zayo,XO Communications,Verizon,TW Telecom,Towerstream,Time Warner Cable,Sprint,Reliance,RCN,Rainbow Broadband,OCG,Lightpath,Lightower,Level(3),Cogent,Century Link,AT&T,Abovenet",
+                        "XO Communications,Verizon,Time Warner Cable,Lightpath,Lightower,Level(3),Zayo,Reliance Globalcom,Cogent,AT&T,Verizon Business,Sprint,CDS",
+                        "Verizon FIOS,Verizon,TW Telecom,Time Warner Cable,Sidera,Rainbow Broadband,Lightpath,Covad,Cogent,Broadview,AT&T,Abovenet",
+                        "Other,Verizon,Time Warner Cable,Sprint,Lightpath,Lightower,Level(3),Eureka,Direct TV,Cogent,Broadview,AT&T,Abovenet",
+                        "Other,Zayo,XO Communications,Verizon,Time Warner Cable,Sidera,Reliance,Lightower,Cogent,AT&T"
+                    ],
+                    "average_length": 43.11848341232228
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Building_id"
+    ]
+}

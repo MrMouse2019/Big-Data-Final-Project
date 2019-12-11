@@ -1,0 +1,1243 @@
+{
+    "dataset_name": "62mr-ukqs",
+    "columns": [
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Boro-Block-Lot",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 960,
+            "frequent_values": [
+                "3-01173-0080",
+                "3-05329-0072",
+                "3-08710-0055",
+                "3-05356-0042",
+                "3-02418-0005"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "3-00974-0053",
+                        "3-01096-0050",
+                        "3-06818-0065",
+                        "3-01178-0059",
+                        "3-01173-0080"
+                    ],
+                    "longest_values": [
+                        "3-06681-0035",
+                        "3-06681-0415",
+                        "3-01029-0060",
+                        "3-07268-0001",
+                        "3-01170-0009"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Address",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 959,
+            "frequent_values": [
+                "75 PROSPECT PARK\nBrooklyn, NY\n(40.700682843989, -73.987626216686)",
+                "1601 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                "280 ST JOHN'S PLACE\nBrooklyn, NY\n(40.674024499796, -73.968237997814)",
+                "913 PARK PLACE\nBrooklyn, NY\n(40.673295827396, -73.947356693855)",
+                "15 CLARK STREET\nBrooklyn, NY\n(40.698203135509, -73.995647747662)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "80 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "69 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "57 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "300 8 AVENUE\nBrooklyn, NY\n(40.66937376425, -73.9762407628)",
+                        "367 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)"
+                    ],
+                    "longest_values": [
+                        "1120 BRIGHTON BEACH AVENU\nBrooklyn, NY\n(40.577743094662, -73.956256491462)",
+                        "9040 FT HAMILTON PARKWAY\nBrooklyn, NY\n(40.617982980473, -74.026634700524)",
+                        "1511 INDEPENDENCE AVENUE\nBrooklyn, NY\n(40.604044715252, -74.016658740639)",
+                        "1150 BRIGHTON BEACH AVENU\nBrooklyn, NY\n(40.577534761172, -73.95557643355)",
+                        "1075 SHEEPSHEAD BAY ROAD\nBrooklyn, NY\n(40.593682878678, -73.958611389969)"
+                    ],
+                    "average_length": 64.98645833333333
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 3,
+                    "min_value": 3,
+                    "mean": 3.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "11201",
+                "11238",
+                "11209",
+                "11235",
+                "11218"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 723,
+                    "max_value": 11249,
+                    "min_value": 11201,
+                    "mean": 11219.047026279392,
+                    "stddev": 12.09462468228735
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 696,
+            "frequent_values": [
+                "40.661354",
+                "40.62774",
+                "40.672392",
+                "40.697532",
+                "40.697213"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 723,
+                    "max_value": 40.728657,
+                    "min_value": 40.574863,
+                    "mean": 40.65166050760721,
+                    "stddev": 0.03719290158424696
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 697,
+            "frequent_values": [
+                "-73.96968",
+                "-73.994666",
+                "-73.974275",
+                "-74.026349",
+                "-73.96725"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 723,
+                    "max_value": -73.876408,
+                    "min_value": -74.040671,
+                    "mean": -73.97332719087143,
+                    "stddev": 0.02796478721366346
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "2",
+                "8",
+                "10",
+                "12",
+                "14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 723,
+                    "max_value": 55,
+                    "min_value": 1,
+                    "mean": 10.065006915629322,
+                    "stddev": 9.203098332311715
+                }
+            ]
+        },
+        {
+            "column_name": "Council District ",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "39",
+                "35",
+                "33",
+                "43",
+                "48"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 723,
+                    "max_value": 48,
+                    "min_value": 33,
+                    "mean": 39.68188105117566,
+                    "stddev": 4.95858820783666
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 256,
+            "frequent_values": [
+                "301",
+                "207",
+                "177",
+                "159",
+                "501"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 723,
+                    "max_value": 114202,
+                    "min_value": 1,
+                    "mean": 5278.0691562932225,
+                    "stddev": 15667.761431771542
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 713,
+            "number_empty_cells": 247,
+            "number_distinct_values": 692,
+            "frequent_values": [
+                "3000000",
+                "3125449",
+                "3029525",
+                "3044960",
+                "3125357"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 713,
+                    "max_value": 3413692,
+                    "min_value": 3000000,
+                    "mean": 3117643.295932679,
+                    "stddev": 100923.00343828954
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 713,
+            "number_empty_cells": 247,
+            "number_distinct_values": 691,
+            "frequent_values": [
+                "3011170001",
+                "3030770001",
+                "3012350001",
+                "3052090022",
+                "3061330025"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 713,
+                    "max_value": 3088210010,
+                    "min_value": 3000680107,
+                    "mean": 3037888447.295933,
+                    "stddev": 27644654.39911569
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 723,
+            "number_empty_cells": 237,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "Brooklyn Heights-Cobble Hill                                               ",
+                "Bay Ridge                                                                  ",
+                "Prospect Heights                                                           ",
+                "Flatbush                                                                   ",
+                "Park Slope-Gowanus                                                         "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 723,
+                    "shortest_values": [
+                        "Bay Ridge                                                                  ",
+                        "Erasmus                                                                    ",
+                        "East New York                                                              ",
+                        "East Williamsburg                                                          ",
+                        "Fort Greene                                                                "
+                    ],
+                    "longest_values": [
+                        "Cypress Hills-City Line                                                    ",
+                        "Stuyvesant Heights                                                         ",
+                        "Borough Park                                                               ",
+                        "Clinton Hill                                                               ",
+                        "Homecrest                                                                  "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Neighborhood",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "BAY RIDGE",
+                "BROOKLYN HEIGHTS",
+                "PARK SLOPE",
+                "OCEAN PARKWAY-NORTH",
+                "FLATBUSH-CENTRAL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "GOWANUS",
+                        "MIDWOOD",
+                        "MADISON",
+                        "BUSHWICK",
+                        "CANARSIE"
+                    ],
+                    "longest_values": [
+                        "FLATBUSH-LEFFERTS GARDEN",
+                        "DOWNTOWN-FULTON FERRY",
+                        "WILLIAMSBURG-CENTRAL",
+                        "DOWNTOWN-FULTON MALL",
+                        "OCEAN PARKWAY-NORTH"
+                    ],
+                    "average_length": 13.136458333333334
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Building Classification",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "D4-ELEVATOR",
+                "C6-WALK-UP",
+                "C8-WALK-UP",
+                "D0-ELEVATOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "C6-WALK-UP",
+                        "C8-WALK-UP",
+                        "D4-ELEVATOR",
+                        "D0-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "D0-ELEVATOR",
+                        "D4-ELEVATOR",
+                        "C8-WALK-UP",
+                        "C6-WALK-UP"
+                    ],
+                    "average_length": 10.658333333333333
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Total Units",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 190,
+            "frequent_values": [
+                "16",
+                "20",
+                "60",
+                "24",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 1760,
+                    "min_value": 11,
+                    "mean": 81.43125,
+                    "stddev": 123.59404930431538
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Year Built",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 83,
+            "frequent_values": [
+                "1931",
+                "1920",
+                "1963",
+                "1930",
+                "1910"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 2005,
+                    "min_value": 1840,
+                    "mean": 1936.3125,
+                    "stddev": 20.082544503872015
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Gross SqFt",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 813,
+            "frequent_values": [
+                "54000",
+                "18000",
+                "18920",
+                "50400",
+                "120000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 1800000,
+                    "min_value": 4050,
+                    "mean": 84363.07395833333,
+                    "stddev": 133405.00644782998
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Est. Gross Income",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 921,
+            "frequent_values": [
+                "1806202",
+                "173307",
+                "278313",
+                "546336",
+                "2182567"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 24721925,
+                    "min_value": 67225,
+                    "mean": 1054186.940625,
+                    "stddev": 1736095.995059505
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Gross Income per SqFt",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 368,
+            "frequent_values": [
+                "9.19",
+                "16",
+                "8.92",
+                "8.03",
+                "12.08"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 108,
+                    "max_value": 33,
+                    "min_value": 8,
+                    "mean": 16.36111111111111,
+                    "stddev": 3.7699060144816197
+                },
+                {
+                    "type": "REAL",
+                    "count": 852,
+                    "max_value": 33.8,
+                    "min_value": 5.17,
+                    "mean": 12.807241784037544,
+                    "stddev": 4.129972634899011
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Full Market Value",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 601,
+            "frequent_values": [
+                "1060000",
+                "2080000",
+                "1870000",
+                "3210000",
+                "2230000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 69800000,
+                    "min_value": 190000,
+                    "mean": 3754312.5,
+                    "stddev": 5631581.060028955
+                }
+            ]
+        },
+        {
+            "column_name": "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Market Value per SqFt",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 263,
+            "frequent_values": [
+                "56",
+                "65",
+                "62",
+                "69",
+                "51"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 432,
+                    "max_value": 179,
+                    "min_value": 26,
+                    "mean": 67.03472222222223,
+                    "stddev": 21.946719950587273
+                },
+                {
+                    "type": "REAL",
+                    "count": 528,
+                    "max_value": 49.9,
+                    "min_value": 15.91,
+                    "mean": 34.786363636363625,
+                    "stddev": 8.00106728417843
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Boro-Block-Lot",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 303,
+            "frequent_values": [
+                "3-06683-0052",
+                "3-05670-0047",
+                "3-05324-0001",
+                "3-07011-0011",
+                "3-05240-0001"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "3-00307-0006",
+                        "3-01925-0007",
+                        "3-00657-0018",
+                        "3-02647-0031",
+                        "3-00265-0006"
+                    ],
+                    "longest_values": [
+                        "3-00187-0014",
+                        "3-05412-0014",
+                        "3-01208-0001",
+                        "3-07235-0001",
+                        "3-01164-0064"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Address",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 302,
+            "frequent_values": [
+                "1965 7 STREET\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                "1379 54 STREET\nBrooklyn, NY\n(40.631225672155, -73.993284116546)",
+                "333 MC DONALD AVENUE\nBrooklyn, NY\n(40.645989842578, -73.980004122275)",
+                "2828 29 STREET\nBrooklyn, NY\n(40.57556180854, -73.995427869962)",
+                "9303 SHORE ROAD\nBrooklyn, NY\n(42.433188999772, -78.748646000413)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "380 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "209 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "146 MARCUS\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "45 5 STREET\nBrooklyn, NY\n(40.67698570719, -73.995353806132)",
+                        "36 PLAZA ST\nBrooklyn, NY\n(40.674069569571, -73.97144654162)"
+                    ],
+                    "longest_values": [
+                        "9330 FT HAMILTON PARKWAY\nBrooklyn, NY\n(40.616114571706, -74.028319566824)",
+                        "8829 FT HAMILTON PARKWAY\nBrooklyn, NY\n(40.619199405119, -74.025508438186)",
+                        "8831 FT HAMILTON PARKWAY\nBrooklyn, NY\n(40.619188475173, -74.025517745718)",
+                        "469 PENNSYLVANIA AVENUE\nBrooklyn, NY\n(40.665820743186, -73.894284007127)",
+                        "3030 BRIGHTON 12 STREET\nBrooklyn, NY\n(40.579375266086, -73.957051916014)"
+                    ],
+                    "average_length": 64.853125
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Neighborhood",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "OCEAN PARKWAY-SOUTH",
+                "BAY RIDGE",
+                "CROWN HEIGHTS",
+                "BOROUGH PARK",
+                "BROOKLYN HEIGHTS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "MADISON",
+                        "GOWANUS",
+                        "BUSHWICK",
+                        "GRAVESEND",
+                        "BAY RIDGE"
+                    ],
+                    "longest_values": [
+                        "FLATBUSH-LEFFERTS GARDEN",
+                        "DOWNTOWN-FULTON FERRY",
+                        "DOWNTOWN-FULTON MALL",
+                        "WILLIAMSBURG-CENTRAL",
+                        "OCEAN PARKWAY-SOUTH"
+                    ],
+                    "average_length": 14.123958333333333
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Building Classification",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "D1-ELEVATOR",
+                "C1-WALK-UP",
+                "C7-WALK-UP",
+                "D7-ELEVATOR",
+                "D9-ELEVATOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 960,
+                    "shortest_values": [
+                        "C1-WALK-UP",
+                        "C7-WALK-UP",
+                        "C5-WALK-UP",
+                        "C9-WALK-UP",
+                        "D1-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "D8-ELEVATOR",
+                        "D3-ELEVATOR",
+                        "D5-ELEVATOR",
+                        "D6-ELEVATOR",
+                        "D7-ELEVATOR"
+                    ],
+                    "average_length": 10.5875
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Total Units",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "35",
+                "16",
+                "11",
+                "20",
+                "48"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 504,
+                    "min_value": 11,
+                    "mean": 65.66354166666666,
+                    "stddev": 77.75256107758298
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Year Built",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "1931",
+                "1920",
+                "1916",
+                "1960",
+                "1928"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 2004,
+                    "min_value": 1860,
+                    "mean": 1931.7645833333333,
+                    "stddev": 21.04550614722901
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Gross SqFt",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 281,
+            "frequent_values": [
+                "25075",
+                "22500",
+                "245202",
+                "57600",
+                "102000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 453758,
+                    "min_value": 4500,
+                    "mean": 61024.7,
+                    "stddev": 74178.88439547922
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Est. Gross Income",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 302,
+            "frequent_values": [
+                "379025",
+                "359607",
+                "3263686",
+                "1059393",
+                "1538672"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 6855305,
+                    "min_value": 61250,
+                    "mean": 845277.534375,
+                    "stddev": 1068565.565534351
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Gross Income per SqFt",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 273,
+            "frequent_values": [
+                "15.12",
+                "15.98",
+                "13.31",
+                "13.05",
+                "7.78"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 13,
+                    "max_value": 27,
+                    "min_value": 8,
+                    "mean": 14.23076923076923,
+                    "stddev": 5.055900530816917
+                },
+                {
+                    "type": "REAL",
+                    "count": 947,
+                    "max_value": 47.2,
+                    "min_value": 5.49,
+                    "mean": 14.643072861668442,
+                    "stddev": 4.784901671981431
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Full Market Value",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 254,
+            "frequent_values": [
+                "1070000",
+                "1460000",
+                "12300000",
+                "1380000",
+                "3980000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 960,
+                    "max_value": 34500000,
+                    "min_value": 202000,
+                    "mean": 3037308.3333333335,
+                    "stddev": 3998236.8896507127
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Market Value per SqFt",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 173,
+            "frequent_values": [
+                "42.7",
+                "65",
+                "66",
+                "57",
+                "43"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 478,
+                    "max_value": 237,
+                    "min_value": 25,
+                    "mean": 70.78451882845188,
+                    "stddev": 28.351307978628057
+                },
+                {
+                    "type": "REAL",
+                    "count": 482,
+                    "max_value": 49.8,
+                    "min_value": 16.83,
+                    "mean": 37.62827800829881,
+                    "stddev": 7.813605921159316
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 1 \u2013Dist. from Coop in miles",
+            "number_non_empty_cells": 960,
+            "number_empty_cells": 0,
+            "number_distinct_values": 113,
+            "frequent_values": [
+                "0.2",
+                "0.3",
+                "0.35",
+                "0.15",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 60,
+                    "max_value": 8,
+                    "min_value": 0,
+                    "mean": 1.2833333333333334,
+                    "stddev": 1.8716451468041575
+                },
+                {
+                    "type": "REAL",
+                    "count": 900,
+                    "max_value": 9.2,
+                    "min_value": 0.05,
+                    "mean": 1.522666666666667,
+                    "stddev": 1.4006417576715795
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Boro-Block-Lot",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 295,
+            "frequent_values": [
+                "3-08470-1018",
+                "3-05024-0063",
+                "3-07179-0058",
+                "3-05325-0065",
+                "3-05240-0110"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 936,
+                    "shortest_values": [
+                        "3-01089-0061",
+                        "3-05362-0002",
+                        "3-02438-0036",
+                        "3-01250-0060",
+                        "3-06115-0151"
+                    ],
+                    "longest_values": [
+                        "3-01234-0023",
+                        "3-01158-0016",
+                        "3-01178-0075",
+                        "3-00220-0016",
+                        "3-00236-0015"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Address",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 294,
+            "frequent_values": [
+                "5905 STRICKLAND AVENUE\nBrooklyn, NY\n(40.609047457105, -73.914120999897)",
+                "526 FLATBUSH AVENUE\nBrooklyn, NY\n(40.661320254035, -73.961214173092)",
+                "2375 3 STREET\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                "199 2 STREET\nBrooklyn, NY\n(40.676321385053, -73.9887644504)",
+                "1086 OCEAN AVENUE\nBrooklyn, NY\n(40.636118768078, -73.95838719797)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 936,
+                    "shortest_values": [
+                        "199 2 STREET\nBrooklyn, NY\n(40.676321385053, -73.9887644504)",
+                        "36 PLAZA ST\nBrooklyn, NY\n(40.674069569571, -73.97144654162)",
+                        "252 1 STREET\nBrooklyn, NY\n(40.67487164256, -73.98413647011)",
+                        "135 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)",
+                        "202 AVENUE\nBrooklyn, NY\n(42.433188999772, -78.748646000413)"
+                    ],
+                    "longest_values": [
+                        "1159 BRIGHTON BEACH AVENU\nBrooklyn, NY\n(40.577559622249, -73.955160307605)",
+                        "8831 FT HAMILTON PARKWAY\nBrooklyn, NY\n(40.619188475173, -74.025517745718)",
+                        "8829 FT HAMILTON PARKWAY\nBrooklyn, NY\n(40.619199405119, -74.025508438186)",
+                        "463 PENNSYLVANIA AVENUE\nBrooklyn, NY\n(40.665967661395, -73.894322485706)",
+                        "3047 BRIGHTON 13 STREET\nBrooklyn, NY\n(40.579359485036, -73.955902832961)"
+                    ],
+                    "average_length": 66.25106837606837
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Neighborhood",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 44,
+            "frequent_values": [
+                "MILL BASIN",
+                "CROWN HEIGHTS",
+                "BAY RIDGE",
+                "FLATBUSH-LEFFERTS GARDEN",
+                "OCEAN PARKWAY-SOUTH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 936,
+                    "shortest_values": [
+                        "GOWANUS",
+                        "MIDWOOD",
+                        "MADISON",
+                        "BUSHWICK",
+                        "BAY RIDGE"
+                    ],
+                    "longest_values": [
+                        "FLATBUSH-LEFFERTS GARDEN",
+                        "DOWNTOWN-FULTON FERRY",
+                        "DOWNTOWN-FULTON MALL",
+                        "OCEAN PARKWAY-NORTH",
+                        "OCEAN PARKWAY-SOUTH"
+                    ],
+                    "average_length": 13.676282051282051
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Building Classification",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "C1-WALK-UP",
+                "D1-ELEVATOR",
+                "D9-ELEVATOR",
+                "D7-ELEVATOR",
+                "D5-ELEVATOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 936,
+                    "shortest_values": [
+                        "C1-WALK-UP",
+                        "C5-WALK-UP",
+                        "C9-WALK-UP",
+                        "C7-WALK-UP",
+                        "C4-WALK-UP"
+                    ],
+                    "longest_values": [
+                        "D5-ELEVATOR",
+                        "D3-ELEVATOR",
+                        "D6-ELEVATOR",
+                        "D7-ELEVATOR",
+                        "D2-ELEVATOR"
+                    ],
+                    "average_length": 10.583333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Total Units",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 103,
+            "frequent_values": [
+                "16",
+                "98",
+                "48",
+                "20",
+                "135"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 936,
+                    "max_value": 780,
+                    "min_value": 11,
+                    "mean": 70.35149572649573,
+                    "stddev": 72.71720600411456
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Year Built",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 64,
+            "frequent_values": [
+                "1931",
+                "2000",
+                "1920",
+                "1930",
+                "1905"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 936,
+                    "max_value": 2004,
+                    "min_value": 1900,
+                    "mean": 1942.1100427350427,
+                    "stddev": 30.034411631484602
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Gross SqFt",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 275,
+            "frequent_values": [
+                "107569",
+                "7596",
+                "112320",
+                "49800",
+                "37500"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 936,
+                    "max_value": 537200,
+                    "min_value": 5541,
+                    "mean": 67463.30555555556,
+                    "stddev": 73560.79371169295
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Est. Gross Income",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 292,
+            "frequent_values": [
+                "4433111",
+                "127812",
+                "1476059",
+                "316318",
+                "310733"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 936,
+                    "max_value": 5910919,
+                    "min_value": 70590,
+                    "mean": 1317951.7873931625,
+                    "stddev": 1556593.2364103922
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Gross Income per SqFt",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 260,
+            "frequent_values": [
+                "41.2",
+                "16.83",
+                "13.14",
+                "6.35",
+                "15.22"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14,
+                    "max_value": 18,
+                    "min_value": 9,
+                    "mean": 15.071428571428571,
+                    "stddev": 3.3050672289312217
+                },
+                {
+                    "type": "REAL",
+                    "count": 922,
+                    "max_value": 41.2,
+                    "min_value": 5.96,
+                    "mean": 18.189696312364454,
+                    "stddev": 10.354136132424182
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Full Market Value",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 248,
+            "frequent_values": [
+                "22300000",
+                "520000",
+                "5550000",
+                "1020000",
+                "971000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 936,
+                    "max_value": 22300000,
+                    "min_value": 220000,
+                    "mean": 5617731.837606838,
+                    "stddev": 7438214.145107264
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Market Value per SqFt",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 162,
+            "frequent_values": [
+                "207",
+                "68",
+                "49.4",
+                "64",
+                "63"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 573,
+                    "max_value": 207,
+                    "min_value": 25,
+                    "mean": 101.25305410122164,
+                    "stddev": 61.212106662132314
+                },
+                {
+                    "type": "REAL",
+                    "count": 363,
+                    "max_value": 49.6,
+                    "min_value": 18.33,
+                    "mean": 36.26314049586775,
+                    "stddev": 8.990858568328608
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL \u2013 2 \u2013Dist. from Coop in miles",
+            "number_non_empty_cells": 936,
+            "number_empty_cells": 24,
+            "number_distinct_values": 117,
+            "frequent_values": [
+                "0.45",
+                "0.3",
+                "0.35",
+                "0.25",
+                "0.15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 69,
+                    "max_value": 8,
+                    "min_value": 0,
+                    "mean": 1.7826086956521738,
+                    "stddev": 1.56843469663405
+                },
+                {
+                    "type": "REAL",
+                    "count": 867,
+                    "max_value": 8.8,
+                    "min_value": 0.05,
+                    "mean": 1.784890426758939,
+                    "stddev": 1.5969900554257235
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "BROOKLYN \u2013 COOPERATIVES COMPARABLE PROPERTIES \u2013 Boro-Block-Lot"
+    ]
+}

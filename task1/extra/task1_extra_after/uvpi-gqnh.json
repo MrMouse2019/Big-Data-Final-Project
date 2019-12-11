@@ -1,0 +1,1205 @@
+{
+    "dataset_name": "uvpi-gqnh",
+    "columns": [
+        {
+            "column_name": "tree_id",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 683788,
+            "frequent_values": [
+                "585188",
+                "6439",
+                "447883",
+                "690779",
+                "624626"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 722694,
+                    "min_value": 3,
+                    "mean": 365205.01108530717,
+                    "stddev": 208121.9407190816
+                }
+            ]
+        },
+        {
+            "column_name": "block_id",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 101390,
+            "frequent_values": [
+                "204850",
+                "602362",
+                "208115",
+                "506756",
+                "233208"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 999999,
+                    "min_value": 100002,
+                    "mean": 313793.0962359679,
+                    "stddev": 114838.94033943793
+                }
+            ]
+        },
+        {
+            "column_name": "created_at",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 483,
+            "frequent_values": [
+                "10/27/2015",
+                "10/13/2015",
+                "10/26/2015",
+                "10/29/2015",
+                "10/15/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 683788,
+                    "max_value": "2016-10-05 00:00:00",
+                    "min_value": "2015-05-19 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "tree_dbh",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 146,
+            "frequent_values": [
+                "4",
+                "3",
+                "2",
+                "5",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 450,
+                    "min_value": 0,
+                    "mean": 11.27978701000895,
+                    "stddev": 8.723035890083464
+                }
+            ]
+        },
+        {
+            "column_name": "stump_diam",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "0",
+                "4",
+                "5",
+                "3",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 140,
+                    "min_value": 0,
+                    "mean": 0.43246298560372515,
+                    "stddev": 3.290238334295326
+                }
+            ]
+        },
+        {
+            "column_name": "curb_loc",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "OnCurb",
+                "OffsetFromCurb"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "OnCurb",
+                        "OffsetFromCurb"
+                    ],
+                    "longest_values": [
+                        "OffsetFromCurb",
+                        "OnCurb"
+                    ],
+                    "average_length": 6.31462383077796
+                }
+            ]
+        },
+        {
+            "column_name": "status",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Alive",
+                "Stump",
+                "Dead"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "Dead",
+                        "Alive",
+                        "Stump"
+                    ],
+                    "longest_values": [
+                        "Stump",
+                        "Alive",
+                        "Dead"
+                    ],
+                    "average_length": 4.979582853165016
+                }
+            ]
+        },
+        {
+            "column_name": "health",
+            "number_non_empty_cells": 652172,
+            "number_empty_cells": 31616,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Good",
+                "Fair",
+                "Poor"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652172,
+                    "shortest_values": [
+                        "Fair",
+                        "Good",
+                        "Poor"
+                    ],
+                    "longest_values": [
+                        "Poor",
+                        "Good",
+                        "Fair"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "spc_latin",
+            "number_non_empty_cells": 652169,
+            "number_empty_cells": 31619,
+            "number_distinct_values": 132,
+            "frequent_values": [
+                "Platanus x acerifolia",
+                "Gleditsia triacanthos var. inermis",
+                "Pyrus calleryana",
+                "Quercus palustris",
+                "Acer platanoides"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652169,
+                    "shortest_values": [
+                        "Acer",
+                        "Ilex",
+                        "Pinus",
+                        "Picea",
+                        "Malus"
+                    ],
+                    "longest_values": [
+                        "Gleditsia triacanthos var. inermis",
+                        "Crataegus crusgalli var. inermis",
+                        "Acer platanoides 'Crimson King'",
+                        "Metasequoia glyptostroboides",
+                        "Cercidiphyllum japonicum"
+                    ],
+                    "average_length": 18.051819390372742
+                }
+            ]
+        },
+        {
+            "column_name": "spc_common",
+            "number_non_empty_cells": 652169,
+            "number_empty_cells": 31619,
+            "number_distinct_values": 132,
+            "frequent_values": [
+                "London planetree",
+                "honeylocust",
+                "Callery pear",
+                "pin oak",
+                "Norway maple"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652169,
+                    "shortest_values": [
+                        "ash",
+                        "pine",
+                        "maple",
+                        "holly",
+                        "mimosa"
+                    ],
+                    "longest_values": [
+                        "'Schubert' chokecherry",
+                        "two-winged silverbell",
+                        "Atlantic white cedar",
+                        "American hophornbeam",
+                        "Kentucky yellowwood"
+                    ],
+                    "average_length": 11.96883169853213
+                }
+            ]
+        },
+        {
+            "column_name": "steward",
+            "number_non_empty_cells": 652173,
+            "number_empty_cells": 31615,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "None",
+                "1or2",
+                "3or4",
+                "4orMore"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652173,
+                    "shortest_values": [
+                        "None",
+                        "1or2",
+                        "3or4",
+                        "4orMore"
+                    ],
+                    "longest_values": [
+                        "4orMore",
+                        "3or4",
+                        "1or2",
+                        "None"
+                    ],
+                    "average_length": 4.007406010368414
+                }
+            ]
+        },
+        {
+            "column_name": "guards",
+            "number_non_empty_cells": 652172,
+            "number_empty_cells": 31616,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "None",
+                "Helpful",
+                "Harmful",
+                "Unsure"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652172,
+                    "shortest_values": [
+                        "None",
+                        "Unsure",
+                        "Helpful",
+                        "Harmful"
+                    ],
+                    "longest_values": [
+                        "Harmful",
+                        "Helpful",
+                        "Unsure",
+                        "None"
+                    ],
+                    "average_length": 4.35550437614617
+                }
+            ]
+        },
+        {
+            "column_name": "sidewalk",
+            "number_non_empty_cells": 652172,
+            "number_empty_cells": 31616,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "NoDamage",
+                "Damage"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652172,
+                    "shortest_values": [
+                        "Damage",
+                        "NoDamage"
+                    ],
+                    "longest_values": [
+                        "NoDamage",
+                        "Damage"
+                    ],
+                    "average_length": 7.425936716081034
+                }
+            ]
+        },
+        {
+            "column_name": "user_type",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "TreesCount Staff",
+                "Volunteer",
+                "NYC Parks Staff"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "Volunteer",
+                        "NYC Parks Staff",
+                        "TreesCount Staff"
+                    ],
+                    "longest_values": [
+                        "TreesCount Staff",
+                        "NYC Parks Staff",
+                        "Volunteer"
+                    ],
+                    "average_length": 13.52465384007909
+                }
+            ]
+        },
+        {
+            "column_name": "problems",
+            "number_non_empty_cells": 652124,
+            "number_empty_cells": 31664,
+            "number_distinct_values": 232,
+            "frequent_values": [
+                "None",
+                "Stones",
+                "BranchLights",
+                "Stones,BranchLights",
+                "RootOther"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 652124,
+                    "shortest_values": [
+                        "None",
+                        "Stones",
+                        "Sneakers",
+                        "RootOther",
+                        "WiresRope"
+                    ],
+                    "longest_values": [
+                        "Stones,MetalGrates,RootOther,WiresRope,TrunkLights,TrunkOther,BranchLights,Sneakers,BranchOther",
+                        "Stones,MetalGrates,RootOther,WiresRope,TrunkLights,TrunkOther,BranchLights,BranchOther",
+                        "Stones,MetalGrates,WiresRope,TrunkLights,TrunkOther,BranchLights,BranchOther",
+                        "Stones,RootOther,WiresRope,TrunkLights,TrunkOther,BranchLights,BranchOther",
+                        "MetalGrates,RootOther,TrunkLights,TrunkOther,BranchLights,BranchOther"
+                    ],
+                    "average_length": 6.770246149505309
+                }
+            ]
+        },
+        {
+            "column_name": "root_stone",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.204740358122693
+                }
+            ]
+        },
+        {
+            "column_name": "root_grate",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.005171193410823
+                }
+            ]
+        },
+        {
+            "column_name": "root_other",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.04434415345107
+                }
+            ]
+        },
+        {
+            "column_name": "trunk_wire",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0194124494726435
+                }
+            ]
+        },
+        {
+            "column_name": "trnk_light",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0015077772642984
+                }
+            ]
+        },
+        {
+            "column_name": "trnk_other",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.047636109437428
+                }
+            ]
+        },
+        {
+            "column_name": "brch_light",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0912051688535045
+                }
+            ]
+        },
+        {
+            "column_name": "brch_shoe",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0006010634875135
+                }
+            ]
+        },
+        {
+            "column_name": "brch_other",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0356177645703055
+                }
+            ]
+        },
+        {
+            "column_name": "address",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 408701,
+            "frequent_values": [
+                "106 CROSS BAY BOULEVARD",
+                "2 TELEPORT DRIVE",
+                "2350 FOREST HILL ROAD",
+                "900 SOUTH AVENUE",
+                "2750 VETERANS ROAD WEST"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 46,
+                    "max_value": 203,
+                    "min_value": 1,
+                    "mean": 19.304347826086957,
+                    "stddev": 48.18978313385226
+                },
+                {
+                    "type": "TEXT",
+                    "count": 683742,
+                    "shortest_values": [
+                        "2 BOWERY",
+                        "5 BOWERY",
+                        "3 BOWERY",
+                        "9 BOWERY",
+                        "8 BOWERY"
+                    ],
+                    "longest_values": [
+                        "144-044 UNION TURNPIKE EASTBOUND ROADBED",
+                        "222-014 JAMAICA AVENUE EASTBOUND ROADBED",
+                        "144-038 UNION TURNPIKE EASTBOUND ROADBED",
+                        "182-017 JAMAICA AVENUE WESTBOUND ROADBED",
+                        "144-014 UNION TURNPIKE EASTBOUND ROADBED"
+                    ],
+                    "average_length": 18.024133371944387
+                }
+            ]
+        },
+        {
+            "column_name": "postcode",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 191,
+            "frequent_values": [
+                "10312",
+                "10314",
+                "10306",
+                "10309",
+                "11234"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 11697,
+                    "min_value": 83,
+                    "mean": 10916.246044095538,
+                    "stddev": 651.5528871287374
+                }
+            ]
+        },
+        {
+            "column_name": "zip_city",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "Brooklyn",
+                "Staten Island",
+                "Bronx",
+                "New York",
+                "Jamaica"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "Bronx",
+                        "Inwood",
+                        "Hollis",
+                        "Corona",
+                        "Maspeth"
+                    ],
+                    "longest_values": [
+                        "South Richmond Hill",
+                        "Springfield Gardens",
+                        "South Ozone Park",
+                        "Long Island City",
+                        "Cambria Heights"
+                    ],
+                    "average_length": 9.31596050237793
+                }
+            ]
+        },
+        {
+            "column_name": "community board",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "503",
+                "413",
+                "407",
+                "411",
+                "412"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 343.50540372162135,
+                    "stddev": 115.74051596696349
+                }
+            ]
+        },
+        {
+            "column_name": "borocode",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "4",
+                "3",
+                "5",
+                "2",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 3.3585000029248833,
+                    "stddev": 1.1667447470467365
+                }
+            ]
+        },
+        {
+            "column_name": "borough",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Staten Island",
+                "Bronx",
+                "Manhattan"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.759138797405043
+                }
+            ]
+        },
+        {
+            "column_name": "cncldist",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "51",
+                "19",
+                "50",
+                "23",
+                "31"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 29.943181219910265,
+                    "stddev": 14.328520788150705
+                }
+            ]
+        },
+        {
+            "column_name": "st_assem",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "62",
+                "26",
+                "64",
+                "63",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 87,
+                    "min_value": 23,
+                    "mean": 50.791583063756605,
+                    "stddev": 18.96650615387674
+                }
+            ]
+        },
+        {
+            "column_name": "st_senate",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "24",
+                "11",
+                "15",
+                "14",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 36,
+                    "min_value": 10,
+                    "mean": 20.615781499529096,
+                    "stddev": 7.3908384265865665
+                }
+            ]
+        },
+        {
+            "column_name": "nta",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 188,
+            "frequent_values": [
+                "SI01",
+                "SI54",
+                "QN46",
+                "BK82",
+                "SI32"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "QN17",
+                        "BK83",
+                        "BK50",
+                        "BK32",
+                        "MN36"
+                    ],
+                    "longest_values": [
+                        "BX07",
+                        "BK95",
+                        "QN41",
+                        "BK41",
+                        "QN10"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "nta_name",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 188,
+            "frequent_values": [
+                "Annadale-Huguenot-Prince's Bay-Eltingville",
+                "Great Kills",
+                "Bayside-Bayside Hills",
+                "East New York",
+                "Rossville-Woodrow"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Erasmus",
+                        "Astoria",
+                        "Jamaica"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 19.83679736994507
+                }
+            ]
+        },
+        {
+            "column_name": "boro_ct",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2152,
+            "frequent_values": [
+                "5020801",
+                "5017600",
+                "5020803",
+                "5020804",
+                "5019800"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 683788,
+                    "max_value": 5032300,
+                    "min_value": 1000201,
+                    "mean": 3404914.118364171,
+                    "stddev": 1175862.558842142
+                }
+            ]
+        },
+        {
+            "column_name": "state",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "New York"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 683788,
+                    "shortest_values": [
+                        "New York"
+                    ],
+                    "longest_values": [
+                        "New York"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "latitude",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 676080,
+            "frequent_values": [
+                "40.66035938",
+                "40.61097709",
+                "40.61596593",
+                "40.689461",
+                "40.77849693"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 683788,
+                    "max_value": 40.91291831,
+                    "min_value": 40.49846614,
+                    "mean": 40.70126147546683,
+                    "stddev": 0.09031128910501401
+                }
+            ]
+        },
+        {
+            "column_name": "longitude",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 677101,
+            "frequent_values": [
+                "-73.76103529",
+                "-74.15686098",
+                "-73.75274984",
+                "-73.95680062",
+                "-73.79764749"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 683788,
+                    "max_value": -73.70048817,
+                    "min_value": -74.2549647,
+                    "mean": -73.92405951203327,
+                    "stddev": 0.12358336860589467
+                }
+            ]
+        },
+        {
+            "column_name": "x_sp",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 681630,
+            "frequent_values": [
+                "1050549.648",
+                "940697.4014",
+                "996243.4593",
+                "1052818.477",
+                "1040292.358"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 441,
+                    "max_value": 1065815,
+                    "min_value": 924348,
+                    "mean": 1024969.4376417233,
+                    "stddev": 21079.43681562196
+                },
+                {
+                    "type": "REAL",
+                    "count": 683347,
+                    "max_value": 1067247.624,
+                    "min_value": 913349.2661,
+                    "mean": 1005267.1538130409,
+                    "stddev": 34288.25922703749
+                }
+            ]
+        },
+        {
+            "column_name": "y_sp",
+            "number_non_empty_cells": 683788,
+            "number_empty_cells": 0,
+            "number_distinct_values": 682632,
+            "frequent_values": [
+                "179953.5509",
+                "161910.8114",
+                "190562.4395",
+                "163692.3397",
+                "222968.9875"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71,
+                    "max_value": 266909,
+                    "min_value": 123539,
+                    "mean": 194014.4084507042,
+                    "stddev": 34541.96520322452
+                },
+                {
+                    "type": "REAL",
+                    "count": 683717,
+                    "max_value": 271894.0921,
+                    "min_value": 120973.7922,
+                    "mean": 194798.5060403207,
+                    "stddev": 32901.86154410636
+                }
+            ]
+        },
+        {
+            "column_name": "council district",
+            "number_non_empty_cells": 677269,
+            "number_empty_cells": 6519,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "51",
+                "19",
+                "50",
+                "23",
+                "31"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 677269,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 30.02733035175093,
+                    "stddev": 14.301705963651196
+                }
+            ]
+        },
+        {
+            "column_name": "census tract",
+            "number_non_empty_cells": 677269,
+            "number_empty_cells": 6519,
+            "number_distinct_values": 1315,
+            "frequent_values": [
+                "20801",
+                "176",
+                "198",
+                "138",
+                "226"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 677269,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 11957.368422296015,
+                    "stddev": 30745.717112885228
+                }
+            ]
+        },
+        {
+            "column_name": "bin",
+            "number_non_empty_cells": 674229,
+            "number_empty_cells": 9559,
+            "number_distinct_values": 378888,
+            "frequent_values": [
+                "4000000",
+                "3000000",
+                "2000000",
+                "5000000",
+                "4315089"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 674229,
+                    "max_value": 5515124,
+                    "min_value": 1000000,
+                    "mean": 3495439.0063153617,
+                    "stddev": 1193274.0753640374
+                }
+            ]
+        },
+        {
+            "column_name": "bbl",
+            "number_non_empty_cells": 674229,
+            "number_empty_cells": 9559,
+            "number_distinct_values": 366635,
+            "frequent_values": [
+                "2051410120",
+                "4153750020",
+                "1009720001",
+                "2049050001",
+                "1009780001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 674229,
+                    "max_value": 5080500094,
+                    "min_value": 0,
+                    "mean": 3413413626.228289,
+                    "stddev": 1174891172.8205578
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "tree_id"
+    ]
+}

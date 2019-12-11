@@ -1,0 +1,1329 @@
+{
+    "dataset_name": "9s68-zggy",
+    "columns": [
+        {
+            "column_name": "ENTITY NAME",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 109,
+            "frequent_values": [
+                "PARK CONSTRUCTION",
+                "S&E BRIDGE & SCAFFOLD LLC",
+                "URBAN PRECAST",
+                "PREET & B CONSTRUCTION CORP",
+                "DEMAR PLUMBING"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 114,
+                    "shortest_values": [
+                        "MEMCO",
+                        "RGB GROUP",
+                        "FINE LINE",
+                        "APEC CORP",
+                        "GOLD GROUP"
+                    ],
+                    "longest_values": [
+                        "METALPRO CUSTOM CONSTRUCTION AND RAILING LLC",
+                        "RAMDEEN ELECTRICAL CONTRACTING CORPORATION",
+                        "ATLANTIC REINFORCING CONCRETE CO., INC.",
+                        "ROZ-A-LITE ELECTRICAL CONTRACTING INC.",
+                        "MILLENNIUM ELEVATOR ENTERPRISES INC."
+                    ],
+                    "average_length": 21.55263157894737
+                }
+            ]
+        },
+        {
+            "column_name": "ENTITY ROLE",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Sub-Contractor",
+                "Contractor",
+                "ADMIN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 114,
+                    "shortest_values": [
+                        "ADMIN",
+                        "Contractor",
+                        "Sub-Contractor"
+                    ],
+                    "longest_values": [
+                        "Sub-Contractor",
+                        "Contractor",
+                        "ADMIN"
+                    ],
+                    "average_length": 13.421052631578947
+                }
+            ]
+        },
+        {
+            "column_name": "STREET ADDRESS",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 108,
+            "frequent_values": [
+                "248 50th Street",
+                "6 Kieffer Lane",
+                "147 Attorney Street",
+                "700 Commerical Avenue",
+                "1836 Gilford Ave"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 114,
+                    "shortest_values": [
+                        "202 Elm St.",
+                        "6 Cedar Road",
+                        "1119 38th St",
+                        "5521 43rd St",
+                        "14 Burt Drive"
+                    ],
+                    "longest_values": [
+                        "27 West 20th Street, Suite 1205",
+                        "734 South Columbus Avenue",
+                        "425 Northern Blvd, Ste 27",
+                        "1280 Sawmill River Road",
+                        "130-01 JAMAICA  Avenue"
+                    ],
+                    "average_length": 17.666666666666668
+                }
+            ]
+        },
+        {
+            "column_name": "SUITE/APARTMENT NUMBER",
+            "number_non_empty_cells": 15,
+            "number_empty_cells": 99,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "Suite 103",
+                "3rd Floor",
+                "SUITE 4N",
+                "Sute G",
+                "Suite 1701"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 4002,
+                    "min_value": 1,
+                    "mean": 1468.0,
+                    "stddev": 1799.2344668404578
+                },
+                {
+                    "type": "TEXT",
+                    "count": 12,
+                    "shortest_values": [
+                        "2E",
+                        "A22",
+                        "Ste 5",
+                        "Sute G",
+                        "Suite 2"
+                    ],
+                    "longest_values": [
+                        "Suite 1701",
+                        "Suite 103",
+                        "Suite 311",
+                        "2nd Floor",
+                        "3rd Floor"
+                    ],
+                    "average_length": 7.083333333333333
+                }
+            ]
+        },
+        {
+            "column_name": "CITY",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "Brooklyn",
+                "New York",
+                "Bronx",
+                "Maspeth",
+                "Richmond Hill"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 114,
+                    "shortest_values": [
+                        "UNION",
+                        "BRONX",
+                        "Wayne",
+                        "Bronx",
+                        "Lowell"
+                    ],
+                    "longest_values": [
+                        "Port Jefferson Station",
+                        "Huntington Station",
+                        "Long island City",
+                        "Franklin Square",
+                        "Roslyn Heights"
+                    ],
+                    "average_length": 8.93859649122807
+                }
+            ]
+        },
+        {
+            "column_name": "STATE",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "NEW YORK",
+                "NEW JERSEY",
+                "VIRGINIA",
+                "CALIFORNIA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 114,
+                    "shortest_values": [
+                        "NEW YORK",
+                        "VIRGINIA",
+                        "NEW JERSEY",
+                        "CALIFORNIA"
+                    ],
+                    "longest_values": [
+                        "CALIFORNIA",
+                        "NEW JERSEY",
+                        "VIRGINIA",
+                        "NEW YORK"
+                    ],
+                    "average_length": 8.087719298245615
+                }
+            ]
+        },
+        {
+            "column_name": "POSTCODE",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 83,
+            "frequent_values": [
+                "11378",
+                "11385",
+                "10001",
+                "10040",
+                "11222"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 114,
+                    "max_value": 111232,
+                    "min_value": 1851,
+                    "mean": 12366.447368421053,
+                    "stddev": 12092.593503181806
+                }
+            ]
+        },
+        {
+            "column_name": "COUNTRY",
+            "number_non_empty_cells": 114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "USA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 114,
+                    "shortest_values": [
+                        "USA"
+                    ],
+                    "longest_values": [
+                        "USA"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER FIRST NAME",
+            "number_non_empty_cells": 113,
+            "number_empty_cells": 1,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "Mario",
+                "Robert",
+                "John",
+                "David",
+                "Angel"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 113,
+                    "shortest_values": [
+                        "Tom",
+                        "Ron",
+                        "Ian",
+                        "Dov",
+                        "Kia"
+                    ],
+                    "longest_values": [
+                        "Marvellous",
+                        "Alessandra",
+                        "Jin Xiang",
+                        "Christian",
+                        "Simranpal"
+                    ],
+                    "average_length": 5.424778761061947
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER LAST NAME",
+            "number_non_empty_cells": 113,
+            "number_empty_cells": 1,
+            "number_distinct_values": 98,
+            "frequent_values": [
+                "Procida",
+                "Singh",
+                "Gardner",
+                "Cerrone",
+                "Coen"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 113,
+                    "shortest_values": [
+                        "-",
+                        "Ali",
+                        "Chi",
+                        "Rad",
+                        "Paja"
+                    ],
+                    "longest_values": [
+                        "Vandalovsky",
+                        "Alves Rocha",
+                        "Michilovich",
+                        "Weingarten",
+                        "Tortorella"
+                    ],
+                    "average_length": 6.68141592920354
+                }
+            ]
+        },
+        {
+            "column_name": "Individual\u2019s Role",
+            "number_non_empty_cells": 113,
+            "number_empty_cells": 1,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Owner",
+                "Officer",
+                "Both"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 113,
+                    "shortest_values": [
+                        "Both",
+                        "Owner",
+                        "Officer"
+                    ],
+                    "longest_values": [
+                        "Officer",
+                        "Owner",
+                        "Both"
+                    ],
+                    "average_length": 5.592920353982301
+                }
+            ]
+        },
+        {
+            "column_name": "Individual\u2019s Title",
+            "number_non_empty_cells": 110,
+            "number_empty_cells": 4,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "President",
+                "Owner",
+                "Manager",
+                "pres",
+                "PRESIDENT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 110,
+                    "shortest_values": [
+                        "VP",
+                        "CEO",
+                        "pres",
+                        "Pres",
+                        "Owner"
+                    ],
+                    "longest_values": [
+                        "Administrative Assistant",
+                        "Secretary Treasurer",
+                        "Vice President/GM",
+                        "Vice President",
+                        "executive"
+                    ],
+                    "average_length": 7.918181818181818
+                }
+            ]
+        },
+        {
+            "column_name": "Officer Equivalent",
+            "number_non_empty_cells": 22,
+            "number_empty_cells": 92,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Chief Executive Officer",
+                "Chief Financial Officer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22,
+                    "shortest_values": [
+                        "Chief Executive Officer",
+                        "Chief Financial Officer"
+                    ],
+                    "longest_values": [
+                        "Chief Financial Officer",
+                        "Chief Executive Officer"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_2_FIRST_NAME",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 49,
+            "number_distinct_values": 54,
+            "frequent_values": [
+                "Mario",
+                "Malkiat",
+                "Thomas",
+                "Ian",
+                "William"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65,
+                    "shortest_values": [
+                        "Ann",
+                        "Ian",
+                        "Joe",
+                        "Mark",
+                        "Mier"
+                    ],
+                    "longest_values": [
+                        "Marvellous",
+                        "ATHANASIOS",
+                        "Alexander",
+                        "CATHERINE",
+                        "Danielle"
+                    ],
+                    "average_length": 5.6923076923076925
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_2_LAST_NAME",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 49,
+            "number_distinct_values": 57,
+            "frequent_values": [
+                "Procida",
+                "Singh",
+                "Younge",
+                "Ariza",
+                "Auringer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65,
+                    "shortest_values": [
+                        "-",
+                        "Ali",
+                        "RAD",
+                        "Susi",
+                        "Shaw"
+                    ],
+                    "longest_values": [
+                        "Stiglianese",
+                        "Alves Rocha",
+                        "Flanchraych",
+                        "Papadoplous",
+                        "McDonnell"
+                    ],
+                    "average_length": 6.476923076923077
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_ROLE_2",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 49,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Owner",
+                "Officer",
+                "Both"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65,
+                    "shortest_values": [
+                        "Both",
+                        "Owner",
+                        "Officer"
+                    ],
+                    "longest_values": [
+                        "Officer",
+                        "Owner",
+                        "Both"
+                    ],
+                    "average_length": 5.384615384615385
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_TITLE_2",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 50,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "President",
+                "Owner",
+                "Manager",
+                "VICE PRESIDENT",
+                "president"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 64,
+                    "shortest_values": [
+                        "COO",
+                        "Pres",
+                        "pres",
+                        "Owner",
+                        "Member"
+                    ],
+                    "longest_values": [
+                        "Project Executive",
+                        "Managing Officer",
+                        "VP of operations",
+                        "Managing Member",
+                        "VICE PRESIDENT"
+                    ],
+                    "average_length": 8.640625
+                }
+            ]
+        },
+        {
+            "column_name": "OFFICER_EQUIVALENT_2",
+            "number_non_empty_cells": 15,
+            "number_empty_cells": 99,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Chief Executive Officer",
+                "Chief Operating Officer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15,
+                    "shortest_values": [
+                        "Chief Executive Officer",
+                        "Chief Operating Officer"
+                    ],
+                    "longest_values": [
+                        "Chief Operating Officer",
+                        "Chief Executive Officer"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_3_FIRST_NAME",
+            "number_non_empty_cells": 36,
+            "number_empty_cells": 78,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "Jacob",
+                "Tony",
+                "Thomas",
+                "Cathy",
+                "John"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36,
+                    "shortest_values": [
+                        "Ian",
+                        "Kia",
+                        "Joe",
+                        "Rich",
+                        "Tony"
+                    ],
+                    "longest_values": [
+                        "ATHANASIOS",
+                        "Simranpal",
+                        "Catherine",
+                        "Robinson",
+                        "Nicholas"
+                    ],
+                    "average_length": 5.5
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_3_LAST_NAME",
+            "number_non_empty_cells": 36,
+            "number_empty_cells": 78,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "Singh",
+                "Auringer",
+                "Younge",
+                "Marvellous",
+                "Tonyes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36,
+                    "shortest_values": [
+                        "Rad",
+                        "Susi",
+                        "SUIN",
+                        "Gatto",
+                        "Reyes"
+                    ],
+                    "longest_values": [
+                        "Marvellous",
+                        "McDonnell",
+                        "ZERVOUDIS",
+                        "Ferguson",
+                        "Auringer"
+                    ],
+                    "average_length": 6.416666666666667
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_ROLE_3",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 79,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Owner",
+                "Both",
+                "Officer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35,
+                    "shortest_values": [
+                        "Both",
+                        "Owner",
+                        "Officer"
+                    ],
+                    "longest_values": [
+                        "Officer",
+                        "Owner",
+                        "Both"
+                    ],
+                    "average_length": 5.2
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_TITLE_3",
+            "number_non_empty_cells": 36,
+            "number_empty_cells": 78,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "President",
+                "president",
+                "Owner",
+                "CEO",
+                "PRESIDENT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36,
+                    "shortest_values": [
+                        "CEO",
+                        "Pres",
+                        "Owner",
+                        "Admin",
+                        "Manager"
+                    ],
+                    "longest_values": [
+                        "VP Operations",
+                        "PRESIDENT",
+                        "president",
+                        "President",
+                        "Unknown"
+                    ],
+                    "average_length": 7.861111111111111
+                }
+            ]
+        },
+        {
+            "column_name": "OFFICER_EQUIVALENT_3",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 108,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Chief Executive Officer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "Chief Executive Officer"
+                    ],
+                    "longest_values": [
+                        "Chief Executive Officer"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_4_FIRST_NAME",
+            "number_non_empty_cells": 19,
+            "number_empty_cells": 95,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Dave",
+                "Wuilson",
+                "Robert",
+                "Ian",
+                "ALEX"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19,
+                    "shortest_values": [
+                        "Ed",
+                        "Ian",
+                        "Dov",
+                        "Kia",
+                        "ALEX"
+                    ],
+                    "longest_values": [
+                        "Christopher",
+                        "Nicholas",
+                        "Richard",
+                        "Wuilson",
+                        "Alexis"
+                    ],
+                    "average_length": 5.157894736842105
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_4_LAST_NAME",
+            "number_non_empty_cells": 19,
+            "number_empty_cells": 95,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Auringer",
+                "Suin",
+                "VIGARIO",
+                "Pulido",
+                "Dowling"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19,
+                    "shortest_values": [
+                        "Ngai",
+                        "Suin",
+                        "Gjini",
+                        "Singh",
+                        "Notias"
+                    ],
+                    "longest_values": [
+                        "Michilovich",
+                        "Marvellous",
+                        "Auringer",
+                        "Loughran",
+                        "Moriarty"
+                    ],
+                    "average_length": 6.947368421052632
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_ROLE_4",
+            "number_non_empty_cells": 19,
+            "number_empty_cells": 95,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Owner",
+                "Officer",
+                "Both"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19,
+                    "shortest_values": [
+                        "Both",
+                        "Owner",
+                        "Officer"
+                    ],
+                    "longest_values": [
+                        "Officer",
+                        "Owner",
+                        "Both"
+                    ],
+                    "average_length": 5.315789473684211
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_TITLE_4",
+            "number_non_empty_cells": 19,
+            "number_empty_cells": 95,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "President",
+                "PRESIDENT",
+                "pres",
+                "Project Manager",
+                "president"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19,
+                    "shortest_values": [
+                        "pres",
+                        "Owner",
+                        "Unknown",
+                        "Officer",
+                        "PRESIDENT"
+                    ],
+                    "longest_values": [
+                        "Project Manager",
+                        "Account Payable",
+                        "Vice President",
+                        "Co-President",
+                        "president"
+                    ],
+                    "average_length": 9.368421052631579
+                }
+            ]
+        },
+        {
+            "column_name": "OFFICER_EQUIVALENT_4",
+            "number_non_empty_cells": 1,
+            "number_empty_cells": 113,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Chief Executive Officer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "Chief Executive Officer"
+                    ],
+                    "longest_values": [
+                        "Chief Executive Officer"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_5_FIRST_NAME",
+            "number_non_empty_cells": 14,
+            "number_empty_cells": 100,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Jamie",
+                "Alexander",
+                "Wuilson",
+                "Barbara",
+                "Beth"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14,
+                    "shortest_values": [
+                        "Kia",
+                        "Ian",
+                        "Beth",
+                        "Chris",
+                        "Jacob"
+                    ],
+                    "longest_values": [
+                        "NYC Crane Hoist",
+                        "ATHANASIOS",
+                        "Alexander",
+                        "Simranpal",
+                        "Barbara"
+                    ],
+                    "average_length": 6.642857142857143
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER/OFFICER_5_LAST_NAME",
+            "number_non_empty_cells": 12,
+            "number_empty_cells": 102,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Suin",
+                "Lucignano",
+                "Dowling",
+                "AMAXAS",
+                "Singh"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12,
+                    "shortest_values": [
+                        "Suin",
+                        "Ginis",
+                        "Singh",
+                        "Kenny",
+                        "AMAXAS"
+                    ],
+                    "longest_values": [
+                        "Lucignano",
+                        "Moriarty",
+                        "Rigging",
+                        "Vigario",
+                        "Aminian"
+                    ],
+                    "average_length": 6.333333333333333
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_ROLE_5",
+            "number_non_empty_cells": 14,
+            "number_empty_cells": 100,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Both",
+                "Officer",
+                "Owner"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14,
+                    "shortest_values": [
+                        "Both",
+                        "Owner",
+                        "Officer"
+                    ],
+                    "longest_values": [
+                        "Officer",
+                        "Owner",
+                        "Both"
+                    ],
+                    "average_length": 4.857142857142857
+                }
+            ]
+        },
+        {
+            "column_name": "INDIVIDUAL_TITLE_5",
+            "number_non_empty_cells": 14,
+            "number_empty_cells": 100,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "President",
+                "president",
+                "Presisdent",
+                "Pres",
+                "Admin"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14,
+                    "shortest_values": [
+                        "Pres",
+                        "Owner",
+                        "Admin",
+                        "President",
+                        "president"
+                    ],
+                    "longest_values": [
+                        "Vice President",
+                        "Presisdent",
+                        "president",
+                        "President",
+                        "Admin"
+                    ],
+                    "average_length": 8.5
+                }
+            ]
+        },
+        {
+            "column_name": "OFFICER_EQUIVALENT_5",
+            "number_non_empty_cells": 3,
+            "number_empty_cells": 111,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Chief Executive Officer"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3,
+                    "shortest_values": [
+                        "Chief Executive Officer"
+                    ],
+                    "longest_values": [
+                        "Chief Executive Officer"
+                    ],
+                    "average_length": 23.0
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 75,
+            "number_empty_cells": 39,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Manhattan",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 75,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.04
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 10,
+            "number_distinct_values": 63,
+            "frequent_values": [
+                "Not Found",
+                "4228716",
+                "1004280",
+                "3013149",
+                "2005661"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 5044496,
+                    "min_value": 1004280,
+                    "mean": 3128604.8,
+                    "stddev": 1171171.966620592
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 104,
+            "number_empty_cells": 10,
+            "number_distinct_values": 63,
+            "frequent_values": [
+                "Not Found",
+                "3007890026",
+                "4106730008",
+                "1003500073",
+                "3007350050"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 5030120028,
+                    "min_value": 1003500073,
+                    "mean": 3034319688.9846153,
+                    "stddev": 1108148363.348841
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITY BOARD",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 7,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Not Found",
+                "5",
+                "2",
+                "7",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 68,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 6.264705882352941,
+                    "stddev": 3.976466237380147
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "COUNCIL DISTRICT",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 7,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "Not Found",
+                "30",
+                "38",
+                "3",
+                "19"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 68,
+                    "max_value": 49,
+                    "min_value": 2,
+                    "mean": 25.88235294117647,
+                    "stddev": 12.445799447019564
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "CENSUS TRACT",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 7,
+            "number_distinct_values": 57,
+            "frequent_values": [
+                "Not Found",
+                "205",
+                "907",
+                "2201",
+                "76"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 68,
+                    "max_value": 50803,
+                    "min_value": 1,
+                    "mean": 1809.3823529411766,
+                    "stddev": 6686.253690418107
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 7,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "Not Found",
+                "QN31",
+                "QN54",
+                "BK32",
+                "QN23"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 107,
+                    "shortest_values": [
+                        "QN49",
+                        "QN55",
+                        "MN22",
+                        "BK85",
+                        "BX27"
+                    ],
+                    "longest_values": [
+                        "Not Found",
+                        "BK68",
+                        "MN21",
+                        "QN70",
+                        "MN13"
+                    ],
+                    "average_length": 5.822429906542056
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 7,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "Not Found",
+                "40.720216",
+                "40.648429",
+                "40.72651",
+                "40.831459"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 68,
+                    "max_value": 40.879387,
+                    "min_value": 40.589168,
+                    "mean": 40.72514975,
+                    "stddev": 0.06122223987374286
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 107,
+            "number_empty_cells": 7,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "Not Found",
+                "-73.750644",
+                "-74.015853",
+                "-73.983532",
+                "-73.992021"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 68,
+                    "max_value": -73.750644,
+                    "min_value": -74.074326,
+                    "mean": -73.91766120588238,
+                    "stddev": 0.07058265746408915
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "Not Found"
+                    ],
+                    "longest_values": [
+                        "Not Found"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "ENTITY NAME",
+        "ENTITY ROLE"
+    ]
+}

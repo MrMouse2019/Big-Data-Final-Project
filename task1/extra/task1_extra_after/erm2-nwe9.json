@@ -1,0 +1,1349 @@
+{
+    "dataset_name": "erm2-nwe9",
+    "columns": [
+        {
+            "column_name": "Unique Key",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21567635,
+            "frequent_values": [
+                "16002379",
+                "24094823",
+                "23764345",
+                "18921465",
+                "24435417"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21567635,
+                    "max_value": 43905040,
+                    "min_value": 10564222,
+                    "mean": 30708781.444507986,
+                    "stddev": 7841427.736619461
+                }
+            ]
+        },
+        {
+            "column_name": "Created Date",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14120682,
+            "frequent_values": [
+                "01/24/2013 12:00:00 AM",
+                "01/08/2015 12:00:00 AM",
+                "01/07/2014 12:00:00 AM",
+                "02/16/2015 12:00:00 AM",
+                "01/08/2014 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 21567635,
+                    "max_value": "2019-09-27 01:59:50",
+                    "min_value": "2010-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Closed Date",
+            "number_non_empty_cells": 20940891,
+            "number_empty_cells": 626744,
+            "number_distinct_values": 8800481,
+            "frequent_values": [
+                "11/07/2012 12:00:00 AM",
+                "12/09/2010 12:00:00 AM",
+                "11/28/2011 12:00:00 AM",
+                "01/06/2014 12:00:00 AM",
+                "01/01/1900 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 20940891,
+                    "max_value": "3027-03-30 00:00:00",
+                    "min_value": "1899-12-31 19:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "HPD",
+                "NYPD",
+                "DOT",
+                "DSNY",
+                "DEP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "HPD",
+                        "MOC",
+                        "CEO",
+                        "TAT",
+                        "ACS"
+                    ],
+                    "longest_values": [
+                        "DOHMH",
+                        "DOITT",
+                        "NYCEM",
+                        "3-1-1",
+                        "DORIS"
+                    ],
+                    "average_length": 3.3798489727779613
+                }
+            ]
+        },
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1933,
+            "frequent_values": [
+                "Department of Housing Preservation and Development",
+                "New York City Police Department",
+                "Department of Transportation",
+                "Department of Environmental Protection",
+                "Department of Buildings"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "DCA",
+                        "TLC",
+                        "DOT",
+                        "DOE",
+                        "DPR"
+                    ],
+                    "longest_values": [
+                        "School - NYC Charter High School for Architecture, Engineering, and Construction Industries (AECI)",
+                        "School - Science Skills Center High School for Science, Technology, and the Creative Arts",
+                        "School - Academy for College Preparation and Career Exploration: A College Board School",
+                        "School - City Polytechnic High School of Engineering, Architecture, and Technology",
+                        "School - Knowledge and Power Preparatory Academy International High School (Kappa)"
+                    ],
+                    "average_length": 34.98782063958334
+                }
+            ]
+        },
+        {
+            "column_name": "Complaint Type",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 434,
+            "frequent_values": [
+                "Noise - Residential",
+                "HEAT/HOT WATER",
+                "Street Condition",
+                "Street Light Condition",
+                "HEATING"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "CST",
+                        "ATF",
+                        "FHE",
+                        "SNW",
+                        "Lead"
+                    ],
+                    "longest_values": [
+                        "DCA / DOH New License Application Request",
+                        "Special Projects Inspection Team (SPIT)",
+                        "Home Delivered Meal - Missed Delivery",
+                        "Special Natural Area District (SNAD)",
+                        "Request Large Bulky Item Collection"
+                    ],
+                    "average_length": 16.322517281101984
+                }
+            ]
+        },
+        {
+            "column_name": "Descriptor",
+            "number_non_empty_cells": 21329764,
+            "number_empty_cells": 237871,
+            "number_distinct_values": 1658,
+            "frequent_values": [
+                "Loud Music/Party",
+                "HEAT",
+                "ENTIRE BUILDING",
+                "Street Light Out",
+                "No Access"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21329764,
+                    "shortest_values": [
+                        "Dog",
+                        "GAS",
+                        "Bag",
+                        "APS",
+                        "Cat"
+                    ],
+                    "longest_values": [
+                        "SOAP segment *FOR DEP INTERNAL USE ONLY* (SOAP)  Recurring after SOAP *FOR DEP INTERNAL USE ONLY* (SRAS)",
+                        "Safety Netting/Guard Rails - Damaged/Inadequate/None (6 Stories/75 Feet Or Less)",
+                        "Safety Netting/Guard Rails - Damaged/Inadequate/None (Over 6 Stories/75 Feet)",
+                        "OTHER INDUSTRIAL WASTE PROBLEM (USE COMMENTS) FOR DEP INTERNAL USE ONLY (IZ)",
+                        "BUILDING COLLAPSE/FIRE, (ASBESTOS RELATED) *FOR DEP INTERNAL USE ONLY* (HH2)"
+                    ],
+                    "average_length": 17.599604711988373
+                }
+            ]
+        },
+        {
+            "column_name": "Location Type",
+            "number_non_empty_cells": 16202922,
+            "number_empty_cells": 5364713,
+            "number_distinct_values": 170,
+            "frequent_values": [
+                "RESIDENTIAL BUILDING",
+                "Street/Sidewalk",
+                "Street",
+                "Residential Building/House",
+                "Sidewalk"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 16202922,
+                    "shortest_values": [
+                        "Lot",
+                        "Home",
+                        "Golf",
+                        "Park",
+                        "Taxi"
+                    ],
+                    "longest_values": [
+                        "Other (explain in Complaint Details)",
+                        "Cafeteria - College/University",
+                        "1-2 Family Mixed Use Building",
+                        "Government Building - Foreign",
+                        "Correctional Facility - State"
+                    ],
+                    "average_length": 16.333731409680304
+                }
+            ]
+        },
+        {
+            "column_name": "Incident Zip",
+            "number_non_empty_cells": 20284635,
+            "number_empty_cells": 1283000,
+            "number_distinct_values": 3634,
+            "frequent_values": [
+                "11226",
+                "10467",
+                "11207",
+                "10458",
+                "10453"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20283679,
+                    "max_value": 6462430478,
+                    "min_value": 0,
+                    "mean": 11812.159740350851,
+                    "stddev": 1697752.9991987564
+                },
+                {
+                    "type": "TEXT",
+                    "count": 956,
+                    "shortest_values": [
+                        "*",
+                        "?",
+                        "A",
+                        ".",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "92009-1314",
+                        "35210-6145",
+                        "32752-2290",
+                        "89014-2120",
+                        "NEWARK AIR"
+                    ],
+                    "average_length": 9.179916317991632
+                }
+            ]
+        },
+        {
+            "column_name": "Incident Address",
+            "number_non_empty_cells": 17420620,
+            "number_empty_cells": 4147015,
+            "number_distinct_values": 1427624,
+            "frequent_values": [
+                "34 ARDEN STREET",
+                "89-21 ELMHURST AVENUE",
+                "1025 BOYNTON AVENUE",
+                "78-15 PARSONS BOULEVARD",
+                "BROADWAY"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 250,
+                    "max_value": 5195000,
+                    "min_value": -999,
+                    "mean": 26803.736,
+                    "stddev": 336155.2679358313
+                },
+                {
+                    "type": "TEXT",
+                    "count": 17420370,
+                    "shortest_values": [
+                        "-",
+                        "W",
+                        "X",
+                        "S",
+                        "O"
+                    ],
+                    "longest_values": [
+                        "hoffman drive and 58 ave - graffiti is up high on side of parking lot facing the park highest floor",
+                        "VIC is graffitied on the parking lot and next to daycare across street at hoffman drive and 58 ave",
+                        "east bound side of laurel hill blvd between 60th street and 61st street on the BQE support walls",
+                        "Linden place and 31 road on 31 road Whole side of building for months tagged with no cleanup",
+                        "Tillotson Avenue Step street on walls between Wickham Avenue and East 222nd street"
+                    ],
+                    "average_length": 17.769987778675194
+                }
+            ]
+        },
+        {
+            "column_name": "Street Name",
+            "number_non_empty_cells": 17419247,
+            "number_empty_cells": 4148388,
+            "number_distinct_values": 39867,
+            "frequent_values": [
+                "BROADWAY",
+                "GRAND CONCOURSE",
+                "OCEAN AVENUE",
+                "5 AVENUE",
+                "3 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1057,
+                    "max_value": 67068670,
+                    "min_value": 0,
+                    "mean": 214739.8656575213,
+                    "stddev": 2124016.1042456334
+                },
+                {
+                    "type": "REAL",
+                    "count": 2,
+                    "max_value": 1.111111111111111e+25,
+                    "min_value": 1.111111111111111e+25,
+                    "mean": 1.111111111111111e+25,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 17418188,
+                    "shortest_values": [
+                        ".",
+                        "O",
+                        "a",
+                        "/",
+                        "T"
+                    ],
+                    "longest_values": [
+                        "hoffman drive and 58 ave - graffiti is up high on side of parking lot facing the park highest floor",
+                        "VIC is graffitied on the parking lot and next to daycare across street at hoffman drive and 58 ave",
+                        "east bound side of laurel hill blvd between 60th street and 61st street on the BQE support walls",
+                        "Linden place and 31 road on 31 road Whole side of building for months tagged with no cleanup",
+                        "Tillotson Avenue Step street on walls between Wickham Avenue and East 222nd street"
+                    ],
+                    "average_length": 13.26786362622794
+                }
+            ]
+        },
+        {
+            "column_name": "Cross Street 1",
+            "number_non_empty_cells": 14436062,
+            "number_empty_cells": 7131573,
+            "number_distinct_values": 27951,
+            "frequent_values": [
+                "BEND",
+                "BROADWAY",
+                "5 AVENUE",
+                "3 AVENUE",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 102,
+                    "max_value": 2040,
+                    "min_value": 1,
+                    "mean": 109.2843137254902,
+                    "stddev": 259.8393311052715
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14435960,
+                    "shortest_values": [
+                        "T",
+                        "`",
+                        "M",
+                        "K",
+                        "'"
+                    ],
+                    "longest_values": [
+                        "EAST BOUND HORACE HARDING EXPRESSWAY",
+                        "BETWEEN DRIGGS AVE. AND BEFORD AVE.",
+                        "MAJOR DEGAN NORTH EXPRESSWAY EXP N",
+                        "VAN WYCK EXPRESSWAY EAST SR EXPY E",
+                        "BRONX RVR PKWY NB EN BRONX PRK   E"
+                    ],
+                    "average_length": 12.236810714354986
+                }
+            ]
+        },
+        {
+            "column_name": "Cross Street 2",
+            "number_non_empty_cells": 14357652,
+            "number_empty_cells": 7209983,
+            "number_distinct_values": 28154,
+            "frequent_values": [
+                "BEND",
+                "BROADWAY",
+                "DEAD END",
+                "7 AVENUE",
+                "8 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 85,
+                    "max_value": 145440,
+                    "min_value": 1,
+                    "mean": 3612.788235294118,
+                    "stddev": 22049.687190575165
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14357567,
+                    "shortest_values": [
+                        "N",
+                        "V",
+                        "D",
+                        "J",
+                        "S"
+                    ],
+                    "longest_values": [
+                        "7 AVENUE LINE / MANHATTAN COLLEGE PARKWAY",
+                        "WEST BOUND HORACE HARDING EXPRESSWAY",
+                        "11 MEMORIAL WAY / BAY RIDGE PARKWAY",
+                        "CROSS BRONX SOUTH EXPRESSWAY EXP S",
+                        "MAJOR DEEGAN EXPRESSWAY ET 1   SB"
+                    ],
+                    "average_length": 12.299653137610292
+                }
+            ]
+        },
+        {
+            "column_name": "Intersection Street 1",
+            "number_non_empty_cells": 3600938,
+            "number_empty_cells": 17966697,
+            "number_distinct_values": 24663,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "5 AVENUE",
+                "2 AVENUE",
+                "ATLANTIC AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 296,
+                    "max_value": 111111111111,
+                    "min_value": 0,
+                    "mean": 375376688.0810811,
+                    "stddev": 6447283721.357144
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3600642,
+                    "shortest_values": [
+                        "A",
+                        "NY",
+                        "WEA",
+                        "VWE",
+                        "Fdr"
+                    ],
+                    "longest_values": [
+                        "PELHAM PARKWYAY HRP NORTH BOUND EN PELHAM PARKWAY NORTHBOUND",
+                        "LONG ISLAND EXPRESSWAY EB SERVICE ROAD",
+                        "NORTH SIDE BROOKLYN-QUEENS EXPRESSWAY",
+                        "HORACE HARDING  EXPRESSWAY EAST BOUND",
+                        "NB WHITESTONE EXPRESSWAY SERVICE ROAD"
+                    ],
+                    "average_length": 12.639099360614024
+                }
+            ]
+        },
+        {
+            "column_name": "Intersection Street 2",
+            "number_non_empty_cells": 3593481,
+            "number_empty_cells": 17974154,
+            "number_distinct_values": 24596,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "2 AVENUE",
+                "5 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 78,
+                    "max_value": 222222222222,
+                    "min_value": 0,
+                    "mean": 2849005227.948718,
+                    "stddev": 24999898268.449417
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3593403,
+                    "shortest_values": [
+                        "H",
+                        "V",
+                        "W",
+                        "D",
+                        "T"
+                    ],
+                    "longest_values": [
+                        "WHITE STONE EXPRESSWAY SERVICE ROAD NORTH BOUND",
+                        "GRAND CENTRAL PARKWAY EAST BOUND SERVICE ROAD",
+                        "CROSS ISLAND  SOUTHBOUND BY THE  EXPRESSWAY",
+                        "88TH AVE. BET. BILLINGS & WINCHESTER BLVD.",
+                        "CROSS BRONX EXPRESSWAY SERVICE ROAD NORTH"
+                    ],
+                    "average_length": 12.323824241255434
+                }
+            ]
+        },
+        {
+            "column_name": "Address Type",
+            "number_non_empty_cells": 20400390,
+            "number_empty_cells": 1167245,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "ADDRESS",
+                "INTERSECTION",
+                "BLOCKFACE",
+                "LATLONG",
+                "PLACENAME"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20400390,
+                    "shortest_values": [
+                        "ADDRESS",
+                        "LATLONG",
+                        "BLOCKFACE",
+                        "PLACENAME",
+                        "INTERSECTION"
+                    ],
+                    "longest_values": [
+                        "INTERSECTION",
+                        "PLACENAME",
+                        "BLOCKFACE",
+                        "LATLONG",
+                        "ADDRESS"
+                    ],
+                    "average_length": 7.821356552497281
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 20255639,
+            "number_empty_cells": 1311996,
+            "number_distinct_values": 2557,
+            "frequent_values": [
+                "BROOKLYN",
+                "NEW YORK",
+                "BRONX",
+                "STATEN ISLAND",
+                "JAMAICA"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 33,
+                    "max_value": 999,
+                    "min_value": 0,
+                    "mean": 67.24242424242425,
+                    "stddev": 239.64570190722793
+                },
+                {
+                    "type": "TEXT",
+                    "count": 20255606,
+                    "shortest_values": [
+                        "N",
+                        "/",
+                        "*",
+                        ".",
+                        "A"
+                    ],
+                    "longest_values": [
+                        "ALL THAT IS KNOWN MASPETH QUEENS",
+                        "MEDFORD NEW YORK, SUFFOLK COUNTY",
+                        "PEACH TREE CORNERS GEORGIA",
+                        "VALLEY STREAM, LONG ISLAND",
+                        "BAYSIDE AND 25TH AVENUES,"
+                    ],
+                    "average_length": 8.252154489971813
+                }
+            ]
+        },
+        {
+            "column_name": "Landmark",
+            "number_non_empty_cells": 311089,
+            "number_empty_cells": 21256546,
+            "number_distinct_values": 7342,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVENUE",
+                "J F K AIRPORT",
+                "LA GUARDIA AIRPORT",
+                "7 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 311089,
+                    "shortest_values": [
+                        "JFK",
+                        "NYU",
+                        "LGA",
+                        "PS 3",
+                        "MOMA"
+                    ],
+                    "longest_values": [
+                        "REQUESTED IN CONFIRMATION LETTER.",
+                        "HUDSON HS OF LEARNING TECHNOLOGY",
+                        "BK BR PARK MAIN STREET CITY PARK",
+                        "MANHATTAN BRIDGE PEDESTRIAN PATH",
+                        "RANDALLS IS QUEENS PEDESTRIAN RP"
+                    ],
+                    "average_length": 13.339877012687687
+                }
+            ]
+        },
+        {
+            "column_name": "Facility Type",
+            "number_non_empty_cells": 5496277,
+            "number_empty_cells": 16071358,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Precinct",
+                "DSNY Garage",
+                "School",
+                "School District"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5496277,
+                    "shortest_values": [
+                        "School",
+                        "Precinct",
+                        "DSNY Garage",
+                        "School District"
+                    ],
+                    "longest_values": [
+                        "School District",
+                        "DSNY Garage",
+                        "Precinct",
+                        "School"
+                    ],
+                    "average_length": 8.389892103327398
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Closed",
+                "Pending",
+                "Open",
+                "Assigned",
+                "In Progress"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "Open",
+                        "Draft",
+                        "Closed",
+                        "Pending",
+                        "Started"
+                    ],
+                    "longest_values": [
+                        "Closed - Testing",
+                        "Unspecified",
+                        "In Progress",
+                        "Email Sent",
+                        "Unassigned"
+                    ],
+                    "average_length": 6.031148848726344
+                }
+            ]
+        },
+        {
+            "column_name": "Due Date",
+            "number_non_empty_cells": 8525510,
+            "number_empty_cells": 13042125,
+            "number_distinct_values": 8038965,
+            "frequent_values": [
+                "04/08/2015 10:00:58 AM",
+                "05/02/2014 03:32:17 PM",
+                "03/30/2018 10:10:39 AM",
+                "07/09/2016 11:21:17 AM",
+                "06/27/2015 10:29:08 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 8525510,
+                    "max_value": "2021-06-12 19:56:03",
+                    "min_value": "1900-01-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Resolution Description",
+            "number_non_empty_cells": 20481969,
+            "number_empty_cells": 1085666,
+            "number_distinct_values": 1783,
+            "frequent_values": [
+                "The Department of Housing Preservation and Development inspected the following conditions. No violations were issued. The complaint has been closed.",
+                "The Police Department responded to the complaint and with the information available observed no evidence of the violation at that time.",
+                "Service Request status for this request is available on the Department of Transportation\u00e2\u0080\u0099s website. Please click the \u00e2\u0080\u009cLearn More\u00e2\u0080\u009d link below.",
+                "The Police Department responded to the complaint and took action to fix the condition.",
+                "The Department of Housing Preservation and Development inspected the following conditions. Violations were issued. Information about specific violations is available at www.nyc.gov/hpd."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20481969,
+                    "shortest_values": [
+                        "See notes.",
+                        "See Notes to Customer",
+                        "See Notes to Customer.",
+                        "Your appeal was denied.",
+                        "Your appeal was granted."
+                    ],
+                    "longest_values": [
+                        "NYC Parks inspected and determined that the site is ineligible for the Trees and Sidewalks Program because of one or more of the following conditions: - The damage to the sidewalk isn\u00e2\u0080\u0099t severe enough to qualify for the program - The property next to the sidewalk isn\u00e2\u0080\u0099t in Tax Class 1 - The property next to the sidewalk isn\u00e2\u0080\u0099t owner-occupied - The property next to the sidewalk contains a business. You can request a sidewalk consultation with NYC Parks for advice on making repairs on your own.",
+                        "The Department of Health may contact you for more information if you provided a phone number and/or conduct an investigation.  If you still have the bottle, please seal and refrigerate the open bottle, save any unopened bottles, and ensure no one has access to the bottles.  Initial status will be available 30 days after the date of your complaint by calling 311.  If you're experiencing medical symptoms, please seek medical attention.  Please note your Service Request number for future reference.",
+                        "Please contact the Department of Health and Mental Hygiene's Pest Control Services for updated status of your complaint.  Brooklyn North Office (718) 625-5846 covers zip codes: 11201, 11205, 11206, 11211, 11213, 11215, 11216, 11217, 11221, 11222, 11225, 11231, 11232, 11233, 11237, 11238, 11239.  Brooklyn South Office (718) 629-5800 covers zip codes: 11204, 11207, 11208, 11209, 11210, 11212, 11214, 11218, 11219, 11220, 11203, 11223, 11224, 11225, 11226, 11228, 11229, 11230, 11234, 11235, 11236.",
+                        "Your complaint has been forwarded to the New York Police Department for a non-emergency response. If the police determine the vehicle is illegally parked, they will ticket the vehicle and then you may either contact a private towing company to remove the vehicle or ask your local precinct to contact 'rotation tow'. Any fees charged for towing will have to be paid by the vehicle owner. 311 will have additional information in 8 hours. Please note your service request number for future reference.",
+                        "The Department of Health and Mental Hygiene will review your complaint to determine appropriate action.  Complaints of this type usually result in complainant contact or an inspection. You may be contacted if you provided a phone number.  Status will be available 45 days after the date of your complaint by calling 311. If you are experiencing medical symptoms, please seek medical attention or consult the NYC Poison Control Center. Please note your Service Request number for future reference."
+                    ],
+                    "average_length": 159.400713769267
+                }
+            ]
+        },
+        {
+            "column_name": "Resolution Action Updated Date",
+            "number_non_empty_cells": 21190465,
+            "number_empty_cells": 377170,
+            "number_distinct_values": 8370051,
+            "frequent_values": [
+                "11/15/2010 12:00:00 AM",
+                "11/07/2012 12:00:00 AM",
+                "03/01/2010 12:00:00 AM",
+                "04/01/2010 12:00:00 AM",
+                "03/18/2010 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 21190465,
+                    "max_value": "2927-03-06 12:30:00",
+                    "min_value": "2003-10-31 09:41:01"
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "0 Unspecified",
+                "12 MANHATTAN",
+                "12 QUEENS",
+                "03 BROOKLYN",
+                "07 QUEENS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "11 BRONX",
+                        "27 BRONX",
+                        "26 BRONX",
+                        "01 BRONX",
+                        "02 BRONX"
+                    ],
+                    "longest_values": [
+                        "Unspecified STATEN ISLAND",
+                        "Unspecified MANHATTAN",
+                        "Unspecified BROOKLYN",
+                        "Unspecified QUEENS",
+                        "Unspecified BRONX"
+                    ],
+                    "average_length": 11.239463854057249
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 16549899,
+            "number_empty_cells": 5017736,
+            "number_distinct_values": 780755,
+            "frequent_values": [
+                "1021740175",
+                "4015110001",
+                "2037140054",
+                "2039447501",
+                "4068290001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 16549899,
+                    "max_value": 6066007501,
+                    "min_value": 0,
+                    "mean": 2764397128.0991073,
+                    "stddev": 1169175693.3132923
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "BRONX",
+                "Unspecified"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Unspecified",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS"
+                    ],
+                    "average_length": 7.636123385804702
+                }
+            ]
+        },
+        {
+            "column_name": "X Coordinate (State Plane)",
+            "number_non_empty_cells": 19564286,
+            "number_empty_cells": 2003349,
+            "number_distinct_values": 137997,
+            "frequent_values": [
+                "1004402",
+                "1018372",
+                "1018209",
+                "1037000",
+                "1012586"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19564286,
+                    "max_value": 1067302,
+                    "min_value": -195555,
+                    "mean": 1005234.0935616562,
+                    "stddev": 22618.741262313284
+                }
+            ]
+        },
+        {
+            "column_name": "Y Coordinate (State Plane)",
+            "number_non_empty_cells": 19564286,
+            "number_empty_cells": 2003349,
+            "number_distinct_values": 142833,
+            "frequent_values": [
+                "253313",
+                "211606",
+                "239723",
+                "202363",
+                "261482"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19564286,
+                    "max_value": 271901,
+                    "min_value": -195555,
+                    "mean": 205190.1565396253,
+                    "stddev": 31607.226472078804
+                }
+            ]
+        },
+        {
+            "column_name": "Open Data Channel Type",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "PHONE",
+                "UNKNOWN",
+                "ONLINE",
+                "MOBILE",
+                "OTHER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "PHONE",
+                        "OTHER",
+                        "ONLINE",
+                        "MOBILE",
+                        "UNKNOWN"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "MOBILE",
+                        "ONLINE",
+                        "OTHER",
+                        "PHONE"
+                    ],
+                    "average_length": 5.710738103644651
+                }
+            ]
+        },
+        {
+            "column_name": "Park Facility Name",
+            "number_non_empty_cells": 21567212,
+            "number_empty_cells": 423,
+            "number_distinct_values": 4303,
+            "frequent_values": [
+                "Unspecified",
+                "Central Park",
+                "Riverside Park",
+                "Prospect Park",
+                "Flushing Meadows Corona Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567212,
+                    "shortest_values": [
+                        "Lot",
+                        "Park",
+                        "Garden",
+                        "Park A",
+                        "Pomonok"
+                    ],
+                    "longest_values": [
+                        "School - NYC Charter High School for Architecture, Engineering, and Construction Industries (AECI)",
+                        "Jewish Association for Services for The Aged (JASA) Scheuer House of Coney Island Senior Center",
+                        "School - Science Skills Center High School for Science, Technology, and the Creative Arts",
+                        "School - Academy for College Preparation and Career Exploration: A College Board School",
+                        "Catholic Charities Neighborhood Services (CCNS) Woodhaven Richmond Hill Senior Center"
+                    ],
+                    "average_length": 11.07678414808553
+                }
+            ]
+        },
+        {
+            "column_name": "Park Borough",
+            "number_non_empty_cells": 21567635,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "BRONX",
+                "Unspecified"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21567635,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Unspecified",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS"
+                    ],
+                    "average_length": 7.636123385804702
+                }
+            ]
+        },
+        {
+            "column_name": "Vehicle Type",
+            "number_non_empty_cells": 7993,
+            "number_empty_cells": 21559642,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Car Service",
+                "Ambulette / Paratransit",
+                "Commuter Van",
+                "Green Taxi"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7993,
+                    "shortest_values": [
+                        "Green Taxi",
+                        "Car Service",
+                        "Commuter Van",
+                        "Ambulette / Paratransit"
+                    ],
+                    "longest_values": [
+                        "Ambulette / Paratransit",
+                        "Commuter Van",
+                        "Car Service",
+                        "Green Taxi"
+                    ],
+                    "average_length": 11.862754910546728
+                }
+            ]
+        },
+        {
+            "column_name": "Taxi Company Borough",
+            "number_non_empty_cells": 18610,
+            "number_empty_cells": 21549025,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18610,
+                    "shortest_values": [
+                        "BRONX",
+                        "Bronx",
+                        "QUEENS",
+                        "Queens",
+                        "BROOKLYN"
+                    ],
+                    "longest_values": [
+                        "Not Within New York City",
+                        "Staten Island",
+                        "STATEN ISLAND",
+                        "Manhattan",
+                        "MANHATTAN"
+                    ],
+                    "average_length": 7.4188070929607735
+                }
+            ]
+        },
+        {
+            "column_name": "Taxi Pick Up Location",
+            "number_non_empty_cells": 163435,
+            "number_empty_cells": 21404200,
+            "number_distinct_values": 15168,
+            "frequent_values": [
+                "Other",
+                "JFK Airport",
+                "Intersection",
+                "La Guardia Airport",
+                "New York-Penn Station"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 163435,
+                    "shortest_values": [
+                        "Other",
+                        "JFK Airport",
+                        "0 0 NJ 07114",
+                        "Intersection",
+                        "LIE ANDQUEENS"
+                    ],
+                    "longest_values": [
+                        "39-04 CLEARVIEW EXPRESSWAY SR WEST, QUEENS (BAYSIDE), NY, 11",
+                        "BROADWAY BETWEEN WEST   67 STREET AND WEST   68 STREET, MANH",
+                        "WEST   44 STREET BETWEEN 5 AVENUE AND 6 AVENUE, MANHATTAN, N",
+                        "CENTRAL PARK WEST AND WEST   72 STREET, MANHATTAN, NY, 10023",
+                        "32-19 NORTHERN BOULEVARD, QUEENS (LONG ISLAND CITY), NY, 111"
+                    ],
+                    "average_length": 11.809851011105332
+                }
+            ]
+        },
+        {
+            "column_name": "Bridge Highway Name",
+            "number_non_empty_cells": 51897,
+            "number_empty_cells": 21515738,
+            "number_distinct_values": 88,
+            "frequent_values": [
+                "Belt Pkwy",
+                "BQE/Gowanus Expwy",
+                "Grand Central Pkwy",
+                "Long Island Expwy",
+                "FDR Dr"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51897,
+                    "shortest_values": [
+                        "FDR Dr",
+                        "Belt Pkwy",
+                        "Pelham Br",
+                        "Pulaski Br",
+                        "West Street"
+                    ],
+                    "longest_values": [
+                        "Park Ave Tunnel - E 34th St./Grand Central",
+                        "Alexander Hamilton/I-95 Cross Bronx Br",
+                        "Dr. Martin Luther King, Jr. Expwy",
+                        "Westchester Ave Br - Bronx River",
+                        "Willis Ave Br - 125th St/1st Ave"
+                    ],
+                    "average_length": 16.158275044800277
+                }
+            ]
+        },
+        {
+            "column_name": "Bridge Highway Direction",
+            "number_non_empty_cells": 52530,
+            "number_empty_cells": 21515105,
+            "number_distinct_values": 56,
+            "frequent_values": [
+                "East/Long Island Bound",
+                "North/Bronx Bound",
+                "East/Queens Bound",
+                "West/Staten Island Bound",
+                "Manhattan Bound"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52530,
+                    "shortest_values": [
+                        "Eastbound",
+                        "To Queens",
+                        "Westbound",
+                        "Northbound",
+                        "West Bound"
+                    ],
+                    "longest_values": [
+                        "West/Toward RFK Triborough Bridge",
+                        "Southbound/To RFK Triborough Br",
+                        "South/East (To Throgs Neck Br)",
+                        "North/Westchester County Bound",
+                        "Southbound/To Triborough Br"
+                    ],
+                    "average_length": 19.206777079763945
+                }
+            ]
+        },
+        {
+            "column_name": "Road Ramp",
+            "number_non_empty_cells": 52084,
+            "number_empty_cells": 21515551,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Roadway",
+                "Ramp"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52084,
+                    "shortest_values": [
+                        "Ramp",
+                        "Roadway"
+                    ],
+                    "longest_values": [
+                        "Roadway",
+                        "Ramp"
+                    ],
+                    "average_length": 6.275286076338223
+                }
+            ]
+        },
+        {
+            "column_name": "Bridge Highway Segment",
+            "number_non_empty_cells": 55816,
+            "number_empty_cells": 21511819,
+            "number_distinct_values": 5126,
+            "frequent_values": [
+                "Ramp",
+                "Roadway",
+                "Clove Rd/Richmond Rd (Exit 13) - Lily Pond Ave/Bay St (Exit 15 S-N)",
+                "Outer Roadway",
+                "Bikepath"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 55816,
+                    "shortest_values": [
+                        "Ramp",
+                        "W 95 St",
+                        "Roadway",
+                        "W 79 St",
+                        "W 57 St"
+                    ],
+                    "longest_values": [
+                        "Long Island Expwy Eastern Long Is Manhattan (I-495) (Exit 10 E-W) - Flushing Meadows-Corona Park BJK",
+                        "Long Island Expwy (I-495) /Midtown Tunnel Eastern Long Is/Greenpoint Ave (Exit 35) - Kosciuszko Br (",
+                        "69th Rd-Jewel Ave Harry Van Arsdale Jr Ave (Exit 11) - Long Is Expwy Eastern Long Is Manhattan (I-49",
+                        "Queens Blvd 58 St (NY 25) (Exit 39E) - Long Island Expwy (I-495)/Midtown Tunnel Eastern Long Is/Gree",
+                        "Utopia Pkwy (Exit 34) Whitestone Br Bronx / Whitestone Expwy N Y Airports (I-678) (Exit 36N)(Exit 36"
+                    ],
+                    "average_length": 45.02920309588649
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 19564286,
+            "number_empty_cells": 2003349,
+            "number_distinct_values": 1383685,
+            "frequent_values": [
+                "40.86193738190631",
+                "40.747420328856705",
+                "40.824594531459304",
+                "40.72195913199264",
+                "40.884336286878096"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 19564286,
+                    "max_value": 40.91294056699566,
+                    "min_value": 39.5525551788817,
+                    "mean": 40.72982193390116,
+                    "stddev": 0.08675550718456072
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 19564286,
+            "number_empty_cells": 2003349,
+            "number_distinct_values": 1383707,
+            "frequent_values": [
+                "-73.92714580413967",
+                "-73.87685300997468",
+                "-73.8772991398564",
+                "-73.80969682426189",
+                "-73.89752420300857"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 183,
+                    "max_value": -74,
+                    "min_value": -74,
+                    "mean": -74.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 19564103,
+                    "max_value": -73.70029199533596,
+                    "min_value": -78.18450807772693,
+                    "mean": -73.92424823334525,
+                    "stddev": 0.08156830971647247
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 19564286,
+            "number_empty_cells": 2003349,
+            "number_distinct_values": 1383722,
+            "frequent_values": [
+                "(40.86193738190631, -73.92714580413967)",
+                "(40.747420328856705, -73.87685300997468)",
+                "(40.824594531459304, -73.8772991398564)",
+                "(40.72195913199264, -73.80969682426189)",
+                "(40.884336286878096, -73.89752420300857)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19564286,
+                    "shortest_values": [
+                        "(40.6377997234425, -74)",
+                        "(40.71175767920779, -74)",
+                        "(40.73985026645963, -74)",
+                        "(40.74507078214717, -74)",
+                        "(40.67318544179719, -74)"
+                    ],
+                    "longest_values": [
+                        "(40.676162543067456, -73.93663565020184)",
+                        "(40.767051726104846, -73.95210502771367)",
+                        "(40.607671711484734, -73.93152174964763)",
+                        "(40.697019653494394, -73.73103159106422)",
+                        "(40.624282550947264, -74.08941420974887)"
+                    ],
+                    "average_length": 39.0514509448492
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Unique Key"
+    ]
+}

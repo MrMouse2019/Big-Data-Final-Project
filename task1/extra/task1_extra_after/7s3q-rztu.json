@@ -1,0 +1,186 @@
+{
+    "dataset_name": "7s3q-rztu",
+    "columns": [
+        {
+            "column_name": "NEIGHBORHOOD",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "UPPER EAST SIDE (79-96)  ",
+                "HARLEM-UPPER             ",
+                "GREENWICH VILLAGE-WEST   ",
+                "UPPER EAST SIDE (59-79)  ",
+                "GREENWICH VILLAGE-CENTRAL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 57,
+                    "shortest_values": [
+                        "ALPHABET CITY            ",
+                        "UPPER WEST SIDE (96-116) ",
+                        "UPPER WEST SIDE (79-96)  ",
+                        "UPPER WEST SIDE (59-79)  ",
+                        "UPPER EAST SIDE (79-96)  "
+                    ],
+                    "longest_values": [
+                        "WASHINGTON HEIGHTS UPPER ",
+                        "WASHINGTON HEIGHTS LOWER ",
+                        "CHELSEA                  ",
+                        "CHINATOWN                ",
+                        "EAST VILLAGE             "
+                    ],
+                    "average_length": 25.0
+                }
+            ]
+        },
+        {
+            "column_name": "TYPE OF HOME",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "02 TWO FAMILY HOMES                        ",
+                "01 ONE FAMILY HOMES                        ",
+                "03 THREE FAMILY HOMES                      "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 57,
+                    "shortest_values": [
+                        "03 THREE FAMILY HOMES                      ",
+                        "01 ONE FAMILY HOMES                        ",
+                        "02 TWO FAMILY HOMES                        "
+                    ],
+                    "longest_values": [
+                        "02 TWO FAMILY HOMES                        ",
+                        "01 ONE FAMILY HOMES                        ",
+                        "03 THREE FAMILY HOMES                      "
+                    ],
+                    "average_length": 43.0
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF SALES",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 57,
+                    "max_value": 21,
+                    "min_value": 1,
+                    "mean": 3.0,
+                    "stddev": 3.4691623944834644
+                }
+            ]
+        },
+        {
+            "column_name": "LOWEST SALE PRICE",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "200000.00",
+                "3800000.00",
+                "2400000.00",
+                "589915.00",
+                "700000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 57,
+                    "max_value": 13500000.0,
+                    "min_value": 175000.0,
+                    "mean": 3477235.947368421,
+                    "stddev": 2902341.477665023
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE SALE PRICE",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 56,
+            "frequent_values": [
+                "200000.00",
+                "10625000.00",
+                "9425000.00",
+                "7630000.00",
+                "13968557.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 57,
+                    "max_value": 15655000.0,
+                    "min_value": 200000.0,
+                    "mean": 4782087.50877193,
+                    "stddev": 3815903.1368731647
+                }
+            ]
+        },
+        {
+            "column_name": "MEDIAN SALE PRICE",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "200000.00",
+                "5500000.00",
+                "422000.00",
+                "3550000.00",
+                "587213.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 57,
+                    "max_value": 13825000.0,
+                    "min_value": 200000.0,
+                    "mean": 4567053.192982456,
+                    "stddev": 3565072.2643561643
+                }
+            ]
+        },
+        {
+            "column_name": "HIGHEST SALE PRICE",
+            "number_non_empty_cells": 57,
+            "number_empty_cells": 0,
+            "number_distinct_values": 54,
+            "frequent_values": [
+                "200000.00",
+                "5300000.00",
+                "13500000.00",
+                "9425000.00",
+                "17000000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 57,
+                    "max_value": 49000000.0,
+                    "min_value": 200000.0,
+                    "mean": 6884256.1228070175,
+                    "stddev": 8360889.993872311
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "NEIGHBORHOOD",
+        "TYPE OF HOME"
+    ]
+}

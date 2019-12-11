@@ -1,0 +1,65 @@
+{
+    "dataset_name": "vxrc-r6hh",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Staten Island",
+                "Brooklyn",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Number of public housing residents who took the City Civil Service Exam",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "221",
+                "1598",
+                "3694",
+                "1932",
+                "591"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 3694,
+                    "min_value": 221,
+                    "mean": 1607.2,
+                    "stddev": 1217.7460162119194
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Number of public housing residents who took the City Civil Service Exam"
+    ]
+}

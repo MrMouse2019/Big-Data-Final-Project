@@ -1,0 +1,244 @@
+{
+    "dataset_name": "i6b5-j7bu",
+    "columns": [
+        {
+            "column_name": "SEGMENTID",
+            "number_non_empty_cells": 65138,
+            "number_empty_cells": 0,
+            "number_distinct_values": 22933,
+            "frequent_values": [
+                "68497",
+                "68498",
+                "166344",
+                "166345",
+                "23326"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65138,
+                    "max_value": 9024256,
+                    "min_value": 36,
+                    "mean": 756804.7690902392,
+                    "stddev": 2331575.6283381553
+                }
+            ]
+        },
+        {
+            "column_name": "ONSTREETNAME",
+            "number_non_empty_cells": 65138,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3010,
+            "frequent_values": [
+                "BROADWAY",
+                "RICHMOND TERRACE",
+                "SUFFOLK STREET",
+                "NEWARK AVENUE",
+                "INNIS STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65138,
+                    "shortest_values": [
+                        "I  678",
+                        "BOWERY",
+                        "33 ROAD",
+                        "12 ROAD",
+                        "56 ROAD"
+                    ],
+                    "longest_values": [
+                        "BRONX RIVER PARKWAY EXIT    4 NB",
+                        "BROOKLYN QUEENS EXPRESSWAY EN SB",
+                        "VAN WYCK EXPRESSWAY EXIT    8 NB",
+                        "GRAND CENTRAL PARKWAY ET   24 EB",
+                        "GRAND CENTRAL PKWY EB EN WICKLOW"
+                    ],
+                    "average_length": 13.506678129509657
+                }
+            ]
+        },
+        {
+            "column_name": "FROMSTREETNAME",
+            "number_non_empty_cells": 65133,
+            "number_empty_cells": 5,
+            "number_distinct_values": 3603,
+            "frequent_values": [
+                "BEND",
+                "BROADWAY",
+                "5 AVENUE",
+                "3 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65133,
+                    "shortest_values": [
+                        "RAMP",
+                        "BEND",
+                        "NYCTA",
+                        "8 ROAD",
+                        "I  678"
+                    ],
+                    "longest_values": [
+                        "BRONX RVR PKWY SB EN WEBSTER AVE",
+                        "PROSPECT EXPRESSWAY WB EXIT    2",
+                        "BRONX RVR PKWY NB EN BRONX PRK E",
+                        "VAN WYCK EXPRESSWAY ET   12 A SB",
+                        "BROOKLYN QUEENS EXPWY ET   40 EB"
+                    ],
+                    "average_length": 11.991816744200328
+                }
+            ]
+        },
+        {
+            "column_name": "TOSTREETNAME",
+            "number_non_empty_cells": 65133,
+            "number_empty_cells": 5,
+            "number_distinct_values": 3745,
+            "frequent_values": [
+                "BEND",
+                "PARK AVENUE",
+                "NYCTA SUBWAY",
+                "BROADWAY",
+                "DEAD END"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65133,
+                    "shortest_values": [
+                        "BEND",
+                        "NYCTA",
+                        "8 ROAD",
+                        "I  678",
+                        "24 ROAD"
+                    ],
+                    "longest_values": [
+                        "W SHORE EXPWY NB EN BOSCOMBE AVE",
+                        "BROOKLYN QUEENS EXPRESSWAY EN SB",
+                        "W SHR EXPWY NB EN ARTHUR KILL RD",
+                        "VWE NB ENTRANCE COLLEGE PNT BLVD",
+                        "BROOKLYN QUEENS EXPWY ET   44 WB"
+                    ],
+                    "average_length": 13.286966668201988
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH_CODE",
+            "number_non_empty_cells": 65138,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "M",
+                "B",
+                "Q",
+                "S",
+                "X"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65138,
+                    "shortest_values": [
+                        "S",
+                        "Q",
+                        "M",
+                        "B",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "X",
+                        "B",
+                        "M",
+                        "Q",
+                        "S"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "WORK_START_DATE",
+            "number_non_empty_cells": 65138,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14929,
+            "frequent_values": [
+                "06/25/2018 12:00:00 AM",
+                "08/01/2018 12:00:00 AM",
+                "03/19/2018 12:00:00 AM",
+                "04/23/2018 12:00:00 AM",
+                "05/01/2018 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 65138,
+                    "max_value": "2019-10-08 00:00:00",
+                    "min_value": "2017-02-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "WORK_END_DATE",
+            "number_non_empty_cells": 65138,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1438,
+            "frequent_values": [
+                "09/13/2019 11:59:59 PM",
+                "10/31/2017 11:59:59 PM",
+                "07/01/2019 11:58:59 PM",
+                "08/31/2018 11:59:59 PM",
+                "01/01/2018 11:58:59 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 65138,
+                    "max_value": "2019-12-28 23:58:59",
+                    "min_value": "2017-04-28 23:58:59"
+                }
+            ]
+        },
+        {
+            "column_name": "PURPOSE",
+            "number_non_empty_cells": 65138,
+            "number_empty_cells": 0,
+            "number_distinct_values": 92,
+            "frequent_values": [
+                "DOT IN-HOUSE PAVING",
+                "OCCUPANCY OF ROADWAY AS STIPULATED",
+                "DOT IN-HOUSE MILLING",
+                "PLACE CRANE OR SHOVEL ON STREET",
+                "CONTRACT ROADWAY MILLING"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65138,
+                    "shortest_values": [
+                        "REPAIR GAS",
+                        "REPAIR WATER",
+                        "REPAIR SEWER",
+                        "PRIVATE SEWER",
+                        "INSTALL FENCE"
+                    ],
+                    "longest_values": [
+                        "ST OPNG/INSTA/TESTS PITS/MONIT WELL/PIPE",
+                        "ST OPNG/INSTA/TEST PITS/MONIT WELL/PIPES",
+                        "PLACE EQUIPMENT OTHER THAN CRANE OR SHOV",
+                        "PLACE CONSTRUCTION OFFICE TRAILER ON STR",
+                        "REGRADE/REPLACE STREET HARDWARE/CASTINGS"
+                    ],
+                    "average_length": 26.731815530105315
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "SEGMENTID",
+        "ONSTREETNAME"
+    ]
+}

@@ -1,0 +1,204 @@
+{
+    "dataset_name": "jkk2-3xzd",
+    "columns": [
+        {
+            "column_name": "Geographic Unit",
+            "number_non_empty_cells": 12383,
+            "number_empty_cells": 0,
+            "number_distinct_values": 521,
+            "frequent_values": [
+                "10X440",
+                "25Q425",
+                "28Q505",
+                "30Q445",
+                "21K540"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12383,
+                    "shortest_values": [
+                        "01M292",
+                        "20K505",
+                        "20K490",
+                        "20K485",
+                        "20K445"
+                    ],
+                    "longest_values": [
+                        "75X811",
+                        "08X561",
+                        "09X231",
+                        "09X241",
+                        "09X250"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "School Name",
+            "number_non_empty_cells": 12383,
+            "number_empty_cells": 0,
+            "number_distinct_values": 521,
+            "frequent_values": [
+                "DEWITT CLINTON HS",
+                "JOHN BOWNE HS",
+                "HILLCREST HS",
+                "JOHN DEWEY HS",
+                "WILLIAM CULLEN BRYANT HS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12383,
+                    "shortest_values": [
+                        "PS 36",
+                        "PS 723",
+                        "PS 138",
+                        "PS 168",
+                        "PS 035"
+                    ],
+                    "longest_values": [
+                        "INWOOD EARLY COLLEGE FOR HEALTH AND INFORMATION TECHNOLOGIES",
+                        "FELISA RINCON DE GAUTIER INSTITUTE FOR LAW AND PUBLIC POLICY",
+                        "MARIE CURIE SCHOOL FOR MEDICINE NURSING AND HEALTH PROFESSIO",
+                        "47 THE AMERICAN SIGN LANGUAGE AND ENGLISH SECONDARY SCHOOL",
+                        "FIORELLO H LAGUARDIA HS OF MUSIC & ART AND PERFORMING ARTS"
+                    ],
+                    "average_length": 28.225389647096826
+                }
+            ]
+        },
+        {
+            "column_name": "Student Category",
+            "number_non_empty_cells": 12382,
+            "number_empty_cells": 1,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "All Students",
+                "Not ELL",
+                "Not SWD",
+                "Hispanic",
+                "Black"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12382,
+                    "shortest_values": [
+                        "SWD",
+                        "ELL",
+                        "White",
+                        "Black",
+                        "Asian"
+                    ],
+                    "longest_values": [
+                        "Unknown Ethnicity",
+                        "Native American",
+                        "Unverified Age",
+                        "All Students",
+                        "19 years old"
+                    ],
+                    "average_length": 9.236714585688903
+                }
+            ]
+        },
+        {
+            "column_name": "Code Type",
+            "number_non_empty_cells": 12383,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Discharge out of NYC School",
+                "Drop Out"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12383,
+                    "shortest_values": [
+                        "Drop Out",
+                        "Discharge out of NYC School"
+                    ],
+                    "longest_values": [
+                        "Discharge out of NYC School",
+                        "Drop Out"
+                    ],
+                    "average_length": 18.155939594605506
+                }
+            ]
+        },
+        {
+            "column_name": "Count of Students",
+            "number_non_empty_cells": 12383,
+            "number_empty_cells": 0,
+            "number_distinct_values": 85,
+            "frequent_values": [
+                "s",
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1672,
+                    "max_value": 186,
+                    "min_value": 10,
+                    "mean": 21.254186602870814,
+                    "stddev": 16.889221292572515
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10711,
+                    "shortest_values": [
+                        "s"
+                    ],
+                    "longest_values": [
+                        "s"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Total Enrolled Students",
+            "number_non_empty_cells": 12383,
+            "number_empty_cells": 0,
+            "number_distinct_values": 979,
+            "frequent_values": [
+                "s",
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11486,
+                    "max_value": 5546,
+                    "min_value": 10,
+                    "mean": 253.345464043183,
+                    "stddev": 429.5138395437657
+                },
+                {
+                    "type": "TEXT",
+                    "count": 897,
+                    "shortest_values": [
+                        "s"
+                    ],
+                    "longest_values": [
+                        "s"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Geographic Unit",
+        "School Name"
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "dataset_name": "mefg-rpis",
+    "columns": [
+        {
+            "column_name": "Location_No",
+            "number_non_empty_cells": 7107,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "79",
+                "70",
+                "35",
+                "66",
+                "99"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7107,
+                    "max_value": 99,
+                    "min_value": 13,
+                    "mean": 50.78246798930632,
+                    "stddev": 20.853322996423785
+                }
+            ]
+        },
+        {
+            "column_name": "Report_Date",
+            "number_non_empty_cells": 7107,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "05/01/2019",
+                "04/01/2019",
+                "02/01/2019",
+                "03/01/2019",
+                "01/01/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7107,
+                    "max_value": "2019-05-01 00:00:00",
+                    "min_value": "2018-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator_Name",
+            "number_non_empty_cells": 7107,
+            "number_empty_cells": 0,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "Same Day SNAP Issuance (weekly Avg)",
+                "Spot Violation",
+                "Re-Engaged after Good Cause",
+                "% Placements w/FIA3As (Employment Form)",
+                "Employed Cases with Current Documentation"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7107,
+                    "shortest_values": [
+                        "SSN Validation",
+                        "Spot Violation",
+                        "Average Wait Time",
+                        "% SI over 45 Days",
+                        "Reported Placements"
+                    ],
+                    "longest_values": [
+                        "Eligible & Referred to Appropriate Activities",
+                        "Employed Cases with Current Documentation",
+                        "Rate of Child Care in Child Care System",
+                        "% Placements w/FIA3As (Employment Form)",
+                        "Cash Assistance Application Timeliness"
+                    ],
+                    "average_length": 29.946390882228787
+                }
+            ]
+        },
+        {
+            "column_name": "Indicator_Value",
+            "number_non_empty_cells": 7107,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1899,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2613,
+                    "max_value": 425,
+                    "min_value": 0,
+                    "mean": 21.309223115193266,
+                    "stddev": 51.63842226786325
+                },
+                {
+                    "type": "REAL",
+                    "count": 4494,
+                    "max_value": 1.047,
+                    "min_value": 0.0042,
+                    "mean": 0.7643052959501556,
+                    "stddev": 0.33637541232049956
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Location_No",
+        "Report_Date"
+    ]
+}

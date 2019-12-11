@@ -1,0 +1,882 @@
+{
+    "dataset_name": "ydkf-mpxb",
+    "columns": [
+        {
+            "column_name": "InspectionID",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7768263,
+            "frequent_values": [
+                "494365",
+                "7634890",
+                "5792431",
+                "5792430",
+                "5792433"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7768263,
+                    "max_value": 8240342,
+                    "min_value": 1,
+                    "mean": 4024255.984831101,
+                    "stddev": 2377705.4154339884
+                }
+            ]
+        },
+        {
+            "column_name": "PermitNumber",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3539801,
+            "frequent_values": [
+                "Q012017354C18",
+                "B012015092A16",
+                "B012016300A10",
+                "B012017096A45",
+                "M022015084D12"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "M012017026A08",
+                        "S022010223011",
+                        "M032012033051",
+                        "M032010145083",
+                        "M012013014043"
+                    ],
+                    "longest_values": [
+                        "BNP2017026A29",
+                        "M012009229049",
+                        "B012008191125",
+                        "Q012013273304",
+                        "M012011159111"
+                    ],
+                    "average_length": 13.0
+                }
+            ]
+        },
+        {
+            "column_name": "PermitteeName",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13213,
+            "frequent_values": [
+                "CONSOLIDATED EDISON",
+                "THE BROOKLYN UNION GAS COMPANY D/B/A NATIONAL GRID NY",
+                "KEYSPAN ENERGY DELIVERY N.Y.C.",
+                "VERIZON NEW YORK INC.",
+                "NYC DEPT OF ENVIRONMENTAL PROTECTION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "LIPA",
+                        "pcgny",
+                        "ZOITCO",
+                        "T.S.C.",
+                        "US EPA"
+                    ],
+                    "longest_values": [
+                        "HENNINGSON, DURHAM & RICHARDSON, ARCHITECTURE AND ENGINEERING, P.C.",
+                        "CM AND ASSOCIATES CONSTRUCTION MANAGEMENT LIMITED LIABILITY COMPANY",
+                        "TULLY CONSTRUCTION CO,INC./POSILLICO CIVIL, INC. A JOINT VENTURE",
+                        "TULLY CONSTRUCTION CO, INC/ POSILLICO CIVIL,INC, JOINT VENTURE",
+                        "VITELLO SEWER, WATER MAIN, HEATING & PLUMBING SERVICES, INC."
+                    ],
+                    "average_length": 25.990618108578456
+                }
+            ]
+        },
+        {
+            "column_name": "PermitType",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 213,
+            "frequent_values": [
+                "PLACE EQUIPMENT OTHER THAN CRANE OR SHOV",
+                "MAJOR INSTALLATION - GAS",
+                "REPAIR GAS",
+                "NON PERMIT",
+                "OCCUPANCY OF SIDEWALK AS STIPULATED"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "TREE PITS",
+                        "LAND FILL",
+                        "REPAIR GAS",
+                        "NON PERMIT",
+                        "CORE RE-DIG"
+                    ],
+                    "longest_values": [
+                        "PLACE OPEN CONSTRUCTION DEBRIS CONTAINER ON STREET",
+                        "PED RAMP MODIFY/INSTALL UTILITIES CORPORATION",
+                        "PLACE CONSTRUCTION OFFICE TRAILER ON STREET",
+                        "PED RAMP MODIFY/INSTALL GENERAL CONTRACTOR",
+                        "REQUEST TO PERFORM WORK DURING AN EMBARGO"
+                    ],
+                    "average_length": 27.534027491087777
+                }
+            ]
+        },
+        {
+            "column_name": "OnstreetName",
+            "number_non_empty_cells": 7768229,
+            "number_empty_cells": 34,
+            "number_distinct_values": 9432,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "2 AVENUE",
+                "5 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 545090,
+                    "min_value": 18,
+                    "mean": 341768.9666666667,
+                    "stddev": 167287.66254120143
+                },
+                {
+                    "type": "TEXT",
+                    "count": 7768199,
+                    "shortest_values": [
+                        "GCP",
+                        "PIER",
+                        "8 ST",
+                        "BEND",
+                        "RAMP"
+                    ],
+                    "longest_values": [
+                        "GRAND CENTRAL PKWY WB EN   94 ST",
+                        "HRP NORTHBOUND ENTRANCE SHORE RD",
+                        "GRND CENTRAL PY WB EN CUNNINGHAM",
+                        "GRAND CENTRAL PKWY EB EN   77 ST",
+                        "VAN WYCK EXPRESSWAY NB ET   12 A"
+                    ],
+                    "average_length": 13.135524849453523
+                }
+            ]
+        },
+        {
+            "column_name": "FromStreetName",
+            "number_non_empty_cells": 7767931,
+            "number_empty_cells": 332,
+            "number_distinct_values": 10401,
+            "frequent_values": [
+                "5 AVENUE",
+                "BEND",
+                "BROADWAY",
+                "7 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 36,
+                    "max_value": 540600,
+                    "min_value": 8,
+                    "mean": 293518.1111111111,
+                    "stddev": 200602.63820614482
+                },
+                {
+                    "type": "TEXT",
+                    "count": 7767895,
+                    "shortest_values": [
+                        "INT",
+                        "RAMP",
+                        "PIER",
+                        "BEND",
+                        "54ST"
+                    ],
+                    "longest_values": [
+                        "GRAND CENTRAL PKWY WB EN   94 ST",
+                        "STATEN ISLAND EXPWY ET   15 N WB",
+                        "BEP WESTBOUND ENTRANCE E   13 ST",
+                        "CROSS ISLD PKWY EN NORTHERN BLVD",
+                        "PROSPECT EXPRESSWAY EB EXIT    6"
+                    ],
+                    "average_length": 12.37717309515641
+                }
+            ]
+        },
+        {
+            "column_name": "ToStreetName",
+            "number_non_empty_cells": 6804375,
+            "number_empty_cells": 963888,
+            "number_distinct_values": 8663,
+            "frequent_values": [
+                "BROADWAY",
+                "PARK AVENUE",
+                "3 AVENUE",
+                "8 AVENUE",
+                "2 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 19818,
+                    "min_value": 332,
+                    "mean": 8297.25,
+                    "stddev": 8352.604245832554
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6804371,
+                    "shortest_values": [
+                        "PIER",
+                        "BEND",
+                        "RAMP",
+                        "bend",
+                        "66 st"
+                    ],
+                    "longest_values": [
+                        "GRAND CENTRAL PARKWAY WB ET    3",
+                        "BEACH   56 STREE/BEACH   55 STRE",
+                        "BELT PARKWAY EASTBOUND EXIT    1",
+                        "VAN WYCK EXPRESSWAY NB ET   12 B",
+                        "BRONX RIVER PARKWAY NB ET    8 W"
+                    ],
+                    "average_length": 13.176858963157652
+                }
+            ]
+        },
+        {
+            "column_name": "SpecificLocation",
+            "number_non_empty_cells": 3799317,
+            "number_empty_cells": 3968946,
+            "number_distinct_values": 596958,
+            "frequent_values": [
+                "*",
+                "INTERSECTION",
+                "OP 32",
+                "sidewalk only no roadway work",
+                "inter"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1651,
+                    "max_value": 20145469,
+                    "min_value": 0,
+                    "mean": 3220169.192610539,
+                    "stddev": 7375130.599808248
+                },
+                {
+                    "type": "REAL",
+                    "count": 265,
+                    "max_value": 5863.07,
+                    "min_value": 1.0,
+                    "mean": 59.53207547169815,
+                    "stddev": 359.2241619166915
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3797401,
+                    "shortest_values": [
+                        "T",
+                        ".",
+                        "`",
+                        "\\",
+                        ":"
+                    ],
+                    "longest_values": [
+                        "At  830 3 Ave.(79\u00e2\u0080\u0099 from 30St. & 51\u00e2\u0080\u0099 from 30St.)",
+                        "\u00c3\u009dGOLD BETWEEN SPRUCE ST & FRANKFORT ST\u00c2\u00a8 105' SSC O",
+                        "125\u00e2\u0080\u0099 W/W/C of Broadway & 1\u00e2\u0080\u0099N/S/C of West 35 St",
+                        "RICH DAYTON* \u00c3\u009dBXEC-14-076\u00c2\u00a8 30' S/N/C OF HILLMAN AV",
+                        "15\u00e2\u0080\u0099 E/W/C  of Broadway & 5\u00e2\u0080\u0099N/S/C of West 48 St"
+                    ],
+                    "average_length": 24.2220539784974
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionType",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Post-Audit",
+                "Active",
+                "CAR Re-Inspect",
+                "E-Number",
+                "Pick-Up"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "LL14",
+                        "Fail",
+                        "NICA",
+                        "Pass",
+                        "Active"
+                    ],
+                    "longest_values": [
+                        "Paving Inspections",
+                        "NOV Re-Inspect",
+                        "CAR Re-Inspect",
+                        "Post-Audit",
+                        "Complaint"
+                    ],
+                    "average_length": 8.623895586439337
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionDate",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5551828,
+            "frequent_values": [
+                "06/04/2008 12:00:00 AM +0000",
+                "04/08/2008 12:00:00 AM +0000",
+                "06/07/2008 12:00:00 AM +0000",
+                "08/14/2008 12:00:00 AM +0000",
+                "07/26/2008 12:00:00 AM +0000"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "01/26/2017 10:04:49 PM +0000",
+                        "08/20/2014 01:42:55 PM +0000",
+                        "05/14/2015 07:27:58 AM +0000",
+                        "04/07/2011 03:56:38 PM +0000",
+                        "12/31/2011 02:05:29 PM +0000"
+                    ],
+                    "longest_values": [
+                        "01/26/2017 10:00:05 PM +0000",
+                        "06/03/2012 01:49:24 PM +0000",
+                        "10/14/2009 03:44:17 PM +0000",
+                        "01/13/2014 09:50:18 AM +0000",
+                        "09/25/2010 07:22:39 AM +0000"
+                    ],
+                    "average_length": 28.0
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionResultType",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "Pass",
+                "Work Not Started",
+                "CAR (Other)",
+                "NOV (Other)",
+                "Work Not Done, Permit Expired"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "Pass",
+                        "NICA",
+                        "CAR (Other)",
+                        "NOV (Other)",
+                        "Refer to RRM"
+                    ],
+                    "longest_values": [
+                        "S/W Viol. Dismissal/Homeowner Letter Fail",
+                        "S/W Viol. Dismissal/Homeowner Letter Pass",
+                        "LL14 Wearing Course Re-Scheduled",
+                        "LL14 Wearing Course Incomplete",
+                        "Work Not Done, Permit Expired"
+                    ],
+                    "average_length": 6.985570004517097
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionRemarks",
+            "number_non_empty_cells": 5393467,
+            "number_empty_cells": 2374796,
+            "number_distinct_values": 2119028,
+            "frequent_values": [
+                "work not started",
+                "perm to grade",
+                "rw",
+                "no work done",
+                "s/w"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 543,
+                    "max_value": 2017062700330323,
+                    "min_value": 1,
+                    "mean": 3714807239745.788,
+                    "stddev": 86480697032988.12
+                },
+                {
+                    "type": "REAL",
+                    "count": 35,
+                    "max_value": 20114610148.0,
+                    "min_value": 1.0,
+                    "mean": 574703238.1457142,
+                    "stddev": 3351066388.856343
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5392889,
+                    "shortest_values": [
+                        "G",
+                        "h",
+                        "'",
+                        "p",
+                        "W"
+                    ],
+                    "longest_values": [
+                        "Arrival time: 7:30am  12 cuts, 6\u00e2\u0080\u0099x 2\u00e2\u0080\u00995\u00e2\u0080\u009d,7\u00e2\u0080\u0099 7\u00e2\u0080\u009dx2\u00e2\u0080\u0099, 5\u00e2\u0080\u0099 11\u00e2\u0080\u009dx2\u00e2\u0080\u0099, 5\u00e2\u0080\u0099 6\u00e2\u0080\u009d x 2\u00e2\u0080\u0099 11\u00e2\u0080\u009d,7\u00e2\u0080\u0099x2\u00e2\u0080\u009d 9\u00e2\u0080\u009d, 6\u00e2\u0080\u009d0\u00e2\u0080\u0099 x 2\u00e2\u0080\u0099 5\u00e2\u0080\u009d,7\u00e2\u0080\u0099 x 5\u00e2\u0080\u0099 3\u00e2\u0080\u009d, 6\u00e2\u0080\u009910\u00e2\u0080\u009d x3\u00e2\u0080\u0099 4\u00e2\u0080\u009d, 6\u00e2\u0080\u0099 9\u00e2\u0080\u009dx 2\u00e2\u0080\u0099 8\u00e2\u0080\u009d,7\u00e2\u0080\u0099 8\u00e2\u0080\u009d x2\u00e2\u0080\u0099 7\u00e2\u0080\u009d, 6\u00e2\u0080\u0099 2\u00e2\u0080\u009dx2\u00e2\u0080\u0099 6\u00e2\u0080\u009d,6\u00e2\u0080\u0099x2\u00e2\u0080\u0099  5\u00e2\u0080\u009d. Area backfill and left down 1\u00e2\u0080\u0099 for base. 6\u00e2\u0080\u009d base cutbacks completed on site",
+                        "8 ROADWAY CUTS5\u00e2\u0080\u0099L X 3\u00e2\u0080\u0099W X 2\u00e2\u0080\u00998\u00e2\u0080\u009dD = 95.1%6\u00e2\u0080\u00994\u00e2\u0080\u009dL X 2\u00e2\u0080\u00997\u00e2\u0080\u009dW X 3\u00e2\u0080\u0099D = 95.1%7\u00e2\u0080\u0099L X 3\u00e2\u0080\u00999\u00e2\u0080\u009dW X 2\u00e2\u0080\u00998\u00e2\u0080\u009dD = 96.2%5\u00e2\u0080\u009910\u00e2\u0080\u009dL X 3\u00e2\u0080\u0099W X 3\u00e2\u0080\u0099D = 96.4%4\u00e2\u0080\u009910\u00e2\u0080\u009dL X 2\u00e2\u0080\u00995\u00e2\u0080\u009dW X 3\u00e2\u0080\u0099D = 95.2%5\u00e2\u0080\u009910\u00e2\u0080\u009dL X 2\u00e2\u0080\u00997\u00e2\u0080\u009dW X 3\u00e2\u0080\u0099D = 95.7%5\u00e2\u0080\u00993\u00e2\u0080\u009dL X 2\u00e2\u0080\u00994\u00e2\u0080\u009dW X 2\u00e2\u0080\u009911\u00e2\u0080\u009dD = 96.1%5\u00e2\u0080\u00999\u00e2\u0080\u009dL X 2\u00e2\u0080\u00995\u00e2\u0080\u009dW X 3\u00e2\u0080\u0099D = 95.4%",
+                        "BACK FILL PASS5 ROADWAY CUTS4\u00e2\u0080\u00998\u00e2\u0080\u009dL X 3\u00e2\u0080\u0099W X 3\u00e2\u0080\u00996\u00e2\u0080\u009dD = 96.0% & 95.6%5\u00e2\u0080\u0099L X 2\u00e2\u0080\u00998\u00e2\u0080\u009dW X 3\u00e2\u0080\u0099D = 99.2%3\u00e2\u0080\u009910\u00e2\u0080\u009dL X 3\u00e2\u0080\u00992\u00e2\u0080\u009dW X 3\u00e2\u0080\u0099D = 95.3%4\u00e2\u0080\u00997\u00e2\u0080\u009dL X 2\u00e2\u0080\u009910\u00e2\u0080\u009dW X 3\u00e2\u0080\u00996\u00e2\u0080\u009dD = 95.2% & 98.9%3\u00e2\u0080\u00991\u00e2\u0080\u009dL X 2\u00e2\u0080\u00997\u00e2\u0080\u009dW X 2\u00e2\u0080\u00995\u00e2\u0080\u009dD = 95.4%ARRIVAL 9:00AM CONTINUEDDEPARTURE 1:15PM.",
+                        "CUT#1 \u00e2\u0080\u0093 L(9\u00e2\u0080\u00999\u00e2\u0080\u009d) W(4\u00e2\u0080\u00992\u00e2\u0080\u009d) D(10\u00e2\u0080\u00990\u00e2\u0080\u009d)CUT#2 \u00e2\u0080\u0093 L(5\u00e2\u0080\u00990\u00e2\u0080\u009d) W(3\u00e2\u0080\u00990\u00e2\u0080\u009d) D(4\u00e2\u0080\u00990\u00e2\u0080\u009d)CUT#3 \u00e2\u0080\u0093 L(7\u00e2\u0080\u00990\u00e2\u0080\u009d) W(6\u00e2\u0080\u00990\u00e2\u0080\u009d) D(4\u00e2\u0080\u00990\u00e2\u0080\u009d)TEST#1 \u00e2\u0080\u0093 97/97.5TEST#2 \u00e2\u0080\u0093 96.7/96.8TEST#3 \u00e2\u0080\u0093 96.8/97.2CUTBACKS HAVE BEEN SPRAYED , 2 DIRT SAMPLES WAS USED , ALL CUTS HAVE BEEN STEEL PLATED",
+                        "4 \u00e2\u0080\u009cHALLEN\u00e2\u0080\u009d marked steel plates in total, 2-3 \u00e2\u0080\u009cHALLEN\u00e2\u0080\u009d marked steel plates shifted 5\u00e2\u0080\u0099\u00e2\u0080\u0099-1\u00e2\u0080\u00996\u00e2\u0080\u0099\u00e2\u0080\u0099 from its original setting and exposing 5\u00e2\u0080\u0099\u00e2\u0080\u0099 of the excavation. (In front 885 new York ave) 1 \u00e2\u0080\u009challen\u00e2\u0080\u009d  marked steel plate in the cross walk shifted 1\u00e2\u0080\u00996\u00e2\u0080\u0099\u00e2\u0080\u0099"
+                    ],
+                    "average_length": 43.13513888381534
+                }
+            ]
+        },
+        {
+            "column_name": "CARNumber",
+            "number_non_empty_cells": 469418,
+            "number_empty_cells": 7298845,
+            "number_distinct_values": 469418,
+            "frequent_values": [
+                "20196460235",
+                "20193790144",
+                "20193340216",
+                "20193790143",
+                "20193340217"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469418,
+                    "max_value": 20197490010,
+                    "min_value": 20043690001,
+                    "mean": 20136667452.290348,
+                    "stddev": 35568685.36830332
+                }
+            ]
+        },
+        {
+            "column_name": "DefectiveCuts",
+            "number_non_empty_cells": 469418,
+            "number_empty_cells": 7298845,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469418,
+                    "max_value": 10,
+                    "min_value": 0,
+                    "mean": 0.48729277530899967,
+                    "stddev": 0.7931526541977606
+                }
+            ]
+        },
+        {
+            "column_name": "FeetFromCrossStreet",
+            "number_non_empty_cells": 469418,
+            "number_empty_cells": 7298845,
+            "number_distinct_values": 527,
+            "frequent_values": [
+                "0",
+                "100",
+                "1",
+                "10",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469418,
+                    "max_value": 2925,
+                    "min_value": -1,
+                    "mean": 17.84902794524283,
+                    "stddev": 52.89176490101543
+                }
+            ]
+        },
+        {
+            "column_name": "FeetFromCurb",
+            "number_non_empty_cells": 469418,
+            "number_empty_cells": 7298845,
+            "number_distinct_values": 129,
+            "frequent_values": [
+                "0",
+                "1",
+                "5",
+                "10",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 469418,
+                    "max_value": 500,
+                    "min_value": -25,
+                    "mean": 2.5797029513141805,
+                    "stddev": 6.219392928506168
+                }
+            ]
+        },
+        {
+            "column_name": "CARComments",
+            "number_non_empty_cells": 461416,
+            "number_empty_cells": 7306847,
+            "number_distinct_values": 414346,
+            "frequent_values": [
+                "- Sidewalk expansion joints need to be sealed",
+                "- Restoration needs to be re-sealed",
+                "- Remove Barricades Left at Worksite",
+                "expansion joints not sealed",
+                "Restoration Missing Color Code"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10,
+                    "max_value": 90038,
+                    "min_value": 1,
+                    "mean": 17759.3,
+                    "stddev": 26293.198040748102
+                },
+                {
+                    "type": "TEXT",
+                    "count": 461406,
+                    "shortest_values": [
+                        "B",
+                        "C",
+                        ".",
+                        "s7",
+                        "MH"
+                    ],
+                    "longest_values": [
+                        "4 \u00e2\u0080\u009cHALLEN\u00e2\u0080\u009d marked steel plates in total, 2-3 \u00e2\u0080\u009cHALLEN\u00e2\u0080\u009d marked steel plates shifted 5\u00e2\u0080\u0099\u00e2\u0080\u0099-1\u00e2\u0080\u00996\u00e2\u0080\u0099\u00e2\u0080\u0099 from its original setting and exposing 5\u00e2\u0080\u0099\u00e2\u0080\u0099 of the excavation. (In front 885 new York ave) 1 \u00e2\u0080\u009challen\u00e2\u0080\u009d  marked steel plate in the cross walk shifted 1\u00e2\u0080\u00996\u00e2\u0080\u0099\u00e2\u0080\u0099",
+                        "At time of inspection I found a 1\u00e2\u0080\u0099x1\u00e2\u0080\u0099 sinkhole down 4\u00e2\u0080\u0099 on diagonal (towards sewer) within a  4\u00e2\u0080\u0099x3\u00e2\u0080\u0099 sunken 1\u00e2\u0080\u0099. Condition is 14\u00e2\u0080\u0099 from 26\u00e2\u0080\u0099\u00e2\u0080\u0099 sewer  access cover also 7\u00e2\u0080\u0099 wide sunken area 1\u00e2\u0080\u0099\u00e2\u0080\u0099 in line with the sewer and stress cracks.  after placing measuri",
+                        "1.)  9\u00e2\u0080\u0099X3\u00e2\u0080\u0099   TWO  LOCALIZED AREA  1\u00e2\u0080\u0099X 1\u00e2\u0080\u0099 DOWN 3\u00e2\u0080\u0099  AND 1 \u00c2\u00bd\u00e2\u0080\u0099 1\u00e2\u0080\u0099   DOWN 3\u00e2\u0080\u0099\u00e2\u0080\u0099 ASPHALT  BROKEN OUT .   2.) 9\u00e2\u0080\u0099X3\u00e2\u0080\u0099 CUT THAT\u00e2\u0080\u0099S  SLIGHTLY MOUNTED IN DRIVING LANE NO CUT BACK DONE.   PER TIM HE  INDICATED  when this job was done this street was protected",
+                        "At time inspection at 8939 145 street I observed a slight 1\u00e2\u0080\u0099x 1\u00e2\u0080\u0099depression down 1\u00e2\u0080\u0099'adjacent the bigger depression 3\u00e2\u0080\u00996\u00e2\u0080\u0099\u00e2\u0080\u0099 x 2\u00e2\u0080\u00993\u00e2\u0080\u0099\u00e2\u0080\u0099 down 3 \u00e2\u0080\u0099\u00e2\u0080\u0099 condition needs to be made flush with surrounding area. CAR issued off of compliant SR:1385202169.; DEP Closed:",
+                        "I/F/O# 718 Craig Ave Non-permit related DEP (2) sunken temp mack cuts in driving lane. (2) DEP 5\u00e2\u0080\u00999\u00e2\u0080\u009d X 2\u00e2\u0080\u0099 10\u00e2\u0080\u009d sunken 6\u00e2\u0080\u009d & 9\u00e2\u0080\u0099 X 3\u00e2\u0080\u0099 9\u00e2\u0080\u009d sunken 1\u00e2\u0080\u0099 3\u00e2\u0080\u009d. This appears to be freshly patched. I needed to place 2 garbage pails for safety.; DEP Closed: 2018-"
+                    ],
+                    "average_length": 89.42830175593728
+                }
+            ]
+        },
+        {
+            "column_name": "LaneOfCut",
+            "number_non_empty_cells": 469418,
+            "number_empty_cells": 7298845,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Driving",
+                "Parking",
+                "SideWalk",
+                "Intersection",
+                "Bus Stop"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 469418,
+                    "shortest_values": [
+                        "Driving",
+                        "Parking",
+                        "SideWalk",
+                        "Driveway",
+                        "Bus Stop"
+                    ],
+                    "longest_values": [
+                        "Not Available",
+                        "Intersection",
+                        "Bike Lane",
+                        "Bus Stop",
+                        "Driveway"
+                    ],
+                    "average_length": 7.866962920041413
+                }
+            ]
+        },
+        {
+            "column_name": "TrafficFlow",
+            "number_non_empty_cells": 469418,
+            "number_empty_cells": 7298845,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Medium",
+                "Heavy",
+                "Light",
+                "Not Available"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 469418,
+                    "shortest_values": [
+                        "Heavy",
+                        "Light",
+                        "Medium",
+                        "Not Available"
+                    ],
+                    "longest_values": [
+                        "Not Available",
+                        "Medium",
+                        "Light",
+                        "Heavy"
+                    ],
+                    "average_length": 5.47454507496517
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreetName",
+            "number_non_empty_cells": 143447,
+            "number_empty_cells": 7624816,
+            "number_distinct_values": 6349,
+            "frequent_values": [
+                "Intersection",
+                "BROADWAY",
+                "3 AVENUE",
+                "7 AVENUE",
+                "BEND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 143447,
+                    "shortest_values": [
+                        "BEND",
+                        "RAMP",
+                        "21 ST",
+                        "NYCTA",
+                        "ALLEY"
+                    ],
+                    "longest_values": [
+                        "BELT PKWY EB EN SPRINGFIELD BLVD",
+                        "BEP EB EN CROSS BAY BOULEVARD NB",
+                        "SIE EASTBOUND ENTRANCE TARGEE ST",
+                        "EDSALL AVENUE/HENRY HUDSON PARKW",
+                        "BRE WESTBOUND ENTRANCE BUHRE AVE"
+                    ],
+                    "average_length": 12.523384943568008
+                }
+            ]
+        },
+        {
+            "column_name": "CurbStreetName",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 7768263,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "NOVNumber",
+            "number_non_empty_cells": 267636,
+            "number_empty_cells": 7500627,
+            "number_distinct_values": 267636,
+            "frequent_values": [
+                "0701390984",
+                "0700672794",
+                "0700507583",
+                "0701439806",
+                "187358380"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 267636,
+                    "max_value": 9999999999,
+                    "min_value": 1,
+                    "mean": 542819723.986179,
+                    "stddev": 239253426.1629157
+                }
+            ]
+        },
+        {
+            "column_name": "NOVCode",
+            "number_non_empty_cells": 300509,
+            "number_empty_cells": 7467754,
+            "number_distinct_values": 134,
+            "frequent_values": [
+                "D4F",
+                "D01",
+                "D30",
+                "D09",
+                "D1B"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 300509,
+                    "shortest_values": [
+                        "D5D",
+                        "DQ7",
+                        "DE9",
+                        "D17",
+                        "DQ6"
+                    ],
+                    "longest_values": [
+                        "D65",
+                        "DC6",
+                        "D67",
+                        "D3E",
+                        "D6E"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "NOVCodeDescription",
+            "number_non_empty_cells": 300509,
+            "number_empty_cells": 7467754,
+            "number_distinct_values": 141,
+            "frequent_values": [
+                "Failure to permanently restore cut within required time",
+                "Use/opening of street without DOT permit",
+                "Failure to comply with terms and conditions of DOT permit",
+                "Construction materials/equipment stored on street without DOT permit",
+                "Failure to obtain a confirmation number prior to expiration of DOT street opening permit (protected street)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 300509,
+                    "shortest_values": [
+                        "Vehicle(s) on sidewalk",
+                        "Canopy without DOT permit",
+                        "Street closing without DOT permit",
+                        "Unsuitable backfill material used",
+                        "Defacement of roadway or sidewalk"
+                    ],
+                    "longest_values": [
+                        "Failure to obtain DOT permit for any changes to, or installation of, temporary roadway pavement markings and temporary construction, parking or regulatory signs and supports",
+                        "Failure to comply with all applicable sections of the Highway Rules, the Standard Specifications, Standard Detail Drawings, and all other applicable laws or rules",
+                        "Riding bicycle on sidewalk in manner which endangers any person or property and causes physical contact with a person (SECOND OR SUBSEQUENT OFFENSE)",
+                        "Failure to mark out proposed excavation area; failure to limit geographical area to be marked out and/or use of excessive or oversized markings.",
+                        "Failure to repair defective street condition found within an area extending 12 inches outward from the perimeter of the cover/grating"
+                    ],
+                    "average_length": 67.59422513136046
+                }
+            ]
+        },
+        {
+            "column_name": "DetailsofViolation",
+            "number_non_empty_cells": 291162,
+            "number_empty_cells": 7477101,
+            "number_distinct_values": 243241,
+            "frequent_values": [
+                "Failure to obtain a confirmation number prior to expiration of street opening permit (protected street)street",
+                "Failure to permanently restore cut within required time",
+                "Failed to seal expansion joints as per subsection",
+                "Failure to repair defective street condition found within an area extending 12 inches outward from the perimeter of the cover/grating",
+                "Use/opening of street w/o permit"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 291162,
+                    "shortest_values": [
+                        "D4G",
+                        "D4F",
+                        "D1F",
+                        "D2A",
+                        "DD5"
+                    ],
+                    "longest_values": [
+                        "A/T/P/O I observed respondent identified by N.Y.C D.O.T permit having complete width of the sidewalk enclosed at work site, obstructing pedestrian passage on sidewalk, without providing any pedestrian walkway or, PROTECTED WALKWAY THROUGH THE BUILDING. Respondent failed to comply to stipulation ID: OCMC95 of their N.Y.C D.O.T permit, which requires respondent to MAINTAIN EITHER A 5-FOOT CLEAR SIDEWALK FOR PEDESTRIAN ACCESS AT ALL TIMES, A PROTECTED WALKWAY IN THE ROADWAY MEETING ALL NYCDOT SPECIFICATIONS AND RAMPED AT ENTRY TO SIDEWALK FOR HANDICAPPED ACCESSIBILITY, OR A NYCDOB APPROVED PROTECTED WALKWAY THROUGH THE BUILDING. No one on-site.",
+                        "A/T/P/O I observed respondent identified by N.Y.C D.O.T permit having construction equipment wooden fence on the sidewalk. Respondent failed to maintain minimum five foot clear sidewalk in between their fence and existing parking regulations pole, and street light pole on sidewalk. Respondent provided three foot-three inches clearance at regulations pole and four foot clear walk at street light pole. Respondent failed to comply to stipulation ID: 013 of their N.Y.C D.O.T permit, which requires respondent to MAINTAIN MINIMUM 5 FOOT CLEAR SIDEWALK. No one on-site.",
+                        "A/T/P/O I observed respondent identified by N.Y.C D.O.T permit and Commercial Refuse Container markings, having a Commercial Refuse Container which is being used to collect debris at building operation in progress in connection to activity which N.Y.C D.O.B permit #122045731-01-EW-OT authorized, which requires respondent to secure a construction activity permit from N.Y.C D.O.T. Respondent failed to secure construction activity permit for container at N.Y.C D.O.B permitted site, as required by 34RCNY 2-14(f). No one on-site.",
+                        "A/T/P/O I observed respondent identified by N.Y.C D.O.T permit having the full width area of sidewalk closed to pedestrian use without any SIGNS DIRECTING PEDESTRIANS TO OPPOSITE SIDEWALK AT BOTH INTERSECTIONS. Spoke to Mr. Lester on-site at 7:00AM on 6/3/14 and condition remains. Respondent failed to comply to stipulation ID: 011 of their N.Y.C D.O.T permit which requires respondent to POST SIGNS DIRECTING PEDESTRIANS TO OPPOSITE SIDEWALK AT WORK ZONES, AS WELL AS BOTH INTERSECTIONS OF AFFECTED SIDEWALK. No one on-site.",
+                        "A/T/P/O I observed respondent identified by N.Y.C D.O.T permit having construction equipment wooden fence obstructing the the sidewalk. Respondent failed to maintain minimum five foot clear sidewalk in between their fence and street traffic light on sidewalk. Respondent provided three feet-eight inches clear sidewalk in between fence and traffic light. Respondent failed to comply to stipulation ID: 013 of their N.Y.C D.O.T permit, which requires respondent to MAINTAIN MINIMUM 5 FOOT CLEAR SIDEWALK. No one on-site."
+                    ],
+                    "average_length": 225.79461262115248
+                }
+            ]
+        },
+        {
+            "column_name": "CreatedOn",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7113800,
+            "frequent_values": [
+                "03/01/2012 06:33:05 PM +0000",
+                "03/14/2012 11:30:08 AM +0000",
+                "02/23/2010 11:33:58 AM +0000",
+                "03/16/2012 11:22:20 AM +0000",
+                "04/16/2016 01:34:40 AM +0000"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7768263,
+                    "shortest_values": [
+                        "01/26/2017 10:04:49 PM +0000",
+                        "05/02/2008 04:58:02 PM +0000",
+                        "09/17/2014 04:46:52 PM +0000",
+                        "01/21/2015 12:31:54 AM +0000",
+                        "01/26/2007 02:05:19 PM +0000"
+                    ],
+                    "longest_values": [
+                        "01/26/2017 10:00:05 PM +0000",
+                        "07/08/2009 08:56:18 AM +0000",
+                        "09/20/2012 02:09:36 PM +0000",
+                        "01/12/2010 08:54:26 AM +0000",
+                        "11/17/2015 01:57:40 PM +0000"
+                    ],
+                    "average_length": 28.0
+                }
+            ]
+        },
+        {
+            "column_name": "ModifiedOn",
+            "number_non_empty_cells": 7768263,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7113813,
+            "frequent_values": [
+                "03/01/2012 06:33:05 PM",
+                "03/14/2012 11:30:08 AM",
+                "03/16/2012 11:22:20 AM",
+                "03/16/2012 11:22:21 AM",
+                "02/23/2010 11:33:58 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7768263,
+                    "max_value": "2019-08-31 21:36:25",
+                    "min_value": "2006-11-01 14:44:27"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "InspectionID"
+    ]
+}

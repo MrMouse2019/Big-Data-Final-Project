@@ -1,0 +1,296 @@
+{
+    "dataset_name": "qusa-igsv",
+    "columns": [
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "K",
+                "M",
+                "Q",
+                "X",
+                "R"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 569,
+                    "shortest_values": [
+                        "K",
+                        "M",
+                        "Q",
+                        "R",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "X",
+                        "R",
+                        "Q",
+                        "M",
+                        "K"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "GRADE LEVEL",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "09-12",
+                "MS Core",
+                "0K-09",
+                "03",
+                "02"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 107,
+                    "max_value": 8,
+                    "min_value": 1,
+                    "mean": 4.11214953271028,
+                    "stddev": 2.2016438327815457
+                },
+                {
+                    "type": "TEXT",
+                    "count": 462,
+                    "shortest_values": [
+                        "0K",
+                        "0K-09",
+                        "09-12",
+                        "MS Core"
+                    ],
+                    "longest_values": [
+                        "MS Core",
+                        "09-12",
+                        "0K-09",
+                        "0K"
+                    ],
+                    "average_length": 5.5
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRAM TYPE",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "GEN ED",
+                "ICT",
+                "SPEC ED",
+                "G&T",
+                "G&T&ICT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 569,
+                    "shortest_values": [
+                        "ICT",
+                        "G&T",
+                        "GEN ED",
+                        "G&T&ICT",
+                        "SPEC ED"
+                    ],
+                    "longest_values": [
+                        "SPEC ED",
+                        "G&T&ICT",
+                        "GEN ED",
+                        "G&T",
+                        "ICT"
+                    ],
+                    "average_length": 5.061511423550088
+                }
+            ]
+        },
+        {
+            "column_name": "CORE SUBJECT \n(MS CORE and \n09-12 ONLY)",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "-",
+                "English",
+                "Science",
+                "Social Studies",
+                "Math"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 569,
+                    "shortest_values": [
+                        "-",
+                        "Math",
+                        "Science",
+                        "English",
+                        "Social Studies"
+                    ],
+                    "longest_values": [
+                        "Social Studies",
+                        "English",
+                        "Science",
+                        "Math",
+                        "-"
+                    ],
+                    "average_length": 6.302284710017575
+                }
+            ]
+        },
+        {
+            "column_name": "CORE COURSE \n(MS CORE and \n09-12 ONLY)",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "-",
+                "MS English Core",
+                "Other English",
+                "Living Environment",
+                "Integrated Algebra"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 569,
+                    "shortest_values": [
+                        "-",
+                        "Physics",
+                        "Geometry",
+                        "Chemistry",
+                        "English 9"
+                    ],
+                    "longest_values": [
+                        "United States History Accelerated",
+                        "Participation in Government",
+                        "Other Physical Sciences",
+                        "MS Social Studies Core",
+                        "Other Social Studies"
+                    ],
+                    "average_length": 11.797891036906854
+                }
+            ]
+        },
+        {
+            "column_name": "SERVICE CATEGORY\n(0K-08 ONLY)",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "-",
+                "12:1",
+                "8:1:1",
+                "12:1:1",
+                "6:1:1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 569,
+                    "shortest_values": [
+                        "-",
+                        "12:1",
+                        "15:1",
+                        "6:1:1",
+                        "8:1:1"
+                    ],
+                    "longest_values": [
+                        "12:1:1",
+                        "8:1:1",
+                        "6:1:1",
+                        "15:1",
+                        "12:1"
+                    ],
+                    "average_length": 1.1458699472759226
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF STUDENTS / \nSEATS FILLED",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 521,
+            "frequent_values": [
+                "24",
+                "73",
+                "130",
+                "29",
+                "31"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 569,
+                    "max_value": 44423,
+                    "min_value": 6,
+                    "mean": 4715.947275922671,
+                    "stddev": 7059.77223682779
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF SECTIONS",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 289,
+            "frequent_values": [
+                "1",
+                "2",
+                "6",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 569,
+                    "max_value": 1582,
+                    "min_value": 1,
+                    "mean": 188.6414762741652,
+                    "stddev": 264.79268297689384
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE CLASS SIZE",
+            "number_non_empty_cells": 569,
+            "number_empty_cells": 0,
+            "number_distinct_values": 171,
+            "frequent_values": [
+                "26",
+                "27.4",
+                "27",
+                "26.5",
+                "26.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 94,
+                    "max_value": 36,
+                    "min_value": 6,
+                    "mean": 22.48936170212766,
+                    "stddev": 7.973019237577981
+                },
+                {
+                    "type": "REAL",
+                    "count": 475,
+                    "max_value": 32.5,
+                    "min_value": 4.5,
+                    "mean": 22.899157894736835,
+                    "stddev": 7.327939275655931
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "BORO",
+        "GRADE LEVEL"
+    ]
+}

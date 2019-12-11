@@ -1,0 +1,284 @@
+{
+    "dataset_name": "ex6k-ym48",
+    "columns": [
+        {
+            "column_name": "CLAIM #",
+            "number_non_empty_cells": 70564,
+            "number_empty_cells": 0,
+            "number_distinct_values": 63406,
+            "frequent_values": [
+                "2015PI021519",
+                "2016PI011894",
+                "2015PI031871",
+                "2015PI024428",
+                "2015PD020631"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 70564,
+                    "shortest_values": [
+                        "2016PD020477",
+                        "2017PD016434",
+                        "2017PD004632",
+                        "2017PD014877",
+                        "2016PD021305"
+                    ],
+                    "longest_values": [
+                        "2014PI003662",
+                        "2015PI027874",
+                        "2015PI027679",
+                        "2015PI025981",
+                        "2015PI015136"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 65390,
+            "number_empty_cells": 5174,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "BRONX",
+                "BROOKLYN (KINGS)",
+                "MANHATTAN (NEW YORK)",
+                "QUEENS",
+                "STATEN ISLAND (RICHMOND)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65390,
+                    "shortest_values": [
+                        "ERIE",
+                        "BRONX",
+                        "OTHER",
+                        "ULSTER",
+                        "ALBANY"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND (RICHMOND)",
+                        "MANHATTAN (NEW YORK)",
+                        "BROOKLYN (KINGS)",
+                        "SULLIVAN COUNTY",
+                        "WESTCHESTER"
+                    ],
+                    "average_length": 12.00487842177703
+                }
+            ]
+        },
+        {
+            "column_name": "OCCURRENCE DATE",
+            "number_non_empty_cells": 68482,
+            "number_empty_cells": 2082,
+            "number_distinct_values": 3267,
+            "frequent_values": [
+                "01/24/2016",
+                "01/23/2016",
+                "01/25/2016",
+                "01/26/2016",
+                "03/14/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 68482,
+                    "max_value": "2017-06-27 00:00:00",
+                    "min_value": "1951-11-17 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "FILED DATE",
+            "number_non_empty_cells": 70564,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2709,
+            "frequent_values": [
+                "02/04/2016",
+                "04/04/2016",
+                "11/09/2016",
+                "01/06/2016",
+                "02/24/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 70564,
+                    "max_value": "2017-06-30 00:00:00",
+                    "min_value": "1991-05-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CLAIM TYPE",
+            "number_non_empty_cells": 70564,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "PEACE OFFICER/POLICE ACTION (PI)",
+                "AUTOMOBILE ACCIDENT",
+                "CORRECTION FACILITY(PI)",
+                "CIVIL RIGHTS CLAIMS",
+                "DEFECTIVE SIDEWALK (PI)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 70564,
+                    "shortest_values": [
+                        "SCHOOL",
+                        "ADMIRALTY",
+                        "RECREATION",
+                        "CATASTROPHE",
+                        "SCHOOL (PI)"
+                    ],
+                    "longest_values": [
+                        "PEACE OFFICER/POLICE ACTION (PI)",
+                        "EMPLOYEE UNIFORMED SERVICE (PI)",
+                        "CITY ONLY(NON COV AGY/BODY)(PI)",
+                        "DEFECTIVE TRAFF/LIGHT/SIGN (PI)",
+                        "NON COVERED AGENCY AND CITY"
+                    ],
+                    "average_length": 22.911002777620315
+                }
+            ]
+        },
+        {
+            "column_name": "DISPOSITION DATE",
+            "number_non_empty_cells": 18279,
+            "number_empty_cells": 52285,
+            "number_distinct_values": 621,
+            "frequent_values": [
+                "11/30/2015",
+                "06/01/2016",
+                "12/28/2016",
+                "03/30/2016",
+                "05/31/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 18279,
+                    "max_value": "2017-06-30 00:00:00",
+                    "min_value": "2015-07-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DISPOSITION AMOUNT",
+            "number_non_empty_cells": 18279,
+            "number_empty_cells": 52285,
+            "number_distinct_values": 3971,
+            "frequent_values": [
+                "15000",
+                "10000",
+                "25000",
+                "7500",
+                "20000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 16333,
+                    "max_value": 13000000,
+                    "min_value": 1,
+                    "mean": 73556.91679422029,
+                    "stddev": 398019.8678157787
+                },
+                {
+                    "type": "REAL",
+                    "count": 1946,
+                    "max_value": 12147984.66,
+                    "min_value": 13.57,
+                    "mean": 33318.908776978424,
+                    "stddev": 340155.0991376729
+                }
+            ]
+        },
+        {
+            "column_name": "AGENCY",
+            "number_non_empty_cells": 68747,
+            "number_empty_cells": 1817,
+            "number_distinct_values": 128,
+            "frequent_values": [
+                "POLICE DEPARTMENT",
+                "DEPT OF TRANSPORTATION",
+                "DEPARTMENT OF TRANSPORTATION",
+                "DEPT. OF CORRECTION",
+                "DEPT OF CORRECTION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 68747,
+                    "shortest_values": [
+                        "FISA",
+                        "MISC.",
+                        "MABSTOA",
+                        "COMPTROLLER",
+                        "CIVIL COURT"
+                    ],
+                    "longest_values": [
+                        "DEPT OF INFO, TECHNOLOGY AND TELECOMMUNICATIONS",
+                        "DEPARTMENT OF YOUTH AND COMMUNITY DEVELOPMENT",
+                        "DEPT OF INFO, TECHNOLOGY & TELECOMMUNICATION",
+                        "SUP. CT. 1ST JUD. DIST. (MANHATTAN & BRONX)",
+                        "DEPARTMENT OF ENVIRONMENTAL PROTECTION(DEP)"
+                    ],
+                    "average_length": 20.70635809562599
+                }
+            ]
+        },
+        {
+            "column_name": "CLAIM ACTION",
+            "number_non_empty_cells": 70564,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "FILED",
+                "SETTLED"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 70564,
+                    "shortest_values": [
+                        "FILED",
+                        "SETTLED"
+                    ],
+                    "longest_values": [
+                        "SETTLED",
+                        "FILED"
+                    ],
+                    "average_length": 5.518082875120458
+                }
+            ]
+        },
+        {
+            "column_name": "FISCAL YEAR (FY)",
+            "number_non_empty_cells": 70564,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "2016",
+                "2017"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 70564,
+                    "max_value": 2017,
+                    "min_value": 2016,
+                    "mean": 2016.4789127600477,
+                    "stddev": 0.49955513040224586
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CLAIM #",
+        "BOROUGH"
+    ]
+}

@@ -1,0 +1,1009 @@
+{
+    "dataset_name": "5uac-w243",
+    "columns": [
+        {
+            "column_name": "CMPLNT_NUM",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 222398,
+            "frequent_values": [
+                "169779436",
+                "715718143",
+                "883783961",
+                "761621771",
+                "679631773"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222398,
+                    "max_value": 999994546,
+                    "min_value": 100001492,
+                    "mean": 550729097.2476372,
+                    "stddev": 260215644.37620372
+                }
+            ]
+        },
+        {
+            "column_name": "ADDR_PCT_CD",
+            "number_non_empty_cells": 222393,
+            "number_empty_cells": 5,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "75",
+                "40",
+                "44",
+                "47",
+                "14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222393,
+                    "max_value": 123,
+                    "min_value": 1,
+                    "mean": 62.58275215496891,
+                    "stddev": 34.63583355228065
+                }
+            ]
+        },
+        {
+            "column_name": "BORO_NM",
+            "number_non_empty_cells": 222260,
+            "number_empty_cells": 138,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222260,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.403644380455322
+                }
+            ]
+        },
+        {
+            "column_name": "CMPLNT_FR_DT",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1375,
+            "frequent_values": [
+                "01/01/2019",
+                "06/12/2019",
+                "05/10/2019",
+                "05/24/2019",
+                "05/17/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 222398,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "1018-12-10 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CMPLNT_FR_TM",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1440,
+            "frequent_values": [
+                "12:00:00",
+                "15:00:00",
+                "18:00:00",
+                "17:00:00",
+                "16:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222398,
+                    "shortest_values": [
+                        "16:37:00",
+                        "22:38:00",
+                        "01:28:00",
+                        "01:56:00",
+                        "10:54:00"
+                    ],
+                    "longest_values": [
+                        "06:32:00",
+                        "20:23:00",
+                        "13:36:00",
+                        "10:19:00",
+                        "06:08:00"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "CMPLNT_TO_DT",
+            "number_non_empty_cells": 193232,
+            "number_empty_cells": 29166,
+            "number_distinct_values": 897,
+            "frequent_values": [
+                "06/12/2019",
+                "05/24/2019",
+                "05/31/2019",
+                "05/17/2019",
+                "05/21/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 193232,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "1970-12-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CMPLNT_TO_TM",
+            "number_non_empty_cells": 193338,
+            "number_empty_cells": 29060,
+            "number_distinct_values": 1440,
+            "frequent_values": [
+                "12:00:00",
+                "15:00:00",
+                "16:00:00",
+                "17:00:00",
+                "18:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 193338,
+                    "shortest_values": [
+                        "16:45:00",
+                        "11:13:00",
+                        "01:22:00",
+                        "03:29:00",
+                        "11:04:00"
+                    ],
+                    "longest_values": [
+                        "06:58:00",
+                        "18:01:00",
+                        "05:48:00",
+                        "11:52:00",
+                        "04:14:00"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "CRM_ATPT_CPTD_CD",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "COMPLETED",
+                "ATTEMPTED"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222398,
+                    "shortest_values": [
+                        "COMPLETED",
+                        "ATTEMPTED"
+                    ],
+                    "longest_values": [
+                        "ATTEMPTED",
+                        "COMPLETED"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "HADEVELOPT",
+            "number_non_empty_cells": 10741,
+            "number_empty_cells": 211657,
+            "number_distinct_values": 254,
+            "frequent_values": [
+                "CASTLE HILL",
+                "GRANT",
+                "VAN DYKE I",
+                "BUSHWICK",
+                "INGERSOLL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10741,
+                    "shortest_values": [
+                        "RIIS",
+                        "WALD",
+                        "TAFT",
+                        "PINK",
+                        "BLAND"
+                    ],
+                    "longest_values": [
+                        "STERLING PLACE REHAB (SAINT JOHNS-STERLING)",
+                        "WEST TREMONT AVENUE-SEDGWICK AVENUE AREA",
+                        "STERLING PLACE REHAB (STERLING-BUFFALO)",
+                        "BEACH 41ST STREET-BEACH CHANNEL DRIVE",
+                        "FORT INDEPENDENCE STREET-HEATH AVENUE"
+                    ],
+                    "average_length": 10.945815101014803
+                }
+            ]
+        },
+        {
+            "column_name": "HOUSING_PSA",
+            "number_non_empty_cells": 16609,
+            "number_empty_cells": 205789,
+            "number_distinct_values": 312,
+            "frequent_values": [
+                "720",
+                "887",
+                "670",
+                "40086",
+                "227"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 16609,
+                    "max_value": 70679,
+                    "min_value": 218,
+                    "mean": 7364.948040219158,
+                    "stddev": 14834.241574394642
+                }
+            ]
+        },
+        {
+            "column_name": "JURISDICTION_CODE",
+            "number_non_empty_cells": 222261,
+            "number_empty_cells": 137,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "0",
+                "2",
+                "1",
+                "97",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222261,
+                    "max_value": 97,
+                    "min_value": 0,
+                    "mean": 0.9590166515942968,
+                    "stddev": 8.306673337071498
+                }
+            ]
+        },
+        {
+            "column_name": "JURIS_DESC",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "N.Y. POLICE DEPT",
+                "N.Y. HOUSING POLICE",
+                "N.Y. TRANSIT POLICE",
+                "OTHER",
+                "PORT AUTHORITY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222398,
+                    "shortest_values": [
+                        "OTHER",
+                        "AMTRACK",
+                        "NYC PARKS",
+                        "METRO NORTH",
+                        "PORT AUTHORITY"
+                    ],
+                    "longest_values": [
+                        "NEW YORK CITY SHERIFF OFFICE",
+                        "NYS DEPT TAX AND FINANCE",
+                        "STATN IS RAPID TRANS",
+                        "DEPT OF CORRECTIONS",
+                        "N.Y. HOUSING POLICE"
+                    ],
+                    "average_length": 16.237259327871655
+                }
+            ]
+        },
+        {
+            "column_name": "KY_CD",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "341",
+                "578",
+                "344",
+                "109",
+                "351"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222398,
+                    "max_value": 881,
+                    "min_value": 101,
+                    "mean": 308.10353510373295,
+                    "stddev": 155.90464920147753
+                }
+            ]
+        },
+        {
+            "column_name": "LAW_CAT_CD",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "MISDEMEANOR",
+                "FELONY",
+                "VIOLATION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222398,
+                    "shortest_values": [
+                        "FELONY",
+                        "VIOLATION",
+                        "MISDEMEANOR"
+                    ],
+                    "longest_values": [
+                        "MISDEMEANOR",
+                        "VIOLATION",
+                        "FELONY"
+                    ],
+                    "average_length": 9.173270443079524
+                }
+            ]
+        },
+        {
+            "column_name": "LOC_OF_OCCUR_DESC",
+            "number_non_empty_cells": 182366,
+            "number_empty_cells": 40032,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "INSIDE",
+                "FRONT OF",
+                "OPPOSITE OF",
+                "REAR OF",
+                "OUTSIDE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 182366,
+                    "shortest_values": [
+                        "INSIDE",
+                        "REAR OF",
+                        "OUTSIDE",
+                        "FRONT OF",
+                        "OPPOSITE OF"
+                    ],
+                    "longest_values": [
+                        "OPPOSITE OF",
+                        "FRONT OF",
+                        "OUTSIDE",
+                        "REAR OF",
+                        "INSIDE"
+                    ],
+                    "average_length": 6.688478115438185
+                }
+            ]
+        },
+        {
+            "column_name": "OFNS_DESC",
+            "number_non_empty_cells": 222389,
+            "number_empty_cells": 9,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "PETIT LARCENY",
+                "HARRASSMENT 2",
+                "ASSAULT 3 & RELATED OFFENSES",
+                "CRIMINAL MISCHIEF & RELATED OF",
+                "GRAND LARCENY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222389,
+                    "shortest_values": [
+                        "RAPE",
+                        "ARSON",
+                        "FRAUDS",
+                        "ROBBERY",
+                        "FORGERY"
+                    ],
+                    "longest_values": [
+                        "AGRICULTURE & MRKTS LAW-UNCLASSIFIED",
+                        "OTHER STATE LAWS (NON PENAL LAW)",
+                        "MURDER & NON-NEGL. MANSLAUGHTER",
+                        "KIDNAPPING AND RELATED OFFENSES",
+                        "PROSTITUTION & RELATED OFFENSES"
+                    ],
+                    "average_length": 18.377783973128167
+                }
+            ]
+        },
+        {
+            "column_name": "PARKS_NM",
+            "number_non_empty_cells": 1640,
+            "number_empty_cells": 220758,
+            "number_distinct_values": 413,
+            "frequent_values": [
+                "FLUSHING MEADOWS CORONA PARK",
+                "CENTRAL PARK",
+                "CONEY ISLAND BEACH & BOARDWALK",
+                "RICHMAN (ECHO) PARK",
+                "WASHINGTON SQUARE PARK"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1640,
+                    "shortest_values": [
+                        "POE PARK",
+                        "LUNA PARK",
+                        "EWEN PARK",
+                        "SETON PARK",
+                        "GRANT PARK"
+                    ],
+                    "longest_values": [
+                        "CLASSON PLAYGROUND AT CLASSON AVENUE & LAFAYETTE AVENUE",
+                        "\"UNCLE\" VITO E. MARANZANO GLENDALE PLAYGROUND",
+                        "EAST RIVER ESPLANADE E 90TH ST TO E 125TH ST",
+                        "EAST RIVER ESPLANADE AT E 36TH ST AND FDR",
+                        "MARGARET I. CARMAN GREEN - WEEPING BEECH"
+                    ],
+                    "average_length": 19.223780487804877
+                }
+            ]
+        },
+        {
+            "column_name": "PATROL_BORO",
+            "number_non_empty_cells": 222261,
+            "number_empty_cells": 137,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "PATROL BORO BRONX",
+                "PATROL BORO BKLYN NORTH",
+                "PATROL BORO BKLYN SOUTH",
+                "PATROL BORO MAN SOUTH",
+                "PATROL BORO MAN NORTH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222261,
+                    "shortest_values": [
+                        "PATROL BORO BRONX",
+                        "PATROL BORO MAN SOUTH",
+                        "PATROL BORO MAN NORTH",
+                        "PATROL BORO BKLYN SOUTH",
+                        "PATROL BORO BKLYN NORTH"
+                    ],
+                    "longest_values": [
+                        "PATROL BORO STATEN ISLAND",
+                        "PATROL BORO QUEENS NORTH",
+                        "PATROL BORO QUEENS SOUTH",
+                        "PATROL BORO BKLYN NORTH",
+                        "PATROL BORO BKLYN SOUTH"
+                    ],
+                    "average_length": 21.47177417540639
+                }
+            ]
+        },
+        {
+            "column_name": "PD_CD",
+            "number_non_empty_cells": 222261,
+            "number_empty_cells": 137,
+            "number_distinct_values": 338,
+            "frequent_values": [
+                "638",
+                "101",
+                "333",
+                "637",
+                "639"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222261,
+                    "max_value": 969,
+                    "min_value": 100,
+                    "mean": 404.278798349688,
+                    "stddev": 220.493987484854
+                }
+            ]
+        },
+        {
+            "column_name": "PD_DESC",
+            "number_non_empty_cells": 222261,
+            "number_empty_cells": 137,
+            "number_distinct_values": 328,
+            "frequent_values": [
+                "HARASSMENT,SUBD 3,4,5",
+                "ASSAULT 3",
+                "LARCENY,PETIT FROM STORE-SHOPL",
+                "HARASSMENT,SUBD 1,CIVILIAN",
+                "AGGRAVATED HARASSMENT 2"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222261,
+                    "shortest_values": [
+                        "RAPE 2",
+                        "RAPE 3",
+                        "RAPE 1",
+                        "RIOT 1",
+                        "BIGAMY"
+                    ],
+                    "longest_values": [
+                        "LARCENY,GRAND FROM RESIDENCE/BUILDING,UNATTENDED, PACKAGE THEFT OUTSIDE",
+                        "LARCENY,GRAND FROM RESIDENCE/BUILDING,UNATTENDED, PACKAGE THEFT INSIDE",
+                        "LARCENY,PETIT FROM BUILDING,UNATTENDED, PACKAGE THEFT OUTSIDE",
+                        "LARCENY,GRAND FROM PERSON,PERSONAL ELECTRONIC DEVICE(SNATCH)",
+                        "LARCENY,PETIT FROM BUILDING,UNATTENDED, PACKAGE THEFT INSIDE"
+                    ],
+                    "average_length": 25.58876726011311
+                }
+            ]
+        },
+        {
+            "column_name": "PREM_TYP_DESC",
+            "number_non_empty_cells": 221461,
+            "number_empty_cells": 937,
+            "number_distinct_values": 74,
+            "frequent_values": [
+                "STREET",
+                "RESIDENCE - APT. HOUSE",
+                "RESIDENCE-HOUSE",
+                "RESIDENCE - PUBLIC HOUSING",
+                "CHAIN STORE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 221461,
+                    "shortest_values": [
+                        "ATM",
+                        "SHOE",
+                        "BANK",
+                        "OTHER",
+                        "TUNNEL"
+                    ],
+                    "longest_values": [
+                        "PARKING LOT/GARAGE (PRIVATE)",
+                        "PARKING LOT/GARAGE (PUBLIC)",
+                        "RESIDENCE - PUBLIC HOUSING",
+                        "TRANSIT FACILITY (OTHER)",
+                        "TAXI/LIVERY (UNLICENSED)"
+                    ],
+                    "average_length": 14.715620357534736
+                }
+            ]
+        },
+        {
+            "column_name": "RPT_DT",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 181,
+            "frequent_values": [
+                "06/12/2019",
+                "06/26/2019",
+                "05/21/2019",
+                "05/28/2019",
+                "06/17/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 222398,
+                    "max_value": "2019-06-30 00:00:00",
+                    "min_value": "2019-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "STATION_NAME",
+            "number_non_empty_cells": 6233,
+            "number_empty_cells": 216165,
+            "number_distinct_values": 356,
+            "frequent_values": [
+                "125 STREET",
+                "161 ST.-YANKEE STADIUM",
+                "14 STREET",
+                "34 ST.-PENN STATION",
+                "42 ST.-PORT AUTHORITY BUS TERM"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6233,
+                    "shortest_values": [
+                        "BOWERY",
+                        "7 AVENUE",
+                        "1 AVENUE",
+                        "9 AVENUE",
+                        "6 AVENUE"
+                    ],
+                    "longest_values": [
+                        "81 ST.-MUSEUM OF NATURAL HISTO",
+                        "EAST 143 ST.-ST. MARY'S STREET",
+                        "FLATBUSH AVE.-BROOKLYN COLLEGE",
+                        "BEDFORD PK. BLVD.-LEHMAN COLLE",
+                        "EAST TREMONT AVE.-WEST FARMS S"
+                    ],
+                    "average_length": 15.601957323921065
+                }
+            ]
+        },
+        {
+            "column_name": "SUSP_AGE_GROUP",
+            "number_non_empty_cells": 170016,
+            "number_empty_cells": 52382,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "UNKNOWN",
+                "25-44",
+                "45-64",
+                "18-24",
+                "<18"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 170016,
+                    "max_value": "1900-01-01 18:24:00",
+                    "min_value": "1900-01-01 18:24:00"
+                }
+            ]
+        },
+        {
+            "column_name": "SUSP_RACE",
+            "number_non_empty_cells": 170016,
+            "number_empty_cells": 52382,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "BLACK",
+                "UNKNOWN",
+                "WHITE HISPANIC",
+                "WHITE",
+                "BLACK HISPANIC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 170016,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "UNKNOWN",
+                        "WHITE HISPANIC",
+                        "BLACK HISPANIC"
+                    ],
+                    "longest_values": [
+                        "AMERICAN INDIAN/ALASKAN NATIVE",
+                        "ASIAN / PACIFIC ISLANDER",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC",
+                        "UNKNOWN"
+                    ],
+                    "average_length": 8.425989318652363
+                }
+            ]
+        },
+        {
+            "column_name": "SUSP_SEX",
+            "number_non_empty_cells": 170016,
+            "number_empty_cells": 52382,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "M",
+                "U",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 170016,
+                    "shortest_values": [
+                        "M",
+                        "U",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "U",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "TRANSIT_DISTRICT",
+            "number_non_empty_cells": 6233,
+            "number_empty_cells": 216165,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "2",
+                "4",
+                "1",
+                "3",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6233,
+                    "max_value": 34,
+                    "min_value": 1,
+                    "mean": 13.411840205358576,
+                    "stddev": 12.457608569123158
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_AGE_GROUP",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "25-44",
+                "UNKNOWN",
+                "45-64",
+                "18-24",
+                "<18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 17,
+                    "max_value": 960,
+                    "min_value": -978,
+                    "mean": 40.94117647058823,
+                    "stddev": 830.5022201753966
+                },
+                {
+                    "type": "TEXT",
+                    "count": 222381,
+                    "shortest_values": [
+                        "<18",
+                        "65+",
+                        "25-44",
+                        "45-64",
+                        "18-24"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "18-24",
+                        "45-64",
+                        "25-44",
+                        "65+"
+                    ],
+                    "average_length": 5.384924971108143
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_RACE",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "UNKNOWN",
+                "BLACK",
+                "WHITE HISPANIC",
+                "WHITE",
+                "ASIAN / PACIFIC ISLANDER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222398,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "UNKNOWN",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC"
+                    ],
+                    "longest_values": [
+                        "AMERICAN INDIAN/ALASKAN NATIVE",
+                        "ASIAN / PACIFIC ISLANDER",
+                        "WHITE HISPANIC",
+                        "BLACK HISPANIC",
+                        "UNKNOWN"
+                    ],
+                    "average_length": 9.041466200235613
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_SEX",
+            "number_non_empty_cells": 222398,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "F",
+                "M",
+                "D",
+                "E"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222398,
+                    "shortest_values": [
+                        "M",
+                        "F",
+                        "D",
+                        "E"
+                    ],
+                    "longest_values": [
+                        "E",
+                        "D",
+                        "F",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORD_CD",
+            "number_non_empty_cells": 222376,
+            "number_empty_cells": 22,
+            "number_distinct_values": 38976,
+            "frequent_values": [
+                "987220",
+                "1019840",
+                "1016268",
+                "1004138",
+                "1006537"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222376,
+                    "max_value": 1067185,
+                    "min_value": 913512,
+                    "mean": 1005117.9980078785,
+                    "stddev": 21161.04025769202
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORD_CD",
+            "number_non_empty_cells": 222376,
+            "number_empty_cells": 22,
+            "number_distinct_values": 41526,
+            "frequent_values": [
+                "212676",
+                "206689",
+                "227533",
+                "226326",
+                "244511"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 222376,
+                    "max_value": 271820,
+                    "min_value": 121282,
+                    "mean": 207800.42674569198,
+                    "stddev": 30137.407556369482
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 222376,
+            "number_empty_cells": 22,
+            "number_distinct_values": 52533,
+            "frequent_values": [
+                "40.75043076800005",
+                "40.73392684100002",
+                "40.791151867000046",
+                "40.78787459900008",
+                "40.83778161800007"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 222376,
+                    "max_value": 40.91272339600005,
+                    "min_value": 40.499323600000025,
+                    "mean": 40.73699863096057,
+                    "stddev": 0.08272376290076988
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 222376,
+            "number_empty_cells": 22,
+            "number_distinct_values": 52533,
+            "frequent_values": [
+                "-73.98928217599996",
+                "-73.87158239799999",
+                "-73.884371919",
+                "-73.92818164599998",
+                "-73.91945797099999"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 222376,
+                    "max_value": -73.70072029399995,
+                    "min_value": -74.25437700099997,
+                    "mean": -73.92467273016113,
+                    "stddev": 0.07631650150466666
+                }
+            ]
+        },
+        {
+            "column_name": "Lat_Lon",
+            "number_non_empty_cells": 222376,
+            "number_empty_cells": 22,
+            "number_distinct_values": 52536,
+            "frequent_values": [
+                "(40.750430768, -73.989282176)",
+                "(40.733926841, -73.871582398)",
+                "(40.791151867, -73.884371919)",
+                "(40.787874599, -73.928181646)",
+                "(40.837781618, -73.919457971)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 222376,
+                    "shortest_values": [
+                        "(40.632058, -73.896861)",
+                        "(40.7561, -73.862959884)",
+                        "(40.55922, -74.14978938)",
+                        "(40.6450517, -73.9503995)",
+                        "(40.694601, -73.84165845)"
+                    ],
+                    "longest_values": [
+                        "(40.705526928, -73.866879795)",
+                        "(40.565480822, -74.122032031)",
+                        "(40.814852894, -73.956313353)",
+                        "(40.839560023, -73.923236082)",
+                        "(40.578179714, -73.992096114)"
+                    ],
+                    "average_length": 28.77988182177933
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CMPLNT_NUM"
+    ]
+}

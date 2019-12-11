@@ -1,0 +1,158 @@
+{
+    "dataset_name": "rdxc-q253",
+    "columns": [
+        {
+            "column_name": "Permit_number",
+            "number_non_empty_cells": 7765,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7742,
+            "frequent_values": [
+                "AF131",
+                "AF143",
+                "AB740",
+                "AA404",
+                "AA859"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7765,
+                    "shortest_values": [
+                        "AF574",
+                        "AC418",
+                        "AC496",
+                        "AE253",
+                        "AC369"
+                    ],
+                    "longest_values": [
+                        "BB461",
+                        "AA691",
+                        "AF625",
+                        "AD962",
+                        "BC021"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Schedule_Date",
+            "number_non_empty_cells": 7765,
+            "number_empty_cells": 0,
+            "number_distinct_values": 125,
+            "frequent_values": [
+                "02/18/2020",
+                "12/26/2019",
+                "12/02/2019",
+                "12/11/2019",
+                "12/12/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7765,
+                    "max_value": "2020-03-27 00:00:00",
+                    "min_value": "2019-09-27 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Schedule_time",
+            "number_non_empty_cells": 7765,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "9:00AM",
+                "9:30AM",
+                "9:15AM",
+                "9:45AM",
+                "10:00AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7765,
+                    "max_value": "1900-01-01 12:00:00",
+                    "min_value": "1900-01-01 08:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Base_Number",
+            "number_non_empty_cells": 6699,
+            "number_empty_cells": 1066,
+            "number_distinct_values": 153,
+            "frequent_values": [
+                "B01848",
+                "B02932",
+                "B01614",
+                "B02346",
+                "B03027"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6699,
+                    "shortest_values": [
+                        "B02902",
+                        "B01109",
+                        "B00419",
+                        "B01239",
+                        "B01977"
+                    ],
+                    "longest_values": [
+                        "B03072",
+                        "B01315",
+                        "B01339",
+                        "B01083",
+                        "B02520"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Last_Updated_Date",
+            "number_non_empty_cells": 7765,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "09/27/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 7765,
+                    "max_value": "2019-09-27 00:00:00",
+                    "min_value": "2019-09-27 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Last_Updated_Time",
+            "number_non_empty_cells": 7765,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "18:03:28.570"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 7765,
+                    "shortest_values": [
+                        "18:03:28.570"
+                    ],
+                    "longest_values": [
+                        "18:03:28.570"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Permit_number",
+        "Schedule_Date"
+    ]
+}

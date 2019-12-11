@@ -1,0 +1,504 @@
+{
+    "dataset_name": "kuk6-452p",
+    "columns": [
+        {
+            "column_name": "DropOff SiteName",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "STAPLES",
+                "SALVATION ARMY THRIFT STORE",
+                "BEST BUY - FLUSHING NY\u00a0(STORE 1115)",
+                "GOODWILL THRIFT SHOP - E HARLEM STORE",
+                "BEST BUY - LONG ISLAND CITY NY\u00a0(STORE 478)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 94,
+                    "shortest_values": [
+                        "STAPLES",
+                        "GOODWILL THRIFT SHOP",
+                        "GOODWILL OUTLET CENTER",
+                        "SALVATION ARMY THRIFT STORE",
+                        "LOWER EAST SIDE ECOLOGY CENTER"
+                    ],
+                    "longest_values": [
+                        "BEST BUY - 62ND AND BROADWAY NY\u00a0(STORE 1448)",
+                        "BEST BUY - GATEWAY BROOKLYN NY\u00a0(STORE 1886)",
+                        "BEST BUY - 86TH AND LEXINGTN NY\u00a0(STORE 835)",
+                        "BEST BUY - BDWY N OF HOUSTON NY\u00a0(STORE 609)",
+                        "GOODWILL THRIFT SHOP - WASHINGTON HTS STORE"
+                    ],
+                    "average_length": 21.138297872340427
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "1280 LEXINGTON AVE NEW YORK NY 10028",
+                "536 W 46 ST NEW YORK NY 10036",
+                "402 E FORDHAM RD BRONX NY 10458",
+                "3718 NOSTRAND AVE BROOKLYN NY 11235",
+                "5110 BROADWAY WOODSIDE NY 11377"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 94,
+                    "shortest_values": [
+                        "2582 3 AVE BRONX NY 10454",
+                        "348 4 AVE BROOKLYN NY 11215",
+                        "500 8 AVE NEW YORK NY 10018",
+                        "2441 31 ST ASTORIA NY 11102",
+                        "574 2 AVE NEW YORK NY 10016"
+                    ],
+                    "longest_values": [
+                        "5001 NORTHERN BLVD LONG ISLAND CITY NY 11101",
+                        "9318 ROOSEVELT AVE JACKSON HEIGHTS NY 11372",
+                        "3402 STEINWAY ST LONG ISLAND CITY NY 11101",
+                        "9130 VAN WYCK EXPY RICHMOND HILL NY 11418",
+                        "4747 VAN DAM ST LONG ISLAND CITY NY 11101"
+                    ],
+                    "average_length": 31.893617021276597
+                }
+            ]
+        },
+        {
+            "column_name": "Building Number",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 92,
+            "frequent_values": [
+                "1280",
+                "1880",
+                "2795",
+                "641",
+                "3236"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 91,
+                    "max_value": 50001,
+                    "min_value": 16,
+                    "mean": 3461.4505494505493,
+                    "stddev": 6273.061086137434
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3,
+                    "shortest_values": [
+                        "5-9",
+                        "330-340",
+                        "1293-1311"
+                    ],
+                    "longest_values": [
+                        "1293-1311",
+                        "330-340",
+                        "5-9"
+                    ],
+                    "average_length": 6.333333333333333
+                }
+            ]
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVE",
+                "ATLANTIC AVE",
+                "8 AVE",
+                "6 AVE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 94,
+                    "shortest_values": [
+                        "E 34",
+                        "5 AV",
+                        "40 RD",
+                        "AVE U",
+                        "5 AVE"
+                    ],
+                    "longest_values": [
+                        "CONEY ISLAND AVE",
+                        "METROPOLITAN AVE",
+                        "WHITE PLAINS RD",
+                        "BAYCHESTER AVE",
+                        "UNION SQUARE W"
+                    ],
+                    "average_length": 8.797872340425531
+                }
+            ]
+        },
+        {
+            "column_name": "ZipCode",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "10003",
+                "10011",
+                "10010",
+                "10018",
+                "11377"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 94,
+                    "max_value": 11435,
+                    "min_value": 10001,
+                    "mean": 10636.31914893617,
+                    "stddev": 584.7212504237795
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 94,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.872340425531915
+                }
+            ]
+        },
+        {
+            "column_name": "BoroCode",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "1",
+                "3",
+                "4",
+                "2",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 94,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.382978723404255,
+                    "stddev": 1.3136467268453724
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "40.7798872",
+                "40.7700779",
+                "40.7158271",
+                "40.6295254",
+                "40.7534523"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 94,
+                    "max_value": 40.8810804,
+                    "min_value": 40.5742785,
+                    "mean": 40.734123508510635,
+                    "stddev": 0.07143171897049609
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "-73.9557037",
+                "-73.8913166",
+                "-73.9630824",
+                "-73.9337864",
+                "-73.9030775"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 94,
+                    "max_value": -73.772986,
+                    "min_value": -74.1694432,
+                    "mean": -73.94909249255315,
+                    "stddev": 0.06736933091667222
+                }
+            ]
+        },
+        {
+            "column_name": "X Coordinate",
+            "number_non_empty_cells": 88,
+            "number_empty_cells": 6,
+            "number_distinct_values": 87,
+            "frequent_values": [
+                "996569",
+                "996812",
+                "1035593",
+                "1021894",
+                "1006664"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 88,
+                    "max_value": 1046976,
+                    "min_value": 937139,
+                    "mean": 998460.0227272727,
+                    "stddev": 19165.59417347165
+                }
+            ]
+        },
+        {
+            "column_name": "Y Coordinate",
+            "number_non_empty_cells": 88,
+            "number_empty_cells": 6,
+            "number_distinct_values": 87,
+            "frequent_values": [
+                "223310",
+                "214028",
+                "252657",
+                "215959",
+                "249398"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 88,
+                    "max_value": 260404,
+                    "min_value": 150106,
+                    "mean": 209189.43181818182,
+                    "stddev": 24652.63149138235
+                }
+            ]
+        },
+        {
+            "column_name": "Community District",
+            "number_non_empty_cells": 88,
+            "number_empty_cells": 6,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "2",
+                "5",
+                "1",
+                "6",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 88,
+                    "max_value": 18,
+                    "min_value": 1,
+                    "mean": 5.738636363636363,
+                    "stddev": 3.8123433445663704
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 88,
+            "number_empty_cells": 6,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "3",
+                "4",
+                "2",
+                "26",
+                "33"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 88,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 18.818181818181817,
+                    "stddev": 15.398897137712531
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 88,
+            "number_empty_cells": 6,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "63",
+                "212",
+                "157",
+                "14802",
+                "167"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 88,
+                    "max_value": 71702,
+                    "min_value": 35,
+                    "mean": 3500.4772727272725,
+                    "stddev": 10779.333917456537
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 87,
+            "number_empty_cells": 7,
+            "number_distinct_values": 86,
+            "frequent_values": [
+                "1047955",
+                "4530109",
+                "3064281",
+                "1080049",
+                "1033710"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 87,
+                    "max_value": 5155776,
+                    "min_value": 1008935,
+                    "mean": 2443086.632183908,
+                    "stddev": 1395369.3575929492
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 87,
+            "number_empty_cells": 7,
+            "number_distinct_values": 85,
+            "frequent_values": [
+                "1015157502",
+                "1009030047",
+                "4006560051",
+                "1015510003",
+                "3028170001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 87,
+                    "max_value": 5035480001,
+                    "min_value": 1005220005,
+                    "mean": 2368831352.0689654,
+                    "stddev": 1346660917.951683
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 88,
+            "number_empty_cells": 6,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "Midtown-Midtown South",
+                "West Village",
+                "Hudson Yards-Chelsea-Flatiron-Union Square",
+                "Upper West Side",
+                "Woodside"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 88,
+                    "shortest_values": [
+                        "Clinton",
+                        "Erasmus",
+                        "Astoria",
+                        "Jamaica",
+                        "Maspeth"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Georgetown-Marine Park-Bergen Beach-Mill Basin",
+                        "Hudson Yards-Chelsea-Flatiron-Union Square",
+                        "Van Nest-Morris Park-Westchester Square"
+                    ],
+                    "average_length": 18.829545454545453
+                }
+            ]
+        },
+        {
+            "column_name": "Location Point",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 0,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "(40.7798872, -73.9557037)",
+                "(40.5936458, -73.9989895)",
+                "(40.732951, -73.998643)",
+                "(40.7407266, -73.9948313)",
+                "(40.5742785, -74.1694432)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 94,
+                    "shortest_values": [
+                        "(40.7793, -73.950294)",
+                        "(40.70127, -73.805563)",
+                        "(40.678631, -73.987452)",
+                        "(40.816877, -73.918804)",
+                        "(40.794759, -73.972784)"
+                    ],
+                    "longest_values": [
+                        "(40.8518616, -73.8674386)",
+                        "(40.7821272, -73.8347154)",
+                        "(40.7604408, -73.9710375)",
+                        "(40.8056313, -73.9413695)",
+                        "(40.5769947, -74.1674401)"
+                    ],
+                    "average_length": 24.361702127659573
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "DropOff SiteName",
+        "Location"
+    ]
+}

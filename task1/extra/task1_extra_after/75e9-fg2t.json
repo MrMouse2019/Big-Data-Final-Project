@@ -1,0 +1,145 @@
+{
+    "dataset_name": "75e9-fg2t",
+    "columns": [
+        {
+            "column_name": "CBO Name",
+            "number_non_empty_cells": 12336,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2160,
+            "frequent_values": [
+                "Chinese American Planning Council",
+                "Phipps Community Development",
+                "BronxWorks, Inc.",
+                "SCO Family of Services",
+                "CAMBA, Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12336,
+                    "shortest_values": [
+                        "PAX",
+                        "SINY",
+                        "Masbia",
+                        "iMentor",
+                        "Palladia"
+                    ],
+                    "longest_values": [
+                        "Natl Sorority Phi Delta Kappa, Beta Omicron Big Sr EASC Inc.",
+                        "CHOKE - Coaliion Helping Organize a Kleaner Environment, Inc",
+                        "Malcolm X and Dr. Betty Shabazz Memorial and Educational Ctr",
+                        "Ministers, Elders & Deacons of the Reformed Protestant Dutch",
+                        "The Parodneck Foundation for Self Help-Housing & Community D"
+                    ],
+                    "average_length": 33.827496757457844
+                }
+            ]
+        },
+        {
+            "column_name": "Program ID",
+            "number_non_empty_cells": 12336,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "518",
+                "2802",
+                "2835",
+                "521",
+                "5295"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12336,
+                    "max_value": 5295,
+                    "min_value": 517,
+                    "mean": 1432.7885862516214,
+                    "stddev": 1427.3417369022316
+                }
+            ]
+        },
+        {
+            "column_name": "Name",
+            "number_non_empty_cells": 12336,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "Tax Levy/Discretionary Group",
+                "Out of School Time Programs",
+                "Charter School Program",
+                "Neighborhood Development Group",
+                "Tax Levy/OST"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 12336,
+                    "shortest_values": [
+                        "Cornerstone",
+                        "Tax Levy/OST",
+                        "Beacons Group",
+                        "Literacy Group",
+                        "Family Literacy"
+                    ],
+                    "longest_values": [
+                        "Runaway and Homeless Youth Services Group",
+                        "Tax Levy/Immigration Initiative (IOI)",
+                        "Immigration/Refugee Assistance Group",
+                        "Young Adult Internship Programs",
+                        "Neighborhood Development Group"
+                    ],
+                    "average_length": 26.43644617380026
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 12336,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2010",
+                "2011"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12336,
+                    "max_value": 2013,
+                    "min_value": 2010,
+                    "mean": 2011.5,
+                    "stddev": 1.118033988749895
+                }
+            ]
+        },
+        {
+            "column_name": "Amount",
+            "number_non_empty_cells": 12336,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2285,
+            "frequent_values": [
+                "0.00",
+                "3500.00",
+                "5000.00",
+                "10000.00",
+                "4000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 12336,
+                    "max_value": 5107266.0,
+                    "min_value": 0.0,
+                    "mean": 87412.8370622568,
+                    "stddev": 284797.70880701306
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CBO Name",
+        "Program ID"
+    ]
+}

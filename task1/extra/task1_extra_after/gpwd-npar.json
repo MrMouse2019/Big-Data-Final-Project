@@ -1,0 +1,524 @@
+{
+    "dataset_name": "gpwd-npar",
+    "columns": [
+        {
+            "column_name": "INCIDENT_ADDRESS",
+            "number_non_empty_cells": 24230,
+            "number_empty_cells": 1,
+            "number_distinct_values": 21543,
+            "frequent_values": [
+                "AVENUEA AVENUE A",
+                "1795 WESTCHESTER AVENUE",
+                "1797 WESTCHESTER AVENUE",
+                "1789 WESTCHESTER AVENUE",
+                "403 EAST  138 STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24230,
+                    "shortest_values": [
+                        "77ST",
+                        "2304 D",
+                        "Subway",
+                        "Loop Rd",
+                        "3av 3av"
+                    ],
+                    "longest_values": [
+                        "Wickham Avenue and Givan Avenue on the concrete structure under the 5 train tracks",
+                        "NORTHWEST CORNER OF WEST 175 STREET AND AMSTERDAM AVENUE ON A MAILBOX",
+                        "CORNER OF NORFOLK ST AND DELANCEY STREET NORTH EAST CORNER",
+                        "tillotson ave step street from Wickham Ave to East 222 St",
+                        "intersection of strickland avenue and mayfair drive south"
+                    ],
+                    "average_length": 18.2080478745357
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 24231,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24231,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.417192852131567
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITY_BOARD",
+            "number_non_empty_cells": 24231,
+            "number_empty_cells": 0,
+            "number_distinct_values": 69,
+            "frequent_values": [
+                "01 BROOKLYN",
+                "03 MANHATTAN",
+                "04 BROOKLYN",
+                "03 BROOKLYN",
+                "05 BROOKLYN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24231,
+                    "shortest_values": [
+                        "06 BRONX",
+                        "08 BRONX",
+                        "09 BRONX",
+                        "02 BRONX",
+                        "28 BRONX"
+                    ],
+                    "longest_values": [
+                        "Unspecified STATEN ISLAND",
+                        "Unspecified MANHATTAN",
+                        "Unspecified BROOKLYN",
+                        "Unspecified QUEENS",
+                        "Unspecified BRONX"
+                    ],
+                    "average_length": 10.99950476662127
+                }
+            ]
+        },
+        {
+            "column_name": "POLICE_PRECINCT",
+            "number_non_empty_cells": 24231,
+            "number_empty_cells": 0,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "Unspecified",
+                "Precinct 83",
+                "Precinct 90",
+                "Precinct 75",
+                "Precinct 9"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24231,
+                    "shortest_values": [
+                        "Precinct 6",
+                        "Precinct 9",
+                        "Precinct 1",
+                        "Precinct 5",
+                        "Precinct 7"
+                    ],
+                    "longest_values": [
+                        "Precinct 123",
+                        "Precinct 114",
+                        "Precinct 109",
+                        "Precinct 106",
+                        "Precinct 112"
+                    ],
+                    "average_length": 11.058437538690107
+                }
+            ]
+        },
+        {
+            "column_name": "CITY_COUNCIL_DISTRICT",
+            "number_non_empty_cells": 22661,
+            "number_empty_cells": 1570,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "34",
+                "01",
+                "37",
+                "36",
+                "02"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22661,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 25.550637659414853,
+                    "stddev": 14.433306495932793
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 22018,
+            "number_empty_cells": 2213,
+            "number_distinct_values": 19439,
+            "frequent_values": [
+                "2022830001",
+                "2039360042",
+                "2028870151",
+                "2038790002",
+                "1017220055"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22018,
+                    "max_value": 5080280056,
+                    "min_value": 0,
+                    "mean": 2636812241.352348,
+                    "stddev": 1022069623.0224947
+                }
+            ]
+        },
+        {
+            "column_name": "CREATED_DATE",
+            "number_non_empty_cells": 24231,
+            "number_empty_cells": 0,
+            "number_distinct_values": 365,
+            "frequent_values": [
+                "09/14/2018",
+                "09/12/2018",
+                "09/13/2018",
+                "11/13/2018",
+                "07/18/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 24231,
+                    "max_value": "2019-09-02 00:00:00",
+                    "min_value": "2018-09-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "STATUS",
+            "number_non_empty_cells": 24231,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Closed",
+                "Open",
+                "Pending"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24231,
+                    "shortest_values": [
+                        "Open",
+                        "Closed",
+                        "Pending"
+                    ],
+                    "longest_values": [
+                        "Pending",
+                        "Closed",
+                        "Open"
+                    ],
+                    "average_length": 5.20758532458421
+                }
+            ]
+        },
+        {
+            "column_name": "RESOLUTION_ACTION",
+            "number_non_empty_cells": 24231,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Cleaning crew dispatched.  Property cleaned.",
+                "Site downloaded for cleaning",
+                "Cleaning crew dispatched. No graffiti on property.",
+                "Property Research Required",
+                "Cleaning crew dispatched.  Owner refused."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24231,
+                    "shortest_values": [
+                        "Graffiti Reported",
+                        "Site to be cleaned.",
+                        "Graffiti is intentional.",
+                        "Property Research Required",
+                        "Public Property (Non-City)"
+                    ],
+                    "longest_values": [
+                        "Further research is necessary to identify an owner for the property.",
+                        "Notice of Intent to Clean and Forever graffiti free form sent",
+                        "Cleaning crew dispatched.  Cannot locate property.",
+                        "Cleaning crew dispatched. No graffiti on property.",
+                        "Cleaning crew dispatched.  Property cleaned."
+                    ],
+                    "average_length": 38.33977136725682
+                }
+            ]
+        },
+        {
+            "column_name": "CLOSED_DATE",
+            "number_non_empty_cells": 14601,
+            "number_empty_cells": 9630,
+            "number_distinct_values": 221,
+            "frequent_values": [
+                "05/30/2019",
+                "07/25/2019",
+                "07/24/2019",
+                "07/26/2019",
+                "08/16/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 14601,
+                    "max_value": "2020-12-04 00:00:00",
+                    "min_value": "2007-12-04 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORDINATE",
+            "number_non_empty_cells": 22661,
+            "number_empty_cells": 1570,
+            "number_distinct_values": 16478,
+            "frequent_values": [
+                "1014123",
+                "997919",
+                "997950",
+                "987011",
+                "995987"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22661,
+                    "max_value": 1066608,
+                    "min_value": 914811,
+                    "mean": 1003411.4328140859,
+                    "stddev": 16416.38960021554
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORDINATE",
+            "number_non_empty_cells": 22661,
+            "number_empty_cells": 1570,
+            "number_distinct_values": 17595,
+            "frequent_values": [
+                "193174",
+                "252374",
+                "192578",
+                "197272",
+                "192592"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22661,
+                    "max_value": 271409,
+                    "min_value": 124559,
+                    "mean": 203876.0418339879,
+                    "stddev": 27011.301612961335
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 22659,
+            "number_empty_cells": 1572,
+            "number_distinct_values": 18962,
+            "frequent_values": [
+                "40.695155",
+                "40.831758",
+                "40.714066",
+                "40.875533",
+                "40.831810"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 22659,
+                    "max_value": 40.911588,
+                    "min_value": 40.508752,
+                    "mean": 40.72651074107387,
+                    "stddev": 0.07421892572670502
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 22659,
+            "number_empty_cells": 1572,
+            "number_distinct_values": 18811,
+            "frequent_values": [
+                "-73.866622",
+                "-73.866557",
+                "-73.917912",
+                "-74.000263",
+                "-73.866810"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 22659,
+                    "max_value": -73.702748,
+                    "min_value": -74.249725,
+                    "mean": -73.93099822053053,
+                    "stddev": 0.05917484743131871
+                }
+            ]
+        },
+        {
+            "column_name": "ZIP_CODE",
+            "number_non_empty_cells": 22658,
+            "number_empty_cells": 1573,
+            "number_distinct_values": 182,
+            "frequent_values": [
+                "10002",
+                "11237",
+                "11221",
+                "11206",
+                "11211"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22658,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10854.353296848794,
+                    "stddev": 519.9812839463181
+                }
+            ]
+        },
+        {
+            "column_name": "CENSUS_TRACT",
+            "number_non_empty_cells": 22659,
+            "number_empty_cells": 1572,
+            "number_distinct_values": 1137,
+            "frequent_values": [
+                "  18  ",
+                "  16  ",
+                "  38  ",
+                "  34  ",
+                " 389  "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 22659,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 3988.209232534534,
+                    "stddev": 14192.071786819339
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 21950,
+            "number_empty_cells": 2281,
+            "number_distinct_values": 19007,
+            "frequent_values": [
+                "3000000",
+                "2000000",
+                "1000000",
+                "4000000",
+                "2025620"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21950,
+                    "max_value": 5165241,
+                    "min_value": 1000000,
+                    "mean": 2695908.709567198,
+                    "stddev": 1056101.2338300638
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 22659,
+            "number_empty_cells": 1572,
+            "number_distinct_values": 192,
+            "frequent_values": [
+                "Bushwick South",
+                "Bushwick North",
+                "Chinatown",
+                "East Village",
+                "Bedford"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22659,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Airport",
+                        "Belmont",
+                        "Erasmus"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 17.318637186107065
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION",
+            "number_non_empty_cells": 22659,
+            "number_empty_cells": 1572,
+            "number_distinct_values": 20008,
+            "frequent_values": [
+                "(40.831758, -73.86681)",
+                "(40.83181, -73.866622)",
+                "(40.831826, -73.866557)",
+                "(40.647157, -73.998627)",
+                "(40.808896, -73.92236)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 22659,
+                    "shortest_values": [
+                        "(40.65, -74.00524)",
+                        "(40.764299, -73.93)",
+                        "(40.75292, -73.783)",
+                        "(40.755, -73.92635)",
+                        "(40.726, -73.98646)"
+                    ],
+                    "longest_values": [
+                        "(40.580104, -73.938005)",
+                        "(40.852614, -73.928013)",
+                        "(40.729596, -74.002825)",
+                        "(40.676646, -73.908035)",
+                        "(40.598879, -73.956072)"
+                    ],
+                    "average_length": 22.776865704576547
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "INCIDENT_ADDRESS",
+        "BOROUGH"
+    ]
+}

@@ -1,0 +1,1256 @@
+{
+    "dataset_name": "dvaj-b7yx",
+    "columns": [
+        {
+            "column_name": "Month",
+            "number_non_empty_cells": 18637,
+            "number_empty_cells": 0,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "07/01/2017 12:00:00 AM",
+                "09/01/2017 12:00:00 AM",
+                "11/01/2016 12:00:00 AM",
+                "10/01/2016 12:00:00 AM",
+                "12/01/2016 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 18637,
+                    "max_value": "2019-07-01 00:00:00",
+                    "min_value": "2016-10-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DHS_Bld_ID",
+            "number_non_empty_cells": 18465,
+            "number_empty_cells": 172,
+            "number_distinct_values": 868,
+            "frequent_values": [
+                "1369",
+                "1040",
+                "92457",
+                "92456",
+                "75265"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18465,
+                    "max_value": 218881,
+                    "min_value": 1002,
+                    "mean": 34993.30522610344,
+                    "stddev": 59772.47340365402
+                }
+            ]
+        },
+        {
+            "column_name": "Shelter_Name_All",
+            "number_non_empty_cells": 18483,
+            "number_empty_cells": 154,
+            "number_distinct_values": 2242,
+            "frequent_values": [
+                "Bld ID: 1619 -- Weston TLC, Weston United, Adult Shelter -- Manhattan",
+                "Bld ID: 1336 -- MANHATTAN ACACIA CLUSTER II, ACACIA NETWORK HOUSING INC, Family Cluster -- Manhattan",
+                "Bld ID: 1129 -- CHLDN RESCUE FUND CL MODEL PRG, Children's Rescue Fund, LLC, Family Cluster -- Bronx",
+                "Bld ID: 1602 -- Safe Haven, Bowery Residents Committee, Inc., Safe Haven -- Manhattan",
+                "Bld ID: 1328 -- MANHATTAN  ACACIA  CLUSTER, ACACIA NETWORK HOUSING INC, Family Cluster -- Manhattan"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 18465,
+                    "shortest_values": [
+                        "Bld ID: 1051 -- INN, SCO, Family Tier 2 -- Bronx",
+                        "Bld ID: 1051 -- INN, SCO, Family Tier 2 -- BRONX",
+                        "Bld ID: 1051 -- INN, SCO, Family Shelter -- Bronx",
+                        "Bld ID: 1369 -- XXX HOTEL, 0, Family Hotel -- Bronx",
+                        "Bld ID: 1368 -- BAYCHESTER, 0, Family Hotel -- Bronx"
+                    ],
+                    "longest_values": [
+                        "Bld ID: 1606 -- Men's Assessment, NYC Department Of Homeless Services, Adult Shelter // Men's Shelter (Bellevue), NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC Department Of Homeless Services, Adult Shelter // FastTrack, NYC Department Of Homeless Services, Adult Shelter -- Manhattan",
+                        "Bld ID: 1606 -- Men's Shelter (Bellevue), NYC Department Of Homeless Services, Adult Shelter // FastTrack, NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC Department Of Homeless Services, Adult Shelter -- Manhattan",
+                        "Bld ID: 49408 -- Men's Assessment, NYC Department Of Homeless Services, Adult Shelter // FastTrack, NYC Department Of Homeless Services, Adult Shelter // Men's Shelter (Bellevue), NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC",
+                        "Bld ID: 1606 -- Men's Shelter (Bellevue), NYC Department Of Homeless Services, 0 // FastTrack, NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC Department O",
+                        "Bld ID: 1606 -- Men's Shelter (Bellevue), NYC Department Of Homeless Services, Adult Shelter // FastTrack, NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC Department Of Homeless Services, Adult Shelter // Men's Assessment, NYC"
+                    ],
+                    "average_length": 88.11237476306526
+                }
+            ]
+        },
+        {
+            "column_name": "Landlord",
+            "number_non_empty_cells": 18548,
+            "number_empty_cells": 89,
+            "number_distinct_values": 1031,
+            "frequent_values": [
+                "NYC Owned (DHS)",
+                "NYC Owned",
+                "NYC Owned (Parks)",
+                "AMBOY DEVELOPMENT EAST LLC",
+                "YMCA OF GREATER N Y"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 18546,
+                    "shortest_values": [
+                        "--",
+                        "DHS",
+                        "DCAS",
+                        "X LLC",
+                        "NYCHA"
+                    ],
+                    "longest_values": [
+                        "SHERIDAN TIC 83 LLC / SHERIDAN TIC 226 LLC / SHERIDAN TIC 1226 LLC / SHERIDAN TIC 436 LLC / SHERIDAN TIC 436-1 LLC / SHERDIAN TIC 642 / SHERIDAN TIC 1639 LLC / SHERIDAN TIC 3013 LLC",
+                        "JGFLATLANDS LLC; JRSFLATLANDS LLC; BGFLATLANDS LLC; SGFLATLANDS LLC; Additional owner unknown.",
+                        "1141 ELDER REALTY LLC / ELDER PD REALTY LLC / ELDER ME REALTY LLC / ELDER MA REALTY LLC",
+                        "X REALTY LLC; SAYREVILLE 220 LLC; SAYREVILLE 2104 LLC; SAYREVILLE 751 LLC",
+                        "EAST 149TH STREET PARTNERS LLC / JJA REALTY ASSOCIATES LLC"
+                    ],
+                    "average_length": 19.40564003019519
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Bronx",
+                "Brooklyn",
+                "Manhattan",
+                "Queens",
+                "BRONX"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 18550,
+                    "shortest_values": [
+                        "--",
+                        "Bronx",
+                        "BRONX",
+                        "Queens",
+                        "QUEENS"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Staten Island",
+                        "MANHATTAN",
+                        "Manhattan",
+                        "BROOKLYN"
+                    ],
+                    "average_length": 6.693045822102426
+                }
+            ]
+        },
+        {
+            "column_name": "Facility_Type",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Family Cluster",
+                "Adult Shelter",
+                "Family Tier 2",
+                "Family Hotel",
+                "Family Shelter"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 18549,
+                    "shortest_values": [
+                        "--",
+                        "Safe Haven",
+                        "Family Hotel",
+                        "Late Arrival",
+                        "Adult Shelter"
+                    ],
+                    "longest_values": [
+                        "Adult Family Commercial Hotel",
+                        "Veterans Short Term Housing",
+                        "Family Commercial Hotel",
+                        "Adult Commercial Hotel",
+                        "Adult Family Shelter"
+                    ],
+                    "average_length": 13.61577443527953
+                }
+            ]
+        },
+        {
+            "column_name": "Capacity",
+            "number_non_empty_cells": 18465,
+            "number_empty_cells": 172,
+            "number_distinct_values": 244,
+            "frequent_values": [
+                "20",
+                "24",
+                "1",
+                "6",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18465,
+                    "max_value": 876,
+                    "min_value": 0,
+                    "mean": 60.62382886542107,
+                    "stddev": 73.59508775037672
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Closed_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 17,
+                    "min_value": 0,
+                    "mean": 0.204366576819407,
+                    "stddev": 0.7875119066322659
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_New_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 13,
+                    "min_value": 0,
+                    "mean": 0.20247978436657682,
+                    "stddev": 0.6420774037828844
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Open_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 28,
+                    "min_value": 0,
+                    "mean": 1.0213477088948788,
+                    "stddev": 2.196291241780413
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Closed_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 49,
+                    "min_value": 0,
+                    "mean": 0.381078167115903,
+                    "stddev": 1.531399276222738
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_New_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 38,
+                    "min_value": 0,
+                    "mean": 0.37045822102425874,
+                    "stddev": 1.6455479609902701
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Open_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 49,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 89,
+                    "min_value": 0,
+                    "mean": 1.2551482479784366,
+                    "stddev": 3.5075688921638517
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Closed_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_New_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Open_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Closed_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_New_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "HighPriority_Open_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Closed_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_New_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Open_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Closed_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 194,
+                    "min_value": 0,
+                    "mean": 2.100646900269542,
+                    "stddev": 8.057974209973258
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_New_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 162,
+                    "min_value": 0,
+                    "mean": 1.6916981132075473,
+                    "stddev": 7.4464551218616934
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Open_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 168,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 278,
+                    "min_value": 0,
+                    "mean": 10.581185983827494,
+                    "stddev": 22.8124844454064
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Closed_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_New_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Open_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Closed_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 0.08819407008086254,
+                    "stddev": 0.45779940647479883
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_New_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 6,
+                    "min_value": 0,
+                    "mean": 0.08237196765498653,
+                    "stddev": 0.3978470112862669
+                }
+            ]
+        },
+        {
+            "column_name": "MediumPriority_Open_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 0.22485175202156335,
+                    "stddev": 0.9056618357709175
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Closed_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 21,
+                    "min_value": 0,
+                    "mean": 0.2594070080862534,
+                    "stddev": 0.9454026503411576
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_New_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 12,
+                    "min_value": 0,
+                    "mean": 0.22005390835579514,
+                    "stddev": 0.6729962751102672
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Open_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 33,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 43,
+                    "min_value": 0,
+                    "mean": 1.4484636118598382,
+                    "stddev": 2.8827980494111616
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Closed_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 60,
+                    "min_value": 0,
+                    "mean": 0.580377358490566,
+                    "stddev": 2.4663739369129223
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_New_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 46,
+                    "min_value": 0,
+                    "mean": 0.4534770889487871,
+                    "stddev": 1.8801753477865268
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Open_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 63,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "5",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 77,
+                    "min_value": 0,
+                    "mean": 3.012722371967655,
+                    "stddev": 6.878463587302007
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Closed_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 28,
+                    "min_value": 0,
+                    "mean": 0.11358490566037736,
+                    "stddev": 0.6644486437667266
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_New_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 17,
+                    "min_value": 0,
+                    "mean": 0.17277628032345013,
+                    "stddev": 0.7832220417362556
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Open_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 52,
+                    "min_value": 0,
+                    "mean": 0.7583827493261456,
+                    "stddev": 2.1922317086213003
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Closed_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_New_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "LowestPriority_Open_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Closed_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 38,
+                    "min_value": 0,
+                    "mean": 0.1432345013477089,
+                    "stddev": 0.8095929538596662
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_New_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 21,
+                    "min_value": 0,
+                    "mean": 0.4067385444743935,
+                    "stddev": 1.489553157221665
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Open_Monthly_DOB",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 30,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 38,
+                    "min_value": 0,
+                    "mean": 1.0947708894878707,
+                    "stddev": 2.545853272051905
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Closed_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_New_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Open_Monthly_HPD",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Closed_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 0.05320754716981132,
+                    "stddev": 0.27750176910565005
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_New_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 11,
+                    "min_value": 0,
+                    "mean": 0.16873315363881403,
+                    "stddev": 0.6345771446504358
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Open_Monthly_FDNY",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 11,
+                    "min_value": 0,
+                    "mean": 0.3661455525606469,
+                    "stddev": 0.88018435360698
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Closed_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_New_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "CommissionerOrder_Open_Monthly_DOHMH",
+            "number_non_empty_cells": 18550,
+            "number_empty_cells": 87,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 18550,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Month",
+        "DHS_Bld_ID"
+    ]
+}

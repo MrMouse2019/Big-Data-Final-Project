@@ -1,0 +1,112 @@
+{
+    "dataset_name": "ka27-qx5k",
+    "columns": [
+        {
+            "column_name": "Cultural Institutions Group (CIG)",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "Bronx County Historical Society",
+                "New York Hall of Science",
+                "Brooklyn Academy of Music",
+                "Museum of the City of New York",
+                "Wave Hill"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 170,
+                    "shortest_values": [
+                        "MoMA PS1",
+                        "Wave Hill",
+                        "Carnegie Hall",
+                        "Queens Theatre",
+                        "Brooklyn Museum"
+                    ],
+                    "longest_values": [
+                        "Snug Harbor Cultural Center & Botanical Garden",
+                        "Wildlife Conservation Society (NY Aquarium)",
+                        "Wildlife Conservation Society (Bronx Zoo)",
+                        "Lincoln Center for the Performing Arts",
+                        "Jamaica Center for Arts & Learning"
+                    ],
+                    "average_length": 25.55294117647059
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year (FY)",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2016",
+                "2017",
+                "2014",
+                "2015",
+                "2018"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 170,
+                    "max_value": 2018,
+                    "min_value": 2014,
+                    "mean": 2016.0,
+                    "stddev": 1.4142135623730951
+                }
+            ]
+        },
+        {
+            "column_name": "Operating Support",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 168,
+            "frequent_values": [
+                "207011.00",
+                "1128862.00",
+                "724462.00",
+                "8794896.00",
+                "1290469.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 170,
+                    "max_value": 11904951.0,
+                    "min_value": 153421.0,
+                    "mean": 2058085.3294117646,
+                    "stddev": 2559038.075455932
+                }
+            ]
+        },
+        {
+            "column_name": "Energy Support",
+            "number_non_empty_cells": 170,
+            "number_empty_cells": 0,
+            "number_distinct_values": 168,
+            "frequent_values": [
+                "1249736.00",
+                "520695.00",
+                "6813963.00",
+                "572883.00",
+                "4278390.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 170,
+                    "max_value": 15587803.0,
+                    "min_value": -139821.0,
+                    "mean": 1186811.2764705883,
+                    "stddev": 2653628.9216754814
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Cultural Institutions Group (CIG)",
+        "Fiscal Year (FY)"
+    ]
+}

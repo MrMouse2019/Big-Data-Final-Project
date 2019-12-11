@@ -1,0 +1,76 @@
+{
+    "dataset_name": "jege-pgbz",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Staten Island",
+                "Brooklyn",
+                "Unknown"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Unknown",
+                        "Brooklyn",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Unknown",
+                        "Queens"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Number of residents enrolled in courses or otherwise received guidance",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "70",
+                "71",
+                "29",
+                "7",
+                "< 5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 76,
+                    "min_value": 7,
+                    "mean": 50.6,
+                    "stddev": 27.58695343817436
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "< 5"
+                    ],
+                    "longest_values": [
+                        "< 5"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Number of residents enrolled in courses or otherwise received guidance"
+    ]
+}

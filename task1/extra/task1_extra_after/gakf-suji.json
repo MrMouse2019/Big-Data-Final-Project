@@ -1,0 +1,111 @@
+{
+    "dataset_name": "gakf-suji",
+    "columns": [
+        {
+            "column_name": "INCIDENT_ID",
+            "number_non_empty_cells": 435,
+            "number_empty_cells": 0,
+            "number_distinct_values": 435,
+            "frequent_values": [
+                "84163",
+                "106511",
+                "113791",
+                "114005",
+                "110044"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 435,
+                    "max_value": 124256,
+                    "min_value": 76075,
+                    "mean": 97534.45977011495,
+                    "stddev": 14119.857518252007
+                }
+            ]
+        },
+        {
+            "column_name": "REPORTED_DT",
+            "number_non_empty_cells": 435,
+            "number_empty_cells": 0,
+            "number_distinct_values": 429,
+            "frequent_values": [
+                "10/11/2016 07:15:00 PM",
+                "07/22/2016 09:28:00 PM",
+                "07/27/2016 10:49:00 AM",
+                "07/23/2016 10:57:00 AM",
+                "04/23/2016 12:54:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 435,
+                    "max_value": "2019-08-27 17:17:00",
+                    "min_value": "2016-01-31 21:17:00"
+                }
+            ]
+        },
+        {
+            "column_name": "INCIDENT_TYPE",
+            "number_non_empty_cells": 435,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Slashing",
+                "Stabbing"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 435,
+                    "shortest_values": [
+                        "Slashing",
+                        "Stabbing"
+                    ],
+                    "longest_values": [
+                        "Stabbing",
+                        "Slashing"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "FACILITY",
+            "number_non_empty_cells": 200,
+            "number_empty_cells": 235,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "OBCC",
+                "AMKC",
+                "GRVC",
+                "RNDC",
+                "MDC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 200,
+                    "shortest_values": [
+                        "TD",
+                        "NIC",
+                        "MDC",
+                        "HOJC",
+                        "BHPW"
+                    ],
+                    "longest_values": [
+                        "QNCTS",
+                        "BKCTS",
+                        "BXCT",
+                        "GMDC",
+                        "AMKC"
+                    ],
+                    "average_length": 3.865
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "INCIDENT_ID"
+    ]
+}

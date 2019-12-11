@@ -1,0 +1,443 @@
+{
+    "dataset_name": "tg4x-b46p",
+    "columns": [
+        {
+            "column_name": "EventID",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44759,
+            "frequent_values": [
+                "234765",
+                "249409",
+                "49288",
+                "249408",
+                "59738"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44759,
+                    "max_value": 494804,
+                    "min_value": 42069,
+                    "mean": 232950.32009204853,
+                    "stddev": 143741.36523077238
+                }
+            ]
+        },
+        {
+            "column_name": "EventType",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Shooting Permit",
+                "Theater Load in and Load Outs",
+                "Rigging Permit",
+                "DCAS Prep/Shoot/Wrap Permit"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "Rigging Permit",
+                        "Shooting Permit",
+                        "DCAS Prep/Shoot/Wrap Permit",
+                        "Theater Load in and Load Outs"
+                    ],
+                    "longest_values": [
+                        "Theater Load in and Load Outs",
+                        "DCAS Prep/Shoot/Wrap Permit",
+                        "Shooting Permit",
+                        "Rigging Permit"
+                    ],
+                    "average_length": 16.35534752787149
+                }
+            ]
+        },
+        {
+            "column_name": "StartDateTime",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17823,
+            "frequent_values": [
+                "11/13/2018 06:00:00 AM",
+                "12/01/2014 06:00:00 AM",
+                "10/06/2014 06:00:00 AM",
+                "11/19/2018 06:00:00 AM",
+                "10/24/2018 06:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44759,
+                    "max_value": "2019-06-28 11:00:00",
+                    "min_value": "2012-01-01 06:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "EndDateTime",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 21701,
+            "frequent_values": [
+                "08/31/2015 09:00:00 PM",
+                "09/22/2015 10:00:00 PM",
+                "11/18/2015 10:00:00 PM",
+                "08/04/2014 09:00:00 PM",
+                "01/28/2019 10:00:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44759,
+                    "max_value": "2019-12-31 19:00:00",
+                    "min_value": "2012-01-02 23:59:00"
+                }
+            ]
+        },
+        {
+            "column_name": "EnteredOn",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44484,
+            "frequent_values": [
+                "01/30/2018 12:43:07 PM",
+                "05/28/2018 09:52:30 AM",
+                "06/12/2012 06:58:12 PM",
+                "03/14/2019 02:53:33 PM",
+                "03/26/2018 12:44:43 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44759,
+                    "max_value": "2019-06-27 14:10:59",
+                    "min_value": "2011-12-07 16:38:54"
+                }
+            ]
+        },
+        {
+            "column_name": "EventAgency",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Mayor's Office of Film, Theatre & Broadcasting"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "Mayor's Office of Film, Theatre & Broadcasting"
+                    ],
+                    "longest_values": [
+                        "Mayor's Office of Film, Theatre & Broadcasting"
+                    ],
+                    "average_length": 46.0
+                }
+            ]
+        },
+        {
+            "column_name": "ParkingHeld",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 27199,
+            "frequent_values": [
+                "WEST   48 STREET between 6 AVENUE and 7 AVENUE",
+                "AMSTERDAM AVENUE between WEST   73 STREET and WEST   75 STREET,  BROADWAY between WEST   74 STREET and WEST   75 STREET,  WEST   75 STREET between AMSTERDAM AVENUE and BROADWAY",
+                "WEST   55 STREET between 11 AVENUE and 12 AVENUE",
+                "NORTH HENRY STREET between GREENPOINT AVENUE and MESEROLE AVENUE",
+                "WEST   44 STREET between BROADWAY and 6 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "Dead Road - Central Park",
+                        "7 AVE between W 53 ST and W 52 ST",
+                        "PPW between 1 STREET and 2 STREET",
+                        "Dead Road between Cherry Hill and",
+                        "6 AVE between W 49 ST and W 50 ST"
+                    ],
+                    "longest_values": [
+                        "6 AVENUE between WEST   48 STREET and WEST   52 STREET,  6 AVENUE between WEST   52 STREET and WEST   51 STREET,  6 AVENUE between WEST   51 STREET and WEST   50 STREET,  5 AVENUE between EAST   19 STREET and EAST   22 STREET,  6 AVENUE between WEST   50 STREET and WEST   49 STREET,  6 AVENUE between WEST   49 STREET and WEST   48 STREET,  WEST   52 STREET between 7 AVENUE and 6 AVENUE,  WEST   51 STREET between 6 AVENUE and 5 AVENUE,  WEST   51 STREET between 7 AVENUE and 6 AVENUE,  WEST   51 STREET between 7 AVENUE and 6 AVENUE,  WEST   50 STREET between 7 AVENUE and 6 AVENUE,  WEST   50 STREET between 6 AVENUE and 7 AVENUE,  WEST   49 STREET between 6 AVENUE and 7 AVENUE,  WEST   49 STREET between 6 AVENUE and ROCKEFELLER PLAZA,  WEST   49 STREET between ROCKEFELLER PLAZA and 5 AVENUE,  WEST   48 STREET between 7 AVENUE and 6 AVENUE,  BROADWAY between EAST   23 STREET and EAST   22 STREET,  BROADWAY between EAST   23 STREET and EAST   22 STREET,  BROADWAY between 5 AVENUE and EAST   23 STREET,  5 AVENUE between WEST   25 STREET and BROADWAY,  5 AVENUE between WEST   25 STREET and EAST   26 STREET,  5 AVENUE between WEST   25 STREET and EAST   26 STREET,  5th Ave between EAST   27 STREET and EAST   26 STREET,  5 AVENUE between EAST   28 STREET and EAST   27 STREET,  5 AVENUE between EAST   28 STREET and EAST   27 STREET,  WEST   27 STREET between BROADWAY and 5 AVENUE,  EAST   27 STREET between 5 AVENUE and MADISON AVENUE,  WEST   26 STREET between 6 AVENUE and BROADWAY,  WEST   26 STREET between BROADWAY and 5 AVENUE,  WEST   26 STREET between BROADWAY and 5 AVENUE,  EAST   26 STREET between 5 AVENUE and MADISON AVENUE,  EAST   26 STREET between 5 AVENUE and MADISON AVENUE,  WEST   22 STREET between 5 AVENUE and 6 AVENUE,  EAST   22 STREET between BROADWAY and PARK AVENUE SOUTH,  BROADWAY between WEST   27 STREET and WEST   26 STREET,  BROADWAY between WEST   27 STREET and WEST   26 STREET,  EAST   25 STREET between MADISON AVENUE and PARK AVENUE SOUTH",
+                        "6 AVENUE between WEST   52 STREET and WEST   48 STREET,  6 AVENUE between WEST   52 STREET and WEST   51 STREET,  6 AVENUE between WEST   51 STREET and WEST   50 STREET,  6 AVENUE between WEST   50 STREET and WEST   49 STREET,  6 AVENUE between WEST   49 STREET and WEST   48 STREET,  WEST   52 STREET between 7 AVENUE and 6 AVENUE,  WEST   51 STREET between 6 AVENUE and 5 AVENUE,  WEST   51 STREET between 7 AVENUE and 6 AVENUE,  WEST   51 STREET between 7 AVENUE and 6 AVENUE,  WEST   50 STREET between 6 AVENUE and 7 AVENUE,  WEST   50 STREET between 6 AVENUE and 7 AVENUE,  WEST   49 STREET between 7 AVENUE and 6 AVENUE,  WEST   49 STREET between 6 AVENUE and ROCKEFELLER PLAZA,  WEST   49 STREET between ROCKEFELLER PLAZA and 5 AVENUE,  WEST   48 STREET between 6 AVENUE and 7 AVENUE,  BROADWAY between EAST   23 STREET and EAST   22 STREET,  BROADWAY between EAST   23 STREET and EAST   22 STREET,  BROADWAY between 5 AVENUE and EAST   23 STREET,  5 AVENUE between WEST   25 STREET and BROADWAY,  5 AVENUE between WEST   25 STREET and EAST   26 STREET,  5 AVENUE between EAST   26 STREET and WEST   25 STREET,  5 AVENUE between EAST   27 STREET and EAST   26 STREET,  5 AVENUE between EAST   28 STREET and EAST   27 STREET,  5 AVENUE between EAST   28 STREET and EAST   27 STREET,  WEST   27 STREET between BROADWAY and 5 AVENUE,  EAST   27 STREET between 5 AVENUE and MADISON AVENUE,  WEST   26 STREET between 6 AVENUE and BROADWAY,  WEST   26 STREET between BROADWAY and 5 AVENUE,  WEST   26 STREET between BROADWAY and 5 AVENUE,  EAST   26 STREET between 5 AVENUE and MADISON AVENUE,  EAST   26 STREET between 5 AVENUE and MADISON AVENUE,  WEST   22 STREET between 6 AVENUE and 5 AVENUE,  EAST   22 STREET between BROADWAY and PARK AVENUE SOUTH,  BROADWAY between WEST   27 STREET and WEST   26 STREET,  BROADWAY between WEST   27 STREET and WEST   26 STREET,  EAST   25 STREET between PARK AVENUE SOUTH and MADISON AVENUE",
+                        "CENTRAL PARK SOUTH between 5 AVENUE and 6 AVENUE,  CENTRAL PARK SOUTH between 5 AVENUE and 6 AVENUE,  WEST   58 STREET between 6 AVENUE and 7 AVENUE,  EAST   58 STREET between 5 AVENUE and MADISON AVENUE,  PARK AVENUE between EAST   60 STREET and EAST   61 STREET,  60TH ST between 5 AVENUE and GRAND ARMY PLAZA WEST,  GRAND ARMY PLAZA between WEST   59 STREET and WEST   58 STREET,  WEST   58 STREET between 5 AVENUE and 6 AVENUE,  6 AVENUE between WEST   58 STREET and WEST   59 STREET,  6 AVENUE between WEST   57 STREET and WEST   58 STREET,  6 AVENUE between WEST   57 STREET and WEST   58 STREET,  6 AVENUE between WEST   56 STREET and WEST   57 STREET,  EAST   62 STREET between PARK AVENUE and MADISON AVENUE,  PARK AVENUE between EAST   62 STREET and EAST   63 STREET,  PARK AVENUE between EAST   63 STREET and EAST   65 STREET,  EAST   63 STREET between PARK AVENUE and MADISON AVENUE,  EAST   63 STREET between PARK AVENUE and MADISON AVENUE,  EAST   63 STREET between PARK AVENUE and LEXINGTON AVENUE,  EAST   63 STREET between PARK AVENUE and LEXINGTON AVENUE,  EAST   64 STREET between PARK AVENUE and MADISON AVENUE,  EAST   64 STREET between PARK AVENUE and LEXINGTON AVENUE,  EAST   65 STREET between PARK AVENUE and MADISON AVENUE,  EAST   65 STREET between PARK AVENUE and LEXINGTON AVENUE,  EAST   60 STREET between PARK AVENUE and MADISON AVENUE,  EAST   66 STREET between 2 AVENUE and 3 AVENUE,  3 AVENUE between EAST   65 STREET and EAST   66 STREET,  3 AVENUE between EAST   65 STREET and EAST   66 STREET,  3 AVENUE between EAST   66 STREET and EAST   67 STREET,  3 AVENUE between EAST   67 STREET and EAST   68 STREET,  EAST  125 STREET between 1 AVENUE and 2 AVENUE,  5 AVENUE between EAST   58 STREET and EAST   59 STREET,  PARK AVENUE between EAST   62 STREET and EAST   63 STREET,  WEST   23 STREET between 7 AVENUE and 8 AVENUE",
+                        "DELANCEY STREET between CHRYSTIE STREET and FORSYTH STREET,  FORSYTH STREET between EAST HOUSTON STREET and DELANCEY STREET,  FORSYTH STREET between RIVINGTON STREET and DELANCEY STREET,  ELDRIDGE STREET between RIVINGTON STREET and DELANCEY STREET,  ELDRIDGE STREET between RIVINGTON STREET and DELANCEY STREET,  DELANCEY STREET between FORSYTH STREET and ELDRIDGE STREET,  BROOME STREET between FORSYTHE STREET and ELDRIDGE STREET,  ELDRIDGE STREET between BROOME STREET and DELANCEY STREET,  ELDRIDGE STREET between DELANCEY STREET and BROOME STREET,  BROOME STREET between ELDRIDGE STREET and ALLEN STREET,  DELANCEY STREET between CHRYSTIE STREET and FORSYTH STREET,  FORSYTH STREET between DELANCEY STREET and EAST HOUSTON STREET,  FORSYTH STREET between DELANCEY STREET and RIVINGTON STREET,  DELANCEY STREET between FORSYTH STREET and ELDRIDGE STREET,  ELDRIDGE STREET between RIVINGTON STREET and DELANCEY STREET,  ELDRIDGE STREET between RIVINGTON STREET and DELANCEY STREET,  BROOME STREET between FORSYTH STREET and ELDRIDGE STREET,  ELDRIDGE STREET between DELANCEY STREET and BROOME STREET,  ELDRIDGE STREET between DELANCEY STREET and BROOME STREET,  BROOME STREET between ALLEN STREET and ELDRIDGE STREET,  DELANCEY STREET between CHRYSTIE STREET and FORSYTH STREET,  FORSYTH STREET between DELANCEY STREET and EAST HOUSTON STREET,  FORSYTH STREET between RIVINGTON STREET and DELANCEY STREET,  DELANCEY STREET between FORSYTH STREET and ELDRIDGE STREET,  ELDRIDGE STREET between RIVINGTON STREET and DELANCEY STREET,  ELDRIDGE STREET between RIVINGTON STREET and DELANCEY STREET,  BROOME STREET between FORSYTH STREET and ELDRIDGE STREET,  ELDRIDGE STREET between DELANCEY STREET and BROOME STREET,  ELDRIDGE STREET between DELANCEY STREET and BROOME STREET,  BROOME STREET between ELDRIDGE STREET and ALLEN STREET",
+                        "BROAD STREET between PEARL STREET and SOUTH STREET,  HANOVER SQUARE between PEARL STREET and WATER STREET,  BEAVER STREET between WILLIAM STREET and PEARL STREET,  WALL STREET between WATER STREET and PEARL STREET,  WALL STREET between WATER STREET and FRONT STREET,  WALL ST between FRONT STREET and SOUTH STREET,  PINE STREET between WATER STREET and PEARL STREET,  MAIDEN LANE between PEARL STREET and WATER STREET,  MAIDEN LANE between WATER STREET and FRONT STREET,  PEARL STREET between HANOVER STREET and PINE STREET,  PEARL STREET between PINE STREET and MAIDEN LANE,  WATER STREET between OLD SLIP and WALL STREET,  WATER STREET between WALL STREET and MAIDEN LANE,  WATER STREET between MAIDEN LANE and JOHN STREET,  SOUTH STREET between OLD SLIP and BROAD STREET,  WALL STREET between HANOVER STREET and PEARL STREET,  MAIDEN LANE between FRONT STREET and SOUTH STREET,  FLETCHER STREET between WATER STREET and FRONT STREET,  FLETCHER STREET between WATER STREET and PEARL STREET,  FRONT STREET between OLD SLIP and GOUVERNEUR LANE,  FRONT STREET between GOUVERNEUR LANE and WALL STREET,  FRONT STREET between WALL STREET and MAIDEN LANE,  FRONT STREET between MAIDEN LANE and JOHN STREET,  PINE STREET between FRONT STREET and WATER STREET,  PEARL STREET between HANOVER SQUARE and COENTIES SLIP,  CEDAR STREET between PEARL STREET and WILLIAM STREET,  MAIDEN LANE between PEARL STREET and GOLD STREET,  PEARL STREET between MAIDEN LANE and JOHN STREET,  JOHN STREET between WATER STREET and SOUTH STREET,  OLD SLIP between WATER STREET and SOUTH STREET,  OLD SLIP between WATER STREET and SOUTH STREET"
+                    ],
+                    "average_length": 179.79731450657968
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.178735003016152
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard(s)",
+            "number_non_empty_cells": 44751,
+            "number_empty_cells": 8,
+            "number_distinct_values": 689,
+            "frequent_values": [
+                "1",
+                "2",
+                "5",
+                "4",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 34888,
+                    "max_value": 95,
+                    "min_value": 1,
+                    "mean": 3.994496675074524,
+                    "stddev": 4.050907647399615
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9863,
+                    "shortest_values": [
+                        "3, 8",
+                        "0, 4",
+                        "3, 6",
+                        "1, 4",
+                        "7, 9"
+                    ],
+                    "longest_values": [
+                        "4, 5, 6, 64, 7, 8, 81",
+                        "1, 11, 12, 27, 6, 7",
+                        "1, 2, 3, 4, 5, 8, 9",
+                        "1, 2, 3, 4, 6, 7, 8",
+                        "1, 11, 2, 4, 55, 6"
+                    ],
+                    "average_length": 5.117814052519518
+                }
+            ]
+        },
+        {
+            "column_name": "PolicePrecinct(s)",
+            "number_non_empty_cells": 44751,
+            "number_empty_cells": 8,
+            "number_distinct_values": 2040,
+            "frequent_values": [
+                "94",
+                "18",
+                "108",
+                "14",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 33810,
+                    "max_value": 123,
+                    "min_value": 1,
+                    "mean": 55.447441585329784,
+                    "stddev": 41.436366477233776
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10941,
+                    "shortest_values": [
+                        "1, 6",
+                        "7, 9",
+                        "5, 7",
+                        "0, 1",
+                        "6, 9"
+                    ],
+                    "longest_values": [
+                        "1, 108, 112, 114, 17, 19, 20, 23, 24, 76, 84",
+                        "108, 13, 17, 19, 23, 25, 7, 84, 9, 94",
+                        "18, 20, 24, 26, 30, 33, 34, 44, 46",
+                        "1, 14, 17, 18, 41, 70, 76, 78, 84",
+                        "1, 10, 14, 18, 19, 26, 5, 6, 7, 9"
+                    ],
+                    "average_length": 7.1501690887487435
+                }
+            ]
+        },
+        {
+            "column_name": "Category",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Television",
+                "Film",
+                "Theater",
+                "Commercial",
+                "Still Photography"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "WEB",
+                        "Film",
+                        "Theater",
+                        "Student",
+                        "Television"
+                    ],
+                    "longest_values": [
+                        "Still Photography",
+                        "Music Video",
+                        "Documentary",
+                        "Commercial",
+                        "Television"
+                    ],
+                    "average_length": 8.841797180455327
+                }
+            ]
+        },
+        {
+            "column_name": "SubCategoryName",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "Episodic series",
+                "Feature",
+                "Not Applicable",
+                "Cable-episodic",
+                "Theater"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "PSA",
+                        "News",
+                        "Promo",
+                        "Short",
+                        "Pilot"
+                    ],
+                    "longest_values": [
+                        "Made for TV/mini-series",
+                        "Syndication/First Run",
+                        "Industrial/Corporate",
+                        "Special/Awards Show",
+                        "Independent Artist"
+                    ],
+                    "average_length": 11.57644272660247
+                }
+            ]
+        },
+        {
+            "column_name": "Country",
+            "number_non_empty_cells": 44759,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "United States of America",
+                "Canada",
+                "United Kingdom",
+                "Japan",
+                "Panama"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44759,
+                    "shortest_values": [
+                        "Japan",
+                        "Canada",
+                        "France",
+                        "Panama",
+                        "Germany"
+                    ],
+                    "longest_values": [
+                        "United States of America",
+                        "United Kingdom",
+                        "Netherlands",
+                        "Australia",
+                        "Germany"
+                    ],
+                    "average_length": 23.98058491029737
+                }
+            ]
+        },
+        {
+            "column_name": "ZipCode(s)",
+            "number_non_empty_cells": 44751,
+            "number_empty_cells": 8,
+            "number_distinct_values": 3821,
+            "frequent_values": [
+                "11222",
+                "11101",
+                "10036",
+                "10019",
+                "10023"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30516,
+                    "max_value": 11694,
+                    "min_value": 83,
+                    "mean": 10636.730862498362,
+                    "stddev": 589.9277794091132
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14235,
+                    "shortest_values": [
+                        "0, 10019",
+                        "0, 10007",
+                        "0, 10018",
+                        "0, 11222",
+                        "0, 11363"
+                    ],
+                    "longest_values": [
+                        "10001, 10010, 10011, 10016, 10017, 10018, 10019, 10021, 10022, 10028, 10036, 10065, 10075, 10106, 10121, 10152, 10167, 10171, 10172, 10173, 10177",
+                        "10011, 10017, 10018, 10021, 10022, 10028, 10029, 10035, 10036, 10037, 10065, 10075, 10110, 10128, 10152, 10171, 10172, 10175",
+                        "10001, 10003, 10010, 10011, 10013, 10016, 10017, 10018, 10019, 10020, 10022, 10036, 10065, 10103, 10111, 10112",
+                        "10005, 10017, 10021, 10022, 10024, 10025, 10028, 10029, 10044, 10065, 10075, 10128, 10280, 11101, 11201, 11373",
+                        "10009, 10010, 10016, 10017, 10021, 10022, 10028, 10029, 10035, 10065, 10075, 10128, 11101, 11201, 11222"
+                    ],
+                    "average_length": 15.45465402177731
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "EventID"
+    ]
+}

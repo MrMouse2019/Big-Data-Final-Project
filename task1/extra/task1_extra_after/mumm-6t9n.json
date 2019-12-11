@@ -1,0 +1,147 @@
+{
+    "dataset_name": "mumm-6t9n",
+    "columns": [
+        {
+            "column_name": "Grade Level",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "K-8 SC",
+                "K",
+                "4",
+                "5",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 8,
+                    "min_value": 1,
+                    "mean": 3.923076923076923,
+                    "stddev": 2.1289773081689307
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9,
+                    "shortest_values": [
+                        "K",
+                        "K-8 SC"
+                    ],
+                    "longest_values": [
+                        "K-8 SC",
+                        "K"
+                    ],
+                    "average_length": 3.7777777777777777
+                }
+            ]
+        },
+        {
+            "column_name": "Program Type",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Gen Ed",
+                "ICT",
+                "ICT & G&T",
+                "G&T",
+                "SC 12:1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35,
+                    "shortest_values": [
+                        "G&T",
+                        "ICT",
+                        "Gen Ed",
+                        "SC 12:1",
+                        "SC 15:1"
+                    ],
+                    "longest_values": [
+                        "SC 12:1:1",
+                        "ICT & G&T",
+                        "SC 8:1:1",
+                        "SC 6:1:1",
+                        "SC 15:1"
+                    ],
+                    "average_length": 5.485714285714286
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Students",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 35,
+            "frequent_values": [
+                "218",
+                "17553",
+                "22925",
+                "22285",
+                "48711"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 35,
+                    "max_value": 48711,
+                    "min_value": 16,
+                    "mean": 17782.457142857143,
+                    "stddev": 17135.567232001657
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Classes",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "8",
+                "5",
+                "86",
+                "7",
+                "806"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 35,
+                    "max_value": 2555,
+                    "min_value": 1,
+                    "mean": 765.0571428571428,
+                    "stddev": 745.7071789480732
+                }
+            ]
+        },
+        {
+            "column_name": "Average Class Size",
+            "number_non_empty_cells": 35,
+            "number_empty_cells": 0,
+            "number_distinct_values": 28,
+            "frequent_values": [
+                "27.0",
+                "27.1",
+                "28.0",
+                "27.9",
+                "25.5"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 35,
+                    "max_value": 28.6,
+                    "min_value": 3.2,
+                    "mean": 23.374285714285715,
+                    "stddev": 6.852542504465784
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Number of Students"
+    ]
+}

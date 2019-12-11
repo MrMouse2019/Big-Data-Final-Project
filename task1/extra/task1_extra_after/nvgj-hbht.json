@@ -1,0 +1,455 @@
+{
+    "dataset_name": "nvgj-hbht",
+    "columns": [
+        {
+            "column_name": "SUMMARY_ID",
+            "number_non_empty_cells": 71076,
+            "number_empty_cells": 0,
+            "number_distinct_values": 71076,
+            "frequent_values": [
+                "38346",
+                "36605",
+                "49239",
+                "17791",
+                "17790"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71076,
+                    "max_value": 71516,
+                    "min_value": 2,
+                    "mean": 35749.48096403849,
+                    "stddev": 20639.695502978495
+                }
+            ]
+        },
+        {
+            "column_name": "NUM_SIAM_SPRINKLER",
+            "number_non_empty_cells": 34060,
+            "number_empty_cells": 37016,
+            "number_distinct_values": 56,
+            "frequent_values": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "01;02"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 33311,
+                    "max_value": 43,
+                    "min_value": 1,
+                    "mean": 1.3862988202095403,
+                    "stddev": 0.959275635036789
+                },
+                {
+                    "type": "TEXT",
+                    "count": 749,
+                    "shortest_values": [
+                        "02;03",
+                        "01;08",
+                        "08;81",
+                        "04;05",
+                        "13;14"
+                    ],
+                    "longest_values": [
+                        "01;02;07;12;15",
+                        "05;11;21",
+                        "01;02;03",
+                        "01;03;06",
+                        "01;03;05"
+                    ],
+                    "average_length": 5.092122830440587
+                }
+            ]
+        },
+        {
+            "column_name": "SPRINKLER_TYPE",
+            "number_non_empty_cells": 34077,
+            "number_empty_cells": 36999,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "Flow",
+                "Auto wet",
+                "Trip Test",
+                "Auto wet;Flow",
+                "Auto dry"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 34077,
+                    "shortest_values": [
+                        "Flow",
+                        "Auto wet",
+                        "Non auto",
+                        "Auto dry",
+                        "Trip Test"
+                    ],
+                    "longest_values": [
+                        "Auto dry;Auto wet;Trip Test",
+                        "Auto dry;Flow;Trip Test",
+                        "Auto wet;Flow;Trip Test",
+                        "Combination;Trip Test",
+                        "Auto wet;Combination"
+                    ],
+                    "average_length": 6.289755553599202
+                }
+            ]
+        },
+        {
+            "column_name": "NUM_SIAM_STANDPIPE",
+            "number_non_empty_cells": 10624,
+            "number_empty_cells": 60452,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "01",
+                "02",
+                "03",
+                "04",
+                "05"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10495,
+                    "max_value": 85,
+                    "min_value": 1,
+                    "mean": 1.9217722725107194,
+                    "stddev": 1.7423015186170179
+                },
+                {
+                    "type": "TEXT",
+                    "count": 129,
+                    "shortest_values": [
+                        "02;03",
+                        "04;09",
+                        "20;21",
+                        "08;09",
+                        "03;07"
+                    ],
+                    "longest_values": [
+                        "01;07;09;13;14",
+                        "01;04;06;24",
+                        "01;02;03",
+                        "01;02;08",
+                        "03;04"
+                    ],
+                    "average_length": 5.162790697674419
+                }
+            ]
+        },
+        {
+            "column_name": "STANDPIPE_TYPE",
+            "number_non_empty_cells": 10641,
+            "number_empty_cells": 60435,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Wet",
+                "Combination",
+                "Dry",
+                "Combination;Wet",
+                "Dry;Wet"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10641,
+                    "shortest_values": [
+                        "Wet",
+                        "Dry",
+                        "Dry;Wet",
+                        "Combination",
+                        "Combination;Wet"
+                    ],
+                    "longest_values": [
+                        "Combination;Dry",
+                        "Combination;Wet",
+                        "Combination",
+                        "Dry;Wet",
+                        "Dry"
+                    ],
+                    "average_length": 5.473451743257213
+                }
+            ]
+        },
+        {
+            "column_name": "NUM_OF_VIOLATION_NOTICES",
+            "number_non_empty_cells": 71076,
+            "number_empty_cells": 0,
+            "number_distinct_values": 76,
+            "frequent_values": [
+                "1",
+                "0",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71076,
+                    "max_value": 140,
+                    "min_value": 0,
+                    "mean": 2.418523833642861,
+                    "stddev": 3.9882755804898555
+                }
+            ]
+        },
+        {
+            "column_name": "NUM_OF_VIOLATION_ORDER",
+            "number_non_empty_cells": 71076,
+            "number_empty_cells": 0,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71076,
+                    "max_value": 282,
+                    "min_value": 0,
+                    "mean": 0.5605971073217401,
+                    "stddev": 1.9987404169230745
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 71076,
+            "number_empty_cells": 0,
+            "number_distinct_values": 71076,
+            "frequent_values": [
+                "1005762",
+                "1017929",
+                "3403907",
+                "3150830",
+                "4436089"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71076,
+                    "max_value": 5863632,
+                    "min_value": 1000003,
+                    "mean": 2642728.492979346,
+                    "stddev": 1267185.2339771907
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 71032,
+            "number_empty_cells": 44,
+            "number_distinct_values": 65905,
+            "frequent_values": [
+                "2049050001",
+                "1009720001",
+                "4004650001",
+                "2047120001",
+                "2047130001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71032,
+                    "max_value": 5200149999,
+                    "min_value": 1000010010,
+                    "mean": 2544583760.015683,
+                    "stddev": 1212191894.5860388
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 68092,
+            "number_empty_cells": 2984,
+            "number_distinct_values": 55884,
+            "frequent_values": [
+                "40.84057",
+                "40.838612",
+                "40.83611",
+                "40.885807",
+                "40.75593"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 68092,
+                    "max_value": 40.913967,
+                    "min_value": 40.50777,
+                    "mean": 40.729453755741865,
+                    "stddev": 0.07452920183383731
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 68092,
+            "number_empty_cells": 2984,
+            "number_distinct_values": 53663,
+            "frequent_values": [
+                "-73.85886",
+                "-73.856525",
+                "-73.845147",
+                "-73.858934",
+                "-73.977896"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": -74,
+                    "min_value": -74,
+                    "mean": -74.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 68089,
+                    "max_value": -73.700381,
+                    "min_value": -74.250033,
+                    "mean": -73.93730589134908,
+                    "stddev": 0.07079715363314545
+                }
+            ]
+        },
+        {
+            "column_name": "BLOCK",
+            "number_non_empty_cells": 71038,
+            "number_empty_cells": 38,
+            "number_distinct_values": 9291,
+            "frequent_values": [
+                "5141",
+                "4452",
+                "470",
+                "465",
+                "2180"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71038,
+                    "max_value": 60000,
+                    "min_value": 0,
+                    "mean": 3126.305287311017,
+                    "stddev": 2980.456072820671
+                }
+            ]
+        },
+        {
+            "column_name": "LOT",
+            "number_non_empty_cells": 71038,
+            "number_empty_cells": 38,
+            "number_distinct_values": 1051,
+            "frequent_values": [
+                "1",
+                "1001",
+                "5",
+                "6",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 71038,
+                    "max_value": 9999,
+                    "min_value": 0,
+                    "mean": 125.16447535122047,
+                    "stddev": 393.0664403871059
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 71076,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BK",
+                "MN",
+                "QN",
+                "BX",
+                "SI"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 71076,
+                    "shortest_values": [
+                        "MN",
+                        "BX",
+                        "BK",
+                        "QN",
+                        "SI"
+                    ],
+                    "longest_values": [
+                        "SI",
+                        "QN",
+                        "BK",
+                        "BX",
+                        "MN"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITY BOARD",
+            "number_non_empty_cells": 68092,
+            "number_empty_cells": 2984,
+            "number_distinct_values": 71,
+            "frequent_values": [
+                "301",
+                "105",
+                "107",
+                "108",
+                "102"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 68092,
+                    "max_value": 595,
+                    "min_value": 101,
+                    "mean": 257.98435939611113,
+                    "stddev": 120.11262132443798
+                }
+            ]
+        },
+        {
+            "column_name": "COUNCIL DISTRICT",
+            "number_non_empty_cells": 68092,
+            "number_empty_cells": 2984,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "3",
+                "4",
+                "1",
+                "33",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 68092,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 22.876299712154143,
+                    "stddev": 15.433705827680296
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "BIN"
+    ]
+}

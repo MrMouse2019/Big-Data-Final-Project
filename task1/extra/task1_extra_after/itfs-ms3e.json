@@ -1,0 +1,145 @@
+{
+    "dataset_name": "itfs-ms3e",
+    "columns": [
+        {
+            "column_name": "DBN",
+            "number_non_empty_cells": 258,
+            "number_empty_cells": 0,
+            "number_distinct_values": 257,
+            "frequent_values": [
+                "04M610",
+                "21K344",
+                "14K474",
+                "02M416",
+                "02M414"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 258,
+                    "shortest_values": [
+                        "01M448",
+                        "16K498",
+                        "17K382",
+                        "17K528",
+                        "17K537"
+                    ],
+                    "longest_values": [
+                        "32K556",
+                        "11X418",
+                        "09X412",
+                        "09X365",
+                        "09X329"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "SchoolName",
+            "number_non_empty_cells": 258,
+            "number_empty_cells": 0,
+            "number_distinct_values": 258,
+            "frequent_values": [
+                "FOREST HILLS HS",
+                "LIFE SCIENCES SECONDARY SCHL",
+                "The Marie Curie School for Medicine, Nursing, and",
+                "All City Leadership Secondary School",
+                "Millennium Art Academy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 258,
+                    "shortest_values": [
+                        "CURTIS HS",
+                        "BAYSIDE HS",
+                        "NEWTOWN HS",
+                        "JAMAICA HS",
+                        "QUEENS VHS"
+                    ],
+                    "longest_values": [
+                        "Bushwick Leaders High School for Academic Excellen",
+                        "Urban Assembly School for Applied Math and Science",
+                        "THE YOUNG WOMEN'S LEADERSHIP SCHOOL OF EAST HARLEM",
+                        "High School for Construction Trades, Engineering a",
+                        "Queens High School of Teaching, Liberal Arts and t"
+                    ],
+                    "average_length": 27.976744186046513
+                }
+            ]
+        },
+        {
+            "column_name": "AP Test Takers ",
+            "number_non_empty_cells": 233,
+            "number_empty_cells": 25,
+            "number_distinct_values": 135,
+            "frequent_values": [
+                "21",
+                "22",
+                "11",
+                "20",
+                "34"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 233,
+                    "max_value": 2117,
+                    "min_value": 6,
+                    "mean": 118.87982832618026,
+                    "stddev": 221.23838574490003
+                }
+            ]
+        },
+        {
+            "column_name": "Total Exams Taken",
+            "number_non_empty_cells": 233,
+            "number_empty_cells": 25,
+            "number_distinct_values": 148,
+            "frequent_values": [
+                "34",
+                "27",
+                "37",
+                "21",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 233,
+                    "max_value": 3692,
+                    "min_value": 6,
+                    "mean": 180.53218884120173,
+                    "stddev": 389.6432395334136
+                }
+            ]
+        },
+        {
+            "column_name": "Number of Exams with scores 3 4 or 5",
+            "number_non_empty_cells": 151,
+            "number_empty_cells": 107,
+            "number_distinct_values": 87,
+            "frequent_values": [
+                "10",
+                "13",
+                "9",
+                "8",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 151,
+                    "max_value": 2687,
+                    "min_value": 6,
+                    "mean": 143.6158940397351,
+                    "stddev": 371.91574672402186
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "SchoolName"
+    ]
+}

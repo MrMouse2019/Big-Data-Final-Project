@@ -1,0 +1,185 @@
+{
+    "dataset_name": "gpny-cuvw",
+    "columns": [
+        {
+            "column_name": "Month Name",
+            "number_non_empty_cells": 2500,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "2019 / 03",
+                "2018 / 03",
+                "2018 / 06",
+                "2017 / 08",
+                "2019 / 04"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2500,
+                    "shortest_values": [
+                        "2019 / 06",
+                        "2016 / 11",
+                        "2016 / 12",
+                        "2017 / 01",
+                        "2017 / 02"
+                    ],
+                    "longest_values": [
+                        "2016 / 09",
+                        "2018 / 10",
+                        "2018 / 04",
+                        "2018 / 05",
+                        "2018 / 06"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 2500,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "FDNY",
+                "EMS",
+                "Aggregate"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2500,
+                    "shortest_values": [
+                        "EMS",
+                        "FDNY",
+                        "Aggregate"
+                    ],
+                    "longest_values": [
+                        "Aggregate",
+                        "FDNY",
+                        "EMS"
+                    ],
+                    "average_length": 4.0856
+                }
+            ]
+        },
+        {
+            "column_name": "Description",
+            "number_non_empty_cells": 2500,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Average response time to life threatening medical emergencies by fire units",
+                "Average response time to life threatening medical emergencies by ambulance units",
+                "Combined average response time to life threatening medical emergencies by ambulance and fire units",
+                "Average response time to non-fire emergencies",
+                "Average response time to life threatening and non-life threatening medical emergencies by ambulance units combined"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2500,
+                    "shortest_values": [
+                        "Average response time to structural fires",
+                        "Average response time to non-structural fires",
+                        "Average response time to non-fire emergencies",
+                        "Average response time to life threatening medical emergencies by fire units",
+                        "Average response time to life threatening medical emergencies by ambulance units"
+                    ],
+                    "longest_values": [
+                        "Average response time to segment 1 medical emergencies, as defined by the department, including cardiac arrest and choking incidents by ambulance units",
+                        "Percentage of response time of less than 10 minutes to Advanced Life Support medical emergencies by Advanced Life Support ambulances",
+                        "Average response time to life threatening and non-life threatening medical emergencies by ambulance units combined",
+                        "Percentage of response time to structural and non-structural fires by fire units between 10 and 20 minutes",
+                        "Percentage of response time to structural and non-structural fires by fire units between 5 and 10 minutes"
+                    ],
+                    "average_length": 92.1328
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 2500,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Bronx",
+                "Brooklyn",
+                "Staten Island",
+                "Manhattan",
+                "Queens"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2500,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Unspecified",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens"
+                    ],
+                    "average_length": 8.5492
+                }
+            ]
+        },
+        {
+            "column_name": "# of Incidents",
+            "number_non_empty_cells": 2500,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1422,
+            "frequent_values": [
+                "1",
+                "2",
+                "76",
+                "4",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2500,
+                    "max_value": 31637,
+                    "min_value": 1,
+                    "mean": 3667.4768,
+                    "stddev": 6177.104302297473
+                }
+            ]
+        },
+        {
+            "column_name": "Response Times",
+            "number_non_empty_cells": 2500,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2200,
+            "frequent_values": [
+                "0.00",
+                "100.00",
+                "50.00",
+                "0.32",
+                "0.46"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 2500,
+                    "max_value": 3211.9,
+                    "min_value": 0.0,
+                    "mean": 336.3743479999999,
+                    "stddev": 271.709809370392
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Month Name",
+        "Agency"
+    ]
+}

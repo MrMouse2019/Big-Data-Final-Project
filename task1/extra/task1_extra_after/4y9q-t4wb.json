@@ -1,0 +1,464 @@
+{
+    "dataset_name": "4y9q-t4wb",
+    "columns": [
+        {
+            "column_name": "Street 1",
+            "number_non_empty_cells": 1156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Broadway"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1156,
+                    "shortest_values": [
+                        "Broadway"
+                    ],
+                    "longest_values": [
+                        "Broadway"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "Street 2",
+            "number_non_empty_cells": 1156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 123,
+            "frequent_values": [
+                "67th ",
+                "83rd ",
+                "116th ",
+                "113th ",
+                "115th "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1156,
+                    "shortest_values": [
+                        "14th ",
+                        "77th ",
+                        "76th ",
+                        "74th ",
+                        "73rd "
+                    ],
+                    "longest_values": [
+                        "La Salle",
+                        "136th ",
+                        "107th ",
+                        "114th ",
+                        "113th "
+                    ],
+                    "average_length": 5.290657439446367
+                }
+            ]
+        },
+        {
+            "column_name": "Curb Cut",
+            "number_non_empty_cells": 1156,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "NE1",
+                "NE2",
+                "SW2",
+                "SW1",
+                "NW2"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1156,
+                    "shortest_values": [
+                        "M1",
+                        "M2",
+                        "M3",
+                        "M4",
+                        "NW1"
+                    ],
+                    "longest_values": [
+                        "SE2",
+                        "SE1",
+                        "SW2",
+                        "SW1",
+                        "NE2"
+                    ],
+                    "average_length": 2.7750865051903113
+                }
+            ]
+        },
+        {
+            "column_name": "Slope (inch)",
+            "number_non_empty_cells": 769,
+            "number_empty_cells": 387,
+            "number_distinct_values": 74,
+            "frequent_values": [
+                "1",
+                "2",
+                "1.5",
+                "3",
+                "0.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 346,
+                    "max_value": 6,
+                    "min_value": 0,
+                    "mean": 1.7485549132947977,
+                    "stddev": 0.8416957104261897
+                },
+                {
+                    "type": "REAL",
+                    "count": 382,
+                    "max_value": 7.9,
+                    "min_value": 0.02,
+                    "mean": 1.6549005235602092,
+                    "stddev": 1.0262314531040462
+                },
+                {
+                    "type": "TEXT",
+                    "count": 41,
+                    "shortest_values": [
+                        "?",
+                        "n/a",
+                        "FLAT",
+                        "FLAT ",
+                        "NO NW1"
+                    ],
+                    "longest_values": [
+                        "NO CURB CUT",
+                        "CENTER CUT",
+                        "NO CORNER",
+                        "NO SE1",
+                        "NO SE2"
+                    ],
+                    "average_length": 8.21951219512195
+                }
+            ]
+        },
+        {
+            "column_name": "Ramp Width",
+            "number_non_empty_cells": 732,
+            "number_empty_cells": 424,
+            "number_distinct_values": 89,
+            "frequent_values": [
+                "48",
+                "60",
+                "36",
+                "47",
+                "56"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 709,
+                    "max_value": 120,
+                    "min_value": 4,
+                    "mean": 55.78561354019746,
+                    "stddev": 15.329728728018141
+                },
+                {
+                    "type": "REAL",
+                    "count": 23,
+                    "max_value": 74.5,
+                    "min_value": 31.5,
+                    "mean": 53.03804347826087,
+                    "stddev": 10.144900918702142
+                }
+            ]
+        },
+        {
+            "column_name": "No Curb Cut",
+            "number_non_empty_cells": 43,
+            "number_empty_cells": 1113,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "YES",
+                "X",
+                "NONE",
+                "Yes",
+                "Y"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 43,
+                    "shortest_values": [
+                        "Y",
+                        "X",
+                        "NO",
+                        "Yes",
+                        "YES"
+                    ],
+                    "longest_values": [
+                        "NONE",
+                        "YES",
+                        "Yes",
+                        "NO",
+                        "X"
+                    ],
+                    "average_length": 2.4651162790697674
+                }
+            ]
+        },
+        {
+            "column_name": "Center Cut",
+            "number_non_empty_cells": 34,
+            "number_empty_cells": 1122,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "YES"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 34,
+                    "shortest_values": [
+                        "YES"
+                    ],
+                    "longest_values": [
+                        "YES"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Lip/bump (measurement in inches)",
+            "number_non_empty_cells": 351,
+            "number_empty_cells": 805,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "0.5",
+                "1",
+                "NO",
+                "0.25",
+                "1.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 125,
+                    "max_value": 7,
+                    "min_value": 0,
+                    "mean": 1.328,
+                    "stddev": 1.0258732865222688
+                },
+                {
+                    "type": "REAL",
+                    "count": 185,
+                    "max_value": 4.5,
+                    "min_value": 0.02,
+                    "mean": 0.6951891891891891,
+                    "stddev": 0.6001928445874191
+                },
+                {
+                    "type": "TEXT",
+                    "count": 41,
+                    "shortest_values": [
+                        "NO",
+                        "YES",
+                        "NO ",
+                        "EVEN",
+                        "NO (1.5)"
+                    ],
+                    "longest_values": [
+                        "NO (1.5)",
+                        "EVEN",
+                        "NO ",
+                        "YES",
+                        "NO"
+                    ],
+                    "average_length": 2.4146341463414633
+                }
+            ]
+        },
+        {
+            "column_name": "Crumbling concrete?",
+            "number_non_empty_cells": 175,
+            "number_empty_cells": 981,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                "YES",
+                "Y",
+                "ASPHALT",
+                "X",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 2,
+                    "min_value": 1,
+                    "mean": 1.5,
+                    "stddev": 0.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 173,
+                    "shortest_values": [
+                        "Y",
+                        "X",
+                        "YES",
+                        "Yes",
+                        "CURB"
+                    ],
+                    "longest_values": [
+                        "CRUMBLING ASPHALT ",
+                        "MISSING TILES ",
+                        "CURB STRUTED ",
+                        "ASPHALT ",
+                        "CURB ST"
+                    ],
+                    "average_length": 3.2947976878612715
+                }
+            ]
+        },
+        {
+            "column_name": "Led to pot hole?",
+            "number_non_empty_cells": 32,
+            "number_empty_cells": 1124,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "YES",
+                "Y",
+                "DRAIN",
+                "YES ",
+                "34''"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32,
+                    "shortest_values": [
+                        "Y",
+                        "YES",
+                        "YES ",
+                        "34''",
+                        "DRAIN"
+                    ],
+                    "longest_values": [
+                        "12'' ",
+                        "DRAIN",
+                        "34''",
+                        "YES ",
+                        "YES"
+                    ],
+                    "average_length": 2.9375
+                }
+            ]
+        },
+        {
+            "column_name": "Detectable warnings ?",
+            "number_non_empty_cells": 619,
+            "number_empty_cells": 537,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "NO",
+                "YES",
+                "Nogrooves",
+                "STRIPES",
+                "Nobrick"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 619,
+                    "shortest_values": [
+                        "N",
+                        "NO",
+                        "MO",
+                        "YES",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "NOBROKEN DOMES",
+                        "TARNISHED",
+                        "Nogrooves",
+                        "TARNISED ",
+                        "Nobricks"
+                    ],
+                    "average_length": 4.523424878836834
+                }
+            ]
+        },
+        {
+            "column_name": "Object barriers ?",
+            "number_non_empty_cells": 120,
+            "number_empty_cells": 1036,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "NO",
+                "pooling",
+                "TRASH CAN",
+                "LIGHT POLE",
+                "WATER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 120,
+                    "shortest_values": [
+                        "NO",
+                        "NP",
+                        "NO ",
+                        "POLE",
+                        "SEWER"
+                    ],
+                    "longest_values": [
+                        "TEMPORARY BLOCADE DUE TP SIDEWALK CLOSURE",
+                        "Garbage can and lamp post",
+                        "TEMPORARY POLICE BARRIERS",
+                        "BROKEN TRUNCATED DOMES ",
+                        "A LOT OF BUILT UP WATER"
+                    ],
+                    "average_length": 7.991666666666666
+                }
+            ]
+        },
+        {
+            "column_name": "Barriers above?",
+            "number_non_empty_cells": 61,
+            "number_empty_cells": 1095,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "NO",
+                "SEWER",
+                "NO ",
+                "BROKEN ASPHALT",
+                "BROKEN METAL EDGE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 61,
+                    "shortest_values": [
+                        "NO",
+                        "YES",
+                        "NO ",
+                        "SEWER",
+                        "CRACK"
+                    ],
+                    "longest_values": [
+                        "TRASH CAN, GARBAGE",
+                        "BROKEN METAL EDGE",
+                        "BROKEN ASHPHALT ",
+                        "CEMENT INTO ST",
+                        "BROKEN ASPHALT"
+                    ],
+                    "average_length": 4.524590163934426
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Street 1",
+        "Street 2"
+    ]
+}

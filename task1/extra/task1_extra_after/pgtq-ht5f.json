@@ -1,0 +1,486 @@
+{
+    "dataset_name": "pgtq-ht5f",
+    "columns": [
+        {
+            "column_name": "CSD",
+            "number_non_empty_cells": 28724,
+            "number_empty_cells": 0,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "2",
+                "10",
+                "31",
+                "11",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28724,
+                    "max_value": 32,
+                    "min_value": 1,
+                    "mean": 15.81774822448127,
+                    "stddev": 9.315466592566631
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 28724,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "K",
+                "X",
+                "Q",
+                "M",
+                "R"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 28724,
+                    "shortest_values": [
+                        "M",
+                        "X",
+                        "K",
+                        "Q",
+                        "R"
+                    ],
+                    "longest_values": [
+                        "R",
+                        "Q",
+                        "K",
+                        "X",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "SCHOOL CODE",
+            "number_non_empty_cells": 28724,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1491,
+            "frequent_values": [
+                "X243",
+                "X271",
+                "Q285",
+                "K429",
+                "K448"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 28724,
+                    "shortest_values": [
+                        "M015",
+                        "K239",
+                        "K238",
+                        "K228",
+                        "K226"
+                    ],
+                    "longest_values": [
+                        "K556",
+                        "X308",
+                        "X246",
+                        "X254",
+                        "X268"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "SCHOOL NAME",
+            "number_non_empty_cells": 28724,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1484,
+            "frequent_values": [
+                "YOUNG WOMEN'S LEADERSHIP SCHOOL",
+                "WEST BRONX ACADEMY FOR THE FUTURE",
+                "EAST BRONX ACADEMY FOR THE FUTURE",
+                "WORLD JOURNALISM PREPARATORY:",
+                "KNOWLEDGE AND POWER PREPARATORY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 28724,
+                    "shortest_values": [
+                        "KAPPA",
+                        "PS 536",
+                        "PS 354",
+                        "KAPPA V",
+                        "MUSCOTA"
+                    ],
+                    "longest_values": [
+                        "English Language Learners And International Support Preparatory Academy",
+                        "City Polytechnic High School of Engineering, Architecture & Technology",
+                        "The School for Classics: An Academy of Thinkers, Writers & Performers",
+                        "Far Rockaway Academy of Medical Technology: A College Board School",
+                        "High School for Mathematics, Science & Engineering at City College"
+                    ],
+                    "average_length": 27.890892633337977
+                }
+            ]
+        },
+        {
+            "column_name": "GRADE",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "09-12",
+                "MS Core",
+                "0K-09",
+                "01",
+                "0K"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8419,
+                    "max_value": 9,
+                    "min_value": 1,
+                    "mean": 4.139208932177218,
+                    "stddev": 2.2333531716449775
+                },
+                {
+                    "type": "TEXT",
+                    "count": 18814,
+                    "shortest_values": [
+                        "0K",
+                        "0K-09",
+                        "09-12",
+                        "MS Core"
+                    ],
+                    "longest_values": [
+                        "MS Core",
+                        "09-12",
+                        "0K-09",
+                        "0K"
+                    ],
+                    "average_length": 5.360742000637823
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRAM TYPE",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "GEN ED",
+                "CTT",
+                "SPEC ED",
+                "G&T"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27233,
+                    "shortest_values": [
+                        "CTT",
+                        "G&T",
+                        "GEN ED",
+                        "SPEC ED"
+                    ],
+                    "longest_values": [
+                        "SPEC ED",
+                        "GEN ED",
+                        "G&T",
+                        "CTT"
+                    ],
+                    "average_length": 5.19696691513972
+                }
+            ]
+        },
+        {
+            "column_name": "CORE SUBJECT \n(MS CORE and \n9-12 ONLY)",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "-",
+                "ENGLISH",
+                "SCIENCE",
+                "SOCIAL STUDIES",
+                "MATH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27233,
+                    "shortest_values": [
+                        "-",
+                        "MATH",
+                        "ENGLISH",
+                        "SCIENCE",
+                        "SOCIAL STUDIES"
+                    ],
+                    "longest_values": [
+                        "SOCIAL STUDIES",
+                        "SCIENCE",
+                        "ENGLISH",
+                        "MATH",
+                        "-"
+                    ],
+                    "average_length": 5.080894502992693
+                }
+            ]
+        },
+        {
+            "column_name": "CORE COURSE \n(MS CORE and 9-12 ONLY)",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "-",
+                "MS English Core",
+                "MS Math Core",
+                "MS Science Core",
+                "MS Social Studies Core"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27233,
+                    "shortest_values": [
+                        "-",
+                        "Math A",
+                        "Math B",
+                        "Physics",
+                        "Geometry"
+                    ],
+                    "longest_values": [
+                        "Participation in Government",
+                        "Global History & Geography",
+                        "US History & Government",
+                        "MS Social Studies Core",
+                        "Other Social Studies"
+                    ],
+                    "average_length": 9.091616788455182
+                }
+            ]
+        },
+        {
+            "column_name": "SERVICE CATEGORY\n(K-9* ONLY)",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "-",
+                "12:1:1",
+                "12:1",
+                "15:1",
+                "6:1:1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27233,
+                    "shortest_values": [
+                        "-",
+                        "12:1",
+                        "15:1",
+                        "6:1:1",
+                        "8:1:1"
+                    ],
+                    "longest_values": [
+                        "12:1:1",
+                        "8:1:1",
+                        "6:1:1",
+                        "15:1",
+                        "12:1"
+                    ],
+                    "average_length": 1.2480079315536299
+                }
+            ]
+        },
+        {
+            "column_name": "DATA SOURCE",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "STARS",
+                "ATS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 27233,
+                    "shortest_values": [
+                        "ATS",
+                        "STARS"
+                    ],
+                    "longest_values": [
+                        "STARS",
+                        "ATS"
+                    ],
+                    "average_length": 4.173062093783278
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF STUDENTS / SEATS FILLED",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 979,
+            "frequent_values": [
+                "25",
+                "24",
+                "23",
+                "26",
+                "28"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 27233,
+                    "max_value": 3107,
+                    "min_value": 2,
+                    "mean": 101.30407960929755,
+                    "stddev": 168.29563951194203
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF SECTIONS",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 76,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 27233,
+                    "max_value": 107,
+                    "min_value": 1,
+                    "mean": 4.105386846840231,
+                    "stddev": 5.81737622207062
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE CLASS SIZE",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 369,
+            "frequent_values": [
+                "25",
+                "26",
+                "24",
+                "27",
+                "28"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 14324,
+                    "max_value": 82,
+                    "min_value": 2,
+                    "mean": 22.462650097738063,
+                    "stddev": 7.244353875200677
+                },
+                {
+                    "type": "REAL",
+                    "count": 12909,
+                    "max_value": 68.5,
+                    "min_value": 2.3,
+                    "mean": 23.565489193585236,
+                    "stddev": 6.668584831932657
+                }
+            ]
+        },
+        {
+            "column_name": "SIZE OF SMALLEST CLASS",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 56,
+            "frequent_values": [
+                "25",
+                "24",
+                "23",
+                "26",
+                "22"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 27233,
+                    "max_value": 82,
+                    "min_value": 2,
+                    "mean": 20.520912128667426,
+                    "stddev": 7.266532514707829
+                }
+            ]
+        },
+        {
+            "column_name": "SIZE OF LARGEST CLASS",
+            "number_non_empty_cells": 27233,
+            "number_empty_cells": 1491,
+            "number_distinct_values": 72,
+            "frequent_values": [
+                "34",
+                "30",
+                "25",
+                "28",
+                "31"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 27233,
+                    "max_value": 99,
+                    "min_value": 2,
+                    "mean": 25.02291337715272,
+                    "stddev": 7.733967837522779
+                }
+            ]
+        },
+        {
+            "column_name": "SCHOOLWIDE PUPIL-TEACHER RATIO",
+            "number_non_empty_cells": 1491,
+            "number_empty_cells": 27233,
+            "number_distinct_values": 162,
+            "frequent_values": [
+                "14.6",
+                "15.5",
+                "14.9",
+                "13.8",
+                "14.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 153,
+                    "max_value": 24,
+                    "min_value": 5,
+                    "mean": 14.509803921568627,
+                    "stddev": 3.1913233001370584
+                },
+                {
+                    "type": "REAL",
+                    "count": 1338,
+                    "max_value": 24.3,
+                    "min_value": 0.2,
+                    "mean": 14.637742899850501,
+                    "stddev": 2.791411125473663
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CSD",
+        "BORO"
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "dataset_name": "sxx4-xhzg",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 545,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Manhattan",
+                "Queens",
+                "Bronx",
+                "Brooklyn",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 545,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Brooklyn ",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn ",
+                        "Brooklyn",
+                        "Queens"
+                    ],
+                    "average_length": 7.708256880733945
+                }
+            ]
+        },
+        {
+            "column_name": "Site type",
+            "number_non_empty_cells": 545,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Outdoor ",
+                "Outdoor",
+                "Indoor",
+                "Greenthumb",
+                "Subproperty"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 545,
+                    "shortest_values": [
+                        "Indoor",
+                        "Outdoor",
+                        "Outdoor ",
+                        "Greenthumb",
+                        "Subproperty"
+                    ],
+                    "longest_values": [
+                        "Subproperty",
+                        "Greenthumb",
+                        "Outdoor ",
+                        "Outdoor",
+                        "Indoor"
+                    ],
+                    "average_length": 7.913761467889908
+                }
+            ]
+        },
+        {
+            "column_name": "Park/Site Name",
+            "number_non_empty_cells": 545,
+            "number_empty_cells": 0,
+            "number_distinct_values": 362,
+            "frequent_values": [
+                "Hudson River Park",
+                "Hamilton Fish Recreation Center",
+                "Rockaway Beach ",
+                "McCarren Park ",
+                "Flushing Meadows Corona Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 545,
+                    "shortest_values": [
+                        "FAB",
+                        "FAB ",
+                        "Kelly",
+                        "Boerum",
+                        "150 St"
+                    ],
+                    "longest_values": [
+                        "Orchard Beach picnic areas, basketball ct, Pelham playground, Nature Center, Boathouse",
+                        "UCC (United Community Centers) Youth Farm/East New York Farms",
+                        "Triple R/Relaxation, Reflection, Revenue (Victoria Garden)",
+                        "Edith Community Garden (830 Elton Tenants Assoc.)",
+                        "Parks Council Success Garden- P.S. 175 I.S. 275"
+                    ],
+                    "average_length": 18.827522935779818
+                }
+            ]
+        },
+        {
+            "column_name": "Address",
+            "number_non_empty_cells": 540,
+            "number_empty_cells": 5,
+            "number_distinct_values": 423,
+            "frequent_values": [
+                "East River Bikeway",
+                "Hudson River Park ",
+                "Cunningham Park",
+                "Union Square Park",
+                "Van Cortlandt Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 540,
+                    "shortest_values": [
+                        "173 St",
+                        "232 St",
+                        "Dog Run",
+                        "143 Ave",
+                        "N 12 St"
+                    ],
+                    "longest_values": [
+                        "New York City Building, Flushing Meadows Corona Park",
+                        "E 181 St, oak Tree Pl Btwn. Quarry Rd & Hughes Ave",
+                        "Bronx River bet. Westchster Av and Bruckner Blvd",
+                        "Hunt's Point Ave Btwn. Spofford Ave & Bryant Ave",
+                        "Thompkins Ave Btwn Chestnut Ave & Shaughnessy Ln"
+                    ],
+                    "average_length": 20.15
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 544,
+            "number_empty_cells": 1,
+            "number_distinct_values": 542,
+            "frequent_values": [
+                "40.814213",
+                "40.751632000000001",
+                "40.849069",
+                "40.675268000000003",
+                "40.722479999999997"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 544,
+                    "max_value": 40.911295,
+                    "min_value": 40.505646,
+                    "mean": 40.737460148365976,
+                    "stddev": 0.08217478159572959
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 544,
+            "number_empty_cells": 1,
+            "number_distinct_values": 542,
+            "frequent_values": [
+                "-73.843676000000002",
+                "-73.885886",
+                "-73.942288",
+                "-74.011899",
+                "-74.010417000000004"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 544,
+                    "max_value": -73.734291,
+                    "min_value": -74.235477,
+                    "mean": -73.93748362373357,
+                    "stddev": 0.0899163925789051
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Borough",
+        "Site type"
+    ]
+}

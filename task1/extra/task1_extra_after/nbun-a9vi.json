@@ -1,0 +1,208 @@
+{
+    "dataset_name": "nbun-a9vi",
+    "columns": [
+        {
+            "column_name": "NEIGHBORHOOD",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "WILLIAMSBURG-EAST        ",
+                "MIDWOOD                  ",
+                "BOERUM HILL              ",
+                "BERGEN BEACH             ",
+                "FLATBUSH-CENTRAL         "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 164,
+                    "shortest_values": [
+                        "BATH BEACH               ",
+                        "GOWANUS                  ",
+                        "GRAVESEND                ",
+                        "GREENPOINT               ",
+                        "KENSINGTON               "
+                    ],
+                    "longest_values": [
+                        "WYCKOFF HEIGHTS          ",
+                        "WINDSOR TERRACE          ",
+                        "FLATBUSH-LEFFERTS GARDEN ",
+                        "FLATBUSH-EAST            ",
+                        "FLATBUSH-CENTRAL         "
+                    ],
+                    "average_length": 25.0
+                }
+            ]
+        },
+        {
+            "column_name": "TYPE OF HOME",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "02 TWO FAMILY HOMES                        ",
+                "01 ONE FAMILY HOMES                        ",
+                "03 THREE FAMILY HOMES                      "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 164,
+                    "shortest_values": [
+                        "01 ONE FAMILY HOMES                        ",
+                        "02 TWO FAMILY HOMES                        ",
+                        "03 THREE FAMILY HOMES                      "
+                    ],
+                    "longest_values": [
+                        "03 THREE FAMILY HOMES                      ",
+                        "02 TWO FAMILY HOMES                        ",
+                        "01 ONE FAMILY HOMES                        "
+                    ],
+                    "average_length": 43.0
+                }
+            ]
+        },
+        {
+            "column_name": "TOTAL NO. OF PROPERTIES",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 159,
+            "frequent_values": [
+                "254",
+                "117",
+                "229",
+                "31",
+                "65"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 164,
+                    "max_value": 8888,
+                    "min_value": 4,
+                    "mean": 1239.4756097560976,
+                    "stddev": 1505.8793292568846
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF SALES",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 62,
+            "frequent_values": [
+                "1",
+                "5",
+                "3",
+                "7",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 164,
+                    "max_value": 186,
+                    "min_value": 1,
+                    "mean": 28.109756097560975,
+                    "stddev": 36.01338033780146
+                }
+            ]
+        },
+        {
+            "column_name": "LOWEST SALE PRICE",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 112,
+            "frequent_values": [
+                "150000.00",
+                "300000.00",
+                "200000.00",
+                "250000.00",
+                "375000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 164,
+                    "max_value": 3200000.0,
+                    "min_value": 150000.0,
+                    "mean": 411806.8841463415,
+                    "stddev": 391579.2858087524
+                }
+            ]
+        },
+        {
+            "column_name": "AVERAGE SALE PRICE",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 164,
+            "frequent_values": [
+                "1325000.00",
+                "551466.00",
+                "719565.00",
+                "1234404.00",
+                "417007.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 164,
+                    "max_value": 4916367.0,
+                    "min_value": 210669.0,
+                    "mean": 769662.6890243902,
+                    "stddev": 556068.3789166642
+                }
+            ]
+        },
+        {
+            "column_name": "MEDIAN SALE PRICE",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 147,
+            "frequent_values": [
+                "710000.00",
+                "700000.00",
+                "350000.00",
+                "1050000.00",
+                "600000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 164,
+                    "max_value": 3350000.0,
+                    "min_value": 205118.0,
+                    "mean": 734190.1463414634,
+                    "stddev": 442816.7539761413
+                }
+            ]
+        },
+        {
+            "column_name": "HIGHEST SALE PRICE",
+            "number_non_empty_cells": 164,
+            "number_empty_cells": 0,
+            "number_distinct_values": 132,
+            "frequent_values": [
+                "750000.00",
+                "1500000.00",
+                "1250000.00",
+                "1300000.00",
+                "950000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 164,
+                    "max_value": 10979100.0,
+                    "min_value": 215000.0,
+                    "mean": 1373446.786585366,
+                    "stddev": 1335364.0567606334
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "AVERAGE SALE PRICE"
+    ]
+}

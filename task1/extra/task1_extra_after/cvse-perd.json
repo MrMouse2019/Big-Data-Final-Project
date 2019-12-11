@@ -1,0 +1,122 @@
+{
+    "dataset_name": "cvse-perd",
+    "columns": [
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 59,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "Department of Housing Preservation and Development (HPD)",
+                "Business Integrity Commission (BIC)",
+                "Department of Youth and Community Development (DYCD)",
+                "Commission to Combat Police Corruption (CCPC)",
+                "Financial Information Services Agency (FISA) & Office of Payroll Administration (OPA)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 59,
+                    "shortest_values": [
+                        "Notes:",
+                        "City Council (NYCC)",
+                        "Law Department (LAW)",
+                        "Office of The Mayor ***",
+                        "Police Department (NYPD)"
+                    ],
+                    "longest_values": [
+                        "*** Aggregate metrics for all mayor's offices. Some mayor's offices have their own FOIL officers, others rely on the Mayor\u2019s Office of the Counsel.",
+                        "Office of Administrative Tax Appeals (OATA) / (Tax Commission & Tax Appeals Tribunal)",
+                        "Financial Information Services Agency (FISA) & Office of Payroll Administration (OPA)",
+                        "Department of Information Technology & Telecommunications (DoITT)**",
+                        "Department of Housing Preservation and Development (HPD)"
+                    ],
+                    "average_length": 40.76271186440678
+                }
+            ]
+        },
+        {
+            "column_name": "Total number of FOIL responses that included the release of any data",
+            "number_non_empty_cells": 55,
+            "number_empty_cells": 4,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "5",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 54,
+                    "max_value": 9338,
+                    "min_value": 0,
+                    "mean": 433.94444444444446,
+                    "stddev": 1523.1709178755113
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        ">1,500*"
+                    ],
+                    "longest_values": [
+                        ">1,500*"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "the total number of FOIL responses that resulted in data being posted \u201cvoluntarily\u201d on the open data portal",
+            "number_non_empty_cells": 55,
+            "number_empty_cells": 4,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "0",
+                "5",
+                "1",
+                "4",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 55,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 0.32727272727272727,
+                    "stddev": 1.0963500677586422
+                }
+            ]
+        },
+        {
+            "column_name": "Total number of FOIL responses that includes a public data set not yet published on the Open Data Portal",
+            "number_non_empty_cells": 55,
+            "number_empty_cells": 4,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "0",
+                "1",
+                "4",
+                "6",
+                "36"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 55,
+                    "max_value": 487,
+                    "min_value": 0,
+                    "mean": 23.836363636363636,
+                    "stddev": 83.57549959307102
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Agency Name"
+    ]
+}

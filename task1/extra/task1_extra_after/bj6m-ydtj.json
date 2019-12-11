@@ -1,0 +1,145 @@
+{
+    "dataset_name": "bj6m-ydtj",
+    "columns": [
+        {
+            "column_name": "Vendor",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "A RUSSO WRECKING INC",
+                "NEDERMAN, LLC ",
+                "EN-TECH CORP",
+                "HALCYON CONSTRUCTION CORP",
+                "VERNON HILLS CONTRACTING CORP."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "EN-TECH CORP",
+                        "NEDERMAN, LLC ",
+                        "A RUSSO WRECKING INC",
+                        "HALCYON CONSTRUCTION CORP",
+                        "VERNON HILLS CONTRACTING CORP."
+                    ],
+                    "longest_values": [
+                        "VERNON HILLS CONTRACTING CORP.",
+                        "HALCYON CONSTRUCTION CORP",
+                        "A RUSSO WRECKING INC",
+                        "NEDERMAN, LLC ",
+                        "EN-TECH CORP"
+                    ],
+                    "average_length": 20.166666666666668
+                }
+            ]
+        },
+        {
+            "column_name": "Waiver (Partial/Full)",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Partial",
+                "Full"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "Full",
+                        "Partial"
+                    ],
+                    "longest_values": [
+                        "Partial",
+                        "Full"
+                    ],
+                    "average_length": 6.5
+                }
+            ]
+        },
+        {
+            "column_name": "Percentage Original",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "10",
+                "16",
+                "30",
+                "31",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 31,
+                    "min_value": 3,
+                    "mean": 16.666666666666668,
+                    "stddev": 10.482790129010926
+                }
+            ]
+        },
+        {
+            "column_name": "Percentage after waiver",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "17",
+                "Full",
+                "5",
+                "12",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 17,
+                    "min_value": 3,
+                    "mean": 9.6,
+                    "stddev": 5.043808085167397
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "Full"
+                    ],
+                    "longest_values": [
+                        "Full"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Contract Registration Date",
+            "number_non_empty_cells": 6,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "07/11/2013 12:00:00 AM",
+                "12/10/2013 12:00:00 AM",
+                "10/09/2013 12:00:00 AM",
+                "11/21/2013 12:00:00 AM",
+                "07/05/2013 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 6,
+                    "max_value": "2013-12-10 00:00:00",
+                    "min_value": "2013-07-05 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Percentage after waiver"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "dataset_name": "3955-c36a",
+    "columns": [
+        {
+            "column_name": "Service",
+            "number_non_empty_cells": 42,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Clinic or emergency room visit for children or pregnant women",
+                "Hospital Stays, if your savings are less than $8,000.",
+                "Prescription Drugs or Pharmacy co-pays per prescription",
+                "Ambulatory Surgery and MRI testing for adults and children",
+                "Patient co-pays and deductibles"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 42,
+                    "shortest_values": [
+                        "Patient co-pays and deductibles",
+                        "Clinic or emergency room visit for adults",
+                        "Hospital Stays, if your savings are less than $8,000.",
+                        "Prescription Drugs or Pharmacy co-pays per prescription",
+                        "Ambulatory Surgery and MRI testing for adults and children"
+                    ],
+                    "longest_values": [
+                        "Clinic or emergency room visit for children or pregnant women",
+                        "Ambulatory Surgery and MRI testing for adults and children",
+                        "Prescription Drugs or Pharmacy co-pays per prescription",
+                        "Hospital Stays, if your savings are less than $8,000.",
+                        "Clinic or emergency room visit for adults"
+                    ],
+                    "average_length": 49.833333333333336
+                }
+            ]
+        },
+        {
+            "column_name": "HHC Options Reduced Fee Level",
+            "number_non_empty_cells": 42,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "6",
+                "7",
+                "4",
+                "5",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 42,
+                    "max_value": 7,
+                    "min_value": 1,
+                    "mean": 4.0,
+                    "stddev": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Fee",
+            "number_non_empty_cells": 36,
+            "number_empty_cells": 6,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "0.00",
+                "15.00",
+                "150.00",
+                "18.00",
+                "10.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 36,
+                    "max_value": 5000.0,
+                    "min_value": 0.0,
+                    "mean": 384.9166666666667,
+                    "stddev": 969.0544754495945
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Service",
+        "HHC Options Reduced Fee Level"
+    ]
+}

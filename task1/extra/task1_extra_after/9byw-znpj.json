@@ -1,0 +1,185 @@
+{
+    "dataset_name": "9byw-znpj",
+    "columns": [
+        {
+            "column_name": "Prop_ID",
+            "number_non_empty_cells": 695,
+            "number_empty_cells": 0,
+            "number_distinct_values": 681,
+            "frequent_values": [
+                "X039-ZN18",
+                "M010-145",
+                "M010-ZN18&19",
+                "Q021-ZN01",
+                "R005-ZN01"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 695,
+                    "shortest_values": [
+                        "B096",
+                        "X156",
+                        "B225",
+                        "B337",
+                        "B301"
+                    ],
+                    "longest_values": [
+                        "M010-ZN10&11",
+                        "M010-ZN24&25",
+                        "M010-ZN42&43",
+                        "M010-ZN18&19",
+                        "M028-ZN02A"
+                    ],
+                    "average_length": 5.6287769784172665
+                }
+            ]
+        },
+        {
+            "column_name": "CS_ID",
+            "number_non_empty_cells": 695,
+            "number_empty_cells": 0,
+            "number_distinct_values": 695,
+            "frequent_values": [
+                "1369",
+                "1677",
+                "1624",
+                "1625",
+                "1626"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 695,
+                    "max_value": 2070,
+                    "min_value": 1336,
+                    "mean": 1699.4402877697842,
+                    "stddev": 211.4620474543511
+                }
+            ]
+        },
+        {
+            "column_name": "Winterized",
+            "number_non_empty_cells": 84,
+            "number_empty_cells": 611,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 84,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Reason_Winterized",
+            "number_non_empty_cells": 84,
+            "number_empty_cells": 611,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Seasonal",
+                "No heat",
+                "No gas",
+                "No Heat",
+                "No power"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 84,
+                    "shortest_values": [
+                        "No gas",
+                        "No Gas",
+                        "No heat",
+                        "No Heat",
+                        "Seasonal"
+                    ],
+                    "longest_values": [
+                        "No Electric",
+                        "No electric",
+                        "Electrical",
+                        "No Power",
+                        "Desolate"
+                    ],
+                    "average_length": 7.345238095238095
+                }
+            ]
+        },
+        {
+            "column_name": "Long_Term_Closure",
+            "number_non_empty_cells": 68,
+            "number_empty_cells": 627,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 68,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Reason_Closed",
+            "number_non_empty_cells": 69,
+            "number_empty_cells": 626,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Capital",
+                "Abandoned",
+                "Repairs",
+                "DEP/Sewer",
+                "Construction"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 69,
+                    "shortest_values": [
+                        "Sandy",
+                        "Safety",
+                        "Repairs",
+                        "Capital",
+                        "No power"
+                    ],
+                    "longest_values": [
+                        "Area closed for construction",
+                        "Closed permanently",
+                        "Closed to public",
+                        "Construction",
+                        "Condemned"
+                    ],
+                    "average_length": 9.46376811594203
+                }
+            ]
+        },
+        {
+            "column_name": "Other_Notes",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 695,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        }
+    ],
+    "key_column_candidates": [
+        "CS_ID"
+    ]
+}

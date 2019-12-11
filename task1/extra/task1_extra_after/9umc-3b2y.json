@@ -1,0 +1,613 @@
+{
+    "dataset_name": "9umc-3b2y",
+    "columns": [
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 133,
+            "number_empty_cells": 16,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "DCA",
+                "DOE",
+                "DOT",
+                "DPR",
+                "CUNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 133,
+                    "shortest_values": [
+                        "DCA",
+                        "DOE",
+                        "DOS",
+                        "DOT",
+                        "DPR"
+                    ],
+                    "longest_values": [
+                        "NYCHA",
+                        "CUNY",
+                        "HHC",
+                        "DDC",
+                        "HPD"
+                    ],
+                    "average_length": 3.0676691729323307
+                }
+            ]
+        },
+        {
+            "column_name": "Organization Name",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 140,
+            "frequent_values": [
+                "Department of Transportation, NYC",
+                "Neighborhood Defender Service, Inc.",
+                "South Street Seaport Museum's",
+                "BaruchCollege/CUNY",
+                "New York Classical Theatre, Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "Eyebeam",
+                        "P.S. 138",
+                        "P.S. M226",
+                        "ABC No Rio",
+                        "Mott Hall II"
+                    ],
+                    "longest_values": [
+                        "(1)Lab Middle School for Collaborative Studies                      (2) Lab School for Collaborative Studies (3) Museum School",
+                        "Riverside Park Conservancy and Soldier's and Sailors' Memorial Association",
+                        "Fashion Center Business Improvement District (Fashion Center DMA, Inc.)",
+                        "Outstanding Renewal Enterprises, Inc. (Lower East Side Ecology Center)",
+                        "Visual Arts Research and Resource Center Relating to the Caribbean "
+                    ],
+                    "average_length": 31.328859060402685
+                }
+            ]
+        },
+        {
+            "column_name": "Organization Address",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 134,
+            "frequent_values": [
+                "55 Water Street, ",
+                "209 West 38th Street",
+                "1 Bernard Baruch Way",
+                "61 East 4th Street",
+                "100 East 77th Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "P.O. Box 23",
+                        "100 Old Slip",
+                        "890 Broadway",
+                        "2537 Broadway",
+                        "1633 Broadway"
+                    ],
+                    "longest_values": [
+                        "353 West Street @ Hudson Street (Pier 40, 2nd Fl.)",
+                        "c/o David Lopez, 17 West 95th Street, Apt 1",
+                        "2090 Adam Clayton Powell, Jr. Blvd.",
+                        "20 Lincoln Center Plaza, 4th Floor",
+                        "254 West 31st Street,    10th Fl"
+                    ],
+                    "average_length": 20.563758389261746
+                }
+            ]
+        },
+        {
+            "column_name": "City",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "New York"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "New York"
+                    ],
+                    "longest_values": [
+                        "New York"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "State",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "NY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "NY"
+                    ],
+                    "longest_values": [
+                        "NY"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 42,
+            "frequent_values": [
+                "10003",
+                "10025",
+                "10019",
+                "10029",
+                "10002"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 149,
+                    "max_value": 10457,
+                    "min_value": 10001,
+                    "mean": 10034.060402684563,
+                    "stddev": 53.51575421155095
+                }
+            ]
+        },
+        {
+            "column_name": "Building Number",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 105,
+            "number_distinct_values": 44,
+            "frequent_values": [
+                "03M087",
+                "03M185",
+                "75M138",
+                "02M432 02M620 02M500 02M427",
+                "03M009 03M243"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44,
+                    "shortest_values": [
+                        "03M075",
+                        "75M138",
+                        "75M226",
+                        "02M217",
+                        "02M475"
+                    ],
+                    "longest_values": [
+                        "02M432 02M620 02M500 02M427",
+                        "02M312 02M412 02M414",
+                        "03M009 03M243",
+                        "03M087",
+                        "03M185"
+                    ],
+                    "average_length": 6.954545454545454
+                }
+            ]
+        },
+        {
+            "column_name": "School Number",
+            "number_non_empty_cells": 45,
+            "number_empty_cells": 104,
+            "number_distinct_values": 45,
+            "frequent_values": [
+                "M183",
+                "M185",
+                "M475",
+                "M319",
+                "M217"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 45,
+                    "shortest_values": [
+                        "M075",
+                        "M539",
+                        "M138",
+                        "M226",
+                        "M217"
+                    ],
+                    "longest_values": [
+                        "M009   M243           ",
+                        "M432 M620 M500 M427 ",
+                        "M312   M412   M414",
+                        "M087",
+                        "M185"
+                    ],
+                    "average_length": 5.066666666666666
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "CB3",
+                "CB7",
+                "CB8",
+                "CB5",
+                "CB1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "CB",
+                        "CB6",
+                        "CB1",
+                        "CB5",
+                        "CB8"
+                    ],
+                    "longest_values": [
+                        "CB 9,10,11",
+                        "CB 7",
+                        "CB12",
+                        "CB10",
+                        "CB11"
+                    ],
+                    "average_length": 3.2751677852348995
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "CD03",
+                "CD02",
+                "CD08",
+                "CD06",
+                "CD01"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "CD",
+                        "CD02",
+                        "CD01",
+                        "CD03",
+                        "CD04"
+                    ],
+                    "longest_values": [
+                        "CD05",
+                        "CD10",
+                        "CD09",
+                        "CD08",
+                        "CD07"
+                    ],
+                    "average_length": 3.9731543624161074
+                }
+            ]
+        },
+        {
+            "column_name": "Project Title",
+            "number_non_empty_cells": 149,
+            "number_empty_cells": 0,
+            "number_distinct_values": 145,
+            "frequent_values": [
+                "Auditorium Upgrade Project",
+                "Computer Upgrade Project",
+                "Building Envelope Renovation Project",
+                "Mainstage Theater Restoration Project",
+                "Studio Upgrade Project"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 149,
+                    "shortest_values": [
+                        "HVAC Project",
+                        "Boiler Project",
+                        "Gymnasium Upgrade",
+                        "Renovation Project",
+                        "Playground Project"
+                    ],
+                    "longest_values": [
+                        "Preservation Study and Assessment and Restoration of the Landmark Soldiers' Monument Project.",
+                        "Instructional Spaces Upgrade, HVAC Upgrades to IT Closets, Replacement of Rooftop AC Unit",
+                        "Smart Board Upgrade and Professional Development; Electronic Message Board Project",
+                        "Network Infrastructure Modernization; Max Bond Center; Wingate Pool Restoration",
+                        "Additional Funding - Phase I Renovation Completion Project - 70 East 4th Street"
+                    ],
+                    "average_length": 37.5503355704698
+                }
+            ]
+        },
+        {
+            "column_name": "Project Description",
+            "number_non_empty_cells": 147,
+            "number_empty_cells": 2,
+            "number_distinct_values": 147,
+            "frequent_values": [
+                "The Medical Emergency Evacuation Vehicle is a multi-purpose vehicle capable of acting a mass evacuation ambulance for patients ranging from ambulatory to wheelchair and stretcher bound to patients requiring advanced life support treatments. It could also be utilized as mobile command center, triage and treatment center.",
+                "Purchase and install (12) sound isolation rooms in the basement level of the Martin Luther King Jr. Campus.  Students will participate in private music instruction and ensemble courses  throughout the school day. ",
+                "Replacement of the current tile floor throughout the Center, replace existing doors with fire rated and unrated door openings, Wall repair, including: repairing, patching, priming and painting, upgrade elictrical systems, installation of door alarms on al",
+                "HVAC System: Purchase aa 260 ton roof-top air conditioning chiller, 6 supply air fans, 3 return  air fans and new duct work with noise attenuation devices to replace outdated noisy system;  New flooring lighting upgrade, refurbish restrooms, dressing room",
+                "Conversion of (1) classroom into a news network consisting of a sound proof roomallowing editors to monitor the visual and audio displayed and heard on the monitors."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 147,
+                    "shortest_values": [
+                        "Funding is for Greenroof ",
+                        "Feasibility Study for project",
+                        "Fabrication and installation of new mass and rigging.",
+                        "Increase technology in their classrooms and computer labs.",
+                        "Vehicle will support their food rescue and delivery operations."
+                    ],
+                    "longest_values": [
+                        "Installall hard wood floors on the auditorium stage, mirrors for dance classes backstage, new control room/projection room, electrical wiring for AV equipment, accommodating seats, curtains, lighting deck, lighting equipment, surround sound system, video projection system with monitors on the side and main stage, AV rack to control sound and visual input and output, a PPD system to broadcast throughout building and into atrium and garden space directly next to auditorium, acoustical panels, proper ventillation/air conditioning, and mosiac mural that reflects the technology and arts theme that runs through the building.",
+                        "Redesign and Renovate the art and music wing at SHS = Assessment and design, theater multimedia control center, theater sound system, theater projector TV's (2), theatre lighting upgrade, theater painting, carpet and stage floor replacement, classroom sound system (3), Classroom interactive boards and accessories, classroom painting and other renovations (3), classroom instrument and sheet music storage (3), office renovation, musical instruments, and renovation labor cost.  ",
+                        "Purchase 36 Lenovo X131e (yellow Cover) laptops with computrace, 2-datamation DS-Netvault Notebook wheeled carts to store and move them securely, 8-Epson projectors, 16-Epson Brightlink, 16-Epson Interactive Pen A for BrightLink, 8-Elite Whiteboard Universal Screen, 8-B&H Photo Projector Screen Mounting/Reg, 8- B&H Photo A/V Installation of Whiteboard Screen/Cables.  Current technology/computers are out of warranty or broken.",
+                        "Repair/replace wood on entire stage floor (sanding/vanishing), replace old curtains with new ones, install safety rails to stairs leading to stage, remove/replace 422 seats, paint ceiling and floor under under seating, install new flooring on the walkways, install handicap lift and seating, (8) wall-ceiling fans mounted for ventillation, install any additional electric needs to support the current light and sound system.",
+                        "Paint and cement, replace the fencing around the entire yard to ensure better safety for the children, extend/replace the rubber matting that is already in place, oaint a mini-track to provide students with another sports option, paint a half court for basketball as a structured play option, 3 new backboards for basketball, paint bases for basketball/softball and a baseball diamond."
+                    ],
+                    "average_length": 211.04761904761904
+                }
+            ]
+        },
+        {
+            "column_name": "Amnt Requested",
+            "number_non_empty_cells": 148,
+            "number_empty_cells": 1,
+            "number_distinct_values": 87,
+            "frequent_values": [
+                "* 500,000.00",
+                "* 250,000.00",
+                "* 300,000.00",
+                "* 1,000,000.00",
+                "* 200,000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 148,
+                    "shortest_values": [
+                        "500,000",
+                        "* 50,000",
+                        "* 52,000",
+                        "* 255,000",
+                        "* 59,155.00"
+                    ],
+                    "longest_values": [
+                        "$1, 075, 000.00 ",
+                        "* 2,000,000.00",
+                        "* 1,500,000.00",
+                        "* 4,000,000.00",
+                        "* 1,337,401.00"
+                    ],
+                    "average_length": 11.945945945945946
+                }
+            ]
+        },
+        {
+            "column_name": "Funded Amount",
+            "number_non_empty_cells": 143,
+            "number_empty_cells": 6,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "0.00",
+                "500000.00",
+                "200000.00",
+                "125000.00",
+                "300000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 143,
+                    "max_value": 1000000.0,
+                    "min_value": 0.0,
+                    "mean": 147895.1048951049,
+                    "stddev": 182440.2081682037
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 142,
+            "number_empty_cells": 7,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "MANHATTAN",
+                "BRONX    "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 142,
+                    "shortest_values": [
+                        "MANHATTAN",
+                        "BRONX    "
+                    ],
+                    "longest_values": [
+                        "BRONX    ",
+                        "MANHATTAN"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 142,
+            "number_empty_cells": 7,
+            "number_distinct_values": 124,
+            "frequent_values": [
+                "40.703597",
+                "40.802917",
+                "40.753769",
+                "40.726785",
+                "40.706631"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 142,
+                    "max_value": 40.866706,
+                    "min_value": 40.703279,
+                    "mean": 40.765498795774654,
+                    "stddev": 0.03971316820928352
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 142,
+            "number_empty_cells": 7,
+            "number_distinct_values": 124,
+            "frequent_values": [
+                "-74.009781",
+                "-73.945122",
+                "-73.986428",
+                "-73.990807",
+                "-73.961148"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 142,
+                    "max_value": -73.904721,
+                    "min_value": -74.013748,
+                    "mean": -73.97464161971833,
+                    "stddev": 0.024345940556936348
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 142,
+            "number_empty_cells": 7,
+            "number_distinct_values": 98,
+            "frequent_values": [
+                "9",
+                "38",
+                "222",
+                "168",
+                "68"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 142,
+                    "max_value": 31703,
+                    "min_value": 7,
+                    "mean": 1413.2676056338028,
+                    "stddev": 5034.63929770194
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 140,
+            "number_empty_cells": 9,
+            "number_distinct_values": 121,
+            "frequent_values": [
+                "1082642",
+                "1083346",
+                "1086514",
+                "1076741",
+                "1076625"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 140,
+                    "max_value": 2009358,
+                    "min_value": 1000027,
+                    "mean": 1056456.85,
+                    "stddev": 86333.65614214631
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 140,
+            "number_empty_cells": 9,
+            "number_distinct_values": 121,
+            "frequent_values": [
+                "1004600056",
+                "1000327501",
+                "1018590001",
+                "1010590015",
+                "1016100001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 140,
+                    "max_value": 2028910037,
+                    "min_value": 1000100023,
+                    "mean": 1018231719.3285714,
+                    "stddev": 85957679.9727268
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 142,
+            "number_empty_cells": 7,
+            "number_distinct_values": 29,
+            "frequent_values": [
+                "Midtown-Midtown South                                                      ",
+                "Battery Park City-Lower Manhattan                                          ",
+                "Upper West Side                                                            ",
+                "East Village                                                               ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 142,
+                    "shortest_values": [
+                        "Gramercy                                                                   ",
+                        "Washington Heights North                                                   ",
+                        "Yorkville                                                                  ",
+                        "Murray Hill-Kips Bay                                                       ",
+                        "Marble Hill-Inwood                                                         "
+                    ],
+                    "longest_values": [
+                        "Mount Hope                                                                 ",
+                        "Clinton                                                                    ",
+                        "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                        "Midtown-Midtown South                                                      ",
+                        "Upper East Side-Carnegie Hill                                              "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Agency",
+        "Organization Name"
+    ]
+}

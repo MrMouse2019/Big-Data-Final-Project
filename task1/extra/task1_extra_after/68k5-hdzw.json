@@ -1,0 +1,533 @@
+{
+    "dataset_name": "68k5-hdzw",
+    "columns": [
+        {
+            "column_name": "RecoupID",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13483,
+            "frequent_values": [
+                "09730-13",
+                "09755-13",
+                "08351-11",
+                "08312-11",
+                "10049-13"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15104,
+                    "shortest_values": [
+                        "08365-11",
+                        "10926-15",
+                        "08782-11",
+                        "09070-13",
+                        "06402-09"
+                    ],
+                    "longest_values": [
+                        "12245-17",
+                        "06434-10",
+                        "05582-07",
+                        "08789-10",
+                        "07687-10"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": "SourceDescription",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "ALBANY",
+                "INSURANCE COMPANY",
+                "LOCAL PRECINCT",
+                "DOT SAFETY & HEALTH",
+                "OTHER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15104,
+                    "shortest_values": [
+                        "OTHER",
+                        "ALBANY",
+                        "ESCORT",
+                        "BRIDGES",
+                        "LOCAL PRECINCT"
+                    ],
+                    "longest_values": [
+                        "TRAFFIC SIGNALS/CABLE & CONDUIT",
+                        "DOT SAFETY & HEALTH",
+                        "COURT RESTITUTION",
+                        "INSURANCE COMPANY",
+                        "FLEET SERVICES"
+                    ],
+                    "average_length": 11.37989936440678
+                }
+            ]
+        },
+        {
+            "column_name": "AccidentDate",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4369,
+            "frequent_values": [
+                "11/18/2010",
+                "11/15/2008",
+                "12/02/2007",
+                "08/22/2010",
+                "12/19/2008"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 15104,
+                    "max_value": "2019-08-12 00:00:00",
+                    "min_value": "1997-04-04 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PoliceReportID",
+            "number_non_empty_cells": 14603,
+            "number_empty_cells": 501,
+            "number_distinct_values": 6982,
+            "frequent_values": [
+                "000/0000",
+                "60",
+                "NONE",
+                "SEE PD REPORT",
+                "n/a"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11511,
+                    "max_value": 2916061011658,
+                    "min_value": 0,
+                    "mean": 22632458034.70802,
+                    "stddev": 213313244263.49365
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 20181090.05695,
+                    "min_value": 20181090.05695,
+                    "mean": 20181090.05695,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3091,
+                    "shortest_values": [
+                        "n/a",
+                        "23A",
+                        "NONE",
+                        "NO #",
+                        "None"
+                    ],
+                    "longest_values": [
+                        "QC 1150267 /QC 1150268",
+                        "MV-2018--105-000274",
+                        "MV-2017-062-003`160",
+                        "MV-2017-7070-001767",
+                        "SLMJS430/PINX731.10"
+                    ],
+                    "average_length": 11.720478809446782
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 15097,
+            "number_empty_cells": 7,
+            "number_distinct_values": 12859,
+            "frequent_values": [
+                "NEPTUNR AVE@BRIGHT FGFGFGFGFGFGFGFGFGFGFGFGFGFGFGF",
+                "COMPLAINT UNKNOWN",
+                "E/B BELT PKWY @ BAY PKWY",
+                "E/B BELT PKWY",
+                "TERSEY ST"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15097,
+                    "shortest_values": [
+                        "UNK",
+                        "N/B",
+                        "BQE",
+                        "JJJJ",
+                        "IIII"
+                    ],
+                    "longest_values": [
+                        "908A N/B  HUTCHINSON RIVER PARKWAY @ SOUTH SIDE HU",
+                        "W/B HORACE HARDING EXPRESSWAY @ CLOVERDALE BLVD, Q",
+                        "ROOSEVELT DRIVE @ 25 FEET NORTH OF 101 STREET, NEW",
+                        "PENNSYLVANIA AVE ENTRANCE RAMP@ E/B BELT PKWY,KING",
+                        "JACKIE ROBINSON PARKWAY/JAMAICA  @ PENNSYLVANIA AV"
+                    ],
+                    "average_length": 37.46658276478771
+                }
+            ]
+        },
+        {
+            "column_name": "DateReceived",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2339,
+            "frequent_values": [
+                "12/18/2012",
+                "01/24/2011",
+                "01/20/2010",
+                "01/08/2010",
+                "01/07/2010"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 15104,
+                    "max_value": "2019-08-30 00:00:00",
+                    "min_value": "2005-10-19 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CloseDate",
+            "number_non_empty_cells": 14494,
+            "number_empty_cells": 610,
+            "number_distinct_values": 1640,
+            "frequent_values": [
+                "03/14/2006",
+                "04/14/2010",
+                "03/13/2006",
+                "06/23/2011",
+                "06/29/2012"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 14494,
+                    "max_value": "2019-08-29 00:00:00",
+                    "min_value": "2005-09-22 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Closed",
+                "Open"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15104,
+                    "shortest_values": [
+                        "Open",
+                        "Closed"
+                    ],
+                    "longest_values": [
+                        "Closed",
+                        "Open"
+                    ],
+                    "average_length": 5.919226694915254
+                }
+            ]
+        },
+        {
+            "column_name": "LatestActionDescription",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Close",
+                "Request for Estimate",
+                "Request for Payment",
+                "Request  Created",
+                "Forward to Law Department"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 15104,
+                    "shortest_values": [
+                        "Close",
+                        "Request  Created",
+                        "Request for Payment",
+                        "Request for Estimate",
+                        "Forward to Legal Affairs"
+                    ],
+                    "longest_values": [
+                        "Forward to Comptroller Off.",
+                        "Forward to Law Department",
+                        "Forward to Legal Affairs",
+                        "Request for Estimate",
+                        "Request for Payment"
+                    ],
+                    "average_length": 5.598847987288136
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 2654,
+            "number_empty_cells": 12450,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Bklyn South",
+                "Qns South",
+                "Bronx",
+                "Qns North",
+                "SI"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2654,
+                    "shortest_values": [
+                        "SI",
+                        "Bronx",
+                        "MN North",
+                        "MN South",
+                        "Qns South"
+                    ],
+                    "longest_values": [
+                        "Bklyn North",
+                        "Bklyn South",
+                        "Qns North",
+                        "Qns South",
+                        "MN South"
+                    ],
+                    "average_length": 7.859457422758101
+                }
+            ]
+        },
+        {
+            "column_name": "PrecinctId",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "0",
+                "76",
+                "41",
+                "61",
+                "66"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15104,
+                    "max_value": 78,
+                    "min_value": 0,
+                    "mean": 8.355799788135593,
+                    "stddev": 20.434708855335884
+                }
+            ]
+        },
+        {
+            "column_name": "Description",
+            "number_non_empty_cells": 14247,
+            "number_empty_cells": 857,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "Guide/Guard Rails on Highways",
+                "Lightpole",
+                "Utility Pole",
+                "DOT Vehicle",
+                "Pole"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14247,
+                    "shortest_values": [
+                        "Pole",
+                        "Sign",
+                        "Walls",
+                        "Other",
+                        "Debris"
+                    ],
+                    "longest_values": [
+                        "Guide/Guard Rails on Highways",
+                        "BUS STOP SIGN/ BRIAN PAUL",
+                        "ATTENUATORS/DOT VEHICLES",
+                        "CROSSWALK SIGNAL DEVICE",
+                        "Guard rails on Bridges"
+                    ],
+                    "average_length": 15.683933459675721
+                }
+            ]
+        },
+        {
+            "column_name": "UnitDescription",
+            "number_non_empty_cells": 14247,
+            "number_empty_cells": 857,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Street lighting",
+                "Arterials",
+                "Fleet Services",
+                "Bridges",
+                "Accounts Receivable"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 14247,
+                    "shortest_values": [
+                        "Bridges",
+                        "Arterials",
+                        "Wayfinding",
+                        "Bike Share",
+                        "SIGN & SALES"
+                    ],
+                    "longest_values": [
+                        "Sidewalk Insp. & Mgt",
+                        "TS/ Cable & Conduit",
+                        "Accounts Receivable",
+                        "Traffic Control &En",
+                        "Traffic Operations"
+                    ],
+                    "average_length": 12.771811609461642
+                }
+            ]
+        },
+        {
+            "column_name": "CompanyName",
+            "number_non_empty_cells": 11954,
+            "number_empty_cells": 3150,
+            "number_distinct_values": 566,
+            "frequent_values": [
+                "GEICO",
+                "INSURED (NO INS. CODE)",
+                "ALLSTATE INS. CO.",
+                "STATE FARM MUT. AUTO INS.",
+                "AMERICAN TRANSIT INSURANCE CO"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11954,
+                    "shortest_values": [
+                        "CNA",
+                        "MECC",
+                        "USAA",
+                        "ESIS",
+                        "YORK"
+                    ],
+                    "longest_values": [
+                        "PROERTY AND CASUALTY INSURANCE COMPANY OF HARTFORD",
+                        "DTG OPERATIONS, INC . LIABILITY CLAIMS ACCOUNT",
+                        "AMERICAN ALTERNATIVE INSURANCE CORPORATION",
+                        "GENERAL SECURITY PROPERTY & CASUALTY  CO.",
+                        "METROPOLITAN GRP PROP & CASUALTY INS. CO."
+                    ],
+                    "average_length": 17.73406391166137
+                }
+            ]
+        },
+        {
+            "column_name": "RequestAmount",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2830,
+            "frequent_values": [
+                "116.89",
+                "0.00",
+                "345.24",
+                "3338.94",
+                "4051.24"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15104,
+                    "max_value": 96941.37,
+                    "min_value": 0.0,
+                    "mean": 1123.3131826007586,
+                    "stddev": 3077.138714404071
+                }
+            ]
+        },
+        {
+            "column_name": "HasAdminfee",
+            "number_non_empty_cells": 11882,
+            "number_empty_cells": 3222,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 11882,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.1090725467093083
+                }
+            ]
+        },
+        {
+            "column_name": "Adminfee",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "116.89",
+                "0.00",
+                "58.45",
+                "58.44",
+                "58.42"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15104,
+                    "max_value": 116.89,
+                    "min_value": 0.0,
+                    "mean": 90.94110037075107,
+                    "stddev": 48.55471093198483
+                }
+            ]
+        },
+        {
+            "column_name": "PaidAmount",
+            "number_non_empty_cells": 15104,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2441,
+            "frequent_values": [
+                "0.00",
+                "345.24",
+                "228.35",
+                "3222.05",
+                "3934.35"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 15104,
+                    "max_value": 60951.49,
+                    "min_value": 0.0,
+                    "mean": 590.4273205773287,
+                    "stddev": 1912.530798323231
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

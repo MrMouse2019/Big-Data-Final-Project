@@ -1,0 +1,924 @@
+{
+    "dataset_name": "h9gi-nx95",
+    "columns": [
+        {
+            "column_name": "DATE",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2631,
+            "frequent_values": [
+                "01/21/2014",
+                "11/15/2018",
+                "12/15/2017",
+                "05/19/2017",
+                "01/18/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1569425,
+                    "max_value": "2019-09-13 00:00:00",
+                    "min_value": "2012-07-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "TIME",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1440,
+            "frequent_values": [
+                "16:00",
+                "17:00",
+                "15:00",
+                "18:00",
+                "14:00"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1569425,
+                    "max_value": "1900-01-01 23:59:00",
+                    "min_value": "1900-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 1095377,
+            "number_empty_cells": 474048,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "QUEENS",
+                "MANHATTAN",
+                "BRONX",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1095377,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.511627503590089
+                }
+            ]
+        },
+        {
+            "column_name": "ZIP CODE",
+            "number_non_empty_cells": 1095190,
+            "number_empty_cells": 474235,
+            "number_distinct_values": 232,
+            "frequent_values": [
+                "11207",
+                "11101",
+                "10019",
+                "10016",
+                "10036"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1095148,
+                    "max_value": 11697,
+                    "min_value": 10000,
+                    "mean": 10825.385809954454,
+                    "stddev": 561.2967543354334
+                },
+                {
+                    "type": "TEXT",
+                    "count": 42,
+                    "shortest_values": [
+                        "     "
+                    ],
+                    "longest_values": [
+                        "     "
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 1376164,
+            "number_empty_cells": 193261,
+            "number_distinct_values": 115411,
+            "frequent_values": [
+                "0",
+                "40.608757",
+                "40.798256",
+                "40.6960346",
+                "40.8047"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1010,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 1375154,
+                    "max_value": 43.344444,
+                    "min_value": 30.78418,
+                    "mean": 40.72384698751384,
+                    "stddev": 0.07903954975411691
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 1376164,
+            "number_empty_cells": 193261,
+            "number_distinct_values": 91661,
+            "frequent_values": [
+                "0",
+                "-74.038086",
+                "-73.9845292",
+                "-73.98453",
+                "-73.91243"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1015,
+                    "max_value": 0,
+                    "min_value": -74,
+                    "mean": -0.3645320197044335,
+                    "stddev": 5.180973447600156
+                },
+                {
+                    "type": "REAL",
+                    "count": 1375149,
+                    "max_value": -32.768513,
+                    "min_value": -201.35999,
+                    "mean": -73.93099024256439,
+                    "stddev": 1.1307113217138194
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION",
+            "number_non_empty_cells": 1376164,
+            "number_empty_cells": 193261,
+            "number_distinct_values": 206156,
+            "frequent_values": [
+                "POINT (0 0)",
+                "POINT (-74.038086 40.608757)",
+                "POINT (-73.9845292 40.6960346)",
+                "POINT (-73.98453 40.696033)",
+                "POINT (-73.91282 40.861862)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1376164,
+                    "shortest_values": [
+                        "POINT (0 0)",
+                        "POINT (-74 40.6829)",
+                        "POINT (-74 40.62507)",
+                        "POINT (-74 40.574936)",
+                        "POINT (-74 40.619534)"
+                    ],
+                    "longest_values": [
+                        "POINT (-73.8904059 40.6436899)",
+                        "POINT (-73.9812958 40.6526365)",
+                        "POINT (-73.8723636 40.8414774)",
+                        "POINT (-73.9258765 40.6190124)",
+                        "POINT (-73.8196963 40.7663085)"
+                    ],
+                    "average_length": 28.15119636903741
+                }
+            ]
+        },
+        {
+            "column_name": "ON STREET NAME",
+            "number_non_empty_cells": 1263339,
+            "number_empty_cells": 306086,
+            "number_distinct_values": 11449,
+            "frequent_values": [
+                "BROADWAY                        ",
+                "ATLANTIC AVENUE                 ",
+                "3 AVENUE                        ",
+                "NORTHERN BOULEVARD              ",
+                "BELT PARKWAY                    "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12,
+                    "max_value": 495,
+                    "min_value": 35,
+                    "mean": 201.83333333333334,
+                    "stddev": 123.24287223022496
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1263327,
+                    "shortest_values": [
+                        "WEST 17 STREET                  ",
+                        "BELT PARKWAY SERVICE RD         ",
+                        "St James place                  ",
+                        "Thomson Ave                     ",
+                        "MOORE PLACE                     "
+                    ],
+                    "longest_values": [
+                        "WEST ENTRY ROAD                 ",
+                        "st raymonds ave                 ",
+                        "NORTH BURGHER AVENUE            ",
+                        "GUY R BREWER BLVD               ",
+                        "COLONIAL AVENUE                 "
+                    ],
+                    "average_length": 32.0
+                }
+            ]
+        },
+        {
+            "column_name": "CROSS STREET NAME",
+            "number_non_empty_cells": 1050365,
+            "number_empty_cells": 519060,
+            "number_distinct_values": 17983,
+            "frequent_values": [
+                "3 AVENUE                        ",
+                "BROADWAY                        ",
+                "2 AVENUE                        ",
+                "5 AVENUE                        ",
+                "7 AVENUE                        "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 34,
+                    "max_value": 2475,
+                    "min_value": 0,
+                    "mean": 126.44117647058823,
+                    "stddev": 416.96425232418056
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1050331,
+                    "shortest_values": [
+                        "s",
+                        "F",
+                        "FDR",
+                        "6th",
+                        "9th"
+                    ],
+                    "longest_values": [
+                        "FEDERAL PLACE                   ",
+                        "LEASON PLACE                    ",
+                        "HYATT STREET                    ",
+                        "NOBLE STREET                    ",
+                        "LOGAN AVENUE                    "
+                    ],
+                    "average_length": 24.894995958416917
+                }
+            ]
+        },
+        {
+            "column_name": "OFF STREET NAME",
+            "number_non_empty_cells": 213923,
+            "number_empty_cells": 1355502,
+            "number_distinct_values": 136322,
+            "frequent_values": [
+                "772       EDGEWATER ROAD                ",
+                "110-00    ROCKAWAY BOULEVARD            ",
+                "2800      VICTORY BOULEVARD             ",
+                "                                        ",
+                "2655      RICHMOND AVENUE               "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 109,
+                    "min_value": 109,
+                    "mean": 109.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 213922,
+                    "shortest_values": [
+                        "WHITE STON",
+                        "81 ST & CPW",
+                        "94 8TH AVENUE",
+                        "900 FTELEY AVE",
+                        "1398 FULTON ST"
+                    ],
+                    "longest_values": [
+                        "PARKING LOT-800 FOOD CTN DR             ",
+                        "68-21     58 ROAD                       ",
+                        "35-82     162 STREET                    ",
+                        "150-39    14 AVENUE                     ",
+                        "483       ROGERS AVENUE                 "
+                    ],
+                    "average_length": 39.99528800216901
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF PERSONS INJURED",
+            "number_non_empty_cells": 1569408,
+            "number_empty_cells": 17,
+            "number_distinct_values": 27,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569408,
+                    "max_value": 43,
+                    "min_value": 0,
+                    "mean": 0.261857337288965,
+                    "stddev": 0.6598164088179214
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF PERSONS KILLED",
+            "number_non_empty_cells": 1569394,
+            "number_empty_cells": 31,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569394,
+                    "max_value": 8,
+                    "min_value": 0,
+                    "mean": 0.0011654179893640475,
+                    "stddev": 0.0361142809303698
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF PEDESTRIANS INJURED",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 27,
+                    "min_value": 0,
+                    "mean": 0.05047963426095545,
+                    "stddev": 0.23156299960028157
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF PEDESTRIANS KILLED",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 6,
+                    "min_value": 0,
+                    "mean": 0.0006295299233795817,
+                    "stddev": 0.025684977421762924
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF CYCLIST INJURED",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 4,
+                    "min_value": 0,
+                    "mean": 0.02076174395081001,
+                    "stddev": 0.14377837213557124
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF CYCLIST KILLED",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0",
+                "1",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 2,
+                    "min_value": 0,
+                    "mean": 8.283288465520812e-05,
+                    "stddev": 0.00917062568415011
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF MOTORIST INJURED",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 27,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 43,
+                    "min_value": 0,
+                    "mean": 0.19076349618490848,
+                    "stddev": 0.6221306411440288
+                }
+            ]
+        },
+        {
+            "column_name": "NUMBER OF MOTORIST KILLED",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 0.00045558086560364467,
+                    "stddev": 0.0232267205695759
+                }
+            ]
+        },
+        {
+            "column_name": "CONTRIBUTING FACTOR VEHICLE 1",
+            "number_non_empty_cells": 1565321,
+            "number_empty_cells": 4104,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "Unspecified",
+                "Driver Inattention/Distraction",
+                "Failure to Yield Right-of-Way",
+                "Following Too Closely",
+                "Backing Unsafely"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 111,
+                    "max_value": 80,
+                    "min_value": 1,
+                    "mean": 72.88288288288288,
+                    "stddev": 22.61855203574031
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1565210,
+                    "shortest_values": [
+                        "Glare",
+                        "Illnes",
+                        "Illness",
+                        "Texting",
+                        "Unspecified"
+                    ],
+                    "longest_values": [
+                        "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion",
+                        "Traffic Control Device Improper/Non-Working",
+                        "Reaction to Other Uninvolved Vehicle",
+                        "Lane Marking Improper/Inadequate",
+                        "Using On Board Navigation Device"
+                    ],
+                    "average_length": 18.927775825608066
+                }
+            ]
+        },
+        {
+            "column_name": "CONTRIBUTING FACTOR VEHICLE 2",
+            "number_non_empty_cells": 1359317,
+            "number_empty_cells": 210108,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "Unspecified",
+                "Driver Inattention/Distraction",
+                "Other Vehicular",
+                "Failure to Yield Right-of-Way",
+                "Following Too Closely"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 27,
+                    "max_value": 80,
+                    "min_value": 1,
+                    "mean": 65.37037037037037,
+                    "stddev": 30.687370002015538
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1359290,
+                    "shortest_values": [
+                        "Glare",
+                        "Illnes",
+                        "Texting",
+                        "Illness",
+                        "Fell Asleep"
+                    ],
+                    "longest_values": [
+                        "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion",
+                        "Traffic Control Device Improper/Non-Working",
+                        "Reaction to Other Uninvolved Vehicle",
+                        "Lane Marking Improper/Inadequate",
+                        "Using On Board Navigation Device"
+                    ],
+                    "average_length": 13.009336491845007
+                }
+            ]
+        },
+        {
+            "column_name": "CONTRIBUTING FACTOR VEHICLE 3",
+            "number_non_empty_cells": 101447,
+            "number_empty_cells": 1467978,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "Unspecified",
+                "Other Vehicular",
+                "Driver Inattention/Distraction",
+                "Following Too Closely",
+                "Fatigued/Drowsy"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 80,
+                    "min_value": 1,
+                    "mean": 60.25,
+                    "stddev": 34.208003449485325
+                },
+                {
+                    "type": "TEXT",
+                    "count": 101443,
+                    "shortest_values": [
+                        "Glare",
+                        "Illnes",
+                        "Illness",
+                        "Unspecified",
+                        "Fell Asleep"
+                    ],
+                    "longest_values": [
+                        "Pedestrian/Bicyclist/Other Pedestrian Error/Confusion",
+                        "Traffic Control Device Improper/Non-Working",
+                        "Reaction to Other Uninvolved Vehicle",
+                        "Lane Marking Improper/Inadequate",
+                        "Reaction to Uninvolved Vehicle"
+                    ],
+                    "average_length": 11.667389568526167
+                }
+            ]
+        },
+        {
+            "column_name": "CONTRIBUTING FACTOR VEHICLE 4",
+            "number_non_empty_cells": 21078,
+            "number_empty_cells": 1548347,
+            "number_distinct_values": 39,
+            "frequent_values": [
+                "Unspecified",
+                "Other Vehicular",
+                "Following Too Closely",
+                "Fatigued/Drowsy",
+                "Driver Inattention/Distraction"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21078,
+                    "shortest_values": [
+                        "Glare",
+                        "Illness",
+                        "Unspecified",
+                        "Fell Asleep",
+                        "Unsafe Speed"
+                    ],
+                    "longest_values": [
+                        "Traffic Control Device Improper/Non-Working",
+                        "Driver Inattention/Distraction",
+                        "Reaction to Uninvolved Vehicle",
+                        "Passing or Lane Usage Improper",
+                        "Failure to Yield Right-of-Way"
+                    ],
+                    "average_length": 11.48671600721131
+                }
+            ]
+        },
+        {
+            "column_name": "CONTRIBUTING FACTOR VEHICLE 5",
+            "number_non_empty_cells": 5390,
+            "number_empty_cells": 1564035,
+            "number_distinct_values": 27,
+            "frequent_values": [
+                "Unspecified",
+                "Other Vehicular",
+                "Following Too Closely",
+                "Fatigued/Drowsy",
+                "Driver Inattention/Distraction"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5390,
+                    "shortest_values": [
+                        "Glare",
+                        "Illness",
+                        "Unspecified",
+                        "Fell Asleep",
+                        "Unsafe Speed"
+                    ],
+                    "longest_values": [
+                        "Traffic Control Device Improper/Non-Working",
+                        "Reaction to Uninvolved Vehicle",
+                        "Passing or Lane Usage Improper",
+                        "Driver Inattention/Distraction",
+                        "Failure to Yield Right-of-Way"
+                    ],
+                    "average_length": 11.471243042671615
+                }
+            ]
+        },
+        {
+            "column_name": "COLLISION_ID",
+            "number_non_empty_cells": 1569425,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1569425,
+            "frequent_values": [
+                "3258192",
+                "3270586",
+                "3477701",
+                "3477700",
+                "3477703"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1569425,
+                    "max_value": 4206577,
+                    "min_value": 22,
+                    "mean": 2740705.2930652946,
+                    "stddev": 1506384.9182284859
+                }
+            ]
+        },
+        {
+            "column_name": "VEHICLE TYPE CODE 1",
+            "number_non_empty_cells": 1564292,
+            "number_empty_cells": 5133,
+            "number_distinct_values": 673,
+            "frequent_values": [
+                "PASSENGER VEHICLE",
+                "SPORT UTILITY / STATION WAGON",
+                "Sedan",
+                "Station Wagon/Sport Utility Vehicle",
+                "TAXI"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 99999,
+                    "min_value": 1,
+                    "mean": 25246.5,
+                    "stddev": 43160.24553625709
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1564288,
+                    "shortest_values": [
+                        "A",
+                        "WD",
+                        "TT",
+                        "BU",
+                        "CB"
+                    ],
+                    "longest_values": [
+                        "Enclosed Body - Nonremovable Enclosure",
+                        "Station Wagon/Sport Utility Vehicle",
+                        "Enclosed Body - Removable Enclosure",
+                        "LARGE COM VEH(6 OR MORE TIRES)",
+                        "SPORT UTILITY / STATION WAGON"
+                    ],
+                    "average_length": 18.102191540176744
+                }
+            ]
+        },
+        {
+            "column_name": "VEHICLE TYPE CODE 2",
+            "number_non_empty_cells": 1312347,
+            "number_empty_cells": 257078,
+            "number_distinct_values": 649,
+            "frequent_values": [
+                "PASSENGER VEHICLE",
+                "SPORT UTILITY / STATION WAGON",
+                "Sedan",
+                "Station Wagon/Sport Utility Vehicle",
+                "UNKNOWN"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 72000,
+                    "min_value": 0,
+                    "mean": 14601.6,
+                    "stddev": 28701.75811061058
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1312342,
+                    "shortest_values": [
+                        "E",
+                        "D",
+                        "OP",
+                        "MS",
+                        "EB"
+                    ],
+                    "longest_values": [
+                        "Enclosed Body - Nonremovable Enclosure",
+                        "Station Wagon/Sport Utility Vehicle",
+                        "Enclosed Body - Removable Enclosure",
+                        "LARGE COM VEH(6 OR MORE TIRES)",
+                        "SPORT UTILITY / STATION WAGON"
+                    ],
+                    "average_length": 17.148497876315776
+                }
+            ]
+        },
+        {
+            "column_name": "VEHICLE TYPE CODE 3",
+            "number_non_empty_cells": 130661,
+            "number_empty_cells": 1438764,
+            "number_distinct_values": 138,
+            "frequent_values": [
+                "PASSENGER VEHICLE",
+                "SPORT UTILITY / STATION WAGON",
+                "Sedan",
+                "Station Wagon/Sport Utility Vehicle",
+                "UNKNOWN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 130661,
+                    "shortest_values": [
+                        "DP",
+                        "DS",
+                        "3D",
+                        "CB",
+                        "VN"
+                    ],
+                    "longest_values": [
+                        "Station Wagon/Sport Utility Vehicle",
+                        "LARGE COM VEH(6 OR MORE TIRES)",
+                        "SPORT UTILITY / STATION WAGON",
+                        "Pickup with mounted Camper",
+                        "SMALL COM VEH(4 TIRES) "
+                    ],
+                    "average_length": 19.119951630555406
+                }
+            ]
+        },
+        {
+            "column_name": "VEHICLE TYPE CODE 4",
+            "number_non_empty_cells": 48889,
+            "number_empty_cells": 1520536,
+            "number_distinct_values": 70,
+            "frequent_values": [
+                "PASSENGER VEHICLE",
+                "SPORT UTILITY / STATION WAGON",
+                "Sedan",
+                "TAXI",
+                "Station Wagon/Sport Utility Vehicle"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 48889,
+                    "shortest_values": [
+                        "BU",
+                        "LL",
+                        "RF",
+                        "FB",
+                        "TT"
+                    ],
+                    "longest_values": [
+                        "Station Wagon/Sport Utility Vehicle",
+                        "LARGE COM VEH(6 OR MORE TIRES)",
+                        "SPORT UTILITY / STATION WAGON",
+                        "SMALL COM VEH(4 TIRES) ",
+                        "Tractor Truck Gasoline"
+                    ],
+                    "average_length": 19.46519667000757
+                }
+            ]
+        },
+        {
+            "column_name": "VEHICLE TYPE CODE 5",
+            "number_non_empty_cells": 10496,
+            "number_empty_cells": 1558929,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "PASSENGER VEHICLE",
+                "SPORT UTILITY / STATION WAGON",
+                "Sedan",
+                "Station Wagon/Sport Utility Vehicle",
+                "TAXI"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 10496,
+                    "shortest_values": [
+                        "GG",
+                        "FB",
+                        "DP",
+                        "LL",
+                        "DS"
+                    ],
+                    "longest_values": [
+                        "Station Wagon/Sport Utility Vehicle",
+                        "LARGE COM VEH(6 OR MORE TIRES)",
+                        "SPORT UTILITY / STATION WAGON",
+                        "SMALL COM VEH(4 TIRES) ",
+                        "Tractor Truck Diesel"
+                    ],
+                    "average_length": 19.91920731707317
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "COLLISION_ID"
+    ]
+}

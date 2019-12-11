@@ -1,0 +1,298 @@
+{
+    "dataset_name": "tfrc-rjtr",
+    "columns": [
+        {
+            "column_name": "DATE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 19,
+            "frequent_values": [
+                "05/14/2018",
+                "10/15/2018",
+                "04/16/2018",
+                "09/17/2018",
+                "07/15/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 700,
+                    "max_value": "2019-07-15 00:00:00",
+                    "min_value": "2018-01-17 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PROJECT_ID",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 700,
+            "frequent_values": [
+                "20289",
+                "20412",
+                "20464",
+                "20528",
+                "21092"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 700,
+                    "max_value": 21253,
+                    "min_value": 11996,
+                    "mean": 20459.56,
+                    "stddev": 1044.0835519932573
+                }
+            ]
+        },
+        {
+            "column_name": "TITLE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 603,
+            "frequent_values": [
+                "Construction of an adult fitness area, Flushing Meadows Corona Park, Corona Avenue and 111th Street, Corona, Queens",
+                "Reconstruction of Prospect Playground, adjacent to P.S. 211, Prospect Avenue, East 176th Street, and Clinton Avenue, Bronx",
+                "Reconstruction of Harlem Lane Park and Frederick Johnson Park, Adam Clayton Powell Jr. Boulevard, West 150th Street, and Harlem River Drive, Manhattan",
+                "Renovation of a playground (Safari Playground), Central Park between West 91st Street, West 92nd Street, Park Drive, and Central Park West, Manhattan",
+                "Construction of an adult fitness area, Frederick Cabell Park (Cambria Heights Playground), Francis Lewis Boulevard between 120th Avenue and 121st Avenue, Cambria Heights, Queens"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        "Rehabilitation of 544 West 163rd Street, Manhattan",
+                        "Rehabilitation of 518 West 161st Street, Manhattan",
+                        "Construction of stairs, 115 Dooley Street, Brooklyn",
+                        "Rehabilitation of 9 Fort Washington Avenue, Manhattan",
+                        "Construction of an ADA ramp, 829 9th Avenue, Manhattan"
+                    ],
+                    "longest_values": [
+                        "Reconstruction of a streetscape and construction of three plazas, including installation of a prototypical automatic public toilet (APT), Mott Avenue from Beach Channel Drive to Smith Place, Central Avenue from Foam Place to Mott Avenue, Beach 20th Street from Mott Avenue to Cornaga Avenue, and Beach 21st Street from Mott Avenue to Cornaga Avenue, Far Rockaway, Queens",
+                        "Relocation of the New York Times Capsule (2000) by Santiago Calatrava, from the entry plaza outside the Columbus Avenue pavilion to the entry plaza outside the Rose Center for Earth & Space, American Museum of Natural History, 81st Street between Columbus Avenue and Central Park West, Manhattan",
+                        "Construction of Parachute Way Plaza, including the installation of an artwork by Xenobia Bailey and the relocation of the Jackie Robinson and Pee Wee Reese Memorial (2005) by William Behrends, between Surf Avenue and the boardwalk, as part of the Coney Island Infrastructure Project, Brooklyn",
+                        "Relocation of four artworks by Clemente Spampinato from the Brooklyn Heights Library, 280 Cadman Plaza West to Walt Whitman Library, 93 St. Edwards Street, Brooklyn and the reinstallation of two artworks by Clemente Spampinato in the Brooklyn Heights Library, 280 Cadman Plaza West, Brooklyn",
+                        "Construction of Building 1A and 1B, as Phase I of a master plan for the construction of four mixed-use residential towers, a light manufacturing facility, a central plaza open space, and adjacent site work as part of The Peninsula, Tiffany Street, Spofford Avenue, and Manida Street, Bronx"
+                    ],
+                    "average_length": 129.75
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 691,
+            "number_empty_cells": 9,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 691,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Citywide",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Brooklyn/Queens",
+                        "Staten Island",
+                        "Manhattan",
+                        "Citywide",
+                        "Brooklyn"
+                    ],
+                    "average_length": 7.7308248914616495
+                }
+            ]
+        },
+        {
+            "column_name": "LEVEL_OF_REVIEW",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Preliminary and Final",
+                "Preliminary",
+                "Final",
+                "Conceptual"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        "Final",
+                        "Conceptual",
+                        "Preliminary",
+                        "Preliminary and Final"
+                    ],
+                    "longest_values": [
+                        "Preliminary and Final",
+                        "Preliminary",
+                        "Conceptual",
+                        "Final"
+                    ],
+                    "average_length": 13.96
+                }
+            ]
+        },
+        {
+            "column_name": "AGENCY",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 73,
+            "frequent_values": [
+                "DPR",
+                "DOT",
+                "EDC",
+                "DDC",
+                "DCA/DOT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        "EM",
+                        "QL",
+                        "DPR",
+                        "DHS",
+                        "DOC"
+                    ],
+                    "longest_values": [
+                        "DDC/DCLA/DPR/WCS",
+                        "DCLA%/DDC/NYPL",
+                        "DCLA%/DDC/NYPD",
+                        "DCLA%/EDC/NYPL",
+                        "DCLA%/DDC/DOT"
+                    ],
+                    "average_length": 4.187142857142857
+                }
+            ]
+        },
+        {
+            "column_name": "CERTIFICATE_NUMBER",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 700,
+            "frequent_values": [
+                "27103",
+                "26978",
+                "26502",
+                "26996",
+                "26877"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 700,
+                    "max_value": 27147,
+                    "min_value": 26446,
+                    "mean": 26796.492857142857,
+                    "stddev": 202.4771273300684
+                }
+            ]
+        },
+        {
+            "column_name": "PUBLIC_PRIVATE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Public",
+                "Private",
+                "Public and Private"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        "Public",
+                        "Private",
+                        "Public and Private"
+                    ],
+                    "longest_values": [
+                        "Public and Private",
+                        "Private",
+                        "Public"
+                    ],
+                    "average_length": 7.02
+                }
+            ]
+        },
+        {
+            "column_name": "ACTION",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Calendared for Consent",
+                "Calendared for Public Hearing",
+                "Calendared for Committee and Consent"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        "Calendared for Consent",
+                        "Calendared for Public Hearing",
+                        "Calendared for Committee and Consent"
+                    ],
+                    "longest_values": [
+                        "Calendared for Committee and Consent",
+                        "Calendared for Public Hearing",
+                        "Calendared for Consent"
+                    ],
+                    "average_length": 22.17
+                }
+            ]
+        },
+        {
+            "column_name": "PROJECT_TYPE",
+            "number_non_empty_cells": 700,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Landscape architecture",
+                "Architecture",
+                "Building systems & Modifications",
+                "Artwork",
+                "Signage"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 700,
+                    "shortest_values": [
+                        "Bridge",
+                        "Signage",
+                        "Artwork",
+                        "Newsstands",
+                        "Architecture"
+                    ],
+                    "longest_values": [
+                        "Building systems & Modifications",
+                        "Landscape Architecture",
+                        "Landscape architecture",
+                        "Distinctive sidewalks",
+                        "Distinctive lighting"
+                    ],
+                    "average_length": 19.347142857142856
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "CERTIFICATE_NUMBER"
+    ]
+}

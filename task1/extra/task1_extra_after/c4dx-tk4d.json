@@ -1,0 +1,173 @@
+{
+    "dataset_name": "c4dx-tk4d",
+    "columns": [
+        {
+            "column_name": "License Number",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 184997,
+            "frequent_values": [
+                655040,
+                671887,
+                5130267,
+                5327864,
+                671897
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 59269921,
+                    "max_value": 5839876,
+                    "min_value": 7022,
+                    "mean": 4883604.432328533,
+                    "stddev": 1673813.9799354305
+                }
+            ]
+        },
+        {
+            "column_name": "Name",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 165192,
+            "frequent_values": [
+                "SINGH,GURPREET",
+                "SINGH,JASWINDER",
+                "SINGH,SUKHWINDER",
+                "SINGH,BALWINDER",
+                "RAHMAN,MD,M"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 59269921,
+                    "shortest_values": [
+                        "LI,E",
+                        "LI,QI",
+                        "LU,YA",
+                        "YU,BO",
+                        "YE,YU"
+                    ],
+                    "longest_values": [
+                        "JAYAMANNA MOHOTTIGE,PAVAN,SADEERA CHEATHANA",
+                        "RATNAYAKE,MUDALIGE,SUJITH,KUMARA,RATNAYAKE",
+                        "RATNAYAKE MUDALIGE,SUJITH,KUMARA RATNAYAKE",
+                        "ALLAHAPPERUMA-ARACHCHIGE,DILIP,NUWAN-DIAS",
+                        "KAHAVITAGE DON,MANUKA LAKSITHA,ABEYRATHNA"
+                    ],
+                    "average_length": 15.219369703563466
+                }
+            ]
+        },
+        {
+            "column_name": "Type",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "MEDALLION TAXI DRIVER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 59269921,
+                    "shortest_values": [
+                        "MEDALLION TAXI DRIVER"
+                    ],
+                    "longest_values": [
+                        "MEDALLION TAXI DRIVER"
+                    ],
+                    "average_length": 21.0
+                }
+            ]
+        },
+        {
+            "column_name": "Expiration Date",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1338,
+            "frequent_values": [
+                "02/08/2020",
+                "11/30/2019",
+                "12/02/2019",
+                "11/07/2019",
+                "12/08/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 59269921,
+                    "max_value": "2022-01-20 00:00:00",
+                    "min_value": "2017-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Completed Both Training",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "YES"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 59269921,
+                    "shortest_values": [
+                        "YES"
+                    ],
+                    "longest_values": [
+                        "YES"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Last Date Updated",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 354,
+            "frequent_values": [
+                "04/20/2017",
+                "11/10/2017",
+                "10/11/2017",
+                "10/13/2017",
+                "08/25/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 59269921,
+                    "max_value": "2017-12-31 00:00:00",
+                    "min_value": "2017-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Last Time Updated",
+            "number_non_empty_cells": 59269921,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "13:20",
+                "09:48",
+                "14:04",
+                "14:30",
+                "15:36"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 59269921,
+                    "max_value": "1900-01-01 15:36:00",
+                    "min_value": "1900-01-01 09:48:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "License Number",
+        "Name"
+    ]
+}

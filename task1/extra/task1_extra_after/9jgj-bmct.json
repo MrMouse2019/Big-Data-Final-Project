@@ -1,0 +1,595 @@
+{
+    "dataset_name": "9jgj-bmct",
+    "columns": [
+        {
+            "column_name": "Complaint_Number",
+            "number_non_empty_cells": 54577,
+            "number_empty_cells": 0,
+            "number_distinct_values": 54577,
+            "frequent_values": [
+                "T-18-07-16-0302",
+                "T-15-04-26-0444",
+                "T-19-03-18-0341",
+                "T-13-05-27-0436",
+                "T-15-04-26-0448"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54577,
+                    "shortest_values": [
+                        "T-10-11-05-0083",
+                        "T-17-04-14-0243",
+                        "T-17-04-14-0244",
+                        "T-17-04-14-0245",
+                        "T-17-04-14-0246"
+                    ],
+                    "longest_values": [
+                        "T-19-09-24-0371",
+                        "T-13-11-18-0254",
+                        "T-12-11-26-0350",
+                        "T-14-05-04-0067",
+                        "T-14-05-03-0066"
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "Incident_Address_Street_Number",
+            "number_non_empty_cells": 54227,
+            "number_empty_cells": 350,
+            "number_distinct_values": 7807,
+            "frequent_values": [
+                "541",
+                "30",
+                "145",
+                "68",
+                "345"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 45720,
+                    "max_value": 11111111111111111,
+                    "min_value": 0,
+                    "mean": 243025178330.85303,
+                    "stddev": 51963647752485.945
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8507,
+                    "shortest_values": [
+                        "-",
+                        "a",
+                        "z",
+                        "x",
+                        "8A"
+                    ],
+                    "longest_values": [
+                        "3290 Richmond terrac",
+                        "70,80,90,100/501,549",
+                        "Tennis House",
+                        "95-15,17,19",
+                        "7001-7021"
+                    ],
+                    "average_length": 5.351827906429999
+                }
+            ]
+        },
+        {
+            "column_name": "Incident_Address_Street_Name",
+            "number_non_empty_cells": 54288,
+            "number_empty_cells": 289,
+            "number_distinct_values": 5369,
+            "frequent_values": [
+                "BROADWAY",
+                "WEST 142 STREET",
+                "EAST 23 STREET",
+                "THAYER STREET",
+                "5 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 1,
+                    "min_value": 1,
+                    "mean": 1.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 1.111111111111111e+25,
+                    "min_value": 1.111111111111111e+25,
+                    "mean": 1.111111111111111e+25,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 54286,
+                    "shortest_values": [
+                        "z",
+                        "x",
+                        "-",
+                        "a",
+                        "FDR"
+                    ],
+                    "longest_values": [
+                        "Roy Wilkins Park @Merrick blvd and Baisley Blvd",
+                        "EAST 16 STREET aka 105 BUCKINGHAM RD",
+                        "AMTRAK RAILYARD/ SUNNYSIDE RAILYARD",
+                        "Metrotech Center (at Duffield St.)",
+                        "EAST 165 STREET/aka 1040 GRANT AVE"
+                    ],
+                    "average_length": 13.450355524444609
+                }
+            ]
+        },
+        {
+            "column_name": "Incident_Address",
+            "number_non_empty_cells": 54289,
+            "number_empty_cells": 288,
+            "number_distinct_values": 29932,
+            "frequent_values": [
+                "541 WEST 142 STREET",
+                "68 THAYER STREET",
+                "145 EAST 23 STREET",
+                "30 DANIEL LOW TERRACE",
+                "345 WEST 86 STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54289,
+                    "shortest_values": [
+                        "z z",
+                        "a a",
+                        "1 1",
+                        "x x",
+                        "- -"
+                    ],
+                    "longest_values": [
+                        "70,80,90,100/501,549 LASALLE STREET/WEST 123 STREET",
+                        "Roy Wilkins Park @Merrick blvd and Baisley Blvd",
+                        "11111111111111111 11111111111111111111111111",
+                        "105 EAST 16 STREET aka 105 BUCKINGHAM RD",
+                        "1925 ADAM CLAYTON POWELL BLVD aka 7 AVE"
+                    ],
+                    "average_length": 17.88861463648253
+                }
+            ]
+        },
+        {
+            "column_name": "Incident_Address_Zip",
+            "number_non_empty_cells": 54556,
+            "number_empty_cells": 21,
+            "number_distinct_values": 264,
+            "frequent_values": [
+                "10031",
+                "10025",
+                "10040",
+                "10024",
+                "11226"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 54548,
+                    "max_value": 113675,
+                    "min_value": 100,
+                    "mean": 10686.574026545428,
+                    "stddev": 1533.7808197012216
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "NY",
+                        "NY 10028",
+                        "11217-1806",
+                        "11205-1084",
+                        "11238-3009"
+                    ],
+                    "longest_values": [
+                        "JACKSON HE",
+                        "11105-3639",
+                        "11226-2201",
+                        "11238-3009",
+                        "11205-1084"
+                    ],
+                    "average_length": 8.75
+                }
+            ]
+        },
+        {
+            "column_name": "Incident_Address_Borough",
+            "number_non_empty_cells": 54574,
+            "number_empty_cells": 3,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54574,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.799080148055851
+                }
+            ]
+        },
+        {
+            "column_name": "Complaint_Type_311",
+            "number_non_empty_cells": 52150,
+            "number_empty_cells": 2427,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Indoor Air Quality",
+                "Asbestos",
+                "Mold",
+                "Indoor Sewage",
+                "Cooling Tower"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 52150,
+                    "shortest_values": [
+                        "Mold",
+                        "MOLD",
+                        "LEAD",
+                        "Asbestos",
+                        "Indoor Sewage"
+                    ],
+                    "longest_values": [
+                        "Asbestos/Garbage Nuisance",
+                        "Indoor Air Quality",
+                        "Cooling Tower",
+                        "Indoor Sewage",
+                        "Asbestos"
+                    ],
+                    "average_length": 15.941399808245446
+                }
+            ]
+        },
+        {
+            "column_name": "Descriptor_1_311",
+            "number_non_empty_cells": 47386,
+            "number_empty_cells": 7191,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Chemical Vapors/Gases/Odors",
+                "Other (Explain Below)",
+                "Ventilation",
+                "Dust from Construction",
+                "Public Complaint - Comm Location"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 47386,
+                    "shortest_values": [
+                        "Asbestos",
+                        "Ventilation",
+                        "Sewage Odor",
+                        "Sewage Leak",
+                        "PAINT FUMES"
+                    ],
+                    "longest_values": [
+                        "Public Complaint - Comm Location",
+                        "Workplace - 10 or Less Staff",
+                        "Chemical Vapors/Gases/Odors",
+                        "Dry Cleaning Vapors (PERC)",
+                        "Dust from Construction"
+                    ],
+                    "average_length": 21.62478369138564
+                }
+            ]
+        },
+        {
+            "column_name": "Complaint_Status",
+            "number_non_empty_cells": 54577,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "05-Close",
+                "04-Action Taken",
+                "02-To Be Assigned",
+                "03-Assigned",
+                "01-New/Open"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54577,
+                    "shortest_values": [
+                        "05-Close",
+                        "03-Assigned",
+                        "01-New/Open",
+                        "04-Action Taken",
+                        "02-To Be Assigned"
+                    ],
+                    "longest_values": [
+                        "02-To Be Assigned",
+                        "04-Action Taken",
+                        "01-New/Open",
+                        "03-Assigned",
+                        "05-Close"
+                    ],
+                    "average_length": 8.048628543159206
+                }
+            ]
+        },
+        {
+            "column_name": "Date_Received",
+            "number_non_empty_cells": 54577,
+            "number_empty_cells": 0,
+            "number_distinct_values": 53313,
+            "frequent_values": [
+                "03/30/2012 12:00:00 AM",
+                "10/22/2010 12:00:00 AM",
+                "03/12/2018 12:00:00 AM",
+                "07/29/2014 12:00:00 AM",
+                "12/11/2014 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 54577,
+                    "max_value": "2019-09-26 23:41:13",
+                    "min_value": "2010-07-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Deleted",
+            "number_non_empty_cells": 54577,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54577,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.000036645473368
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 54016,
+            "number_empty_cells": 561,
+            "number_distinct_values": 26766,
+            "frequent_values": [
+                "40.823974",
+                "40.86381",
+                "40.739342",
+                "40.643903",
+                "40.789773"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 54016,
+                    "max_value": 40.912572,
+                    "min_value": 40.499031,
+                    "mean": 40.73576304987417,
+                    "stddev": 0.08028698144072755
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 54016,
+            "number_empty_cells": 561,
+            "number_distinct_values": 26200,
+            "frequent_values": [
+                "-73.95055",
+                "-73.927303",
+                "-73.984324",
+                "-74.08187",
+                "-73.979943"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": -74,
+                    "min_value": -74,
+                    "mean": -74.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 54015,
+                    "max_value": -73.70092,
+                    "min_value": -74.250598,
+                    "mean": -73.93799533614427,
+                    "stddev": 0.06960532742899041
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 54016,
+            "number_empty_cells": 561,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "1",
+                "7",
+                "3",
+                "12",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 54016,
+                    "max_value": 95,
+                    "min_value": 1,
+                    "mean": 7.270179206161138,
+                    "stddev": 4.493938050715286
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 54016,
+            "number_empty_cells": 561,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "3",
+                "2",
+                "4",
+                "6",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 54016,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 21.475359152843602,
+                    "stddev": 15.825291621766763
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 54016,
+            "number_empty_cells": 561,
+            "number_distinct_values": 1296,
+            "frequent_values": [
+                "229",
+                "68",
+                "287",
+                "9",
+                "175"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 54016,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 6844.773752221564,
+                    "stddev": 20417.63186964107
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 53582,
+            "number_empty_cells": 995,
+            "number_distinct_values": 26628,
+            "frequent_values": [
+                "1061845",
+                "1064250",
+                "1018044",
+                "5000527",
+                "1064197"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 53582,
+                    "max_value": 5164751,
+                    "min_value": 1000000,
+                    "mean": 2459925.356649621,
+                    "stddev": 1287828.859663236
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 53582,
+            "number_empty_cells": 995,
+            "number_distinct_values": 25443,
+            "frequent_values": [
+                "1020740007",
+                "1021750180",
+                "1008790027",
+                "5000280077",
+                "1021740175"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 53582,
+                    "max_value": 5080470031,
+                    "min_value": 0,
+                    "mean": 2389816847.259882,
+                    "stddev": 1245788162.7325506
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 54016,
+            "number_empty_cells": 561,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "Upper West Side",
+                "Midtown-Midtown South",
+                "Washington Heights North",
+                "Hamilton Heights",
+                "Hudson Yards-Chelsea-Flatiron-Union Square"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 54016,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Airport",
+                        "Belmont",
+                        "Erasmus"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 19.334363892180093
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Complaint_Number"
+    ]
+}

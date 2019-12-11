@@ -1,0 +1,172 @@
+{
+    "dataset_name": "tqsy-2s6w",
+    "columns": [
+        {
+            "column_name": "PhysicalID",
+            "number_non_empty_cells": 83103,
+            "number_empty_cells": 96,
+            "number_distinct_values": 47981,
+            "frequent_values": [
+                "52697",
+                "60868",
+                "84632",
+                "87557",
+                "72326"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 83103,
+                    "max_value": 172827,
+                    "min_value": 98,
+                    "mean": 55555.62781127035,
+                    "stddev": 32265.177882769094
+                }
+            ]
+        },
+        {
+            "column_name": "BoroughCode",
+            "number_non_empty_cells": 82407,
+            "number_empty_cells": 792,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "4",
+                "3",
+                "2",
+                "1",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 82407,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 3.286747485043746,
+                    "stddev": 0.7542289744248742
+                }
+            ]
+        },
+        {
+            "column_name": "FiscalYearPruned",
+            "number_non_empty_cells": 83193,
+            "number_empty_cells": 6,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "2009",
+                "2015",
+                "2008",
+                "2014",
+                "1999"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 83193,
+                    "max_value": 2019,
+                    "min_value": 1995,
+                    "mean": 2008.0014664695348,
+                    "stddev": 5.648473625797122
+                }
+            ]
+        },
+        {
+            "column_name": "Contract",
+            "number_non_empty_cells": 18,
+            "number_empty_cells": 83181,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "509",
+                "BP-S19",
+                "431",
+                "2011",
+                "hhhh"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12,
+                    "max_value": 2011,
+                    "min_value": 431,
+                    "mean": 618.0833333333334,
+                    "stddev": 420.9860366515207
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "hh",
+                        "hhhh",
+                        "BP-S19"
+                    ],
+                    "longest_values": [
+                        "BP-S19",
+                        "hhhh",
+                        "hh"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "FYSchedule",
+            "number_non_empty_cells": 15,
+            "number_empty_cells": 83184,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "2019",
+                "2012",
+                "2013",
+                "2222",
+                "2022"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15,
+                    "max_value": 2222,
+                    "min_value": 2012,
+                    "mean": 2032.2666666666667,
+                    "stddev": 50.78906268960758
+                }
+            ]
+        },
+        {
+            "column_name": "GlobalID",
+            "number_non_empty_cells": 83199,
+            "number_empty_cells": 0,
+            "number_distinct_values": 83199,
+            "frequent_values": [
+                "7C517200-D339-4280-9A43-6639800AB595",
+                "19B71BF3-2207-4D5F-9D45-D633086957F0",
+                "AD586AEE-F9ED-467D-BFBB-E83E7E4F7360",
+                "0713AF4D-E4E9-41DD-AACA-2ADB82E2BADF",
+                "102ADF68-D5FA-4903-88D7-854DE7ED9396"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 83199,
+                    "shortest_values": [
+                        "6DB68B0C-44A3-48AC-B668-E0C5E11B8C27",
+                        "E90F1AB3-4184-47D0-B66B-03D0278A34D6",
+                        "5BF10B45-17F0-4FC2-9848-75562B3C3043",
+                        "BB69B3E0-5E4A-4750-9D57-E2EA09929BE6",
+                        "AD7AA0F5-08BB-417C-9A67-9BD6470B1615"
+                    ],
+                    "longest_values": [
+                        "63BB4383-2895-425A-A708-E690A928C510",
+                        "EBD5F138-9D1F-4CA8-834F-BDE472A3990B",
+                        "853B79E3-5F7F-49AC-83D6-D17D951F1906",
+                        "F5CC030E-85A5-42BE-B019-A7B5801B819D",
+                        "20B4B8FF-B8E2-4A6C-8467-FE54EDDE0A72"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "GlobalID"
+    ]
+}

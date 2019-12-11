@@ -1,0 +1,112 @@
+{
+    "dataset_name": "93d2-wh7s",
+    "columns": [
+        {
+            "column_name": "ProjectID",
+            "number_non_empty_cells": 4114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 631,
+            "frequent_values": [
+                "65227",
+                "58860",
+                "53157",
+                "58891",
+                "53017"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4114,
+                    "max_value": 67577,
+                    "min_value": 44218,
+                    "mean": 54455.031842489065,
+                    "stddev": 5900.191542601395
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 4097,
+            "number_empty_cells": 17,
+            "number_distinct_values": 2054,
+            "frequent_values": [
+                "51243",
+                "955507",
+                "66855",
+                "67110",
+                "66001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4097,
+                    "max_value": 989851,
+                    "min_value": 375,
+                    "mean": 448531.1532828899,
+                    "stddev": 392432.55329034495
+                }
+            ]
+        },
+        {
+            "column_name": "AffordabilityBand",
+            "number_non_empty_cells": 4114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Low Income",
+                "Very Low Income",
+                "Extremely Low Income",
+                "Other",
+                "Moderate Income"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4114,
+                    "shortest_values": [
+                        "Other",
+                        "Low Income",
+                        "Not Defined",
+                        "Middle Income",
+                        "Not Applicable"
+                    ],
+                    "longest_values": [
+                        "Extremely Low Income",
+                        "Very Low Income",
+                        "Moderate Income",
+                        "Not Applicable",
+                        "Middle Income"
+                    ],
+                    "average_length": 12.440690325717064
+                }
+            ]
+        },
+        {
+            "column_name": "TotalUnits",
+            "number_non_empty_cells": 4114,
+            "number_empty_cells": 0,
+            "number_distinct_values": 226,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4114,
+                    "max_value": 1093,
+                    "min_value": 1,
+                    "mean": 23.95478852698104,
+                    "stddev": 54.92808218577435
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "ProjectID",
+        "BuildingID"
+    ]
+}

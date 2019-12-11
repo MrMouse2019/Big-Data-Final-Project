@@ -1,0 +1,234 @@
+{
+    "dataset_name": "94ri-3ium",
+    "columns": [
+        {
+            "column_name": "INMATEID",
+            "number_non_empty_cells": 313321,
+            "number_empty_cells": 0,
+            "number_distinct_values": 153955,
+            "frequent_values": [
+                "20043269",
+                "20064261",
+                "152325",
+                "18214",
+                "20119776"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 313321,
+                    "max_value": 20206709,
+                    "min_value": 7,
+                    "mean": 12699311.195722597,
+                    "stddev": 9545051.625626145
+                }
+            ]
+        },
+        {
+            "column_name": "ADMITTED_DT",
+            "number_non_empty_cells": 313321,
+            "number_empty_cells": 0,
+            "number_distinct_values": 302665,
+            "frequent_values": [
+                "11/30/2018 12:31:19 PM",
+                "09/25/2018 03:17:17 PM",
+                "05/22/2016 12:32:00 PM",
+                "02/25/2019 11:30:27 AM",
+                "10/12/2015 01:07:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 313321,
+                    "max_value": "2019-08-31 20:00:15",
+                    "min_value": "1990-03-19 11:59:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DISCHARGED_DT",
+            "number_non_empty_cells": 313321,
+            "number_empty_cells": 0,
+            "number_distinct_values": 306926,
+            "frequent_values": [
+                "02/19/2019 04:00:00 PM",
+                "06/02/2017 08:45:00 PM",
+                "02/25/2015 10:35:01 PM",
+                "10/01/2014 01:07:01 PM",
+                "04/15/2014 12:34:02 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 313321,
+                    "max_value": "2019-08-31 21:32:00",
+                    "min_value": "2014-01-01 00:13:00"
+                }
+            ]
+        },
+        {
+            "column_name": "RACE",
+            "number_non_empty_cells": 313321,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "BLACK",
+                "UNKNOWN",
+                "ASIAN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 313321,
+                    "shortest_values": [
+                        "BLACK",
+                        "ASIAN",
+                        "UNKNOWN"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "ASIAN",
+                        "BLACK"
+                    ],
+                    "average_length": 5.86486382974649
+                }
+            ]
+        },
+        {
+            "column_name": "GENDER",
+            "number_non_empty_cells": 312597,
+            "number_empty_cells": 724,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "M ",
+                "F "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 312597,
+                    "shortest_values": [
+                        "M ",
+                        "F "
+                    ],
+                    "longest_values": [
+                        "F ",
+                        "M "
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "AGE",
+            "number_non_empty_cells": 312747,
+            "number_empty_cells": 574,
+            "number_distinct_values": 78,
+            "frequent_values": [
+                "28",
+                "27",
+                "26",
+                "29",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 312747,
+                    "max_value": 117,
+                    "min_value": 16,
+                    "mean": 37.161894438635706,
+                    "stddev": 12.02200467775065
+                }
+            ]
+        },
+        {
+            "column_name": "INMATE_STATUS_CODE",
+            "number_non_empty_cells": 313321,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "DE",
+                "CS",
+                "SSR",
+                "DPV",
+                "SCO"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 313321,
+                    "shortest_values": [
+                        "DE",
+                        "CS",
+                        "SSR",
+                        "SCO",
+                        "CSP"
+                    ],
+                    "longest_values": [
+                        "DPV",
+                        "DNS",
+                        "DEP",
+                        "CSP",
+                        "SCO"
+                    ],
+                    "average_length": 2.146405762780024
+                }
+            ]
+        },
+        {
+            "column_name": "TOP_CHARGE",
+            "number_non_empty_cells": 76085,
+            "number_empty_cells": 237236,
+            "number_distinct_values": 548,
+            "frequent_values": [
+                "155.25",
+                "220.03",
+                "120.00",
+                "220.39",
+                "120.05"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 46,
+                    "max_value": 1220,
+                    "min_value": 0,
+                    "mean": 35.78260869565217,
+                    "stddev": 187.1396726748415
+                },
+                {
+                    "type": "REAL",
+                    "count": 62170,
+                    "max_value": 1192.4,
+                    "min_value": 100.05,
+                    "mean": 178.20190686826191,
+                    "stddev": 49.61328758624772
+                },
+                {
+                    "type": "TEXT",
+                    "count": 13869,
+                    "shortest_values": [
+                        "CO",
+                        "FCW",
+                        "VOP",
+                        "CCW",
+                        "VOCD"
+                    ],
+                    "longest_values": [
+                        "10-131(I)(3)",
+                        "1192(2)-A(B)",
+                        "10-131(G)(1)",
+                        "110-415-A(1)",
+                        "110-155.25H"
+                    ],
+                    "average_length": 8.219193885644243
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "INMATEID",
+        "ADMITTED_DT"
+    ]
+}

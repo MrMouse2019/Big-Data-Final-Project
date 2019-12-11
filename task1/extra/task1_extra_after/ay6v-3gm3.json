@@ -1,0 +1,120 @@
+{
+    "dataset_name": "ay6v-3gm3",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Staten Island",
+                "Brooklyn",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Submitted applications for benefits under SNAP",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 5,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Received benefits under SNAP",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "74407",
+                "91270",
+                "69230",
+                "7052",
+                "19605"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 91270,
+                    "min_value": 7052,
+                    "mean": 52312.8,
+                    "stddev": 32894.82925567482
+                }
+            ]
+        },
+        {
+            "column_name": "Were income-eligible for SNAP benefits",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 5,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Submitted applications for benefits under Cash Assistance",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 5,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Received benefits under Cash Assistance",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "18371",
+                "5875",
+                "22709",
+                "2460",
+                "27783"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 27783,
+                    "min_value": 2460,
+                    "mean": 15439.6,
+                    "stddev": 9733.94468034414
+                }
+            ]
+        },
+        {
+            "column_name": "Were income-eligible for Cash Assisstance",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 5,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        }
+    ],
+    "key_column_candidates": [
+        "Received benefits under Cash Assistance"
+    ]
+}

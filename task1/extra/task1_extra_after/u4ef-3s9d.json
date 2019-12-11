@@ -1,0 +1,122 @@
+{
+    "dataset_name": "u4ef-3s9d",
+    "columns": [
+        {
+            "column_name": "service_id",
+            "number_non_empty_cells": 1908,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1908,
+            "frequent_values": [
+                "1369",
+                "965",
+                "169",
+                "1867",
+                "1866"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1908,
+                    "max_value": 1908,
+                    "min_value": 1,
+                    "mean": 954.5,
+                    "stddev": 550.7920811582776
+                }
+            ]
+        },
+        {
+            "column_name": "organization_id",
+            "number_non_empty_cells": 1908,
+            "number_empty_cells": 0,
+            "number_distinct_values": 845,
+            "frequent_values": [
+                "23",
+                "22",
+                "24",
+                "76",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1908,
+                    "max_value": 845,
+                    "min_value": 1,
+                    "mean": 343.54350104821805,
+                    "stddev": 234.16420508275922
+                }
+            ]
+        },
+        {
+            "column_name": "name",
+            "number_non_empty_cells": 1908,
+            "number_empty_cells": 0,
+            "number_distinct_values": 189,
+            "frequent_values": [
+                "AFTERSCHOOL PROGRAMS",
+                "EARLY LEARN NYC: NEW YORK CITY'S EARLY CARE AND EDUCATION SERVICES",
+                "SENIOR CENTER",
+                "JOBS & INTERNSHIPS",
+                "FAMILY SUPPORT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1908,
+                    "shortest_values": [
+                        "SCHOOL",
+                        "RESPITE",
+                        "OUTREACH",
+                        "TEEN RAPP",
+                        "SELF-HELP"
+                    ],
+                    "longest_values": [
+                        "STRUCTURAL-LEVEL CHANGE TO ADDRESS BARRIERS TO HIV PREVENTION AMONG HIGH-RISK/HIGH-PREVALENCE POPULATIONS",
+                        "NON-MEDICAL CASE MANAGEMENT FOR CURRENTLY INCARCERATED OR RECENTLY RELEASED INDIVIDUALS LIVING WITH HIV",
+                        "DEMONSTRATION PROJECTS FOR INNOVATIVE, HIGH-IMPACT HIV PREVENTION INTERVENTIONS AND STRATEGIES",
+                        "HIV PREVENTION NAVIGATION AT NYC DOHMH BSTDC CLINICS FOR MSM OF COLOR AND TRANSGENDER PERSONS",
+                        "SEXUAL AND BEHAVIORAL HEALTH SERVICES FOR PRIORITY POPULATIONS MOST HEAVILY IMPACTED BY HIV"
+                    ],
+                    "average_length": 26.866876310272538
+                }
+            ]
+        },
+        {
+            "column_name": "status",
+            "number_non_empty_cells": 457,
+            "number_empty_cells": 1451,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Master Contract with Public Health Solutions",
+                "HRA CLIENTS ONLY",
+                "HQ-DV SHELTER PROVIDER",
+                "NYCHA ONLY",
+                "SCHOOL BASED NO FIXED LOCATION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 457,
+                    "shortest_values": [
+                        "HRA STAFF",
+                        "HRA Staff",
+                        "NYCHA ONLY",
+                        "HRA CLIENTS ONLY",
+                        "HRA REFERRAL ONLY"
+                    ],
+                    "longest_values": [
+                        "Master Contract with Public Health Solutions",
+                        "SCHOOL BASED NO FIXED LOCATION",
+                        "HRA Staff Closed to Public",
+                        "HQ-DV SHELTER PROVIDER",
+                        "HRA REFERRAL ONLY"
+                    ],
+                    "average_length": 39.47702407002188
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "service_id"
+    ]
+}

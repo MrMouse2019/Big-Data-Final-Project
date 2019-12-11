@@ -1,0 +1,498 @@
+{
+    "dataset_name": "sv2w-rv3k",
+    "columns": [
+        {
+            "column_name": "SUMMONS_KEY",
+            "number_non_empty_cells": 5194776,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5194770,
+            "frequent_values": [
+                "109595661",
+                "148918930",
+                "90228979",
+                "172228903",
+                "157849320"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5194776,
+                    "max_value": 192471788,
+                    "min_value": 5550173,
+                    "mean": 80184761.83380842,
+                    "stddev": 43316440.38441281
+                }
+            ]
+        },
+        {
+            "column_name": "SUMMONS_DATE",
+            "number_non_empty_cells": 5194776,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4748,
+            "frequent_values": [
+                "07/03/2010",
+                "07/04/2009",
+                "07/04/2010",
+                "06/12/2010",
+                "04/18/2009"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 5194776,
+                    "max_value": "2018-12-31 00:00:00",
+                    "min_value": "2006-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OFFENSE_DESCRIPTION",
+            "number_non_empty_cells": 5192943,
+            "number_empty_cells": 1833,
+            "number_distinct_values": 18868,
+            "frequent_values": [
+                "CONSUMPTION OF ALCOHOL",
+                "URINATING IN PUBLIC",
+                "FAILURE TO COMPLY WITH SIGN",
+                "BICYCLE ON SIDEWALK",
+                "DISCON: OBSTRUCT PEDESTRIAN"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 259,
+                    "max_value": 333333332,
+                    "min_value": 140,
+                    "mean": 1290686.2895752895,
+                    "stddev": 20672150.62224873
+                },
+                {
+                    "type": "REAL",
+                    "count": 31,
+                    "max_value": 397.21,
+                    "min_value": 140.02,
+                    "mean": 254.07838709677438,
+                    "stddev": 125.72824788707335
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5192653,
+                    "shortest_values": [
+                        "O",
+                        "HUT",
+                        "CPW",
+                        "dis",
+                        "TLC"
+                    ],
+                    "longest_values": [
+                        "CREATES A HAZARDOUS OR PHYSICALLY OFFENSIVE CONDITION WITHOUT A LEGITIMATE PURPO",
+                        "CONGREGATES WITH OTHER PERSONS IN PUBLIC AND REFUSES TO DISPERSE BY LAWFUL POLIC",
+                        "TICKET SPECULATION (RESELL TICKET TO A VENUE WITH A CAPACITY OF >5000 WITHIN 100",
+                        "NO SIGN STATING \"CIGARETTE(TOBACCO PRODUCTS)SALE TO PERSONS UNDER 18 PROHIBITED\"",
+                        "SIGNED AUTHORIZATION BY OWNER/POLICE, TOW WITHOUT (REPORT OF VIOLATION PREPARED)"
+                    ],
+                    "average_length": 21.151651188708353
+                }
+            ]
+        },
+        {
+            "column_name": "LAW_SECTION_NUMBER",
+            "number_non_empty_cells": 5153402,
+            "number_empty_cells": 41374,
+            "number_distinct_values": 6172,
+            "frequent_values": [
+                "10-125",
+                "9999",
+                "1-03",
+                "19-176",
+                "240.205A"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 709021,
+                    "max_value": 62320465,
+                    "min_value": -20461,
+                    "mean": 6936.153989797199,
+                    "stddev": 108723.6575137452
+                },
+                {
+                    "type": "REAL",
+                    "count": 821098,
+                    "max_value": 40400000.0,
+                    "min_value": 1.03,
+                    "mean": 306.3761244319245,
+                    "stddev": 63125.51867520076
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3623283,
+                    "shortest_values": [
+                        "B",
+                        "]",
+                        "J",
+                        "O",
+                        "A"
+                    ],
+                    "longest_values": [
+                        "4-16 ( E ) (4) I",
+                        "4-16(e)(4)(iii)",
+                        "20-254  (A) 3",
+                        "1/3/2006 3:00",
+                        "20-254 (A) 13"
+                    ],
+                    "average_length": 6.272629270195014
+                }
+            ]
+        },
+        {
+            "column_name": "LAW_DESCRIPTION",
+            "number_non_empty_cells": 5138267,
+            "number_empty_cells": 56509,
+            "number_distinct_values": 27,
+            "frequent_values": [
+                "Administrative Code",
+                "Penal Law",
+                "Park Regs",
+                "Health Code",
+                "VTL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5138267,
+                    "shortest_values": [
+                        "ACA",
+                        "TLC",
+                        "VTL",
+                        "ABC",
+                        "Other"
+                    ],
+                    "longest_values": [
+                        "Environmental Conservation Law",
+                        "Agriculture & Markets Law",
+                        "General Business Law",
+                        "Education Law (NYS)",
+                        "Sanitary Code (NYS)"
+                    ],
+                    "average_length": 14.20267105621409
+                }
+            ]
+        },
+        {
+            "column_name": "SUMMONS_CATEGORY_TYPE",
+            "number_non_empty_cells": 5132752,
+            "number_empty_cells": 62024,
+            "number_distinct_values": 94,
+            "frequent_values": [
+                "ALCOHOL",
+                "DISORDERLY CONDUCT",
+                "PARK REGS",
+                "URINATING",
+                "BIKE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5132752,
+                    "shortest_values": [
+                        "KEY",
+                        "DOG",
+                        "ABC",
+                        "TLC",
+                        "VTL"
+                    ],
+                    "longest_values": [
+                        "OTHER ENVIRON CONSERVATION LAW",
+                        "OTHER AGRICULTURE&MARKETS LAW",
+                        "OTHER GENERAL BUSINESS LAW",
+                        "OBSTRUCTED VIEW OF PREMIS",
+                        "DISCON: OBSTRUCT PEDESTRI"
+                    ],
+                    "average_length": 9.124860698510274
+                }
+            ]
+        },
+        {
+            "column_name": "AGE_GROUP",
+            "number_non_empty_cells": 5110857,
+            "number_empty_cells": 83919,
+            "number_distinct_values": 222,
+            "frequent_values": [
+                "25-44",
+                "18-24",
+                "45-64",
+                "<18",
+                "65+"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 817,
+                    "max_value": 1027,
+                    "min_value": 151,
+                    "mean": 719.5752753977969,
+                    "stddev": 274.08240507966
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5110040,
+                    "shortest_values": [
+                        "65+",
+                        "<18",
+                        "25-44",
+                        "18-24",
+                        "45-64"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "45-64",
+                        "18-24",
+                        "25-44",
+                        "<18"
+                    ],
+                    "average_length": 4.908659032023233
+                }
+            ]
+        },
+        {
+            "column_name": "SEX",
+            "number_non_empty_cells": 5173569,
+            "number_empty_cells": 21207,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "M",
+                "F",
+                "D",
+                "U"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5173569,
+                    "shortest_values": [
+                        "F",
+                        "M",
+                        "D",
+                        "U"
+                    ],
+                    "longest_values": [
+                        "U",
+                        "D",
+                        "M",
+                        "F"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "RACE",
+            "number_non_empty_cells": 4853730,
+            "number_empty_cells": 341046,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "UNKNOWN",
+                "BLACK",
+                "WHITE HISPANIC",
+                "WHITE",
+                "BLACK HISPANIC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4853730,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "OTHER",
+                        "UNKNOWN",
+                        "HISPANIC"
+                    ],
+                    "longest_values": [
+                        "AMERICAN INDIAN/ALASKAN NATIVE",
+                        "ASIAN / PACIFIC ISLANDER",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC",
+                        "HISPANIC"
+                    ],
+                    "average_length": 7.156293613365391
+                }
+            ]
+        },
+        {
+            "column_name": "JURISDICTION_CODE",
+            "number_non_empty_cells": 5194776,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0",
+                "2",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5194776,
+                    "max_value": 2,
+                    "min_value": 0,
+                    "mean": 0.20792792605494442,
+                    "stddev": 0.6009038461442151
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 4630167,
+            "number_empty_cells": 564609,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "BROOKLYN",
+                "MANHATTAN",
+                "BRONX",
+                "QUEENS",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4630167,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "NEW YORK",
+                        "MANHATTAN"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "NEW YORK",
+                        "BROOKLYN",
+                        "QUEENS"
+                    ],
+                    "average_length": 7.3923517229508136
+                }
+            ]
+        },
+        {
+            "column_name": "PRECINCT_OF_OCCUR",
+            "number_non_empty_cells": 5194776,
+            "number_empty_cells": 0,
+            "number_distinct_values": 81,
+            "frequent_values": [
+                "40",
+                "75",
+                "73",
+                "115",
+                "79"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5194776,
+                    "max_value": 868,
+                    "min_value": 1,
+                    "mean": 61.546077443955234,
+                    "stddev": 33.808844231677035
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORDINATE_CD",
+            "number_non_empty_cells": 5194764,
+            "number_empty_cells": 12,
+            "number_distinct_values": 55262,
+            "frequent_values": [
+                "994010",
+                "1017141",
+                "990922",
+                "1002106",
+                "1008276"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5194764,
+                    "max_value": 1067226,
+                    "min_value": 913367,
+                    "mean": 1005464.7387459758,
+                    "stddev": 19165.654621333637
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORDINATE_CD",
+            "number_non_empty_cells": 5194764,
+            "number_empty_cells": 12,
+            "number_distinct_values": 58629,
+            "frequent_values": [
+                "224718",
+                "183798",
+                "149184",
+                "183623",
+                "249501"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5194764,
+                    "max_value": 272932,
+                    "min_value": 121131,
+                    "mean": 209899.46310862244,
+                    "stddev": 29076.56287792425
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 5194764,
+            "number_empty_cells": 12,
+            "number_distinct_values": 101830,
+            "frequent_values": [
+                "40.783478055000046",
+                "40.67110691100004",
+                "40.576157300000034",
+                "40.85148777400008",
+                "40.670655072000045"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 5194764,
+                    "max_value": 40.91578210800003,
+                    "min_value": 40.49890536,
+                    "mean": 40.7427637156992,
+                    "stddev": 0.07981274577020085
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 5194764,
+            "number_empty_cells": 12,
+            "number_distinct_values": 101775,
+            "frequent_values": [
+                "-73.96475834099994",
+                "-73.88143295699997",
+                "-73.97598379999994",
+                "-73.93545796699993",
+                "-73.91339091999998"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 5194764,
+                    "max_value": -73.70057651099995,
+                    "min_value": -74.25490278599993,
+                    "mean": -73.9234232151926,
+                    "stddev": 0.06912403949978363
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "SUMMONS_KEY",
+        "SUMMONS_DATE"
+    ]
+}

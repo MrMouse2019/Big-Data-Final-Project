@@ -1,0 +1,170 @@
+{
+    "dataset_name": "qcwe-qqie",
+    "columns": [
+        {
+            "column_name": "Geographic Unit",
+            "number_non_empty_cells": 560,
+            "number_empty_cells": 0,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "Citywide",
+                "District 75",
+                "Manhattan",
+                "Queens",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 560,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Citywide",
+                        "Brooklyn",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "District 79",
+                        "District 08",
+                        "District 75",
+                        "District 13"
+                    ],
+                    "average_length": 10.4375
+                }
+            ]
+        },
+        {
+            "column_name": "Student Category",
+            "number_non_empty_cells": 560,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "All Students",
+                "2012 Cohort",
+                "2013 Cohort",
+                "2014 Cohort",
+                "2015 Cohort"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 560,
+                    "shortest_values": [
+                        "2007 Cohort",
+                        "2008 Cohort",
+                        "2009 Cohort",
+                        "2010 Cohort",
+                        "2011 Cohort"
+                    ],
+                    "longest_values": [
+                        "All Students",
+                        "2016 Cohort",
+                        "2015 Cohort",
+                        "2014 Cohort",
+                        "2013 Cohort"
+                    ],
+                    "average_length": 11.142857142857142
+                }
+            ]
+        },
+        {
+            "column_name": "Code Type",
+            "number_non_empty_cells": 560,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Drop Out",
+                "Discharge out of NYC School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 560,
+                    "shortest_values": [
+                        "Drop Out",
+                        "Discharge out of NYC School"
+                    ],
+                    "longest_values": [
+                        "Discharge out of NYC School",
+                        "Drop Out"
+                    ],
+                    "average_length": 16.55
+                }
+            ]
+        },
+        {
+            "column_name": "Count of Students",
+            "number_non_empty_cells": 560,
+            "number_empty_cells": 0,
+            "number_distinct_values": 99,
+            "frequent_values": [
+                "s",
+                "11",
+                "10",
+                "13",
+                "17"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 240,
+                    "max_value": 2182,
+                    "min_value": 10,
+                    "mean": 76.99166666666666,
+                    "stddev": 182.69573958877325
+                },
+                {
+                    "type": "TEXT",
+                    "count": 320,
+                    "shortest_values": [
+                        "s"
+                    ],
+                    "longest_values": [
+                        "s"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Total Enrolled Students",
+            "number_non_empty_cells": 560,
+            "number_empty_cells": 0,
+            "number_distinct_values": 253,
+            "frequent_values": [
+                "s",
+                "45",
+                "74",
+                "21",
+                "113"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 529,
+                    "max_value": 56644,
+                    "min_value": 10,
+                    "mean": 1259.9338374291115,
+                    "stddev": 4118.475555482217
+                },
+                {
+                    "type": "TEXT",
+                    "count": 31,
+                    "shortest_values": [
+                        "s"
+                    ],
+                    "longest_values": [
+                        "s"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        "Geographic Unit",
+        "Student Category"
+    ]
+}

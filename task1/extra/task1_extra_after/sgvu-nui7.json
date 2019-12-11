@@ -1,0 +1,102 @@
+{
+    "dataset_name": "sgvu-nui7",
+    "columns": [
+        {
+            "column_name": "LIHTCDWID",
+            "number_non_empty_cells": 273,
+            "number_empty_cells": 0,
+            "number_distinct_values": 273,
+            "frequent_values": [
+                "1765",
+                "1938",
+                "2603",
+                "1930",
+                "1936"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 273,
+                    "max_value": 2843,
+                    "min_value": 5,
+                    "mean": 1777.1245421245421,
+                    "stddev": 516.4043045276446
+                }
+            ]
+        },
+        {
+            "column_name": "ProjectID",
+            "number_non_empty_cells": 273,
+            "number_empty_cells": 0,
+            "number_distinct_values": 273,
+            "frequent_values": [
+                "52597",
+                "44218",
+                "48870",
+                "57772",
+                "61608"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 273,
+                    "max_value": 67079,
+                    "min_value": 44218,
+                    "mean": 54147.83516483517,
+                    "stddev": 6461.949070212191
+                }
+            ]
+        },
+        {
+            "column_name": "Type",
+            "number_non_empty_cells": 273,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "4% LIHTC",
+                "9% LIHTC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 273,
+                    "shortest_values": [
+                        "4% LIHTC",
+                        "9% LIHTC"
+                    ],
+                    "longest_values": [
+                        "9% LIHTC",
+                        "4% LIHTC"
+                    ],
+                    "average_length": 8.0
+                }
+            ]
+        },
+        {
+            "column_name": " AnnualAllocationAmount ",
+            "number_non_empty_cells": 273,
+            "number_empty_cells": 0,
+            "number_distinct_values": 273,
+            "frequent_values": [
+                "4820712.00",
+                "1023486.00",
+                "2112313.00",
+                "757016.00",
+                "1174650.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 273,
+                    "max_value": 40320769.0,
+                    "min_value": 0.0,
+                    "mean": 1960113.706959707,
+                    "stddev": 2665443.2522709933
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": [
+        " AnnualAllocationAmount "
+    ]
+}
