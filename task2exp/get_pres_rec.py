@@ -24,8 +24,6 @@ for col in pred['predicted_types']:
 			pred_dict[col_name] = []
 			pred_dict[col_name].append(pred_label['semantic_type'])
 
-print (pred_dict)
-
 label_dict = {}  # {col_name:[label_type1, label_type2, ..]}
 
 for col in label['actual_types']:
