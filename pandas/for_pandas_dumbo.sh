@@ -1,5 +1,4 @@
 module load python/gnu/3.6.5
-moduel load pandas
 
 # allow match-no-files pattern to expand to a null string
 shopt -s nullglob
@@ -12,4 +11,4 @@ while IFS= read -r line; do
         name=$(basename "$line")
         spark-submit $PROGRAM_NAME $name 
         rm $name
-done < dataset_list.txt
+done < $1

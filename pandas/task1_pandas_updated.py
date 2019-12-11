@@ -56,7 +56,7 @@ def getFilename(path):
 
 def is_int(val):
 	try:
-		int(val)
+		np.int64(val)
 		return True
 	except:
 		return False
