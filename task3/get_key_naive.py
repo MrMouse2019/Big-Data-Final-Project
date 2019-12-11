@@ -20,7 +20,7 @@ for dataset in data['datasets']:
 			output = {}
 			dataset_name = dataset['dataset_name']
 			output['dataset_name'] = dataset_name
-			output['key_column_candidates'] = column['column_name']
+			output['key_column_candidates'] = [column['column_name']]
 			json_path = 'task1_key_cand/' + dataset_name + '.json'
 			with open('task1_key_cand/{}.json'.format(dataset_name), 'w') as outfile:
 				json.dump(output, outfile, indent=4)
