@@ -371,7 +371,7 @@ def predict(column_file_name, values):
     pred_labels = {}
     for key in pred_labels_temp:
         match_rate = pred_labels_temp[key] / num_items
-        if match_rate >= thre:
+        if match_rate >= thre or pred_labels_temp[key] > 2000:
             pred_labels[key] = pred_labels_temp[key]
     return pred_labels
 
@@ -410,6 +410,7 @@ if __name__ == "__main__":
 
             values = read_column_values(column_file_name)
             col_fname = column_file_name.lower().split('.')[1]
+            print(col_fname)
             column_file_name = column_file_name.split('.')
 
             pred_labels = predict(col_fname, values)
@@ -421,7 +422,7 @@ if __name__ == "__main__":
                 out_list.append({"semantic_type": label_dict[key], "count": val})
             output["semantic_types"] = out_list
             print(output)
-            with open('../task2out/{}.json'.format(col_name), 'w+') as outfile:
+            with open('../task2out2/{}.json'.format(col_name), 'w+') as outfile:
                 json.dump(output, outfile, indent=4)
 
     # Calculate correct rate
