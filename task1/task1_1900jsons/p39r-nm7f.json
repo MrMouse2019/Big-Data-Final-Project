@@ -1,0 +1,360 @@
+{
+    "dataset_name": "p39r-nm7f",
+    "columns": [
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 1101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 473,
+            "frequent_values": [
+                "07/15/2008",
+                "03/23/2018",
+                "12/22/2015",
+                "01/30/2019",
+                "08/22/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1101,
+                    "max_value": "2019-07-16 00:00:00",
+                    "min_value": "1993-04-27 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Case Number",
+            "number_non_empty_cells": 1101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1099,
+            "frequent_values": [
+                "1997-247",
+                "2002-188",
+                "2013-097",
+                "2018-113",
+                "2015-061i"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1101,
+                    "shortest_values": [
+                        "2014-6",
+                        "2017-222",
+                        "2010-051",
+                        "2010-345",
+                        "2009-514"
+                    ],
+                    "longest_values": [
+                        "2012-321 & 2012-827",
+                        "2007-218; 2008-530",
+                        "2007-436aa",
+                        "2007-436ii",
+                        "2007-436qq"
+                    ],
+                    "average_length": 8.24159854677566
+                }
+            ]
+        },
+        {
+            "column_name": "Case Name",
+            "number_non_empty_cells": 1101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 922,
+            "frequent_values": [
+                "Williams",
+                "James",
+                "Davis",
+                "Jones",
+                "King"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1101,
+                    "shortest_values": [
+                        "Ho",
+                        "Lim",
+                        "Cid",
+                        "Rao",
+                        "Fox"
+                    ],
+                    "longest_values": [
+                        "Taylor-Williamson",
+                        "Theroulde-Thomas",
+                        "Saunders-Ashton",
+                        "Amoafo-Danquah",
+                        "Martino-Fisher"
+                    ],
+                    "average_length": 6.7529518619436875
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 1101,
+            "number_empty_cells": 0,
+            "number_distinct_values": 93,
+            "frequent_values": [
+                "DOE",
+                "DSNY",
+                "HRA",
+                "DOHMH",
+                "NYCHA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1101,
+                    "shortest_values": [
+                        "DA",
+                        "CB",
+                        "DDC",
+                        "HPD",
+                        "OEM"
+                    ],
+                    "longest_values": [
+                        "Cultural Affairs",
+                        "Art Commission",
+                        "Mayor's Office",
+                        "City Planning",
+                        "City Council"
+                    ],
+                    "average_length": 3.885558583106267
+                }
+            ]
+        },
+        {
+            "column_name": "3-Way Settlement",
+            "number_non_empty_cells": 553,
+            "number_empty_cells": 548,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "X",
+                "x"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 553,
+                    "shortest_values": [
+                        "x",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "X",
+                        "x"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Fine paid to COIB",
+            "number_non_empty_cells": 695,
+            "number_empty_cells": 406,
+            "number_distinct_values": 77,
+            "frequent_values": [
+                "1000.00",
+                "1500.00",
+                "500.00",
+                "2000.00",
+                "2500.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 695,
+                    "max_value": 84000.0,
+                    "min_value": 50.0,
+                    "mean": 2884.610071942446,
+                    "stddev": 4969.171325227867
+                }
+            ]
+        },
+        {
+            "column_name": "Fine Imposed by COIB but not Paid",
+            "number_non_empty_cells": 37,
+            "number_empty_cells": 1064,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "7500.00",
+                "3000.00",
+                "10000.00",
+                "5000.00",
+                "6000.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 37,
+                    "max_value": 42000.0,
+                    "min_value": 250.0,
+                    "mean": 7308.540540540541,
+                    "stddev": 7593.261018627314
+                }
+            ]
+        },
+        {
+            "column_name": "Explanation of COIB Fine",
+            "number_non_empty_cells": 74,
+            "number_empty_cells": 1027,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "Due to showing of financial hardship, fine was forgiven",
+                "Respondent did not appear at the trial, so the Board fine has not yet been collected",
+                "Although respondent did appear at the trial,  the Board fine has not yet been collected",
+                "Related agency forfeiture of 45 vacation days, valued at $24,198",
+                "$15,000 fine + $32,929.29 value of benefit received"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 74,
+                    "shortest_values": [
+                        "Related agency termination",
+                        "$2,500 fine + $8,160 value of benefit received",
+                        "$2,500 fine + $14,750 value of benefit received",
+                        "$7,500 fine + $1,696.82 value of benefit received",
+                        "$15,000 fine + $32,929.29 value of benefit received"
+                    ],
+                    "longest_values": [
+                        "In setting the amount of the fine, the Board took into consideration that respondent was suspended by his agency for 30 days, valued at approx. $3,890",
+                        "In setting the amount of the fine, the Board took into consideration that respondent was suspended by his agency for 30 days, valued at approx. $6,747",
+                        "In setting the amount of the fine, the Board took into consideration that respondent was suspended by his agency for 3 days, valued at approx. $586",
+                        "In setting the amount of the fine, the Board took into consideration that respondent forfeited terminal leave valued at approximately $37,000",
+                        "Due to showing of financial shardship, the Board accepted the penalty imposed by the agency of $1,586, instead of the Board fine of $3,000"
+                    ],
+                    "average_length": 77.43243243243244
+                }
+            ]
+        },
+        {
+            "column_name": "Fine Paid to Agency",
+            "number_non_empty_cells": 94,
+            "number_empty_cells": 1007,
+            "number_distinct_values": 55,
+            "frequent_values": [
+                "1500.00",
+                "1000.00",
+                "2500.00",
+                "750.00",
+                "250.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 94,
+                    "max_value": 11000.0,
+                    "min_value": 81.43,
+                    "mean": 1841.875425531915,
+                    "stddev": 1826.7638477254616
+                }
+            ]
+        },
+        {
+            "column_name": "Other Penalty",
+            "number_non_empty_cells": 185,
+            "number_empty_cells": 916,
+            "number_distinct_values": 115,
+            "frequent_values": [
+                "Restitution",
+                "One year probation",
+                "Annual leave forfeited",
+                "10 days annual leave forfeited",
+                "5 days annual leave forfeited"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 185,
+                    "shortest_values": [
+                        "Resign",
+                        "Terminated",
+                        "Restitution",
+                        "Loan repayment",
+                        "4-day pay fine"
+                    ],
+                    "longest_values": [
+                        "10 days annual leave forfeited, one year probation, 15-day pay fine & resign from Comproller's Office",
+                        "Demotion to non-supervisory position with paycut of $1,268; 30 days annual leave forfeited = $2,500",
+                        "Resign from DCAS & never return to City employment; forfeit annual leave in the amount of $1,000",
+                        "Restitution Criminal restitution, resign & never return to DEP employment or City for 5 years",
+                        "Resign as Principal & reinstated as teacher w/pay reduction; must resign from DOE by 8/31/08"
+                    ],
+                    "average_length": 32.556756756756755
+                }
+            ]
+        },
+        {
+            "column_name": "Other Penalty Value",
+            "number_non_empty_cells": 101,
+            "number_empty_cells": 1000,
+            "number_distinct_values": 98,
+            "frequent_values": [
+                "1000.00",
+                "7189.90",
+                "4494.20",
+                "3786.00",
+                "5032.93"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 101,
+                    "max_value": 211000.0,
+                    "min_value": 83.0,
+                    "mean": 8569.905346534653,
+                    "stddev": 24113.83797894994
+                }
+            ]
+        },
+        {
+            "column_name": "Suspension Days",
+            "number_non_empty_cells": 311,
+            "number_empty_cells": 790,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "5",
+                "30",
+                "10",
+                "15",
+                "20"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 311,
+                    "max_value": 90,
+                    "min_value": 1,
+                    "mean": 16.183279742765272,
+                    "stddev": 16.042202486751112
+                }
+            ]
+        },
+        {
+            "column_name": "Suspension Value",
+            "number_non_empty_cells": 313,
+            "number_empty_cells": 788,
+            "number_distinct_values": 276,
+            "frequent_values": [
+                "1172.09",
+                "1206.57",
+                "1189.33",
+                "1217.85",
+                "3705.30"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 313,
+                    "max_value": 52649.0,
+                    "min_value": 219.94,
+                    "mean": 3404.2012460063884,
+                    "stddev": 4587.272066460258
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

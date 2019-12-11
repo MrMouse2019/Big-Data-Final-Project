@@ -1,0 +1,352 @@
+{
+    "dataset_name": "ykvb-493p",
+    "columns": [
+        {
+            "column_name": "YEAR",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2010",
+                "2011"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2928,
+                    "max_value": 2013,
+                    "min_value": 2010,
+                    "mean": 2011.5,
+                    "stddev": 1.118033988749895
+                }
+            ]
+        },
+        {
+            "column_name": "Neighborhood (U.H.F)",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 44,
+            "frequent_values": [
+                "West Queens",
+                "Jamaica",
+                "Stapleton - St. George",
+                "East Harlem",
+                "Long Island City - Astoria"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2928,
+                    "shortest_values": [
+                        "All",
+                        "Unknown",
+                        "Jamaica",
+                        "Rockaway",
+                        "Greenpoint"
+                    ],
+                    "longest_values": [
+                        "Central Harlem - Morningside Heights",
+                        "Bedford Stuyvesant - Crown Heights",
+                        "Downtown - Heights - Park Slope",
+                        "Coney Island - Sheepshead Bay",
+                        "Union Square - Lower Eastside"
+                    ],
+                    "average_length": 19.2103825136612
+                }
+            ]
+        },
+        {
+            "column_name": "SEX",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Male",
+                "Female",
+                "All"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2928,
+                    "shortest_values": [
+                        "All",
+                        "Male",
+                        "Female"
+                    ],
+                    "longest_values": [
+                        "Female",
+                        "Male",
+                        "All"
+                    ],
+                    "average_length": 4.879781420765028
+                }
+            ]
+        },
+        {
+            "column_name": "RACE/ETHNICITY",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "All",
+                "Multiracial",
+                "Native American",
+                "Hispanic",
+                "Black"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2928,
+                    "shortest_values": [
+                        "All",
+                        "Black",
+                        "White",
+                        "Unknown",
+                        "Hispanic"
+                    ],
+                    "longest_values": [
+                        "Asian/Pacific Islander",
+                        "Native American",
+                        "Multiracial",
+                        "Hispanic",
+                        "Unknown"
+                    ],
+                    "average_length": 9.109289617486338
+                }
+            ]
+        },
+        {
+            "column_name": "TOTAL NUMBER OF HIV DIAGNOSES",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 160,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2918,
+                    "max_value": 3353,
+                    "min_value": 0,
+                    "mean": 16.99451679232351,
+                    "stddev": 118.41617851409598
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "HIV DIAGNOSES PER 100,000 POPULATION",
+            "number_non_empty_cells": 2860,
+            "number_empty_cells": 68,
+            "number_distinct_values": 840,
+            "frequent_values": [
+                "0",
+                "2.3",
+                "*",
+                "8.2",
+                "4.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1475,
+                    "max_value": 415,
+                    "min_value": 0,
+                    "mean": 5.40271186440678,
+                    "stddev": 23.79956970345313
+                },
+                {
+                    "type": "REAL",
+                    "count": 1375,
+                    "max_value": 821.6,
+                    "min_value": 0.7,
+                    "mean": 53.56138181818178,
+                    "stddev": 68.04403076818342
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "TOTAL NUMBER OF CONCURRENT HIV/AIDS DIAGNOSES",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2926,
+                    "max_value": 680,
+                    "min_value": 0,
+                    "mean": 3.318523581681476,
+                    "stddev": 23.153970176531892
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "PROPORTION OF CONCURRENT HIV/AIDS DIAGNOSES AMONG ALL HIV DIAGNOSES",
+            "number_non_empty_cells": 2860,
+            "number_empty_cells": 68,
+            "number_distinct_values": 233,
+            "frequent_values": [
+                "0",
+                "33.3",
+                "50",
+                "100",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2097,
+                    "max_value": 100,
+                    "min_value": 0,
+                    "mean": 7.011444921316166,
+                    "stddev": 20.20101327177494
+                },
+                {
+                    "type": "REAL",
+                    "count": 761,
+                    "max_value": 71.4,
+                    "min_value": 3.3,
+                    "mean": 22.413929040735894,
+                    "stddev": 10.356589144208106
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "TOTAL NUMBER OF AIDS DIAGNOSES",
+            "number_non_empty_cells": 2928,
+            "number_empty_cells": 0,
+            "number_distinct_values": 127,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2918,
+                    "max_value": 2611,
+                    "min_value": 0,
+                    "mean": 11.95407813570939,
+                    "stddev": 83.93045573827885
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "AIDS DIAGNOSES PER 100,000 POPULATION",
+            "number_non_empty_cells": 2860,
+            "number_empty_cells": 68,
+            "number_distinct_values": 686,
+            "frequent_values": [
+                "0",
+                "*",
+                "2.3",
+                "8.3",
+                "4.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1589,
+                    "max_value": 346,
+                    "min_value": 0,
+                    "mean": 3.5292636878539962,
+                    "stddev": 19.746057580059215
+                },
+                {
+                    "type": "REAL",
+                    "count": 1261,
+                    "max_value": 565.5,
+                    "min_value": 0.7,
+                    "mean": 39.42474226804129,
+                    "stddev": 54.49401882101429
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

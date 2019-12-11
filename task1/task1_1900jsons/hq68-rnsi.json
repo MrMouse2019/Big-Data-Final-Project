@@ -1,0 +1,442 @@
+{
+    "dataset_name": "hq68-rnsi",
+    "columns": [
+        {
+            "column_name": "Project ID",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2057,
+            "frequent_values": [
+                "50421",
+                "52937",
+                "52986",
+                "52985",
+                "65357"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 68719,
+                    "min_value": 44218,
+                    "mean": 60642.59893048128,
+                    "stddev": 6320.578083662599
+                }
+            ]
+        },
+        {
+            "column_name": "Project Name",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1155,
+            "frequent_values": [
+                "CONFIDENTIAL",
+                "HANAC. 54-25 101 ST. CORONA SENIOR RESIDENCE",
+                "1490 CROTONA PARK EAST",
+                "MARIEN-HEIM TOWER SENIOR APARTMENTS (20140280)",
+                "MHANY. 1921 CORTELYOU ROAD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2057,
+                    "shortest_values": [
+                        "CSH",
+                        "AURUM",
+                        "HCCI 2",
+                        "PUTNAM",
+                        "MHANY 2"
+                    ],
+                    "longest_values": [
+                        "BFC. 118 ST EDWARDS STREET. INGERSOLL SENIOR RESIDENCES",
+                        "HP WH HDFC.HPO.FY19 (BLACK SPRUCE - WASHINGTON HEIGHTS)",
+                        "HP DUNWELL HOUSING DEVELOPMENT FUND COMPANY.HUDMF.FY18",
+                        "HP HENRY HUDSON HDFC.HPO.FY19 (3420 HENRY HUDSON PKWY)",
+                        "WEST END. 483 WEST END AVE. WEST END INTERGENERATIONAL"
+                    ],
+                    "average_length": 18.774428779776372
+                }
+            ]
+        },
+        {
+            "column_name": "Project Start Date",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 920,
+            "frequent_values": [
+                "06/29/2018",
+                "06/28/2019",
+                "06/30/2017",
+                "06/26/2014",
+                "06/30/2016"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 2057,
+                    "max_value": "2019-06-28 00:00:00",
+                    "min_value": "2014-01-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Project Completion Date",
+            "number_non_empty_cells": 1504,
+            "number_empty_cells": 553,
+            "number_distinct_values": 841,
+            "frequent_values": [
+                "10/31/2017",
+                "01/24/2019",
+                "06/28/2019",
+                "06/22/2017",
+                "05/07/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1504,
+                    "max_value": "2019-07-29 00:00:00",
+                    "min_value": "2014-01-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Extended Affordability Only",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2057,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0875060768108895
+                }
+            ]
+        },
+        {
+            "column_name": "Prevailing Wage Status",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Non Prevailing Wage",
+                "Prevailing Wage"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2057,
+                    "shortest_values": [
+                        "Prevailing Wage",
+                        "Non Prevailing Wage"
+                    ],
+                    "longest_values": [
+                        "Non Prevailing Wage",
+                        "Prevailing Wage"
+                    ],
+                    "average_length": 18.877491492464756
+                }
+            ]
+        },
+        {
+            "column_name": "Planned Tax Benefit",
+            "number_non_empty_cells": 1089,
+            "number_empty_cells": 968,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "421a",
+                "Article XI",
+                "420c",
+                "J-51 Enriched",
+                "Article II"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1089,
+                    "shortest_values": [
+                        "420c",
+                        "421a",
+                        "J-51",
+                        "420a",
+                        "UDAAP"
+                    ],
+                    "longest_values": [
+                        "J-51 Enriched",
+                        "Article II",
+                        "Article XI",
+                        "Article V",
+                        "UDAAP"
+                    ],
+                    "average_length": 5.98989898989899
+                }
+            ]
+        },
+        {
+            "column_name": "Extremely Low Income Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 143,
+            "frequent_values": [
+                "0",
+                "1",
+                "8",
+                "2",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 572,
+                    "min_value": 0,
+                    "mean": 11.214876033057852,
+                    "stddev": 45.380811987473294
+                }
+            ]
+        },
+        {
+            "column_name": "Very Low Income Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 141,
+            "frequent_values": [
+                "0",
+                "1",
+                "3",
+                "12",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 3569,
+                    "min_value": 0,
+                    "mean": 16.631988332523093,
+                    "stddev": 115.64426791496574
+                }
+            ]
+        },
+        {
+            "column_name": "Low Income Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 206,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 2312,
+                    "min_value": 0,
+                    "mean": 27.644628099173552,
+                    "stddev": 92.97040899413702
+                }
+            ]
+        },
+        {
+            "column_name": "Moderate Income Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 80,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 716,
+                    "min_value": 0,
+                    "mean": 3.980068060281964,
+                    "stddev": 29.79512104538443
+                }
+            ]
+        },
+        {
+            "column_name": "Middle Income Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 72,
+            "frequent_values": [
+                "0",
+                "1",
+                "3",
+                "6",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 4505,
+                    "min_value": 0,
+                    "mean": 6.044725328147788,
+                    "stddev": 102.87071497113374
+                }
+            ]
+        },
+        {
+            "column_name": "Other Income Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 11,
+                    "min_value": 0,
+                    "mean": 0.3257170636849781,
+                    "stddev": 0.9180758045779339
+                }
+            ]
+        },
+        {
+            "column_name": "Counted Rental Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 292,
+            "frequent_values": [
+                "0",
+                "3",
+                "2",
+                "6",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 5881,
+                    "min_value": 0,
+                    "mean": 53.50413223140496,
+                    "stddev": 199.8046982926909
+                }
+            ]
+        },
+        {
+            "column_name": "Counted Homeownership Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 78,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 2709,
+                    "min_value": 0,
+                    "mean": 12.337870685464269,
+                    "stddev": 116.36641912588689
+                }
+            ]
+        },
+        {
+            "column_name": "All Counted Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 312,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "6",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 5881,
+                    "min_value": 1,
+                    "mean": 65.84200291686923,
+                    "stddev": 228.37816472032324
+                }
+            ]
+        },
+        {
+            "column_name": "Total Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 355,
+            "frequent_values": [
+                "1",
+                "2",
+                "8",
+                "3",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 5881,
+                    "min_value": 1,
+                    "mean": 82.94409333981527,
+                    "stddev": 245.30315252987856
+                }
+            ]
+        },
+        {
+            "column_name": "Senior Units",
+            "number_non_empty_cells": 2057,
+            "number_empty_cells": 0,
+            "number_distinct_values": 74,
+            "frequent_values": [
+                "0",
+                "1",
+                "88",
+                "134",
+                "22"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2057,
+                    "max_value": 291,
+                    "min_value": 0,
+                    "mean": 4.120563928050559,
+                    "stddev": 23.24505478112015
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

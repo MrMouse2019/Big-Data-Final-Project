@@ -1,0 +1,751 @@
+{
+    "dataset_name": "f4rp-2kvy",
+    "columns": [
+        {
+            "column_name": "RequestID",
+            "number_non_empty_cells": 95616,
+            "number_empty_cells": 0,
+            "number_distinct_values": 95615,
+            "frequent_values": [
+                "225785",
+                "234765",
+                "238234",
+                "123271",
+                "123270"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 95616,
+                    "max_value": 282989,
+                    "min_value": 6656,
+                    "mean": 162886.5455572289,
+                    "stddev": 77322.7049247436
+                }
+            ]
+        },
+        {
+            "column_name": "ApplicationID",
+            "number_non_empty_cells": 95616,
+            "number_empty_cells": 0,
+            "number_distinct_values": 95615,
+            "frequent_values": [
+                "CA312190",
+                "CB096408",
+                "CB071208",
+                "CR728615",
+                "CA042887"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 95616,
+                    "shortest_values": [
+                        "CR3512",
+                        "CR3112",
+                        "CR58312",
+                        "CR57412",
+                        "CR22012"
+                    ],
+                    "longest_values": [
+                        "CB2280103",
+                        "CB063911 ",
+                        "CB0033815",
+                        "CB0000005",
+                        "CB0052406"
+                    ],
+                    "average_length": 7.999477074966533
+                }
+            ]
+        },
+        {
+            "column_name": "RequestType",
+            "number_non_empty_cells": 95616,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "REGISTRATION",
+                "CERTIFICATE TO OPERATE",
+                "REGISTRATION INSPECTION",
+                "WORK PERMIT",
+                "BOILER REGISTRATION II"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 95616,
+                    "shortest_values": [
+                        "WORK PERMIT",
+                        "REGISTRATION",
+                        "BOILER REGISTRATION II",
+                        "CERTIFICATE TO OPERATE",
+                        "REGISTRATION INSPECTION"
+                    ],
+                    "longest_values": [
+                        "REGISTRATION INSPECTION",
+                        "CERTIFICATE TO OPERATE",
+                        "BOILER REGISTRATION II",
+                        "REGISTRATION",
+                        "WORK PERMIT"
+                    ],
+                    "average_length": 15.745638805220883
+                }
+            ]
+        },
+        {
+            "column_name": "House",
+            "number_non_empty_cells": 94884,
+            "number_empty_cells": 732,
+            "number_distinct_values": 11076,
+            "frequent_values": [
+                "1",
+                "200",
+                "40",
+                "100",
+                "55"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 76926,
+                    "max_value": 26310,
+                    "min_value": 0,
+                    "mean": 896.2795673764397,
+                    "stddev": 1354.2365028110485
+                },
+                {
+                    "type": "TEXT",
+                    "count": 17958,
+                    "shortest_values": [
+                        "4A",
+                        "#7",
+                        "1O",
+                        "1-7",
+                        "2-5"
+                    ],
+                    "longest_values": [
+                        "BKLYN. NAVY YD.",
+                        "ST. VINCENT'S P",
+                        "105-15 (150-72)",
+                        "BROOKLYN NVY YD",
+                        "VARIOUS LOCATIO"
+                    ],
+                    "average_length": 5.33227530905446
+                }
+            ]
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 95219,
+            "number_empty_cells": 397,
+            "number_distinct_values": 8236,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVENUE",
+                "PARK AVENUE",
+                "GRAND CONCOURSE",
+                "OCEAN AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 11,
+                    "max_value": 164,
+                    "min_value": 1,
+                    "mean": 47.45454545454545,
+                    "stddev": 43.99661895349281
+                },
+                {
+                    "type": "TEXT",
+                    "count": 95208,
+                    "shortest_values": [
+                        "ST",
+                        "GEM",
+                        "E 86",
+                        "5 ST",
+                        "GRVC"
+                    ],
+                    "longest_values": [
+                        " TREMLEY POINT ROAD                               . (VARIOUS)",
+                        "WHITE PLAINS RD. (EMS BAT. 15 WILLIAMSBURG STA)",
+                        "ARTHUR KILL RD (COLON AVE TO BROOKFIELD AVE)",
+                        "FLUSHING AVE(BK. N.Y. BLDG. 292 STE. 211)",
+                        "HALLECK ST. (AKA 332 HUNTS POINT AVENUE)"
+                    ],
+                    "average_length": 13.668294681119233
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 95210,
+            "number_empty_cells": 406,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "MANHATTAN",
+                "BROOKLYN",
+                "QUEENS",
+                "BRONX",
+                "STATENISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 95210,
+                    "shortest_values": [
+                        "NONE",
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN"
+                    ],
+                    "longest_values": [
+                        "STATENISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.617676714630816
+                }
+            ]
+        },
+        {
+            "column_name": "Bin",
+            "number_non_empty_cells": 91155,
+            "number_empty_cells": 4461,
+            "number_distinct_values": 62780,
+            "frequent_values": [
+                "0",
+                "71219",
+                "584885",
+                "546438",
+                "4092120"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 91155,
+                    "max_value": 10000060,
+                    "min_value": 0,
+                    "mean": 834894.3533870879,
+                    "stddev": 1285303.3298614856
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 94052,
+            "number_empty_cells": 1564,
+            "number_distinct_values": 8204,
+            "frequent_values": [
+                "02180",
+                "01263",
+                "02139",
+                "00850",
+                "01262"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 94039,
+                    "max_value": 24001,
+                    "min_value": 0,
+                    "mean": 2788.757143312881,
+                    "stddev": 2644.770653735788
+                },
+                {
+                    "type": "REAL",
+                    "count": 9,
+                    "max_value": 1.0,
+                    "min_value": 0.1,
+                    "mean": 0.4000000000000001,
+                    "stddev": 0.4242640687119285
+                },
+                {
+                    "type": "TEXT",
+                    "count": 4,
+                    "shortest_values": [
+                        "01,2,"
+                    ],
+                    "longest_values": [
+                        "01,2,"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 94049,
+            "number_empty_cells": 1567,
+            "number_distinct_values": 919,
+            "frequent_values": [
+                "0001",
+                "7501",
+                "0006",
+                "0029",
+                "0005"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 94046,
+                    "max_value": 62063,
+                    "min_value": 0,
+                    "mean": 459.88488611955853,
+                    "stddev": 1731.7301894997627
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3,
+                    "shortest_values": [
+                        "1 (PARTIAL)"
+                    ],
+                    "longest_values": [
+                        "1 (PARTIAL)"
+                    ],
+                    "average_length": 11.0
+                }
+            ]
+        },
+        {
+            "column_name": "OwnerName",
+            "number_non_empty_cells": 89421,
+            "number_empty_cells": 6195,
+            "number_distinct_values": 71236,
+            "frequent_values": [
+                "NYC DEPT OF EDUCATION (DOE)",
+                "NYC DEPT OF HPD",
+                "NYC HOUSING AUTHORITY (NYCHA)",
+                "NYC HPD",
+                "NYC HOUSING AUTHORITY"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21,
+                    "max_value": 8036599461,
+                    "min_value": 16,
+                    "mean": 483108178.47619045,
+                    "stddev": 1722543230.3233747
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 1e+24,
+                    "min_value": 1e+24,
+                    "mean": 1e+24,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 89399,
+                    "shortest_values": [
+                        "HPD",
+                        "DDC",
+                        "MCO",
+                        "G M",
+                        "ABC"
+                    ],
+                    "longest_values": [
+                        "JAMES COFFEY - SR. V.P. - NEWMARK &AMP; CO. REAL ESTATE INC. D/B/A NEWMARK GRUBB KNIGHT FRANK, AS AGENT FOR UNION SQUARE BROADWAY ASSOC.",
+                        "NANCY L ROTHE AND ERNST ROTHE, AS TRUSTEES OF THE GST EXEMPT TRUST U/ART. EIGHTH OF THE WILL OF ELIZABETH EBERHART F/B/O NANCY EBERHART",
+                        "STUART MATCH SUNA -PRESIDENT, SUNA EQUITIES LTD, GENERAL PARTNER, NY HOLDING CO. ASSOC., C/O METRO MGMT. DEVELOPEMENT INC.",
+                        "ROBERT P. LEMIEUX, EXECUTIVE DIRECTOR THE CITY UNIVERSITY OF NEW YORK, DEPARTMENT OF DESIGN, CONSTRUCTION AND MANAGEMENT",
+                        "IMPACCT PRESERVATION LLC (QUINCY STREET HOUSING DEVELOPMENT FUND CORPORATION) - C/O C&AMP;C AFFORDABLE MANAGEMENT, LLC"
+                    ],
+                    "average_length": 23.291099453014017
+                }
+            ]
+        },
+        {
+            "column_name": "ExpirationDate",
+            "number_non_empty_cells": 94821,
+            "number_empty_cells": 795,
+            "number_distinct_values": 13155,
+            "frequent_values": [
+                "07/01/2021",
+                "07/01/2020",
+                "07/01/2000",
+                "07/01/1997",
+                "07/01/1994"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 94821,
+                    "max_value": "2024-12-29 00:00:00",
+                    "min_value": "1899-12-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Make",
+            "number_non_empty_cells": 91685,
+            "number_empty_cells": 3931,
+            "number_distinct_values": 29135,
+            "frequent_values": [
+                "WEIL MCLAIN",
+                "FEDERAL",
+                " / ",
+                "ROCKMILLS",
+                "BURNHAM"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 111111150,
+                    "min_value": 1,
+                    "mean": 37037068.333333336,
+                    "stddev": 52378285.45667058
+                },
+                {
+                    "type": "TEXT",
+                    "count": 91682,
+                    "shortest_values": [
+                        "X",
+                        "CY",
+                        "GE",
+                        "GM",
+                        "MQ"
+                    ],
+                    "longest_values": [
+                        "CASCADEIEXTREMAEXTREMAEXTREMABLUM MINIPRESSEXTREMAEXTREMAEXTREMAEXTREMACENTRAL MACHINERYCENTRAL MACHINERYCENTRAL MACHINERYGRIZZLY POLAR BEAR SERIESEXTREMA / KS340LT-1257.3XF22RPOT-10 1AFA 03330XS-1A37XP-124TEJ16-NCXT-250978699786961790G0562ZP0623273",
+                        "ROCKWELLDEWALTROCKWELLPOWERMATICSCMSICMASCMHOLZER HERPOWERMATICPOWERMATICLFGMACCHINE CASADEISKILL SAWDELTADELTAOPECGEETECH / #PLUS 10#1214#72A#S520 NOVA#SANDIA S5#ET 117#37#2415-3#FT35KS-3000#5860#750#CT-108",
+                        "GRIZZLY G0623X3POWERMATIC 66GRIZZLY G0606XGRIZZLY G9985GRIZZLY THICKNESS PLANERGRIZZLY G0569EMA F120BOARKE BKM-37KGRIZZLY JOINTER / TABLE SAWTABLE SAWTABLE SAWOSCILLATING EDGE SANDERBAND SAWSHAPERSANDER",
+                        "MARTINSHOPBOT ALPHAPOWERMATICBRIDGEWOODPOWERMATICDEWALTJETPORTER CABLEBOSCHFESTOOLHITACHIDELTA / T7096-48-666-TA SAWEW36JSPWBS-14DW735JSG-6DC8902GCM12SDKS 120EBC12RSHUNISAW",
+                        "SCMI SEGA-SQUADRATRICESTEEL CITY TOOL WORKSBIESSE CNC MACHINEBRANDTCENTRAL MACHINERYEXTREMACENTRAL MACHINERY / SI 300 NOVA35635SKILL 1536 GFT0-261-02-984397869DC-310097869"
+                    ],
+                    "average_length": 13.93059706376388
+                }
+            ]
+        },
+        {
+            "column_name": "Model",
+            "number_non_empty_cells": 91666,
+            "number_empty_cells": 3950,
+            "number_distinct_values": 40916,
+            "frequent_values": [
+                " / ",
+                "FST-60",
+                "FST-50",
+                "FST-100",
+                "FST-40"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2065,
+                    "max_value": 10960950100,
+                    "min_value": -175,
+                    "mean": 12693497.095399516,
+                    "stddev": 331482305.4851492
+                },
+                {
+                    "type": "REAL",
+                    "count": 26,
+                    "max_value": 28.9,
+                    "min_value": 0.0,
+                    "mean": 2.2115384615384617,
+                    "stddev": 7.661106915557152
+                },
+                {
+                    "type": "TEXT",
+                    "count": 89575,
+                    "shortest_values": [
+                        "C",
+                        "#",
+                        "X",
+                        "SA",
+                        "H9"
+                    ],
+                    "longest_values": [
+                        "CASCADEIEXTREMAEXTREMAEXTREMABLUM MINIPRESSEXTREMAEXTREMAEXTREMAEXTREMACENTRAL MACHINERYCENTRAL MACHINERYCENTRAL MACHINERYGRIZZLY POLAR BEAR SERIESEXTREMA / KS340LT-1257.3XF22RPOT-10 1AFA 03330XS-1A37XP-124TEJ16-NCXT-250978699786961790G0562ZP0623273",
+                        "ROCKWELLDEWALTROCKWELLPOWERMATICSCMSICMASCMHOLZER HERPOWERMATICPOWERMATICLFGMACCHINE CASADEISKILL SAWDELTADELTAOPECGEETECH / #PLUS 10#1214#72A#S520 NOVA#SANDIA S5#ET 117#37#2415-3#FT35KS-3000#5860#750#CT-108",
+                        "GRIZZLY G0623X3POWERMATIC 66GRIZZLY G0606XGRIZZLY G9985GRIZZLY THICKNESS PLANERGRIZZLY G0569EMA F120BOARKE BKM-37KGRIZZLY JOINTER / TABLE SAWTABLE SAWTABLE SAWOSCILLATING EDGE SANDERBAND SAWSHAPERSANDER",
+                        "MARTINSHOPBOT ALPHAPOWERMATICBRIDGEWOODPOWERMATICDEWALTJETPORTER CABLEBOSCHFESTOOLHITACHIDELTA / T7096-48-666-TA SAWEW36JSPWBS-14DW735JSG-6DC8902GCM12SDKS 120EBC12RSHUNISAW",
+                        "SCMI SEGA-SQUADRATRICESTEEL CITY TOOL WORKSBIESSE CNC MACHINEBRANDTCENTRAL MACHINERYEXTREMACENTRAL MACHINERY / SI 300 NOVA35635SKILL 1536 GFT0-261-02-984397869DC-310097869"
+                    ],
+                    "average_length": 13.385263745464695
+                }
+            ]
+        },
+        {
+            "column_name": "BurnerMake",
+            "number_non_empty_cells": 82071,
+            "number_empty_cells": 13545,
+            "number_distinct_values": 22198,
+            "frequent_values": [
+                "INTEGRAL",
+                "CARLIN",
+                "INDUSTRIAL COMBUSTION",
+                "POWERFLAME",
+                "WEIL MCLAIN"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 60,
+                    "min_value": 1,
+                    "mean": 32.333333333333336,
+                    "stddev": 24.225789747475496
+                },
+                {
+                    "type": "TEXT",
+                    "count": 82068,
+                    "shortest_values": [
+                        "X",
+                        "`",
+                        "1C",
+                        "IC",
+                        "W4"
+                    ],
+                    "longest_values": [
+                        "HARSCO INDUSTRIAL; PATTERSON-KELLEY; P-K THERMATIC GAS-FIRED HEATING BOILER",
+                        "HARSCO INDUSTRIAL; PATTERSON-KELLEY; P-K THERMIFIC GAS-FIRED HEATING BOILER",
+                        "ICI                                    VLG - 25 (NEW)",
+                        "BECKETT                           CG - 15 (NEW)",
+                        "CARLIN                               301 CRD"
+                    ],
+                    "average_length": 13.721328654286689
+                }
+            ]
+        },
+        {
+            "column_name": "BurnerModel",
+            "number_non_empty_cells": 82055,
+            "number_empty_cells": 13561,
+            "number_distinct_values": 31488,
+            "frequent_values": [
+                "INTEGRAL",
+                "301 CRD",
+                "801 CRD",
+                "702 CRD",
+                "701 CRD"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 448,
+                    "max_value": 7717344,
+                    "min_value": -375,
+                    "mean": 34081.96205357143,
+                    "stddev": 427970.76140403195
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 1.5,
+                    "min_value": 1.5,
+                    "mean": 1.5,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 81606,
+                    "shortest_values": [
+                        "X",
+                        "H",
+                        "V",
+                        "`",
+                        "A"
+                    ],
+                    "longest_values": [
+                        "GGHT-3000 (8 TOTAL UNITS - UNIT MODEL NUMBER OF GG-375-HEC)",
+                        "301 CRD                                              ",
+                        "BECKETT                           CG - 15 (NEW)",
+                        "TILTING TANGENTIAL BURNERSOIL GUNS TYPE WR-T-P",
+                        "TILTING TANGENTIAL BURNERSOIL GUN TYPE WR-T-P"
+                    ],
+                    "average_length": 12.940126951449649
+                }
+            ]
+        },
+        {
+            "column_name": "PrimaryFuel",
+            "number_non_empty_cells": 89920,
+            "number_empty_cells": 5696,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "NATURALGAS",
+                "NO2FUEL",
+                "NO6FUEL",
+                "NO4FUEL",
+                "NONE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 89920,
+                    "shortest_values": [
+                        "NONE",
+                        "OTHER",
+                        "NO2FUEL",
+                        "NO6FUEL",
+                        "NO4FUEL"
+                    ],
+                    "longest_values": [
+                        "NATURALGASNO2FUEL",
+                        "NATURALGASOTHER",
+                        "OILORDIESEL",
+                        "NATURALGAS",
+                        "NO2FUELB2"
+                    ],
+                    "average_length": 8.190324733096086
+                }
+            ]
+        },
+        {
+            "column_name": "SecondaryFuel",
+            "number_non_empty_cells": 82562,
+            "number_empty_cells": 13054,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "NONE",
+                "NO2FUEL",
+                "NATURALGAS",
+                "NO6FUEL",
+                "NO4FUEL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 82562,
+                    "shortest_values": [
+                        "NONE",
+                        "OTHER",
+                        "NO6FUEL",
+                        "NO2FUEL",
+                        "NO4FUEL"
+                    ],
+                    "longest_values": [
+                        "NATURALGASNO2FUEL",
+                        "NATURALGASOTHER",
+                        "NATURALGAS",
+                        "NO2FUELB2",
+                        "NO4FUEL"
+                    ],
+                    "average_length": 4.780419563479567
+                }
+            ]
+        },
+        {
+            "column_name": "Quantity",
+            "number_non_empty_cells": 94036,
+            "number_empty_cells": 1580,
+            "number_distinct_values": 141,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 94036,
+                    "max_value": 92223,
+                    "min_value": 0,
+                    "mean": 21.931940958781745,
+                    "stddev": 699.5775269542561
+                }
+            ]
+        },
+        {
+            "column_name": "IssueDate",
+            "number_non_empty_cells": 95615,
+            "number_empty_cells": 1,
+            "number_distinct_values": 58884,
+            "frequent_values": [
+                "01/01/1900 12:00:00 AM",
+                "01/01/1900 12:01:00 AM",
+                "12/30/1899 12:00:00 AM",
+                "10/25/1986 12:00:00 AM",
+                "07/29/2019 12:00:40 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 95615,
+                    "max_value": "2099-12-30 00:00:00",
+                    "min_value": "1899-12-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "status",
+            "number_non_empty_cells": 95616,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "CURRENT        ",
+                "EXPIRED        ",
+                "CANCELLED      "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 95616,
+                    "shortest_values": [
+                        "EXPIRED        ",
+                        "CURRENT        ",
+                        "CANCELLED      "
+                    ],
+                    "longest_values": [
+                        "CANCELLED      ",
+                        "CURRENT        ",
+                        "EXPIRED        "
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "PremiseName",
+            "number_non_empty_cells": 35111,
+            "number_empty_cells": 60505,
+            "number_distinct_values": 29243,
+            "frequent_values": [
+                "MOBILE BOILER",
+                "NYC HPD",
+                "VARIOUS LOCATIONS",
+                "SAMUEL (CITY)",
+                "TRUSTEES OF COLUMBIA UNIVERSITY"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9,
+                    "max_value": 5802,
+                    "min_value": 0,
+                    "mean": 832.1111111111111,
+                    "stddev": 1772.8525315901015
+                },
+                {
+                    "type": "TEXT",
+                    "count": 35102,
+                    "shortest_values": [
+                        "\\",
+                        "BP",
+                        "GYM",
+                        "JJD",
+                        "RCA"
+                    ],
+                    "longest_values": [
+                        "NANCY L ROTHE AND ERNST ROTHE, AS TRUSTEES OF THE GST EXEMPT TRUST U/ART. EIGHTH OF THE WILL OF ELIZABETH EBERHART F/B/O NANCY EBERHART",
+                        "IMPACCT PRESERVATION LLC (QUINCY STREET HOUSING DEVELOPMENT FUND CORPORATION) - C/O C&C AFFORDABLE MANAGEMENT, LLC",
+                        "IMPACCT PRESERVATION LLC (QUINCY STREET HOUSING DEVELOPMENT FUND CORPORATION) C/O C&C AFFORDABLE MANAGEMENT, LLC",
+                        "IMPACCT PRESERVATION, LLC. (SHESHBAZZAR ASSOCIATES, L.P.) C/O C&C AFFORDABLE MANAGEMENT, LLC.",
+                        "IMPACCT PRESERVATION LLC (THE SIXES LIMITED PARTNERSHIP) - C/O C&C APARTMENT MANAGEMENT, LLC"
+                    ],
+                    "average_length": 21.762378212067688
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

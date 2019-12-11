@@ -1,0 +1,863 @@
+{
+    "dataset_name": "mwzb-yiwb",
+    "columns": [
+        {
+            "column_name": "Publication Date",
+            "number_non_empty_cells": 363174,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "20190619",
+                "20190425",
+                "20190207",
+                "20180614",
+                "20170606"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363144,
+                    "max_value": 20190619,
+                    "min_value": 20160426,
+                    "mean": 20177326.234289978,
+                    "stddev": 10770.541906670967
+                },
+                {
+                    "type": "TEXT",
+                    "count": 30,
+                    "shortest_values": [
+                        "\"",
+                        "TGI PW USJNA04 CatE\"",
+                        "TGI PW USJNA05 CatF\"",
+                        "TGI PW USJNA06 CatE\"",
+                        "BCS Housg/NORCS 3B \""
+                    ],
+                    "longest_values": [
+                        "S+C 3859 3rd Ave BX,NY\"",
+                        "S+C 319 West 94th St. \"",
+                        "S+C 2701 KingsbridgeAv\"",
+                        "S+C 614&623 E 179th St\"",
+                        "S+C 500 West 42nd St  \""
+                    ],
+                    "average_length": 20.0
+                }
+            ]
+        },
+        {
+            "column_name": "Fiscal Year",
+            "number_non_empty_cells": 363174,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "2020",
+                "2019",
+                "2018",
+                "2017",
+                "60"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363174,
+                    "max_value": 2020,
+                    "min_value": 1,
+                    "mean": 2018.5270586550798,
+                    "stddev": 17.91041045644845
+                }
+            ]
+        },
+        {
+            "column_name": "Agency Number",
+            "number_non_empty_cells": 363174,
+            "number_empty_cells": 0,
+            "number_distinct_values": 182,
+            "frequent_values": [
+                "816",
+                "841",
+                "846",
+                "056",
+                "040"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363103,
+                    "max_value": 945,
+                    "min_value": 2,
+                    "mean": 503.2648752557814,
+                    "stddev": 375.350477741131
+                },
+                {
+                    "type": "TEXT",
+                    "count": 71,
+                    "shortest_values": [
+                        "99S",
+                        "99C",
+                        "99P",
+                        "FULL TIME SALARIED",
+                        "CONTRACTUAL SERVICES"
+                    ],
+                    "longest_values": [
+                        "FIXED & MISCELLANEOUS CHARGES",
+                        "ADDITIONAL GROSS PAY",
+                        "CONTRACTUAL SERVICES",
+                        "FULL TIME SALARIED",
+                        "99P"
+                    ],
+                    "average_length": 11.338028169014084
+                }
+            ]
+        },
+        {
+            "column_name": "Agency Name",
+            "number_non_empty_cells": 363174,
+            "number_empty_cells": 0,
+            "number_distinct_values": 292,
+            "frequent_values": [
+                "DEPARTMENT OF HEALTH AND MENTAL HYGIENE",
+                "DEPARTMENT OF TRANSPORTATION",
+                "DEPARTMENT OF PARKS AND RECREATION",
+                "POLICE DEPARTMENT",
+                "DEPARTMENT OF EDUCATION"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 758,
+                    "min_value": 1,
+                    "mean": 535.6,
+                    "stddev": 269.7623151343914
+                },
+                {
+                    "type": "TEXT",
+                    "count": 363144,
+                    "shortest_values": [
+                        "MAYORALTY",
+                        "CITY CLERK",
+                        "DEBT SERVICE",
+                        "CITY COUNCIL",
+                        "MISCELLANEOUS"
+                    ],
+                    "longest_values": [
+                        "OFFICE OF THE ACTUARY                   ",
+                        "DEPARTMENT OF CULTURAL AFFAIRS          ",
+                        "MANHATTAN COMMUNITY BOARD #7            ",
+                        "MANHATTAN COMMUNITY BOARD #6            ",
+                        "MANHATTAN COMMUNITY BOARD #5            "
+                    ],
+                    "average_length": 29.90830359306501
+                }
+            ]
+        },
+        {
+            "column_name": "Unit Appropriation Number",
+            "number_non_empty_cells": 363174,
+            "number_empty_cells": 0,
+            "number_distinct_values": 255,
+            "frequent_values": [
+                "002",
+                "001",
+                "006",
+                "004",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363144,
+                    "max_value": 890,
+                    "min_value": 1,
+                    "mean": 83.48806809419955,
+                    "stddev": 145.87259104708463
+                },
+                {
+                    "type": "TEXT",
+                    "count": 30,
+                    "shortest_values": [
+                        "FULL YEAR POSITIONS",
+                        "LONGEVITY DIFFERENTIAL",
+                        "FED SEC 8 RENT SUBSIDY",
+                        "CONTRACTUAL SERVICES GENERAL"
+                    ],
+                    "longest_values": [
+                        "CONTRACTUAL SERVICES GENERAL",
+                        "FED SEC 8 RENT SUBSIDY",
+                        "LONGEVITY DIFFERENTIAL",
+                        "FULL YEAR POSITIONS"
+                    ],
+                    "average_length": 24.4
+                }
+            ]
+        },
+        {
+            "column_name": "Unit Appropriation Name",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 709,
+            "frequent_values": [
+                "OTHER THAN PERSONAL SERVICES",
+                "PERSONAL SERVICES",
+                "MAINT & OPERATIONS - OTPS",
+                "ADMINISTRATION-OTPS",
+                "OTPS-TRAFFIC OPERATIONS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 363144,
+                    "shortest_values": [
+                        "RENT",
+                        "LEGAL",
+                        "AUDIT",
+                        "CCRB-PS",
+                        "PROPERTY"
+                    ],
+                    "longest_values": [
+                        "YOUTH WORKFORCE AND CAREER TRAINING - PS",
+                        "CITYWIDE FLEET SERVICES - OTPS          ",
+                        "DESIGN & ENGINEERING-OTPS               ",
+                        "HUMAN CAPITAL                           ",
+                        "BD. OF STANDARD & APPEAL  OTPS          "
+                    ],
+                    "average_length": 25.72851265613641
+                }
+            ]
+        },
+        {
+            "column_name": "Budget Code Number",
+            "number_non_empty_cells": 363148,
+            "number_empty_cells": 26,
+            "number_distinct_values": 5529,
+            "frequent_values": [
+                "1000",
+                "0101",
+                "2000",
+                "0201",
+                "4000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 351044,
+                    "max_value": 9999,
+                    "min_value": 1,
+                    "mean": 3617.712335205843,
+                    "stddev": 2815.7471184355177
+                },
+                {
+                    "type": "TEXT",
+                    "count": 12104,
+                    "shortest_values": [
+                        "A500",
+                        "A301",
+                        "A400",
+                        "A302",
+                        "Z002"
+                    ],
+                    "longest_values": [
+                        "P090",
+                        "A103",
+                        "602C",
+                        "603C",
+                        "604C"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Budget Code Name",
+            "number_non_empty_cells": 363148,
+            "number_empty_cells": 26,
+            "number_distinct_values": 13545,
+            "frequent_values": [
+                "CONVERSION NAME",
+                "ADMINISTRATION",
+                "FINANCIAL PLAN SAVINGS",
+                "EXECUTIVE MANAGEMENT",
+                "ADMINISTRATIVE SERVICES"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 6300,
+                    "min_value": 6300,
+                    "mean": 6300.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 363146,
+                    "shortest_values": [
+                        "P3",
+                        "HR",
+                        "CC",
+                        "Law",
+                        "DOB"
+                    ],
+                    "longest_values": [
+                        "Private Grant - RNY                     ",
+                        "NYCHA - EAP                             ",
+                        "Indigent Legal Services Fund            ",
+                        "Justice Assistance Grant (JAG) FFY'16   ",
+                        "STEP III GRIEVANCE I/C DSS              "
+                    ],
+                    "average_length": 24.57422083679842
+                }
+            ]
+        },
+        {
+            "column_name": "Object Class Number",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "40",
+                "60",
+                "04",
+                "10",
+                "30"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 90,
+                    "min_value": 1,
+                    "mean": 26.92833655546192,
+                    "stddev": 23.003372461299808
+                },
+                {
+                    "type": "TEXT",
+                    "count": 30,
+                    "shortest_values": [
+                        "O",
+                        "P"
+                    ],
+                    "longest_values": [
+                        "P",
+                        "O"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Object Class Name",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "OTHER SERVICES AND CHARGES",
+                "CONTRACTUAL SERVICES",
+                "ADDITIONAL GROSS PAY",
+                "SUPPLIES AND MATERIALS",
+                "FULL TIME SALARIED"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 363144,
+                    "shortest_values": [
+                        "N",
+                        "LAND",
+                        "BUILDINGS",
+                        "UNSALARIED",
+                        "OTHER SALARIED"
+                    ],
+                    "longest_values": [
+                        "PROPERTY AND EQUIPMENT                  ",
+                        "CONTRACTUAL SERVICES                    ",
+                        "MISCELLANEOUS EXPENSE                   ",
+                        "SOCIAL SERVICES                         ",
+                        "OTHER SALARIED                          "
+                    ],
+                    "average_length": 23.007206507611304
+                }
+            ]
+        },
+        {
+            "column_name": "Object Code",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 345,
+            "frequent_values": [
+                "001",
+                "100",
+                "042",
+                "40X",
+                "600"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 331019,
+                    "max_value": 801648,
+                    "min_value": 0,
+                    "mean": 297.97397430358984,
+                    "stddev": 3102.4797598902132
+                },
+                {
+                    "type": "TEXT",
+                    "count": 32125,
+                    "shortest_values": [
+                        "10X",
+                        "51B",
+                        "51A",
+                        "51F",
+                        "51D"
+                    ],
+                    "longest_values": [
+                        "46E",
+                        "50D",
+                        "50I",
+                        "X56",
+                        "X57"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Object Code Name",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 489,
+            "frequent_values": [
+                "FULL YEAR POSITIONS",
+                "CONTRACTUAL SERVICES-GENERAL",
+                "SUPPLIES + MATERIALS - GENERAL",
+                "LONGEVITY DIFFERENTIAL",
+                "CONTRACTUAL SERVICES GENERAL"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 801648,
+                    "min_value": 500,
+                    "mean": 234998.66666666666,
+                    "stddev": 266054.38930681493
+                },
+                {
+                    "type": "TEXT",
+                    "count": 363114,
+                    "shortest_values": [
+                        "POSTAGE",
+                        "OVERTIME",
+                        "FUEL OIL",
+                        "JTPA-WAGES",
+                        "HEAD START"
+                    ],
+                    "longest_values": [
+                        "OVERNIGHT TRVL EXP-SPECIAL              ",
+                        "HOLIDAY PAY                             ",
+                        "FUEL OIL                                ",
+                        "PURCH DATA PROCESSING EQUIPT            ",
+                        "SECURITY EQUIPMENT                      "
+                    ],
+                    "average_length": 23.171910199000866
+                }
+            ]
+        },
+        {
+            "column_name": "Intra-City Purchase Code",
+            "number_non_empty_cells": 59028,
+            "number_empty_cells": 304146,
+            "number_distinct_values": 88,
+            "frequent_values": [
+                " ",
+                "856",
+                "858",
+                "819",
+                "042"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 29539,
+                    "max_value": 801648,
+                    "min_value": 0,
+                    "mean": 859.8434611869054,
+                    "stddev": 10351.194357792197
+                },
+                {
+                    "type": "TEXT",
+                    "count": 29489,
+                    "shortest_values": [
+                        " ",
+                        "   "
+                    ],
+                    "longest_values": [
+                        "   ",
+                        " "
+                    ],
+                    "average_length": 1.0016277255925938
+                }
+            ]
+        },
+        {
+            "column_name": "Responsibility Center Code",
+            "number_non_empty_cells": 299905,
+            "number_empty_cells": 63269,
+            "number_distinct_values": 760,
+            "frequent_values": [
+                "1000",
+                "0001",
+                "0002",
+                "0020",
+                "    "
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 292951,
+                    "max_value": 9100,
+                    "min_value": 0,
+                    "mean": 1414.9573034398245,
+                    "stddev": 2187.5868311840027
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6954,
+                    "shortest_values": [
+                        "LN",
+                        "LB",
+                        "LQ",
+                        "ED",
+                        "    "
+                    ],
+                    "longest_values": [
+                        "LQ  ",
+                        "LB  ",
+                        "LN  ",
+                        "    ",
+                        "ED"
+                    ],
+                    "average_length": 3.979580097785447
+                }
+            ]
+        },
+        {
+            "column_name": "Responsibility Center Name",
+            "number_non_empty_cells": 293029,
+            "number_empty_cells": 70145,
+            "number_distinct_values": 1777,
+            "frequent_values": [
+                "EPIDEMIOLOGY AND PREVENTION",
+                "ADMINISTRATION",
+                "ENVIRONMENTAL HEALTH SERVICES",
+                "CHIEF MEDICAL EXAMINER",
+                "EXECUTIVE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.06666666666666667,
+                    "stddev": 0.2494438257849295
+                },
+                {
+                    "type": "TEXT",
+                    "count": 292999,
+                    "shortest_values": [
+                        "ECTP",
+                        "TORT",
+                        "MRCC",
+                        "BICS",
+                        "ACCO"
+                    ],
+                    "longest_values": [
+                        "D/M FOR PLANNING/COMMUNITY REL          ",
+                        "PLANNING AND RESEARCH                   ",
+                        "BRIDGE EXECUTIVE MGMT + ADMIN           ",
+                        "CITY SHERIFF                            ",
+                        "AUDIT                                   "
+                    ],
+                    "average_length": 23.99000337885112
+                }
+            ]
+        },
+        {
+            "column_name": "Personal Service/Other Than Personal Service Indicator",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "O",
+                "P",
+                "0",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.06666666666666667,
+                    "stddev": 0.2494438257849295
+                },
+                {
+                    "type": "TEXT",
+                    "count": 363114,
+                    "shortest_values": [
+                        "O",
+                        "P"
+                    ],
+                    "longest_values": [
+                        "P",
+                        "O"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Financial Plan Savings Flag",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "N",
+                "Y",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 363114,
+                    "shortest_values": [
+                        "N",
+                        "Y"
+                    ],
+                    "longest_values": [
+                        "Y",
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Adopted Budget Amount",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 30151,
+            "frequent_values": [
+                "0",
+                "1000",
+                "5000",
+                "2000",
+                "10000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363144,
+                    "max_value": 5364969024,
+                    "min_value": -529311408,
+                    "mean": 2605961.720926134,
+                    "stddev": 52708033.26712268
+                }
+            ]
+        },
+        {
+            "column_name": "Current Modified Budget Amount",
+            "number_non_empty_cells": 363144,
+            "number_empty_cells": 30,
+            "number_distinct_values": 79222,
+            "frequent_values": [
+                "0",
+                "1000",
+                "5000",
+                "2000",
+                "500"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363144,
+                    "max_value": 5543733142,
+                    "min_value": -408917193,
+                    "mean": 2712219.4431520277,
+                    "stddev": 54133471.43992897
+                }
+            ]
+        },
+        {
+            "column_name": "Financial Plan Amount",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 35425,
+            "frequent_values": [
+                "0",
+                "1000",
+                "5000",
+                "2000",
+                "10000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 4953233142,
+                    "min_value": -529311408,
+                    "mean": 2707737.5461755814,
+                    "stddev": 54505714.75753315
+                }
+            ]
+        },
+        {
+            "column_name": "Adopted Budget Position",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 540,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 30613,
+                    "min_value": -602,
+                    "mean": 9.051207058940168,
+                    "stddev": 267.99160213145524
+                }
+            ]
+        },
+        {
+            "column_name": "Current Modified Budget Position",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 573,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 30613,
+                    "min_value": -602,
+                    "mean": 9.135778295521517,
+                    "stddev": 268.9622665612753
+                }
+            ]
+        },
+        {
+            "column_name": "Financial Plan Position",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 592,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 30830,
+                    "min_value": -602,
+                    "mean": 9.158525972559582,
+                    "stddev": 270.62739666236325
+                }
+            ]
+        },
+        {
+            "column_name": "Adopted Budget - Number of Contracts",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 1200,
+                    "min_value": 0,
+                    "mean": 0.5407227482278293,
+                    "stddev": 11.783552434157746
+                }
+            ]
+        },
+        {
+            "column_name": "Current Modified Budget - Number of Contracts",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 104,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 1200,
+                    "min_value": -1,
+                    "mean": 0.551556811359518,
+                    "stddev": 11.87646694454989
+                }
+            ]
+        },
+        {
+            "column_name": "Financial Plan - Number of Contracts",
+            "number_non_empty_cells": 363114,
+            "number_empty_cells": 60,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 363114,
+                    "max_value": 1200,
+                    "min_value": 0,
+                    "mean": 0.537635563486949,
+                    "stddev": 11.81592471917773
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

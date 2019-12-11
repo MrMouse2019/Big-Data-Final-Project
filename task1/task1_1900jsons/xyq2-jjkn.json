@@ -1,0 +1,459 @@
+{
+    "dataset_name": "xyq2-jjkn",
+    "columns": [
+        {
+            "column_name": "Extract Run Date",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "05/25/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 309260,
+                    "max_value": "2018-05-25 00:00:00",
+                    "min_value": "2018-05-25 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "UniqueRandomComplaintId",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 104707,
+            "frequent_values": [
+                "103619",
+                "41227",
+                "101424",
+                "103650",
+                "81412"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 309260,
+                    "max_value": 104707,
+                    "min_value": 1,
+                    "mean": 53567.74362348833,
+                    "stddev": 30014.188614555165
+                }
+            ]
+        },
+        {
+            "column_name": "Allegation Id",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 309260,
+                    "max_value": 36,
+                    "min_value": 1,
+                    "mean": 2.9941925887602663,
+                    "stddev": 2.583427582198121
+                }
+            ]
+        },
+        {
+            "column_name": "Allegation FADO Type",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Abuse of Authority",
+                "Force",
+                "Discourtesy",
+                "Offensive Language",
+                "OMN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "OMN",
+                        "Force",
+                        "Discourtesy",
+                        "Offensive Language",
+                        "Abuse of Authority"
+                    ],
+                    "longest_values": [
+                        "Abuse of Authority",
+                        "Offensive Language",
+                        "Discourtesy",
+                        "Force",
+                        "OMN"
+                    ],
+                    "average_length": 12.623485093448878
+                }
+            ]
+        },
+        {
+            "column_name": "Allegation",
+            "number_non_empty_cells": 309257,
+            "number_empty_cells": 3,
+            "number_distinct_values": 107,
+            "frequent_values": [
+                "Physical force",
+                "Word",
+                "Threat of arrest",
+                "Refusal to provide name/shield number",
+                "Premises entered and/or searched"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309257,
+                    "shortest_values": [
+                        "Beat",
+                        "Slap",
+                        "Word",
+                        "Stop",
+                        "Mace"
+                    ],
+                    "longest_values": [
+                        "Failure to produce stop and frisk report",
+                        "Improper dissemination of medical info",
+                        "Electronic device information deletion",
+                        "Nightstick as club (incl asp & baton)",
+                        "Refusal to provide name/shield number"
+                    ],
+                    "average_length": 15.79562629140165
+                }
+            ]
+        },
+        {
+            "column_name": "Case Type",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "CCRB"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "CCRB"
+                    ],
+                    "longest_values": [
+                        "CCRB"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Closed Year",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "2009",
+                "2007",
+                "2006",
+                "2008",
+                "2010"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 309260,
+                    "max_value": 2017,
+                    "min_value": 2000,
+                    "mean": 2008.6570167496604,
+                    "stddev": 4.707160939115344
+                }
+            ]
+        },
+        {
+            "column_name": "Days From Received Date To Case Closing",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 879,
+            "frequent_values": [
+                "84",
+                "91",
+                "98",
+                "77",
+                "78"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 309260,
+                    "max_value": 3361,
+                    "min_value": 1,
+                    "mean": 222.67065252538316,
+                    "stddev": 157.80989725042087
+                }
+            ]
+        },
+        {
+            "column_name": "Re-opened",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.988162064282481
+                }
+            ]
+        },
+        {
+            "column_name": "Ever On DA Hold",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.996423721140788
+                }
+            ]
+        },
+        {
+            "column_name": "Complaint Outcome Path",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Full Investigation",
+                "Truncated",
+                "Mediation Attempted",
+                "Mediated",
+                "Other"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "Other",
+                        "Mediated",
+                        "Truncated",
+                        "Full Investigation",
+                        "Mediation Attempted"
+                    ],
+                    "longest_values": [
+                        "Mediation Attempted",
+                        "Full Investigation",
+                        "Truncated",
+                        "Mediated",
+                        "Other"
+                    ],
+                    "average_length": 13.767871693720494
+                }
+            ]
+        },
+        {
+            "column_name": "Complaint Disposition",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "Unsubstantiated",
+                "Complainant Uncooperative",
+                "Unfounded",
+                "Complaint Withdrawn",
+                "Complainant Unavailable"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "Referral",
+                        "Mediated",
+                        "Unfounded",
+                        "Exonerated",
+                        "Conciliated"
+                    ],
+                    "longest_values": [
+                        "Substantiated (Command Lvl Instructions)",
+                        "Substantiated (Command Discipline B)",
+                        "Substantiated (Command Discipline A)",
+                        "Substantiated (Formalized Training)",
+                        "Miscellaneous - Subject Terminated"
+                    ],
+                    "average_length": 19.44494600012934
+                }
+            ]
+        },
+        {
+            "column_name": "Allegation Outcome Path",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Full Investigation",
+                "Truncated",
+                "Other",
+                "Mediation Attempted",
+                "Mediated"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "Other",
+                        "Mediated",
+                        "Truncated",
+                        "Full Investigation",
+                        "Mediation Attempted"
+                    ],
+                    "longest_values": [
+                        "Mediation Attempted",
+                        "Full Investigation",
+                        "Truncated",
+                        "Mediated",
+                        "Other"
+                    ],
+                    "average_length": 13.227003168854685
+                }
+            ]
+        },
+        {
+            "column_name": "Allegation Disposition",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "Complainant Uncooperative",
+                "Unsubstantiated",
+                "Exonerated",
+                "Complaint Withdrawn",
+                "Unfounded"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "Referral",
+                        "Mediated",
+                        "Unfounded",
+                        "Exonerated",
+                        "Conciliated"
+                    ],
+                    "longest_values": [
+                        "Substantiated (Command Lvl Instructions)",
+                        "Other Misconduct (Command Discipline)",
+                        "Substantiated (Command Discipline B)",
+                        "Substantiated (Command Discipline A)",
+                        "Substantiated (Formalized Training)"
+                    ],
+                    "average_length": 19.03866972773718
+                }
+            ]
+        },
+        {
+            "column_name": "Borough Of Incident",
+            "number_non_empty_cells": 308550,
+            "number_empty_cells": 710,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 308550,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Outside NYC"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Outside NYC",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens"
+                    ],
+                    "average_length": 7.435456165937449
+                }
+            ]
+        },
+        {
+            "column_name": "Patrol Borough Of Incident",
+            "number_non_empty_cells": 309260,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Bronx",
+                "Brooklyn North",
+                "Brooklyn South",
+                "Manhattan North",
+                "Queens South"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309260,
+                    "shortest_values": [
+                        "Other",
+                        "Bronx",
+                        "Queens North",
+                        "Queens South",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Manhattan South",
+                        "Manhattan North",
+                        "Brooklyn South",
+                        "Brooklyn North",
+                        "Staten Island"
+                    ],
+                    "average_length": 11.66985707818664
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

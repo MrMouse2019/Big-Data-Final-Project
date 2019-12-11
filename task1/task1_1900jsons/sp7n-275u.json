@@ -1,0 +1,237 @@
+{
+    "dataset_name": "sp7n-275u",
+    "columns": [
+        {
+            "column_name": "Medallion_Number",
+            "number_non_empty_cells": 13741,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13741,
+            "frequent_values": [
+                "3G41",
+                "1E81",
+                "1H51",
+                "1H50",
+                "4J46"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 810,
+                    "max_value": 9e+99,
+                    "min_value": 10000000000.0,
+                    "mean": 6.172839506172839e+97,
+                    "stddev": 5.929549023362315e+98
+                },
+                {
+                    "type": "TEXT",
+                    "count": 12931,
+                    "shortest_values": [
+                        "3V65",
+                        "3H45",
+                        "4J61",
+                        "8K42",
+                        "5A44"
+                    ],
+                    "longest_values": [
+                        "SBV167",
+                        "SBV113",
+                        "sbv147",
+                        "SBV127",
+                        "SBV269"
+                    ],
+                    "average_length": 4.024437398499729
+                }
+            ]
+        },
+        {
+            "column_name": "1st_Inspection_DMV_Facility_Inspection_Month",
+            "number_non_empty_cells": 13592,
+            "number_empty_cells": 149,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "January",
+                "February",
+                "March",
+                "April"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13592,
+                    "shortest_values": [
+                        "April",
+                        "March",
+                        "January",
+                        "February"
+                    ],
+                    "longest_values": [
+                        "February",
+                        "January",
+                        "March",
+                        "April"
+                    ],
+                    "average_length": 6.261992348440259
+                }
+            ]
+        },
+        {
+            "column_name": "2nd_Inspection_Scheduled_Date",
+            "number_non_empty_cells": 13602,
+            "number_empty_cells": 139,
+            "number_distinct_values": 85,
+            "frequent_values": [
+                "06/20/2019",
+                "06/25/2019",
+                "06/18/2019",
+                "06/17/2019",
+                "06/26/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 13602,
+                    "max_value": "2019-08-30 00:00:00",
+                    "min_value": "2019-05-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "2nd_Inspection_Scheduled_Time",
+            "number_non_empty_cells": 13602,
+            "number_empty_cells": 139,
+            "number_distinct_values": 23,
+            "frequent_values": [
+                "06:30 AM",
+                "06:00 AM",
+                "05:00 AM",
+                "07:00 AM",
+                "05:30 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 13602,
+                    "max_value": "1900-01-01 11:00:00",
+                    "min_value": "1900-01-01 05:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "3rd_Inspection_Scheduled_Date",
+            "number_non_empty_cells": 10351,
+            "number_empty_cells": 3390,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "11/01/2019",
+                "11/14/2019",
+                "11/15/2019",
+                "11/08/2019",
+                "11/22/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 10351,
+                    "max_value": "2019-11-29 00:00:00",
+                    "min_value": "2019-09-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "3rd_Inspection_Scheduled_Time",
+            "number_non_empty_cells": 10351,
+            "number_empty_cells": 3390,
+            "number_distinct_values": 22,
+            "frequent_values": [
+                "06:30 AM",
+                "05:30 AM",
+                "06:00 AM",
+                "05:00 AM",
+                "07:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 10351,
+                    "max_value": "1900-01-01 11:00:00",
+                    "min_value": "1900-01-01 05:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "FleetAgentCode",
+            "number_non_empty_cells": 12270,
+            "number_empty_cells": 1471,
+            "number_distinct_values": 67,
+            "frequent_values": [
+                "000",
+                "307",
+                "202",
+                "253",
+                "327"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12270,
+                    "max_value": 999,
+                    "min_value": 0,
+                    "mean": 167.77718011409942,
+                    "stddev": 147.2848541599269
+                }
+            ]
+        },
+        {
+            "column_name": "AgentName",
+            "number_non_empty_cells": 8449,
+            "number_empty_cells": 5292,
+            "number_distinct_values": 63,
+            "frequent_values": [
+                "TAXIFLEET MANAGEMENT LLC",
+                "ALL TAXI MANAGEMENT INC",
+                "QUEENS MEDALLION LEASING INC.",
+                "WHITE AND BLUE GROUP CORP.",
+                "S & R MEDALLION CORP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8449,
+                    "shortest_values": [
+                        "ALL TAXI NY LLC",
+                        "TAXI WORLD INC.",
+                        "ATM TAXI LEASING",
+                        "ANN SERVICE CORP",
+                        "GOTHAM YELLOW LLC"
+                    ],
+                    "longest_values": [
+                        "MANHATTAN CHECKER MANAGEMENT C",
+                        "D & J MANAGEMENT OF QUEENS INC",
+                        "YELLOW CAB SLS JET MANAGEMENT",
+                        "UNITED TAXI MANAGEMENT GROUP,",
+                        "QUEENS MEDALLION LEASING INC."
+                    ],
+                    "average_length": 23.52029826014913
+                }
+            ]
+        },
+        {
+            "column_name": "Last_Updated_Date_Time",
+            "number_non_empty_cells": 13741,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "06/10/2019  05:01 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 13741,
+                    "max_value": "2019-06-10 17:01:00",
+                    "min_value": "2019-06-10 17:01:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

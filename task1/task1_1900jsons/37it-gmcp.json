@@ -1,0 +1,841 @@
+{
+    "dataset_name": "37it-gmcp",
+    "columns": [
+        {
+            "column_name": "BBLE",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "1013290001",
+                "1008620029",
+                "1010140033",
+                "1010860001",
+                "1001920001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 46,
+                    "max_value": 1013290001,
+                    "min_value": 1000041010,
+                    "mean": 1008356677.3913044,
+                    "stddev": 4756943.430493844
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "1012760058_1",
+                        "1012580009_1",
+                        "1013010001_2",
+                        "1008570024_1",
+                        "1007620025_1"
+                    ],
+                    "longest_values": [
+                        "1007620025_1",
+                        "1008570024_1",
+                        "1013010001_2",
+                        "1012580009_1",
+                        "1012760058_1"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "1-849-70",
+                "1-4-1010",
+                "1-1040-29",
+                "1-1288-7",
+                "1-862-29"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "1-43-1",
+                        "1-46-1",
+                        "1-37-23",
+                        "1-192-1",
+                        "1-882-3"
+                    ],
+                    "longest_values": [
+                        "1-1268-1102",
+                        "1-1296-1001",
+                        "1-510-7502",
+                        "1-817-7502",
+                        "1-1294-46"
+                    ],
+                    "average_length": 8.450980392156863
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Manhattan"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Manhattan"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Building Name",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "55 Broad Street",
+                "Worldwide Plaza",
+                "630 3rd Avenue",
+                "3 Times Square",
+                "750 3rd Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "The Plant",
+                        "915 Broadway",
+                        "1675 Broadway",
+                        "Puck Building",
+                        "1515 Broadway"
+                    ],
+                    "longest_values": [
+                        "1185 Avenue of the Americas",
+                        "1350 Avenue of the Americas",
+                        "32 Avenue of the Americas",
+                        "215 Park Avenue South",
+                        "304 Park Avenue South"
+                    ],
+                    "average_length": 17.333333333333332
+                }
+            ]
+        },
+        {
+            "column_name": "Street Address",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "44 WALL STREET",
+                "381 PARK AVENUE SOUTH",
+                "180 MAIDEN LANE",
+                "825 8 AVENUE",
+                "295 Lafayette Street"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "666 5 AVENUE",
+                        "750 3 AVENUE",
+                        "919 3 AVENUE",
+                        "100 5 AVENUE",
+                        "630 3 AVENUE"
+                    ],
+                    "longest_values": [
+                        "1185 AVENUE OF THE AMERIC",
+                        "1350 AVENUE OF THE AMERIC",
+                        "1114 AVENUE OF THE AMERIC",
+                        "304 PARK AVENUE SOUTH",
+                        "369 PARK AVENUE SOUTH"
+                    ],
+                    "average_length": 16.686274509803923
+                }
+            ]
+        },
+        {
+            "column_name": "Certification Class",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Platinum",
+                "Gold",
+                "Silver"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Gold",
+                        "Silver",
+                        "Platinum"
+                    ],
+                    "longest_values": [
+                        "Platinum",
+                        "Silver",
+                        "Gold"
+                    ],
+                    "average_length": 6.2745098039215685
+                }
+            ]
+        },
+        {
+            "column_name": "# of Carriers",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "5 or more",
+                "4",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8,
+                    "max_value": 4,
+                    "min_value": 3,
+                    "mean": 3.75,
+                    "stddev": 0.4330127018922193
+                },
+                {
+                    "type": "TEXT",
+                    "count": 43,
+                    "shortest_values": [
+                        "5 or more"
+                    ],
+                    "longest_values": [
+                        "5 or more"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Coax/Cable Connections",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Fiber Connection",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Satellite/Fixed Wireless Connection",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.392156862745098
+                }
+            ]
+        },
+        {
+            "column_name": "Fiber Distribution",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Full Distribution (all floors)",
+                "Partial Distribution (some floors)",
+                "No Distribution"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "No Distribution",
+                        "Full Distribution (all floors)",
+                        "Partial Distribution (some floors)"
+                    ],
+                    "longest_values": [
+                        "Partial Distribution (some floors)",
+                        "Full Distribution (all floors)",
+                        "No Distribution"
+                    ],
+                    "average_length": 31.03921568627451
+                }
+            ]
+        },
+        {
+            "column_name": "# ISPs",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "5 or more",
+                "4",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12,
+                    "max_value": 4,
+                    "min_value": 3,
+                    "mean": 3.5,
+                    "stddev": 0.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 39,
+                    "shortest_values": [
+                        "5 or more"
+                    ],
+                    "longest_values": [
+                        "5 or more"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Multiple Points of Entry",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.8823529411764706
+                }
+            ]
+        },
+        {
+            "column_name": "Designated Telecom Utility Space",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Combination of open, shared, and dedicated  space",
+                "Common (shared) room",
+                "Dedicated room",
+                "Hallway/Open Space"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Dedicated room",
+                        "Hallway/Open Space",
+                        "Common (shared) room",
+                        "Combination of open, shared, and dedicated  space"
+                    ],
+                    "longest_values": [
+                        "Combination of open, shared, and dedicated  space",
+                        "Common (shared) room",
+                        "Hallway/Open Space",
+                        "Dedicated room"
+                    ],
+                    "average_length": 35.27450980392157
+                }
+            ]
+        },
+        {
+            "column_name": "Additional Telecom Space",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.9215686274509802
+                }
+            ]
+        },
+        {
+            "column_name": "Riser Space for Current Providers",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Riser Space for Additional Providers",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.9411764705882355
+                }
+            ]
+        },
+        {
+            "column_name": "Diverse Riser Locations",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "Does not have two or more diverse riser locations"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Yes",
+                        "Does not have two or more diverse riser locations"
+                    ],
+                    "longest_values": [
+                        "Does not have two or more diverse riser locations",
+                        "Yes"
+                    ],
+                    "average_length": 14.72549019607843
+                }
+            ]
+        },
+        {
+            "column_name": "Signed POEs",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes - for installed connections",
+                "None available"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "None available",
+                        "Yes - for installed connections"
+                    ],
+                    "longest_values": [
+                        "Yes - for installed connections",
+                        "None available"
+                    ],
+                    "average_length": 26.666666666666668
+                }
+            ]
+        },
+        {
+            "column_name": "Agreements",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.6470588235294117
+                }
+            ]
+        },
+        {
+            "column_name": "New Service Providers",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No capability available"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Yes",
+                        "No capability available"
+                    ],
+                    "longest_values": [
+                        "No capability available",
+                        "Yes"
+                    ],
+                    "average_length": 4.568627450980392
+                }
+            ]
+        },
+        {
+            "column_name": "ISPs",
+            "number_non_empty_cells": 51,
+            "number_empty_cells": 0,
+            "number_distinct_values": 50,
+            "frequent_values": [
+                "Verizon,Time Warner Cable,Lightpath,Lightower,Cogent,AT&T,Abovenet",
+                "Lightower,Time Warner Cable,Verizon",
+                "Other,Zayo,Verizon,Time Warner Cable,Reliance,Cogent,AT&T,Abovenet",
+                "RCN,Time Warner Cable,Lightower,AT&T,Verizon",
+                "Verizon,Time Warner Cable,MegaPath"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 51,
+                    "shortest_values": [
+                        "Towerstream,Verizon,Cogent",
+                        "Verizon,Time Warner Cable,MegaPath",
+                        "Lightower,Time Warner Cable,Verizon",
+                        "Verizon,Time Warner Cable,OCG,Cogent",
+                        "AT&T,Other,Time Warner Cable,Verizon"
+                    ],
+                    "longest_values": [
+                        "Other,Zayo,XO Communications,Verizon,TW Telecom,Towerstream,Time Warner Cable,Sprint,Reliance,RCN,Rainbow Broadband,OCG,Lightpath,Lightower,Level(3),Cogent,Century Link,AT&T,Abovenet",
+                        "XO Communications,Verizon,Time Warner Cable,Lightpath,Lightower,Level(3),Zayo,Reliance Globalcom,Cogent,AT&T,Verizon Business,Sprint,CDS",
+                        "Verizon FIOS,Verizon,TW Telecom,Time Warner Cable,Sidera,Rainbow Broadband,Lightpath,Covad,Cogent,Broadview,AT&T,Abovenet",
+                        "Zayo,Verizon FIOS,Verizon,Time Warner Cable,Rainbow Broadband,Lightpath,Lightower,Cogent",
+                        "Verizon,TW Telecom,Time Warner Cable,Lightpath,Lightower,Level(3),Cogent,AT&T,Abovenet"
+                    ],
+                    "average_length": 60.627450980392155
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "40.751807",
+                "40.70654",
+                "40.763034",
+                "40.711425",
+                "40.757636"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 47,
+                    "max_value": 40.770125,
+                    "min_value": 40.702444,
+                    "mean": 40.742879489361705,
+                    "stddev": 0.019410042729487573
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "-73.983005",
+                "-74.011632",
+                "-73.988713",
+                "-73.968333",
+                "-73.990927"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 47,
+                    "max_value": -73.968333,
+                    "min_value": -74.015673,
+                    "mean": -73.98809027659576,
+                    "stddev": 0.013372173590725678
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "5",
+                "1",
+                "6",
+                "4",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47,
+                    "max_value": 6,
+                    "min_value": 1,
+                    "mean": 4.1063829787234045,
+                    "stddev": 1.72878068644867
+                }
+            ]
+        },
+        {
+            "column_name": "Community Council ",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "4",
+                "1",
+                "3",
+                "2",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47,
+                    "max_value": 6,
+                    "min_value": 1,
+                    "mean": 2.8085106382978724,
+                    "stddev": 1.2822569509207966
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "80",
+                "119",
+                "92",
+                "56",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47,
+                    "max_value": 31704,
+                    "min_value": 7,
+                    "mean": 1659.468085106383,
+                    "stddev": 6534.041067709428
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "1036466",
+                "1036150",
+                "1035709",
+                "1013643",
+                "1083181"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47,
+                    "max_value": 1085972,
+                    "min_value": 1000005,
+                    "mean": 1029106.7872340425,
+                    "stddev": 24570.7969838753
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Midtown-Midtown South                                                      ",
+                "Battery Park City-Lower Manhattan                                          ",
+                "Turtle Bay-East Midtown                                                    ",
+                "Murray Hill-Kips Bay                                                       ",
+                "Hudson Yards-Chelsea-Flatiron-Union Square                                 "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 47,
+                    "shortest_values": [
+                        "Midtown-Midtown South                                                      ",
+                        "Battery Park City-Lower Manhattan                                          ",
+                        "Murray Hill-Kips Bay                                                       ",
+                        "Turtle Bay-East Midtown                                                    ",
+                        "Clinton                                                                    "
+                    ],
+                    "longest_values": [
+                        "SoHo-TriBeCa-Civic Center-Little Italy                                     ",
+                        "Gramercy                                                                   ",
+                        "Hudson Yards-Chelsea-Flatiron-Union Square                                 ",
+                        "Clinton                                                                    ",
+                        "Turtle Bay-East Midtown                                                    "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "10017",
+                "10036",
+                "10022",
+                "10019",
+                "10016"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47,
+                    "max_value": 10281,
+                    "min_value": 10003,
+                    "mean": 10038.404255319148,
+                    "stddev": 62.668210942576934
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 47,
+            "number_empty_cells": 4,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "4",
+                "1",
+                "3",
+                "2",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 47,
+                    "max_value": 6,
+                    "min_value": 1,
+                    "mean": 2.8085106382978724,
+                    "stddev": 1.2822569509207966
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

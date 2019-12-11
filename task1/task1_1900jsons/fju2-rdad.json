@@ -1,0 +1,520 @@
+{
+    "dataset_name": "fju2-rdad",
+    "columns": [
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2012",
+                "2013",
+                "2011",
+                "2014",
+                "2015"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 2015,
+                    "min_value": 2011,
+                    "mean": 2013.0,
+                    "stddev": 1.4142135623730951
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Queens",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6005,
+                    "shortest_values": [
+                        "All",
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.683597002497918
+                }
+            ]
+        },
+        {
+            "column_name": "UHF",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "All",
+                "West Queens",
+                "Central Harlem - Morningside Heights",
+                "East Flatbush - Flatbush",
+                "Kingsbridge - Riverdale"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6005,
+                    "shortest_values": [
+                        "All",
+                        "Jamaica",
+                        "Rockaway",
+                        "Greenpoint",
+                        "West Queens"
+                    ],
+                    "longest_values": [
+                        "Central Harlem - Morningside Heights",
+                        "Bedford Stuyvesant - Crown Heights",
+                        "Downtown - Heights - Park Slope",
+                        "Union Square - Lower East Side",
+                        "Coney Island - Sheepshead Bay"
+                    ],
+                    "average_length": 17.50874271440466
+                }
+            ]
+        },
+        {
+            "column_name": "Gender",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Male",
+                "Female",
+                "All",
+                "Transgender"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6005,
+                    "shortest_values": [
+                        "All",
+                        "Male",
+                        "Female",
+                        "Transgender"
+                    ],
+                    "longest_values": [
+                        "Transgender",
+                        "Female",
+                        "Male",
+                        "All"
+                    ],
+                    "average_length": 4.925062447960033
+                }
+            ]
+        },
+        {
+            "column_name": "Age",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "All",
+                "60+",
+                "13 - 19",
+                "50 - 59",
+                "40 - 49"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6005,
+                    "shortest_values": [
+                        "All",
+                        "60+",
+                        "13 - 19",
+                        "20 - 29",
+                        "30 - 39"
+                    ],
+                    "longest_values": [
+                        "50 - 59",
+                        "40 - 49",
+                        "30 - 39",
+                        "20 - 29",
+                        "13 - 19"
+                    ],
+                    "average_length": 4.598667776852623
+                }
+            ]
+        },
+        {
+            "column_name": "Race",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "All",
+                "Latino/Hispanic",
+                "Black",
+                "White",
+                "Asian/Pacific Islander"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 6005,
+                    "shortest_values": [
+                        "All",
+                        "Black",
+                        "White",
+                        "Other/Unknown",
+                        "Latino/Hispanic"
+                    ],
+                    "longest_values": [
+                        "Asian/Pacific Islander",
+                        "Latino/Hispanic",
+                        "Other/Unknown",
+                        "White",
+                        "Black"
+                    ],
+                    "average_length": 6.597002497918401
+                }
+            ]
+        },
+        {
+            "column_name": "HIV diagnoses",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 296,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 3379,
+                    "min_value": 0,
+                    "mean": 26.49458784346378,
+                    "stddev": 130.9842399670723
+                }
+            ]
+        },
+        {
+            "column_name": "HIV diagnosis rate",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1336,
+            "frequent_values": [
+                "0",
+                "6.1",
+                "4.6",
+                "6.8",
+                "6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2003,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 260.7933100349476,
+                    "stddev": 4989.519981095593
+                },
+                {
+                    "type": "REAL",
+                    "count": 4002,
+                    "max_value": 635.3,
+                    "min_value": 0.5,
+                    "mean": 48.78498250874563,
+                    "stddev": 54.32324244305954
+                }
+            ]
+        },
+        {
+            "column_name": "Concurrent diagnoses",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 127,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 640,
+                    "min_value": 0,
+                    "mean": 5.095087427144047,
+                    "stddev": 24.49053481654105
+                }
+            ]
+        },
+        {
+            "column_name": "% linked to care within 3 months",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "99999",
+                "100",
+                "67",
+                "50",
+                "75"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 25399.3164029975,
+                    "stddev": 43467.033020924864
+                }
+            ]
+        },
+        {
+            "column_name": "AIDS diagnoses",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 233,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 33.29991673605329,
+                    "stddev": 1292.7557818662515
+                }
+            ]
+        },
+        {
+            "column_name": "AIDS diagnosis rate",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1032,
+            "frequent_values": [
+                "0",
+                "5.1",
+                "7.3",
+                "4.4",
+                "6.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2351,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 261.0850701829009,
+                    "stddev": 5045.081094164594
+                },
+                {
+                    "type": "REAL",
+                    "count": 3654,
+                    "max_value": 494.5,
+                    "min_value": 0.4,
+                    "mean": 33.76710454296672,
+                    "stddev": 38.394220032459884
+                }
+            ]
+        },
+        {
+            "column_name": "PLWDHI prevalence",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 104,
+            "frequent_values": [
+                "0.1",
+                "0.2",
+                "0",
+                "0.3",
+                "0.4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 758,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 2507.267810026385,
+                    "stddev": 15632.281590555804
+                },
+                {
+                    "type": "REAL",
+                    "count": 5247,
+                    "max_value": 15.3,
+                    "min_value": 0.1,
+                    "mean": 1.175929102344203,
+                    "stddev": 1.4742067893066877
+                }
+            ]
+        },
+        {
+            "column_name": "% viral suppression",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 78,
+            "frequent_values": [
+                "100",
+                "83",
+                "80",
+                "75",
+                "79"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 2655.912073272273,
+                    "stddev": 15845.03611557921
+                }
+            ]
+        },
+        {
+            "column_name": "Deaths",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 233,
+            "frequent_values": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6005,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 49.44746044962531,
+                    "stddev": 1826.1350577303226
+                }
+            ]
+        },
+        {
+            "column_name": "Death rate",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 508,
+            "frequent_values": [
+                "0",
+                "8.3",
+                "7.3",
+                "5.7",
+                "6.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2678,
+                    "max_value": 125,
+                    "min_value": 0,
+                    "mean": 2.5373412994772218,
+                    "stddev": 9.064612600353659
+                },
+                {
+                    "type": "REAL",
+                    "count": 3327,
+                    "max_value": 263.2,
+                    "min_value": 0.3,
+                    "mean": 16.62353471596036,
+                    "stddev": 18.1525849734366
+                }
+            ]
+        },
+        {
+            "column_name": "HIV-related death rate",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 291,
+            "frequent_values": [
+                "0",
+                "99999",
+                "2.6",
+                "3.7",
+                "2.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3874,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 31001.719669592152,
+                    "stddev": 46249.175848599465
+                },
+                {
+                    "type": "REAL",
+                    "count": 2131,
+                    "max_value": 172.2,
+                    "min_value": 0.2,
+                    "mean": 8.66466447677148,
+                    "stddev": 12.712015570196659
+                }
+            ]
+        },
+        {
+            "column_name": "Non-HIV-related death rate",
+            "number_non_empty_cells": 6005,
+            "number_empty_cells": 0,
+            "number_distinct_values": 365,
+            "frequent_values": [
+                "0",
+                "99999",
+                "4.1",
+                "5.2",
+                "5.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3601,
+                    "max_value": 99999,
+                    "min_value": 0,
+                    "mean": 33352.38794779228,
+                    "stddev": 47145.903419801994
+                },
+                {
+                    "type": "REAL",
+                    "count": 2404,
+                    "max_value": 210.5,
+                    "min_value": 0.3,
+                    "mean": 11.833402662229634,
+                    "stddev": 14.999375857317442
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

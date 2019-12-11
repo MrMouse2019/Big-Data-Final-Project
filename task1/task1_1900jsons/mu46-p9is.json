@@ -1,0 +1,1397 @@
+{
+    "dataset_name": "mu46-p9is",
+    "columns": [
+        {
+            "column_name": "OBJECTID",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 405100,
+            "frequent_values": [
+                11536383,
+                6846371,
+                12119984,
+                13172658,
+                11061173
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 405100,
+                    "max_value": 16078795,
+                    "min_value": 76403,
+                    "mean": 8250115.866929153,
+                    "stddev": 4807349.008039008
+                }
+            ]
+        },
+        {
+            "column_name": "ComplaintNumber",
+            "number_non_empty_cells": 377144,
+            "number_empty_cells": 27956,
+            "number_distinct_values": 359805,
+            "frequent_values": [
+                "1-1-1104457384",
+                "1-1-1410914959",
+                "1-1-1103441597",
+                "1-1-1103282934",
+                "1-1-1104730388"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 377144,
+                    "shortest_values": [
+                        "111",
+                        "311-00279905",
+                        "311-00172844",
+                        "311-00262288",
+                        "311-00195344"
+                    ],
+                    "longest_values": [
+                        "1-1-1444840491",
+                        "1-1-1690542861",
+                        "1-1-1270708579",
+                        "1-1-1533182727",
+                        "1-1-1616392149"
+                    ],
+                    "average_length": 13.889201472116751
+                }
+            ]
+        },
+        {
+            "column_name": "SRCategory",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Hazard",
+                "Plant Tree",
+                "Prune",
+                "Remove Tree",
+                "Root/Sewer/Sidewalk"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "Prune",
+                        "Hazard",
+                        "Claims",
+                        "Plant Tree",
+                        "Remove Tree"
+                    ],
+                    "longest_values": [
+                        "Rescue/Preservation",
+                        "Illegal Tree Damage",
+                        "Root/Sewer/Sidewalk",
+                        "Planting Space",
+                        "Remove Stump"
+                    ],
+                    "average_length": 9.506188595408542
+                }
+            ]
+        },
+        {
+            "column_name": "SRType",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 100,
+            "frequent_values": [
+                "Street Tree",
+                "Dead Tree Older Than 2 Years",
+                "Trees and Sidewalks",
+                "Limb Down - Sidewalk",
+                "Clear Building"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "Rats",
+                        "Insects",
+                        "Add Soil",
+                        "Add Mulch",
+                        "Park Tree"
+                    ],
+                    "longest_values": [
+                        "Clear Utilities - Telephone Lines",
+                        "Hanging Limb from other Branches",
+                        "Dead Tree Planted Within 2 Years",
+                        "Remove Bicycle Chained To Tree",
+                        "Clear Utilities - Power Lines"
+                    ],
+                    "average_length": 18.316119476672426
+                }
+            ]
+        },
+        {
+            "column_name": "SRPriority",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "Routine",
+                "Committment",
+                "ASAP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "ASAP",
+                        "Routine",
+                        "Committment"
+                    ],
+                    "longest_values": [
+                        "Committment",
+                        "Routine",
+                        "ASAP"
+                    ],
+                    "average_length": 7.027425327079733
+                }
+            ]
+        },
+        {
+            "column_name": "SRSource",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "3-1-1 Call Center",
+                "Department of Parks and Recreation - Public Web Site",
+                "Correspondence",
+                "DPR",
+                "AMPS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "DOT",
+                        "DPR",
+                        "OEM",
+                        "AMPS",
+                        "FDNY"
+                    ],
+                    "longest_values": [
+                        "Department of Parks and Recreation - Public Web Site",
+                        "Park Inspection Program",
+                        "DPR -Public Tree Map",
+                        "3-1-1 Call Center",
+                        "Correspondence"
+                    ],
+                    "average_length": 26.401209577882003
+                }
+            ]
+        },
+        {
+            "column_name": "SRStatus",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Closed",
+                "Open"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "Open",
+                        "Closed"
+                    ],
+                    "longest_values": [
+                        "Closed",
+                        "Open"
+                    ],
+                    "average_length": 5.731444087879536
+                }
+            ]
+        },
+        {
+            "column_name": "SRResolution",
+            "number_non_empty_cells": 393664,
+            "number_empty_cells": 11436,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                "Work Completed",
+                "Inspected - No Work Order",
+                "Inspected - Condition Not Found",
+                "Reviewed - Inspection Assigned",
+                "T/S Inspected - Pending"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 393664,
+                    "shortest_values": [
+                        "Refer to EDC",
+                        "Refer to DDC",
+                        "Refer to DOB",
+                        "Refer to MTA",
+                        "Refer to DOT"
+                    ],
+                    "longest_values": [
+                        "SW Consultation Pending - Owner To Schedule",
+                        "Inspected - Utility Work Assigned",
+                        "Inspected - Condition Not Found",
+                        "Planting Declined - Unplantable",
+                        "Reviewed - Inspection Assigned"
+                    ],
+                    "average_length": 23.125038103560396
+                }
+            ]
+        },
+        {
+            "column_name": "BoroughCode",
+            "number_non_empty_cells": 405057,
+            "number_empty_cells": 43,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Staten Island",
+                "Manhattan",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405057,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.617503215596817
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard",
+            "number_non_empty_cells": 405076,
+            "number_empty_cells": 24,
+            "number_distinct_values": 72,
+            "frequent_values": [
+                413.0,
+                503.0,
+                405.0,
+                407.0,
+                411.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 405076,
+                    "max_value": 2115.0,
+                    "min_value": 0.0,
+                    "mean": 339.6457479584078,
+                    "stddev": 108.22311304416624
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingNumber",
+            "number_non_empty_cells": 393149,
+            "number_empty_cells": 11951,
+            "number_distinct_values": 30161,
+            "frequent_values": [
+                "0000",
+                "0",
+                "-",
+                "*",
+                "000"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 393149,
+                    "shortest_values": [
+                        "*",
+                        "^",
+                        "1",
+                        "0",
+                        "+"
+                    ],
+                    "longest_values": [
+                        "Q174A-ACCE",
+                        "Q300A-ZN04",
+                        "Q121A-GT00",
+                        "ST THERESA",
+                        "5221, 5224"
+                    ],
+                    "average_length": 3.900139641713447
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 400947,
+            "number_empty_cells": 4153,
+            "number_distinct_values": 39325,
+            "frequent_values": [
+                "BROADWAY",
+                "79 STREET",
+                "BEDFORD AVENUE",
+                "76 STREET",
+                "78 STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 400947,
+                    "shortest_values": [
+                        "#",
+                        ".",
+                        "@",
+                        "*",
+                        "?"
+                    ],
+                    "longest_values": [
+                        "Lincoln Terrace Park / Arthur S. Somers-Lincoln Terr Pk/Arthur S Somers Zone 2",
+                        "METROPOLITAN AVENUE AND EAST BOUND ENTRANCE TO JACKIE ROBINSON PKWY",
+                        "Flushing Meadows Park-North Of Fountain Of The Planets-ACCESSPOINT",
+                        "MAJOR DEEGAN EXPRESSWAY AND MOSHOLU PARKWAY SOUTHBOUND EXIT",
+                        "CLARTREE  WILL BE PRUNED DURING BLOCK PRUNING CYCLEK STREET"
+                    ],
+                    "average_length": 13.139993565234308
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet1",
+            "number_non_empty_cells": 375779,
+            "number_empty_cells": 29321,
+            "number_distinct_values": 8607,
+            "frequent_values": [
+                "BEND",
+                "5 AVENUE",
+                "DEAD END",
+                "3 AVENUE",
+                "2 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 375779,
+                    "shortest_values": [
+                        "-",
+                        "0",
+                        "141",
+                        "GCP",
+                        "ACP"
+                    ],
+                    "longest_values": [
+                        "INSPECTED  6-6-16 CORRECT ADDRESS FOR REMOVAL 1 SIDE NM 15' DEAD FULL NO ALT SIDE",
+                        "@ 1481 47 STREET.  PRUNE A PEDESTRIAN SIGNAL.  17' ASH TREE 1.0S..",
+                        "already done from another service request, and work was completed",
+                        "GREENE ATREE  WILL BE PRUNED DURING BLOCK PRUNING CYCLEVENUE",
+                        "1 Av Z & Ocean Pkwy East, 1 Neptune Av & Ocean Pkwy East"
+                    ],
+                    "average_length": 12.13456845645978
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet2",
+            "number_non_empty_cells": 375751,
+            "number_empty_cells": 29349,
+            "number_distinct_values": 8621,
+            "frequent_values": [
+                "BEND",
+                "DEAD END",
+                "7 AVENUE",
+                "3 AVENUE",
+                "5 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 375751,
+                    "shortest_values": [
+                        "-",
+                        "/",
+                        "?",
+                        "FDR",
+                        "LIE"
+                    ],
+                    "longest_values": [
+                        "11INSPECTED ON 2-29-16 BLUE TAG -HOLLOW FRONT 1 SILVER MAPLE 34'POOR FULL NO ALT SIDE 6 AVENUE",
+                        "WILSON AVENUETree still under guarantee. Street Tree will remove and replace the tree",
+                        "KEAPrivate service must be called about sewer repairs.P STREET",
+                        "5 AVENUETREE  WILL BE PRUNED DURING BLOCK PRUNING CYCLE",
+                        "E MOSHOLU PARKWAY S AND MARION AVE"
+                    ],
+                    "average_length": 12.197465875007651
+                }
+            ]
+        },
+        {
+            "column_name": "TaxClass",
+            "number_non_empty_cells": 290770,
+            "number_empty_cells": 114330,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                1.0,
+                2.0,
+                4.0,
+                3.0,
+                0.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 290770,
+                    "max_value": 4.0,
+                    "min_value": 0.0,
+                    "mean": 1.3576194242872373,
+                    "stddev": 0.7877338518835288
+                }
+            ]
+        },
+        {
+            "column_name": "LocationDetails",
+            "number_non_empty_cells": 324955,
+            "number_empty_cells": 80145,
+            "number_distinct_values": 187755,
+            "frequent_values": [
+                "IN FRONT OF ADDRESS",
+                "IN FRONT OF LOCATION",
+                "IN FRONT",
+                "IN FRONT OF",
+                "IN FRONT OF HOUSE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 324955,
+                    "shortest_values": [
+                        "W",
+                        "i",
+                        "/",
+                        "T",
+                        ","
+                    ],
+                    "longest_values": [
+                        "CORRESPONDENCE RECEIVED- CB 5 REPORTS TREE IN FRONT OF 1717 HART STREET APPEARS TO BE INFESTED WITH TENT CATERPILLARS. THERE ARE OTHER SURROUNDING BLOCKS THAT ARE ALSO INFESTED, SUYDAM STREET, HART STREET, WILLOUGHBY AVENUE, AND DEKALD AVENUE IN RIDGEWOOD.",
+                        "WHEN I PARKED MY CAR THERE WAS NO TREE BRANCH ON THE GROUND. AS I WENT BACK TO MY CAR I NOTICED SCRATCHES AND DENTS ON MY VEHICHLE AND A HUGE TREE BRANCH ON THE GROUND IN FRONT OF MY CAR. I WANT TO KNOW IF THERE WAS WORK DONE ON THIS TREE WHILE MY VEHICHL",
+                        "JP Catusco reports Split black locust leaning over John Muir trail and Van Cortlandt Golf Course fence. The locust is hung up in several other trees and our staff are unable to remove it. Pictures are attached. The exact location is: 40.899414, -73.889793",
+                        "At 2020 hours FDNY DISP # 307 rpts a tree limb is entangled in electric wires I/F/O 193 East 55th Street between Church Avenue & Linded BLVD in Brooklyn. As of now no electricity/power is in the wires. No property damage or inries rpt'd. FDNY request park",
+                        "THE OWNER'S ADDRESS IS DIFFERENT BECAUSE IT IS THE BACK OF HIS HOUSE THAT IS NEAR THIS LOCATION. THE FRONT OF HIS HOUSE IS ON ANOTHER STREET. THE ACTUAL LOCATION OF THE SIDEWALK IS 152-33 13TH AVE, AND THE OWNER OF THE PROPERTIES ADDRESS IS 152-40 12TH RO"
+                    ],
+                    "average_length": 36.74103798987552
+                }
+            ]
+        },
+        {
+            "column_name": "ComplaintDetails",
+            "number_non_empty_cells": 313999,
+            "number_empty_cells": 91101,
+            "number_distinct_values": 295031,
+            "frequent_values": [
+                "DEAD TREE",
+                "NEW TREE REQUEST",
+                "Please plant a new tree",
+                "Dead tree",
+                "Empty tree pit"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 313999,
+                    "shortest_values": [
+                        "6",
+                        "]",
+                        "B",
+                        "2",
+                        "A"
+                    ],
+                    "longest_values": [
+                        "THERE ARE TWO TREES RIGHT BESIDES EACH OTHER,A ND ONE OF THEM SWAYS AND CREAKS AND LOOKS LIKE IT IS GOIING TO FALL. THE BRANCHES REACH OVER MY HOME THEY ARE VERY CLOSE TO THE HOUSE. IF THIS TREE WAS TO FALL, IT WOULD SURELY CAUSE A LARGE AMOUNT OF DAMAGE TO MY HOME, OR TO A CAR, DEPENDING IT WHICH DIRECTION IT FELL IN. WHEN IT SWAYS I CAN HEAR IT CREAKING. PLEASE SEND SOMEONE TO INVESTIGATE , AS THIS IS A POTENTIAL HAZARD. FDNY/NYPD WAS NOTIFIED AND THEY SAID THEY CAN'T DO ANYTHING AS THE TREE IS STILL STANDING. IN MY AREA THERE ARE SIGNS UP THAT INDICATE THAT THE TREE IS WITHIN  'BLUEBELT' IT MAY BE A PARKS DEPT TREE, OR IT MAY JUST BE A CITY TREE, I AM UNSURE.THERE ARE ALOT OF TREES ON THE SIDE OF THE HOUSE, BUT THERE IS ONLY ONE THAT IS SWAYS",
+                        "THERE IS A CITY TREE IN FRONT OF MY PROPERTY LOCATED AT 24-52  26TH STREET IN QUEENS THAT HAS ROOTS THAT IS DAMAGING THE SIDEWALK. I HAVE COMPLAINED ABOUT THIS BEFORE AND LAST YEAR I WAS INFORMED THAT I WAS APPROVED FOR THE FREE SIDEWALK REPAIR, THE WORK WOULD BE DONE BY HUDSON HILLS CONTRACTOR UNDER THE CONTRACT # 30019.  THEY PUT NOTICES OF NO PARKING ON THE NEIGHBOR TREES FOR THE PERIOD OF SEPT. 22, 2016 TO OCT. 5, 2016. HOWEVER, THAT PERIOD CAME AND WENT AND THE REPAIR WORK WAS NEVER DONE. SINCE I WAS APPROVED FOR THE FREE SIDEWALK REPAIR, I WANT THE CITY TO COME AND MAKE THAT SIDEWALK REPAIR AS SOON POSSIBLE TO AVOID ANY FURTHER DAMAGE BY THE CITY TREE ROOTS. I WANT THAT WORK COMPLETED BEFORE THE DAMAGED SIDEWALK CAUSES AN ACCIDENT OR INJUR",
+                        "HOMEOWNER CAME HOME TO FIND A TREE PRUNING COMPANY PRUNING ALL OF HER 5 TREES THAT BORDERS THE PROPERTY...HOMEOWNER WAS INFORMED BY 1 OF THE WORKERS THAT THEY WERE HIRED BY NYC TO PRUNE THE TREES THROUGHOUT THE BOROUGH...WHEN ASKED IF THEY  HAD TRIMMED ANY OF THE OTHER TREES ON THE BLOCK..HE SAID YES..HOMEOWNER TOOK A RIDE UP AND DOWN THE STREET AND NO OTHER TREES BUT HERS HAD BEEN PRUNED..HOMEOWNER'S COMPLAINT IS THAT THEY DESTROYED THE TREES BUT CUTTING NUMEROUS BRANCHES OFF OF EACH INDIVIDUAL TREE..I WOULD LIKE TO KNOW WHO AUTHORIZED THIS AND WHY I WASN'T INFORMED..IF THE TREES DIE IT IS GOING TO BE THE RESPONSIBILITY OF THE CITY TO REPLACE THEM, IF THEY INITIATED THE PRUNING..I AM REQUESTING THAT SOMEONE COME OUT AND TAKE A LOOK AT THE TREES",
+                        "THE CITY TREE THAT WAS PLANTED INTO THE SIDEWALK IN FRONT OF MY PROPERTY WAS REMOVED BY THE CITY AND THE TRUNK WAS REMOVED IN 2015. HOWEVER, THE ROOTS OF THAT CITY TREE DAMAGED THE SIDEWALK IN FRONT OF MY PROPERTY. I REQUESTED TO BE PLACED IN THE TREE AND SIDEWALK PROGRAM SO THE CITY WOULD FIX THE SIDEWALK FOR FREE. SINCE THAT TIME, I NEVER RECEIVED THE RESULTS OF THE ORIGINAL INSPECTION FOR INCLUSION IN THE PROGRAM. THE CITY NEVER FIXED MY SIDEWALK. I WANT AN INSPECTION OF MY SIDEWALK SO THAT THE CITY CAN FINALLY FIX MY SIDEWALK THAT WAS DAMAGED BY THE ROOTS OF THE CITY TREE.MY ADDRESS IS 2544 FENTON AVENUE IN THE BRONX.  I WANT TO BE NOTIFIED OF THE RESULTS OF THAT INSPECTION. I COMPLAINED TO 3-1-1 ABOUT THIS  NOTE: THIS CLIENT SPEAKS SPANISH.",
+                        "TREE IS CURRENTLY UPROOTING, CAUSING DAMAGE TO THE CUSTOMERS PROPERTY, SIDEWALK AND SEWER LINE.  CUSTOMER STATED THAT SHE IS HAVING FLOODING ISSUES AS A RESULT OF THE UPROOTED TREE.  PREVIOUS SERVICE REQUEST WAS MADE EARLIER TODAY, PLEASE REFERENCE SERVICE REQUEST NUMBER C1-1-1358978180. CUSTOMERS TREE WAS NEVER INSPECTED, YET CUSTOMER RECEIVED AN EMAIL THAT IT WAS NOT THE RESPONSIBILITY OF THE DEPARTMENT OF PARKS AND RECREATION AND THE STATUS WAS CLOSED.  TREE AND SIDEWALK BOTH NEED TO BE INSPECTED, SINCE TREE IS ON CITY PROPERTY AND SIDEWALK IS ON CUSTOMERS PROPERTY.  SIDEWALK IS CURRENTLY DAMAGED AND NEEDS TO BE INSPECTED ALONG WITH THE UPROOTED TREE THAT IS CAUSING DAMAGE.  PLEASE INVESTIGATE MATTER ASAP. GATE IS DAMAGED DUE TO UPROOTED TREE"
+                    ],
+                    "average_length": 121.0444300778028
+                }
+            ]
+        },
+        {
+            "column_name": "ParkName",
+            "number_non_empty_cells": 5689,
+            "number_empty_cells": 399411,
+            "number_distinct_values": 1577,
+            "frequent_values": [
+                "Van Cortlandt Park",
+                "Pelham Bay Park",
+                "Flushing Meadows Corona Park",
+                "Clove Lakes Park",
+                "Forest Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5689,
+                    "shortest_values": [
+                        "-",
+                        "I",
+                        ".",
+                        "GS",
+                        "BT10"
+                    ],
+                    "longest_values": [
+                        "OFFICER LEWIS OF CENTRAL CALLED - DOS AND FDNY BOTH CALLED IN THIS HAZARD- TREE ABOUT TO FALL",
+                        "trees are under warranrty with planting div they will inspect and replace if needed",
+                        "no work needed by parks not city property  but private proerty call homeowners ass",
+                        "Lincoln Terrace Park / Arthur S. Somers-Lincoln Terr Pk/Arthur S Somers Zone 1",
+                        "Lincoln Terrace Park / Arthur S. Somers-Lincoln Terr Pk/Arthur S Somers Zone 2"
+                    ],
+                    "average_length": 19.015995781332396
+                }
+            ]
+        },
+        {
+            "column_name": "ParkZone",
+            "number_non_empty_cells": 2422,
+            "number_empty_cells": 402678,
+            "number_distinct_values": 807,
+            "frequent_values": [
+                "Q099-ZN23",
+                "R005-ZN01",
+                "M010-ZN27",
+                "M071-ZN16",
+                "Q020-ZN04"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2422,
+                    "shortest_values": [
+                        "X255",
+                        "B035",
+                        "B161",
+                        "M186",
+                        "X082"
+                    ],
+                    "longest_values": [
+                        "Detective Dillon Stewart",
+                        "Holocaust Memorial Park",
+                        "REFER TO BLOCK PRUNING.",
+                        "Golconda Playground",
+                        "Pugsly Creek zone 2"
+                    ],
+                    "average_length": 8.27291494632535
+                }
+            ]
+        },
+        {
+            "column_name": "NotesToCustomer",
+            "number_non_empty_cells": 308362,
+            "number_empty_cells": 96738,
+            "number_distinct_values": 101298,
+            "frequent_values": [
+                "REFER TO BLOCK PRUNING.",
+                "Duplicate request. This location is already assigned for inspection",
+                "Tree will be pruned as part of Parks routine block pruning. NOTE: Federal regulations prohibit our crews from working near electrical wires. You may hire a licensed, approved contractor to prune the tree after obtaining a free permit. Visit nyc.gov/parks",
+                "Pruning is performed on a block-by-block neighborhood basis.  Each new pruning cycle begins after all trees in a community board have been pruned.  See tree pruning on the Parks Department website.",
+                "Tree planted"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 308362,
+                    "shortest_values": [
+                        ".",
+                        "T",
+                        "'",
+                        "6",
+                        "1"
+                    ],
+                    "longest_values": [
+                        "You have been enrolled in the Trees and Sidewalks Program with a priority rating of 78/100. Please understand that a sidewalk can take a number of years as repairs are made in order of priority rating. Next priority inspection available 2/21/2020 (3 year*",
+                        "You have been enrolled in the Trees and Sidewalks Program, and current status is pending.  Sidewalk repairs can take a number of years.  Your priority rating out of 100 points is _63_. This address will be eligible for a new inspection on x6x/x12x/xx.2021",
+                        "You have been enrolled in the Trees and Sidewalks Program with a priority rating of 61/100. Please understand that a sidewalk can take a number of years as repairs are made in order of priority rating. Next priority inspection available 2/08/2020 (3 year*",
+                        "You have been enrolled in the Trees and Sidewalks Program with a priority rating of 75/100. Please understand that a sidewalk can take a number of years as repairs are made in order of priority rating. Next priority inspection available 1/27/2020 (3 year*",
+                        "You have been enrolled in the Trees and Sidewalks Program with a priority rating of 74/100. Please understand that a sidewalk can take a number of years as repairs are made in order of priority rating. Next priority inspection available 1/27/2020 (3 year*"
+                    ],
+                    "average_length": 88.81021007776575
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 399852,
+            "number_empty_cells": 5248,
+            "number_distinct_values": 207,
+            "frequent_values": [
+                11385.0,
+                11234.0,
+                10314.0,
+                11229.0,
+                10312.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 399852,
+                    "max_value": 11697.0,
+                    "min_value": 10000.0,
+                    "mean": 10997.333868531357,
+                    "stddev": 489.4515415118199
+                }
+            ]
+        },
+        {
+            "column_name": "Council District ",
+            "number_non_empty_cells": 399848,
+            "number_empty_cells": 5252,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                19.0,
+                23.0,
+                50.0,
+                51.0,
+                30.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 399848,
+                    "max_value": 51.0,
+                    "min_value": 1.0,
+                    "mean": 30.40607430823713,
+                    "stddev": 13.930208562212886
+                }
+            ]
+        },
+        {
+            "column_name": "StateSenate",
+            "number_non_empty_cells": 399848,
+            "number_empty_cells": 5252,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                11.0,
+                24.0,
+                15.0,
+                22.0,
+                14.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 399848,
+                    "max_value": 36.0,
+                    "min_value": 10.0,
+                    "mean": 19.981735559512614,
+                    "stddev": 6.996975986290151
+                }
+            ]
+        },
+        {
+            "column_name": "StateAssembly",
+            "number_non_empty_cells": 399856,
+            "number_empty_cells": 5244,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                26.0,
+                62.0,
+                25.0,
+                33.0,
+                64.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 399856,
+                    "max_value": 87.0,
+                    "min_value": 23.0,
+                    "mean": 48.76083139930375,
+                    "stddev": 17.860624909698778
+                }
+            ]
+        },
+        {
+            "column_name": "Congressional",
+            "number_non_empty_cells": 399848,
+            "number_empty_cells": 5252,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                11.0,
+                6.0,
+                9.0,
+                5.0,
+                8.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 399848,
+                    "max_value": 16.0,
+                    "min_value": 3.0,
+                    "mean": 9.081428442808267,
+                    "stddev": 3.249081548695526
+                }
+            ]
+        },
+        {
+            "column_name": "SanitationZone",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 405100,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "PhysicalID",
+            "number_non_empty_cells": 358662,
+            "number_empty_cells": 46438,
+            "number_distinct_values": 48904,
+            "frequent_values": [
+                45452.0,
+                93020.0,
+                46956.0,
+                85363.0,
+                45275.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 358662,
+                    "max_value": 185784.0,
+                    "min_value": 4.0,
+                    "mean": 59376.89627839024,
+                    "stddev": 33736.280663256315
+                }
+            ]
+        },
+        {
+            "column_name": "ServiceRequestParentGlobalID",
+            "number_non_empty_cells": 74147,
+            "number_empty_cells": 330953,
+            "number_distinct_values": 45479,
+            "frequent_values": [
+                "4D7C0AB3-AA3F-4E97-8E7D-61E42E5779F4",
+                "DBAE586E-C87D-4193-A649-D4107AD2600C",
+                "73835D58-D565-4ACF-A418-A322949C9B3C",
+                "DBED0615-41D8-4A01-92E3-D96136E829BF",
+                "D10F7520-5CA9-46D1-A722-E47D9E1EEEB7"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 74147,
+                    "shortest_values": [
+                        "9A750FEE-BE6B-4781-A5D8-CDB6F083320C",
+                        "F8DCC4CB-FC81-4387-858C-6A13A47F6624",
+                        "522AED1F-AAAF-41BA-84E7-D875D40097ED",
+                        "71DA02EE-2F01-4E73-9A6C-6039A44B9D76",
+                        "CA48063B-6771-437C-B350-587FB2F1B88C"
+                    ],
+                    "longest_values": [
+                        "B7B3190B-5275-4B9D-962A-34EC57D0132B",
+                        "730330A1-B6EA-429B-830B-7D360AA64FF3",
+                        "1C9EC302-7FB1-4255-97D4-154661B34F86",
+                        "434FE254-7132-4C54-9759-BA27E37254B0",
+                        "9877F4C9-3C94-4CE1-83F0-DD624D30645F"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "Geometry",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 217691,
+            "frequent_values": [
+                "POINT (1006393.0000002235 207502.00000017881)",
+                "POINT (1026298.0000002235 188229.00000017881)",
+                "POINT (1054059.0000002235 206892.00000017881)",
+                "POINT (1018655.0000002235 216302.00000017881)",
+                "POINT (1024436.0000002235 235178.00000017881)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "POINT (959339.127500236 153571.07687518)",
+                        "POINT (994765.157083556 183812.15500018)",
+                        "POINT (1049305.3335419 204577.800416857)",
+                        "POINT (985402.080625236 190037.28000018)",
+                        "POINT (1054693.13375023 205210.058125183)"
+                    ],
+                    "longest_values": [
+                        "POINT (986242.00000022352 170127.00000017881)",
+                        "POINT (938780.00000022352 139660.00000017881)",
+                        "POINT (1015837.0000002235 217648.00000017881)",
+                        "POINT (996919.00000022352 159126.00000017881)",
+                        "POINT (1000506.0000002235 197586.00000017881)"
+                    ],
+                    "average_length": 44.981713157245125
+                }
+            ]
+        },
+        {
+            "column_name": "GlobalID",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 405100,
+            "frequent_values": [
+                "C070B45F-8CC7-45AE-AD73-FD227681F5FB",
+                "8338C90F-8C79-4255-A86B-A0444B0FAB0C",
+                "1436E752-714D-424D-A485-E2C09C1BB24A",
+                "D8C6FA66-3762-4BE5-8437-5BA30980F40A",
+                "1F084DFB-EFC8-4865-9FA2-983321340740"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "16BDFAC1-B9C9-4D26-A4E6-BDB336021B98",
+                        "3CE3577A-ABB1-4354-BA39-7CA1466742A4",
+                        "D13150E8-6533-4721-8B05-316237EB4AD5",
+                        "648AC44B-73F6-460C-9385-78F061949736",
+                        "A3B539A6-924B-4999-AA08-3B8C4A0E02EF"
+                    ],
+                    "longest_values": [
+                        "72AF4767-FB76-4F2C-8BCB-1A220DA5D5D7",
+                        "E0853DCE-4505-4545-AC96-9F4CB673E930",
+                        "E5EC1670-03E4-42EF-86BD-6090BBA96081",
+                        "414B5897-622C-46EA-BBF4-08B9A1EFA866",
+                        "74803C80-C1D4-4022-9879-D30E7502430B"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "InitiatedDate",
+            "number_non_empty_cells": 387747,
+            "number_empty_cells": 17353,
+            "number_distinct_values": 382971,
+            "frequent_values": [
+                "10/26/2018 13:30:25",
+                "03/06/2015 11:50:59",
+                "01/30/2019 09:35:03",
+                "03/21/2019 16:39:00",
+                "03/04/2015 05:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 387747,
+                    "shortest_values": [
+                        "05/08/2018 20:37:54",
+                        "07/23/2018 13:30:43",
+                        "06/30/2015 20:07:03",
+                        "12/21/2018 19:41:42",
+                        "08/17/2015 18:50:43"
+                    ],
+                    "longest_values": [
+                        "08/09/2017 10:44:23",
+                        "10/21/2016 20:23:04",
+                        "08/09/2016 16:24:45",
+                        "09/30/2016 17:43:12",
+                        "05/05/2015 17:23:49"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "ClosedDate",
+            "number_non_empty_cells": 346509,
+            "number_empty_cells": 58591,
+            "number_distinct_values": 285149,
+            "frequent_values": [
+                "05/04/2017 11:11:11",
+                "03/24/2015 04:00:00",
+                "04/01/2015 04:00:00",
+                "03/30/2015 04:00:00",
+                "04/02/2015 04:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 346509,
+                    "shortest_values": [
+                        "05/30/2018 13:38:58",
+                        "10/04/2016 12:07:00",
+                        "09/21/2016 19:27:00",
+                        "01/13/2016 12:52:00",
+                        "11/20/2018 15:09:00"
+                    ],
+                    "longest_values": [
+                        "12/06/2017 14:01:21",
+                        "03/27/2018 11:07:37",
+                        "08/09/2017 17:51:00",
+                        "05/05/2016 13:17:00",
+                        "11/29/2016 12:46:49"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "CreatedDate",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 335148,
+            "frequent_values": [
+                "10/26/2018 13:30:25",
+                "10/26/2018 13:30:00",
+                "03/06/2015 11:50:00",
+                "08/31/2015 14:21:00",
+                "05/28/2015 20:16:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "05/08/2018 20:48:00",
+                        "06/14/2019 15:24:17",
+                        "02/16/2017 21:42:50",
+                        "05/10/2018 16:41:00",
+                        "06/03/2015 17:58:00"
+                    ],
+                    "longest_values": [
+                        "08/09/2017 10:46:59",
+                        "04/27/2017 14:41:43",
+                        "02/02/2016 20:58:00",
+                        "07/22/2018 23:33:00",
+                        "07/19/2017 16:01:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "UpdatedDate",
+            "number_non_empty_cells": 392653,
+            "number_empty_cells": 12447,
+            "number_distinct_values": 309241,
+            "frequent_values": [
+                "05/05/2017 11:11:11",
+                "03/24/2015 04:00:00",
+                "04/01/2015 04:00:00",
+                "03/30/2015 04:00:00",
+                "03/25/2015 04:00:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 392653,
+                    "shortest_values": [
+                        "05/30/2018 17:38:58",
+                        "09/16/2016 13:31:31",
+                        "05/19/2017 20:13:00",
+                        "01/24/2016 14:30:00",
+                        "11/16/2016 13:26:20"
+                    ],
+                    "longest_values": [
+                        "12/06/2017 14:01:21",
+                        "08/28/2019 16:51:00",
+                        "05/06/2016 15:42:16",
+                        "11/18/2018 23:01:30",
+                        "10/12/2018 15:50:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "Descriptor1",
+            "number_non_empty_cells": 387740,
+            "number_empty_cells": 17360,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "For One Address",
+                "Branch or Limb Has Fallen Down",
+                "Trees and Sidewalks Program",
+                "Planted More Than 2 Years Ago",
+                "Branch Cracked and Will Fall"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 387740,
+                    "shortest_values": [
+                        "Trunk Damaged",
+                        "Roots Damaged",
+                        "For Whole Block",
+                        "For One Address",
+                        "Blocking Street"
+                    ],
+                    "longest_values": [
+                        "Traffic Sign or Signal Blocked",
+                        "Tree Alive - in Poor Condition",
+                        "Branch or Limb Has Fallen Down",
+                        "Planted Less Than 2 Years Ago",
+                        "Planted More Than 2 Years Ago"
+                    ],
+                    "average_length": 22.78006653943364
+                }
+            ]
+        },
+        {
+            "column_name": "ComplaintType",
+            "number_non_empty_cells": 387740,
+            "number_empty_cells": 17360,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Damaged Tree",
+                "New Tree Request",
+                "Overgrown Tree/Branches",
+                "Root/Sewer/Sidewalk Condition",
+                "Dead/Dying Tree"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 387740,
+                    "shortest_values": [
+                        "Dead Tree",
+                        "Damaged Tree",
+                        "Dead/Dying Tree",
+                        "New Tree Request",
+                        "Illegal Tree Damage"
+                    ],
+                    "longest_values": [
+                        "Root/Sewer/Sidewalk Condition",
+                        "Overgrown Tree/Branches",
+                        "Illegal Tree Damage",
+                        "New Tree Request",
+                        "Dead/Dying Tree"
+                    ],
+                    "average_length": 17.223028317945015
+                }
+            ]
+        },
+        {
+            "column_name": "CallerZipCode",
+            "number_non_empty_cells": 279233,
+            "number_empty_cells": 125867,
+            "number_distinct_values": 993,
+            "frequent_values": [
+                "na",
+                "11234",
+                "10312",
+                "10314",
+                "11385"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 279233,
+                    "shortest_values": [
+                        "q",
+                        ".",
+                        "N",
+                        "*",
+                        "X"
+                    ],
+                    "longest_values": [
+                        "11210-2832",
+                        "11201-1339",
+                        "10304-4035",
+                        "11362-1628",
+                        "10026-4057"
+                    ],
+                    "average_length": 4.460411197816877
+                }
+            ]
+        },
+        {
+            "column_name": "SRCallerType",
+            "number_non_empty_cells": 5,
+            "number_empty_cells": 405095,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "BusinessBusiness"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "BusinessBusiness"
+                    ],
+                    "longest_values": [
+                        "BusinessBusiness"
+                    ],
+                    "average_length": 16.0
+                }
+            ]
+        },
+        {
+            "column_name": "CallerCity",
+            "number_non_empty_cells": 343442,
+            "number_empty_cells": 61658,
+            "number_distinct_values": 1460,
+            "frequent_values": [
+                "QUEENS",
+                "MANHATTAN",
+                "BROOKLYN",
+                "na",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 343442,
+                    "shortest_values": [
+                        "g",
+                        ".",
+                        "B",
+                        "1",
+                        "/"
+                    ],
+                    "longest_values": [
+                        "bellerose manor (queens village)",
+                        "South Richmond Hill , Jamacia",
+                        "SPRINGFIELD GARDENS QUEENS",
+                        "St&Atilde;&nbsp;ten Island",
+                        "Greater New York City Area"
+                    ],
+                    "average_length": 7.996680662237001
+                }
+            ]
+        },
+        {
+            "column_name": "CallerState",
+            "number_non_empty_cells": 327182,
+            "number_empty_cells": 77918,
+            "number_distinct_values": 278,
+            "frequent_values": [
+                "NY",
+                "New York",
+                "ny",
+                "Ny",
+                "NEW YORK"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 327182,
+                    "shortest_values": [
+                        "n",
+                        "C",
+                        "/",
+                        "N",
+                        "NY"
+                    ],
+                    "longest_values": [
+                        "NYNYC PARKS DOES NOT PRUNE TREES FOR CLEARANCE WHE",
+                        "Remove large H/L high up in tree over lawn area.",
+                        "T/D blocking Orange trail near RR bridge.",
+                        "NY &nbsp;&nbsp;-&nbsp;&nbsp; New York",
+                        "NY &nbsp;&nbsp;-&nbsp;&nbsp; N"
+                    ],
+                    "average_length": 2.1697189943212036
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 369455,
+            "number_empty_cells": 35645,
+            "number_distinct_values": 135836,
+            "frequent_values": [
+                40.683222,
+                40.736194,
+                40.734272,
+                40.671028,
+                40.812094
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 369455,
+                    "max_value": 40.912869,
+                    "min_value": 40.499061,
+                    "mean": 40.69751453649717,
+                    "stddev": 0.08132190128926148
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 369455,
+            "number_empty_cells": 35645,
+            "number_distinct_values": 141647,
+            "frequent_values": [
+                -73.848394,
+                -73.920099,
+                -73.74810699999999,
+                -73.814921,
+                -73.854827
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 369455,
+                    "max_value": -73.700788,
+                    "min_value": -74.25458,
+                    "mean": -73.91930184477374,
+                    "stddev": 0.11001451275664267
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 369455,
+            "number_empty_cells": 35645,
+            "number_distinct_values": 1321,
+            "frequent_values": [
+                892.0,
+                134.0,
+                138.0,
+                122.0,
+                151.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 369455,
+                    "max_value": 157903.0,
+                    "min_value": 1.0,
+                    "mean": 10076.394505420147,
+                    "stddev": 28887.695863334375
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 360870,
+            "number_empty_cells": 44230,
+            "number_distinct_values": 173943,
+            "frequent_values": [
+                3000000.0,
+                4000000.0,
+                1000000.0,
+                2000000.0,
+                5000000.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 360870,
+                    "max_value": 5797003.0,
+                    "min_value": 1000000.0,
+                    "mean": 3451393.311594203,
+                    "stddev": 1104706.771221673
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 360870,
+            "number_empty_cells": 44230,
+            "number_distinct_values": 172618,
+            "frequent_values": [
+                4022950085.0,
+                4090980013.0,
+                4077970027.0,
+                4117820001.0,
+                2034760013.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 360870,
+                    "max_value": 5240009997.0,
+                    "min_value": 0.0,
+                    "mean": 3373512082.1326933,
+                    "stddev": 1090147031.949895
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 369455,
+            "number_empty_cells": 35645,
+            "number_distinct_values": 192,
+            "frequent_values": [
+                "Park Slope-Gowanus",
+                "Bayside-Bayside Hills",
+                "Ridgewood",
+                "Sheepshead Bay-Gerritsen Beach-Manhattan Beach",
+                "Bay Ridge"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 369455,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Midwood",
+                        "Jamaica",
+                        "Astoria"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 19.051253873949467
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 405100,
+            "number_empty_cells": 0,
+            "number_distinct_values": 217691,
+            "frequent_values": [
+                "(40.73619398523825, -73.92009894355215)",
+                "(40.6832220184533, -73.84839398411803)",
+                "(40.73427191155932, -73.7481073536763)",
+                "(40.760308547280154, -73.87580763037383)",
+                "(40.81209366610742, -73.85482696039197)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 405100,
+                    "shortest_values": [
+                        "(40.550499143, -74.168098555083)",
+                        "(40.74448173908, -73.819365607105)",
+                        "(40.6472472671448, -73.9987387398)",
+                        "(40.773114233, -73.82784824538506)",
+                        "(40.6081203668, -74.0752531128249)"
+                    ],
+                    "longest_values": [
+                        "(40.633635657213794, -73.99282309180474)",
+                        "(40.637035458025935, -73.96073396944914)",
+                        "(40.678703377561696, -73.76202825433843)",
+                        "(40.658783326281075, -73.94913719171383)",
+                        "(40.648719070686326, -73.97775087905103)"
+                    ],
+                    "average_length": 39.054998765736855
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

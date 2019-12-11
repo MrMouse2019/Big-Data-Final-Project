@@ -1,0 +1,642 @@
+{
+    "dataset_name": "922w-z7da",
+    "columns": [
+        {
+            "column_name": "physical_address_id",
+            "number_non_empty_cells": 5082,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5082,
+            "frequent_values": [
+                "1369",
+                "629",
+                "1224",
+                "627",
+                "626"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5082,
+                    "max_value": 5082,
+                    "min_value": 1,
+                    "mean": 2541.5,
+                    "stddev": 1467.0470056091135
+                }
+            ]
+        },
+        {
+            "column_name": "location_id",
+            "number_non_empty_cells": 5082,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4736,
+            "frequent_values": [
+                "1043",
+                "233",
+                "3293",
+                "3515",
+                "3713"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5082,
+                    "max_value": 4736,
+                    "min_value": 1,
+                    "mean": 2379.092286501377,
+                    "stddev": 1369.240833310922
+                }
+            ]
+        },
+        {
+            "column_name": "address_1",
+            "number_non_empty_cells": 5079,
+            "number_empty_cells": 3,
+            "number_distinct_values": 3634,
+            "frequent_values": [
+                "NO ADDRESS",
+                "56 BAY STREET",
+                "999 JAMAICA AVENUE",
+                "57 WILLOUGHBY STREET",
+                "165 ELDRIDGE STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5079,
+                    "shortest_values": [
+                        "PO BOX 663",
+                        "317 BOWERY",
+                        "NO ADDRESS",
+                        "PO BOX 641",
+                        "273 BOWERY"
+                    ],
+                    "longest_values": [
+                        "590 6TH AVENUE/590 AVENUE OF THE AMERICAS",
+                        "1780 DR MARTIN LUTHER KING JR BOULEVARD",
+                        "1628 DR MARTIN LUTHER KING JR BOULEVARD",
+                        "2090 ADAM CLAYTON POWELL JR BOULEVARD",
+                        "2139 ADAM CLAYTON POWELL JR BOULEVARD"
+                    ],
+                    "average_length": 17.760779681039576
+                }
+            ]
+        },
+        {
+            "column_name": "address_2",
+            "number_non_empty_cells": 281,
+            "number_empty_cells": 4801,
+            "number_distinct_values": 109,
+            "frequent_values": [
+                "2ND FLOOR",
+                "3RD FLOOR",
+                "4TH FLOOR",
+                "5TH FLOOR",
+                "6TH FLOOR"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 403,
+                    "min_value": 206,
+                    "mean": 304.5,
+                    "stddev": 98.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 279,
+                    "shortest_values": [
+                        "#5",
+                        "#1",
+                        "#2",
+                        "ER",
+                        "7A"
+                    ],
+                    "longest_values": [
+                        "ONE PIERREPOINT PLAZA, SUITE 901",
+                        "BUILDING 10 ROOM 409",
+                        "6TH FLOOR ROOM 622",
+                        "3RD FLOOR ROOM 319",
+                        "3RD FLOOR ROOM 300"
+                    ],
+                    "average_length": 8.921146953405017
+                }
+            ]
+        },
+        {
+            "column_name": "city",
+            "number_non_empty_cells": 5082,
+            "number_empty_cells": 0,
+            "number_distinct_values": 102,
+            "frequent_values": [
+                "BROOKLYN",
+                "NEW YORK",
+                "BRONX",
+                "STATEN ISLAND",
+                "QUEENS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5082,
+                    "shortest_values": [
+                        "BRONX",
+                        "Bronx",
+                        "NASSAU",
+                        "HOLLIS",
+                        "AUBURN"
+                    ],
+                    "longest_values": [
+                        "SPRINGFIELD GARDENS",
+                        "SOUTH OZONE PARK",
+                        "WHEATLEY HEIGHTS",
+                        "ROCHDALE VILLAGE",
+                        "LONG ISLAND CITY"
+                    ],
+                    "average_length": 7.802636757182212
+                }
+            ]
+        },
+        {
+            "column_name": "borough",
+            "number_non_empty_cells": 5059,
+            "number_empty_cells": 23,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Brooklyn",
+                "Manhattan",
+                "Bronx",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5059,
+                    "shortest_values": [
+                        "Bronx",
+                        "BRONX",
+                        "Queens",
+                        "QUEENS",
+                        "NOT NYC"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Staten Island",
+                        "STATEN IS",
+                        "MANHATTAN",
+                        "Manhattan"
+                    ],
+                    "average_length": 7.395335046451868
+                }
+            ]
+        },
+        {
+            "column_name": "state_province",
+            "number_non_empty_cells": 5077,
+            "number_empty_cells": 5,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "DC",
+                "PA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5077,
+                    "shortest_values": [
+                        "NY",
+                        "DC",
+                        "NJ",
+                        "PA"
+                    ],
+                    "longest_values": [
+                        "PA",
+                        "NJ",
+                        "DC",
+                        "NY"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "postcode",
+            "number_non_empty_cells": 4897,
+            "number_empty_cells": 185,
+            "number_distinct_values": 226,
+            "frequent_values": [
+                "11226",
+                "11372",
+                "10457",
+                "10453",
+                "11207"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4891,
+                    "max_value": 20036,
+                    "min_value": 7095,
+                    "mean": 10736.090574524636,
+                    "stddev": 595.8227053001513
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "10301-1827",
+                        "10456-3902",
+                        "11375-2349",
+                        "10457-6003",
+                        "10533-1254"
+                    ],
+                    "longest_values": [
+                        "10022-4112",
+                        "10533-1254",
+                        "10457-6003",
+                        "11375-2349",
+                        "10456-3902"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "site_catchment",
+            "number_non_empty_cells": 188,
+            "number_empty_cells": 4894,
+            "number_distinct_values": 101,
+            "frequent_values": [
+                "MANHATTAN",
+                "BRONX",
+                "BROOKLYN",
+                "QUEENS",
+                "NEW YORK CITY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 188,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "VARIOUS",
+                        "BROOKLYN",
+                        "BOARDWALK"
+                    ],
+                    "longest_values": [
+                        "Todt Hill, Mariner\u2019s Harbor, South Beach, West Brighton I, Stapleton, Richmond Terrace Houses",
+                        "East 152nd Street-Courtlandt Avenue, Moore, Betances, Melrose Houses",
+                        "FLATBUSH AVENUE BETWEEN NOSTRAND AVE. AND BEDFORD AVENUE",
+                        "PERRY AVE. BETWEEN E. 205TH STREET AND E 208TH STREET",
+                        "WEST 36 STREET BETWEEN 10TH AVENUE AND 8TH AVENUE"
+                    ],
+                    "average_length": 15.914893617021276
+                }
+            ]
+        },
+        {
+            "column_name": "site_intersection_street_1",
+            "number_non_empty_cells": 242,
+            "number_empty_cells": 4840,
+            "number_distinct_values": 189,
+            "frequent_values": [
+                "ROOSEVELT AVENUE",
+                "FULTON STREET",
+                "MOTHER GASTON BLVD",
+                "E 138TH STREET",
+                "FLATBUSH AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 242,
+                    "shortest_values": [
+                        "198TH",
+                        "WILSON",
+                        "99TH ST",
+                        "123RD ST",
+                        "124TH ST"
+                    ],
+                    "longest_values": [
+                        "FREDERICK DOUGLASS BOULEVARD",
+                        "THOMAS BOYLAND STREET",
+                        "KNICKERBOCKER AVENUE",
+                        "BRIGHTON 4TH STREET",
+                        "HUNTS POINT AVENUE"
+                    ],
+                    "average_length": 13.309917355371901
+                }
+            ]
+        },
+        {
+            "column_name": "site_intersection_street_2",
+            "number_non_empty_cells": 242,
+            "number_empty_cells": 4840,
+            "number_distinct_values": 147,
+            "frequent_values": [
+                "BROADWAY",
+                "NOSTRAND AVENUE",
+                "ST NICHOLAS AVENUE",
+                "WEBSTER AVENUE",
+                "PENNSYLVANIA AVE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 242,
+                    "shortest_values": [
+                        "8TH AVE",
+                        "42 ROAD",
+                        "3RD AVE",
+                        "2ND AVE",
+                        "BROADWAY"
+                    ],
+                    "longest_values": [
+                        "ADAM CLAYTON POWELL BLVD",
+                        "FORT WASHINGTON AVENUE",
+                        "FT WASHINGTON AVENUE",
+                        "PENNSYLVANIA AVENUE",
+                        "MARCUS GARVEY BLVD"
+                    ],
+                    "average_length": 12.75206611570248
+                }
+            ]
+        },
+        {
+            "column_name": "number",
+            "number_non_empty_cells": 4637,
+            "number_empty_cells": 445,
+            "number_distinct_values": 2203,
+            "frequent_values": [
+                "1",
+                "50",
+                "25",
+                "100",
+                "150"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3769,
+                    "max_value": 20002,
+                    "min_value": 1,
+                    "mean": 1126.8195807906607,
+                    "stddev": 1417.9102146614655
+                },
+                {
+                    "type": "TEXT",
+                    "count": 868,
+                    "shortest_values": [
+                        "6A",
+                        "One",
+                        "15A",
+                        "80A",
+                        "1 C"
+                    ],
+                    "longest_values": [
+                        "1331-1341",
+                        "1605-1611",
+                        "1214-1218",
+                        "1602-1624",
+                        "3807-3809"
+                    ],
+                    "average_length": 5.43778801843318
+                }
+            ]
+        },
+        {
+            "column_name": "street",
+            "number_non_empty_cells": 4638,
+            "number_empty_cells": 444,
+            "number_distinct_values": 1438,
+            "frequent_values": [
+                "BROADWAY",
+                "FLATBUSH AVENUE",
+                "ROOSEVELT AVENUE",
+                "FULTON STREET",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4638,
+                    "shortest_values": [
+                        "161ST",
+                        "BOWERY",
+                        "60 LANE",
+                        "51 ROAD",
+                        "44 ROAD"
+                    ],
+                    "longest_values": [
+                        "6TH AVENUE/590 AVENUE OF THE AMERICAS",
+                        "DR MARTIN LUTHER KING JR BOULEVARD",
+                        "EUGENIO MARIA DE HOSTOS BOULEVARD",
+                        "ADAM CLAYTON POWELL JR BOULEVARD",
+                        "HUTCHINSON RIVER PARKWAY EAST"
+                    ],
+                    "average_length": 13.835273824924537
+                }
+            ]
+        },
+        {
+            "column_name": "latitude",
+            "number_non_empty_cells": 4727,
+            "number_empty_cells": 355,
+            "number_distinct_values": 3604,
+            "frequent_values": [
+                "40.74681622745389",
+                "40.6406238519095",
+                "40.69114597410279",
+                "40.80863835539116",
+                "40.69221687976604"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4727,
+                    "max_value": 40.90622538914551,
+                    "min_value": 40.50828321913884,
+                    "mean": 40.742585345393174,
+                    "stddev": 0.08236391513836373
+                }
+            ]
+        },
+        {
+            "column_name": "longitude",
+            "number_non_empty_cells": 4727,
+            "number_empty_cells": 355,
+            "number_distinct_values": 3588,
+            "frequent_values": [
+                "-73.99365540195873",
+                "-74.07570414224186",
+                "-73.94858197022523",
+                "-73.98666489720736",
+                "-73.86832784227522"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4727,
+                    "max_value": -73.70986685716349,
+                    "min_value": -74.24411785354582,
+                    "mean": -73.92651234972145,
+                    "stddev": 0.06854189725597819
+                }
+            ]
+        },
+        {
+            "column_name": "community_board",
+            "number_non_empty_cells": 4727,
+            "number_empty_cells": 355,
+            "number_distinct_values": 59,
+            "frequent_values": [
+                "112",
+                "305",
+                "314",
+                "201",
+                "111"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4727,
+                    "max_value": 503,
+                    "min_value": 101,
+                    "mean": 259.5121641633171,
+                    "stddev": 115.24188838754966
+                }
+            ]
+        },
+        {
+            "column_name": "council_district",
+            "number_non_empty_cells": 4727,
+            "number_empty_cells": 355,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "17",
+                "8",
+                "10",
+                "9",
+                "40"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4727,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 23.23460968902052,
+                    "stddev": 14.510610620312844
+                }
+            ]
+        },
+        {
+            "column_name": "census_tract",
+            "number_non_empty_cells": 4727,
+            "number_empty_cells": 355,
+            "number_distinct_values": 876,
+            "frequent_values": [
+                "44601",
+                "269",
+                "263",
+                "65",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4727,
+                    "max_value": 157902,
+                    "min_value": 1,
+                    "mean": 6984.808969748255,
+                    "stddev": 19956.342798693953
+                }
+            ]
+        },
+        {
+            "column_name": "bin",
+            "number_non_empty_cells": 4497,
+            "number_empty_cells": 585,
+            "number_distinct_values": 3220,
+            "frequent_values": [
+                "3000000",
+                "1015060",
+                "2000000",
+                "4000000",
+                "5000035"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4497,
+                    "max_value": 5161878,
+                    "min_value": 1000000,
+                    "mean": 2643711.3755837223,
+                    "stddev": 1214837.5214095456
+                }
+            ]
+        },
+        {
+            "column_name": "bbl",
+            "number_non_empty_cells": 4497,
+            "number_empty_cells": 585,
+            "number_distinct_values": 3160,
+            "frequent_values": [
+                "1008037502",
+                "2033270001",
+                "5000050103",
+                "2027390015",
+                "2026050040"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4497,
+                    "max_value": 5078980001,
+                    "min_value": 1000057501,
+                    "mean": 2564000108.274405,
+                    "stddev": 1171759244.6886055
+                }
+            ]
+        },
+        {
+            "column_name": "nta",
+            "number_non_empty_cells": 4524,
+            "number_empty_cells": 558,
+            "number_distinct_values": 190,
+            "frequent_values": [
+                "BK42",
+                "MN36",
+                "BK82",
+                "QN28",
+                "BK61"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4524,
+                    "shortest_values": [
+                        "MN24",
+                        "QN46",
+                        "QN41",
+                        "QN43",
+                        "QN44"
+                    ],
+                    "longest_values": [
+                        "QN62",
+                        "BX17",
+                        "BK60",
+                        "BK79",
+                        "MN06"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

@@ -1,0 +1,687 @@
+{
+    "dataset_name": "mdbu-nrqn",
+    "columns": [
+        {
+            "column_name": "OMOID",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 413464,
+            "frequent_values": [
+                "4124228",
+                "4580768",
+                "2761759",
+                "4031688",
+                "2980569"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413464,
+                    "max_value": 4833049,
+                    "min_value": 28,
+                    "mean": 2328420.941303233,
+                    "stddev": 1248541.0209276828
+                }
+            ]
+        },
+        {
+            "column_name": "OMONumber",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 413464,
+            "frequent_values": [
+                "E615590",
+                "EE17838",
+                "EB03063",
+                "EA27079",
+                "E518944"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 413464,
+                    "shortest_values": [
+                        "E002290",
+                        "EC25964",
+                        "E825697",
+                        "ED00209",
+                        "EK00437"
+                    ],
+                    "longest_values": [
+                        "EA11647",
+                        "E503712",
+                        "EI03055",
+                        "EI06319",
+                        "EI17955"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingID",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 59875,
+            "frequent_values": [
+                "89503",
+                "116740",
+                "8077",
+                "42077",
+                "45699"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413464,
+                    "max_value": 991179,
+                    "min_value": 1,
+                    "mean": 254911.4624102703,
+                    "stddev": 222544.21095752149
+                }
+            ]
+        },
+        {
+            "column_name": "Boro ID",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "3",
+                "2",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413464,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.5295987075053694,
+                    "stddev": 0.9439220022570209
+                }
+            ]
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Brooklyn",
+                "Bronx",
+                "Manhattan",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 413464,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.247184760946539
+                }
+            ]
+        },
+        {
+            "column_name": "HouseNumber",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 11545,
+            "frequent_values": [
+                "15",
+                "125",
+                "209",
+                "20",
+                "300"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 374535,
+                    "max_value": 12749,
+                    "min_value": 0,
+                    "mean": 1057.2448209112633,
+                    "stddev": 1166.7042286138103
+                },
+                {
+                    "type": "TEXT",
+                    "count": 38929,
+                    "shortest_values": [
+                        "5B",
+                        "5A",
+                        "4A",
+                        "75B",
+                        "15A"
+                    ],
+                    "longest_values": [
+                        "88-10 GARAGE",
+                        "99-17 GARAGE",
+                        "69-14 GARAGE",
+                        "70-28 GARAGE",
+                        "48-35 GARAGE"
+                    ],
+                    "average_length": 5.3672069665288085
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4124,
+            "frequent_values": [
+                "GRAND CONCOURSE",
+                "BROADWAY",
+                "AMSTERDAM AVENUE",
+                "ST NICHOLAS AVENUE",
+                "MORRIS AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 413464,
+                    "shortest_values": [
+                        "79 ST",
+                        "BOWERY",
+                        "105 AV",
+                        "65 ROAD",
+                        "39 ROAD"
+                    ],
+                    "longest_values": [
+                        "HOR HARDING EXPRESSWAY SR NORTH",
+                        "HOR HARDING EXPRESSWAY SR SOUTH",
+                        "CROSS BRONX SERVICE ROAD SOUTH",
+                        "CLEARVIEW EXPRESSWAY SR WEST",
+                        "FREDERICK DOUGLASS BOULEVARD"
+                    ],
+                    "average_length": 13.901261052957452
+                }
+            ]
+        },
+        {
+            "column_name": "Apartment",
+            "number_non_empty_cells": 315333,
+            "number_empty_cells": 98131,
+            "number_distinct_values": 4426,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "2R",
+                "1FL"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 112977,
+                    "max_value": 18301,
+                    "min_value": -1,
+                    "mean": 21.198367809377128,
+                    "stddev": 127.39513029970682
+                },
+                {
+                    "type": "REAL",
+                    "count": 12,
+                    "max_value": 8e+103,
+                    "min_value": 10.0,
+                    "mean": 6.666666666666666e+102,
+                    "stddev": 2.2110831935702666e+103
+                },
+                {
+                    "type": "TEXT",
+                    "count": 202344,
+                    "shortest_values": [
+                        "A",
+                        " ",
+                        "O",
+                        ",",
+                        "I"
+                    ],
+                    "longest_values": [
+                        "BSMNT2",
+                        "GROUND",
+                        "B-LINE",
+                        "2FLOOR",
+                        "3RDFLR"
+                    ],
+                    "average_length": 2.2968113707349858
+                }
+            ]
+        },
+        {
+            "column_name": "Zip",
+            "number_non_empty_cells": 413397,
+            "number_empty_cells": 67,
+            "number_distinct_values": 189,
+            "frequent_values": [
+                "11221",
+                "11233",
+                "11207",
+                "11226",
+                "11237"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413397,
+                    "max_value": 11697,
+                    "min_value": 0,
+                    "mean": 10816.8332426215,
+                    "stddev": 501.84236971949014
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9666,
+            "frequent_values": [
+                "2117",
+                "3326",
+                "2136",
+                "1988",
+                "3304"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413464,
+                    "max_value": 16350,
+                    "min_value": 0,
+                    "mean": 3445.9970686686142,
+                    "stddev": 2624.6588105291153
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 639,
+            "frequent_values": [
+                "1",
+                "6",
+                "29",
+                "18",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413464,
+                    "max_value": 9100,
+                    "min_value": 0,
+                    "mean": 125.50063367064605,
+                    "stddev": 777.4548376727446
+                }
+            ]
+        },
+        {
+            "column_name": "LifeCycle",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Building",
+                "Demolished",
+                "Land",
+                "UnderConstructi",
+                "Planned"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 413464,
+                    "shortest_values": [
+                        "Land",
+                        "Planned",
+                        "Building",
+                        "Demolished",
+                        "UnderConstructi"
+                    ],
+                    "longest_values": [
+                        "UnderConstructi",
+                        "Demolished",
+                        "Building",
+                        "Planned",
+                        "Land"
+                    ],
+                    "average_length": 8.030943443685544
+                }
+            ]
+        },
+        {
+            "column_name": "WorkTypeGeneral",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "GC",
+                "DELEAD",
+                "UTIL",
+                "PLUMB",
+                "HEAT"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 413464,
+                    "shortest_values": [
+                        "GC",
+                        "RUB",
+                        "HEAT",
+                        "MOVE",
+                        "7AFA"
+                    ],
+                    "longest_values": [
+                        "EL-50K",
+                        "GC-50K",
+                        "DELEAD",
+                        "ENGINR",
+                        "NOFUEL"
+                    ],
+                    "average_length": 3.7724904707544065
+                }
+            ]
+        },
+        {
+            "column_name": "OMOStatusReason",
+            "number_non_empty_cells": 407732,
+            "number_empty_cells": 5732,
+            "number_distinct_values": 32,
+            "frequent_values": [
+                "OMO Completed",
+                "No Access",
+                "Utility Account Picked Up By ESB",
+                "Landlord Complied",
+                "Refused Access"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 407732,
+                    "shortest_values": [
+                        "Other",
+                        "No Access",
+                        "User Error",
+                        "Vacant Land",
+                        "Apt. Vacant"
+                    ],
+                    "longest_values": [
+                        "For Field Visits Only - Completed ",
+                        "For Field Visits Only - Cancelled ",
+                        "Utility Account Picked Up By ESB",
+                        "Condition Different than Stated",
+                        "Repair Completed,New HWO Needed"
+                    ],
+                    "average_length": 14.725525590338751
+                }
+            ]
+        },
+        {
+            "column_name": "OMOAwardAmount",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 27718,
+            "frequent_values": [
+                "1",
+                "0",
+                "50",
+                "14",
+                "150"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 340936,
+                    "max_value": 4150000,
+                    "min_value": 0,
+                    "mean": 1767.0962116056974,
+                    "stddev": 20709.151217699302
+                },
+                {
+                    "type": "REAL",
+                    "count": 72528,
+                    "max_value": 942080.5,
+                    "min_value": 2.39,
+                    "mean": 977.6502946447642,
+                    "stddev": 7236.587200250376
+                }
+            ]
+        },
+        {
+            "column_name": "OMOCreateDate",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6405,
+            "frequent_values": [
+                "07/01/2014",
+                "07/01/2013",
+                "07/01/2011",
+                "07/01/2009",
+                "07/01/2010"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 413464,
+                    "max_value": "2019-08-31 00:00:00",
+                    "min_value": "1998-06-26 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "NetChangeOrders",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0",
+                "500",
+                "4906"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 413464,
+                    "max_value": 4906,
+                    "min_value": 0,
+                    "mean": 0.013074898902927462,
+                    "stddev": 7.669232604352599
+                }
+            ]
+        },
+        {
+            "column_name": "OMOAwardDate",
+            "number_non_empty_cells": 393751,
+            "number_empty_cells": 19713,
+            "number_distinct_values": 5640,
+            "frequent_values": [
+                "07/01/2014",
+                "07/01/2013",
+                "07/01/2011",
+                "07/01/2009",
+                "07/01/2012"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 393751,
+                    "max_value": "2019-08-30 00:00:00",
+                    "min_value": "0910-04-06 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "IsAEP",
+            "number_non_empty_cells": 24910,
+            "number_empty_cells": 388554,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "AEP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 24910,
+                    "shortest_values": [
+                        "AEP"
+                    ],
+                    "longest_values": [
+                        "AEP"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "IsCommercialDemolition",
+            "number_non_empty_cells": 713,
+            "number_empty_cells": 412751,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "COMM DEMOL"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 713,
+                    "shortest_values": [
+                        "COMM DEMOL"
+                    ],
+                    "longest_values": [
+                        "COMM DEMOL"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "ServiceChargeFlag",
+            "number_non_empty_cells": 413464,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "False",
+                "True"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 413464,
+                    "shortest_values": [
+                        "True",
+                        "False"
+                    ],
+                    "longest_values": [
+                        "False",
+                        "True"
+                    ],
+                    "average_length": 4.762426716715361
+                }
+            ]
+        },
+        {
+            "column_name": "FEMAEventID",
+            "number_non_empty_cells": 1188,
+            "number_empty_cells": 412276,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "366",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1188,
+                    "max_value": 366,
+                    "min_value": 0,
+                    "mean": 329.33838383838383,
+                    "stddev": 109.88210689447973
+                }
+            ]
+        },
+        {
+            "column_name": "FEMAEvent",
+            "number_non_empty_cells": 1069,
+            "number_empty_cells": 412395,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "Hurricane Sandy"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1069,
+                    "shortest_values": [
+                        "Hurricane Sandy"
+                    ],
+                    "longest_values": [
+                        "Hurricane Sandy"
+                    ],
+                    "average_length": 15.0
+                }
+            ]
+        },
+        {
+            "column_name": "OMODescription",
+            "number_non_empty_cells": 413462,
+            "number_empty_cells": 2,
+            "number_distinct_values": 249222,
+            "frequent_values": [
+                "perform total lead analysis of 04 dust wipe sample(s) via environmental protection agency (epa) sw8453050-7420 method utilizing flame atomic absorptio",
+                "as per hpd\u00e2\u20ac\u2122s lead abatement requirement contracts and attached scope of work thoroughly remove all lead violations as per new york city administrative",
+                "perform total lead analysis of 02 dust wipe sample(s) via environmental protection agency (epa) sw8453050-7420 method utilizing flame atomic absorptio",
+                "nationalgrid provide gas to boiler/hot water heater",
+                "local law #1 violation : as per hpd's abatement requirement contracts and attached scope of work thoroughly remove all lead violations as per new yor"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 1,
+                    "min_value": 1,
+                    "mean": 1.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 413461,
+                    "shortest_values": [
+                        "'",
+                        "k",
+                        ".",
+                        "l",
+                        "j"
+                    ],
+                    "longest_values": [
+                        "at apt#1a, 1st story \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6.. 1st apartment from south at west, section north \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6. kitchen \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6 trace, locate and repair concealed water lea",
+                        "4th story \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6 apt #4b, at kitchen \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6. demo approx 32 sf of damaged and defective wood floor. supply and install new plywood base with v",
+                        "2nd story, at apt 2a \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6.. 2nd apartment from west at north \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6. 1st room east \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6 demo and properly repair the broken and defective plas",
+                        "at apt 22, 2nd story \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6.. 1st apartment from west at north, section at west \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6 5th room from east \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6. trace, locate and repair conceal",
+                        "missing metal balusters \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6 bottom at stairs to 1st story at west court \u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6\u00c3\u00a2\u00e2\u0082\u00ac\u00c2\u00a6... supply & install with new (similar material) the missing me"
+                    ],
+                    "average_length": 138.7202323798375
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

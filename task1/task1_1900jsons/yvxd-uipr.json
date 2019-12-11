@@ -1,0 +1,677 @@
+{
+    "dataset_name": "yvxd-uipr",
+    "columns": [
+        {
+            "column_name": "Filed",
+            "number_non_empty_cells": 9771,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3679,
+            "frequent_values": [
+                "12/06/2016",
+                "02/18/1998",
+                "04/15/2009",
+                "05/14/2014",
+                "09/08/2005"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 9771,
+                    "max_value": "2019-08-23 00:00:00",
+                    "min_value": "1998-01-05 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Application",
+            "number_non_empty_cells": 9771,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "BZ",
+                "Appeal",
+                "SOC",
+                "BZY",
+                "Compliance"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9771,
+                    "shortest_values": [
+                        "BZ",
+                        "SOC",
+                        "BZY",
+                        "Appeal",
+                        "Appeals"
+                    ],
+                    "longest_values": [
+                        "Compliance",
+                        "Appeals",
+                        "Appeal",
+                        "BZY",
+                        "SOC"
+                    ],
+                    "average_length": 3.6080237437314504
+                }
+            ]
+        },
+        {
+            "column_name": "Calendar Number",
+            "number_non_empty_cells": 9771,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9771,
+            "frequent_values": [
+                "245-12-A",
+                "581-56-BZ",
+                "245-03-BZII",
+                "2017-104-A",
+                "812-61-BZII"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9771,
+                    "shortest_values": [
+                        "1-10-A",
+                        "4-09-A",
+                        "6-03-A",
+                        "9-03-A",
+                        "6-15-A"
+                    ],
+                    "longest_values": [
+                        "2016-1211-BZIII",
+                        "2016-4141-BZII",
+                        "240-55-BZVIII",
+                        "1259-79-BZIII",
+                        "200-00-BZVIII"
+                    ],
+                    "average_length": 9.052195271722445
+                }
+            ]
+        },
+        {
+            "column_name": "Number",
+            "number_non_empty_cells": 9713,
+            "number_empty_cells": 58,
+            "number_distinct_values": 4051,
+            "frequent_values": [
+                "25",
+                "15",
+                "30",
+                "20",
+                "23"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6614,
+                    "max_value": 770780,
+                    "min_value": 0,
+                    "mean": 977.5958572724523,
+                    "stddev": 9566.999930327007
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3099,
+                    "shortest_values": [
+                        "2A",
+                        "7A",
+                        "9A",
+                        "43A",
+                        "2-4"
+                    ],
+                    "longest_values": [
+                        "150-70,72,74,76",
+                        "219-28---219-38",
+                        "521-541&553-563",
+                        "25, 27, 31, 33,",
+                        "5902,5904,5906,"
+                    ],
+                    "average_length": 6.203291384317522
+                }
+            ]
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 9762,
+            "number_empty_cells": 9,
+            "number_distinct_values": 2141,
+            "frequent_values": [
+                "Broadway",
+                "Northern Boulevard",
+                "El Camino Loop",
+                "Fourberie Lane",
+                "Bedford Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9762,
+                    "shortest_values": [
+                        "\u00a7",
+                        "Bank",
+                        "Adams",
+                        "Amboy",
+                        "Doris"
+                    ],
+                    "longest_values": [
+                        "Father Capodanno Boulevar",
+                        "Brooklyn Queens Expresswa",
+                        "I-95 & Hutchinson Parkway",
+                        "West 38th Street, 3rd Flo",
+                        "Van Wyck Expressway n/o R"
+                    ],
+                    "average_length": 14.166871542716656
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 9767,
+            "number_empty_cells": 4,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Staten Island",
+                "Manhattan",
+                "Bronx"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 839,
+                    "min_value": 839,
+                    "mean": 839.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 9766,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Manahattan"
+                    ],
+                    "longest_values": [
+                        "avenue & Powe",
+                        "Staten Island",
+                        "Manahattan",
+                        "Manhattan",
+                        "Brooklyn"
+                    ],
+                    "average_length": 8.590620520172026
+                }
+            ]
+        },
+        {
+            "column_name": "Borough Code",
+            "number_non_empty_cells": 9753,
+            "number_empty_cells": 18,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "4",
+                "3",
+                "5",
+                "1",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9753,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 3.2990874602686353,
+                    "stddev": 1.3751974543271042
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 9753,
+            "number_empty_cells": 18,
+            "number_distinct_values": 3250,
+            "frequent_values": [
+                "16350",
+                "6979",
+                "3019",
+                "7020",
+                "1116"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9752,
+                    "max_value": 80800,
+                    "min_value": 0,
+                    "mean": 4933.301374077112,
+                    "stddev": 4264.155634513677
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 1.071,
+                    "min_value": 1.071,
+                    "mean": 1.071,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 9757,
+            "number_empty_cells": 14,
+            "number_distinct_values": 1822,
+            "frequent_values": [
+                "1",
+                "400",
+                "10",
+                "5",
+                "15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8475,
+                    "max_value": 90003,
+                    "min_value": 0,
+                    "mean": 313.7956342182891,
+                    "stddev": 2480.0131074931687
+                },
+                {
+                    "type": "REAL",
+                    "count": 3,
+                    "max_value": 400.62,
+                    "min_value": 3.4,
+                    "mean": 168.67333333333332,
+                    "stddev": 168.8785207051375
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1279,
+                    "shortest_values": [
+                        "A",
+                        "1&8",
+                        "28C",
+                        "5,8",
+                        "1,6"
+                    ],
+                    "longest_values": [
+                        "53, 54, 55, 57, 71, 72, 73",
+                        "13, 19, 35, 36, 41 & 135",
+                        "12,15,17,18,21 & 121",
+                        "Tent. 144 (prior 40)",
+                        "12(tent), 14, 17, 22"
+                    ],
+                    "average_length": 9.452697419859264
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 9723,
+            "number_empty_cells": 48,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "3",
+                "1",
+                "2",
+                "14",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9717,
+                    "max_value": 41,
+                    "min_value": 1,
+                    "mean": 6.9689204486981575,
+                    "stddev": 5.003061879979147
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        "5M",
+                        "4M",
+                        "3M",
+                        "4Q",
+                        "2M"
+                    ],
+                    "longest_values": [
+                        "2M",
+                        "4Q",
+                        "3M",
+                        "4M",
+                        "5M"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Project Description",
+            "number_non_empty_cells": 9762,
+            "number_empty_cells": 9,
+            "number_distinct_values": 7180,
+            "frequent_values": [
+                "Proposed buildings are located within the bed of a mapped street, and are not fronting on a legally mapped street contrary to Sections 35 and 36, of the General City Law.",
+                "An appeal seeking a determination that the owner has acquired a common law vested right to continue development commenced under the prior zoning district regulations. R3-2 (SSRD) zoning district.",
+                "Proposed building not fronting on a legally mapped street is contrary to Section 36, Article 3 of the General City Law.",
+                "Application to permit an extension of time to complete construction and obtain a certificate of occupancy under the previously granted Common Law vested rights for a residential development approved under the prior zoning district regulations. R3-2(SSRD) zoning district.",
+                "Appeal pursuant to Article III, Section 36, of the General City law to permit construction of 75 two family detached dwellings that does not front on a legally mapped street."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9762,
+                    "shortest_values": [
+                        "+",
+                        "Remand",
+                        "Amendment",
+                        "Compliance",
+                        "Rescindment"
+                    ],
+                    "longest_values": [
+                        "Reopening for an amendment to the resolution  to legalize the reconstruction of the building; on condition that the sprinkler system approved under DOB #301110027 shall be connected to an approved Fire Department station and adequately maintained; that the hours of operation shall be limited to 7:30 a.m. to 4:30 p.m., Monday through Friday; that the operator of the site shall continue to maintain three off-street parking for business vehicles; that the Freon shall be stored in a non-combustible cabinet and that only three 30 pound canisters shall be stored at the premises; that no acetylene torches, combustible gases or liquids or other flammable material shall be used or stored on the premises; that no propane forklift shall be used on the premises; that the owner shall comply the performance standards of ZR  \u00a742-20; that the site shall be kept graffiti and debris free; that the of the premises shall be limited to the storage, sales, service and assembly of HVAC equipment and accessories; that the activities on the premises shall be limited to Group 16A uses.",
+                        "Variance (\u00a772-21) to permit the construction of 28 attached, three-story and cellar, two-family dwellings on a vacant site.  The subject site is located in an M1-1 zoning district.  The proposal would create 56 dwelling units and 56 parking spaces.  The 28 proposed dwellings are intended to be part of a larger and substantially complete development which is located within the adjacent C3 zoning district.  The proposed project has been designed to conform and comply with the C3 district regulations that govern the remainder of the subject property and which permits residential development in accordance with the C3 district\u2019s equivalent R3-2 zoning district regulations (pursuant to Sections 32-11 and 34-112).  The development as a whole is the subject of a homeowners\u2019 association that will govern maintenance of the common areas, including the parking area, driveways, planted areas and the proposed park.  The proposal is contrary to applicable use regulations pursuant to Z.R. Section 42-10.",
+                        "Extension of the term of the variance, which expires on May 1, 2002, permitting the operation of an automotive service station in a C1-2/R4 zoning district.  The application seeks an amendment to permit the legalization of the removal of a portion of the planting area on 72nd Road side of the property, legalization of a planting area along Vleigh Place which had previously been designated for parking, legalization of modifications to the interior, which include a wall to divide the office area into a smaller office and auto accessories sales area and the installation of a new slop sink, legalization of the erection of a chain link fence in lieu of a wooden railing at the corner of Vleigh Place and 72nd Road, legalization of the construction of a masonry wall rather than brick piers and wooden pickets along 72nd Avenue, legalization of the bricking over of the windows on the service building and its cupola, elimination of the prohibition of vending machines.",
+                        "Amendment to a previously approved variance permitting the operation of an automotive service station to include auto washing, lubritorium, motor vehicle repairs, storage and sale of accessories, and office located within a C2-5/R7A zoning district.  The amendment seeks to permit a change in existing signage from 60 square feet of illuminated signage and 50 square feet of non illuminated signage for a total of 110 square feet of signage to 66.25 square feet of illuminated signage and no non illuminated signage for a total of 66.25 square feet of signage and the legalization of changes to the site subsequent to the Board approval dated November 9, 1954. These changes include the demolition of the approved structure and the elimination of accessory uses to erect a kiosk for the dispensing of gasoline, the elimination of a masonry wall on the 46th Road to construct two curb cuts, and the addition of a 25' 0\" curb cut fronting 21st Street",
+                        "\u00a711-411 & \u00a711-412 To permit the extension of the term of the variance, allowing in a C2-2/R6 the erection and maintained of an Automotive Service Station, for an additional ten (10) years from October 21, 2005 expiring on October 21, 2015, and to permit the conversion of a portion of the existing service building to an accessory convenience store; the removal of the kiosk from the center island; the change of the center island from a 23' by 6' concrete island with one multi product dispenser to a 23' by 3' concrete island with one (1) multi product dispenser and steel inverted \"U\" bumpers; the modification of the service building by establishing an attendant's area within the space currently designated as the office and sales area; the shortening of the island closest to Sound view Avenue, the removal of one of its multi product dispensers and the addition a diesel dispenser to the remaining multi product dispenser."
+                    ],
+                    "average_length": 215.51075599262447
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 9771,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Granted",
+                "Withdrawn",
+                "Denied",
+                "Initial/New",
+                "Pending"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 9771,
+                    "shortest_values": [
+                        "Denied",
+                        "Granted",
+                        "Pending",
+                        "Decision",
+                        "Withdrawn"
+                    ],
+                    "longest_values": [
+                        "Initial/New",
+                        "Continued",
+                        "Dismissed",
+                        "Withdrawn",
+                        "Decision"
+                    ],
+                    "average_length": 7.293214614676082
+                }
+            ]
+        },
+        {
+            "column_name": "Date",
+            "number_non_empty_cells": 9441,
+            "number_empty_cells": 330,
+            "number_distinct_values": 957,
+            "frequent_values": [
+                "09/10/2019",
+                "04/13/2010",
+                "06/23/1998",
+                "12/06/2005",
+                "10/21/2014"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 9441,
+                    "max_value": "2019-12-17 00:00:00",
+                    "min_value": "1998-03-10 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 189,
+            "frequent_values": [
+                "10309",
+                "11210",
+                "11697",
+                "10314",
+                "10306"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8492,
+                    "max_value": 11697,
+                    "min_value": 10001,
+                    "mean": 10808.416274140367,
+                    "stddev": 577.7286728138937
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 6339,
+            "frequent_values": [
+                "40.695879",
+                "40.759289",
+                "40.778374",
+                "40.698845",
+                "40.595574"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 8492,
+                    "max_value": 40.907624,
+                    "min_value": 40.499562,
+                    "mean": 40.67820970525208,
+                    "stddev": 0.09291157601746997
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 6330,
+            "frequent_values": [
+                "-73.9615",
+                "-73.713493",
+                "-73.776949",
+                "-73.96029",
+                "-73.775752"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 8492,
+                    "max_value": -73.702177,
+                    "min_value": -74.252922,
+                    "mean": -73.96505859950528,
+                    "stddev": 0.12459190682307399
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "51",
+                "48",
+                "50",
+                "32",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8492,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 30.090438059349978,
+                    "stddev": 17.17086881030529
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 951,
+            "frequent_values": [
+                "91601",
+                "20803",
+                "226",
+                "29102",
+                "101002"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8492,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 13669.837140838436,
+                    "stddev": 30255.57510543539
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 8252,
+            "number_empty_cells": 1519,
+            "number_distinct_values": 5510,
+            "frequent_values": [
+                "5000000",
+                "4000000",
+                "3000000",
+                "2000000",
+                "1000000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8252,
+                    "max_value": 5171016,
+                    "min_value": 1000000,
+                    "mean": 3381600.1307561803,
+                    "stddev": 1423945.7140432799
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 8252,
+            "number_empty_cells": 1519,
+            "number_distinct_values": 5714,
+            "frequent_values": [
+                "4163500400",
+                "4163500300",
+                "4163400050",
+                "5065170100",
+                "3018967502"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8252,
+                    "max_value": 5080250034,
+                    "min_value": 1000020002,
+                    "mean": 3272438621.2907176,
+                    "stddev": 1388117059.235594
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 190,
+            "frequent_values": [
+                "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                "Midwood",
+                "Rossville-Woodrow",
+                "Sheepshead Bay-Gerritsen Beach-Manhattan Beach",
+                "Charleston-Richmond Valley-Tottenville"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8492,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Maspeth",
+                        "Clinton",
+                        "Belmont"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 22.776142251530853
+                }
+            ]
+        },
+        {
+            "column_name": "Location 1",
+            "number_non_empty_cells": 8492,
+            "number_empty_cells": 1279,
+            "number_distinct_values": 6513,
+            "frequent_values": [
+                "(40.695879, -73.9615)",
+                "(40.759289, -73.713493)",
+                "(40.778374, -73.776949)",
+                "(40.698845, -73.96029)",
+                "(40.758629, -73.775752)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8492,
+                    "shortest_values": [
+                        "(40.55864, -73.924)",
+                        "(40.72894, -73.8905)",
+                        "(40.688, -73.980327)",
+                        "(40.754034, -73.823)",
+                        "(40.675, -73.999438)"
+                    ],
+                    "longest_values": [
+                        "(40.621143000000004, -74.086056)",
+                        "(40.704542000000004, -73.948871)",
+                        "(40.683643000000004, -73.992569)",
+                        "(40.584816000000004, -73.936564)",
+                        "(40.506119, -74.23213200000001)"
+                    ],
+                    "average_length": 22.773433820065943
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

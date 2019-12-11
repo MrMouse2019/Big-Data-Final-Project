@@ -1,0 +1,1173 @@
+{
+    "dataset_name": "dpm2-m9mq",
+    "columns": [
+        {
+            "column_name": "docket",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 271909,
+            "frequent_values": [
+                "LPC-17-0258",
+                "LPC-08-6772",
+                "LPC-19-38923",
+                "LPC-14-9611",
+                "LPC-92-1835"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 271909,
+                    "shortest_values": [
+                        "LPC-00-1095",
+                        "LPC-96-2209",
+                        "LPC-94-1106",
+                        "LPC-12-4895",
+                        "LPC-96-0932"
+                    ],
+                    "longest_values": [
+                        "LPC-20-03083",
+                        "LPC-19-11580",
+                        "LPC-19-27364",
+                        "LPC-19-16588",
+                        "LPC-19-13412"
+                    ],
+                    "average_length": 11.117785729784597
+                }
+            ]
+        },
+        {
+            "column_name": "address",
+            "number_non_empty_cells": 271517,
+            "number_empty_cells": 392,
+            "number_distinct_values": 36593,
+            "frequent_values": [
+                "350 FIFTH AVENUE",
+                "30 ROCKEFELLER PLAZA",
+                "115 CENTRAL PARK WEST",
+                "375 PARK AVENUE",
+                "300 CENTRAL PARK WEST"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 2,
+                    "min_value": 2,
+                    "mean": 2.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 271516,
+                    "shortest_values": [
+                        "1 1",
+                        "1 O",
+                        "1 A",
+                        "1 G",
+                        "7 777"
+                    ],
+                    "longest_values": [
+                        "MULTIPLEADDRESS GARDEN PL,HICKS ST,STATE ST, JORALEMON ST,HENRY ST",
+                        "MULTIPLEADDRESS CLINTON,GRAND,LAFAYETTE&WAVERLY AVES&ST JAMES PL",
+                        "372-378 WEST END AVENUE aka 260 and 262 West 78th Street",
+                        "MULTIPLEADDRESS WESTERVELT AVE, ST. MARKS PL, CARROLL PL",
+                        "1270 AVENUE OF THE AMERICAS / 1270 Ave of the Am's Bldg"
+                    ],
+                    "average_length": 17.90095243005937
+                }
+            ]
+        },
+        {
+            "column_name": "received_date",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8805,
+            "frequent_values": [
+                "09/19/2013",
+                "08/01/2013",
+                "03/10/2014",
+                "10/17/2013",
+                "08/24/2011"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 271909,
+                    "max_value": "2019-09-26 00:00:00",
+                    "min_value": "1980-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Manhattan",
+                "Brooklyn",
+                "MANHATTAN",
+                "Queens",
+                "BROOKLYN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 271909,
+                    "shortest_values": [
+                        "Bronx",
+                        "BRONX",
+                        "bronx",
+                        "Queens",
+                        "QUEENS"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "Staten Island",
+                        "MANHATTAN",
+                        "Manhattan",
+                        "brooklyn"
+                    ],
+                    "average_length": 8.722296797825743
+                }
+            ]
+        },
+        {
+            "column_name": "Block",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2570,
+            "frequent_values": [
+                "1124",
+                "1265",
+                "1384",
+                "0",
+                "835"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 271909,
+                    "max_value": 77777777,
+                    "min_value": 0,
+                    "mean": 59680.10096760313,
+                    "stddev": 2053215.4641387681
+                }
+            ]
+        },
+        {
+            "column_name": "Lot",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 851,
+            "frequent_values": [
+                "1",
+                "7501",
+                "29",
+                "69",
+                "7502"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 271909,
+                    "max_value": 99999999,
+                    "min_value": 0,
+                    "mean": 84174.10962123357,
+                    "stddev": 2514527.3057115045
+                }
+            ]
+        },
+        {
+            "column_name": "LMNameType",
+            "number_non_empty_cells": 244173,
+            "number_empty_cells": 27736,
+            "number_distinct_values": 1634,
+            "frequent_values": [
+                "Greenwich Village Historic District: Historic District",
+                "Upper East Side Historic District: Historic District",
+                "Upper West Side/Central Park West Historic District: Historic District",
+                "SoHo-Cast Iron Historic District: Historic District",
+                "Ladies' Mile Historic District: Historic District"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 244173,
+                    "shortest_values": [
+                        "Bryant Park: Scenic Landmark",
+                        "City Hall: Interior Landmark",
+                        "Central Park: Scenic Landmark",
+                        "City Hall: Individual Landmark",
+                        "Coe House: Individual Landmark"
+                    ],
+                    "longest_values": [
+                        "Brooklyn Bridge: Individual Landmark, Greenwich Village Historic District: Historic District, High Bridge, Aqueduct and Pedestrian Walk: Individual Landmark, Queensboro Bridge: Individual Landmark, Fraunces Tavern Block Historic District: Historic District, 72nd Street Subway Kiosk (Control House): Individual Landmark, Upper East Side Historic District: Historic District, IRT Broadway Line Viaduct (Manhattan Valley Viaduct): Individual Landmark, IRT Subway System Underground Interior: Interior Landmark, Pershing Square Viaduct (Park Avenue Viaduct): Individual Landmark, Washington Bridge: Individual Landmark, Street Plan of New Amsterdam and Colonial New York: Individual Landmark, University Heights Bridge: Individual Landmark, Ladies' Mile Historic District: Historic District, Macomb's Dam Bridge (former Central Bridge) and 155th Street Viaduct: Individual Landmark, Expanded Carnegie Hill Historic District: Historic District, African Burial Ground &amp; The Commons Historic District:",
+                        "Charlton-King-Vandam Historic District: Historic District, St. Mark's Historic District: Historic District, Greenwich Village Historic District: Historic District, Chelsea Historic District: Historic District, 330 East 18th Street House: Individual Landmark, Hamilton Heights Historic District: Historic District, 214 East 78th Street House: Individual Landmark, Upper East Side Historic District: Historic District, 52 West 130th Street House (Astor Row): Individual Landmark, Riverside-West End Historic District: Historic District, Upper West Side/Central Park West Historic District: Historic District, Hamilton Heights/Sugar Hill Historic District: Historic District, Hamilton Heights/Sugar Hill Northeast Historic District: Historic District, Hamilton Heights/Sugar Hill Northwest Historic District: Historic District, Greenwich Village Historic District Extension: Historic District, Riverside-West End Historic District Extension II: Historic District, Mount Morris Park Historic District Ex",
+                        "Brooklyn Heights Historic District: Historic District, Cobble Hill Historic District: Historic District, Park Slope Historic District: Historic District, Bedford-Stuyvesant Historic District: Historic District, Clinton Hill Historic District: Historic District, Stuyvesant Heights Historic District: Historic District, Fort Greene Historic District: Historic District, Prospect Park South Historic District: Historic District, Brooklyn Academy of Music Historic District: Historic District, Prospect Lefferts Gardens Historic District: Historic District, Greenpoint Historic District: Historic District, Crown Heights North Historic District: Historic District, DUMBO Historic District: Historic District, Alice and Agate Courts Historic District: Historic District, Prospect Heights Historic District: Historic District, Crown Heights North Historic District II: Historic District, Crown Heights North Historic District III: Historic District, Bedford Historic District: Historic District",
+                        "191 Front Street Building: Individual Landmark, 193 Front Street Building: Individual Landmark, 195 Front Street Building: Individual Landmark, 18 Fulton Street Building: Individual Landmark, 16 Fulton Street Building: Individual Landmark, 14 Fulton Street Building: Individual Landmark, 12 Fulton Street Building: Individual Landmark, 10 Fulton Street Building: Individual Landmark, 8 Fulton Street Building: Individual Landmark, 6 Fulton Street Building: Individual Landmark, 4 Fulton Street Building: Individual Landmark, 2 Fulton Street Building: Individual Landmark, 92 South Street Building: Individual Landmark, 91 South Street Building: Individual Landmark, 167-171 John Street Building: Individual Landmark, 165 John Street Building: Individual Landmark, 159-163 John Street Building: Individual Landmark, 189 Front Street Building: Individual Landmark, South Street Seaport Historic District: Historic District",
+                        "Brooklyn Heights Historic District: Historic District, Cobble Hill Historic District: Historic District, Park Slope Historic District: Historic District, Boerum Hill Historic District: Historic District, Ocean Parkway: Scenic Landmark, Fort Greene Historic District: Historic District, Brooklyn Academy of Music Historic District: Historic District, Greenpoint Historic District: Historic District, Clinton Hill Historic District: Historic District, DUMBO Historic District: Historic District, Prospect Heights Historic District: Historic District, Crown Heights North Historic District II: Historic District, Borough Hall Skyscraper Historic District: Historic District, Bedford Stuyvesant/Expanded Stuyvesant Heights Historic District: Historic District, Bedford Historic District: Historic District, Park Slope Historic District Extension II: Historic District"
+                    ],
+                    "average_length": 64.73311955048266
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_name",
+            "number_non_empty_cells": 223984,
+            "number_empty_cells": 47925,
+            "number_distinct_values": 55533,
+            "frequent_values": [
+                "Rick Azar",
+                "Jacqueline Mosca",
+                "Cas Stachelberg",
+                "Elizabeth Umowski",
+                "Ken Kraus"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 223984,
+                    "shortest_values": [
+                        ",",
+                        "A",
+                        ".",
+                        "LU",
+                        "RH"
+                    ],
+                    "longest_values": [
+                        "Joseph LePique, R.A., Chief, Historic Preservation Office, Public Buildings Division",
+                        "Joseph LePique R.A., Chief, Historic Preservation Office, Public Buildings Division",
+                        "Heinrich Spillmann, Project Director, Capital Planning & Facilities",
+                        "Rev. Peter J. Montoro, Pastor & Chairman of the Board of Trustees",
+                        "Ursula Dean Hoskins, R.L.A., Vice President for Capital Projects"
+                    ],
+                    "average_length": 15.199715158225587
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_co",
+            "number_non_empty_cells": 183066,
+            "number_empty_cells": 88843,
+            "number_distinct_values": 44867,
+            "frequent_values": [
+                "Skyline Windows",
+                "William Vitacco Associates",
+                "Milrose Consultants, Inc.",
+                "Azar Associates",
+                "Municipal Building Consultants"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 7186121978,
+                    "min_value": 4,
+                    "mean": 2395373999.6666665,
+                    "stddev": 3387570382.4352436
+                },
+                {
+                    "type": "TEXT",
+                    "count": 183063,
+                    "shortest_values": [
+                        "c",
+                        "?",
+                        ".",
+                        "`",
+                        "FP"
+                    ],
+                    "longest_values": [
+                        "Old Court Group, GlobalTech Solution LLC,  F2b - GlobalTech Brazil,  Allied Exchange Africa Ltd.",
+                        "Eric Richey Architect, PLLCEric Richey Architect, PLLCEric Richey Architect, PLLC",
+                        "New York City Department of Design + Construction, Public Buildings Division",
+                        "New York City Department of Design + Construction Public Buildings Division",
+                        "The New York Public Library Office of Capital Planning and Construction"
+                    ],
+                    "average_length": 22.594363689003238
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_address1",
+            "number_non_empty_cells": 222585,
+            "number_empty_cells": 49324,
+            "number_distinct_values": 46664,
+            "frequent_values": [
+                "299 Broadway",
+                "40 Worth Street",
+                "767 East 132nd Street",
+                "625 West 130th Street",
+                "70 Lafayette Street"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 6238,
+                    "min_value": 15,
+                    "mean": 1036.75,
+                    "stddev": 1425.8291228264345
+                },
+                {
+                    "type": "TEXT",
+                    "count": 222565,
+                    "shortest_values": [
+                        ".",
+                        "\\",
+                        "1H",
+                        "4A",
+                        "1B"
+                    ],
+                    "longest_values": [
+                        "c/o Gumley Haft Real Estate Property Management Co.",
+                        "New York City Department of Design and Constructio",
+                        "Office of Court Administration, Technical Division",
+                        "NYC Department of Citywide Administrative Services",
+                        "Penmark Realty Corp. AAF 3 E. 95th St Carhart Mans"
+                    ],
+                    "average_length": 19.729238649383326
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_address2",
+            "number_non_empty_cells": 38473,
+            "number_empty_cells": 233436,
+            "number_distinct_values": 6041,
+            "frequent_values": [
+                "5th Floor",
+                "Suite 1221",
+                "10th Floor",
+                "4th Floor",
+                "Suite 1420"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 198,
+                    "max_value": 11374,
+                    "min_value": 1,
+                    "mean": 1826.0353535353536,
+                    "stddev": 2642.94871934617
+                },
+                {
+                    "type": "TEXT",
+                    "count": 38275,
+                    "shortest_values": [
+                        "]",
+                        "B",
+                        ",",
+                        "'",
+                        "`"
+                    ],
+                    "longest_values": [
+                        "Battery Maritime Building, 10 South Street, Slip 7",
+                        "718-462-2493 fax permit copy / ksandwipi@yahoo.com",
+                        "600 Maryland Avenue, Suite 5001, P.O. Box 37012",
+                        "Olmstead Center, Flushing Meadows Corona Park",
+                        "Olmsted Center., Flushing Meadows-Corona Park"
+                    ],
+                    "average_length": 10.217583278902678
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_zip",
+            "number_non_empty_cells": 224353,
+            "number_empty_cells": 47556,
+            "number_distinct_values": 1566,
+            "frequent_values": [
+                "10013",
+                "10007",
+                "10001",
+                "10018",
+                "11201"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 224332,
+                    "max_value": 111235,
+                    "min_value": 0,
+                    "mean": 10441.10569156429,
+                    "stddev": 2689.5012275845206
+                },
+                {
+                    "type": "TEXT",
+                    "count": 21,
+                    "shortest_values": [
+                        "NY",
+                        "H3B 1K9",
+                        "Suite 0406",
+                        "11758-4431",
+                        "11419-0906"
+                    ],
+                    "longest_values": [
+                        "11791-3491",
+                        "10011-4640",
+                        "10013-3512",
+                        "10016-2203",
+                        "10013-3962"
+                    ],
+                    "average_length": 9.476190476190476
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_city",
+            "number_non_empty_cells": 224534,
+            "number_empty_cells": 47375,
+            "number_distinct_values": 1100,
+            "frequent_values": [
+                "New York",
+                "Brooklyn",
+                "Flushing",
+                "Bronx",
+                "Long Island City"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 53,
+                    "max_value": 92010,
+                    "min_value": 0,
+                    "mean": 10455.452830188678,
+                    "stddev": 11841.92331963657
+                },
+                {
+                    "type": "TEXT",
+                    "count": 224481,
+                    "shortest_values": [
+                        "t",
+                        "+",
+                        "p",
+                        "\\",
+                        "Z"
+                    ],
+                    "longest_values": [
+                        "Montreal,Quebec,Canada H2T-2T3",
+                        "Montreal, Qc, H2T 2T3, Canada",
+                        "Montreal Canada J7A-458",
+                        "Port Jefferson Station",
+                        "Quebec, Canada H4N 2B3"
+                    ],
+                    "average_length": 8.265291940075107
+                }
+            ]
+        },
+        {
+            "column_name": "applicant_state",
+            "number_non_empty_cells": 224642,
+            "number_empty_cells": 47267,
+            "number_distinct_values": 61,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "CT",
+                "PA",
+                "CA"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 10,
+                    "min_value": 10,
+                    "mean": 10.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 224641,
+                    "shortest_values": [
+                        "]",
+                        "\\",
+                        ".",
+                        "'",
+                        "`"
+                    ],
+                    "longest_values": [
+                        "GEO",
+                        "Wi",
+                        "WA",
+                        "NV",
+                        "MI"
+                    ],
+                    "average_length": 1.9999198721515663
+                }
+            ]
+        },
+        {
+            "column_name": "owner_name",
+            "number_non_empty_cells": 227669,
+            "number_empty_cells": 44240,
+            "number_distinct_values": 78270,
+            "frequent_values": [
+                "Joseph Szabo",
+                "Steve Sonitis",
+                "Mark Scharfman",
+                "German Roa",
+                "Brenda Ballison"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 227669,
+                    "shortest_values": [
+                        "-",
+                        ".",
+                        "?",
+                        "\\",
+                        "Pc"
+                    ],
+                    "longest_values": [
+                        "Joseph M. Mastropietro, Assistant Commissioner of Facilities Management",
+                        "Eric Boorstyn AIA, City of New York, Dept. of Design & Construction",
+                        "Robin Auchincloss, AIA, Director of Campus and Facilities Planning",
+                        "Michelle Craven, Senior Executive Director, Cityscape & Franchises",
+                        "Rev. Peter J. Montoro, Pastor & Chairman of the Board of Trustees"
+                    ],
+                    "average_length": 15.781981736643987
+                }
+            ]
+        },
+        {
+            "column_name": "owner_address1",
+            "number_non_empty_cells": 227060,
+            "number_empty_cells": 44849,
+            "number_distinct_values": 61013,
+            "frequent_values": [
+                "770 Lexington Avenue",
+                "45 Rockefeller Plaza",
+                "675 Third Avenue",
+                "c/o Brown Harris Stevens",
+                "350 Fifth Avenue"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 9177477559,
+                    "min_value": 306,
+                    "mean": 3059162633.6666665,
+                    "stddev": 4326301973.139889
+                },
+                {
+                    "type": "TEXT",
+                    "count": 227057,
+                    "shortest_values": [
+                        "5B",
+                        "3H",
+                        "#3",
+                        "NYU",
+                        "#3C"
+                    ],
+                    "longest_values": [
+                        "The Catholic Community of SS Peter & Paul & Assumption Parish Office",
+                        "Wasserstein Enterprises LLC, c/o ABS Partners Real Estate LLC",
+                        "Collegiate Asset Management Corp.500 Fifth Avenue, Suite 1710",
+                        "Attn: Lynn Haslett, Douglas Elliman Property Management",
+                        "c/o First Management Corporation Real Estate Management"
+                    ],
+                    "average_length": 19.64563083278648
+                }
+            ]
+        },
+        {
+            "column_name": "owner_address2",
+            "number_non_empty_cells": 40313,
+            "number_empty_cells": 231596,
+            "number_distinct_values": 9634,
+            "frequent_values": [
+                "770 Lexington Avenue",
+                "675 Third Avenue",
+                "675 3rd Avenue",
+                "415 Madison Avenue",
+                "5th Floor"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 115,
+                    "max_value": 11725,
+                    "min_value": 1,
+                    "mean": 1879.391304347826,
+                    "stddev": 2946.4128188451155
+                },
+                {
+                    "type": "TEXT",
+                    "count": 40198,
+                    "shortest_values": [
+                        "\\",
+                        "y",
+                        "5F",
+                        "6B",
+                        "6F"
+                    ],
+                    "longest_values": [
+                        "Mayor Erastus Corning 2nd Tower, Empire State Plaz",
+                        "820 Second Avenue    4th Floor   attn: Chuck Mintz",
+                        "1633 Broadway Property Management Office C-1 Level",
+                        "Battery Maritime Building, 10 South Street, Slip 7",
+                        "c/o Tishman Speyer Properties, 520 Madison Avenue"
+                    ],
+                    "average_length": 16.69167620279616
+                }
+            ]
+        },
+        {
+            "column_name": "owner_zip",
+            "number_non_empty_cells": 227386,
+            "number_empty_cells": 44523,
+            "number_distinct_values": 1782,
+            "frequent_values": [
+                "10017",
+                "10021",
+                "11201",
+                "10023",
+                "10013"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 227355,
+                    "max_value": 99502,
+                    "min_value": 0,
+                    "mean": 10700.410358250314,
+                    "stddev": 5271.481863647466
+                },
+                {
+                    "type": "TEXT",
+                    "count": 31,
+                    "shortest_values": [
+                        "103 16",
+                        "H3G 1Z8",
+                        "EC4A1LT",
+                        "EC4A 1LT",
+                        "VIC 3162"
+                    ],
+                    "longest_values": [
+                        "10003-1402",
+                        "11419-0906",
+                        "10016-2203",
+                        "11216-2103",
+                        "10110-1799"
+                    ],
+                    "average_length": 9.290322580645162
+                }
+            ]
+        },
+        {
+            "column_name": "owner_city",
+            "number_non_empty_cells": 228355,
+            "number_empty_cells": 43554,
+            "number_distinct_values": 1114,
+            "frequent_values": [
+                "New York",
+                "Brooklyn",
+                "Flushing",
+                "Bronx",
+                "Long Island City"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 60179,
+                    "min_value": 0,
+                    "mean": 8977.23076923077,
+                    "stddev": 8017.357335123169
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 7.777777777777777e+21,
+                    "min_value": 7.777777777777777e+21,
+                    "mean": 7.777777777777777e+21,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 228289,
+                    "shortest_values": [
+                        ".",
+                        "l",
+                        "b",
+                        "'",
+                        "`"
+                    ],
+                    "longest_values": [
+                        "Curacao, Netherland Antilles",
+                        "New Preston Marble Dale",
+                        "White Rock, BC, V4B-3B5",
+                        "Shelter Island Heights",
+                        "Burbank, CA 91521-2625"
+                    ],
+                    "average_length": 8.187030474530092
+                }
+            ]
+        },
+        {
+            "column_name": "owner_state",
+            "number_non_empty_cells": 228257,
+            "number_empty_cells": 43652,
+            "number_distinct_values": 70,
+            "frequent_values": [
+                "NY",
+                "NJ",
+                "CT",
+                "CA",
+                "FL"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 92,
+                    "min_value": 8,
+                    "mean": 59.2,
+                    "stddev": 29.982661656364
+                },
+                {
+                    "type": "TEXT",
+                    "count": 228252,
+                    "shortest_values": [
+                        "A",
+                        "\\",
+                        ".",
+                        "]",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "GEO",
+                        "BR",
+                        "MC",
+                        "MI",
+                        "OR"
+                    ],
+                    "average_length": 1.9999868566321435
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard",
+            "number_non_empty_cells": 268645,
+            "number_empty_cells": 3264,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "MN-2",
+                "MN-7",
+                "MN-8",
+                "MN-5",
+                "BK-2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 101,
+                    "min_value": 6,
+                    "mean": 53.5,
+                    "stddev": 47.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 268643,
+                    "shortest_values": [
+                        "QN-",
+                        "BX-",
+                        "BK-",
+                        "MN-",
+                        "MN-1"
+                    ],
+                    "longest_values": [
+                        "Multiple",
+                        "QN-81",
+                        "BK-14",
+                        "BK-11",
+                        "MN-12"
+                    ],
+                    "average_length": 4.030762015016211
+                }
+            ]
+        },
+        {
+            "column_name": "WorkTypes",
+            "number_non_empty_cells": 271675,
+            "number_empty_cells": 234,
+            "number_distinct_values": 5894,
+            "frequent_values": [
+                "Interior Alterations",
+                "Legacy- Not Available",
+                "WINDOWS",
+                "RESTORATIVE WORK",
+                "A/C, LOUVERS, GRILLES"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 10086785,
+                    "min_value": 1,
+                    "mean": 4317370.142857143,
+                    "stddev": 4983555.832515844
+                },
+                {
+                    "type": "TEXT",
+                    "count": 271668,
+                    "shortest_values": [
+                        "O",
+                        "I",
+                        "**",
+                        "RA",
+                        "AX"
+                    ],
+                    "longest_values": [
+                        "COFA Filing Drawings, New or modified openings at nonvisible or minimally visible secondary facades, Other as described by applicant, Non-occupiable Space: Buildings in a historic district, Replacement of Deteriorated Architectural Features: Terra cotta, Lighting fixtures and intercom panels, Repointing mortar joints, Cleaning/removal of paint/coatings, Replacement of Deteriorated Architectural Features: Cast and natural stone, Repair of natural and cast stone, Replacement of Deteriorated Architectural Features: Brick and stucco, HVAC equipment within window openings on secondary facades, Access actuators for automatic doors installed on building facades, HVAC equipment and other mechanical equipment on rooftops or terraces over primary facades, Exterior Siamese connections/standpipes, oil fill pipes, boiler and dryer vents, and water spigots, Primary Facades: Existing original/historic openings at large residential and commercial buildings, Security camera",
+                        "Filing any work, COFA Filing Drawings, Primary Facades: Existing original/historic openings at small residential and commercial buildings, Primary Facades: Existing non-original/non-historic openings at small residential and commercial buildings, Interior Alterations, Lighting fixtures and intercom panels, HVAC equipment and other mechanical equipment on rooftops or terraces over secondary facades, Exterior Siamese connections/standpipes, oil fill pipes, boiler and dryer vents, and water spigots, Repair of natural and cast stone, Replacement of Deteriorated Architectural Features: roofing material (original/historic roofing is present), Alterations, without historic or original fabric at door surround, Entrance infill , New or modified openings at visible secondary facades, New or modified openings at nonvisible or minimally visible secondary facades, Filling in existing openings at visible secondary facades, Existing openings at visible secondary facades",
+                        "HVAC equipment and other mechanical equipment on rooftops or terraces over secondary facades, Replacement of Deteriorated Architectural Features: roofing material (original/historic roofing is present), Non-occupiable Space: Buildings in a historic district, Replacement of Deteriorated Architectural Features: Brownstone, Areaway paving, steps, or planted areas, Hatches, Non-occupiable Space: Buildings in a historic district, HVAC equipment in yards and areaways fronting secondary facades, Recreate missing architectural features, Primary Facades: Existing non-original/non-historic openings at small residential and commercial buildings, Lighting fixtures and intercom panels, Repointing mortar joints, Repair of ornamental sheet metal, Repair of natural and cast stone, Interior Alterations, New or modified openings at nonvisible or minimally visible secondary facades, Areaway wall or fence at attached residential buildings (non-garden historic district)",
+                        "Platform lifts, HVAC equipment within window openings on primary facades, Ramps with handrails, Filing any work, Primary Facades: Existing original/historic openings at small residential and commercial buildings, Existing openings at nonvisible or minimally visible secondary facades, Repair of natural and cast stone, Reconstruction of Facades, Repair of natural and cast stone, Repair of fired clay and ceramic unit masonry, Reconstruction of Facades, HVAC equipment and other mechanical equipment on rooftops or terraces over secondary facades, Other as described by applicant, New or modified openings at nonvisible or minimally visible secondary facades, Recreate missing architectural features, Security camera, Lighting fixtures and intercom panels, Interior Alterations, Alteration, Restoration and Maintenance of existing fire escape, Areaway wall or fence at attached residential buildings (non-garden historic district)",
+                        "Filing any work, Primary Facades: Existing original/historic openings at small residential and commercial buildings, Cleaning/removal of paint/coatings, Lighting fixtures and intercom panels, Mailboxes and mail key lockboxes, Other , Interior Alterations, HVAC equipment in yards and areaways fronting secondary facades, HVAC equipment and other mechanical equipment on rooftops or terraces over secondary facades, Rear yard decks, Existing openings at nonvisible or minimally visible secondary facades, New or modified openings at nonvisible or minimally visible secondary facades, Filling in existing openings at nonvisible or minimally visible secondary facades, Areaway wall or fence at attached residential buildings (non-garden historic district), Areaway paving, steps, or planted areas, Repair of stucco"
+                    ],
+                    "average_length": 22.196224803804643
+                }
+            ]
+        },
+        {
+            "column_name": "regulation_type",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "Certificate of No Effect",
+                "Permit for Minor Work",
+                "Withdrawn at Staff Level",
+                "Expedited Certificate of No Effect",
+                "Miscellaneous - Amendment"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 271909,
+                    "shortest_values": [
+                        "Deactivation",
+                        "Notice of Review",
+                        "Commission Denial",
+                        "Modification of Use",
+                        "Status Update Letter"
+                    ],
+                    "longest_values": [
+                        "Expedited Certificate of No Effect",
+                        "Certificate of Appropriateness",
+                        "Commission Advisory Report",
+                        "Miscellaneous - Amendment",
+                        "Commission Binding Report"
+                    ],
+                    "average_length": 24.11096727213884
+                }
+            ]
+        },
+        {
+            "column_name": "issue_date",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8647,
+            "frequent_values": [
+                "08/12/2014",
+                "08/22/2007",
+                "05/06/2011",
+                "05/19/2011",
+                "07/06/2007"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 271909,
+                    "max_value": "2031-12-01 00:00:00",
+                    "min_value": "1900-01-26 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "xCoordinate",
+            "number_non_empty_cells": 267979,
+            "number_empty_cells": 3930,
+            "number_distinct_values": 16680,
+            "frequent_values": [
+                "0988505",
+                "0990153",
+                "0990837",
+                "0993301",
+                "0991785"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 267979,
+                    "max_value": 1065715,
+                    "min_value": 913851,
+                    "mean": 990017.3665585737,
+                    "stddev": 8881.902115201925
+                }
+            ]
+        },
+        {
+            "column_name": "yCoordinate",
+            "number_non_empty_cells": 267979,
+            "number_empty_cells": 3930,
+            "number_distinct_values": 21791,
+            "frequent_values": [
+                "0211918",
+                "0215712",
+                "0221951",
+                "0226391",
+                "0215724"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 267979,
+                    "max_value": 271861,
+                    "min_value": 121828,
+                    "mean": 209825.81876938118,
+                    "stddev": 14010.190674033622
+                }
+            ]
+        },
+        {
+            "column_name": "latitude",
+            "number_non_empty_cells": 267962,
+            "number_empty_cells": 3947,
+            "number_distinct_values": 29896,
+            "frequent_values": [
+                "40.74834145872778",
+                "40.75875407922752",
+                "40.77587803284109",
+                "40.788062474266276",
+                "40.75878577593444"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 267962,
+                    "max_value": 40.91282761216418,
+                    "min_value": 40.50080890905931,
+                    "mean": 40.74259527991171,
+                    "stddev": 0.038451932629881135
+                }
+            ]
+        },
+        {
+            "column_name": "longitude",
+            "number_non_empty_cells": 267962,
+            "number_empty_cells": 3947,
+            "number_distinct_values": 29265,
+            "frequent_values": [
+                "-73.98464341134478",
+                "-73.97869233509232",
+                "-73.97621723173671",
+                "-73.96731482743002",
+                "-73.9728014005628"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15,
+                    "max_value": -74,
+                    "min_value": -74,
+                    "mean": -74.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 267947,
+                    "max_value": -73.70596118151632,
+                    "min_value": -74.25315410288007,
+                    "mean": -73.97917822860293,
+                    "stddev": 0.03205914554890557
+                }
+            ]
+        },
+        {
+            "column_name": "Regulation Number",
+            "number_non_empty_cells": 271909,
+            "number_empty_cells": 0,
+            "number_distinct_values": 270302,
+            "frequent_values": [
+                "WSL-00-0000",
+                "CNE-14-0541",
+                "CNE-19-8691",
+                "XCNE-05-2194",
+                "NOC-12-9657"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 271909,
+                    "shortest_values": [
+                        "CD-89-0081",
+                        "CD-94-0023",
+                        "CD-05-5677",
+                        "CD-03-6349",
+                        "CD-89-0044"
+                    ],
+                    "longest_values": [
+                        "MISC_C-19-34151",
+                        "MISC_C-19-10581",
+                        "MISC_C-19-09932",
+                        "MISC_C-19-34266",
+                        "MISC_C-19-10975"
+                    ],
+                    "average_length": 11.308956305234473
+                }
+            ]
+        },
+        {
+            "column_name": "owner_co",
+            "number_non_empty_cells": 177014,
+            "number_empty_cells": 94895,
+            "number_distinct_values": 66884,
+            "frequent_values": [
+                "New York University",
+                "Brown Harris Stevens",
+                "Douglas Elliman Property Management",
+                "RCPI Landmark Properties, LLC",
+                "RCPI Landmark Properties LLC"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 9292712393,
+                    "min_value": 17,
+                    "mean": 4646356205.0,
+                    "stddev": 4646356188.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 177012,
+                    "shortest_values": [
+                        "`",
+                        ".",
+                        "]",
+                        "\\",
+                        "FP"
+                    ],
+                    "longest_values": [
+                        "Assistant Commissioner, NYC Dept. of Housing, Preservation & Development",
+                        "The New York Public Library Office of Capital Planning and Construction",
+                        "New York City Department of Information Technology & Telecommunications",
+                        "The York Public Library Office of Capital Planning and Construction",
+                        "NYC Department of Transportation, Manhattan Borough Commissioner"
+                    ],
+                    "average_length": 23.216759315752604
+                }
+            ]
+        },
+        {
+            "column_name": "expiration_date",
+            "number_non_empty_cells": 179902,
+            "number_empty_cells": 92007,
+            "number_distinct_values": 7169,
+            "frequent_values": [
+                "05/05/2005",
+                "08/25/2008",
+                "08/01/2011",
+                "06/08/2015",
+                "06/23/2014"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 179902,
+                    "max_value": "2040-11-30 00:00:00",
+                    "min_value": "1960-11-08 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "community_board",
+            "number_non_empty_cells": 268645,
+            "number_empty_cells": 3264,
+            "number_distinct_values": 75,
+            "frequent_values": [
+                "MN-2",
+                "MN-7",
+                "MN-8",
+                "MN-5",
+                "BK-2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 101,
+                    "min_value": 6,
+                    "mean": 53.5,
+                    "stddev": 47.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 268643,
+                    "shortest_values": [
+                        "QN-",
+                        "BX-",
+                        "BK-",
+                        "MN-",
+                        "MN-1"
+                    ],
+                    "longest_values": [
+                        "Multiple",
+                        "QN-81",
+                        "BK-14",
+                        "BK-11",
+                        "MN-12"
+                    ],
+                    "average_length": 4.030762015016211
+                }
+            ]
+        },
+        {
+            "column_name": "council_district",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 271909,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "census_tract",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 271909,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 271909,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 271909,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Zip Code",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 271909,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        }
+    ],
+    "key_column_candidates": []
+}

@@ -1,0 +1,222 @@
+{
+    "dataset_name": "caav-grv8",
+    "columns": [
+        {
+            "column_name": "borough",
+            "number_non_empty_cells": 21380,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Queens",
+                "Manhattan",
+                "Brooklyn",
+                "Bronx",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21380,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Citywide",
+                        "Manhattan"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Citywide",
+                        "Brooklyn",
+                        "Queens"
+                    ],
+                    "average_length": 7.635032740879327
+                }
+            ]
+        },
+        {
+            "column_name": "sector_name",
+            "number_non_empty_cells": 19091,
+            "number_empty_cells": 2289,
+            "number_distinct_values": 41,
+            "frequent_values": [
+                "Manhattan Sector H",
+                "Manhattan Sector D",
+                "Manhattan Sector F",
+                "Brooklyn Sector C",
+                "Brooklyn Sector I"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19091,
+                    "shortest_values": [
+                        "Bronx Sector E",
+                        "Bronx Sector A",
+                        "Bronx Sector B",
+                        "Bronx Sector C",
+                        "Bronx Sector D"
+                    ],
+                    "longest_values": [
+                        "Staten Island Sector B",
+                        "Staten Island Sector A",
+                        "Staten Island Sector C",
+                        "Manhattan District 13",
+                        "Manhattan Sector J"
+                    ],
+                    "average_length": 16.610968519197527
+                }
+            ]
+        },
+        {
+            "column_name": "sector_desc",
+            "number_non_empty_cells": 19091,
+            "number_empty_cells": 2289,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "Districts 1, 2",
+                "Districts 14",
+                "Districts 1",
+                "Districts 3",
+                "Districts 14, 19"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 19091,
+                    "shortest_values": [
+                        "District 3",
+                        "District 7",
+                        "District 2",
+                        "District 1",
+                        "District 14"
+                    ],
+                    "longest_values": [
+                        "Districts 10, 11, 12",
+                        "Districts 11, 12, 14",
+                        "Districts 4, 5, 16",
+                        "Districts 6, 8, 15",
+                        "Districts 15, 6, 8"
+                    ],
+                    "average_length": 14.38641244565502
+                }
+            ]
+        },
+        {
+            "column_name": "fiscal_qtr",
+            "number_non_empty_cells": 21380,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "2016Q1",
+                "2017Q1",
+                "2016Q4",
+                "2017Q4",
+                "2016Q2"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21380,
+                    "shortest_values": [
+                        "2016Q1",
+                        "2016Q2",
+                        "2016Q3",
+                        "2016Q4",
+                        "2017Q1"
+                    ],
+                    "longest_values": [
+                        "2017Q2",
+                        "2017Q3",
+                        "2017Q4",
+                        "2017Q1",
+                        "2016Q4"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "rel_week",
+            "number_non_empty_cells": 21380,
+            "number_empty_cells": 0,
+            "number_distinct_values": 53,
+            "frequent_values": [
+                "10",
+                "8",
+                "9",
+                "5",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21380,
+                    "max_value": 52,
+                    "min_value": 0,
+                    "mean": 25.866136576239477,
+                    "stddev": 15.652946301502919
+                }
+            ]
+        },
+        {
+            "column_name": "title",
+            "number_non_empty_cells": 21380,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "other",
+                "cpw",
+                "apsw",
+                "pop",
+                "csa"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 21380,
+                    "shortest_values": [
+                        "cpw",
+                        "pop",
+                        "csa",
+                        "apsw",
+                        "other"
+                    ],
+                    "longest_values": [
+                        "other",
+                        "apsw",
+                        "csa",
+                        "pop",
+                        "cpw"
+                    ],
+                    "average_length": 3.6676333021515437
+                }
+            ]
+        },
+        {
+            "column_name": "totalcost",
+            "number_non_empty_cells": 21380,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13520,
+            "frequent_values": [
+                "642.00",
+                "476.00",
+                "658.00",
+                "903.00",
+                "686.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 21380,
+                    "max_value": 406246.0,
+                    "min_value": -640.0,
+                    "mean": 14140.547521047709,
+                    "stddev": 28349.18132180195
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

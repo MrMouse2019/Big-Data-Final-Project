@@ -1,0 +1,208 @@
+{
+    "dataset_name": "6teu-xtgp",
+    "columns": [
+        {
+            "column_name": "INMATEID",
+            "number_non_empty_cells": 310485,
+            "number_empty_cells": 0,
+            "number_distinct_values": 151628,
+            "frequent_values": [
+                "20043269",
+                "20064261",
+                "152325",
+                "18214",
+                "67739"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 310485,
+                    "max_value": 20206714,
+                    "min_value": 17,
+                    "mean": 12764635.780169735,
+                    "stddev": 9529609.089333685
+                }
+            ]
+        },
+        {
+            "column_name": "ADMITTED_DT",
+            "number_non_empty_cells": 310485,
+            "number_empty_cells": 0,
+            "number_distinct_values": 300105,
+            "frequent_values": [
+                "05/22/2016 12:32:00 PM",
+                "01/17/2017 01:00:00 PM",
+                "10/04/2014 07:43:00 PM",
+                "07/02/2014 10:40:00 AM",
+                "10/12/2015 01:07:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 310485,
+                    "max_value": "2019-08-31 21:58:41",
+                    "min_value": "2014-01-01 07:30:00"
+                }
+            ]
+        },
+        {
+            "column_name": "DISCHARGED_DT",
+            "number_non_empty_cells": 266811,
+            "number_empty_cells": 43674,
+            "number_distinct_values": 261867,
+            "frequent_values": [
+                "02/19/2019 04:00:00 PM",
+                "06/02/2017 08:45:00 PM",
+                "02/25/2015 10:35:01 PM",
+                "02/05/2015 05:23:02 PM",
+                "05/21/2015 01:59:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 266811,
+                    "max_value": "2019-09-01 01:31:04",
+                    "min_value": "2014-01-01 00:35:00"
+                }
+            ]
+        },
+        {
+            "column_name": "RACE",
+            "number_non_empty_cells": 310485,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "BLACK",
+                "UNKNOWN",
+                "ASIAN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 310485,
+                    "shortest_values": [
+                        "BLACK",
+                        "ASIAN",
+                        "UNKNOWN"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "ASIAN",
+                        "BLACK"
+                    ],
+                    "average_length": 5.866057941607485
+                }
+            ]
+        },
+        {
+            "column_name": "GENDER",
+            "number_non_empty_cells": 309702,
+            "number_empty_cells": 783,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "M ",
+                "F "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 309702,
+                    "shortest_values": [
+                        "M ",
+                        "F "
+                    ],
+                    "longest_values": [
+                        "F ",
+                        "M "
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "INMATE_STATUS_CODE",
+            "number_non_empty_cells": 310485,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "DE",
+                "CS",
+                "SSR",
+                "DPV",
+                "DEP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 310485,
+                    "shortest_values": [
+                        "DE",
+                        "CS",
+                        "DEP",
+                        "CSP",
+                        "DPV"
+                    ],
+                    "longest_values": [
+                        "DNS",
+                        "SSR",
+                        "SCO",
+                        "DPV",
+                        "CSP"
+                    ],
+                    "average_length": 2.1436108024542246
+                }
+            ]
+        },
+        {
+            "column_name": "TOP_CHARGE",
+            "number_non_empty_cells": 96735,
+            "number_empty_cells": 213750,
+            "number_distinct_values": 585,
+            "frequent_values": [
+                "155.25",
+                "220.03",
+                "120.00",
+                "220.39",
+                "120.05"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 51,
+                    "max_value": 1220,
+                    "min_value": 0,
+                    "mean": 32.27450980392157,
+                    "stddev": 178.04781010611518
+                },
+                {
+                    "type": "REAL",
+                    "count": 80572,
+                    "max_value": 1192.4,
+                    "min_value": 100.05,
+                    "mean": 177.01020279997962,
+                    "stddev": 49.84201167217617
+                },
+                {
+                    "type": "TEXT",
+                    "count": 16112,
+                    "shortest_values": [
+                        "CO",
+                        "CCW",
+                        "VOP",
+                        "FCW",
+                        "INS"
+                    ],
+                    "longest_values": [
+                        "VTL 1193-2B1A",
+                        "10-131(I)(3)",
+                        "10-131(G)(1)",
+                        "110-415-A(1)",
+                        "1192(2)-A(B)"
+                    ],
+                    "average_length": 8.305300397219463
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

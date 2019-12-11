@@ -1,0 +1,3433 @@
+{
+    "dataset_name": "5uug-f49n",
+    "columns": [
+        {
+            "column_name": "Sampling Location",
+            "number_non_empty_cells": 88365,
+            "number_empty_cells": 1,
+            "number_distinct_values": 5131,
+            "frequent_values": [
+                "N7",
+                "N8",
+                "H3",
+                "N5",
+                "N6"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 88365,
+                    "shortest_values": [
+                        "EA",
+                        "WC",
+                        "E2",
+                        "J3",
+                        "GC"
+                    ],
+                    "longest_values": [
+                        "Z_CAN(CanarsiePier)",
+                        "x1914_1911_DO",
+                        "x1759_1911_DO",
+                        "x1203_1913_DO",
+                        "x1913_1911_DO"
+                    ],
+                    "average_length": 2.859039212357834
+                }
+            ]
+        },
+        {
+            "column_name": "Duplicate Sample",
+            "number_non_empty_cells": 2929,
+            "number_empty_cells": 85437,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "D"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 2929,
+                    "shortest_values": [
+                        "D"
+                    ],
+                    "longest_values": [
+                        "D"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Sample Date",
+            "number_non_empty_cells": 88365,
+            "number_empty_cells": 1,
+            "number_distinct_values": 5991,
+            "frequent_values": [
+                "09/26/1911",
+                "09/28/1911",
+                "10/13/1911",
+                "07/18/1913",
+                "09/29/1911"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 88365,
+                    "max_value": "2019-07-18 00:00:00",
+                    "min_value": "1909-03-23 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Sample Time",
+            "number_non_empty_cells": 84504,
+            "number_empty_cells": 3862,
+            "number_distinct_values": 874,
+            "frequent_values": [
+                "11:00 AM",
+                "12:00 PM",
+                "10:00 AM",
+                "11:30 AM",
+                "10:30 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 84504,
+                    "max_value": "1900-01-01 23:59:00",
+                    "min_value": "1900-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Weather Condition (Dry or Wet)",
+            "number_non_empty_cells": 32498,
+            "number_empty_cells": 55868,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Dry",
+                "Wet",
+                "D",
+                "W"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32498,
+                    "shortest_values": [
+                        "W",
+                        "D",
+                        "Dry",
+                        "Wet"
+                    ],
+                    "longest_values": [
+                        "Wet",
+                        "Dry",
+                        "D",
+                        "W"
+                    ],
+                    "average_length": 2.5637269985845283
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Temperature (\u00baC)",
+            "number_non_empty_cells": 69920,
+            "number_empty_cells": 18446,
+            "number_distinct_values": 3010,
+            "frequent_values": [
+                "22.2",
+                "23.3",
+                "22.8",
+                "21.1",
+                "23.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6925,
+                    "max_value": 30,
+                    "min_value": 0,
+                    "mean": 20.812418772563177,
+                    "stddev": 4.432393588356338
+                },
+                {
+                    "type": "REAL",
+                    "count": 62989,
+                    "max_value": 31.7,
+                    "min_value": -1.74,
+                    "mean": 20.059484810046513,
+                    "stddev": 5.686095414808708
+                },
+                {
+                    "type": "TEXT",
+                    "count": 6,
+                    "shortest_values": [
+                        ".."
+                    ],
+                    "longest_values": [
+                        ".."
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Sample Temperature (\u00baC)",
+            "number_non_empty_cells": 69147,
+            "number_empty_cells": 19219,
+            "number_distinct_values": 2916,
+            "frequent_values": [
+                "22.2",
+                "22.8",
+                "23.3",
+                "21.1",
+                "21.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7782,
+                    "max_value": 60,
+                    "min_value": 0,
+                    "mean": 20.857234644050372,
+                    "stddev": 5.926652549782411
+                },
+                {
+                    "type": "REAL",
+                    "count": 61351,
+                    "max_value": 32.8,
+                    "min_value": -1.87,
+                    "mean": 19.59634533666984,
+                    "stddev": 5.412077966643917
+                },
+                {
+                    "type": "TEXT",
+                    "count": 14,
+                    "shortest_values": [
+                        ".."
+                    ],
+                    "longest_values": [
+                        ".."
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Site Actual Depth (ft)",
+            "number_non_empty_cells": 60162,
+            "number_empty_cells": 28204,
+            "number_distinct_values": 1722,
+            "frequent_values": [
+                "20",
+                "16",
+                "22",
+                "18",
+                "15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 50757,
+                    "max_value": 230,
+                    "min_value": 0,
+                    "mean": 36.92345883326438,
+                    "stddev": 21.46202204644366
+                },
+                {
+                    "type": "REAL",
+                    "count": 9405,
+                    "max_value": 120.2,
+                    "min_value": 0.02,
+                    "mean": 19.45989686337051,
+                    "stddev": 18.047568860532078
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Depth(ft)",
+            "number_non_empty_cells": 27969,
+            "number_empty_cells": 60397,
+            "number_distinct_values": 128,
+            "frequent_values": [
+                "3",
+                "3.28",
+                "1",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 21538,
+                    "max_value": 23,
+                    "min_value": 0,
+                    "mean": 3.0143931655678338,
+                    "stddev": 1.1600401312353623
+                },
+                {
+                    "type": "REAL",
+                    "count": 6431,
+                    "max_value": 6.7,
+                    "min_value": 0.7,
+                    "mean": 3.3399051469446297,
+                    "stddev": 0.6733184785956665
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Sample Depth (ft)",
+            "number_non_empty_cells": 27475,
+            "number_empty_cells": 60891,
+            "number_distinct_values": 545,
+            "frequent_values": [
+                "20",
+                "15",
+                "17",
+                "40",
+                "18"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20886,
+                    "max_value": 150,
+                    "min_value": 1,
+                    "mean": 30.206166810303554,
+                    "stddev": 19.91645656391666
+                },
+                {
+                    "type": "REAL",
+                    "count": 6589,
+                    "max_value": 106.0,
+                    "min_value": 1.5,
+                    "mean": 33.71102443466341,
+                    "stddev": 19.56295324083167
+                }
+            ]
+        },
+        {
+            "column_name": "Top Salinity  (psu)",
+            "number_non_empty_cells": 67326,
+            "number_empty_cells": 21040,
+            "number_distinct_values": 3021,
+            "frequent_values": [
+                "25.9",
+                "25.2",
+                "27.3",
+                "26.25",
+                "24.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4388,
+                    "max_value": 35,
+                    "min_value": 0,
+                    "mean": 21.42479489516864,
+                    "stddev": 7.268615216390842
+                },
+                {
+                    "type": "REAL",
+                    "count": 62931,
+                    "max_value": 36.3,
+                    "min_value": 0.1,
+                    "mean": 22.706107204716663,
+                    "stddev": 5.907648188405464
+                },
+                {
+                    "type": "TEXT",
+                    "count": 7,
+                    "shortest_values": [
+                        "..",
+                        "ND"
+                    ],
+                    "longest_values": [
+                        "ND",
+                        ".."
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Salinity  (psu)",
+            "number_non_empty_cells": 65926,
+            "number_empty_cells": 22440,
+            "number_distinct_values": 2496,
+            "frequent_values": [
+                "25.9",
+                "27.3",
+                "25.2",
+                "26.6",
+                "28.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4560,
+                    "max_value": 99,
+                    "min_value": 0,
+                    "mean": 22.410526315789475,
+                    "stddev": 7.925191551407455
+                },
+                {
+                    "type": "REAL",
+                    "count": 61351,
+                    "max_value": 44.73,
+                    "min_value": 0.1,
+                    "mean": 24.2333559819727,
+                    "stddev": 5.0020974153414315
+                },
+                {
+                    "type": "TEXT",
+                    "count": 15,
+                    "shortest_values": [
+                        "..",
+                        "ND"
+                    ],
+                    "longest_values": [
+                        "ND",
+                        ".."
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Conductivity (S/m)",
+            "number_non_empty_cells": 26256,
+            "number_empty_cells": 62110,
+            "number_distinct_values": 1703,
+            "frequent_values": [
+                "3.7",
+                "3.5",
+                "3.6",
+                "3.8",
+                "3.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 257,
+                    "max_value": 38,
+                    "min_value": 1,
+                    "mean": 4.715953307392996,
+                    "stddev": 6.490419336017725
+                },
+                {
+                    "type": "REAL",
+                    "count": 25991,
+                    "max_value": 47.32,
+                    "min_value": 0.02,
+                    "mean": 4.675491140510136,
+                    "stddev": 6.665008860252059
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "a",
+                        "..",
+                        "ND"
+                    ],
+                    "longest_values": [
+                        "ND",
+                        "..",
+                        "a"
+                    ],
+                    "average_length": 1.875
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Conductivity (S/m)",
+            "number_non_empty_cells": 24909,
+            "number_empty_cells": 63457,
+            "number_distinct_values": 1631,
+            "frequent_values": [
+                "3.7",
+                "3.8",
+                "3.6",
+                "3.4",
+                "3.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 232,
+                    "max_value": 44,
+                    "min_value": 0,
+                    "mean": 5.142241379310345,
+                    "stddev": 7.45801640983192
+                },
+                {
+                    "type": "REAL",
+                    "count": 24661,
+                    "max_value": 86.54,
+                    "min_value": 0.01,
+                    "mean": 5.020575025769417,
+                    "stddev": 7.072376222758344
+                },
+                {
+                    "type": "TEXT",
+                    "count": 16,
+                    "shortest_values": [
+                        "a",
+                        "..",
+                        "ND"
+                    ],
+                    "longest_values": [
+                        "ND",
+                        "..",
+                        "a"
+                    ],
+                    "average_length": 1.9375
+                }
+            ]
+        },
+        {
+            "column_name": "CTD (conductivity, temperature, depth profiler) Top Dissolved Oxygen (mg/L)",
+            "number_non_empty_cells": 20367,
+            "number_empty_cells": 67999,
+            "number_distinct_values": 1763,
+            "frequent_values": [
+                "6.14",
+                "5.98",
+                "6.42",
+                "6.31",
+                "4.91"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 188,
+                    "max_value": 17,
+                    "min_value": 0,
+                    "mean": 6.3936170212765955,
+                    "stddev": 3.4907722888318333
+                },
+                {
+                    "type": "REAL",
+                    "count": 20179,
+                    "max_value": 28.56,
+                    "min_value": -1.12,
+                    "mean": 6.955660924723737,
+                    "stddev": 2.891655798864219
+                }
+            ]
+        },
+        {
+            "column_name": "CTD (conductivity, temperature, depth profiler) Bottom Dissolved Oxygen (mg/L)",
+            "number_non_empty_cells": 18812,
+            "number_empty_cells": 69554,
+            "number_distinct_values": 1717,
+            "frequent_values": [
+                "4.93",
+                "4.82",
+                "5.55",
+                "5.33",
+                "5.59"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 175,
+                    "max_value": 21,
+                    "min_value": 0,
+                    "mean": 6.154285714285714,
+                    "stddev": 3.262631966210529
+                },
+                {
+                    "type": "REAL",
+                    "count": 18637,
+                    "max_value": 29.67,
+                    "min_value": -9.99,
+                    "mean": 6.068675017438402,
+                    "stddev": 2.8525892967882944
+                }
+            ]
+        },
+        {
+            "column_name": "Percentage O2 Saturation Top Sample",
+            "number_non_empty_cells": 22129,
+            "number_empty_cells": 66237,
+            "number_distinct_values": 9165,
+            "frequent_values": [
+                "83.5",
+                "71.7",
+                "84.2",
+                "72.6",
+                "74.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 302,
+                    "max_value": 235,
+                    "min_value": 3,
+                    "mean": 87.47350993377484,
+                    "stddev": 31.402286587319605
+                },
+                {
+                    "type": "REAL",
+                    "count": 21827,
+                    "max_value": 374.22,
+                    "min_value": -15.9,
+                    "mean": 81.73272378247127,
+                    "stddev": 30.518861847122526
+                }
+            ]
+        },
+        {
+            "column_name": "Percentage O2 Saturation Bottom sample",
+            "number_non_empty_cells": 20618,
+            "number_empty_cells": 67748,
+            "number_distinct_values": 8420,
+            "frequent_values": [
+                "85.7",
+                "70.9",
+                "76.4",
+                "74.3",
+                "78.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 286,
+                    "max_value": 192,
+                    "min_value": 0,
+                    "mean": 69.8041958041958,
+                    "stddev": 25.969659204125957
+                },
+                {
+                    "type": "REAL",
+                    "count": 20332,
+                    "max_value": 283.24,
+                    "min_value": -51.67,
+                    "mean": 69.50719668502822,
+                    "stddev": 26.554197522631824
+                }
+            ]
+        },
+        {
+            "column_name": "Light Trans (% transparency) Top Sample",
+            "number_non_empty_cells": 16788,
+            "number_empty_cells": 71578,
+            "number_distinct_values": 6436,
+            "frequent_values": [
+                "0",
+                "94.47",
+                "72.6",
+                "68.4",
+                "68.1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 225,
+                    "max_value": 87,
+                    "min_value": 0,
+                    "mean": 43.57333333333333,
+                    "stddev": 31.59289934287273
+                },
+                {
+                    "type": "REAL",
+                    "count": 16563,
+                    "max_value": 131.73,
+                    "min_value": -22.86,
+                    "mean": 59.17399970415966,
+                    "stddev": 20.260219984771254
+                }
+            ]
+        },
+        {
+            "column_name": "Light Trans (% transparency) Bottom Sample",
+            "number_non_empty_cells": 15781,
+            "number_empty_cells": 72585,
+            "number_distinct_values": 6073,
+            "frequent_values": [
+                "0",
+                "94.47",
+                "68.4",
+                "69.5",
+                "69.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 235,
+                    "max_value": 110,
+                    "min_value": -1,
+                    "mean": 49.242553191489364,
+                    "stddev": 29.686100656782425
+                },
+                {
+                    "type": "REAL",
+                    "count": 15546,
+                    "max_value": 184.48,
+                    "min_value": -41.97,
+                    "mean": 58.58921204168281,
+                    "stddev": 22.135299794474317
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sigma-T (kg/m3)",
+            "number_non_empty_cells": 25403,
+            "number_empty_cells": 62963,
+            "number_distinct_values": 2516,
+            "frequent_values": [
+                "16.32",
+                "16.36",
+                "15.92",
+                "16.63",
+                "16.47"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 221,
+                    "max_value": 23,
+                    "min_value": 0,
+                    "mean": 15.733031674208144,
+                    "stddev": 4.375605384762162
+                },
+                {
+                    "type": "REAL",
+                    "count": 25174,
+                    "max_value": 48.88,
+                    "min_value": -8.34,
+                    "mean": 15.584420715817956,
+                    "stddev": 4.2547964208595825
+                },
+                {
+                    "type": "TEXT",
+                    "count": 8,
+                    "shortest_values": [
+                        "a",
+                        "..",
+                        "ND"
+                    ],
+                    "longest_values": [
+                        "ND",
+                        "..",
+                        "a"
+                    ],
+                    "average_length": 1.875
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Sigma-T (kg/m3)",
+            "number_non_empty_cells": 24110,
+            "number_empty_cells": 64256,
+            "number_distinct_values": 2122,
+            "frequent_values": [
+                "17.29",
+                "16.88",
+                "17.67",
+                "16.72",
+                "18.57"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 221,
+                    "max_value": 26,
+                    "min_value": 5,
+                    "mean": 16.918552036199095,
+                    "stddev": 3.2403940438640206
+                },
+                {
+                    "type": "REAL",
+                    "count": 23873,
+                    "max_value": 79.29,
+                    "min_value": -2.59,
+                    "mean": 17.21317090018009,
+                    "stddev": 3.3983456354685933
+                },
+                {
+                    "type": "TEXT",
+                    "count": 16,
+                    "shortest_values": [
+                        "a",
+                        "..",
+                        "ND"
+                    ],
+                    "longest_values": [
+                        "ND",
+                        "..",
+                        "a"
+                    ],
+                    "average_length": 1.9375
+                }
+            ]
+        },
+        {
+            "column_name": "Top Fluorometer (mg/m3)",
+            "number_non_empty_cells": 18555,
+            "number_empty_cells": 69811,
+            "number_distinct_values": 12779,
+            "frequent_values": [
+                "-99",
+                "-0.03",
+                "1.97",
+                "1.13",
+                "1.98"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 215,
+                    "max_value": 150,
+                    "min_value": -99,
+                    "mean": -69.95348837209302,
+                    "stddev": 52.23308827828456
+                },
+                {
+                    "type": "REAL",
+                    "count": 18340,
+                    "max_value": 294.7,
+                    "min_value": -5.8255,
+                    "mean": 16.07715965648845,
+                    "stddev": 20.839924043679723
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Fluorometer mg/m3",
+            "number_non_empty_cells": 17267,
+            "number_empty_cells": 71099,
+            "number_distinct_values": 11267,
+            "frequent_values": [
+                "-99",
+                "-0.03",
+                "1.67",
+                "1.28",
+                "2.29"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 215,
+                    "max_value": 124,
+                    "min_value": -99,
+                    "mean": -70.96744186046512,
+                    "stddev": 49.92425761197749
+                },
+                {
+                    "type": "REAL",
+                    "count": 17052,
+                    "max_value": 196.503,
+                    "min_value": -4.92,
+                    "mean": 11.296054163734496,
+                    "stddev": 14.341103229317582
+                }
+            ]
+        },
+        {
+            "column_name": "CTD (conductivity, temperature, depth profiler) PH Top Sample",
+            "number_non_empty_cells": 8009,
+            "number_empty_cells": 80357,
+            "number_distinct_values": 338,
+            "frequent_values": [
+                "7.79",
+                "7.82",
+                "7.91",
+                "7.77",
+                "7.99"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 56,
+                    "max_value": 9,
+                    "min_value": 8,
+                    "mean": 8.375,
+                    "stddev": 0.4841229182759271
+                },
+                {
+                    "type": "REAL",
+                    "count": 7953,
+                    "max_value": 10.03,
+                    "min_value": 4.74,
+                    "mean": 8.06927549352443,
+                    "stddev": 0.5347602683669344
+                }
+            ]
+        },
+        {
+            "column_name": "CTD (conductivity, temperature, depth profiler) PH Bottom Sample",
+            "number_non_empty_cells": 7389,
+            "number_empty_cells": 80977,
+            "number_distinct_values": 346,
+            "frequent_values": [
+                "7.49",
+                "7.85",
+                "7.84",
+                "7.91",
+                "7.71"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 56,
+                    "max_value": 9,
+                    "min_value": 7,
+                    "mean": 8.232142857142858,
+                    "stddev": 0.4996810207011865
+                },
+                {
+                    "type": "REAL",
+                    "count": 7333,
+                    "max_value": 9.76,
+                    "min_value": 4.73,
+                    "mean": 8.001357834446996,
+                    "stddev": 0.5274793856217319
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Photosysthetically Active Radiation Reference (400-700nm light (uE/S)",
+            "number_non_empty_cells": 15194,
+            "number_empty_cells": 73172,
+            "number_distinct_values": 9804,
+            "frequent_values": [
+                "3.09",
+                "3.29",
+                "-99",
+                "4.04",
+                "2009"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3868,
+                    "max_value": 3265,
+                    "min_value": -99,
+                    "mean": 1434.464581178904,
+                    "stddev": 710.2014636444181
+                },
+                {
+                    "type": "REAL",
+                    "count": 11324,
+                    "max_value": 4027.7,
+                    "min_value": -2.4,
+                    "mean": 1052.469086895087,
+                    "stddev": 858.9002639033856
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "9 2.6494e+0",
+                        "1 2.0850e+0"
+                    ],
+                    "longest_values": [
+                        "1 2.0850e+0",
+                        "9 2.6494e+0"
+                    ],
+                    "average_length": 11.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Par (uE/S m2)",
+            "number_non_empty_cells": 16399,
+            "number_empty_cells": 71967,
+            "number_distinct_values": 11402,
+            "frequent_values": [
+                "0",
+                "4.6",
+                "-99",
+                "3.53",
+                "3.62"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3678,
+                    "max_value": 6165,
+                    "min_value": -99,
+                    "mean": 1347.9657422512234,
+                    "stddev": 1039.230094681157
+                },
+                {
+                    "type": "REAL",
+                    "count": 12719,
+                    "max_value": 5443.2,
+                    "min_value": -10.07,
+                    "mean": 693.7574392640947,
+                    "stddev": 1121.2857707380422
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "3 1.5799e+03",
+                        "3 9.3929e+02"
+                    ],
+                    "longest_values": [
+                        "3 9.3929e+02",
+                        "3 1.5799e+03"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Sample Par uE/S (uE/S m2)",
+            "number_non_empty_cells": 12145,
+            "number_empty_cells": 76221,
+            "number_distinct_values": 2627,
+            "frequent_values": [
+                "0",
+                "0.06",
+                "1",
+                "0.07",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7079,
+                    "max_value": 2363,
+                    "min_value": -1,
+                    "mean": 14.785986721288317,
+                    "stddev": 72.16866924196277
+                },
+                {
+                    "type": "REAL",
+                    "count": 5066,
+                    "max_value": 977.55,
+                    "min_value": -14.86,
+                    "mean": 31.989124046585186,
+                    "stddev": 84.29752853297745
+                }
+            ]
+        },
+        {
+            "column_name": "Oxidation Reduction Potential (mV) Top Sample",
+            "number_non_empty_cells": 12956,
+            "number_empty_cells": 75410,
+            "number_distinct_values": 11185,
+            "frequent_values": [
+                "187.06",
+                "261.96",
+                "225.71",
+                "174.97",
+                "182.82"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 16,
+                    "max_value": 326,
+                    "min_value": 77,
+                    "mean": 184.6875,
+                    "stddev": 73.54226569633275
+                },
+                {
+                    "type": "REAL",
+                    "count": 12940,
+                    "max_value": 1165.56,
+                    "min_value": -453.0,
+                    "mean": 184.14539646831503,
+                    "stddev": 114.80985314667564
+                }
+            ]
+        },
+        {
+            "column_name": "Oxidation Reduction Potential (mV) Bottom Sample",
+            "number_non_empty_cells": 11942,
+            "number_empty_cells": 76424,
+            "number_distinct_values": 10597,
+            "frequent_values": [
+                "252.293",
+                "187.66",
+                "174.97",
+                "197.34",
+                "188.27"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19,
+                    "max_value": 1019,
+                    "min_value": 54,
+                    "mean": 299.4736842105263,
+                    "stddev": 249.40547590769208
+                },
+                {
+                    "type": "REAL",
+                    "count": 11923,
+                    "max_value": 1131.62,
+                    "min_value": -455.0,
+                    "mean": 182.21233064664978,
+                    "stddev": 123.16333314168041
+                }
+            ]
+        },
+        {
+            "column_name": "Current Speed (knot)",
+            "number_non_empty_cells": 23099,
+            "number_empty_cells": 65267,
+            "number_distinct_values": 200,
+            "frequent_values": [
+                "0.5",
+                "0.2",
+                "0.3",
+                "0.4",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2403,
+                    "max_value": 40,
+                    "min_value": 0,
+                    "mean": 1.2047440699126093,
+                    "stddev": 2.383643975250986
+                },
+                {
+                    "type": "REAL",
+                    "count": 17401,
+                    "max_value": 8.5,
+                    "min_value": 0.0,
+                    "mean": 0.7235383023964268,
+                    "stddev": 0.6638371289216131
+                },
+                {
+                    "type": "TEXT",
+                    "count": 3295,
+                    "shortest_values": [
+                        "N",
+                        "W",
+                        "E",
+                        "S",
+                        "NS"
+                    ],
+                    "longest_values": [
+                        "weak. H. wtr",
+                        "WEAK L. WTR",
+                        "L.W. SLACK",
+                        "H.W. SLACK",
+                        "H.W.SLACK"
+                    ],
+                    "average_length": 3.987556904400607
+                }
+            ]
+        },
+        {
+            "column_name": "Current Direction (Current Direction)",
+            "number_non_empty_cells": 76938,
+            "number_empty_cells": 11428,
+            "number_distinct_values": 399,
+            "frequent_values": [
+                "S",
+                "N",
+                "E",
+                "W",
+                "Ebb"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 630,
+                    "max_value": 357,
+                    "min_value": 0,
+                    "mean": 37.092063492063495,
+                    "stddev": 82.46148365278255
+                },
+                {
+                    "type": "REAL",
+                    "count": 696,
+                    "max_value": 3.2,
+                    "min_value": 0.0,
+                    "mean": 0.5292385057471263,
+                    "stddev": 0.6071266134211257
+                },
+                {
+                    "type": "TEXT",
+                    "count": 75612,
+                    "shortest_values": [
+                        "O",
+                        "F",
+                        "*",
+                        "?",
+                        "M"
+                    ],
+                    "longest_values": [
+                        "Beginning Ebb",
+                        "End of Flood",
+                        "End of Ebb",
+                        "1st Flood",
+                        "Flooding"
+                    ],
+                    "average_length": 1.39331058562133
+                }
+            ]
+        },
+        {
+            "column_name": "Wind Speed (mph)",
+            "number_non_empty_cells": 30948,
+            "number_empty_cells": 57418,
+            "number_distinct_values": 235,
+            "frequent_values": [
+                "5",
+                "8",
+                "10",
+                "6",
+                "7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 23672,
+                    "max_value": 153,
+                    "min_value": 0,
+                    "mean": 8.275557620817844,
+                    "stddev": 4.9149643629491795
+                },
+                {
+                    "type": "REAL",
+                    "count": 5022,
+                    "max_value": 27.0,
+                    "min_value": 0.0,
+                    "mean": 8.214396654719232,
+                    "stddev": 4.87093332554865
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2254,
+                    "shortest_values": [
+                        "W",
+                        "S",
+                        "NW",
+                        "NS",
+                        "LT"
+                    ],
+                    "longest_values": [
+                        "LT & AIRS",
+                        "11.5-17.3",
+                        "17.3-19.6",
+                        "LT & VAR",
+                        "LT. AIRS"
+                    ],
+                    "average_length": 4.085181898846495
+                }
+            ]
+        },
+        {
+            "column_name": "Wind Direction (Wind Direction)",
+            "number_non_empty_cells": 29640,
+            "number_empty_cells": 58726,
+            "number_distinct_values": 142,
+            "frequent_values": [
+                "S",
+                "W",
+                "N",
+                "E",
+                "SW"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 653,
+                    "max_value": 300,
+                    "min_value": 0,
+                    "mean": 4.918836140888208,
+                    "stddev": 31.364641437281733
+                },
+                {
+                    "type": "REAL",
+                    "count": 222,
+                    "max_value": 15.2,
+                    "min_value": 0.0,
+                    "mean": 1.5054054054054051,
+                    "stddev": 3.84719010220359
+                },
+                {
+                    "type": "TEXT",
+                    "count": 28765,
+                    "shortest_values": [
+                        "S",
+                        "R",
+                        "E",
+                        "W",
+                        "N"
+                    ],
+                    "longest_values": [
+                        "light air",
+                        "Light Air",
+                        "LT & AIRS",
+                        "LT & VAR",
+                        "Lt &Var"
+                    ],
+                    "average_length": 1.5690943855379802
+                }
+            ]
+        },
+        {
+            "column_name": "Sea State ",
+            "number_non_empty_cells": 31001,
+            "number_empty_cells": 57365,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "0",
+                "CALM"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30852,
+                    "max_value": 5,
+                    "min_value": 0,
+                    "mean": 1.105017502917153,
+                    "stddev": 0.3508497256194538
+                },
+                {
+                    "type": "REAL",
+                    "count": 19,
+                    "max_value": 3.0,
+                    "min_value": 1.0,
+                    "mean": 1.4473684210526316,
+                    "stddev": 0.5594813585649816
+                },
+                {
+                    "type": "TEXT",
+                    "count": 130,
+                    "shortest_values": [
+                        "2~3",
+                        "1-2",
+                        "2-3",
+                        "0-1",
+                        "calm"
+                    ],
+                    "longest_values": [
+                        "Traffic Swell",
+                        "1 SE SWELL",
+                        "CHOPPY 2.5",
+                        "Lite chap",
+                        "2(Swell)"
+                    ],
+                    "average_length": 4.676923076923077
+                }
+            ]
+        },
+        {
+            "column_name": "Winkler Method Top Dissolved Oxygen (mg/L)",
+            "number_non_empty_cells": 75564,
+            "number_empty_cells": 12802,
+            "number_distinct_values": 1858,
+            "frequent_values": [
+                "4",
+                "5",
+                "4.5",
+                "5.2",
+                "5.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5119,
+                    "max_value": 23,
+                    "min_value": 0,
+                    "mean": 4.957022856026568,
+                    "stddev": 3.176655454499575
+                },
+                {
+                    "type": "REAL",
+                    "count": 70445,
+                    "max_value": 24.1,
+                    "min_value": 0.0,
+                    "mean": 6.026210376889773,
+                    "stddev": 3.2610910788880845
+                }
+            ]
+        },
+        {
+            "column_name": "Winkler Method Bottom Dissolved Oxygen (mg/L)",
+            "number_non_empty_cells": 73199,
+            "number_empty_cells": 15167,
+            "number_distinct_values": 1677,
+            "frequent_values": [
+                "4",
+                "3.5",
+                "4.5",
+                "3",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4756,
+                    "max_value": 16,
+                    "min_value": 0,
+                    "mean": 4.173465096719933,
+                    "stddev": 2.4769709423920525
+                },
+                {
+                    "type": "REAL",
+                    "count": 68443,
+                    "max_value": 87.21,
+                    "min_value": 0.0,
+                    "mean": 5.288789357567638,
+                    "stddev": 2.7090374061573828
+                }
+            ]
+        },
+        {
+            "column_name": "Secchi Depth (ft)",
+            "number_non_empty_cells": 36561,
+            "number_empty_cells": 51805,
+            "number_distinct_values": 101,
+            "frequent_values": [
+                "4",
+                "3",
+                "3.5",
+                "5",
+                "2.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20798,
+                    "max_value": 27,
+                    "min_value": 1,
+                    "mean": 4.408212328108472,
+                    "stddev": 2.1966531349764944
+                },
+                {
+                    "type": "REAL",
+                    "count": 15761,
+                    "max_value": 28.5,
+                    "min_value": 0.5,
+                    "mean": 3.920734724954001,
+                    "stddev": 1.828965578506093
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "3..5"
+                    ],
+                    "longest_values": [
+                        "3..5"
+                    ],
+                    "average_length": 4.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top PH",
+            "number_non_empty_cells": 39235,
+            "number_empty_cells": 49131,
+            "number_distinct_values": 313,
+            "frequent_values": [
+                "7.55",
+                "7.57",
+                "7.52",
+                "7.51",
+                "7.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 330,
+                    "max_value": 78,
+                    "min_value": 7,
+                    "mean": 7.787878787878788,
+                    "stddev": 3.903049124742872
+                },
+                {
+                    "type": "REAL",
+                    "count": 38905,
+                    "max_value": 11.34,
+                    "min_value": 0.33,
+                    "mean": 7.643032258064552,
+                    "stddev": 0.3689830268334221
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom PH",
+            "number_non_empty_cells": 31780,
+            "number_empty_cells": 56586,
+            "number_distinct_values": 297,
+            "frequent_values": [
+                "7.6",
+                "7.5",
+                "7.54",
+                "7.4",
+                "7.58"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 273,
+                    "max_value": 75,
+                    "min_value": 0,
+                    "mean": 7.824175824175824,
+                    "stddev": 4.152566812698024
+                },
+                {
+                    "type": "REAL",
+                    "count": 31506,
+                    "max_value": 77.96,
+                    "min_value": 4.47,
+                    "mean": 7.615430394210613,
+                    "stddev": 0.5189964696898407
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "N"
+                    ],
+                    "longest_values": [
+                        "N"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Total Coliform Cells/100 mL",
+            "number_non_empty_cells": 28373,
+            "number_empty_cells": 59993,
+            "number_distinct_values": 275,
+            "frequent_values": [
+                "1100",
+                "460",
+                "240",
+                "13000",
+                "33000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28373,
+                    "max_value": 3500000,
+                    "min_value": 0,
+                    "mean": 39706.42737814119,
+                    "stddev": 200097.5696628401
+                }
+            ]
+        },
+        {
+            "column_name": "Top Bottom Coliform Cells/100 mL",
+            "number_non_empty_cells": 28346,
+            "number_empty_cells": 60020,
+            "number_distinct_values": 269,
+            "frequent_values": [
+                "1100",
+                "460",
+                "240",
+                "2000",
+                "200"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28346,
+                    "max_value": 3500000,
+                    "min_value": 0,
+                    "mean": 32336.502363649193,
+                    "stddev": 179727.1158388168
+                }
+            ]
+        },
+        {
+            "column_name": "Fecal Coliform Top Sample Less Than or Greater Than Result",
+            "number_non_empty_cells": 5394,
+            "number_empty_cells": 82972,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "E",
+                "<",
+                ">",
+                "e"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5394,
+                    "shortest_values": [
+                        "<",
+                        "E",
+                        ">",
+                        "e"
+                    ],
+                    "longest_values": [
+                        "e",
+                        ">",
+                        "E",
+                        "<"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Fecal Coliform Bottom Sample Less Than or Greater Than Result",
+            "number_non_empty_cells": 499,
+            "number_empty_cells": 87867,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "E",
+                "<",
+                ">"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 499,
+                    "shortest_values": [
+                        "E",
+                        "<",
+                        ">"
+                    ],
+                    "longest_values": [
+                        ">",
+                        "<",
+                        "E"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Fecal Coliform Bacteria (Cells/100mL)",
+            "number_non_empty_cells": 40597,
+            "number_empty_cells": 47769,
+            "number_distinct_values": 1848,
+            "frequent_values": [
+                "4",
+                "1",
+                "2",
+                "8",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 38480,
+                    "max_value": 200000,
+                    "min_value": 0,
+                    "mean": 1481.543970893971,
+                    "stddev": 9652.742935354257
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2117,
+                    "shortest_values": [
+                        "TNTC",
+                        "7,600",
+                        "1,530",
+                        "1,780",
+                        "7,100"
+                    ],
+                    "longest_values": [
+                        "100,000",
+                        "108,000",
+                        "181,000",
+                        "151,000",
+                        "200,000"
+                    ],
+                    "average_length": 5.302786962683042
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Fecal Coliform Bacteria (Cells/100mL)",
+            "number_non_empty_cells": 10322,
+            "number_empty_cells": 78044,
+            "number_distinct_values": 1062,
+            "frequent_values": [
+                "1",
+                "10",
+                "2",
+                "5",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10200,
+                    "max_value": 200000,
+                    "min_value": 0,
+                    "mean": 1754.9148039215686,
+                    "stddev": 12196.732719474092
+                },
+                {
+                    "type": "TEXT",
+                    "count": 122,
+                    "shortest_values": [
+                        "TNTC",
+                        "4,800",
+                        "1,072",
+                        "1,240",
+                        "2,400"
+                    ],
+                    "longest_values": [
+                        "150,000",
+                        "200,000",
+                        "106,000",
+                        "21,000",
+                        "13,600"
+                    ],
+                    "average_length": 5.295081967213115
+                }
+            ]
+        },
+        {
+            "column_name": "Enterococcus Top Sample Less Than or Greater Than Result",
+            "number_non_empty_cells": 13522,
+            "number_empty_cells": 74844,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "E",
+                "<",
+                ">",
+                "NS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13522,
+                    "shortest_values": [
+                        "E",
+                        "<",
+                        ">",
+                        "NS"
+                    ],
+                    "longest_values": [
+                        "NS",
+                        ">",
+                        "<",
+                        "E"
+                    ],
+                    "average_length": 1.000073953557166
+                }
+            ]
+        },
+        {
+            "column_name": "Enterococcus Bottom Sample Less Than or Greater Than Result",
+            "number_non_empty_cells": 1658,
+            "number_empty_cells": 86708,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "E",
+                "<",
+                ">"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1658,
+                    "shortest_values": [
+                        "E",
+                        "<",
+                        ">"
+                    ],
+                    "longest_values": [
+                        ">",
+                        "<",
+                        "E"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Enterococci Bacteria (Cells/100mL)",
+            "number_non_empty_cells": 30477,
+            "number_empty_cells": 57889,
+            "number_distinct_values": 736,
+            "frequent_values": [
+                "1",
+                "2",
+                "4",
+                "10",
+                "8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 30238,
+                    "max_value": 200000,
+                    "min_value": 0,
+                    "mean": 371.0393544546597,
+                    "stddev": 4534.225267738725
+                },
+                {
+                    "type": "TEXT",
+                    "count": 239,
+                    "shortest_values": [
+                        "TNTC",
+                        "4,500",
+                        "7,000",
+                        "2,060",
+                        "4,100"
+                    ],
+                    "longest_values": [
+                        "124,000",
+                        "110,000",
+                        "122,000",
+                        "127,000",
+                        "36,000"
+                    ],
+                    "average_length": 5.2092050209205025
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Enterococci Bacteria (Cells/100mL)",
+            "number_non_empty_cells": 3260,
+            "number_empty_cells": 85106,
+            "number_distinct_values": 404,
+            "frequent_values": [
+                "4",
+                "8",
+                "20",
+                "12",
+                "10"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3260,
+                    "max_value": 200000,
+                    "min_value": 0,
+                    "mean": 883.8395705521473,
+                    "stddev": 5433.133955880753
+                }
+            ]
+        },
+        {
+            "column_name": "Top Nitrate/Nitrite (mg/L)",
+            "number_non_empty_cells": 39879,
+            "number_empty_cells": 48487,
+            "number_distinct_values": 1698,
+            "frequent_values": [
+                "0.018",
+                "0.01",
+                "0.32",
+                "0.36",
+                "0.42"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28,
+                    "max_value": 10,
+                    "min_value": 0,
+                    "mean": 1.75,
+                    "stddev": 2.0463381929681126
+                },
+                {
+                    "type": "REAL",
+                    "count": 39780,
+                    "max_value": 12.1,
+                    "min_value": 0.001,
+                    "mean": 0.37120341880342106,
+                    "stddev": 0.48729808714989453
+                },
+                {
+                    "type": "TEXT",
+                    "count": 71,
+                    "shortest_values": [
+                        "<0.018"
+                    ],
+                    "longest_values": [
+                        "<0.018"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Nitrate/Nitrite (mg/L)",
+            "number_non_empty_cells": 1025,
+            "number_empty_cells": 87341,
+            "number_distinct_values": 359,
+            "frequent_values": [
+                "0.36",
+                "0.01",
+                "0.38",
+                "0.004",
+                "0.31"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1025,
+                    "max_value": 1.4,
+                    "min_value": 0.002,
+                    "mean": 0.23450195121951237,
+                    "stddev": 0.18044610707124795
+                }
+            ]
+        },
+        {
+            "column_name": "Top Ammonium (mg/L)",
+            "number_non_empty_cells": 39792,
+            "number_empty_cells": 48574,
+            "number_distinct_values": 1753,
+            "frequent_values": [
+                "0.3",
+                "0.38",
+                "0.34",
+                "0.36",
+                "0.26"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 78,
+                    "max_value": 29,
+                    "min_value": 0,
+                    "mean": 2.730769230769231,
+                    "stddev": 4.562031365248903
+                },
+                {
+                    "type": "REAL",
+                    "count": 39691,
+                    "max_value": 23.5,
+                    "min_value": 0.002,
+                    "mean": 0.4334260890378232,
+                    "stddev": 0.7675964577930675
+                },
+                {
+                    "type": "TEXT",
+                    "count": 23,
+                    "shortest_values": [
+                        "ND",
+                        "0..598",
+                        "<0.021"
+                    ],
+                    "longest_values": [
+                        "<0.021",
+                        "0..598",
+                        "ND"
+                    ],
+                    "average_length": 5.826086956521739
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Ammonium (mg/L)",
+            "number_non_empty_cells": 1021,
+            "number_empty_cells": 87345,
+            "number_distinct_values": 525,
+            "frequent_values": [
+                "0.34",
+                "0.33",
+                "0.4",
+                "0.49",
+                "0.35"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.6666666666666665,
+                    "stddev": 1.7950549357115013
+                },
+                {
+                    "type": "REAL",
+                    "count": 1015,
+                    "max_value": 7.71,
+                    "min_value": 0.003,
+                    "mean": 0.8884009852216747,
+                    "stddev": 1.1694336382560346
+                }
+            ]
+        },
+        {
+            "column_name": "Top Ortho-Phosphorus (mg/L)",
+            "number_non_empty_cells": 28483,
+            "number_empty_cells": 59883,
+            "number_distinct_values": 998,
+            "frequent_values": [
+                "0.032",
+                "0.12",
+                "0.11",
+                "0.13",
+                "0.14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 4,
+                    "min_value": 0,
+                    "mean": 1.8571428571428572,
+                    "stddev": 1.2453996981544782
+                },
+                {
+                    "type": "REAL",
+                    "count": 28217,
+                    "max_value": 5.21,
+                    "min_value": 0.001,
+                    "mean": 0.14573457135769563,
+                    "stddev": 0.23048564822991477
+                },
+                {
+                    "type": "TEXT",
+                    "count": 259,
+                    "shortest_values": [
+                        ".",
+                        "<0.032"
+                    ],
+                    "longest_values": [
+                        "<0.032",
+                        "."
+                    ],
+                    "average_length": 4.204633204633205
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Ortho-Phosphorus (mg/L)",
+            "number_non_empty_cells": 885,
+            "number_empty_cells": 87481,
+            "number_distinct_values": 327,
+            "frequent_values": [
+                "0.12",
+                "0.14",
+                "0.1",
+                "0.16",
+                "0.15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 1,
+                    "min_value": 1,
+                    "mean": 1.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 884,
+                    "max_value": 2.03,
+                    "min_value": 0.012,
+                    "mean": 0.24234841628959233,
+                    "stddev": 0.28861014798533374
+                }
+            ]
+        },
+        {
+            "column_name": "Top Total Kjeldhal Nitrogen (mg/L)",
+            "number_non_empty_cells": 33846,
+            "number_empty_cells": 54520,
+            "number_distinct_values": 2824,
+            "frequent_values": [
+                "1.02",
+                "1.04",
+                "1.12",
+                "1.01",
+                "1.08"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 159,
+                    "max_value": 34,
+                    "min_value": 1,
+                    "mean": 3.779874213836478,
+                    "stddev": 6.66696332554618
+                },
+                {
+                    "type": "REAL",
+                    "count": 33687,
+                    "max_value": 44.8,
+                    "min_value": 0.005,
+                    "mean": 1.15536907412355,
+                    "stddev": 1.6628420236925971
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Total Kjeldhal Nitrogen (mg/L)",
+            "number_non_empty_cells": 668,
+            "number_empty_cells": 87698,
+            "number_distinct_values": 397,
+            "frequent_values": [
+                "1.38",
+                "1.26",
+                "1.01",
+                "1.22",
+                "1.12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 13,
+                    "min_value": 1,
+                    "mean": 4.8,
+                    "stddev": 4.4
+                },
+                {
+                    "type": "REAL",
+                    "count": 663,
+                    "max_value": 11.3,
+                    "min_value": 0.17,
+                    "mean": 2.177822021116138,
+                    "stddev": 1.99426135106401
+                }
+            ]
+        },
+        {
+            "column_name": "Top Silica (mg/L)",
+            "number_non_empty_cells": 31713,
+            "number_empty_cells": 56653,
+            "number_distinct_values": 5379,
+            "frequent_values": [
+                "0.022",
+                "1.28",
+                "1.42",
+                "1.36",
+                "1.52"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 182,
+                    "max_value": 24,
+                    "min_value": 1,
+                    "mean": 4.142857142857143,
+                    "stddev": 4.875530804737422
+                },
+                {
+                    "type": "REAL",
+                    "count": 31495,
+                    "max_value": 28.834,
+                    "min_value": 0.013,
+                    "mean": 2.0710662327353533,
+                    "stddev": 2.212227868745809
+                },
+                {
+                    "type": "TEXT",
+                    "count": 36,
+                    "shortest_values": [
+                        "<0.022"
+                    ],
+                    "longest_values": [
+                        "<0.022"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Silica (mg/L)",
+            "number_non_empty_cells": 8672,
+            "number_empty_cells": 79694,
+            "number_distinct_values": 3263,
+            "frequent_values": [
+                "0.022",
+                "1.62",
+                "1.3",
+                "1.14",
+                "1.6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 6,
+                    "min_value": 1,
+                    "mean": 2.3,
+                    "stddev": 1.3820274961085255
+                },
+                {
+                    "type": "REAL",
+                    "count": 8636,
+                    "max_value": 10.78,
+                    "min_value": 0.011,
+                    "mean": 1.6980929597035743,
+                    "stddev": 1.0145420902422366
+                },
+                {
+                    "type": "TEXT",
+                    "count": 16,
+                    "shortest_values": [
+                        "<0.022"
+                    ],
+                    "longest_values": [
+                        "<0.022"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "Total Phosphorus(mg/L)",
+            "number_non_empty_cells": 39664,
+            "number_empty_cells": 48702,
+            "number_distinct_values": 1386,
+            "frequent_values": [
+                "0.16",
+                "0.14",
+                "0.15",
+                "0.12",
+                "0.17"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 3,
+                    "min_value": 1,
+                    "mean": 2.0,
+                    "stddev": 0.8944271909999159
+                },
+                {
+                    "type": "REAL",
+                    "count": 39648,
+                    "max_value": 15.5,
+                    "min_value": 0.005,
+                    "mean": 0.22873196125907708,
+                    "stddev": 0.28589801325740016
+                },
+                {
+                    "type": "TEXT",
+                    "count": 11,
+                    "shortest_values": [
+                        ".",
+                        "0,968",
+                        "<0.019",
+                        "0..454"
+                    ],
+                    "longest_values": [
+                        "0..454",
+                        "<0.019",
+                        "0,968",
+                        "."
+                    ],
+                    "average_length": 5.454545454545454
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Total Phosphorus (mg/L)",
+            "number_non_empty_cells": 1019,
+            "number_empty_cells": 87347,
+            "number_distinct_values": 408,
+            "frequent_values": [
+                "0.2",
+                "0.18",
+                "0.22",
+                "0.21",
+                "0.16"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 2,
+                    "min_value": 1,
+                    "mean": 1.5,
+                    "stddev": 0.5
+                },
+                {
+                    "type": "REAL",
+                    "count": 1017,
+                    "max_value": 2.1,
+                    "min_value": 0.054,
+                    "mean": 0.3466371681415927,
+                    "stddev": 0.33259363519188323
+                }
+            ]
+        },
+        {
+            "column_name": "Top Total Suspended Solid (mg/L)",
+            "number_non_empty_cells": 38130,
+            "number_empty_cells": 50236,
+            "number_distinct_values": 877,
+            "frequent_values": [
+                "8",
+                "10",
+                "6",
+                "12",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 25927,
+                    "max_value": 1805,
+                    "min_value": 0,
+                    "mean": 17.42839510934547,
+                    "stddev": 20.948629941947583
+                },
+                {
+                    "type": "REAL",
+                    "count": 12203,
+                    "max_value": 197.0,
+                    "min_value": 0.0,
+                    "mean": 12.964086699991833,
+                    "stddev": 11.923101728253545
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Total Suspended Solid (mg/L)",
+            "number_non_empty_cells": 29820,
+            "number_empty_cells": 58546,
+            "number_distinct_values": 1123,
+            "frequent_values": [
+                "10",
+                "8",
+                "12",
+                "6",
+                "14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19822,
+                    "max_value": 586,
+                    "min_value": 0,
+                    "mean": 21.883715064070223,
+                    "stddev": 25.609598332445888
+                },
+                {
+                    "type": "REAL",
+                    "count": 9996,
+                    "max_value": 704.4,
+                    "min_value": 0.1,
+                    "mean": 16.76972889155657,
+                    "stddev": 22.177961539054067
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "."
+                    ],
+                    "longest_values": [
+                        "."
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Active Chlorophyll 'A' (\u00b5g/L)",
+            "number_non_empty_cells": 39126,
+            "number_empty_cells": 49240,
+            "number_distinct_values": 4224,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "1.4",
+                "1.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3986,
+                    "max_value": 770,
+                    "min_value": 0,
+                    "mean": 20.377822378324133,
+                    "stddev": 34.68315837747762
+                },
+                {
+                    "type": "REAL",
+                    "count": 35139,
+                    "max_value": 480.56,
+                    "min_value": 0.09,
+                    "mean": 16.002047411707775,
+                    "stddev": 22.63922067034241
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "."
+                    ],
+                    "longest_values": [
+                        "."
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Active Chlorophyll 'A' (\u00b5g/L)",
+            "number_non_empty_cells": 192,
+            "number_empty_cells": 88174,
+            "number_distinct_values": 133,
+            "frequent_values": [
+                "1.4",
+                "0.8",
+                "0.69",
+                "0.7",
+                "1.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 10,
+                    "max_value": 28,
+                    "min_value": 1,
+                    "mean": 6.0,
+                    "stddev": 9.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 182,
+                    "max_value": 96.4,
+                    "min_value": 0.14,
+                    "mean": 7.552472527472527,
+                    "stddev": 17.521336347524734
+                }
+            ]
+        },
+        {
+            "column_name": "Chlorophyll Top Sample Field (u/L (YSI)",
+            "number_non_empty_cells": 8448,
+            "number_empty_cells": 79918,
+            "number_distinct_values": 2899,
+            "frequent_values": [
+                "1",
+                "1.1",
+                "1.3",
+                "1.2",
+                "0.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 269,
+                    "max_value": 620,
+                    "min_value": 0,
+                    "mean": 29.472118959107807,
+                    "stddev": 57.96226951501784
+                },
+                {
+                    "type": "REAL",
+                    "count": 8178,
+                    "max_value": 328.37,
+                    "min_value": 0.07,
+                    "mean": 14.557696967473722,
+                    "stddev": 21.339711602156317
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "4.+61"
+                    ],
+                    "longest_values": [
+                        "4.+61"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Chlorophyll Bottom Sample Field (u/L (YSI)",
+            "number_non_empty_cells": 2094,
+            "number_empty_cells": 86272,
+            "number_distinct_values": 970,
+            "frequent_values": [
+                "1.4",
+                "1.1",
+                "1.2",
+                "1.3",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 64,
+                    "max_value": 69,
+                    "min_value": 0,
+                    "mean": 9.6875,
+                    "stddev": 16.186293391323414
+                },
+                {
+                    "type": "REAL",
+                    "count": 2028,
+                    "max_value": 230.9,
+                    "min_value": 0.09,
+                    "mean": 10.593303747534517,
+                    "stddev": 17.09823102469987
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "12..37"
+                    ],
+                    "longest_values": [
+                        "12..37"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "TOP Total Organic Carbon (mg/L)",
+            "number_non_empty_cells": 764,
+            "number_empty_cells": 87602,
+            "number_distinct_values": 278,
+            "frequent_values": [
+                "4.6",
+                "4",
+                "4.3",
+                "5.1",
+                "5.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 60,
+                    "max_value": 13,
+                    "min_value": 3,
+                    "mean": 6.833333333333333,
+                    "stddev": 3.1736764520382708
+                },
+                {
+                    "type": "REAL",
+                    "count": 704,
+                    "max_value": 9.9,
+                    "min_value": 1.2,
+                    "mean": 4.8225284090909115,
+                    "stddev": 1.5288251669953536
+                }
+            ]
+        },
+        {
+            "column_name": "Top Dissolved Organic Carbon (mg/L)",
+            "number_non_empty_cells": 28950,
+            "number_empty_cells": 59416,
+            "number_distinct_values": 692,
+            "frequent_values": [
+                "3.2",
+                "3.4",
+                "3.3",
+                "3.6",
+                "3.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1089,
+                    "max_value": 97,
+                    "min_value": 1,
+                    "mean": 3.7474747474747474,
+                    "stddev": 3.141820104334953
+                },
+                {
+                    "type": "REAL",
+                    "count": 27861,
+                    "max_value": 95.8,
+                    "min_value": 0.5,
+                    "mean": 3.348766734862358,
+                    "stddev": 1.1566201077965794
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Dissolved Organic Carbon (mg/L)",
+            "number_non_empty_cells": 7,
+            "number_empty_cells": 88359,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "4.34",
+                "3.8",
+                "5.06",
+                "5.92",
+                "4.16"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 7,
+                    "max_value": 5.92,
+                    "min_value": 3.8,
+                    "mean": 4.661428571428572,
+                    "stddev": 0.7808498771289171
+                }
+            ]
+        },
+        {
+            "column_name": "Top Dissolved Organic Carbon YSI (mg/L)",
+            "number_non_empty_cells": 9295,
+            "number_empty_cells": 79071,
+            "number_distinct_values": 1742,
+            "frequent_values": [
+                "7.72",
+                "5.18",
+                "5.84",
+                "6.43",
+                "7.83"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 55,
+                    "max_value": 31,
+                    "min_value": 0,
+                    "mean": 6.781818181818182,
+                    "stddev": 5.600944430397136
+                },
+                {
+                    "type": "REAL",
+                    "count": 9240,
+                    "max_value": 52.3,
+                    "min_value": 0.02,
+                    "mean": 7.342989530627694,
+                    "stddev": 3.472625152276258
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Dissolved Organic Carbon YSI (mg/L)",
+            "number_non_empty_cells": 4020,
+            "number_empty_cells": 84346,
+            "number_distinct_values": 1404,
+            "frequent_values": [
+                "7.64",
+                "5.58",
+                "4.72",
+                "3.59",
+                "5.72"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 34,
+                    "max_value": 13,
+                    "min_value": 0,
+                    "mean": 5.676470588235294,
+                    "stddev": 2.653749713754595
+                },
+                {
+                    "type": "REAL",
+                    "count": 3986,
+                    "max_value": 27.48,
+                    "min_value": -0.49,
+                    "mean": 6.428630555193164,
+                    "stddev": 3.545644072246107
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Depth  YSI (ft)",
+            "number_non_empty_cells": 237,
+            "number_empty_cells": 88129,
+            "number_distinct_values": 84,
+            "frequent_values": [
+                "3",
+                "3.8",
+                "3.7",
+                "3.02",
+                "4.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 28,
+                    "max_value": 16,
+                    "min_value": 2,
+                    "mean": 4.678571428571429,
+                    "stddev": 3.655265980439057
+                },
+                {
+                    "type": "REAL",
+                    "count": 209,
+                    "max_value": 13.5,
+                    "min_value": 1.3,
+                    "mean": 3.607894736842105,
+                    "stddev": 1.7625786808379782
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Depth  YSI (ft)",
+            "number_non_empty_cells": 79,
+            "number_empty_cells": 88287,
+            "number_distinct_values": 79,
+            "frequent_values": [
+                "11.77",
+                "23.9",
+                "31.35",
+                "17.61",
+                "23.09"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 22,
+                    "min_value": 22,
+                    "mean": 22.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 78,
+                    "max_value": 37.9,
+                    "min_value": 7.72,
+                    "mean": 20.042948717948725,
+                    "stddev": 6.703094407689317
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Salinity YSI (psu)",
+            "number_non_empty_cells": 8664,
+            "number_empty_cells": 79702,
+            "number_distinct_values": 2451,
+            "frequent_values": [
+                "23.9",
+                "24.2",
+                "24.9",
+                "24.3",
+                "25.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 135,
+                    "max_value": 33,
+                    "min_value": 1,
+                    "mean": 22.896296296296295,
+                    "stddev": 5.843989091776361
+                },
+                {
+                    "type": "REAL",
+                    "count": 8528,
+                    "max_value": 37.7,
+                    "min_value": 0.09,
+                    "mean": 21.887980693832027,
+                    "stddev": 7.405238753543085
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "3..98"
+                    ],
+                    "longest_values": [
+                        "3..98"
+                    ],
+                    "average_length": 5.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Sample Salinity YSI (psu)",
+            "number_non_empty_cells": 2783,
+            "number_empty_cells": 85583,
+            "number_distinct_values": 1313,
+            "frequent_values": [
+                "28.5",
+                "23.5",
+                "31.3",
+                "28.8",
+                "24.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 57,
+                    "max_value": 34,
+                    "min_value": 7,
+                    "mean": 26.596491228070175,
+                    "stddev": 4.815397996423363
+                },
+                {
+                    "type": "REAL",
+                    "count": 2726,
+                    "max_value": 37.6,
+                    "min_value": 0.19,
+                    "mean": 23.981692894717522,
+                    "stddev": 5.116414930410938
+                }
+            ]
+        },
+        {
+            "column_name": "Top Sample Temperature  YSI (\u00baC)",
+            "number_non_empty_cells": 9012,
+            "number_empty_cells": 79354,
+            "number_distinct_values": 2687,
+            "frequent_values": [
+                "21.5",
+                "22",
+                "21.9",
+                "21.8",
+                "22.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 189,
+                    "max_value": 27,
+                    "min_value": 1,
+                    "mean": 16.804232804232804,
+                    "stddev": 7.278931187078595
+                },
+                {
+                    "type": "REAL",
+                    "count": 8823,
+                    "max_value": 30.8,
+                    "min_value": -1.22,
+                    "mean": 16.704995375835765,
+                    "stddev": 7.567637441454391
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Sample Temperature YSI (\u00baC)",
+            "number_non_empty_cells": 3089,
+            "number_empty_cells": 85277,
+            "number_distinct_values": 1448,
+            "frequent_values": [
+                "22",
+                "21.4",
+                "22.2",
+                "22.4",
+                "21.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 121,
+                    "max_value": 27,
+                    "min_value": 2,
+                    "mean": 18.14876033057851,
+                    "stddev": 7.201539271899259
+                },
+                {
+                    "type": "REAL",
+                    "count": 2968,
+                    "max_value": 27.95,
+                    "min_value": -0.62,
+                    "mean": 16.504172243935265,
+                    "stddev": 7.234745482648615
+                }
+            ]
+        },
+        {
+            "column_name": "Top Bacteria # per C.C. 1909",
+            "number_non_empty_cells": 522,
+            "number_empty_cells": 87844,
+            "number_distinct_values": 163,
+            "frequent_values": [
+                "12000",
+                "6400",
+                "10000",
+                "9000",
+                "8000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 522,
+                    "max_value": 1000000,
+                    "min_value": 120,
+                    "mean": 16437.758620689656,
+                    "stddev": 63354.40373759009
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Bacteria # per C.C. 1909",
+            "number_non_empty_cells": 635,
+            "number_empty_cells": 87731,
+            "number_distinct_values": 163,
+            "frequent_values": [
+                "4200",
+                "6400",
+                "3200",
+                "5300",
+                "3700"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 635,
+                    "max_value": 160000,
+                    "min_value": 30,
+                    "mean": 5556.497637795275,
+                    "stddev": 9848.213060081816
+                }
+            ]
+        },
+        {
+            "column_name": "Top Beam Attenuation Coefficient",
+            "number_non_empty_cells": 608,
+            "number_empty_cells": 87758,
+            "number_distinct_values": 303,
+            "frequent_values": [
+                "NS",
+                "1.31",
+                "0.70",
+                "2.03",
+                "2.32"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 373,
+                    "max_value": 115.12,
+                    "min_value": 0.22,
+                    "mean": 5.991126005361931,
+                    "stddev": 11.592832088694708
+                },
+                {
+                    "type": "TEXT",
+                    "count": 235,
+                    "shortest_values": [
+                        "NS"
+                    ],
+                    "longest_values": [
+                        "NS"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Beam Attenuation Coefficient",
+            "number_non_empty_cells": 438,
+            "number_empty_cells": 87928,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "NS",
+                "3.10",
+                "10.09",
+                "6.71",
+                "4.58"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 38,
+                    "max_value": 18.58,
+                    "min_value": 1.56,
+                    "mean": 6.4799999999999995,
+                    "stddev": 4.193401458180897
+                },
+                {
+                    "type": "TEXT",
+                    "count": 400,
+                    "shortest_values": [
+                        "NS"
+                    ],
+                    "longest_values": [
+                        "NS"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Top Five-Day Biochemical Oxygen Demand(mg/L)",
+            "number_non_empty_cells": 14354,
+            "number_empty_cells": 74012,
+            "number_distinct_values": 120,
+            "frequent_values": [
+                "2",
+                "1",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12471,
+                    "max_value": 67,
+                    "min_value": -6,
+                    "mean": 2.539090690401732,
+                    "stddev": 1.9663330499723304
+                },
+                {
+                    "type": "REAL",
+                    "count": 1883,
+                    "max_value": 11.5,
+                    "min_value": 0.1,
+                    "mean": 2.608921933085508,
+                    "stddev": 1.5992015585327801
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Five-Day Biochemical Oxygen Demand(mg/L)",
+            "number_non_empty_cells": 14290,
+            "number_empty_cells": 74076,
+            "number_distinct_values": 103,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 12415,
+                    "max_value": 66,
+                    "min_value": 0,
+                    "mean": 2.0082158679017317,
+                    "stddev": 1.6811758245820907
+                },
+                {
+                    "type": "REAL",
+                    "count": 1875,
+                    "max_value": 10.3,
+                    "min_value": 0.1,
+                    "mean": 2.3371199999999983,
+                    "stddev": 1.2796492119327023
+                }
+            ]
+        },
+        {
+            "column_name": "Top PCB Plate Count (Thous/mL) ",
+            "number_non_empty_cells": 6654,
+            "number_empty_cells": 81712,
+            "number_distinct_values": 662,
+            "frequent_values": [
+                "0",
+                "0.01",
+                "0.001",
+                "1",
+                "0.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 655,
+                    "max_value": 1200,
+                    "min_value": -100,
+                    "mean": 18.126717557251908,
+                    "stddev": 66.15081637853143
+                },
+                {
+                    "type": "REAL",
+                    "count": 5999,
+                    "max_value": 47.6,
+                    "min_value": -0.01,
+                    "mean": 0.6562622103683977,
+                    "stddev": 1.5697938092387915
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom PCB plate Count (Thous/mL) ",
+            "number_non_empty_cells": 6645,
+            "number_empty_cells": 81721,
+            "number_distinct_values": 634,
+            "frequent_values": [
+                "0",
+                "0.01",
+                "0.2",
+                "0.001",
+                "0.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 614,
+                    "max_value": 1800,
+                    "min_value": -100,
+                    "mean": 15.692182410423452,
+                    "stddev": 92.27374673372388
+                },
+                {
+                    "type": "REAL",
+                    "count": 6031,
+                    "max_value": 82.5,
+                    "min_value": -0.01,
+                    "mean": 0.5902336262643036,
+                    "stddev": 1.7784703215869158
+                }
+            ]
+        },
+        {
+            "column_name": "Top Coliform (Log No/mL)",
+            "number_non_empty_cells": 4284,
+            "number_empty_cells": 84082,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "0",
+                "9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4279,
+                    "max_value": 1935,
+                    "min_value": -1,
+                    "mean": 2.824024304744099,
+                    "stddev": 36.592353686018185
+                },
+                {
+                    "type": "TEXT",
+                    "count": 5,
+                    "shortest_values": [
+                        "*"
+                    ],
+                    "longest_values": [
+                        "*"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Coliform (Log No/mL)",
+            "number_non_empty_cells": 4160,
+            "number_empty_cells": 84206,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "0",
+                "-1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4149,
+                    "max_value": 3,
+                    "min_value": -1,
+                    "mean": 1.4615570016871535,
+                    "stddev": 0.7524553432392891
+                },
+                {
+                    "type": "REAL",
+                    "count": 11,
+                    "max_value": 9.63,
+                    "min_value": 5.73,
+                    "mean": 7.285454545454545,
+                    "stddev": 1.1064962197393722
+                }
+            ]
+        },
+        {
+            "column_name": "Oakwood BOD Top Sample (mg/L) ",
+            "number_non_empty_cells": 18646,
+            "number_empty_cells": 69720,
+            "number_distinct_values": 124,
+            "frequent_values": [
+                "1.5",
+                "1.7",
+                "2",
+                "1.8",
+                "1.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2012,
+                    "max_value": 13,
+                    "min_value": 0,
+                    "mean": 2.5874751491053676,
+                    "stddev": 1.5776149634940866
+                },
+                {
+                    "type": "REAL",
+                    "count": 16634,
+                    "max_value": 17.2,
+                    "min_value": 0.1,
+                    "mean": 2.6129974750511065,
+                    "stddev": 1.5450069280468715
+                }
+            ]
+        },
+        {
+            "column_name": "Oakwood BOD Bottom Sample(mg/L)",
+            "number_non_empty_cells": 18564,
+            "number_empty_cells": 69802,
+            "number_distinct_values": 108,
+            "frequent_values": [
+                "1.7",
+                "1.5",
+                "2",
+                "1.6",
+                "1.4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2039,
+                    "max_value": 12,
+                    "min_value": 0,
+                    "mean": 2.37126042177538,
+                    "stddev": 1.3719597644430503
+                },
+                {
+                    "type": "REAL",
+                    "count": 16525,
+                    "max_value": 15.8,
+                    "min_value": 0.1,
+                    "mean": 2.398317700453828,
+                    "stddev": 1.3521159129982374
+                }
+            ]
+        },
+        {
+            "column_name": "Oakwood  Total Suspended Solid Top Sample  (mg/L)",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 88366,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Oakwood Total Suspended Solid Bottom Sample (mg/L)",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 88366,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "Top Turbidity( Nephelometric Turbidity Units)",
+            "number_non_empty_cells": 6226,
+            "number_empty_cells": 82140,
+            "number_distinct_values": 1830,
+            "frequent_values": [
+                "3.2",
+                "1.1",
+                "3",
+                "2.5",
+                "3.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 243,
+                    "max_value": 154,
+                    "min_value": 0,
+                    "mean": 7.181069958847736,
+                    "stddev": 14.363596091590313
+                },
+                {
+                    "type": "REAL",
+                    "count": 5982,
+                    "max_value": 614.18,
+                    "min_value": -1.1,
+                    "mean": 8.975763958542295,
+                    "stddev": 19.789805112792934
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1,
+                    "shortest_values": [
+                        "Top"
+                    ],
+                    "longest_values": [
+                        "Top"
+                    ],
+                    "average_length": 3.0
+                }
+            ]
+        },
+        {
+            "column_name": "Bottom Turbidity YSI (Nephelometric Turbidity Units)",
+            "number_non_empty_cells": 2329,
+            "number_empty_cells": 86037,
+            "number_distinct_values": 858,
+            "frequent_values": [
+                "3.5",
+                "3.8",
+                "4.4",
+                "4.5",
+                "3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 131,
+                    "max_value": 52,
+                    "min_value": 0,
+                    "mean": 5.564885496183206,
+                    "stddev": 5.659686335334299
+                },
+                {
+                    "type": "REAL",
+                    "count": 2188,
+                    "max_value": 489.2,
+                    "min_value": -0.4,
+                    "mean": 7.898171846435096,
+                    "stddev": 17.592176702118177
+                },
+                {
+                    "type": "TEXT",
+                    "count": 10,
+                    "shortest_values": [
+                        "*",
+                        "Bot"
+                    ],
+                    "longest_values": [
+                        "Bot",
+                        "*"
+                    ],
+                    "average_length": 1.2
+                }
+            ]
+        },
+        {
+            "column_name": "Sampling Comment",
+            "number_non_empty_cells": 5447,
+            "number_empty_cells": 82919,
+            "number_distinct_values": 1222,
+            "frequent_values": [
+                "Fecal Top sample is questionable",
+                "Brown water",
+                "Used EXO B, No turbidity sensor",
+                "No Turbidity probe.",
+                "No bottom due to malfunction of overhead winch."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 5447,
+                    "shortest_values": [
+                        "rain",
+                        "CSO.",
+                        "Rain",
+                        "green",
+                        "Windy"
+                    ],
+                    "longest_values": [
+                        "Used EXO B, No turbidity sensor. Kemmerer's malfunction sample was scooped with a bucket. JBT Field Blk -NH3-N - questionable data as the repeat analysis for confirmation was done outside the holding time 29 vs 28 days with result of > MDL (0.035) but < LOQ (0.05)",
+                        "Used EXO B, No turbidity sensor. Kammerer's malfunction sample was scooped with a bucket. JBT Field Blk -NH3-N - questionable data as the repeat analysis for confirmation was done outside the holding time 29 vs 28 days with result of > MDL (0.035) but < LOQ (0.05)",
+                        "Found to be acidified 1.67. As a result OP were not performed on the sample. The whole nutrient pH were found to be 6.70. As preservation non-conformances, TKN/TP analysis were performed but data is questionable.",
+                        "Found to be acidified 1.55. As a result OP were not performed on the sample. The whole nutrient pH were found to be 7.10. As preservation non-conformances, TKN/TP analysis were performed but data is questionable.",
+                        "Used EXO B, No turbidity sensor,  JBT Field Blk -NH3-N - questionable data as the repeat analysis for confirmation was done outside the holding time 29 vs 28 days with result of > MDL (0.035) but < LOQ (0.05)"
+                    ],
+                    "average_length": 35.38534973379842
+                }
+            ]
+        },
+        {
+            "column_name": "Long",
+            "number_non_empty_cells": 88363,
+            "number_empty_cells": 3,
+            "number_distinct_values": 1007,
+            "frequent_values": [
+                "-74.045500",
+                "-73.933833",
+                "-74.053833",
+                "-74.030000",
+                "-73.783667"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 88361,
+                    "max_value": -69.869444,
+                    "min_value": -74.261111,
+                    "mean": -73.94619475961366,
+                    "stddev": 0.15103651052269057
+                },
+                {
+                    "type": "TEXT",
+                    "count": 2,
+                    "shortest_values": [
+                        "water showed a brown and green color'"
+                    ],
+                    "longest_values": [
+                        "water showed a brown and green color'"
+                    ],
+                    "average_length": 37.0
+                }
+            ]
+        },
+        {
+            "column_name": "Lat",
+            "number_non_empty_cells": 88363,
+            "number_empty_cells": 3,
+            "number_distinct_values": 1148,
+            "frequent_values": [
+                "40.606167",
+                "40.643833",
+                "40.828000",
+                "40.704500",
+                "40.800833"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 87415,
+                    "max_value": 42.045833,
+                    "min_value": 40.365278,
+                    "mean": 40.71067189978063,
+                    "stddev": 0.11271019422185799
+                },
+                {
+                    "type": "TEXT",
+                    "count": 948,
+                    "shortest_values": [
+                        "40.6,",
+                        "40.627,",
+                        "40.643,",
+                        "40.778,",
+                        "40.567,"
+                    ],
+                    "longest_values": [
+                        "-73.990053,40.676141",
+                        "-73.988236,40.679429",
+                        "40.58033,",
+                        "40.63878,",
+                        "40.65164,"
+                    ],
+                    "average_length": 8.684599156118143
+                }
+            ]
+        },
+        {
+            "column_name": "Type",
+            "number_non_empty_cells": 88366,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Permanent",
+                "Provisional"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 88366,
+                    "shortest_values": [
+                        "Permanent",
+                        "Provisional"
+                    ],
+                    "longest_values": [
+                        "Provisional",
+                        "Permanent"
+                    ],
+                    "average_length": 9.021410949912863
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

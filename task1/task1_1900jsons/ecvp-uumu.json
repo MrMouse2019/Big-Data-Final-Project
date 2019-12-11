@@ -1,0 +1,307 @@
+{
+    "dataset_name": "ecvp-uumu",
+    "columns": [
+        {
+            "column_name": "Appeal Type",
+            "number_non_empty_cells": 1459,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "Section 50",
+                "Waiting for DQ",
+                "Section 76",
+                "Jurisdictional Issue",
+                "Waiting for Appeal Request"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1459,
+                    "shortest_values": [
+                        "Other",
+                        "Section 50",
+                        "Section 76",
+                        "Section 72",
+                        "Waiting for DQ"
+                    ],
+                    "longest_values": [
+                        "Waiting for Appeal Request",
+                        "Jurisdictional Issue",
+                        "Waiting for DQ",
+                        "Section 72",
+                        "Section 76"
+                    ],
+                    "average_length": 10.282385195339273
+                }
+            ]
+        },
+        {
+            "column_name": "Appeal Subtype",
+            "number_non_empty_cells": 1322,
+            "number_empty_cells": 137,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Education and Experience",
+                "Medical",
+                "Character",
+                "Psych",
+                "Timeliness"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1322,
+                    "shortest_values": [
+                        "Psych",
+                        "Score",
+                        "Medical",
+                        "Character",
+                        "Timeliness"
+                    ],
+                    "longest_values": [
+                        "Education and Experience",
+                        "Veterans Credits",
+                        "Eligibility",
+                        "Suspension",
+                        "Timeliness"
+                    ],
+                    "average_length": 11.629349470499244
+                }
+            ]
+        },
+        {
+            "column_name": "Agency",
+            "number_non_empty_cells": 1459,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "Department of Citywide Administrative Services - DCAS",
+                "Police Department - NYPD",
+                "Department of Correction - DOC",
+                "Fire Department - FDNY",
+                "Department of Sanitation - DSNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1459,
+                    "shortest_values": [
+                        "Other - OTH",
+                        "Fire Department - FDNY",
+                        "Police Department - NYPD",
+                        "Housing Authority - NYCHA",
+                        "Transit Authority - NYCTA"
+                    ],
+                    "longest_values": [
+                        "Department of Housing Preservation and Development - HPD",
+                        "Department of Citywide Administrative Services - DCAS",
+                        "Department of Health and Mental Hygiene - DOHMH",
+                        "Administration for Children's Services - ACS",
+                        "Department of Environmental Protection - DEP"
+                    ],
+                    "average_length": 34.71967100753941
+                }
+            ]
+        },
+        {
+            "column_name": "Status",
+            "number_non_empty_cells": 1459,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Closed",
+                "Open"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1459,
+                    "shortest_values": [
+                        "Open",
+                        "Closed"
+                    ],
+                    "longest_values": [
+                        "Closed",
+                        "Open"
+                    ],
+                    "average_length": 5.9917751884852635
+                }
+            ]
+        },
+        {
+            "column_name": "Date Filed",
+            "number_non_empty_cells": 1459,
+            "number_empty_cells": 0,
+            "number_distinct_values": 246,
+            "frequent_values": [
+                "04/21/2015",
+                "04/13/2015",
+                "02/02/2015",
+                "02/09/2015",
+                "08/24/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1459,
+                    "max_value": "2015-12-31 00:00:00",
+                    "min_value": "2015-01-02 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Date Closed",
+            "number_non_empty_cells": 1452,
+            "number_empty_cells": 7,
+            "number_distinct_values": 333,
+            "frequent_values": [
+                "02/17/2016",
+                "11/27/2015",
+                "12/15/2015",
+                "11/10/2015",
+                "09/22/2015"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1452,
+                    "max_value": "2017-04-24 00:00:00",
+                    "min_value": "2015-01-08 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Exam No.",
+            "number_non_empty_cells": 1319,
+            "number_empty_cells": 140,
+            "number_distinct_values": 200,
+            "frequent_values": [
+                "6063",
+                "5000",
+                "2000",
+                "4004",
+                "2326"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1319,
+                    "max_value": 8331,
+                    "min_value": 112,
+                    "mean": 3524.158453373768,
+                    "stddev": 1795.022448892134
+                }
+            ]
+        },
+        {
+            "column_name": "Title",
+            "number_non_empty_cells": 1319,
+            "number_empty_cells": 140,
+            "number_distinct_values": 120,
+            "frequent_values": [
+                "Correction Officer",
+                "Police Officer",
+                "Associate Contract Specialist",
+                "Firefighter",
+                "Sanitation Worker"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1319,
+                    "shortest_values": [
+                        "Oiler",
+                        "Cashier",
+                        "Mariner",
+                        "Plumber",
+                        "Forester"
+                    ],
+                    "longest_values": [
+                        "Supv. of Electrical Installations and Maintenance",
+                        "Transit Electro-Mechanical Maintainer - EL & Esc.",
+                        "Promotion to General Superintendent (Sanitation)",
+                        "Transit Electro-Mechanical Maintainer - El & Esc",
+                        "Transit Electro-Mechanical Maintainer H & AC"
+                    ],
+                    "average_length": 19.09021986353298
+                }
+            ]
+        },
+        {
+            "column_name": "Expiration",
+            "number_non_empty_cells": 1087,
+            "number_empty_cells": 372,
+            "number_distinct_values": 157,
+            "frequent_values": [
+                "06/26/2017",
+                "12/10/2018",
+                "02/20/2016",
+                "02/19/2018",
+                "07/02/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1087,
+                    "max_value": "2020-03-16 00:00:00",
+                    "min_value": "2012-02-20 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Extension",
+            "number_non_empty_cells": 34,
+            "number_empty_cells": 1425,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "02/20/2016",
+                "12/01/2015",
+                "08/10/2016",
+                "09/19/2017"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 34,
+                    "max_value": "2017-09-19 00:00:00",
+                    "min_value": "2015-12-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Acronym",
+            "number_non_empty_cells": 1459,
+            "number_empty_cells": 0,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "DCAS",
+                "NYPD",
+                "DOC",
+                "FDNY",
+                "DSNY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1459,
+                    "shortest_values": [
+                        "ACS",
+                        "DOF",
+                        "DEP",
+                        "DPR",
+                        "HPD"
+                    ],
+                    "longest_values": [
+                        "NYCTA",
+                        "DOHMH",
+                        "NYCHA",
+                        "FDNY",
+                        "NYPD"
+                    ],
+                    "average_length": 3.766963673749143
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

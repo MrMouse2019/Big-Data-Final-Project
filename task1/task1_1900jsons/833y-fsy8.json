@@ -1,0 +1,530 @@
+{
+    "dataset_name": "833y-fsy8",
+    "columns": [
+        {
+            "column_name": "INCIDENT_KEY",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 16255,
+            "frequent_values": [
+                "173354054",
+                "94424905",
+                "33478089",
+                "66027258",
+                "72195829"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20659,
+                    "max_value": 191703454,
+                    "min_value": 9953245,
+                    "mean": 86977146.40873227,
+                    "stddev": 48175566.62190287
+                }
+            ]
+        },
+        {
+            "column_name": "OCCUR_DATE",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4403,
+            "frequent_values": [
+                "09/04/2011",
+                "08/11/2007",
+                "09/04/2006",
+                "08/07/2010",
+                "07/11/2010"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 20659,
+                    "max_value": "2018-12-31 00:00:00",
+                    "min_value": "2006-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "OCCUR_TIME",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1393,
+            "frequent_values": [
+                "23:30:00",
+                "1:30:00",
+                "0:30:00",
+                "2:00:00",
+                "22:30:00"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20659,
+                    "shortest_values": [
+                        "3:57:00",
+                        "6:10:00",
+                        "4:06:00",
+                        "0:17:00",
+                        "4:33:00"
+                    ],
+                    "longest_values": [
+                        "18:22:00",
+                        "16:21:00",
+                        "23:56:00",
+                        "18:40:00",
+                        "20:54:00"
+                    ],
+                    "average_length": 7.5874437291253205
+                }
+            ]
+        },
+        {
+            "column_name": "BORO",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "BROOKLYN",
+                "BRONX",
+                "QUEENS",
+                "MANHATTAN",
+                "STATEN ISLAND"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20659,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 7.113267825160947
+                }
+            ]
+        },
+        {
+            "column_name": "PRECINCT",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 76,
+            "frequent_values": [
+                "75",
+                "73",
+                "67",
+                "79",
+                "44"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20659,
+                    "max_value": 123,
+                    "min_value": 1,
+                    "mean": 66.25243235393775,
+                    "stddev": 27.02291595304009
+                }
+            ]
+        },
+        {
+            "column_name": "JURISDICTION_CODE",
+            "number_non_empty_cells": 20658,
+            "number_empty_cells": 1,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "0",
+                "2",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20658,
+                    "max_value": 2,
+                    "min_value": 0,
+                    "mean": 0.323022557846839,
+                    "stddev": 0.7345883369341074
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION_DESC",
+            "number_non_empty_cells": 8944,
+            "number_empty_cells": 11715,
+            "number_distinct_values": 39,
+            "frequent_values": [
+                "MULTI DWELL - PUBLIC HOUS",
+                "MULTI DWELL - APT BUILD",
+                "PVT HOUSE",
+                "BAR/NIGHT CLUB",
+                "GROCERY/BODEGA"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 8944,
+                    "shortest_values": [
+                        "ATM",
+                        "BANK",
+                        "NONE",
+                        "SCHOOL",
+                        "HOSPITAL"
+                    ],
+                    "longest_values": [
+                        "MULTI DWELL - PUBLIC HOUS",
+                        "SOCIAL CLUB/POLICY LOCATI",
+                        "MULTI DWELL - APT BUILD",
+                        "GYM/FITNESS FACILITY",
+                        "DRY CLEANER/LAUNDRY"
+                    ],
+                    "average_length": 20.322450805008945
+                }
+            ]
+        },
+        {
+            "column_name": "STATISTICAL_MURDER_FLAG",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "false",
+                "true"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20659,
+                    "shortest_values": [
+                        "true",
+                        "false"
+                    ],
+                    "longest_values": [
+                        "false",
+                        "true"
+                    ],
+                    "average_length": 4.8090904690449685
+                }
+            ]
+        },
+        {
+            "column_name": "PERP_AGE_GROUP",
+            "number_non_empty_cells": 13802,
+            "number_empty_cells": 6857,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "18-24",
+                "25-44",
+                "UNKNOWN",
+                "<18",
+                "45-64"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 13802,
+                    "max_value": "1900-01-01 18:24:00",
+                    "min_value": "1900-01-01 18:24:00"
+                }
+            ]
+        },
+        {
+            "column_name": "PERP_SEX",
+            "number_non_empty_cells": 13836,
+            "number_empty_cells": 6823,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "M",
+                "U",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13836,
+                    "shortest_values": [
+                        "M",
+                        "U",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "U",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "PERP_RACE",
+            "number_non_empty_cells": 13836,
+            "number_empty_cells": 6823,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "BLACK",
+                "UNKNOWN",
+                "WHITE HISPANIC",
+                "BLACK HISPANIC",
+                "WHITE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 13836,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "UNKNOWN",
+                        "WHITE HISPANIC",
+                        "BLACK HISPANIC"
+                    ],
+                    "longest_values": [
+                        "AMERICAN INDIAN/ALASKAN NATIVE",
+                        "ASIAN / PACIFIC ISLANDER",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC",
+                        "UNKNOWN"
+                    ],
+                    "average_length": 7.1806880601329865
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_AGE_GROUP",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "25-44",
+                "18-24",
+                "<18",
+                "45-64",
+                "65+"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20659,
+                    "shortest_values": [
+                        "<18",
+                        "65+",
+                        "25-44",
+                        "18-24",
+                        "45-64"
+                    ],
+                    "longest_values": [
+                        "UNKNOWN",
+                        "45-64",
+                        "18-24",
+                        "25-44",
+                        "65+"
+                    ],
+                    "average_length": 4.7671716927247205
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_SEX",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "M",
+                "F",
+                "U"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20659,
+                    "shortest_values": [
+                        "M",
+                        "F",
+                        "U"
+                    ],
+                    "longest_values": [
+                        "U",
+                        "F",
+                        "M"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "VIC_RACE",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "BLACK",
+                "WHITE HISPANIC",
+                "BLACK HISPANIC",
+                "WHITE",
+                "ASIAN / PACIFIC ISLANDER"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 20659,
+                    "shortest_values": [
+                        "BLACK",
+                        "WHITE",
+                        "UNKNOWN",
+                        "BLACK HISPANIC",
+                        "WHITE HISPANIC"
+                    ],
+                    "longest_values": [
+                        "AMERICAN INDIAN/ALASKAN NATIVE",
+                        "ASIAN / PACIFIC ISLANDER",
+                        "WHITE HISPANIC",
+                        "BLACK HISPANIC",
+                        "UNKNOWN"
+                    ],
+                    "average_length": 7.4212207754489565
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORD_CD",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8758,
+            "frequent_values": [
+                "1017119",
+                "1008276",
+                "1026387",
+                "1017141",
+                "936722"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19708,
+                    "max_value": 1066516,
+                    "min_value": 914928,
+                    "mean": 1009354.0612441648,
+                    "stddev": 18601.670851806444
+                },
+                {
+                    "type": "TEXT",
+                    "count": 951,
+                    "shortest_values": [
+                        "996,500",
+                        "991,885",
+                        "997,129",
+                        "988,966",
+                        "998,246"
+                    ],
+                    "longest_values": [
+                        "1,005,432",
+                        "1,010,866",
+                        "1,015,904",
+                        "1,004,966",
+                        "1,021,600"
+                    ],
+                    "average_length": 8.564668769716087
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORD_CD",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8989,
+            "frequent_values": [
+                "183909",
+                "183623",
+                "262634",
+                "244344",
+                "183798"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 19708,
+                    "max_value": 271128,
+                    "min_value": 125757,
+                    "mean": 207168.60630200934,
+                    "stddev": 31815.931450578497
+                },
+                {
+                    "type": "TEXT",
+                    "count": 951,
+                    "shortest_values": [
+                        "265,927",
+                        "179,927",
+                        "238,251",
+                        "251,411",
+                        "235,570"
+                    ],
+                    "longest_values": [
+                        "233,240",
+                        "231,978",
+                        "176,438",
+                        "237,161",
+                        "226,632"
+                    ],
+                    "average_length": 7.0
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9471,
+            "frequent_values": [
+                "40.67141166300007",
+                "40.88745131300004",
+                "40.670655072000045",
+                "40.67110691100004",
+                "40.63898417600007"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 20659,
+                    "max_value": 40.910818945000074,
+                    "min_value": 40.51158633800003,
+                    "mean": 40.73572244060197,
+                    "stddev": 0.08738017029824106
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 20659,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9469,
+            "frequent_values": [
+                "-73.88151172399995",
+                "-73.91339091999998",
+                "-73.84760778699997",
+                "-73.88143295699997",
+                "-74.17125230499995"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 20659,
+                    "max_value": -73.70308204399998,
+                    "min_value": -74.24930372699998,
+                    "mean": -73.90936040464396,
+                    "stddev": 0.0668652177352107
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

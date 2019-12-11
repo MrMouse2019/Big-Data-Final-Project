@@ -1,0 +1,218 @@
+{
+    "dataset_name": "d334-62hi",
+    "columns": [
+        {
+            "column_name": "Issuer",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "NYC GO",
+                "DASNY",
+                "NYW"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44,
+                    "shortest_values": [
+                        "NYW",
+                        "DASNY",
+                        "NYC GO"
+                    ],
+                    "longest_values": [
+                        "NYC GO",
+                        "DASNY",
+                        "NYW"
+                    ],
+                    "average_length": 5.2727272727272725
+                }
+            ]
+        },
+        {
+            "column_name": "Transaction Number and Type",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Synthetic Fixed Rate",
+                "4: Synthetic Fixed",
+                "5: Synthetic Fixed",
+                "2: Synthetic Fixed",
+                "1: Synthetic Fixed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44,
+                    "shortest_values": [
+                        "13: Basis Swap",
+                        "1: Synthetic Fixed",
+                        "2: Synthetic Fixed",
+                        "3: Synthetic Fixed",
+                        "4: Synthetic Fixed"
+                    ],
+                    "longest_values": [
+                        "Synthetic Fixed Rate",
+                        "D4: Synthetic Fixed",
+                        "D3: Synthetic Fixed",
+                        "8: Synthetic Fixed",
+                        "5: Synthetic Fixed"
+                    ],
+                    "average_length": 18.181818181818183
+                }
+            ]
+        },
+        {
+            "column_name": "Counterparty",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "JPMorgan Chase Bank, NA",
+                "U.S. Bank, N.A.",
+                "Goldman Sachs Mitsui Marine DP",
+                "Wells Fargo Bank, N.A.",
+                "Merrill Lynch Capital Services Inc."
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 44,
+                    "shortest_values": [
+                        "U.S. Bank, N.A.",
+                        "Bank of America",
+                        "Wells Fargo Bank, N.A.",
+                        "JPMorgan Chase Bank, NA",
+                        "Goldman Sachs Mitsui Marine DP"
+                    ],
+                    "longest_values": [
+                        "Merrill Lynch Capital Services Inc.",
+                        "Goldman Sachs Mitsui Marine DP",
+                        "JPMorgan Chase Bank, NA",
+                        "Wells Fargo Bank, N.A.",
+                        "Bank of America"
+                    ],
+                    "average_length": 22.363636363636363
+                }
+            ]
+        },
+        {
+            "column_name": "Notional Amount",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 14,
+            "frequent_values": [
+                "500000000",
+                "44820000",
+                "350000000",
+                "160400000",
+                "40025833"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 44,
+                    "max_value": 500000000,
+                    "min_value": 27379166,
+                    "mean": 151608181.8181818,
+                    "stddev": 145802183.3285115
+                }
+            ]
+        },
+        {
+            "column_name": "Trade Date",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "10/30/2002",
+                "10/26/2007",
+                "06/01/2005",
+                "01/09/2003",
+                "07/29/2004"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44,
+                    "max_value": "2007-10-26 00:00:00",
+                    "min_value": "2002-10-30 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Termination Date",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "08/01/2020",
+                "06/15/2036",
+                "05/15/2039",
+                "08/01/2031",
+                "12/01/2033"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44,
+                    "max_value": "2039-05-15 00:00:00",
+                    "min_value": "2020-08-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Mark to Market Value",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "-830298.73",
+                "-1137354",
+                "-1221411",
+                "-670927",
+                "-1137350"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 33,
+                    "max_value": -670923,
+                    "min_value": -52376324,
+                    "mean": -14208646.121212121,
+                    "stddev": 16303253.83959154
+                },
+                {
+                    "type": "REAL",
+                    "count": 11,
+                    "max_value": -830282.29,
+                    "min_value": -51750787.8,
+                    "mean": -14897040.861818181,
+                    "stddev": 17987176.100598767
+                }
+            ]
+        },
+        {
+            "column_name": "Data As Of",
+            "number_non_empty_cells": 44,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "12/31/2018",
+                "06/30/2018",
+                "09/30/2018",
+                "03/31/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 44,
+                    "max_value": "2018-12-31 00:00:00",
+                    "min_value": "2018-03-31 00:00:00"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

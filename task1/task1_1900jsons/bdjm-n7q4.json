@@ -1,0 +1,1502 @@
+{
+    "dataset_name": "bdjm-n7q4",
+    "columns": [
+        {
+            "column_name": "OBJECTID",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 584062,
+            "frequent_values": [
+                10500089,
+                4015873,
+                7151370,
+                5066346,
+                6127366
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 584062,
+                    "max_value": 10527715,
+                    "min_value": 484183,
+                    "mean": 6676788.374307864,
+                    "stddev": 2653895.043300738
+                }
+            ]
+        },
+        {
+            "column_name": "WOType",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "Block Pruning",
+                "Tree Plant-Street Tree",
+                "Tree Removal",
+                "Pruning",
+                "Stump Removal"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "Pruning",
+                        "Limb Down",
+                        "Misc Wood",
+                        "Tree Down",
+                        "Misc Work"
+                    ],
+                    "longest_values": [
+                        "Stump Removal for Tree Planting",
+                        "Tree Removal for Tree Planting",
+                        "Tree Plant-Street Tree Block",
+                        "Rescue/Preservation - Space",
+                        "Rescue/Preservation - Tree"
+                    ],
+                    "average_length": 14.381649550903843
+                }
+            ]
+        },
+        {
+            "column_name": "WOStatus",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Closed",
+                "Open",
+                "Cancel",
+                "Pending",
+                "Alternate"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "Open",
+                        "Closed",
+                        "Cancel",
+                        "Pending",
+                        "Alternate"
+                    ],
+                    "longest_values": [
+                        "In Process",
+                        "Alternate",
+                        "Pending",
+                        "Cancel",
+                        "Closed"
+                    ],
+                    "average_length": 5.769584393437683
+                }
+            ]
+        },
+        {
+            "column_name": "WOPriority",
+            "number_non_empty_cells": 121584,
+            "number_empty_cells": 462478,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                1.0,
+                9.0,
+                8.0,
+                7.0,
+                10.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 121584,
+                    "max_value": 12.0,
+                    "min_value": 1.0,
+                    "mean": 6.246282405579682,
+                    "stddev": 3.4278216851504912
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 584046,
+            "number_empty_cells": 16,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Queens",
+                "Brooklyn",
+                "Staten Island",
+                "Bronx",
+                "Manhattan"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584046,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.814091698256644
+                }
+            ]
+        },
+        {
+            "column_name": "CommunityBoard",
+            "number_non_empty_cells": 584046,
+            "number_empty_cells": 16,
+            "number_distinct_values": 73,
+            "frequent_values": [
+                503.0,
+                413.0,
+                411.0,
+                412.0,
+                407.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 584046,
+                    "max_value": 3081.0,
+                    "min_value": 10.0,
+                    "mean": 335.8969738684967,
+                    "stddev": 121.7337896819124
+                }
+            ]
+        },
+        {
+            "column_name": "BuildingNumber",
+            "number_non_empty_cells": 542650,
+            "number_empty_cells": 41412,
+            "number_distinct_values": 33465,
+            "frequent_values": [
+                "0",
+                "*",
+                "/",
+                "00",
+                "1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 542650,
+                    "shortest_values": [
+                        "_",
+                        "0",
+                        "7",
+                        "`",
+                        "5"
+                    ],
+                    "longest_values": [
+                        "68-014/016",
+                        "OPP. 51-05",
+                        "GUY R BREW",
+                        "19-023/025",
+                        "Haevey Par"
+                    ],
+                    "average_length": 3.8560748180226665
+                }
+            ]
+        },
+        {
+            "column_name": "StreetName",
+            "number_non_empty_cells": 543320,
+            "number_empty_cells": 40742,
+            "number_distinct_values": 10896,
+            "frequent_values": [
+                "0",
+                "BROADWAY",
+                "/",
+                "3 AVENUE",
+                "OCEAN PARKWAY"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 543320,
+                    "shortest_values": [
+                        "Z",
+                        "0",
+                        "7",
+                        "\\",
+                        "3"
+                    ],
+                    "longest_values": [
+                        "Udall's Cove Park-100' walk along trail at corner of Douglas Rd + Little Neck Rd.Top 1/2 of tree bro",
+                        "father capodanno between ocean breeze and sand lanein median across from parking lot of ocean breeze",
+                        "11 trees north of the intersection of seaview and fr cap on west side of fr cap across from p.lot6",
+                        "WILLIAMSBRIDGE OVAL -20' OAK - TREE DOWN NEXT TO BBC - REMOVE ALL DEBRIS - LOADER WITH SAW NEEDED",
+                        "ISHAM STREET @ PARK TERRACE WEST (ISHAM PARK) 10 Z (IN PK, ALONG FOOT PATH) LP 60X60"
+                    ],
+                    "average_length": 12.602519693734816
+                }
+            ]
+        },
+        {
+            "column_name": "LocationDetails",
+            "number_non_empty_cells": 498922,
+            "number_empty_cells": 85140,
+            "number_distinct_values": 167983,
+            "frequent_values": [
+                "1F",
+                "2F",
+                "1S",
+                "STRIP 1F",
+                "2S"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 498922,
+                    "shortest_values": [
+                        "/",
+                        "s",
+                        "5",
+                        "9",
+                        "f"
+                    ],
+                    "longest_values": [
+                        "east side of vc museum-next to path-b/t 2 light poles-apx 71ft behind mens bathroom- norway is last tree on paved path that splits to two gravel and dirt paths-tree is next to a black cherry leaning over light post -tree is ifo of newly planted suger maple",
+                        "On side of 8 Ardsley St in Willowbrook Parkway, just outside of property line. Large deadwood in canopy (~4'), hanging limb and previous failures. Possible decay pocket near base of tree on side facing backyard fence. Prune. RR9 Climbing may be necessary i",
+                        "INSPECTED 5-4-17 BY J. LOCASCIO TREE NEED CON EDISON TOPPING ON 130 AVE ,1F NM 22' POOR DECLINE  FULL NO ALT SIDE FAX TO CON EDION ON 5-5-17 BY R LUGO ON 0745 AM-INSPECTED 6/9/17 R.WILLIAMS-6/11/17 AS PER A.SQUILLACIOTI-CONTINUOUS TO REQUIRE CON-ED TOPPING",
+                        "AMPS 1699399 In Playland Playground. Next to fence near inside corner of right angle formed by park. Marked with white paint on west side of base of tree. Hanging limb in canopy ~4'. Moderate deadwood up to 6' diameter. Remove hanging limb and prune. RR 9",
+                        "POSTED FOR 4-11-19 //CAR PARKED AFTER POST. NEED TOW TRUCK AS PER CREW 1 ON 3-29- 19 / 'POSTED FOR 3/29/2019 AS PER CREW 1 ON 3/28/2019'CAR PARKED AS PER CREW 1 ON 3-8-19/ POSTED FOR 3-7-19 AS PER CREW 5 /1F LP. BLUE TAGGED /ROTTED ROOT FLARE /POOR CONDTN"
+                    ],
+                    "average_length": 17.790061372318718
+                }
+            ]
+        },
+        {
+            "column_name": "ActualFinishDate",
+            "number_non_empty_cells": 424495,
+            "number_empty_cells": 159567,
+            "number_distinct_values": 10679,
+            "frequent_values": [
+                "06/26/2017 11:11:11",
+                "04/04/2017 11:11:11",
+                "04/21/2017 11:11:11",
+                "06/30/2018 12:00:00",
+                "05/15/2017 11:11:11"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 424495,
+                    "shortest_values": [
+                        "08/06/2018 04:00:00",
+                        "09/14/2018 12:27:48",
+                        "06/04/2018 09:43:21",
+                        "05/10/2019 06:55:44",
+                        "05/09/2017 09:22:56"
+                    ],
+                    "longest_values": [
+                        "03/12/2018 10:28:56",
+                        "11/24/2017 05:00:00",
+                        "01/25/2019 05:00:00",
+                        "07/27/2018 04:00:00",
+                        "10/01/2014 04:00:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "WOContract",
+            "number_non_empty_cells": 435637,
+            "number_empty_cells": 148425,
+            "number_distinct_values": 200,
+            "frequent_values": [
+                "BP-Q17",
+                "BP-Q18",
+                "BP-B18",
+                "BP-B19",
+                "BP-S18"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 435637,
+                    "shortest_values": [
+                        "BP-X19",
+                        "BP-M18",
+                        "BP-M17",
+                        "BP-Q19",
+                        "BP-X18"
+                    ],
+                    "longest_values": [
+                        "Individual Tree Pruning",
+                        "Parks Planting 2",
+                        "Parks Planting 1",
+                        "DED-20141418575",
+                        "BP-20150001562"
+                    ],
+                    "average_length": 6.8581663173697365
+                }
+            ]
+        },
+        {
+            "column_name": "ParkName",
+            "number_non_empty_cells": 65736,
+            "number_empty_cells": 518326,
+            "number_distinct_values": 1679,
+            "frequent_values": [
+                "Pelham Bay Park",
+                "Crotona Park",
+                "Flushing Meadows Corona Park",
+                "Riverside Park",
+                "Ocean Parkway Malls"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65736,
+                    "shortest_values": [
+                        "0",
+                        "/",
+                        "`",
+                        "Lot",
+                        "opp"
+                    ],
+                    "longest_values": [
+                        "RECEIVED AN EMAIL FROM NICOLE MICHAELS ON 12/5/15 -TOPPING COMPLETED 12/4/15",
+                        "CREW # [OT]6609: AMPS# 1111305 & 1111315&1111842 [5-2-15]",
+                        "CREW# 6714: WOOD & STUMP REMAINS.  Msgr. McGolrick Park",
+                        "Robert L. Clinkscales Playground and Community Garden",
+                        "1 F NP 112X55 *COMM* ECD *BLOCK* (ANY FS/ZESE/QU)"
+                    ],
+                    "average_length": 17.774218084459047
+                }
+            ]
+        },
+        {
+            "column_name": "ParkZone",
+            "number_non_empty_cells": 32329,
+            "number_empty_cells": 551733,
+            "number_distinct_values": 560,
+            "frequent_values": [
+                "R046-ZN05",
+                "X039-ZN13",
+                "Q004-ZN02",
+                "R065-ZN08",
+                "Q004-ZN01"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32329,
+                    "shortest_values": [
+                        "3",
+                        "1",
+                        "/",
+                        "5",
+                        "000"
+                    ],
+                    "longest_values": [
+                        "No Util Conflict Present",
+                        "OTHMAR AMMANN PLAYGROUND",
+                        "Theodore Roosevelt Park",
+                        "B057-ZN05 -LENAPE PLGD",
+                        "Duplicate inspection"
+                    ],
+                    "average_length": 9.040428098611153
+                }
+            ]
+        },
+        {
+            "column_name": "CancelReason",
+            "number_non_empty_cells": 36050,
+            "number_empty_cells": 548012,
+            "number_distinct_values": 11590,
+            "frequent_values": [
+                "Overwriting in FY19",
+                "BBO",
+                "Construction",
+                "Tree was not pruned during FY18",
+                "TREE REMOVAL FOR TREE PLANTING"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 36050,
+                    "shortest_values": [
+                        "E",
+                        "I",
+                        "/",
+                        "?",
+                        "1"
+                    ],
+                    "longest_values": [
+                        "This WO was canceled following the more recent inspection conducted on 4/20/18.  This WO was created before the official rollout of TRM, and before clarification on Level 2 inspection protocols leading to an artificially high risk rating on the corresponding inspection.",
+                        "This WO was canceled following the more recent inspection conducted on 4/20/18.  This WO was created before the official rollout of TRM, and before clarification on Level 2 inspection protocols leading to an artificially high risk rating on the corresponding inspection",
+                        "CANCEL WORK ORDER - PARKS DOES NOT PRUNE TREES FOR CLEARANCE WHEN BRANCHES INTERFERE WITH THE POWER LINES, IT IS CON EDISONS RESPONSIBILITY TO PROVIDE CLEARANCE. FOR MORE INFORMATION, THE HOMEOWNER MAY CONTACT THE CON EDISON PRUNING DIVISION AT (800) 752-6633.",
+                        "Many thanks for your recent request for a new street tree. Having inspected the site we have found this location to be unplantable due to the proximity of both gas and electric lines. Please feel free to make a new request using an alternative location.",
+                        "PARKS DOES NOT PRUNE TREES FOR CLEARANCE WHEN BRANCHES INTERFERE WITH THE POWER LINES, IT IS CON EDISONS RESPONSIBILITY TO PROVIDE CLEARANCE. FOR MORE INFORMATION, THE HOMEOWNER MAY CONTACT THE CON EDISON PRUNING DIVISION AT (800) 752-6633."
+                    ],
+                    "average_length": 24.422995839112343
+                }
+            ]
+        },
+        {
+            "column_name": "WOCategory",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "Block Pruning",
+                "Risk Mitigation",
+                "Tree Planting",
+                "Post-Failure Tree/Debris Removal",
+                "Stump Removal"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "Claim",
+                        "Misc Work",
+                        "Block Pruning",
+                        "Tree Planting",
+                        "Stump Removal"
+                    ],
+                    "longest_values": [
+                        "Post-Failure Tree/Debris Removal",
+                        "Tree and Sidewalk Repair",
+                        "Risk Mitigation",
+                        "Traffic Prune",
+                        "Stump Removal"
+                    ],
+                    "average_length": 14.52740633699847
+                }
+            ]
+        },
+        {
+            "column_name": "SanitationAssignedDate",
+            "number_non_empty_cells": 3573,
+            "number_empty_cells": 580489,
+            "number_distinct_values": 3572,
+            "frequent_values": [
+                "08/12/2019 12:02:04",
+                "08/09/2019 10:17:48",
+                "07/06/2017 15:44:58",
+                "04/04/2016 14:54:41",
+                "05/14/2017 14:18:47"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3573,
+                    "shortest_values": [
+                        "06/20/2018 19:18:27",
+                        "11/18/2018 11:37:23",
+                        "11/27/2018 20:04:27",
+                        "08/23/2019 08:15:37",
+                        "05/09/2016 08:37:40"
+                    ],
+                    "longest_values": [
+                        "11/19/2018 12:24:38",
+                        "02/18/2016 18:34:19",
+                        "11/19/2018 14:34:20",
+                        "08/12/2019 09:36:54",
+                        "06/17/2016 08:12:43"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "SanitationRemovalDate",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 584062,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "SanitationUpdatedDate",
+            "number_non_empty_cells": 614,
+            "number_empty_cells": 583448,
+            "number_distinct_values": 613,
+            "frequent_values": [
+                "11/20/2018 18:32:24",
+                "03/09/2018 23:25:17",
+                "11/21/2018 16:14:44",
+                "11/20/2018 17:58:24",
+                "11/21/2018 16:10:54"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 614,
+                    "shortest_values": [
+                        "03/05/2018 19:18:24",
+                        "11/20/2018 18:28:34",
+                        "03/09/2018 23:25:17",
+                        "03/11/2018 21:30:58",
+                        "11/19/2018 17:20:29"
+                    ],
+                    "longest_values": [
+                        "11/20/2018 20:37:01",
+                        "11/20/2018 18:05:35",
+                        "11/19/2018 19:28:43",
+                        "03/06/2018 15:14:06",
+                        "11/19/2018 19:22:51"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "WOWoodRemains",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "No Wood Debris",
+                "All Wood Removed",
+                "Unprocessed Wood",
+                "< 4 in diam, <4 ft length",
+                "> 12 in diam, <4 ft length"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "No Wood Debris",
+                        "All Wood Removed",
+                        "Unprocessed Wood",
+                        "< 4 in diam, <4 ft length",
+                        "< 12 in diam, <4 ft length"
+                    ],
+                    "longest_values": [
+                        "> 12 in diam, <4 ft length",
+                        "< 12 in diam, <4 ft length",
+                        "< 4 in diam, <4 ft length",
+                        "Unprocessed Wood",
+                        "All Wood Removed"
+                    ],
+                    "average_length": 14.290184946118734
+                }
+            ]
+        },
+        {
+            "column_name": "WOEquipment",
+            "number_non_empty_cells": 32015,
+            "number_empty_cells": 552047,
+            "number_distinct_values": 12,
+            "frequent_values": [
+                "Bucket & Chipper",
+                "Bucket, Loader & Chipper",
+                "Bucket & Loader",
+                "Chipper",
+                "Truck - Pickup"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 32015,
+                    "shortest_values": [
+                        "Crane",
+                        "Loader",
+                        "Bucket",
+                        "Chipper",
+                        "Pickup w Saw"
+                    ],
+                    "longest_values": [
+                        "Bucket, Loader & Chipper",
+                        "Loader - Front End",
+                        "Truck - Container",
+                        "Loader & Chipper",
+                        "Bucket & Chipper"
+                    ],
+                    "average_length": 16.24747774480712
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 504672,
+            "number_empty_cells": 79390,
+            "number_distinct_values": 193,
+            "frequent_values": [
+                10312.0,
+                10314.0,
+                10306.0,
+                11385.0,
+                11234.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 504672,
+                    "max_value": 11697.0,
+                    "min_value": 10001.0,
+                    "mean": 10906.23816855304,
+                    "stddev": 523.645096370382
+                }
+            ]
+        },
+        {
+            "column_name": "CityCouncil",
+            "number_non_empty_cells": 504663,
+            "number_empty_cells": 79399,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                51.0,
+                19.0,
+                23.0,
+                50.0,
+                27.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 504663,
+                    "max_value": 51.0,
+                    "min_value": 1.0,
+                    "mean": 29.948337801661705,
+                    "stddev": 14.790779278651748
+                }
+            ]
+        },
+        {
+            "column_name": "StateSenate",
+            "number_non_empty_cells": 504663,
+            "number_empty_cells": 79399,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                24.0,
+                11.0,
+                15.0,
+                14.0,
+                34.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 504663,
+                    "max_value": 36.0,
+                    "min_value": 10.0,
+                    "mean": 20.891281904954397,
+                    "stddev": 7.327833417471423
+                }
+            ]
+        },
+        {
+            "column_name": "StateAssembly",
+            "number_non_empty_cells": 504663,
+            "number_empty_cells": 79399,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                62.0,
+                26.0,
+                33.0,
+                63.0,
+                64.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 504663,
+                    "max_value": 87.0,
+                    "min_value": 23.0,
+                    "mean": 51.331591576953336,
+                    "stddev": 18.963185742277222
+                }
+            ]
+        },
+        {
+            "column_name": "Congressional",
+            "number_non_empty_cells": 504663,
+            "number_empty_cells": 79399,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                11.0,
+                6.0,
+                5.0,
+                8.0,
+                9.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 504663,
+                    "max_value": 17.0,
+                    "min_value": 0.0,
+                    "mean": 9.28384684432978,
+                    "stddev": 3.4128760478910283
+                }
+            ]
+        },
+        {
+            "column_name": "SanitationZone",
+            "number_non_empty_cells": 0,
+            "number_empty_cells": 584062,
+            "number_distinct_values": 0,
+            "frequent_values": [],
+            "data_types": []
+        },
+        {
+            "column_name": "PhysicalID",
+            "number_non_empty_cells": 479802,
+            "number_empty_cells": 104260,
+            "number_distinct_values": 52063,
+            "frequent_values": [
+                78145.0,
+                47291.0,
+                58005.0,
+                87488.0,
+                94786.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 479802,
+                    "max_value": 184207.0,
+                    "min_value": 4.0,
+                    "mean": 58109.6239928137,
+                    "stddev": 32580.990379611212
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet1",
+            "number_non_empty_cells": 504099,
+            "number_empty_cells": 79963,
+            "number_distinct_values": 7877,
+            "frequent_values": [
+                "BEND",
+                "DEAD END",
+                "BROADWAY",
+                "7 AVENUE",
+                "1 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 504099,
+                    "shortest_values": [
+                        "RAMP",
+                        "BEND",
+                        "I 678",
+                        "ALLEY",
+                        "9 ROAD"
+                    ],
+                    "longest_values": [
+                        "CROSS ISLAND PKWY SB EN   85 AVE",
+                        "RECTOR PL-RECTOR ST PED OVERPASS",
+                        "BQE WB ENTRANCE METROPOLITAN AVE",
+                        "LIE EB ENTRANCE SPRINGFIELD BLVD",
+                        "BEACH AVENUE PEDESTRIAN OVERPASS"
+                    ],
+                    "average_length": 12.374561346084796
+                }
+            ]
+        },
+        {
+            "column_name": "CrossStreet2",
+            "number_non_empty_cells": 503983,
+            "number_empty_cells": 80079,
+            "number_distinct_values": 7732,
+            "frequent_values": [
+                "BEND",
+                "DEAD END",
+                "5 AVENUE",
+                "3 AVENUE",
+                "2 AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 503983,
+                    "shortest_values": [
+                        "BEND",
+                        "RAMP",
+                        "I 678",
+                        "BOWERY",
+                        "9 ROAD"
+                    ],
+                    "longest_values": [
+                        "LIE EB ENTRANCE SPRINGFIELD BLVD",
+                        "WILLIAMSBURG BRIDGE ET S    5 ST",
+                        "GRAND CENTRAL PKWY EB EN WICKLOW",
+                        "SHR PKWY GREENWAY-80 ST PED OVAL",
+                        "RICHMOND PARKWAY NB EN ARDEN AVE"
+                    ],
+                    "average_length": 12.337416143004823
+                }
+            ]
+        },
+        {
+            "column_name": "PlantingSpaceGlobalID",
+            "number_non_empty_cells": 815,
+            "number_empty_cells": 583247,
+            "number_distinct_values": 815,
+            "frequent_values": [
+                "1C237AB9-D4F6-4A0B-A691-BE89BE43E00F",
+                "D4DCD5D5-9622-4EF0-9871-28F3871394D6",
+                "C743F72F-7D07-48B8-88BB-DC0B63E9586B",
+                "92C753E9-E1D3-4F6D-9E93-BC2D52CFB686",
+                "1DF9F405-9789-485E-914F-FEEAF6558C89"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 815,
+                    "shortest_values": [
+                        "3DA4E6AE-9F49-4BCB-9CA0-C783DEFF3402",
+                        "D73FEE4F-CE22-4477-A097-0F89E10EB2D4",
+                        "26BDE21C-86CE-41D2-85E8-148E8C0EB277",
+                        "AE3C4E1D-3043-45CA-B38E-54D9B48573DD",
+                        "6C701C90-5A7B-4E8B-9FEB-31363DAD1F5B"
+                    ],
+                    "longest_values": [
+                        "676D09B1-6A85-420B-A74B-221142D68E26",
+                        "309EAF2A-D176-4EFA-A48C-3640ED11585C",
+                        "659C556D-ADFF-47F2-B105-2CA54F924E12",
+                        "9D4CE7BA-C388-410B-9D04-BC32A7B3C322",
+                        "27706F38-696E-472D-8943-8704BF5BF399"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "TreePointGlobalID",
+            "number_non_empty_cells": 817,
+            "number_empty_cells": 583245,
+            "number_distinct_values": 817,
+            "frequent_values": [
+                "E867E0D1-9BEA-4AE0-B0EA-82885182114F",
+                "6383A90B-8AAC-4DC5-8BC4-5DD4D07EF653",
+                "7AF18E55-828D-4DE1-AD67-D3414656E409",
+                "150CD1B2-8AD8-461E-BCC4-16F65ECC2F2D",
+                "D43F7815-2A6A-439A-888A-D343C85906FC"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 817,
+                    "shortest_values": [
+                        "8FA8978E-9A5C-434C-888C-44BB19B0B09C",
+                        "61676A35-B7B4-4170-88BA-5F9BA45520E9",
+                        "036169DD-2E29-4DFE-8257-3CC63EE6301A",
+                        "2E188382-7341-48BD-9F06-A6782E127828",
+                        "8D8479A2-6586-4269-AE8F-A4A465A38F9C"
+                    ],
+                    "longest_values": [
+                        "9C89AAE3-BFF5-454C-A673-4E143D40EEB3",
+                        "BECD0B40-74DE-45D6-8FCB-250B27A9AB4E",
+                        "AB300E0D-7F65-4E23-9860-08FA54867B40",
+                        "DB322C30-8F7D-455E-86F2-B2134FA2A90E",
+                        "4DD0D1B0-3F25-4748-8C03-BD72D95D35A3"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "InspectionGlobalID",
+            "number_non_empty_cells": 569434,
+            "number_empty_cells": 14628,
+            "number_distinct_values": 569111,
+            "frequent_values": [
+                "DBC0BFC5-E913-45CC-950A-9959B6B10BCF",
+                "E1582D5E-A14C-4002-912B-B25BC97C2CE0",
+                "728851F3-FA42-494E-8FBC-17C0019E4DEB",
+                "346D32BF-DC12-4683-AC04-367A7A3B9BF2",
+                "AB397232-ECC7-4ED0-B45F-5CDEBB9F3215"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 569434,
+                    "shortest_values": [
+                        "78B118C3-538A-48DD-BF0D-CB466F372562",
+                        "AEBD6F9D-7376-4A97-A46C-F3F3B63FC75F",
+                        "138452EB-078A-48BA-B18E-9799784E2F44",
+                        "CF5A608F-14AE-4F3C-B5C5-E24BDED44332",
+                        "F148A806-4550-49A9-86A6-870511A7BF12"
+                    ],
+                    "longest_values": [
+                        "84231D80-C497-4E7E-AF8E-C790C56E1492",
+                        "5C92D403-9736-46B6-ACCF-F1F295D04513",
+                        "2D1BFE4D-D2E7-4864-8602-EC0301F1FA19",
+                        "AE4FAFC7-292F-4947-8444-29D21D269792",
+                        "2237B2A6-EC7E-4D38-AF62-39D5495118F6"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "GlobalID",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 584062,
+            "frequent_values": [
+                "BF6F9764-FFF7-42C4-BABE-A3763BF53398",
+                "11DD53BF-9A2B-4AD7-B768-A7509229536B",
+                "D0E7265F-24F4-4241-9FA8-1C55CEBC053C",
+                "BB96DBA1-3701-4CFA-8494-0E09E7CFE025",
+                "6DF235FC-AADE-48B0-B474-A9736BD75DBD"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "198D0BEA-7C54-41DE-8DCE-7A3707F19159",
+                        "A676FA39-7E7A-4EEF-B31B-E5EC2B5C3E84",
+                        "D17350FC-1FF1-423C-96BB-3CAB315E1352",
+                        "40471BAE-4990-4C31-8886-1824F8EA8752",
+                        "6586835C-DC7E-42F1-B95E-6035C9702EE3"
+                    ],
+                    "longest_values": [
+                        "6F724A93-D498-4BC3-99A8-B81C3D1806D0",
+                        "B3DC9148-3DAE-4658-9DD0-1C7B1BECC461",
+                        "94C6C58B-3BB5-403B-A6DB-01C9CA6AD421",
+                        "639E2233-96FB-4650-960D-A98129869644",
+                        "7A2D7A52-5F3A-4FA3-AB72-443CC69FA480"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "SidewalkDamage",
+            "number_non_empty_cells": 12737,
+            "number_empty_cells": 571325,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                1.0,
+                0.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 12737,
+                    "max_value": 1.0,
+                    "min_value": 0.0,
+                    "mean": 0.8659810002355343,
+                    "stddev": 0.34067272779986096
+                }
+            ]
+        },
+        {
+            "column_name": "WOWireConflict",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "No Util Conflict Present",
+                "Electric Utility Open",
+                "All Conflicts Resolved",
+                "Electric Utility Pending",
+                "Elec Util Clear (other utils req)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "Electric Utility Open",
+                        "All Conflicts Resolved",
+                        "No Util Conflict Present",
+                        "Electric Utility Pending",
+                        "Elec Util Clear (other utils req)"
+                    ],
+                    "longest_values": [
+                        "Elec Util Clear (other utils req)",
+                        "Electric Utility Pending",
+                        "No Util Conflict Present",
+                        "All Conflicts Resolved",
+                        "Electric Utility Open"
+                    ],
+                    "average_length": 23.965616663984303
+                }
+            ]
+        },
+        {
+            "column_name": "CrewGlobalID",
+            "number_non_empty_cells": 58911,
+            "number_empty_cells": 525151,
+            "number_distinct_values": 14495,
+            "frequent_values": [
+                "324F88D5-7630-43D8-BFF3-F3D329A003EC",
+                "43142BE2-4091-457C-84C7-2CF1A67BFBFE",
+                "36BA2A2C-463C-4BB6-8B50-654649A62E0B",
+                "C3333A1F-F302-48CE-90EB-72C12D43EFE6",
+                "D1DEB2B2-7CB5-4BB4-BF46-5B7FEE401F25"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 58911,
+                    "shortest_values": [
+                        "BA0CA0C9-D772-4CBA-B7F1-A0696A6FF5CA",
+                        "148C1895-9D4F-46FC-AFE6-6524764228AD",
+                        "7AE1DA95-4CE1-4853-AFA4-3172DE919FBA",
+                        "3CDB11A3-4163-417B-9AE7-B788AC495BD5",
+                        "FC878325-95D5-4789-8FD4-48495F669462"
+                    ],
+                    "longest_values": [
+                        "B11A76A3-0CA4-418D-BFEB-C07D5F8B1553",
+                        "7B3ED57E-9E05-4B4C-89BE-20FC2910EC5B",
+                        "5E321FE4-83BB-406B-9491-82648D1B786C",
+                        "39A14842-E63C-4E64-9455-65E06610B759",
+                        "E79950A8-3F4A-4B34-BEB1-1206D19D6BBE"
+                    ],
+                    "average_length": 36.0
+                }
+            ]
+        },
+        {
+            "column_name": "Geometry",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 482236,
+            "frequent_values": [
+                "POINT (1028424.9208335578 193656.93062518537)",
+                "POINT (1003393.4175002277 204001.29000018537)",
+                "POINT (989259.60604189336 179822.86958351731)",
+                "POINT (1037331.8485419005 222318.9764585197)",
+                "POINT (1035680.8297919035 218606.573750183)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "POINT (1054363.0991669 193866.35812518)",
+                        "POINT (1053118.1147919 199818.29562518)",
+                        "POINT (1050264.5522919 215437.92062518)",
+                        "POINT (1051110.6772919 195418.06125018)",
+                        "POINT (1051552.0210419 199927.70187518)"
+                    ],
+                    "longest_values": [
+                        "POINT (993980.12229189277 155119.33770851791)",
+                        "POINT (1000852.4168752283 187520.47041684389)",
+                        "POINT (1034740.2687502354 196683.35270851851)",
+                        "POINT (1022108.4250002354 251835.50437518954)",
+                        "POINT (983906.72604189813 177598.55333352089)"
+                    ],
+                    "average_length": 44.62783574346559
+                }
+            ]
+        },
+        {
+            "column_name": "ClosedDate",
+            "number_non_empty_cells": 446752,
+            "number_empty_cells": 137310,
+            "number_distinct_values": 302730,
+            "frequent_values": [
+                "04/13/2017 10:00:00 AM",
+                "08/09/2017 11:11:11 AM",
+                "07/31/2017 11:11:11 AM",
+                "04/04/2017 11:11:11 AM",
+                "04/21/2017 11:11:11 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 446752,
+                    "max_value": "2019-08-30 20:00:00",
+                    "min_value": "2015-03-03 05:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "CancelDate",
+            "number_non_empty_cells": 35757,
+            "number_empty_cells": 548305,
+            "number_distinct_values": 29302,
+            "frequent_values": [
+                "08/02/2018 10:20:11",
+                "06/30/2018 12:00:00",
+                "08/03/2018 22:26:51",
+                "03/21/2017 11:11:11",
+                "02/09/2019 19:12:57"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 35757,
+                    "shortest_values": [
+                        "10/16/2018 11:13:58",
+                        "11/28/2018 14:20:20",
+                        "08/28/2019 20:50:00",
+                        "06/20/2017 13:21:00",
+                        "05/13/2019 11:36:38"
+                    ],
+                    "longest_values": [
+                        "01/14/2019 13:16:00",
+                        "05/15/2019 16:40:00",
+                        "11/07/2016 16:48:00",
+                        "05/18/2017 12:25:39",
+                        "02/05/2018 13:56:00"
+                    ],
+                    "average_length": 19.0
+                }
+            ]
+        },
+        {
+            "column_name": "CreatedDate",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 518420,
+            "frequent_values": [
+                "07/14/2016 05:19:00 PM",
+                "07/14/2016 05:19:24 PM",
+                "04/02/2015 04:00:00 AM",
+                "07/23/2015 03:00:00 PM",
+                "04/03/2015 04:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 584062,
+                    "max_value": "2019-08-31 15:46:19",
+                    "min_value": "2013-07-27 04:01:00"
+                }
+            ]
+        },
+        {
+            "column_name": "UpdatedDate",
+            "number_non_empty_cells": 569222,
+            "number_empty_cells": 14840,
+            "number_distinct_values": 430742,
+            "frequent_values": [
+                "04/13/2017 10:00:00 AM",
+                "08/09/2017 11:11:11 AM",
+                "07/31/2017 11:11:11 AM",
+                "04/20/2017 11:11:11 AM",
+                "04/27/2017 11:11:11 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 569222,
+                    "max_value": "2019-08-31 19:49:41",
+                    "min_value": "2015-03-09 04:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "WOEntity",
+            "number_non_empty_cells": 582272,
+            "number_empty_cells": 1790,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "Expense",
+                "In-House",
+                "Capital",
+                "Permitted",
+                "Con-Ed"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 582272,
+                    "shortest_values": [
+                        "FD",
+                        "DDC",
+                        "DOT",
+                        "DSNY",
+                        "PSE&G"
+                    ],
+                    "longest_values": [
+                        "Prospect Park Alliance (PPA)",
+                        "Horticulture",
+                        "Permitted",
+                        "In-House",
+                        "Capital"
+                    ],
+                    "average_length": 7.23262667619257
+                }
+            ]
+        },
+        {
+            "column_name": "PROJSTARTDATE",
+            "number_non_empty_cells": 72325,
+            "number_empty_cells": 511737,
+            "number_distinct_values": 24,
+            "frequent_values": [
+                "10/15/2015 12:00:00 AM",
+                "03/15/2016 12:00:00 AM",
+                "10/15/2016 12:00:00 AM",
+                "10/15/2017 12:00:00 AM",
+                "03/15/2017 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 72325,
+                    "max_value": "2021-03-15 00:00:00",
+                    "min_value": "2015-03-15 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "WOProject",
+            "number_non_empty_cells": 317627,
+            "number_empty_cells": 266435,
+            "number_distinct_values": 25,
+            "frequent_values": [
+                "Block Pruning",
+                "SubStatus1",
+                "Commitment",
+                "EAB",
+                "ASAP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 317627,
+                    "shortest_values": [
+                        "DNP",
+                        "EAB",
+                        "ASAP",
+                        "Storm",
+                        "SubStatus1"
+                    ],
+                    "longest_values": [
+                        "PPR - Non-zoning voluntary tree planting",
+                        "PPR - Onsite tree planting - zoning",
+                        "Late Leaf Out - 2017",
+                        "Late Leaf Out - 2015",
+                        "Removal Central"
+                    ],
+                    "average_length": 11.764717734953264
+                }
+            ]
+        },
+        {
+            "column_name": "RecommendedSpecies",
+            "number_non_empty_cells": 16299,
+            "number_empty_cells": 567763,
+            "number_distinct_values": 215,
+            "frequent_values": [
+                "Zelkova serrata - Japanese zelkova",
+                "Prunus - Cherry",
+                "Gleditsia triacanthos var. inermis - Thornless honeylocust",
+                "Quercus palustris - pin oak",
+                "Carpinus betulus - European hornbeam"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 16299,
+                    "shortest_values": [
+                        "Ilex - holly",
+                        "Acer - maple",
+                        "Pinus - pine",
+                        "Quercus - Oak",
+                        "Malus - apple"
+                    ],
+                    "longest_values": [
+                        "Gleditsia triacanthos var. inermis 'Streetkeeper' - 'Streetkeeper' Thornless honeylocust",
+                        "Gleditsia triacanthos var. inermis 'Imperial' - 'Imperial' Thornless honeylocust",
+                        "Prunus serrulata 'Not Green leaf' - 'Not Green leaf' Japanese flowering cherry",
+                        "Gleditsia triacanthos var. inermis 'Skyline' - 'Skyline' Thornless honeylocust",
+                        "Liquidambar styraciflua 'Slender Silhouette' - 'Slender Silhouette' Sweetgum"
+                    ],
+                    "average_length": 35.15706485060433
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 503268,
+            "number_empty_cells": 80794,
+            "number_distinct_values": 176272,
+            "frequent_values": [
+                40.726296000000005,
+                40.527654,
+                40.572568,
+                40.655719,
+                40.867899
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 503268,
+                    "max_value": 40.912869,
+                    "min_value": 40.498628000000004,
+                    "mean": 40.69880596156467,
+                    "stddev": 0.09230751000190979
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 503268,
+            "number_empty_cells": 80794,
+            "number_distinct_values": 186026,
+            "frequent_values": [
+                -73.931555,
+                -74.229887,
+                -74.169957,
+                -73.958759,
+                -73.834429
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 503268,
+                    "max_value": -73.700788,
+                    "min_value": -74.254886,
+                    "mean": -73.92970702580104,
+                    "stddev": 0.12683262085454258
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 503268,
+            "number_empty_cells": 80794,
+            "number_distinct_values": 1319,
+            "frequent_values": [
+                176.0,
+                892.0,
+                134.0,
+                157101.0,
+                24401.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 503268,
+                    "max_value": 157903.0,
+                    "min_value": 1.0,
+                    "mean": 10818.873582266307,
+                    "stddev": 28714.49536860457
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 496934,
+            "number_empty_cells": 87128,
+            "number_distinct_values": 249489,
+            "frequent_values": [
+                3000000.0,
+                4000000.0,
+                3319540.0,
+                2000000.0,
+                5000000.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 496934,
+                    "max_value": 5500494.0,
+                    "min_value": 1000000.0,
+                    "mean": 3477895.4589341846,
+                    "stddev": 1229051.0144919653
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 496934,
+            "number_empty_cells": 87128,
+            "number_distinct_values": 243829,
+            "frequent_values": [
+                3028020014.0,
+                2051410120.0,
+                1009720001.0,
+                5074690200.0,
+                1009780001.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 496934,
+                    "max_value": 5080500094.0,
+                    "min_value": 0.0,
+                    "mean": 3400286756.250351,
+                    "stddev": 1213903199.4205167
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 503268,
+            "number_empty_cells": 80794,
+            "number_distinct_values": 192,
+            "frequent_values": [
+                "Annadale-Huguenot-Prince's Bay-Eltingville",
+                "Great Kills",
+                "Charleston-Richmond Valley-Tottenville",
+                "Bayside-Bayside Hills",
+                "Arden Heights"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 503268,
+                    "shortest_values": [
+                        "Corona",
+                        "Hollis",
+                        "Midwood",
+                        "Astoria",
+                        "Madison"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 20.105260020505973
+                }
+            ]
+        },
+        {
+            "column_name": "Location",
+            "number_non_empty_cells": 584062,
+            "number_empty_cells": 0,
+            "number_distinct_values": 482236,
+            "frequent_values": [
+                "(40.69811005333442, -73.84068969632843)",
+                "(40.7265923985548, -73.93093262667688)",
+                "(40.66024752994462, -73.98194386253022)",
+                "(40.7767311391357, -73.80834211823186)",
+                "(40.766551346409315, -73.81433169652223)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 584062,
+                    "shortest_values": [
+                        "(40.81809097490951, -73.81921726)",
+                        "(40.7485012258, -73.9786964189516)",
+                        "(40.850629544, -73.83110048583005)",
+                        "(40.61880011341818, -74.092715701)",
+                        "(40.62899072333105, -73.991356536)"
+                    ],
+                    "longest_values": [
+                        "(40.588438037689215, -73.93758577359962)",
+                        "(40.842679633486675, -73.89216780907543)",
+                        "(40.512731982358645, -74.24877181352129)",
+                        "(40.867448831775924, -73.79497550383702)",
+                        "(40.606481104418016, -73.96168446640151)"
+                    ],
+                    "average_length": 39.052071526652995
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

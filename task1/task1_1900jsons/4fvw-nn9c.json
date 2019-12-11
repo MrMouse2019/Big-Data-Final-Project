@@ -1,0 +1,204 @@
+{
+    "dataset_name": "4fvw-nn9c",
+    "columns": [
+        {
+            "column_name": "SVC_REQUEST_NUMBER",
+            "number_non_empty_cells": 199344,
+            "number_empty_cells": 0,
+            "number_distinct_values": 145743,
+            "frequent_values": [
+                "186167551",
+                "186022279",
+                "186596855",
+                "186109924",
+                "186812292"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 199344,
+                    "max_value": 186873145,
+                    "min_value": 5,
+                    "mean": 185767888.21650514,
+                    "stddev": 10433753.749794021
+                }
+            ]
+        },
+        {
+            "column_name": "WORKORDER_NUMBER",
+            "number_non_empty_cells": 199344,
+            "number_empty_cells": 0,
+            "number_distinct_values": 199006,
+            "frequent_values": [
+                "843157748",
+                "843106032",
+                "843878563",
+                "843930319",
+                "843238806"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 199344,
+                    "max_value": 844579713,
+                    "min_value": 5183,
+                    "mean": 841410748.4700518,
+                    "stddev": 43996476.03776729
+                }
+            ]
+        },
+        {
+            "column_name": "WORKORDER_ACTIVITY_CODE",
+            "number_non_empty_cells": 199331,
+            "number_empty_cells": 13,
+            "number_distinct_values": 160,
+            "frequent_values": [
+                "SCC",
+                "SSFC",
+                "WL3D",
+                "WA04",
+                "SSF"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 199331,
+                    "shortest_values": [
+                        "QA",
+                        "WT",
+                        "LAR",
+                        "SMM",
+                        "AAO"
+                    ],
+                    "longest_values": [
+                        "AMSAMPTEST",
+                        "LSAMPTEST",
+                        "SCBCLOSE",
+                        "WA-TEST1",
+                        "SPLATE"
+                    ],
+                    "average_length": 3.932925636253267
+                }
+            ]
+        },
+        {
+            "column_name": "WORKORDER_ACTIVITY_DESCRIPTION",
+            "number_non_empty_cells": 199331,
+            "number_empty_cells": 13,
+            "number_distinct_values": 158,
+            "frequent_values": [
+                "CLEAN CATCH BASIN/INLET",
+                "FLUSH PAST HOUSE CONNECTION",
+                "ISSUE 3-DAY NOTICE",
+                "REPAIR INOPERATIVE HYDRANT",
+                "FLUSH SEWER SECTION"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 199331,
+                    "shortest_values": [
+                        "LABORER",
+                        "PAINTING",
+                        "CAP MAIN",
+                        "PLUMBING",
+                        "CARPENTRY"
+                    ],
+                    "longest_values": [
+                        "REPAIR DEFECTIVE HYDRANT DRAIN; SLOW/OR NO DRAINAGE",
+                        "INSTALL HOOD & HANGER ON CLOSED CURB PIECE",
+                        "INSTALL HOOD & HANGER ON OPEN CURB PIECE",
+                        "AIR MONITORING SAMPLING AND TESTING",
+                        "INVESTIGATE REMOVED/MISSING HYDRANT"
+                    ],
+                    "average_length": 21.7388614916897
+                }
+            ]
+        },
+        {
+            "column_name": "WORKORDER_STARTED",
+            "number_non_empty_cells": 170705,
+            "number_empty_cells": 28639,
+            "number_distinct_values": 109762,
+            "frequent_values": [
+                "09/16/2015 12:00:00 AM",
+                "10/28/2015 12:40:00 AM",
+                "07/15/2016 12:00:00 AM",
+                "10/25/2015 06:30:00 AM",
+                "12/08/2015 12:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 170705,
+                    "max_value": "3515-02-09 00:00:00",
+                    "min_value": "1753-01-19 11:30:00"
+                }
+            ]
+        },
+        {
+            "column_name": "WORKORDER_COMPLETED",
+            "number_non_empty_cells": 173257,
+            "number_empty_cells": 26087,
+            "number_distinct_values": 110432,
+            "frequent_values": [
+                "04/09/2019 12:00:00 AM",
+                "09/16/2015 12:00:00 AM",
+                "10/28/2015 06:00:00 AM",
+                "07/15/2016 12:00:00 AM",
+                "10/25/2015 12:10:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 173257,
+                    "max_value": "7191-11-01 19:15:00",
+                    "min_value": "2015-04-28 02:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "WORKORDER_ADDED",
+            "number_non_empty_cells": 199344,
+            "number_empty_cells": 0,
+            "number_distinct_values": 189362,
+            "frequent_values": [
+                "04/04/2016 10:36:11 AM",
+                "11/16/2015 03:59:21 PM",
+                "10/20/2015 01:37:53 PM",
+                "10/13/2015 03:29:19 PM",
+                "02/08/2017 09:42:28 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 199344,
+                    "max_value": "2019-09-28 00:33:31",
+                    "min_value": "1998-12-27 14:22:33"
+                }
+            ]
+        },
+        {
+            "column_name": "TIME_STAMP",
+            "number_non_empty_cells": 199344,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1569,
+            "frequent_values": [
+                "10/13/2018 12:50:01 AM",
+                "06/13/2018 12:50:03 AM",
+                "07/10/2019 12:50:01 AM",
+                "08/04/2017 12:45:02 AM",
+                "11/10/2015 12:45:07 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 199344,
+                    "max_value": "2019-09-28 00:50:04",
+                    "min_value": "2015-04-29 00:45:09"
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

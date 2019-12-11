@@ -1,0 +1,915 @@
+{
+    "dataset_name": "kwte-dppd",
+    "columns": [
+        {
+            "column_name": "row_id",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4246121,
+            "frequent_values": [
+                4196351,
+                1312724,
+                2760721,
+                2805775,
+                2801677
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4246121,
+                    "max_value": 4286744,
+                    "min_value": 1,
+                    "mean": 2142483.873584149,
+                    "stddev": 1230372.9853563206
+                }
+            ]
+        },
+        {
+            "column_name": "gispropnum",
+            "number_non_empty_cells": 3343944,
+            "number_empty_cells": 902177,
+            "number_distinct_values": 3430,
+            "frequent_values": [
+                "Q099",
+                "B073",
+                "M071",
+                "X039",
+                "X092"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3343944,
+                    "shortest_values": [
+                        "B267",
+                        "B366",
+                        "B401",
+                        "BZ24",
+                        "R149"
+                    ],
+                    "longest_values": [
+                        "BZ233JC-BZ409",
+                        "X148O-XZ404",
+                        "B223G-BZ443",
+                        "X001A-XZ378",
+                        "B210Q-BZ562"
+                    ],
+                    "average_length": 4.307287143564605
+                }
+            ]
+        },
+        {
+            "column_name": "omppropid",
+            "number_non_empty_cells": 3343958,
+            "number_empty_cells": 902163,
+            "number_distinct_values": 4328,
+            "frequent_values": [
+                "M089",
+                "R031-ZN02",
+                "M089-01",
+                "Q099-ZN11",
+                "M105"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3343958,
+                    "shortest_values": [
+                        "B267",
+                        "M165",
+                        "M258",
+                        "X111",
+                        "QZ10"
+                    ],
+                    "longest_values": [
+                        "BZ233JC-BZ409",
+                        "X148O-XZ404",
+                        "Q099-QZ142A",
+                        "B210Q-BZ562",
+                        "Q099-QZ142B"
+                    ],
+                    "average_length": 5.57650694177379
+                }
+            ]
+        },
+        {
+            "column_name": "gisobjid",
+            "number_non_empty_cells": 3343958,
+            "number_empty_cells": 902163,
+            "number_distinct_values": 4318,
+            "frequent_values": [
+                100003802.0,
+                100005546.0,
+                100005757.0,
+                100000578.0,
+                100003978.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3343958,
+                    "max_value": 100042532.0,
+                    "min_value": 100000000.0,
+                    "mean": 100004507.409739,
+                    "stddev": 3178.83539576449
+                }
+            ]
+        },
+        {
+            "column_name": "route_id",
+            "number_non_empty_cells": 3426999,
+            "number_empty_cells": 819122,
+            "number_distinct_values": 1161,
+            "frequent_values": [
+                113.0,
+                94.0,
+                144.0,
+                45.0,
+                142.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3426999,
+                    "max_value": 2504.0,
+                    "min_value": 4.0,
+                    "mean": 1077.8487913185852,
+                    "stddev": 915.1180006745329
+                }
+            ]
+        },
+        {
+            "column_name": "off_route",
+            "number_non_empty_cells": 3343959,
+            "number_empty_cells": 902162,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3343959,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.1494982444461788
+                }
+            ]
+        },
+        {
+            "column_name": "description",
+            "number_non_empty_cells": 3343944,
+            "number_empty_cells": 902177,
+            "number_distinct_values": 4315,
+            "frequent_values": [
+                "M089 | Union Square Park",
+                "R031-ZN02 | Wolfe's Pond Park Zone 2",
+                "M089-01 | Union Square-Union Square",
+                "Q099-ZN11 | Flushing Meadows Park-Passerelle",
+                "M105 | Sara D. Roosevelt Park"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3343944,
+                    "shortest_values": [
+                        "QT11 | Mall",
+                        "BS07 | PS 24",
+                        "XS06 | P.S. 246",
+                        "B229 | Triangle",
+                        "X040 | Poe Park"
+                    ],
+                    "longest_values": [
+                        "B054-ZN03 | Lincoln Terrace Park / Arthur S. Somers-Lincoln Terr Pk/Arthur S Somers Zone 3",
+                        "Q121-01 | Det. Keith L Williams Park-173 St Playground (The Learning Gardan at Liberty Par",
+                        "B054-ZN02 | Lincoln Terrace Park / Arthur S. Somers-Lincoln Terr Pk/Arthur S Somers Zone 2",
+                        "B054-ZN01 | Lincoln Terrace Park / Arthur S. Somers-Lincoln Terr Pk/Arthur S Somers Zone 1",
+                        "Q050-ZN17 | Rockaway Beach & Boardwalk-Rockaway Beach 17-Btwn 110th St And 116th St"
+                    ],
+                    "average_length": 34.70673791187891
+                }
+            ]
+        },
+        {
+            "column_name": "district",
+            "number_non_empty_cells": 3343944,
+            "number_empty_cells": 902177,
+            "number_distinct_values": 74,
+            "frequent_values": [
+                "R-01",
+                "B-01",
+                "M-03",
+                "R-03",
+                "X-04"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 3343944,
+                    "shortest_values": [
+                        "B-09",
+                        "Q-07",
+                        "X-12",
+                        "X-06",
+                        "Q-09"
+                    ],
+                    "longest_values": [
+                        "Q-05A",
+                        "M-12A",
+                        "X-15A",
+                        "M-11R",
+                        "Q-07A"
+                    ],
+                    "average_length": 4.047475675429971
+                }
+            ]
+        },
+        {
+            "column_name": "sector",
+            "number_non_empty_cells": 4245624,
+            "number_empty_cells": 497,
+            "number_distinct_values": 88,
+            "frequent_values": [
+                "X-SA",
+                "R-SA",
+                "B-S1",
+                "X-SB",
+                "B-S6.7"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4245624,
+                    "shortest_values": [
+                        "Q-SJ",
+                        "M-S3",
+                        "B-SG",
+                        "M-SE",
+                        "M-SH"
+                    ],
+                    "longest_values": [
+                        "X-S11.12.14",
+                        "M-S12.12A",
+                        "M-S6.8.15",
+                        "X-S15.15A",
+                        "B-S17.18"
+                    ],
+                    "average_length": 5.279221146290864
+                }
+            ]
+        },
+        {
+            "column_name": "sector_name",
+            "number_non_empty_cells": 4227246,
+            "number_empty_cells": 18875,
+            "number_distinct_values": 83,
+            "frequent_values": [
+                "Bronx Sector 4.5",
+                "Bronx Sector 11.12.14",
+                "Bronx Sector A",
+                "Staten Island Sector 1",
+                "Bronx Sector 3.6"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4227246,
+                    "shortest_values": [
+                        "Bronx Sector E",
+                        "Bronx Sector D",
+                        "Bronx Sector F",
+                        "Bronx Sector B",
+                        "Bronx Sector C"
+                    ],
+                    "longest_values": [
+                        "Staten Island Sector 2.2B",
+                        "Manhattan Sector 12.12A",
+                        "Manhattan Sector 6.8.15",
+                        "Staten Island Sector 1",
+                        "Staten Island Sector 3"
+                    ],
+                    "average_length": 17.923153041010625
+                }
+            ]
+        },
+        {
+            "column_name": "sector_desc",
+            "number_non_empty_cells": 4227246,
+            "number_empty_cells": 18875,
+            "number_distinct_values": 38,
+            "frequent_values": [
+                "Districts 1, 2",
+                "District 1",
+                "District 3",
+                "Districts 10, 12",
+                "Districts 4, 5"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4227246,
+                    "shortest_values": [
+                        "District 2",
+                        "District 7",
+                        "District 3",
+                        "District 1",
+                        "District 7A"
+                    ],
+                    "longest_values": [
+                        "Districts 10, 11, 12",
+                        "Districts 11, 12, 14",
+                        "Districts 4, 5, 16",
+                        "Districts 6, 8, 15",
+                        "Districts 1, 4, 5"
+                    ],
+                    "average_length": 14.295774601241565
+                }
+            ]
+        },
+        {
+            "column_name": "vehicle_number",
+            "number_non_empty_cells": 3426999,
+            "number_empty_cells": 819122,
+            "number_distinct_values": 2378,
+            "frequent_values": [
+                0.0,
+                5239.0,
+                7296.0,
+                7450.0,
+                5137.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 3426999,
+                    "max_value": 9999.0,
+                    "min_value": 0.0,
+                    "mean": 5608.48741595781,
+                    "stddev": 2318.9034687536328
+                }
+            ]
+        },
+        {
+            "column_name": "date_worked",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1467,
+            "frequent_values": [
+                "07/04/2019",
+                "06/11/2019",
+                "06/18/2019",
+                "03/05/2019",
+                "02/27/2019"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4246121,
+                    "max_value": "2019-09-08 00:00:00",
+                    "min_value": "2015-09-03 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "start_time",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 821688,
+            "frequent_values": [
+                "08/27/2019 07:00:00 AM",
+                "08/26/2019 07:00:00 AM",
+                "06/24/2019 07:00:00 AM",
+                "07/22/2019 07:00:00 AM",
+                "08/28/2019 07:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4246121,
+                    "max_value": "2019-09-08 20:46:00",
+                    "min_value": "2015-09-03 01:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "end_time",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 786754,
+            "frequent_values": [
+                "07/30/2019 03:30:00 PM",
+                "07/22/2019 03:30:00 PM",
+                "06/24/2019 03:30:00 PM",
+                "07/23/2019 03:30:00 PM",
+                "06/11/2019 03:30:00 PM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 4246121,
+                    "max_value": "2019-09-08 23:59:00",
+                    "min_value": "2015-09-03 01:10:00"
+                }
+            ]
+        },
+        {
+            "column_name": "activity",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Work",
+                "Other",
+                "Mobilization",
+                "De-Mobilization",
+                "Lunch"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "Work",
+                        "Other",
+                        "Lunch",
+                        "Break",
+                        "Mobilization"
+                    ],
+                    "longest_values": [
+                        "De-Mobilization",
+                        "Mobilization",
+                        "Break",
+                        "Lunch",
+                        "Other"
+                    ],
+                    "average_length": 5.007232247974092
+                }
+            ]
+        },
+        {
+            "column_name": "animal_waste",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.201599530489122
+                }
+            ]
+        },
+        {
+            "column_name": "broken_glass",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.1991700189419943
+                }
+            ]
+        },
+        {
+            "column_name": "dumping",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.0556368977709303
+                }
+            ]
+        },
+        {
+            "column_name": "graffiti",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.027596010570589
+                }
+            ]
+        },
+        {
+            "column_name": "medical_waste",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.012485984266581
+                }
+            ]
+        },
+        {
+            "column_name": "napsw",
+            "number_non_empty_cells": 4244622,
+            "number_empty_cells": 1499,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4244622,
+                    "max_value": 11.0,
+                    "min_value": 0.0,
+                    "mean": 0.45683479000014604,
+                    "stddev": 0.5685633671818521
+                }
+            ]
+        },
+        {
+            "column_name": "ncpw",
+            "number_non_empty_cells": 4244622,
+            "number_empty_cells": 1499,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4244622,
+                    "max_value": 15.0,
+                    "min_value": 0.0,
+                    "mean": 0.6878379276175829,
+                    "stddev": 0.8158416392281765
+                }
+            ]
+        },
+        {
+            "column_name": "ncsa",
+            "number_non_empty_cells": 4244622,
+            "number_empty_cells": 1499,
+            "number_distinct_values": 15,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4244622,
+                    "max_value": 15.0,
+                    "min_value": 0.0,
+                    "mean": 0.05655627285539207,
+                    "stddev": 0.315439646066642
+                }
+            ]
+        },
+        {
+            "column_name": "npop",
+            "number_non_empty_cells": 4244622,
+            "number_empty_cells": 1499,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4244622,
+                    "max_value": 15.0,
+                    "min_value": 0.0,
+                    "mean": 1.8435502619550104,
+                    "stddev": 1.917427123172678
+                }
+            ]
+        },
+        {
+            "column_name": "nnpw",
+            "number_non_empty_cells": 4244622,
+            "number_empty_cells": 1499,
+            "number_distinct_values": 16,
+            "frequent_values": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4244622,
+                    "max_value": 15.0,
+                    "min_value": 0.0,
+                    "mean": 0.20731904984707708,
+                    "stddev": 0.8671772107473988
+                }
+            ]
+        },
+        {
+            "column_name": "ncrew",
+            "number_non_empty_cells": 4244622,
+            "number_empty_cells": 1499,
+            "number_distinct_values": 36,
+            "frequent_values": [
+                2.0,
+                1.0,
+                3.0,
+                4.0,
+                5.0
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4244622,
+                    "max_value": 41.0,
+                    "min_value": 0.0,
+                    "mean": 3.2520983022752086,
+                    "stddev": 2.228153293184769
+                }
+            ]
+        },
+        {
+            "column_name": "fixed_post",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.192595076777134
+                }
+            ]
+        },
+        {
+            "column_name": "nhours",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1224,
+            "frequent_values": [
+                0.5,
+                0.25,
+                0.17,
+                8.5,
+                0.08
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 4246121,
+                    "max_value": 23.0,
+                    "min_value": 0.0,
+                    "mean": 1.1166415959390799,
+                    "stddev": 2.046002611701896
+                }
+            ]
+        },
+        {
+            "column_name": "daily_task_id",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 829864,
+            "frequent_values": [
+                300837,
+                65403,
+                203183,
+                202255,
+                834115
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4246121,
+                    "max_value": 861763,
+                    "min_value": 219,
+                    "mean": 454139.06921446655,
+                    "stddev": 251603.11591911348
+                }
+            ]
+        },
+        {
+            "column_name": "daily_task_activity_id",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3512099,
+            "frequent_values": [
+                3469581,
+                3313836,
+                2901998,
+                2815791,
+                2767866
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4246121,
+                    "max_value": 3591465,
+                    "min_value": 581,
+                    "mean": 1866771.136635767,
+                    "stddev": 1026917.1389704358
+                }
+            ]
+        },
+        {
+            "column_name": "overlap_flag",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                0,
+                1
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4246121,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.125191910451916,
+                    "stddev": 0.330936392702451
+                }
+            ]
+        },
+        {
+            "column_name": "fiscal_day",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 366,
+            "frequent_values": [
+                3,
+                66,
+                52,
+                45,
+                31
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4246121,
+                    "max_value": 365,
+                    "min_value": 0,
+                    "mean": 181.5870308453292,
+                    "stddev": 107.8961537114414
+                }
+            ]
+        },
+        {
+            "column_name": "fiscal_week",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 53,
+            "frequent_values": [
+                6,
+                8,
+                7,
+                4,
+                9
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4246121,
+                    "max_value": 52,
+                    "min_value": 0,
+                    "mean": 25.993055544107197,
+                    "stddev": 15.44402391230136
+                }
+            ]
+        },
+        {
+            "column_name": "fiscal_qtr",
+            "number_non_empty_cells": 4246121,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "2019Q4",
+                "2019Q1",
+                "2019Q3",
+                "2018Q4",
+                "2019Q2"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 4246121,
+                    "shortest_values": [
+                        "2018Q3",
+                        "2016Q1",
+                        "2018Q1",
+                        "2017Q1",
+                        "2020Q1"
+                    ],
+                    "longest_values": [
+                        "2017Q4",
+                        "2018Q2",
+                        "2019Q3",
+                        "2018Q4",
+                        "2019Q1"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

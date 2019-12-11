@@ -1,0 +1,566 @@
+{
+    "dataset_name": "ssq6-fkht",
+    "columns": [
+        {
+            "column_name": "ACCT_ID",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 400618,
+            "frequent_values": [
+                "488721",
+                "236661",
+                "412743",
+                "53788",
+                "53789"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 400618,
+                    "max_value": 542827,
+                    "min_value": 1,
+                    "mean": 278555.24281734717,
+                    "stddev": 155304.44915036776
+                }
+            ]
+        },
+        {
+            "column_name": "ALPHA",
+            "number_non_empty_cells": 400477,
+            "number_empty_cells": 141,
+            "number_distinct_values": 68,
+            "frequent_values": [
+                "P",
+                "AA",
+                "G",
+                "C",
+                "B"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 400477,
+                    "shortest_values": [
+                        "P",
+                        "L",
+                        "W",
+                        "K",
+                        "M"
+                    ],
+                    "longest_values": [
+                        "RM",
+                        "P2",
+                        "R9",
+                        "P4",
+                        "TF"
+                    ],
+                    "average_length": 1.2074725889376918
+                }
+            ]
+        },
+        {
+            "column_name": "ACCT_NUM",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 398456,
+            "frequent_values": [
+                "88014485",
+                "4364725",
+                "1470251",
+                "31203490",
+                "28039576"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 400618,
+                    "max_value": 99058356,
+                    "min_value": 67,
+                    "mean": 36760357.967060894,
+                    "stddev": 24556127.852598842
+                }
+            ]
+        },
+        {
+            "column_name": "OWNER_NAME",
+            "number_non_empty_cells": 400496,
+            "number_empty_cells": 122,
+            "number_distinct_values": 239157,
+            "frequent_values": [
+                "NYCHA",
+                "RESTAURANT",
+                "NYC DEPT OF EDUCATION",
+                "COLUMBIA UNIVERSITY",
+                "SL GREEN REALTY CORP"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 24,
+                    "max_value": 38124970,
+                    "min_value": 1,
+                    "mean": 1640567.5833333333,
+                    "stddev": 7610644.7515069535
+                },
+                {
+                    "type": "TEXT",
+                    "count": 400472,
+                    "shortest_values": [
+                        "X",
+                        "S",
+                        "T",
+                        "R",
+                        "B"
+                    ],
+                    "longest_values": [
+                        "HP CROSSROADS III HOUSIN",
+                        "WILLIAMSBURG CHIROPRACTI",
+                        "TOYS 2 DISCOVER WILLIAM-",
+                        "TAUBERS FISH & FRUIT MAR",
+                        "CONGREGATION ZERA YITZCH"
+                    ],
+                    "average_length": 17.572659262070758
+                }
+            ]
+        },
+        {
+            "column_name": "LAST_VISIT_DT",
+            "number_non_empty_cells": 400616,
+            "number_empty_cells": 2,
+            "number_distinct_values": 1838,
+            "frequent_values": [
+                "11/07/2018",
+                "10/10/2018",
+                "11/14/2018",
+                "10/16/2018",
+                "11/08/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 400616,
+                    "max_value": "2019-01-05 00:00:00",
+                    "min_value": "1941-11-15 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "LAST_FULL_INSP_DT",
+            "number_non_empty_cells": 400615,
+            "number_empty_cells": 3,
+            "number_distinct_values": 3977,
+            "frequent_values": [
+                "10/16/2018",
+                "11/07/2018",
+                "10/10/2018",
+                "10/11/2018",
+                "11/14/2018"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 400615,
+                    "max_value": "2019-01-05 00:00:00",
+                    "min_value": "1931-08-31 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "LAST_INSP_STAT",
+            "number_non_empty_cells": 400616,
+            "number_empty_cells": 2,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "APPROVAL",
+                "NOT APPROVAL(W/REASON)",
+                "NOT APPROVAL(VIO)",
+                "NOV(HOLD)",
+                "NOV(NO HOLD)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 400616,
+                    "shortest_values": [
+                        "APPROVAL",
+                        "NOV(HOLD)",
+                        "NOV(NO HOLD)",
+                        "NOT APPROVAL(VIO)",
+                        "NOV AND VIO(NOV HOLD)"
+                    ],
+                    "longest_values": [
+                        "NOV AND VIO(NOV NO HOLD)",
+                        "NOT APPROVAL(W/REASON)",
+                        "NOV AND VIO(NOV HOLD)",
+                        "NOT APPROVAL(VIO)",
+                        "NOV(NO HOLD)"
+                    ],
+                    "average_length": 12.831382171455958
+                }
+            ]
+        },
+        {
+            "column_name": "PREM_ADDR",
+            "number_non_empty_cells": 400618,
+            "number_empty_cells": 0,
+            "number_distinct_values": 139176,
+            "frequent_values": [
+                "245 MESEROLE AVE",
+                "9 METROTECH CENTER",
+                "1 PENN PLZ",
+                "350 5 AVE",
+                "63 FLUSHING AVE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 400618,
+                    "shortest_values": [
+                        "9 1 ST",
+                        "1 2 PL",
+                        "1 3 ST",
+                        "7 9 ST",
+                        "76 1 PL"
+                    ],
+                    "longest_values": [
+                        "2700 THEODORE KAZIMIROFF BLVD",
+                        "2600 THEODORE KAZIMIROFF BLVD",
+                        "2149 FREDERICK DOUGLASS BLVD",
+                        "2101 FREDERICK DOUGLASS BLVD",
+                        "2082 FREDERICK DOUGLASS BLVD"
+                    ],
+                    "average_length": 13.52909255200715
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 400615,
+            "number_empty_cells": 3,
+            "number_distinct_values": 115654,
+            "frequent_values": [
+                "3065442",
+                "3058187",
+                "1014387",
+                "1015862",
+                "3335133"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 400615,
+                    "max_value": 5863656,
+                    "min_value": 0,
+                    "mean": 2405987.2825256167,
+                    "stddev": 1327752.1405609606
+                }
+            ]
+        },
+        {
+            "column_name": "COMMUNITY BOARD",
+            "number_non_empty_cells": 378858,
+            "number_empty_cells": 21760,
+            "number_distinct_values": 70,
+            "frequent_values": [
+                "105",
+                "301",
+                "101",
+                "102",
+                "106"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 378858,
+                    "max_value": 595,
+                    "min_value": 101,
+                    "mean": 235.54055081323347,
+                    "stddev": 126.76323012209761
+                }
+            ]
+        },
+        {
+            "column_name": "COUNCIL DISTRICT",
+            "number_non_empty_cells": 378858,
+            "number_empty_cells": 21760,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "4",
+                "3",
+                "1",
+                "33",
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 378858,
+                    "max_value": 51,
+                    "min_value": 1,
+                    "mean": 19.422928907400664,
+                    "stddev": 15.889715621202757
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 377778,
+            "number_empty_cells": 22840,
+            "number_distinct_values": 104970,
+            "frequent_values": [
+                "3026040001",
+                "3020470011",
+                "1021380040",
+                "1007830070",
+                "1009627501"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 377778,
+                    "max_value": 5200149999,
+                    "min_value": 0,
+                    "mean": 2317601742.4273596,
+                    "stddev": 1277112928.8124747
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 378932,
+            "number_empty_cells": 21686,
+            "number_distinct_values": 92463,
+            "frequent_values": [
+                "40.729362",
+                "40.694499",
+                "40.751157",
+                "40.748433",
+                "40.712451"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 378932,
+                    "max_value": 40.913727,
+                    "min_value": 40.501713,
+                    "mean": 40.73248815329817,
+                    "stddev": 0.06985318684521519
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 378932,
+            "number_empty_cells": 21686,
+            "number_distinct_values": 87333,
+            "frequent_values": [
+                "-73.946552",
+                "-73.984505",
+                "-73.992239",
+                "-73.985752",
+                "-74.015314"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 378932,
+                    "max_value": -73.700286,
+                    "min_value": -74.251365,
+                    "mean": -73.94693390843513,
+                    "stddev": 0.07122862822924529
+                }
+            ]
+        },
+        {
+            "column_name": "POSTCODE",
+            "number_non_empty_cells": 378858,
+            "number_empty_cells": 21760,
+            "number_distinct_values": 232,
+            "frequent_values": [
+                "10019",
+                "10022",
+                "10016",
+                "10036",
+                "10001"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 378858,
+                    "max_value": 12345,
+                    "min_value": 10000,
+                    "mean": 10625.016087821823,
+                    "stddev": 583.1686166754806
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 400379,
+            "number_empty_cells": 239,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MN",
+                "BK",
+                "QN",
+                "BX",
+                "SI"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 400379,
+                    "shortest_values": [
+                        "MN",
+                        "QN",
+                        "BX",
+                        "BK",
+                        "SI"
+                    ],
+                    "longest_values": [
+                        "SI",
+                        "BK",
+                        "BX",
+                        "QN",
+                        "MN"
+                    ],
+                    "average_length": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Number",
+            "number_non_empty_cells": 400617,
+            "number_empty_cells": 1,
+            "number_distinct_values": 17226,
+            "frequent_values": [
+                "245",
+                "1",
+                "9",
+                "200",
+                "100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 333018,
+                    "max_value": 12770,
+                    "min_value": 1,
+                    "mean": 931.8475667981911,
+                    "stddev": 1417.9814244191568
+                },
+                {
+                    "type": "TEXT",
+                    "count": 67599,
+                    "shortest_values": [
+                        "7A",
+                        "36A",
+                        "37A",
+                        "56A",
+                        "14A"
+                    ],
+                    "longest_values": [
+                        "162-164",
+                        "510-520",
+                        "156-40B",
+                        "228-17A",
+                        "169-179"
+                    ],
+                    "average_length": 5.336720957410613
+                }
+            ]
+        },
+        {
+            "column_name": "Street",
+            "number_non_empty_cells": 400617,
+            "number_empty_cells": 1,
+            "number_distinct_values": 4371,
+            "frequent_values": [
+                "BROADWAY",
+                "5 AVE",
+                "3 AVE",
+                "MADISON AVE",
+                "PARK AVE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 400617,
+                    "shortest_values": [
+                        "9 ST",
+                        "1 PL",
+                        "8 ST",
+                        "4 ST",
+                        "3 PL"
+                    ],
+                    "longest_values": [
+                        "61 ST & WOODSIDE AVE STAT",
+                        "THEODORE KAZIMIROFF BLVD",
+                        "HUTCHINSON RIVER PKWY E",
+                        "FREDERICK DOUGLASS BLVD",
+                        "HARLEM RIVER PARK BRDG"
+                    ],
+                    "average_length": 9.092127892725472
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 399792,
+            "number_empty_cells": 826,
+            "number_distinct_values": 1320,
+            "frequent_values": [
+                "573",
+                "96",
+                "33",
+                "102",
+                "113"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 399792,
+                    "max_value": 157903,
+                    "min_value": 1,
+                    "mean": 4825.166256453355,
+                    "stddev": 17080.585971243585
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 399792,
+            "number_empty_cells": 826,
+            "number_distinct_values": 194,
+            "frequent_values": [
+                "Midtown-Midtown South",
+                "Hudson Yards-Chelsea-Flatiron-Union Square",
+                "SoHo-TriBeCa-Civic Center-Little Italy",
+                "Battery Park City-Lower Manhattan",
+                "Turtle Bay-East Midtown"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 399792,
+                    "shortest_values": [
+                        "Hollis",
+                        "Corona",
+                        "Jamaica",
+                        "Maspeth",
+                        "Belmont"
+                    ],
+                    "longest_values": [
+                        "Todt Hill-Emerson Hill-Heartland Village-Lighthouse Hill",
+                        "Breezy Point-Belle Harbor-Rockaway Park-Broad Channel",
+                        "Mariner's Harbor-Arlington-Port Ivory-Graniteville",
+                        "DUMBO-Vinegar Hill-Downtown Brooklyn-Boerum Hill",
+                        "Soundview-Castle Hill-Clason Point-Harding Park"
+                    ],
+                    "average_length": 20.918162444471125
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

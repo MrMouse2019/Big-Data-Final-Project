@@ -1,0 +1,444 @@
+{
+    "dataset_name": "ihup-vdhf",
+    "columns": [
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "MANHATTAN",
+                "STATEN ISLAND",
+                "QUEENS",
+                "BRONX",
+                "BROOKLYN"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 980,
+                    "shortest_values": [
+                        "BRONX",
+                        "QUEENS",
+                        "BROOKLYN",
+                        "MANHATTAN",
+                        "STATEN ISLAND"
+                    ],
+                    "longest_values": [
+                        "STATEN ISLAND",
+                        "MANHATTAN",
+                        "BROOKLYN",
+                        "QUEENS",
+                        "BRONX"
+                    ],
+                    "average_length": 8.2
+                }
+            ]
+        },
+        {
+            "column_name": "Grade",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "All Grades",
+                "8",
+                "6",
+                "7",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 840,
+                    "max_value": 8,
+                    "min_value": 3,
+                    "mean": 5.5,
+                    "stddev": 1.707825127659933
+                },
+                {
+                    "type": "TEXT",
+                    "count": 140,
+                    "shortest_values": [
+                        "All Grades"
+                    ],
+                    "longest_values": [
+                        "All Grades"
+                    ],
+                    "average_length": 10.0
+                }
+            ]
+        },
+        {
+            "column_name": "Year",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 7,
+            "frequent_values": [
+                "2009",
+                "2008",
+                "2007",
+                "2006",
+                "2012"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 2012,
+                    "min_value": 2006,
+                    "mean": 2009.0,
+                    "stddev": 2.0
+                }
+            ]
+        },
+        {
+            "column_name": "Demographic",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "Asian",
+                "Hispanic",
+                "White",
+                "Black"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 980,
+                    "shortest_values": [
+                        "Asian",
+                        "Black",
+                        "White",
+                        "Hispanic"
+                    ],
+                    "longest_values": [
+                        "Hispanic",
+                        "White",
+                        "Black",
+                        "Asian"
+                    ],
+                    "average_length": 5.75
+                }
+            ]
+        },
+        {
+            "column_name": "Number Tested",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 893,
+            "frequent_values": [
+                "1109",
+                "661",
+                "354",
+                "2824",
+                "1019"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 65510,
+                    "min_value": 308,
+                    "mean": 6080.748979591836,
+                    "stddev": 9359.208184731871
+                }
+            ]
+        },
+        {
+            "column_name": "Mean Scale Score",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 95,
+            "frequent_values": [
+                "673",
+                "701",
+                "676",
+                "680",
+                "664"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 723,
+                    "min_value": 623,
+                    "mean": 679.1979591836734,
+                    "stddev": 19.872748131148082
+                }
+            ]
+        },
+        {
+            "column_name": "Num Level 1",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 555,
+            "frequent_values": [
+                "14",
+                "6",
+                "28",
+                "8",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 13226,
+                    "min_value": 1,
+                    "mean": 564.9734693877551,
+                    "stddev": 1220.0572842482218
+                }
+            ]
+        },
+        {
+            "column_name": "Pct Level 1",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 230,
+            "frequent_values": [
+                "2.6",
+                "3.1",
+                "1.9",
+                "2.9",
+                "1.3"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 86,
+                    "max_value": 23,
+                    "min_value": 1,
+                    "mean": 7.406976744186046,
+                    "stddev": 5.547632864096903
+                },
+                {
+                    "type": "REAL",
+                    "count": 894,
+                    "max_value": 36.7,
+                    "min_value": 0.1,
+                    "mean": 7.747427293064883,
+                    "stddev": 6.414846548804872
+                }
+            ]
+        },
+        {
+            "column_name": "Num Level 2",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 763,
+            "frequent_values": [
+                "18",
+                "109",
+                "21",
+                "179",
+                "53"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 25473,
+                    "min_value": 5,
+                    "mean": 1608.2081632653062,
+                    "stddev": 3065.7775635086405
+                }
+            ]
+        },
+        {
+            "column_name": "Pct Level 2",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 404,
+            "frequent_values": [
+                "13.8",
+                "16.2",
+                "11.7",
+                "11.5",
+                "39.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 105,
+                    "max_value": 49,
+                    "min_value": 2,
+                    "mean": 20.83809523809524,
+                    "stddev": 13.766158512141496
+                },
+                {
+                    "type": "REAL",
+                    "count": 875,
+                    "max_value": 52.3,
+                    "min_value": 1.1,
+                    "mean": 22.95394285714284,
+                    "stddev": 13.545543659274298
+                }
+            ]
+        },
+        {
+            "column_name": "Num Level 3",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 855,
+            "frequent_values": [
+                "285",
+                "1314",
+                "223",
+                "1532",
+                "1250"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 35214,
+                    "min_value": 83,
+                    "mean": 2620.7122448979594,
+                    "stddev": 4198.043379866125
+                }
+            ]
+        },
+        {
+            "column_name": "Pct Level 3",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 369,
+            "frequent_values": [
+                "52.4",
+                "37.4",
+                "44.4",
+                "36.9",
+                "49.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 99,
+                    "max_value": 73,
+                    "min_value": 20,
+                    "mean": 43.63636363636363,
+                    "stddev": 11.070439796228063
+                },
+                {
+                    "type": "REAL",
+                    "count": 881,
+                    "max_value": 73.6,
+                    "min_value": 16.3,
+                    "mean": 42.522247446084066,
+                    "stddev": 10.61734515330885
+                }
+            ]
+        },
+        {
+            "column_name": "Num Level 4",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 774,
+            "frequent_values": [
+                "210",
+                "172",
+                "207",
+                "250",
+                "84"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 18119,
+                    "min_value": 10,
+                    "mean": 1286.8551020408163,
+                    "stddev": 2016.8479062546494
+                }
+            ]
+        },
+        {
+            "column_name": "Pct Level 4",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 479,
+            "frequent_values": [
+                "20.8",
+                "12.2",
+                "8.8",
+                "13.7",
+                "15.5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 86,
+                    "max_value": 60,
+                    "min_value": 2,
+                    "mean": 23.627906976744185,
+                    "stddev": 15.221654183575778
+                },
+                {
+                    "type": "REAL",
+                    "count": 894,
+                    "max_value": 74.2,
+                    "min_value": 1.1,
+                    "mean": 27.237583892617476,
+                    "stddev": 18.1387918191667
+                }
+            ]
+        },
+        {
+            "column_name": "Num Level 3 and 4",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 890,
+            "frequent_values": [
+                "441",
+                "1821",
+                "1878",
+                "459",
+                "335"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 980,
+                    "max_value": 44540,
+                    "min_value": 140,
+                    "mean": 3907.5673469387757,
+                    "stddev": 5798.6726859630335
+                }
+            ]
+        },
+        {
+            "column_name": "Pct Level 3 and 4",
+            "number_non_empty_cells": 980,
+            "number_empty_cells": 0,
+            "number_distinct_values": 505,
+            "frequent_values": [
+                "89",
+                "85.8",
+                "84.1",
+                "76.8",
+                "87.6"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 101,
+                    "max_value": 98,
+                    "min_value": 32,
+                    "mean": 72.13861386138613,
+                    "stddev": 17.87028603103753
+                },
+                {
+                    "type": "REAL",
+                    "count": 879,
+                    "max_value": 98.6,
+                    "min_value": 20.4,
+                    "mean": 69.25927189988623,
+                    "stddev": 19.322865490279167
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

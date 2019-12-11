@@ -1,0 +1,1272 @@
+{
+    "dataset_name": "bawj-6bgn",
+    "columns": [
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Boro-Block-Lot",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 58,
+            "frequent_values": [
+                "2-03432-7501",
+                "2-03929-7501",
+                "2-03944-7501",
+                "2-05904-7501",
+                "2-05798-7501"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "2-02315-7501",
+                        "2-04340-7501",
+                        "2-04340-7502",
+                        "2-04545-7501",
+                        "2-04664-7501"
+                    ],
+                    "longest_values": [
+                        "2-05944-7501",
+                        "2-02980-7501",
+                        "2-04163-7501",
+                        "2-03944-7501",
+                        "2-03929-7501"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Condo Section",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "2-R1",
+                "33-R6",
+                "62-R1",
+                "14-R1",
+                "95-R1"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "2-R1",
+                        "2-R2",
+                        "6-R1",
+                        "19-R1",
+                        "12-R1"
+                    ],
+                    "longest_values": [
+                        "124-R1",
+                        "108-R1",
+                        "104-R1",
+                        "110-R1",
+                        "117-R1"
+                    ],
+                    "average_length": 5.106060606060606
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Address",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "3044 3 AVENUE",
+                "1010 FAILE STREET",
+                "724 EAST 221 STREET",
+                "2040 WHITE PLAINS ROAD",
+                "195 BALCOM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "3044 3 AVENUE",
+                        "3305 3 AVENUE",
+                        "951 HOE AVENUE",
+                        "232 FLEET COURT",
+                        "1469 WEST AVENUE"
+                    ],
+                    "longest_values": [
+                        "4961 HENRY HUDSON PARKWAY",
+                        "2600 HENRY HUDSON PARKWAY",
+                        "189A WEST KINGSBRIDGE ROA",
+                        "1308 SOUTHERN BOULEVARD",
+                        "950 WESTCHESTER AVENUE"
+                    ],
+                    "average_length": 18.96969696969697
+                }
+            ]
+        },
+        {
+            "column_name": "Borough",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1,
+            "frequent_values": [
+                "2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 2,
+                    "min_value": 2,
+                    "mean": 2.0,
+                    "stddev": 0.0
+                }
+            ]
+        },
+        {
+            "column_name": "Postcode",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 18,
+            "frequent_values": [
+                "10463",
+                "10462",
+                "10467",
+                "10473",
+                "10465"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 10473,
+                    "min_value": 10451,
+                    "mean": 10462.36923076923,
+                    "stddev": 5.5927679421229195
+                }
+            ]
+        },
+        {
+            "column_name": "Latitude",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "40.834627",
+                "40.88574",
+                "40.845716",
+                "40.837764",
+                "40.897679"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 65,
+                    "max_value": 40.905496,
+                    "min_value": 40.806696,
+                    "mean": 40.850226061538464,
+                    "stddev": 0.02944162791845111
+                }
+            ]
+        },
+        {
+            "column_name": "Longitude",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "-73.821775",
+                "-73.870243",
+                "-73.784647",
+                "-73.91905",
+                "-73.859143"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 65,
+                    "max_value": -73.784647,
+                    "min_value": -73.92534,
+                    "mean": -73.88171852307691,
+                    "stddev": 0.03364672704581495
+                }
+            ]
+        },
+        {
+            "column_name": "Community Board",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "8",
+                "9",
+                "3",
+                "10",
+                "11"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 12,
+                    "min_value": 1,
+                    "mean": 7.4,
+                    "stddev": 2.9757998278420237
+                }
+            ]
+        },
+        {
+            "column_name": "Council District",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 9,
+            "frequent_values": [
+                "11",
+                "17",
+                "18",
+                "13",
+                "15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 18,
+                    "min_value": 8,
+                    "mean": 14.276923076923078,
+                    "stddev": 2.7983934528868106
+                }
+            ]
+        },
+        {
+            "column_name": "Census Tract",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 42,
+            "frequent_values": [
+                "4",
+                "295",
+                "30701",
+                "297",
+                "185"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 40303,
+                    "min_value": 4,
+                    "mean": 7432.984615384616,
+                    "stddev": 12421.415943680382
+                }
+            ]
+        },
+        {
+            "column_name": "BIN",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "2096672",
+                "2087530",
+                "2114611",
+                "2049754",
+                "2099280"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 2124419,
+                    "min_value": 2000747,
+                    "mean": 2091908.8,
+                    "stddev": 30381.722418990914
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 60,
+            "frequent_values": [
+                "2034327501",
+                "2039377501",
+                "2057717501",
+                "2057917501",
+                "2057257501"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 65,
+                    "max_value": 2059447501,
+                    "min_value": 2023157501,
+                    "mean": 2041846477.0769231,
+                    "stddev": 12789301.63858691
+                }
+            ]
+        },
+        {
+            "column_name": "NTA",
+            "number_non_empty_cells": 65,
+            "number_empty_cells": 1,
+            "number_distinct_values": 21,
+            "frequent_values": [
+                "Spuyten Duyvil-Kingsbridge                                                 ",
+                "Morrisania-Melrose                                                         ",
+                "North Riverdale-Fieldston-Riverdale                                        ",
+                "Parkchester                                                                ",
+                "Soundview-Castle Hill-Clason Point-Harding Park                            "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 65,
+                    "shortest_values": [
+                        "Mott Haven-Port Morris                                                     ",
+                        "Schuylerville-Throgs Neck-Edgewater Park                                   ",
+                        "Williamsbridge-Olinville                                                   ",
+                        "Bronxdale                                                                  ",
+                        "Pelham Parkway                                                             "
+                    ],
+                    "longest_values": [
+                        "North Riverdale-Fieldston-Riverdale                                        ",
+                        "Van Cortlandt Village                                                      ",
+                        "Melrose South-Mott Haven North                                             ",
+                        "Morrisania-Melrose                                                         ",
+                        "Highbridge                                                                 "
+                    ],
+                    "average_length": 75.0
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Neighborhood",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 17,
+            "frequent_values": [
+                "RIVERDALE",
+                "MORRISANIA/LONGWOOD",
+                "PARKCHESTER",
+                "SOUNDVIEW",
+                "KINGSBRIDGE/JEROME PARK"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "BELMONT",
+                        "RIVERDALE",
+                        "BRONXDALE",
+                        "SOUNDVIEW",
+                        "THROGS NECK"
+                    ],
+                    "longest_values": [
+                        "HIGHBRIDGE/MORRIS HEIGHTS",
+                        "SCHUYLERVILLE/PELHAM BAY",
+                        "KINGSBRIDGE/JEROME PARK",
+                        "MOTT HAVEN/PORT MORRIS",
+                        "BEDFORD PARK/NORWOOD"
+                    ],
+                    "average_length": 14.151515151515152
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Building Classification",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 3,
+            "frequent_values": [
+                "R4-ELEVATOR",
+                "R2-WALK-UP",
+                "R9-CONDOPS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "R2-WALK-UP",
+                        "R9-CONDOPS",
+                        "R4-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "R4-ELEVATOR",
+                        "R9-CONDOPS",
+                        "R2-WALK-UP"
+                    ],
+                    "average_length": 10.530303030303031
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Total Units",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "12",
+                "16",
+                "18",
+                "128",
+                "15"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 3857,
+                    "min_value": 11,
+                    "mean": 233.42424242424244,
+                    "stddev": 724.1444075933118
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Year Built",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 31,
+            "frequent_values": [
+                "2006",
+                "2005",
+                "2007",
+                "1989",
+                "1933"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 2008,
+                    "min_value": 0,
+                    "mean": 1951.7575757575758,
+                    "stddev": 243.9567808597588
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Gross SqFt",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "109764",
+                "55005",
+                "40468",
+                "2723821",
+                "108100"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 3801490,
+                    "min_value": 10033,
+                    "mean": 237742.98484848486,
+                    "stddev": 711461.6432917368
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Est. Gross Income",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 65,
+            "frequent_values": [
+                "263952",
+                "36812848",
+                "1624896",
+                "3265132",
+                "284411"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 40866017,
+                    "min_value": 0,
+                    "mean": 2949510.0454545454,
+                    "stddev": 7710189.308579752
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Gross Income per SqFt",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "10.94",
+                "13.5",
+                "21.75",
+                "13",
+                "14"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 15,
+                    "max_value": 34,
+                    "min_value": 0,
+                    "mean": 15.8,
+                    "stddev": 6.764613810115106
+                },
+                {
+                    "type": "REAL",
+                    "count": 51,
+                    "max_value": 28.7,
+                    "min_value": 10.06,
+                    "mean": 15.950196078431373,
+                    "stddev": 4.678868008814332
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Full Market Value",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 66,
+            "frequent_values": [
+                "708999",
+                "105999815",
+                "1059997",
+                "6070005",
+                "2710000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 105999815,
+                    "min_value": 530000,
+                    "mean": 8766782.136363637,
+                    "stddev": 20079651.5274113
+                }
+            ]
+        },
+        {
+            "column_name": "BRONX CONDOMINIUM PROPERTY Market Value per SqFt",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "51",
+                "40.5",
+                "49.4",
+                "42",
+                "101"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 34,
+                    "max_value": 158,
+                    "min_value": 41,
+                    "mean": 74.02941176470588,
+                    "stddev": 26.59664429752884
+                },
+                {
+                    "type": "REAL",
+                    "count": 32,
+                    "max_value": 49.4,
+                    "min_value": 23.96,
+                    "mean": 39.27374999999999,
+                    "stddev": 7.781194377311235
+                }
+            ]
+        },
+        {
+            "column_name": " COMPARABLE RENTAL 1 Boro-Block-Lot",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "2-03925-0018",
+                "2-03077-0050",
+                "2-02946-0016",
+                "2-05716-0287",
+                "2-02264-0014"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "2-02938-0016",
+                        "2-04322-0043",
+                        "2-04543-0021",
+                        "2-04340-0086",
+                        "2-04633-0001"
+                    ],
+                    "longest_values": [
+                        "2-05333-0106",
+                        "2-05909-0163",
+                        "2-03895-0001",
+                        "2-03925-0018",
+                        "2-02872-0252"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1 Address",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "1565 THIERIOT AVENUE",
+                "2463 HUGHES AVENUE",
+                "1898 BELMONT AVENUE",
+                "2475 PALISADE AVENUE",
+                "906 EAST 178 STREET"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "3097 3 AVENUE",
+                        "712 FOX STREET",
+                        "900 FOX STREET",
+                        "202 BROWN PLACE",
+                        "2023 BURR AVENUE"
+                    ],
+                    "longest_values": [
+                        "3801 HUDSON MANOR TERRACE",
+                        "1970 DR M L KING JR BOULE",
+                        "1632 HUTCH RIVER PARKWAY",
+                        "3080 EAST TREMONT AVENUE",
+                        "501 COMMONWEALTH AVENUE"
+                    ],
+                    "average_length": 19.015151515151516
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Neighborhood",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "RIVERDALE",
+                "EAST TREMONT",
+                "PARKCHESTER",
+                "MORRISANIA/LONGWOOD",
+                "HIGHBRIDGE/MORRIS HEIGHTS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "BELMONT",
+                        "FIELDSTON",
+                        "RIVERDALE",
+                        "BRONXDALE",
+                        "SOUNDVIEW"
+                    ],
+                    "longest_values": [
+                        "HIGHBRIDGE/MORRIS HEIGHTS",
+                        "KINGSBRIDGE HTS/UNIV HTS",
+                        "SCHUYLERVILLE/PELHAM BAY",
+                        "KINGSBRIDGE/JEROME PARK",
+                        "MOTT HAVEN/PORT MORRIS"
+                    ],
+                    "average_length": 15.106060606060606
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Building Classification",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "D1-ELEVATOR",
+                "C1-WALK-UP",
+                "D7-ELEVATOR",
+                "D5-ELEVATOR",
+                "C9-WALK-UP"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 66,
+                    "shortest_values": [
+                        "C7-WALK-UP",
+                        "C4-WALK-UP",
+                        "C1-WALK-UP",
+                        "C9-WALK-UP",
+                        "D1-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "D3-ELEVATOR",
+                        "D5-ELEVATOR",
+                        "D7-ELEVATOR",
+                        "D1-ELEVATOR",
+                        "C9-WALK-UP"
+                    ],
+                    "average_length": 10.666666666666666
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Total Units",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 43,
+            "frequent_values": [
+                "120",
+                "16",
+                "20",
+                "11",
+                "85"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 608,
+                    "min_value": 11,
+                    "mean": 63.42424242424242,
+                    "stddev": 81.21577332358102
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Year Built",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 42,
+            "frequent_values": [
+                "1930",
+                "1932",
+                "2005",
+                "2004",
+                "1911"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 2008,
+                    "min_value": 1900,
+                    "mean": 1951.8333333333333,
+                    "stddev": 34.706816784504035
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Gross SqFt",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "130500",
+                "20025",
+                "13520",
+                "36596",
+                "18450"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 844578,
+                    "min_value": 6260,
+                    "mean": 65375.181818181816,
+                    "stddev": 109989.1909176739
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Est. Gross Income",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "1402943",
+                "295326",
+                "227559",
+                "811185",
+                "224308"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 15587450,
+                    "min_value": 105060,
+                    "mean": 932000.0909090909,
+                    "stddev": 1917420.3864982617
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Gross Income per SqFt",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 52,
+            "frequent_values": [
+                "10.75",
+                "14.75",
+                "16.83",
+                "12.16",
+                "17.32"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 10,
+                    "min_value": 10,
+                    "mean": 10.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 64,
+                    "max_value": 35.2,
+                    "min_value": 9.97,
+                    "mean": 14.994843750000005,
+                    "stddev": 4.294711497945577
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1 Full Market Value",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 51,
+            "frequent_values": [
+                "3640000",
+                "999000",
+                "851000",
+                "1580000",
+                "476000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 66,
+                    "max_value": 58300000,
+                    "min_value": 262000,
+                    "mean": 2903575.757575758,
+                    "stddev": 7086605.010694058
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Market Value per SqFt",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "27.9",
+                "63",
+                "49.9",
+                "69",
+                "25.8"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 95,
+                    "min_value": 42,
+                    "mean": 67.07692307692308,
+                    "stddev": 13.378867023789297
+                },
+                {
+                    "type": "REAL",
+                    "count": 40,
+                    "max_value": 49.9,
+                    "min_value": 21.22,
+                    "mean": 33.088249999999995,
+                    "stddev": 8.724123132871293
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 1  Dist. from Coop in miles",
+            "number_non_empty_cells": 66,
+            "number_empty_cells": 0,
+            "number_distinct_values": 39,
+            "frequent_values": [
+                "0.5",
+                "0.3",
+                "1.4",
+                "1.3",
+                "0.45"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 2,
+                    "max_value": 1,
+                    "min_value": 0,
+                    "mean": 0.5,
+                    "stddev": 0.5
+                },
+                {
+                    "type": "REAL",
+                    "count": 64,
+                    "max_value": 6.7,
+                    "min_value": 0.15,
+                    "mean": 1.6679687500000002,
+                    "stddev": 1.5620341102304514
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Boro-Block-Lot",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "2-04847-0039",
+                "2-02264-0005",
+                "2-05798-0101",
+                "2-04286-0022",
+                "2-03129-0029"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 64,
+                    "shortest_values": [
+                        "2-02571-0014",
+                        "2-02872-0036",
+                        "2-04253-0084",
+                        "2-04324-0001",
+                        "2-04633-0001"
+                    ],
+                    "longest_values": [
+                        "2-05388-0009",
+                        "2-03077-0050",
+                        "2-03123-0053",
+                        "2-03129-0029",
+                        "2-03519-0034"
+                    ],
+                    "average_length": 12.0
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Address",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "800 EAST 223 STREET",
+                "3615 OXFORD AVENUE",
+                "198 BROWN PLACE",
+                "2100 BRONX PARK EAST",
+                "2131 VYSE AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 64,
+                    "shortest_values": [
+                        "6225 BROADWAY",
+                        "4278 3 AVENUE",
+                        "3097 3 AVENUE",
+                        "6555 BROADWAY",
+                        "6425 BROADWAY"
+                    ],
+                    "longest_values": [
+                        "3611 HENRY HUDSON PARKWAY",
+                        "2996 CONCOURSE VILLAGE EA",
+                        "3900 HENRY HUDSON PARKWAY",
+                        "549 COMMONWEALTH AVENUE",
+                        "3725 BLACKSTONE AVENUE"
+                    ],
+                    "average_length": 18.25
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Neighborhood",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 20,
+            "frequent_values": [
+                "RIVERDALE",
+                "EAST TREMONT",
+                "MORRISANIA/LONGWOOD",
+                "MOTT HAVEN/PORT MORRIS",
+                "PELHAM PARKWAY SOUTH"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 64,
+                    "shortest_values": [
+                        "BELMONT",
+                        "FORDHAM",
+                        "FIELDSTON",
+                        "RIVERDALE",
+                        "SOUNDVIEW"
+                    ],
+                    "longest_values": [
+                        "HIGHBRIDGE/MORRIS HEIGHTS",
+                        "KINGSBRIDGE HTS/UNIV HTS",
+                        "SCHUYLERVILLE/PELHAM BAY",
+                        "KINGSBRIDGE/JEROME PARK",
+                        "MOTT HAVEN/PORT MORRIS"
+                    ],
+                    "average_length": 14.125
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Building Classification",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "D1-ELEVATOR",
+                "C1-WALK-UP",
+                "D3-ELEVATOR",
+                "D7-ELEVATOR",
+                "D5-ELEVATOR"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 64,
+                    "shortest_values": [
+                        "C7-WALK-UP",
+                        "C4-WALK-UP",
+                        "C1-WALK-UP",
+                        "C9-WALK-UP",
+                        "D1-ELEVATOR"
+                    ],
+                    "longest_values": [
+                        "D3-ELEVATOR",
+                        "D7-ELEVATOR",
+                        "D5-ELEVATOR",
+                        "D1-ELEVATOR",
+                        "C9-WALK-UP"
+                    ],
+                    "average_length": 10.65625
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Total Units",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "23",
+                "20",
+                "85",
+                "157",
+                "12"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 64,
+                    "max_value": 403,
+                    "min_value": 11,
+                    "mean": 65.0625,
+                    "stddev": 71.98608263928521
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Year Built",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "1931",
+                "1928",
+                "1950",
+                "1900",
+                "2005"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 64,
+                    "max_value": 2008,
+                    "min_value": 1900,
+                    "mean": 1948.34375,
+                    "stddev": 31.690997711298078
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Gross SqFt",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "168990",
+                "15985",
+                "7550",
+                "18850",
+                "26700"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 64,
+                    "max_value": 443283,
+                    "min_value": 6260,
+                    "mean": 62978.328125,
+                    "stddev": 80146.57390214325
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Est. Gross Income",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "1849100",
+                "156480",
+                "290110",
+                "300819",
+                "349531"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 64,
+                    "max_value": 9589106,
+                    "min_value": 116238,
+                    "mean": 952892.421875,
+                    "stddev": 1636846.1431392592
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Gross Income per SqFt",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 48,
+            "frequent_values": [
+                "11.27",
+                "21.87",
+                "10.94",
+                "20.73",
+                "15.39"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 10,
+                    "min_value": 10,
+                    "mean": 10.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 63,
+                    "max_value": 23.29,
+                    "min_value": 7.77,
+                    "mean": 14.846984126984125,
+                    "stddev": 4.082856389996512
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Full Market Value",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 46,
+            "frequent_values": [
+                "4790000",
+                "638000",
+                "585000",
+                "3210000",
+                "815000"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 64,
+                    "max_value": 39700000,
+                    "min_value": 283000,
+                    "mean": 3178171.875,
+                    "stddev": 6767496.939772783
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Market Value per SqFt",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 42,
+            "frequent_values": [
+                "23.9",
+                "54",
+                "91",
+                "77",
+                "43.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 26,
+                    "max_value": 97,
+                    "min_value": 49,
+                    "mean": 70.6923076923077,
+                    "stddev": 16.746455952894888
+                },
+                {
+                    "type": "REAL",
+                    "count": 38,
+                    "max_value": 49.5,
+                    "min_value": 16.48,
+                    "mean": 31.071578947368423,
+                    "stddev": 8.389521511453184
+                }
+            ]
+        },
+        {
+            "column_name": "COMPARABLE RENTAL 2  Dist. from Coop in miles",
+            "number_non_empty_cells": 64,
+            "number_empty_cells": 2,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "1",
+                "2.95",
+                "0.05",
+                "1.4",
+                "0.75"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 7,
+                    "max_value": 7,
+                    "min_value": 0,
+                    "mean": 2.0,
+                    "stddev": 2.2038926600773587
+                },
+                {
+                    "type": "REAL",
+                    "count": 57,
+                    "max_value": 7.6,
+                    "min_value": 0.05,
+                    "mean": 1.8236842105263158,
+                    "stddev": 1.881141526875811
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

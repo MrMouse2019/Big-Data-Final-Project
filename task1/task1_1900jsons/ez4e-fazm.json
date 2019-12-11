@@ -1,0 +1,689 @@
+{
+    "dataset_name": "ez4e-fazm",
+    "columns": [
+        {
+            "column_name": "School_Year",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "2018-2019",
+                "2017-2018",
+                "2016-2017",
+                "2015-2016",
+                "2019-2020"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354756,
+                    "shortest_values": [
+                        "2015-2016",
+                        "2017-2018",
+                        "2016-2017",
+                        "2018-2019",
+                        "2019-2020"
+                    ],
+                    "longest_values": [
+                        "2019-2020",
+                        "2018-2019",
+                        "2016-2017",
+                        "2017-2018",
+                        "2015-2016"
+                    ],
+                    "average_length": 9.0
+                }
+            ]
+        },
+        {
+            "column_name": "Busbreakdown_ID",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 354756,
+            "frequent_values": [
+                "1344522",
+                "1503620",
+                "1297321",
+                "1297320",
+                "1297323"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 354756,
+                    "max_value": 1580928,
+                    "min_value": 1212681,
+                    "mean": 1393982.9319222225,
+                    "stddev": 105452.24326332279
+                }
+            ]
+        },
+        {
+            "column_name": "Run_Type",
+            "number_non_empty_cells": 354753,
+            "number_empty_cells": 3,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Special Ed AM Run",
+                "Special Ed PM Run",
+                "General Ed AM Run",
+                "Pre-K/EI",
+                "General Ed PM Run"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354753,
+                    "shortest_values": [
+                        "Pre-K/EI",
+                        "Special Ed AM Run",
+                        "General Ed AM Run",
+                        "Special Ed PM Run",
+                        "General Ed PM Run"
+                    ],
+                    "longest_values": [
+                        "Project Read Field Trip",
+                        "Special Ed Field Trip",
+                        "General Ed Field Trip",
+                        "Project Read AM Run",
+                        "Project Read PM Run"
+                    ],
+                    "average_length": 15.93327751985184
+                }
+            ]
+        },
+        {
+            "column_name": "Bus_No",
+            "number_non_empty_cells": 354746,
+            "number_empty_cells": 10,
+            "number_distinct_values": 14581,
+            "frequent_values": [
+                "9302",
+                "1470",
+                "1318",
+                "1107",
+                "1801"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 295938,
+                    "max_value": 2308109041,
+                    "min_value": 0,
+                    "mean": 16148.377930512472,
+                    "stddev": 4243320.2953721965
+                },
+                {
+                    "type": "REAL",
+                    "count": 21,
+                    "max_value": 86036.0,
+                    "min_value": 0.0,
+                    "mean": 7906.694642857144,
+                    "stddev": 18551.77095059341
+                },
+                {
+                    "type": "TEXT",
+                    "count": 58787,
+                    "shortest_values": [
+                        "#",
+                        "D",
+                        "-",
+                        "V",
+                        "E"
+                    ],
+                    "longest_values": [
+                        "NI(516)569",
+                        "NK212-477-",
+                        "01/07/2019",
+                        "04/01/2019",
+                        "01/17/2019"
+                    ],
+                    "average_length": 5.36586320104785
+                }
+            ]
+        },
+        {
+            "column_name": "Route_Number",
+            "number_non_empty_cells": 354749,
+            "number_empty_cells": 7,
+            "number_distinct_values": 14116,
+            "frequent_values": [
+                "1",
+                "2",
+                "5",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20540,
+                    "max_value": 52297,
+                    "min_value": 0,
+                    "mean": 39.69396299902629,
+                    "stddev": 780.0256019770076
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 3.4,
+                    "min_value": 3.4,
+                    "mean": 3.4,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 334208,
+                    "shortest_values": [
+                        "M",
+                        "E",
+                        "A",
+                        "5A",
+                        "5E"
+                    ],
+                    "longest_values": [
+                        "GRAM#2",
+                        "PK-448",
+                        "B0508Z",
+                        "B0943Y",
+                        "B0266A"
+                    ],
+                    "average_length": 4.218651259096132
+                }
+            ]
+        },
+        {
+            "column_name": "Reason",
+            "number_non_empty_cells": 354754,
+            "number_empty_cells": 2,
+            "number_distinct_values": 10,
+            "frequent_values": [
+                "Heavy Traffic",
+                "Other",
+                "Mechanical Problem",
+                "Won`t Start",
+                "Flat Tire"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354754,
+                    "shortest_values": [
+                        "Other",
+                        "Accident",
+                        "Flat Tire",
+                        "Won`t Start",
+                        "Problem Run"
+                    ],
+                    "longest_values": [
+                        "Late return from Field Trip",
+                        "Weather Conditions",
+                        "Mechanical Problem",
+                        "Delayed by School",
+                        "Heavy Traffic"
+                    ],
+                    "average_length": 12.564450295134092
+                }
+            ]
+        },
+        {
+            "column_name": "Schools_Serviced",
+            "number_non_empty_cells": 354749,
+            "number_empty_cells": 7,
+            "number_distinct_values": 19222,
+            "frequent_values": [
+                "02930",
+                "C814",
+                "02699",
+                "02986",
+                "C073"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 174582,
+                    "max_value": 3017130085,
+                    "min_value": 0,
+                    "mean": 100333.0099208395,
+                    "stddev": 13355151.526804492
+                },
+                {
+                    "type": "REAL",
+                    "count": 8,
+                    "max_value": 32411.32562,
+                    "min_value": 10382.1042,
+                    "mean": 20730.2121475,
+                    "stddev": 8439.638712325212
+                },
+                {
+                    "type": "TEXT",
+                    "count": 180159,
+                    "shortest_values": [
+                        ".",
+                        "`",
+                        "m",
+                        "q",
+                        "ck"
+                    ],
+                    "longest_values": [
+                        "08107,08130,08140,08146,08182,08301,08444,08547,08688,10032,10254,10340,10377,10492",
+                        "20030,20102,20104,20160,20176,20179,20180,20200,20220,20553,20748,21097,21188,22203",
+                        "09004,09063,09070,09073,09132,09177,09294,09311,09339,09454,09468,09565,12044",
+                        "17092,18114,18135,18211,18268,18480,18608,18724,22119,22203,22234,22251,22315",
+                        "19557,19655,23041,23137,23155,23156,23165,23284,23323,23401,23445,23599,23687"
+                    ],
+                    "average_length": 13.587381146653788
+                }
+            ]
+        },
+        {
+            "column_name": "Occurred_On",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 155643,
+            "frequent_values": [
+                "10/31/2017 06:44:00 AM",
+                "01/31/2019 06:30:00 AM",
+                "02/25/2019 07:00:00 AM",
+                "01/22/2019 06:30:00 AM",
+                "01/31/2019 06:45:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 354756,
+                    "max_value": "2020-03-30 06:30:00",
+                    "min_value": "2015-09-01 06:12:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Created_On",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 167810,
+            "frequent_values": [
+                "10/31/2017 06:48:00 AM",
+                "11/03/2017 07:39:00 AM",
+                "01/26/2016 07:57:00 AM",
+                "09/28/2018 07:46:00 AM",
+                "01/26/2016 08:02:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 354756,
+                    "max_value": "2019-09-27 05:59:00",
+                    "min_value": "2015-09-01 06:16:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Boro",
+            "number_non_empty_cells": 343595,
+            "number_empty_cells": 11161,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Manhattan",
+                "Bronx",
+                "Brooklyn",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 343595,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "New Jersey"
+                    ],
+                    "longest_values": [
+                        "Rockland County",
+                        "Staten Island",
+                        "Nassau County",
+                        "All Boroughs",
+                        "Connecticut"
+                    ],
+                    "average_length": 7.616289526913954
+                }
+            ]
+        },
+        {
+            "column_name": "Bus_Company_Name",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 122,
+            "frequent_values": [
+                "LEESEL TRANSPORTATION CORP (B2192)",
+                "G.V.C., LTD.",
+                "PIONEER TRANSPORTATION CORP",
+                "BORO TRANSIT, INC.",
+                "RELIANT TRANSPORTATION, INC (B2321)"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 50,
+                    "max_value": 1992,
+                    "min_value": 1967,
+                    "mean": 1991.5,
+                    "stddev": 3.5
+                },
+                {
+                    "type": "TEXT",
+                    "count": 354706,
+                    "shortest_values": [
+                        "`",
+                        "Ms.",
+                        "GVC",
+                        "Mr.",
+                        "gvc"
+                    ],
+                    "longest_values": [
+                        "RELIANT TRANSPORTATION, INC (B2321)",
+                        "MONTAUK STUDENT TRANS, INC. (B2321)",
+                        "LEESEL TRANSPORTATION CORP (B2192)",
+                        "SELBY TRANSPORTATION CORP (B2192)",
+                        "MAR-CAN TRANSPORT CO. INC (B2192)"
+                    ],
+                    "average_length": 24.15745998094196
+                }
+            ]
+        },
+        {
+            "column_name": "How_Long_Delayed",
+            "number_non_empty_cells": 312813,
+            "number_empty_cells": 41943,
+            "number_distinct_values": 1878,
+            "frequent_values": [
+                "31-45 Min",
+                "16-30 Min",
+                "46-60 Min",
+                "0-15 Min",
+                "61-90 Min"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 6465,
+                    "max_value": 202340,
+                    "min_value": -10,
+                    "mean": 134.65027068832174,
+                    "stddev": 2764.069421204568
+                },
+                {
+                    "type": "REAL",
+                    "count": 5,
+                    "max_value": 35.0,
+                    "min_value": 0.3,
+                    "mean": 13.76,
+                    "stddev": 15.39254364944274
+                },
+                {
+                    "type": "TEXT",
+                    "count": 306343,
+                    "shortest_values": [
+                        "?",
+                        "_",
+                        "??",
+                        "1H",
+                        "5-7"
+                    ],
+                    "longest_values": [
+                        "45 MINIUTE",
+                        "est. 25min",
+                        "est. 10-15",
+                        "15-20MIINS",
+                        "25 Mintues"
+                    ],
+                    "average_length": 8.14227516215484
+                }
+            ]
+        },
+        {
+            "column_name": "Number_Of_Students_On_The_Bus",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 261,
+            "frequent_values": [
+                "0",
+                "2",
+                "1",
+                "3",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 354756,
+                    "max_value": 9658,
+                    "min_value": 0,
+                    "mean": 3.417890042733597,
+                    "stddev": 72.93359860241807
+                }
+            ]
+        },
+        {
+            "column_name": "Has_Contractor_Notified_Schools",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354756,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.9200126283981103
+                }
+            ]
+        },
+        {
+            "column_name": "Has_Contractor_Notified_Parents",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Yes",
+                "No"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354756,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.756714474173798
+                }
+            ]
+        },
+        {
+            "column_name": "Have_You_Alerted_OPT",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "No",
+                "Yes"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354756,
+                    "shortest_values": [
+                        "No",
+                        "Yes"
+                    ],
+                    "longest_values": [
+                        "Yes",
+                        "No"
+                    ],
+                    "average_length": 2.2602803053366256
+                }
+            ]
+        },
+        {
+            "column_name": "Informed_On",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 167810,
+            "frequent_values": [
+                "10/31/2017 06:48:00 AM",
+                "11/03/2017 07:39:00 AM",
+                "01/26/2016 07:57:00 AM",
+                "09/28/2018 07:46:00 AM",
+                "01/26/2016 08:02:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 354756,
+                    "max_value": "2019-09-27 05:59:00",
+                    "min_value": "2015-09-01 06:16:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Incident_Number",
+            "number_non_empty_cells": 9950,
+            "number_empty_cells": 344806,
+            "number_distinct_values": 7122,
+            "frequent_values": [
+                "X",
+                "x",
+                "e",
+                "90558530",
+                "90566156"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 8642,
+                    "max_value": 9038173559,
+                    "min_value": 0,
+                    "mean": 84230835.48831289,
+                    "stddev": 189071990.1337411
+                },
+                {
+                    "type": "REAL",
+                    "count": 1,
+                    "max_value": 90263771.0,
+                    "min_value": 90263771.0,
+                    "mean": 90263771.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1307,
+                    "shortest_values": [
+                        "X",
+                        "e",
+                        "E",
+                        "?",
+                        "z"
+                    ],
+                    "longest_values": [
+                        "905-386-21",
+                        "905-474-86",
+                        "905-373-05",
+                        "905-373-15",
+                        "905-416-70"
+                    ],
+                    "average_length": 1.4238714613618975
+                }
+            ]
+        },
+        {
+            "column_name": "Last_Updated_On",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 169311,
+            "frequent_values": [
+                "01/01/1900 12:00:00 AM",
+                "04/26/2019 11:49:12 AM",
+                "04/26/2019 11:49:11 AM",
+                "12/20/2016 02:31:32 PM",
+                "09/14/2016 08:13:49 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 354756,
+                    "max_value": "2019-09-26 17:07:05",
+                    "min_value": "1900-01-01 00:00:00"
+                }
+            ]
+        },
+        {
+            "column_name": "Breakdown_or_Running_Late",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "Running Late",
+                "Breakdown"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354756,
+                    "shortest_values": [
+                        "Breakdown",
+                        "Running Late"
+                    ],
+                    "longest_values": [
+                        "Running Late",
+                        "Breakdown"
+                    ],
+                    "average_length": 11.683785475087102
+                }
+            ]
+        },
+        {
+            "column_name": "School_Age_or_PreK",
+            "number_non_empty_cells": 354756,
+            "number_empty_cells": 0,
+            "number_distinct_values": 2,
+            "frequent_values": [
+                "School-Age",
+                "Pre-K"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 354756,
+                    "shortest_values": [
+                        "Pre-K",
+                        "School-Age"
+                    ],
+                    "longest_values": [
+                        "School-Age",
+                        "Pre-K"
+                    ],
+                    "average_length": 9.389594538217818
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

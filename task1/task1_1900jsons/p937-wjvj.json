@@ -1,0 +1,576 @@
+{
+    "dataset_name": "p937-wjvj",
+    "columns": [
+        {
+            "column_name": "INSPECTION_TYPE",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 4,
+            "frequent_values": [
+                "INITIAL",
+                "BAIT",
+                "COMPLIANCE",
+                "CLEAN_UPS"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1774041,
+                    "shortest_values": [
+                        "BAIT",
+                        "INITIAL",
+                        "CLEAN_UPS",
+                        "COMPLIANCE"
+                    ],
+                    "longest_values": [
+                        "COMPLIANCE",
+                        "CLEAN_UPS",
+                        "INITIAL",
+                        "BAIT"
+                    ],
+                    "average_length": 6.968240869292198
+                }
+            ]
+        },
+        {
+            "column_name": "JOB_TICKET_OR_WORK_ORDER_ID",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1567334,
+            "frequent_values": [
+                "378466",
+                "118565",
+                "222418",
+                "222410",
+                "222411"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1774041,
+                    "max_value": 2116704,
+                    "min_value": 0,
+                    "mean": 921895.5442771616,
+                    "stddev": 630464.8467348475
+                }
+            ]
+        },
+        {
+            "column_name": "JOB_ID",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1277134,
+            "frequent_values": [
+                "PO983685",
+                "PO983684",
+                "PO983686",
+                "PO1053654",
+                "PO1082226"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1774041,
+                    "shortest_values": [
+                        "PO0",
+                        "PO33817",
+                        "PO53467",
+                        "PO68850",
+                        "PO11213"
+                    ],
+                    "longest_values": [
+                        "PO1640480",
+                        "PO1807114",
+                        "PO1404353",
+                        "PO1747606",
+                        "PO1414662"
+                    ],
+                    "average_length": 8.474198172421044
+                }
+            ]
+        },
+        {
+            "column_name": "JOB_PROGRESS",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 175,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1774041,
+                    "max_value": 175,
+                    "min_value": 1,
+                    "mean": 1.959800252643541,
+                    "stddev": 3.8860457697600945
+                }
+            ]
+        },
+        {
+            "column_name": "BBL",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 272277,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "5",
+                "4"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1774041,
+                    "max_value": 5270000501,
+                    "min_value": 1,
+                    "mean": 2193248142.8528876,
+                    "stddev": 1104506010.8336368
+                }
+            ]
+        },
+        {
+            "column_name": "BORO_CODE",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1774041,
+                    "max_value": 5,
+                    "min_value": 1,
+                    "mean": 2.1994987714489125,
+                    "stddev": 1.0809664884845878
+                }
+            ]
+        },
+        {
+            "column_name": "BLOCK",
+            "number_non_empty_cells": 1752085,
+            "number_empty_cells": 21956,
+            "number_distinct_values": 12207,
+            "frequent_values": [
+                "02877",
+                "02879",
+                "02782",
+                "02170",
+                "03343"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1752085,
+                    "max_value": 27000,
+                    "min_value": 0,
+                    "mean": 2598.2584189693994,
+                    "stddev": 2013.408529168162
+                }
+            ]
+        },
+        {
+            "column_name": "LOT",
+            "number_non_empty_cells": 1752085,
+            "number_empty_cells": 21956,
+            "number_distinct_values": 1269,
+            "frequent_values": [
+                "0001",
+                "0029",
+                "0005",
+                "0010",
+                "0011"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1752085,
+                    "max_value": 9999,
+                    "min_value": 0,
+                    "mean": 246.8591803479854,
+                    "stddev": 1200.643112115068
+                }
+            ]
+        },
+        {
+            "column_name": "HOUSE_NUMBER",
+            "number_non_empty_cells": 1742797,
+            "number_empty_cells": 31244,
+            "number_distinct_values": 20752,
+            "frequent_values": [
+                "null",
+                "15",
+                "55",
+                "20",
+                "25"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1572982,
+                    "max_value": 115106,
+                    "min_value": -9,
+                    "mean": 904.9615297568567,
+                    "stddev": 1071.3652071966749
+                },
+                {
+                    "type": "REAL",
+                    "count": 16,
+                    "max_value": 431.0,
+                    "min_value": 296.0,
+                    "mean": 413.25,
+                    "stddev": 44.32620556736162
+                },
+                {
+                    "type": "TEXT",
+                    "count": 169799,
+                    "shortest_values": [
+                        "-",
+                        " ",
+                        "oo",
+                        "5A",
+                        "3B"
+                    ],
+                    "longest_values": [
+                        "Facing 210 North RailRoad Ave immediately right",
+                        "153-20          ",
+                        "99-34           ",
+                        "11-21           ",
+                        "189-38          "
+                    ],
+                    "average_length": 5.141655722354077
+                }
+            ]
+        },
+        {
+            "column_name": "STREET_NAME",
+            "number_non_empty_cells": 1772992,
+            "number_empty_cells": 1049,
+            "number_distinct_values": 10977,
+            "frequent_values": [
+                "BROADWAY",
+                "3 AVENUE",
+                "GRAND CONCOURSE",
+                "2 AVENUE",
+                "AMSTERDAM AVENUE"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 20,
+                    "max_value": 65,
+                    "min_value": 0,
+                    "mean": 3.25,
+                    "stddev": 14.16642156650719
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1772972,
+                    "shortest_values": [
+                        " ",
+                        "PPW",
+                        "GCP",
+                        "CIP",
+                        "7 ST"
+                    ],
+                    "longest_values": [
+                        "NASSAU AVENUEand amp;NORTH HENRY STREET",
+                        "NORTH HENRY STREETand amp;DRIGGS AVE",
+                        "RUSSELL STREETand amp;Nassau street",
+                        "DRIGGS AVENUEand amp;RUSSELL STREET",
+                        "NASSAU AVENUEand amp;SUTTON STREET"
+                    ],
+                    "average_length": 13.717173198448707
+                }
+            ]
+        },
+        {
+            "column_name": "ZIP_CODE",
+            "number_non_empty_cells": 1764624,
+            "number_empty_cells": 9417,
+            "number_distinct_values": 228,
+            "frequent_values": [
+                "10457",
+                "10458",
+                "11221",
+                "10456",
+                "11216"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1764624,
+                    "max_value": 12345,
+                    "min_value": 0,
+                    "mean": 10567.663889871157,
+                    "stddev": 707.7115515710562
+                }
+            ]
+        },
+        {
+            "column_name": "X_COORD",
+            "number_non_empty_cells": 1762892,
+            "number_empty_cells": 11149,
+            "number_distinct_values": 81537,
+            "frequent_values": [
+                "0",
+                "986072",
+                "986393",
+                "997892",
+                "982706"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1762892,
+                    "max_value": 319138920,
+                    "min_value": 0,
+                    "mean": 1021206.3881638807,
+                    "stddev": 1999300.623574671
+                }
+            ]
+        },
+        {
+            "column_name": "Y_COORD",
+            "number_non_empty_cells": 1762892,
+            "number_empty_cells": 11149,
+            "number_distinct_values": 109668,
+            "frequent_values": [
+                "0",
+                "200869",
+                "199338",
+                "201516",
+                "199931"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1762892,
+                    "max_value": 374392312,
+                    "min_value": 0,
+                    "mean": 235406.70177583199,
+                    "stddev": 1955153.5156805913
+                }
+            ]
+        },
+        {
+            "column_name": "LATITUDE",
+            "number_non_empty_cells": 1772891,
+            "number_empty_cells": 1150,
+            "number_distinct_values": 292172,
+            "frequent_values": [
+                "0",
+                "40.718008702954",
+                "40.715450766367",
+                "40.713806515614",
+                "40.723680527621"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9414,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "REAL",
+                    "count": 1763477,
+                    "max_value": 40.91286346943,
+                    "min_value": -18.9070188901517,
+                    "mean": 40.76386749345666,
+                    "stddev": 0.09889831654405626
+                }
+            ]
+        },
+        {
+            "column_name": "LONGITUDE",
+            "number_non_empty_cells": 1772891,
+            "number_empty_cells": 1150,
+            "number_distinct_values": 292635,
+            "frequent_values": [
+                "0",
+                "-73.99342724941",
+                "-73.999538265827",
+                "-74.005569530537",
+                "-73.979692000943"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 9456,
+                    "max_value": 0,
+                    "min_value": -74,
+                    "mean": -0.3286802030456853,
+                    "stddev": 4.920803221985876
+                },
+                {
+                    "type": "REAL",
+                    "count": 1763435,
+                    "max_value": -73.700770323838,
+                    "min_value": -79.4661030572311,
+                    "mean": -73.93207755791865,
+                    "stddev": 0.05656662877190504
+                }
+            ]
+        },
+        {
+            "column_name": "BOROUGH",
+            "number_non_empty_cells": 1774041,
+            "number_empty_cells": 0,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "Manhattan",
+                "Bronx",
+                "Brooklyn",
+                "Queens",
+                "Staten Island"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1774041,
+                    "shortest_values": [
+                        "Bronx",
+                        "Queens",
+                        "Brooklyn",
+                        "Manhattan",
+                        "Staten Island"
+                    ],
+                    "longest_values": [
+                        "Staten Island",
+                        "Manhattan",
+                        "Brooklyn",
+                        "Queens",
+                        "Bronx"
+                    ],
+                    "average_length": 7.363592498707752
+                }
+            ]
+        },
+        {
+            "column_name": "INSPECTION_DATE",
+            "number_non_empty_cells": 1774039,
+            "number_empty_cells": 2,
+            "number_distinct_values": 1732693,
+            "frequent_values": [
+                "10/01/2011 07:00:00 AM",
+                "11/19/2011 07:00:00 AM",
+                "11/12/2011 07:00:00 AM",
+                "10/24/2011 07:00:00 AM",
+                "09/17/2011 07:00:00 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1774039,
+                    "max_value": "2019-12-31 12:20:46",
+                    "min_value": "1918-10-19 14:34:44"
+                }
+            ]
+        },
+        {
+            "column_name": "RESULT",
+            "number_non_empty_cells": 1774033,
+            "number_empty_cells": 8,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "Passed Inspection",
+                "Bait applied",
+                "Active Rat Signs",
+                "Problem Conditions",
+                "Monitoring visit"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1774033,
+                    "shortest_values": [
+                        "Bait applied",
+                        "Cleanup done",
+                        "Active Rat Signs",
+                        "Monitoring visit",
+                        "Passed Inspection"
+                    ],
+                    "longest_values": [
+                        "Problem Conditions",
+                        "Passed Inspection",
+                        "Monitoring visit",
+                        "Active Rat Signs",
+                        "Cleanup done"
+                    ],
+                    "average_length": 16.28429290774185
+                }
+            ]
+        },
+        {
+            "column_name": "APPROVED_DATE",
+            "number_non_empty_cells": 1774039,
+            "number_empty_cells": 2,
+            "number_distinct_values": 877523,
+            "frequent_values": [
+                "08/13/2010 04:09:45 PM",
+                "08/17/2010 02:31:44 PM",
+                "08/11/2010 11:35:09 AM",
+                "07/15/2010 04:02:37 PM",
+                "08/11/2010 10:39:23 AM"
+            ],
+            "data_types": [
+                {
+                    "type": "DATE/TIME",
+                    "count": 1774039,
+                    "max_value": "2019-09-26 16:30:29",
+                    "min_value": "2009-09-11 09:22:53"
+                }
+            ]
+        },
+        {
+            "column_name": "LOCATION",
+            "number_non_empty_cells": 1772352,
+            "number_empty_cells": 1689,
+            "number_distinct_values": 292794,
+            "frequent_values": [
+                "(0.0, 0.0)",
+                "(40.718008702954, -73.99342724941)",
+                "(40.715450766367, -73.999538265827)",
+                "(40.713806515614, -74.005569530537)",
+                "(40.723680527621, -73.979692000943)"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1772352,
+                    "shortest_values": [
+                        "(0.0, 0.0)",
+                        "(40.745064040472, -74.0)",
+                        "(40.744254335644, -74.0)",
+                        "(40.612090674012, -74.0)",
+                        "(40.6861696083, -73.86970769)"
+                    ],
+                    "longest_values": [
+                        "(-18.9070188901517, -79.4661030572311)",
+                        "(40.8145526018054, -73.8940804127831)",
+                        "(40.7654421106669, -73.9130222206167)",
+                        "(40.8139418011787, -73.9158595950251)",
+                        "(40.7525311313815, -73.9384714964201)"
+                    ],
+                    "average_length": 34.695763595493446
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

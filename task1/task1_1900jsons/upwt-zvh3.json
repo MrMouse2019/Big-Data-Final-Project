@@ -1,0 +1,547 @@
+{
+    "dataset_name": "upwt-zvh3",
+    "columns": [
+        {
+            "column_name": "DBN",
+            "number_non_empty_cells": 1715,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1621,
+            "frequent_values": [
+                "07X500",
+                "10X243",
+                "01M292",
+                "25Q252",
+                "09X241"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1715,
+                    "shortest_values": [
+                        "01M015",
+                        "23K634",
+                        "23K631",
+                        "23K522",
+                        "23K518"
+                    ],
+                    "longest_values": [
+                        "84X730",
+                        "10X504",
+                        "10X438",
+                        "10X439",
+                        "10X440"
+                    ],
+                    "average_length": 6.0
+                }
+            ]
+        },
+        {
+            "column_name": "DISTRICT",
+            "number_non_empty_cells": 1715,
+            "number_empty_cells": 0,
+            "number_distinct_values": 34,
+            "frequent_values": [
+                "84",
+                "2",
+                "10",
+                "9",
+                "31"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1715,
+                    "max_value": 84,
+                    "min_value": 1,
+                    "mean": 21.001749271137026,
+                    "stddev": 20.29121791901226
+                }
+            ]
+        },
+        {
+            "column_name": "SCHOOL",
+            "number_non_empty_cells": 1715,
+            "number_empty_cells": 0,
+            "number_distinct_values": 1639,
+            "frequent_values": [
+                "Bronx Studio School for Writers and Artists",
+                "Secondary School for Law",
+                "East Bronx Academy for the Future",
+                "West Bronx Academy for the Future",
+                "Mott Hall V"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1715,
+                    "shortest_values": [
+                        "Kappa",
+                        "Muscota",
+                        "Kappa V",
+                        "P.S. 66",
+                        "P.S. 89"
+                    ],
+                    "longest_values": [
+                        "NYC CHARTER HIGH SCHOOL FOR ARCHITECTURE, ENGINEERING AND CONSTRUCTION INDUSTRIES",
+                        "Science Skills Center High School for Science, Technology and the Creative Arts",
+                        "English Language Learners and International Support Preparatory Academy (ELLIS)",
+                        "Academy for College Preparation and Career Exploration: A College Board School",
+                        "CITY POLYTECHNIC HIGH SCHOOL OF ENGINEERING, ARCHITECTURE, AND TECHNOLOGY"
+                    ],
+                    "average_length": 29.047813411078717
+                }
+            ]
+        },
+        {
+            "column_name": "PRINCIPAL",
+            "number_non_empty_cells": 1713,
+            "number_empty_cells": 2,
+            "number_distinct_values": 1619,
+            "frequent_values": [
+                "Dr. Eric L. Blake",
+                "Deborah Burnett",
+                "John Barnes",
+                "Abbie Reif",
+                "Erin Balet"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 1,
+                    "max_value": 0,
+                    "min_value": 0,
+                    "mean": 0.0,
+                    "stddev": 0.0
+                },
+                {
+                    "type": "TEXT",
+                    "count": 1712,
+                    "shortest_values": [
+                        "Li Yan",
+                        "D White",
+                        "Amy Hom",
+                        "Lee Pan",
+                        "Lily Woo"
+                    ],
+                    "longest_values": [
+                        "Meghan Kimpton (K-4)/Mathias Guishard (5-8)",
+                        "Spencer Robertson/Ashley Ferguson",
+                        "Steven Evangelista/Margaret Ryan",
+                        "Kathleen Fernald/Sheryl Ragland",
+                        "Camilla Lopez/Wells Blanchard"
+                    ],
+                    "average_length": 14.62908878504673
+                }
+            ]
+        },
+        {
+            "column_name": "PROGRESS REPORT TYPE",
+            "number_non_empty_cells": 1715,
+            "number_empty_cells": 0,
+            "number_distinct_values": 6,
+            "frequent_values": [
+                "EMS",
+                "HS",
+                "HST",
+                "EC",
+                "D75"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1715,
+                    "shortest_values": [
+                        "HS",
+                        "EC",
+                        "EMS",
+                        "HST",
+                        "D75"
+                    ],
+                    "longest_values": [
+                        "YABC",
+                        "D75",
+                        "HST",
+                        "EMS",
+                        "EC"
+                    ],
+                    "average_length": 2.7393586005830906
+                }
+            ]
+        },
+        {
+            "column_name": "SCHOOL LEVEL*",
+            "number_non_empty_cells": 1715,
+            "number_empty_cells": 0,
+            "number_distinct_values": 8,
+            "frequent_values": [
+                "Elementary",
+                "High School",
+                "Middle",
+                "K-8",
+                "Transfer High School"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1715,
+                    "shortest_values": [
+                        "K-8",
+                        "K-2",
+                        "K-3",
+                        "YABC",
+                        "Middle"
+                    ],
+                    "longest_values": [
+                        "Transfer High School",
+                        "High School",
+                        "Elementary",
+                        "Middle",
+                        "YABC"
+                    ],
+                    "average_length": 8.662390670553936
+                }
+            ]
+        },
+        {
+            "column_name": "PEER INDEX*",
+            "number_non_empty_cells": 1665,
+            "number_empty_cells": 50,
+            "number_distinct_values": 943,
+            "frequent_values": [
+                "2.17",
+                "2.03",
+                "2.40",
+                "1.94",
+                "2.43"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1665,
+                    "max_value": 76.52,
+                    "min_value": 0.83,
+                    "mean": 25.15696696696697,
+                    "stddev": 25.993391456085487
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 OVERALL GRADE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "B",
+                "C",
+                "A",
+                "D",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1567,
+                    "shortest_values": [
+                        "C",
+                        "B",
+                        "F",
+                        "D",
+                        "A"
+                    ],
+                    "longest_values": [
+                        "A",
+                        "D",
+                        "F",
+                        "B",
+                        "C"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 OVERALL SCORE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 633,
+            "frequent_values": [
+                "47.6",
+                "41.0",
+                "53.4",
+                "58.6",
+                "53.2"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 3,
+                    "max_value": 86,
+                    "min_value": 60,
+                    "mean": 72.33333333333333,
+                    "stddev": 10.656244908763854
+                },
+                {
+                    "type": "REAL",
+                    "count": 1564,
+                    "max_value": 102.1,
+                    "min_value": 4.6,
+                    "mean": 49.96349104859324,
+                    "stddev": 17.457866805197803
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 ENVIRONMENT CATEGORY SCORE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 146,
+            "frequent_values": [
+                "8.9",
+                "9.2",
+                "8.1",
+                "8.0",
+                "6.7"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 5,
+                    "max_value": 15,
+                    "min_value": 8,
+                    "mean": 11.2,
+                    "stddev": 2.315167380558045
+                },
+                {
+                    "type": "REAL",
+                    "count": 1562,
+                    "max_value": 14.8,
+                    "min_value": 0.0,
+                    "mean": 7.962932138284244,
+                    "stddev": 2.887141319803454
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 ENVIRONMENT GRADE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1567,
+                    "shortest_values": [
+                        "B",
+                        "A",
+                        "C",
+                        "D",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "D",
+                        "C",
+                        "A",
+                        "B"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 PERFORMANCE CATEGORY SCORE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 230,
+            "frequent_values": [
+                "7.1",
+                "6.5",
+                "8.0",
+                "7.9",
+                "9.0"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 23,
+                    "min_value": 7,
+                    "mean": 15.25,
+                    "stddev": 5.673402858955108
+                },
+                {
+                    "type": "REAL",
+                    "count": 1563,
+                    "max_value": 24.6,
+                    "min_value": 0.3,
+                    "mean": 10.728790786948172,
+                    "stddev": 5.025686064489297
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 PERFORMANCE GRADE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "C",
+                "B",
+                "D",
+                "A",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1567,
+                    "shortest_values": [
+                        "D",
+                        "C",
+                        "B",
+                        "A",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "A",
+                        "B",
+                        "C",
+                        "D"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 PROGRESS CATEGORY SCORE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 457,
+            "frequent_values": [
+                "34.7",
+                "28.6",
+                "21.2",
+                "33.1",
+                "23.9"
+            ],
+            "data_types": [
+                {
+                    "type": "INTEGER",
+                    "count": 4,
+                    "max_value": 36,
+                    "min_value": 16,
+                    "mean": 27.75,
+                    "stddev": 7.361215932167728
+                },
+                {
+                    "type": "REAL",
+                    "count": 1563,
+                    "max_value": 58.3,
+                    "min_value": 0.0,
+                    "mean": 27.972104926423555,
+                    "stddev": 11.25425074381806
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 PROGRESS GRADE",
+            "number_non_empty_cells": 1567,
+            "number_empty_cells": 148,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "B",
+                "C",
+                "A",
+                "D",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1567,
+                    "shortest_values": [
+                        "C",
+                        "A",
+                        "B",
+                        "D",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "D",
+                        "B",
+                        "A",
+                        "C"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        },
+        {
+            "column_name": "2010-2011 ADDITIONAL CREDIT",
+            "number_non_empty_cells": 1495,
+            "number_empty_cells": 220,
+            "number_distinct_values": 26,
+            "frequent_values": [
+                "1.0",
+                "2.0",
+                "3.0",
+                "0.0",
+                "4.0"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 1495,
+                    "max_value": 14.5,
+                    "min_value": 0.0,
+                    "mean": 3.468561872909699,
+                    "stddev": 2.639932907836378
+                }
+            ]
+        },
+        {
+            "column_name": "2009-10 PROGRESS REPORT GRADE",
+            "number_non_empty_cells": 1527,
+            "number_empty_cells": 188,
+            "number_distinct_values": 5,
+            "frequent_values": [
+                "B",
+                "C",
+                "A",
+                "D",
+                "F"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 1527,
+                    "shortest_values": [
+                        "C",
+                        "A",
+                        "B",
+                        "D",
+                        "F"
+                    ],
+                    "longest_values": [
+                        "F",
+                        "D",
+                        "B",
+                        "A",
+                        "C"
+                    ],
+                    "average_length": 1.0
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}

@@ -1,0 +1,131 @@
+{
+    "dataset_name": "fdx7-6jsr",
+    "columns": [
+        {
+            "column_name": "Application Type",
+            "number_non_empty_cells": 60,
+            "number_empty_cells": 0,
+            "number_distinct_values": 13,
+            "frequent_values": [
+                "CEQR Application Fee",
+                "Zoning Map Amendment",
+                "Special Permit",
+                "Zoning Authorization for Open Spaces",
+                "All other sections of the Zoning Resolution"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 60,
+                    "shortest_values": [
+                        "Special Permit",
+                        "Zoning Map Amendment",
+                        "Zoning Authorization",
+                        "CEQR Application Fee",
+                        "Zoning Certification "
+                    ],
+                    "longest_values": [
+                        "All other sections of the Zoning Resolution",
+                        "Zoning Authorization for Open Spaces",
+                        "Supplemental Fee for Large Projects",
+                        "Franchises and revocable consents",
+                        "Natural Feature Restoration Fee"
+                    ],
+                    "average_length": 25.483333333333334
+                }
+            ]
+        },
+        {
+            "column_name": "Land Use Detail",
+            "number_non_empty_cells": 60,
+            "number_empty_cells": 0,
+            "number_distinct_values": 40,
+            "frequent_values": [
+                "Less than 10,000 square feet",
+                "40,000 to 69,999 square feet",
+                "10,000 to 19,999 square feet",
+                "70,000 to 99,999 square feet",
+                "20,000 to 39,999 square feet"
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 60,
+                    "shortest_values": [
+                        "Type II Actions",
+                        "Per Square Foot",
+                        "Over 1,000,000 sq. ft.",
+                        "80,000 to 99,999 sq. ft.",
+                        "over 500,000 square feet"
+                    ],
+                    "longest_values": [
+                        "all other applications with no commercial or community facility use, the fee shall be based upon the number of dwelling units being proposed",
+                        "For an application for one zoning lot with no more than two existing or proposed dwelling units and no commercial or community facility use",
+                        "Request that the Department of City Planning verify in writing the zoning district(s) in which a property is located",
+                        "Applications that may result in the development of 1,000,000 to 2,499,000 square feet of floor area",
+                        "Enclosed sidewalk cafes pursuant to New York City Administrative Code section 20-225 - Per Chair"
+                    ],
+                    "average_length": 43.0
+                }
+            ]
+        },
+        {
+            "column_name": "Amount",
+            "number_non_empty_cells": 60,
+            "number_empty_cells": 0,
+            "number_distinct_values": 47,
+            "frequent_values": [
+                "3400.00",
+                "5445.00",
+                "3100.00",
+                "2040.00",
+                "1590.00"
+            ],
+            "data_types": [
+                {
+                    "type": "REAL",
+                    "count": 60,
+                    "max_value": 314225.0,
+                    "min_value": 0.1,
+                    "mean": 23111.668333333335,
+                    "stddev": 54498.51567718914
+                }
+            ]
+        },
+        {
+            "column_name": "Comments",
+            "number_non_empty_cells": 48,
+            "number_empty_cells": 12,
+            "number_distinct_values": 11,
+            "frequent_values": [
+                "Projects measurable in square feet (Square Footage of Total Project)",
+                "The amount of floor area shall be calculated based upon the floor area for the entire development or enlargement. Except in cases of Open Uses, the total area of the zoning lot",
+                "The area of all zoning lots in the area to be rezoned",
+                "The fee shall be based upon the area of the zoning lot, and in cases of community facility or commercial uses, the fee shall be based upon the total amount of floor area",
+                "In the case of a transfer of development rights or floor area bonus, the fee shall be based upon the amount of floor area associated with such transfer or bonus. "
+            ],
+            "data_types": [
+                {
+                    "type": "TEXT",
+                    "count": 48,
+                    "shortest_values": [
+                        "Minimum $1360",
+                        "Projects not measurable in square feet",
+                        "The area of all zoning lots in the area to be rezoned",
+                        "Projects measurable in square feet (Square Footage of Total Project)",
+                        "Only for applications pursuant to Article VI-Chapter 2, Article X-Chapter 5, Article X-Chapter 7 and Article XI-Chapter 9"
+                    ],
+                    "longest_values": [
+                        "Maximum of $18900. Pursuant to \u00a7\u00a7105-45, 107-321, 107-65, and 119-40 of the Zoning Resolution, for the restoration of trees that have been removed or topography that has been altered without the prior approval of the City Planning Commission pursuant to \u00a7\u00a7105-40, 107-60, 119-10, 119-20, or 119-30 of the Zoning Resolution is filed",
+                        "For CEQR applications filed on or after July 1, 2009, for which a restrictive declaration to ensure compliance with project components related to the environment and/or mitigation of significant adverse impacts will be executed",
+                        "The amount of floor area shall be calculated based upon the floor area for the entire development or enlargement. Except in cases of Open Uses, the total area of the zoning lot",
+                        "The fee shall be based upon the area of the zoning lot, and in cases of community facility or commercial uses, the fee shall be based upon the total amount of floor area",
+                        "In the case of a transfer of development rights or floor area bonus, the fee shall be based upon the amount of floor area associated with such transfer or bonus. "
+                    ],
+                    "average_length": 119.79166666666667
+                }
+            ]
+        }
+    ],
+    "key_column_candidates": []
+}
