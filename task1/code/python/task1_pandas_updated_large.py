@@ -55,10 +55,22 @@ def getFilename(path):
 	return path.split('/')[-1].split('.')[0]
 
 def is_int(val):
-	return isinstance(val, int)
+	try:
+		np.int64(val)
+		return True
+	except:
+		return False
 
 def is_real(val):
-	return isinstance(val, float)
+	if is_int(val):
+		return False
+	try:
+		real_val = float(val)
+		if real_val == np.inf or real_val == -np.inf or real_val == np.nan:
+			return False
+		return True
+	except:
+		return False
 
 def is_date(val):
 	if is_int(val):
